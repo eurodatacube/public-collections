@@ -2,7 +2,11 @@
 
 ## How are collections added to the registry?
 
-Each collection in this repository is described in a dedicated YAML file in [./collections](https://github.com/eurodatacube/public-collections/tree/main/collections) directory, e.g. /collections/global-land-cover.yaml.  
+Each collection in this repository is described in a dedicated YAML file in [./collections](https://github.com/eurodatacube/public-collections/tree/main/collections) directory, e.g. /collections/global-land-cover.yaml  
 Data providers can create a new YAML file copying the structure of the most similar existing one. After committing it to the GitHub, create a pull request and Euro Data Cube team will review it and publish it in the Registry.  
-Users are also welcome to revise existing collections, e.g. adding new usage examples , tools, etc.
+Users are also welcome to revise existing collections, e.g. adding new usage examples , tools, etc.  
+
+## How to make use of these collections
+
+Please see the usage examples provided for each individual collection.
 
