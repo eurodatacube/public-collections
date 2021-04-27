@@ -1,10 +1,10 @@
 # Euro Data Cube Public Collections
 
-A repository of publicly available collections that are available for access through [Euro Data Cube](https://www.eurodatacube.com/). Note that collections in this registry are available via Sentinel Hub, but owned and maintained by different providers.
+A repository of publicly available collections that are available for access through [Euro Data Cube](https://www.eurodatacube.com/). Note that collections in this registry are available via Euro Data Cube, but owned and maintained by different providers.
 
 ## What is it for?
 
-When data is shared on Sentinel Hub, anyone can analyze it and build services on top of it using a broad range of compute and data analytics products. Sharing data in the cloud lets data users spend more time on data analysis rather than data acquisition. This repository exists to help people promote and discover datasets that are available via Sentinel Hub resources.
+When data is shared on Euro Data Cube, anyone can analyze it and build services on top of it using a broad range of compute and data analytics products. Sharing data in the cloud lets data users spend more time on data analysis rather than data acquisition. This repository exists to help people promote and discover datasets that are available via Euro Data Cube resources.
 
 ## Logos
 You can add logos to the `src/img/logos` directory for use in the **detail**  pages. Logos should be square PNGs and are currently sized down to 100px x 100px for display. The name of the logo file that the template looks for is tied to the entry in the `ManagedBy` data field. Spaces are replaced with '-' and special characters are removed. If the `ManagedBy` field is using markdown, the link text field is used, otherwise, the entire string is used to generate the logo path for testing.
