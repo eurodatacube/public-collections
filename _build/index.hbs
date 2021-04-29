@@ -9,6 +9,11 @@
         <div id="{{Slug}}" class="dataset">
           <h3><a href="{{rootUrl}}{{Slug}}/">{{Name}}</a></h3>
           <p>{{#each Tags}}{{#isEqual . 'aws-pds'}}{{else}}<span class="label label-info{{#isEqual . 'sustainability'}}-sustainability{{else}}{{/isEqual}} tag link-tag">{{.}}</span>{{/isEqual}}{{/each}}</p>
+          {{#if Image}}
+          <p><a href="{{rootUrl}}{{Slug}}/">
+          <img style="border: solid 0.5px lightgray" src="{{rootUrl}}{{Image}}" alt="{{Slug}}" width="193" />
+          </a></p>
+          {{/if}}
           <p>{{{trimHTML (md Description) 600}}}</p>
           <p><a href="{{rootUrl}}{{Slug}}/">Details &rarr;</a></p>
           {{#if DataAtWork}}
