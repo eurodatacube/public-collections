@@ -1,0 +1,25 @@
+Name: 2mT_2020_Monthly_Average_from_CDS
+Description: Gridded ERA5 is the fifth generation ECMWF reanalysis for the global climate and weather for the past 4 to 7 decades. This parameter is the 2m temperature monthly average
+AdditionalInfoExternal:
+    Title: Additional info
+    Path: 2mT_2020_Monthly_Average_from_CDS/README.MD
+Resolution: 0.25° x 0.25°
+GeographicalCoverage: [-179.999755859375, -90.12489004526765, 179.99977453631897, 90.125]
+TemporalAvailability: ['2019-01-01', '2020-12-01']
+UpdateFrequency:
+BandInformation: AIR2MT	
+Contact: "[COPERNICUS SUPPORT](copernicus-support@ecmwf.int)"
+Provider: "[COPERNICUS](https://cds.climate.copernicus.eu/cdsapp#!/dataset/10.24381/cds.6860a573?tab=overview)"
+ManagedBy: "[ESA]"
+Tags:
+    - 2mT 2020 Monthly Average from CDS
+    - dashboard hackathon
+License:|
+ Full, open and free access, Copernicus license ([details](https://atmosphere.copernicus.eu/sites/default/files/repository/CAMS_data_license.pdf)).
+Resources:
+ - EndPoint: shservices.mundiwebservices.com
+   Type: byoc-e523ca12-43cf-467f-b4cf-506dfca7af91
+   CollectionId: e523ca12-43cf-467f-b4cf-506dfca7af91
+
+RegistryEntryAdded: "2021-04-26"
+RegistryEntryLastModified: "2021-04-26"
