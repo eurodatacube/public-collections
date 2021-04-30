@@ -1,0 +1,25 @@
+Name: CHL_water_quality_Saturday
+Description: Chlorophil anomaly maps for 3 sites: Lagoon Venice, Marseille and Barcelona regions  
+AdditionalInfoExternal:
+    Title: Additional info
+    Path: CHL_water_quality_Saturday/README.MD
+Resolution: 300m
+GeographicalCoverage: [0.4982046708598385, 40.498973093940286, 13.82206392288208, 45.80052375793457]
+TemporalAvailability: ['2020-01-04', '2021-04-17']
+UpdateFrequency: Weekly
+BandInformation: chl
+Contact: "[CNR]"
+Provider: "[CNR]"
+ManagedBy: "[ESA]"
+Tags:
+    - CHL water quality Saturday
+    - dashboard hackathon
+License:|
+ 
+Resources:
+ - EndPoint: shservices.mundiwebservices.com
+   Type: byoc-fa331cca-5be2-4736-8030-793af55c0ef1
+   CollectionId: fa331cca-5be2-4736-8030-793af55c0ef1
+
+RegistryEntryAdded: "2021-04-26"
+RegistryEntryLastModified: "2021-04-26"
