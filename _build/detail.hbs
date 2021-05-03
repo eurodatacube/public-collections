@@ -17,11 +17,6 @@
       <p>{{{md Documentation}}}</p>
       {{/if}}
 
-      {{#if ViewOnEOBrowser}}
-      <h4>View On EO Browser</h4>
-      <p>{{{md ViewOnEOBrowser}}}</p>
-      {{/if}}
-      
       {{#if AdditionalInfo}}
       <h4>Additional info</h4>
       <p>{{{md AdditionalInfo}}}</p>
@@ -30,7 +25,20 @@
       {{#if AdditionalInfoExternal}}
       <h4>Additional info</h4>
       <p>{{{mdExternal AdditionalInfoExternal}}}</p>
-      {{/if}}      
+      {{/if}}    
+ 
+      {{#if EOBrowser}}
+      <h4>Explore</h4>
+      <p><a href="{{EOBrowser}}"><button class="label label-info" > Open in EO Browser </button></a> </p>
+      {{/if}}  
+      {{#if TutorialNotebook}}
+      <h4>Explore</h4>
+      <p><a href="{{TutorialNotebook}}"><button class="label label-info" > Open Notebook </button></a> </p>
+      {{/if}} 
+      {{#if Flickr}}
+      <h4>Explore</h4>
+      <p><a href="{{Flickr}}"><button class="label label-info" > Open in Flickr </button></a> </p>
+      {{/if}}  
       
       <h4>Resolution</h4>
       <p>{{{md Resolution}}}</p>
@@ -112,18 +120,26 @@
       {{/if}}
     </div>
     <div class="col-md-5 col-md-offset-1">
-      <h3>Resources</h3>
       <ul class="resource-list">
         {{#each Resources}}
+        <h3>{{Group}}</h3>
         <li>
           <dl class="resource-list">
             {{#if EndPoint}}
             <dt class="resource-arn">End point</dt>
             <dd><code>{{EndPoint}}</code></dd>
             {{/if}}
+            {{#if URL}}
+            <dt class="resource-arn">URL</dt>
+            <dd><code>{{URL}}</code></dd>
+            {{/if}}
             {{#if Type}}
             <dt class="resource-host">Type</dt>
             <dd><code>{{Type}}</code></dd>
+            {{#isEqual Type 'DEM'}}
+            <dt class="resource-host">demInstance</dt>
+            <dd><code>{{demInstance}}</code></dd>
+             {{/isEqual}}
             {{/if}}
             {{#if CollectionId}}
             <dt class="resource-host">collectionId</dt>
@@ -132,7 +148,23 @@
             {{#if Notes}}
             <dt class="resource-description">Notes</dt>
             <dd class="resource-description">{{{md Notes}}}</dd>
-            {{/if}}            
+            {{/if}} 
+            {{#if Database}}
+            <dt class="resource-host">database</dt>
+            <dd><code>{{Database}}</code></dd>
+            {{/if}}
+            {{#if TableName}}
+            <dt class="resource-host">table_name</dt>
+            <dd><code>{{TableName}}</code></dd>
+            {{/if}}
+            {{#if DataStore}}
+            <dt class="resource-host">Data Store</dt>
+            <dd><code>{{DataStore}}</code></dd>
+            {{/if}}
+            {{#if DataSet}}
+            <dt class="resource-host">Data Set</dt>
+            <dd><code>{{DataStore}}</code></dd>
+            {{/if}}
             {{#isEqual Type 'S3 Bucket'}}
             {{#unless ControlledAccess}}
             <dt class="resource-region"><a href="https://aws.amazon.com/cli/">AWS CLI</a> Access{{#unless RequesterPays}} (No AWS account required){{/unless}}</dt>
