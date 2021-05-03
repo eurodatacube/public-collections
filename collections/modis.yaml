@@ -10,7 +10,7 @@ Description: |
  MCD43A4.006 is available since February 2000 on a daily basis but with a 8 days delay. 
 Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/modis/mcd/)" 
 Image: modis/modis.png
-ViewOnEOBrowser: "[EO Browser](https://sentinelshare.page.link/6TQV)"
+EOBrowser: https://sentinelshare.page.link/6TQV
 Resolution: 500m
 GeographicalCoverage: MCD43A4.006 product covers Land ([more info](https://modis.gsfc.nasa.gov/about/specifications.php))
 TemporalAvailability: February 2000 - ongoing
@@ -32,7 +32,8 @@ Tags:
 License: |
   [License](https://www.usgs.gov/centers/eros/data-citation?qt-science_support_page_related_con=0#qt-science_support_page_related_con)
 Resources:
-  - EndPoint: services-uswest2.sentinel-hub.com
+  - Group: Sentinel Hub Resources
+    EndPoint: services-uswest2.sentinel-hub.com
     Type: MODIS
     Notes: Global since Feb 2000
 CustomScripts:

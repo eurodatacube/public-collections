@@ -9,7 +9,7 @@ Description: |
  These measurements are used  for improving air quality forecasts as well as for monitoring the concentrations of atmospheric constituents.
 Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/sentinel-5p-l2/)"
 Image: sentinel-5p-l2-tropomi/sentinel-5p-l2-tropomi.png   
-ViewOnEOBrowser: "Nitrogen Dioxide on [EO Browser](https://sentinelshare.page.link/GQwM)"
+EOBrowser: https://sentinelshare.page.link/GQwM
 Resolution:  5.5 km x 3.5 km since August 6th in 2019, 7.0 km x 3.5 km at beginning of mission [more info](https://sentinels.copernicus.eu/web/sentinel/data-products/-/asset_publisher/fp37fc19FN8F/content/sentinel-5-precursor-level-2-ozone)
 GeographicalCoverage: Ocean and Land ([more info](https://sentinels.copernicus.eu/web/sentinel/missions/sentinel-5p/geographical-coverage))
 TemporalAvailability: April 2018 - ongoing
@@ -33,6 +33,7 @@ Tags:
 License: |
   [License](https://docs.sentinel-hub.com/api/latest/data/sentinel-5p-l2/#attribution-and-use)
 Resources:
+  - Group: Sentinel Hub Resources
   - EndPoint: creodias.sentinel-hub.com
     Type: S5PL2
     Notes: Global since May 2018

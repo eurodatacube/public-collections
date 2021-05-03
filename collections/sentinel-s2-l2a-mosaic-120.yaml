@@ -57,11 +57,12 @@ Tags:
 License: |
  CC-BY 4.0, Credit: Contains modified Copernicus data [year] processed by Sentinel Hub
 Resources:
+  - Group: Sentinel Hub Resources
   - EndPoint: services.sentinel-hub.com
-    Type: BYOC
+    Type: CUSTOM
     CollectionId: 0074520d-bcf5-4811-8f6f-afd946e77695
   - EndPoint: creodias.sentinel-hub.com
-    Type: byoc-eaa027cc-1d9b-40fc-a15c-9dc486caebd7
+    Type: CUSTOM
     CollectionId: eaa027cc-1d9b-40fc-a15c-9dc486caebd7
 DataAtWork:
   Tutorials:

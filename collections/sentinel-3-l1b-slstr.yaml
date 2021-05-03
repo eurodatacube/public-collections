@@ -11,7 +11,7 @@ Description: |
  and TOA brightness temperatures for the thermal IR and active fire channels. 
 Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/sentinel-3-slstr-l1b/)"
 Image: sentinel-3-l1b-slstr/sentinel-3-l1b-slstr.png 
-ViewOnEOBrowser: "[EO Browser](https://sentinelshare.page.link/HZ2R)"
+EOBrowser: https://sentinelshare.page.link/HZ2R
 Resolution: 500m and 1km
 GeographicalCoverage: Ocean and Land ([more info](https://sentinel.esa.int/web/sentinel/user-guides/sentinel-3-slstr/coverage))
 TemporalAvailability: April 2016 - ongoing
@@ -35,6 +35,7 @@ Tags:
 License: |
   [License](https://docs.sentinel-hub.com/api/latest/data/sentinel-3-slstr-l1b/#attribution-and-use)
 Resources:
+  - Group: Sentinel Hub Resources
   - EndPoint: creodias.sentinel-hub.com
     Type: S3SLSTR
     Notes: Global since May 2016

@@ -8,7 +8,7 @@ Description: |
   Sentinel Hub provides SPOT images in  Top of the atmosphere (TOA) reflectance.
 Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/airbus/spot/)"
 Image: spot/spot.png   
-ViewOnFlickr: "[Flickr](https://www.flickr.com/photos/sentinelhub/albums/72157717855313958)"
+Flickr: https://www.flickr.com/photos/sentinelhub/albums/72157717855313958
 Resolution: 1.5 m for panchromatic band and 6 m for multispectral bands.
 GeographicalCoverage: ([more info](https://www.intelligence-airbusds.com/en/8693-spot-67))
 TemporalAvailability: 2012 - ongoing
@@ -31,8 +31,10 @@ Tags:
 License: |
   [License](https://docs.sentinel-hub.com/api/latest/data/airbus/spot/#attribution-and-use)
 Resources:
-  - EndPoint: services.sentinel-hub.com
-    Type: BYOC collection
+  - Group: Sentinel Hub Resources
+    EndPoint: services.sentinel-hub.com
+    Type: CUSTOM
+    CollectionId: known to user after purchase
     Notes: Contains the data purchased by individual user
 CustomScripts:
     Title: Collection of SPOT custom scripts

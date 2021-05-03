@@ -9,7 +9,7 @@ Description: |
   provides Top of Atmosphere Reflectance and Top of the Atmosphere Brightness Temperature products. Level 1 data are available since February 2013. 
 Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/landsat-8/)"  
 Image: landsat-8-l1/landsat-8-l1.png  
-ViewOnEOBrowser: "[EO Browser](https://sentinelshare.page.link/abtC)"
+EOBrowser: https://sentinelshare.page.link/abtC
 Resolution: 30m 
 GeographicalCoverage: Land ([more info](https://landsat.gsfc.nasa.gov/landsat-8/mission-details))
 TemporalAvailability: February 2013 - ongoing
@@ -33,7 +33,8 @@ Tags:
 License: |
    [License](https://www.usgs.gov/centers/eros/data-citation?qt-science_support_page_related_con=0#qt-science_support_page_related_con)
 Resources:
-  - EndPoint: services-uswest2.sentinel-hub.com
+  - Group: Sentinel Hub Resources
+    EndPoint: services-uswest2.sentinel-hub.com
     Type: LOTL1
     Notes: Global since Feb 2013
 CustomScripts:
