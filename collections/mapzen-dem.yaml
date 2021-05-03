@@ -8,7 +8,7 @@ Description: |
   Mapzen DEM provides bare-earth terrain heights and can also be used for the orthorectification of satellite imagery (e.g Sentinel 1).
 Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/dem/)"
 Image: mapzen-dem/mapzen-dem.png  
-ViewOnEOBrowser: "[EO Browser](https://sentinelshare.page.link/wDL1)"
+EOBrowser: https://sentinelshare.page.link/wDL1
 Resolution: "varies per zoom level, location and data source [more info](https://github.com/tilezen/joerd/blob/master/docs/data-sources.md#what-is-the-ground-resolution)"
 GeographicalCoverage: Ocean and Land ([more info](https://github.com/tilezen/joerd/blob/master/docs/data-sources.md#what-is-sourced-at-what-zooms))
 TemporalAvailability: static [current version was built in 2017](https://github.com/tilezen/joerd/blob/master/docs/data-sources.md#data-updates)
@@ -30,11 +30,14 @@ Tags:
 License: |
   [License](https://www.mapzen.com/terms/)
 Resources:
+  - Group: Sentinel Hub Resources
   - EndPoint: services-uswest2.sentinel-hub.com
     Type: DEM
+    demInstance: MAPZEN
     Notes: Global 
   - EndPoint: services.sentinel-hub.com
     Type: DEM
+    demInstance: MAPZEN
     Notes: Global coverage up to resolution level 13 (level 14 is missing).
 CustomScripts:
     Title: Collection of DEM custom scripts

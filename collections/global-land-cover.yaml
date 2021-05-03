@@ -12,7 +12,7 @@ AdditionalInfoExternal:
     Title: Additional info 
     Path: global-land-cover/README.MD 
 Image: global-land-cover/global-land-cover.png       
-ViewOnEOBrowser: "[EO Browser](https://sentinelshare.page.link/fzXz)"
+EOBrowser: https://sentinelshare.page.link/fzXz
 Resolution: 100m
 GeographicalCoverage: Global coverage of land surface area with longitude from 180°W to 180°E and latitude from 78.25°N to 60°S.
 TemporalAvailability: 2015 - ongoing 
@@ -71,8 +71,9 @@ Tags:
 License: |
  free and open access policy as defined in the European Union’s Copernicus regulation ([details](https://land.copernicus.eu/global/about))
 Resources:
-  - EndPoint: creodias.sentinel-hub.com
-    Type: byoc-f0a97620-0e88-4c1f-a1ac-bb388fabdf2c
+  - Group: Sentinel Hub Resources
+    EndPoint: creodias.sentinel-hub.com
+    Type: CUSTOM
     CollectionId: f0a97620-0e88-4c1f-a1ac-bb388fabdf2c
 
 RegistryEntryAdded: "2021-03-20"

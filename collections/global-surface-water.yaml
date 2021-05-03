@@ -45,8 +45,9 @@ Tags:
 License: |
  Free and open access policy as defined in the European Union’s Copernicus regulation ([details](https://www.copernicus.eu/en/about-copernicus/international-cooperation))
 Resources:
-  - EndPoint: creodias.sentinel-hub.com
-    Type: byoc-9a525f12-33b6-424e-a0f2-d567eec0f277
+  - Group: Sentinel Hub Resources   
+    EndPoint: creodias.sentinel-hub.com
+    Type: CUSTOM
     CollectionId: 9a525f12-33b6-424e-a0f2-d567eec0f277
 CustomScripts:
     Title: Collection of Copernicus services data custom scripts
