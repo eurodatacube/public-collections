@@ -130,6 +130,7 @@ h3 {
 }
 h4 {
   margin-top: 20px;
+  font-weight: bold;
 }
 
 .dataset h3 a:hover {
