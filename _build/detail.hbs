@@ -38,32 +38,52 @@
       {{#if Flickr}}
       <h4>Explore</h4>
       <p><a href="{{Flickr}}"><button class="label label-info" > Open in Flickr </button></a> </p>
-      {{/if}}  
-      
+      {{/if}} 
+
+      {{#if Explore}}
+      <h4>Explore</h4>
+      <p><button>{{{md Explore}}}</button></p>
+      {{/if}}
+
+      {{#if Resolution}}
       <h4>Resolution</h4>
-      <p>{{{md Resolution}}}</p>
-      
+      <p>{{{md Resolution}}}
+      {{/if}}
+
+      {{#if GeographicalCoverage}}
       <h4>Geographical coverage</h4>
       <p>{{{md GeographicalCoverage}}}</p>
-      
+      {{/if}}
+
+      {{#if TemporalAvailability}}
       <h4>Temporal availability</h4>
       <p>{{{md TemporalAvailability}}}</p>
-      
+      {{/if}}
+
+      {{#if UpdateFrequency}}
       <h4>Update Frequency</h4>
       <p>{{UpdateFrequency}}</p>
+      {{/if}}
 
       {{#if BandInformation}}
       <h4>Band Information</h4>
       {{{tabelaricRenderer BandInformation}}}
       {{/if}}
-      
+
+      {{#if Attributes}}
+      <h4>Attributes</h4>
+      <p>{{{tabelaricRenderer Attributes}}}</p>
+      {{/if}}  
+
       {{#if CustomScripts}}
       <h4>Custom scripts</h4>
       {{{urlListRenderer CustomScripts}}}
       {{/if}}
 
+      {{#if License}}
       <h4>License</h4>
       <p>{{{md License}}}</p>
+      {{/if}}
 
       {{#if Provider}}
       <h4>Provider</h4>
