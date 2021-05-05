@@ -1,0 +1,57 @@
+Name: Sweden LPIS
+Description: |
+  Sweden's Land Parcel Identification System (LPIS) data collection (also agricultural blocks/ 'jordbruksblock') is managed by the [Swedish Board of Agriculture](https://jordbruksverket.se/e-tjanster-databaser-och-appar/e-tjanster-och-databaser-stod/kartor-och-gis), 
+  and also made available on the [INSPIRE Geoportal](https://inspire-geoportal.ec.europa.eu/results.html?country=se&view=details&theme=none). 
+  The Swedish agricultural blocks are vector data containing information on maximum eligible agricultural land according to EU definitions. 
+  The agricultural blocks are used by the Swedish Board of Agriculture to administer support to farmers,
+  therefore the collection does not include all agricultural land in Sweden, but only the parts that a farmer has sought support for at some time.
+  The agricultural blocks were first(1997) obtained from the Land Survey's land cover and since then the orthophotos produced by [Lantmäteriet](https://www.lantmateriet.se/sv/Om-Lantmateriet/Om-oss/Vart-samordningsansvar/),
+  as well as field visits have been used to update the boundaries.
+  Sweden LPIS data collection is made available on geoDB on subscription basis. Subscription costs are meant to cover storage and service costs. 
+Documentation: "[Euro Data Cube Checkout](https://eurodatacube.com/marketplace/data-products/lpis) or read metadata on [Lantmäteriet geodata portal](https://www.geodata.se/geodataportalen/srv/swe/catalog.search;jsessionid=12B29B7148347DEB5AB1D99D820F840F#/search?resultType=swe-details&_schema=iso19139*&from=1&to=20&fast=index&_content_type=json&sortBy=relevance&or=jordbruksblock)"
+Explore: "[WMS URL](http://epub.sjv.se//inspire/wms?service=wms&request=GetCapabilities&layers=LU.Jordbruksblock)"
+GeographicalCoverage: Sweden
+TemporalAvailability: 2015 - ongoing
+UpdateFrequency: annually
+Attributes: 
+  Table:
+      Columns:
+        - Name: Name
+          Title: Name
+        - Name: Description
+          Title: Description        
+      Rows:
+        - Name: blockid
+          Description: Object identifier
+        - Name: region
+          Description: Region code
+        - Name: areal
+          Description: Field area in sqkm
+        - Name: kategori
+          Description: Land use category
+        - Name: agoslag
+          Description: Land use class
+Contact: https://forum.sentinel-hub.com/c/euro-data-cube/25, 
+Provider: "[Swedish Board of Agriculture](https://jordbruksverket.se/om-jordbruksverket)"
+ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
+Tags:
+  - commercial data
+  - geoDB
+  - vector
+  - Machine Learning
+  - agriculture
+  - arable land
+  - pasture
+  - lpis
+  - landuse
+  - jordbruksblock
+
+License: |
+  No restrictions on public access [License](https://www.geodata.se/geodataportalen/srv/swe/catalog.search;jsessionid=12B29B7148347DEB5AB1D99D820F840F#/metadata/df439ba5-014e-44ec-86cb-ddb9e5ba306c)
+Resources:
+  - Group: geoDB Resources  
+    Database: lpis_iacs
+    TableName: sweden_lpis_<year>
+
+RegistryEntryAdded: "2020-11-30"
+RegistryEntryLastModified: "2021-05-05"
