@@ -1,0 +1,59 @@
+Name: Denmark LPIS
+Description: |
+  Danish Land Parcel Identification System (LPIS) data collection or (field blocks/ 'Markblokke') is managed by [The Danish Agency for Agriculture](https://lbst.dk/om-os/). 
+  The data is made available for download on [the agency’s website](https://kortdata.fvm.dk/download/Index?page=Markblokke_Marker). 
+  Additionally, the metadata are made available and can be searched on [Geodata-info.dk](https://www.geodata-info.dk/srv/eng/catalog.search#/home) 
+  geoportal with the search term ‘Markblokke’.
+  The field blocks are comprised of polygons representing the country's agricultural areas.
+  The polygons are manually created by the agency annually based on most recent orthophotos. 
+  LPIS collection contains attributes for geographical area, eligible and ineligible area for basic payments, 
+  therefore one of the primary use is in the administration of cases related to the geographical location of arable land, by EU area-based support schemes.
+  Denmark LPIS data collection is made available on geoDB on subscription basis. Subscription costs are meant to cover storage and service costs. 
+Documentation: "[Euro Data Cube Checkout](https://eurodatacube.com/marketplace/data-products/lpis) or read more on [The Danish Agency for Agriculture](https://lbst.dk/landbrug/kort-og-markblokke/)" 
+Explore: "[Open on Graphical Viewer](https://miljoegis.mim.dk/spatialmap?profile=lbst)"
+GeographicalCoverage: Denmark
+TemporalAvailability: 2005 - ongoing
+UpdateFrequency: annually
+Attributes: 
+  Table:
+      Columns:
+        - Name: Name
+          Title: Name
+        - Name: Description
+          Title: Description        
+      Rows:
+        - Name: BLOKNR
+          Description: The field block number
+        - Name: BRUTTOAREA
+          Description: Total geographical area covered by the block in hectares
+        - Name: TARAAREAL
+          Description: Total ineligible area in hectares (available only for 2014-2020)
+        - Name: GB_AREAL
+          Description: The total eligible area for basic payment in hectares (available only for 2009-2018, except 2015)
+        - Name: BLOKTYPE
+          Description: Land use type of the field block (available only for the datasets 2014-2020)
+        - Name: ORTOAAR
+          Description: The orthophoto used to digitize the block(available only for the datasets 2014 & 2020)
+        - Name: MODSTORTO
+          Description: Orthophoto (available only for the datasets 2014 & 2020)
+Contact: https://forum.sentinel-hub.com/c/euro-data-cube/25, 
+Provider: "[The Danish Agency for Agriculture](https://lbst.dk/om-os/)"
+ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
+Tags:
+  - commercial data
+  - geoDB
+  - vector
+  - Machine Learning
+  - agriculture
+  - lpis
+  - landuse
+
+License: |
+  No conditions apply [License](https://www.geodata-info.dk/srv/eng/catalog.search#/metadata/81b89a4d-4bd2-4eec-b4fd-0feb038ba205)
+Resources:
+  - Group: geoDB Resources  
+    Database: lpis_iacs
+    TableName: denmark_lpis_<year>
+
+RegistryEntryAdded: "2020-11-30"
+RegistryEntryLastModified: "2021-05-05"
