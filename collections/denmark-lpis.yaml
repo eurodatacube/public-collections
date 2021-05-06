@@ -9,8 +9,8 @@ Description: |
   LPIS collection contains attributes for geographical area, eligible and ineligible area for basic payments, 
   therefore one of the primary use is in the administration of cases related to the geographical location of arable land, by EU area-based support schemes.
   Denmark LPIS data collection is made available on geoDB on subscription basis. Subscription costs are meant to cover storage and service costs. 
-Documentation: "[Euro Data Cube Checkout](https://eurodatacube.com/marketplace/data-products/lpis) or read more on [The Danish Agency for Agriculture](https://lbst.dk/landbrug/kort-og-markblokke/)" 
-Explore: "[Open on Graphical Viewer](https://miljoegis.mim.dk/spatialmap?profile=lbst)"
+Documentation: Read more on [The Danish Agency for Agriculture](https://lbst.dk/landbrug/kort-og-markblokke/) and  [Euro Data Cube checkout](https://eurodatacube.com/marketplace/data-products/lpis) 
+Explore: "[Open in Graphical Viewer](https://miljoegis.mim.dk/spatialmap?profile=lbst)"
 GeographicalCoverage: Denmark
 TemporalAvailability: 2005 - ongoing
 UpdateFrequency: annually
@@ -47,13 +47,15 @@ Tags:
   - agriculture
   - lpis
   - landuse
+  - markblokke
 
 License: |
   No conditions apply [License](https://www.geodata-info.dk/srv/eng/catalog.search#/metadata/81b89a4d-4bd2-4eec-b4fd-0feb038ba205)
 Resources:
   - Group: geoDB Resources  
     Database: lpis_iacs
-    TableName: denmark_lpis_<year>
+    Collection: denmark_lpis_<year> (denmark_lpis_2018)
+    Notes: One collection per year since 2005
 
-RegistryEntryAdded: "2020-11-30"
-RegistryEntryLastModified: "2021-05-05"
+RegistryEntryAdded: "2021-05-05"
+RegistryEntryLastModified: "2021-05-06"

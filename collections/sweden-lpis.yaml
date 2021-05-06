@@ -8,7 +8,9 @@ Description: |
   The agricultural blocks were first(1997) obtained from the Land Survey's land cover and since then the orthophotos produced by [Lantmäteriet](https://www.lantmateriet.se/sv/Om-Lantmateriet/Om-oss/Vart-samordningsansvar/),
   as well as field visits have been used to update the boundaries.
   Sweden LPIS data collection is made available on geoDB on subscription basis. Subscription costs are meant to cover storage and service costs. 
-Documentation: "[Euro Data Cube Checkout](https://eurodatacube.com/marketplace/data-products/lpis) or read metadata on [Lantmäteriet geodata portal](https://www.geodata.se/geodataportalen/srv/swe/catalog.search;jsessionid=12B29B7148347DEB5AB1D99D820F840F#/search?resultType=swe-details&_schema=iso19139*&from=1&to=20&fast=index&_content_type=json&sortBy=relevance&or=jordbruksblock)"
+Documentation: |
+ Read more on [Lantmäteriet geodata portal](https://www.geodata.se/geodataportalen/srv/swe/catalog.search;jsessionid=12B29B7148347DEB5AB1D99D820F840F#/search?resultType=swe-details&_schema=iso19139*&from=1&to=20&fast=index&_content_type=json&sortBy=relevance&or=jordbruksblock)
+ and [Euro Data Cube checkout](https://eurodatacube.com/marketplace/data-products/lpis) 
 Explore: "[WMS URL](http://epub.sjv.se//inspire/wms?service=wms&request=GetCapabilities&layers=LU.Jordbruksblock)"
 GeographicalCoverage: Sweden
 TemporalAvailability: 2015 - ongoing
@@ -51,7 +53,8 @@ License: |
 Resources:
   - Group: geoDB Resources  
     Database: lpis_iacs
-    TableName: sweden_lpis_<year>
+    Collection: sweden_lpis_<year> (sweden_lpis_2018)
+    Notes: one collection per year since 2015
 
-RegistryEntryAdded: "2020-11-30"
-RegistryEntryLastModified: "2021-05-05"
+RegistryEntryAdded: "2021-05-06"
+RegistryEntryLastModified: "2021-05-06"
