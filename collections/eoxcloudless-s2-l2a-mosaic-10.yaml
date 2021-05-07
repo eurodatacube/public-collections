@@ -12,6 +12,7 @@ GeographicalCoverage: Covering land surface area between 180.0 West, 90.0 South
   and 180.0 East, 90.0 North
 TemporalAvailability: 2016, 2018, 2019 and 2020
 UpdateFrequency: New data is added annually.
+Example: "[Sample Data for Download(https://downloads.eox.at/EOxCloudless_Samples-and-Documentation.zip)"
 BandInformation:
   Table:
     Columns:
