@@ -16,7 +16,7 @@ GeographicalCoverage: Ocean and Land ([more info](https://sentinel.esa.int/web/s
 TemporalAvailability: April 2016 - ongoing
 UpdateFrequency: New Sentinel data are added regularly, usually within few hours after they are available on Copernicus Hub.
 BandInformation: Information about [bands and data](https://docs.sentinel-hub.com/api/latest/data/sentinel-3-olci-l1b/#available-bands-and-data)  
-Contact: https://forum.sentinel-hub.com
+Contact: https://forum.sentinel-hub.com/c/euro-data-cube/25
 Provider: "[Copernicus](https://copernicus.eu/)"
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
 Tags:
@@ -47,6 +47,5 @@ CustomScripts:
     Title: Collection of Sentinel-3 custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#sentinel-3
 
-
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2021-04-02"
+RegistryEntryLastModified: "2021-05-05"

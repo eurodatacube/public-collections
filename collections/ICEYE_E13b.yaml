@@ -1,0 +1,28 @@
+Name: ICEYE_E13b
+Description: ICEYE image and detection of parked airplanes
+AdditionalInfoExternal:
+    Title: Additional info
+    Path: ICEYE_E13b/README.MD
+Resolution: Pixel Size = (0.0000060,-0.0000060)
+GeographicalCoverage: -1.245691996, 40.394458816, 8.533407797, 50.049107756
+TemporalAvailability: 2020-03-20 - 2020-08-25
+UpdateFrequency:
+BandInformation: GRD
+Contact: "[ICEYE Contact](https://www.iceye.com/lp/contact-us)"
+Provider: "[ICEYE](https://www.iceye.com/)"
+ManagedBy: "[ESA](http://www.esa.int/)"
+Tags:
+    - open data
+    - sentinel hub
+    - raster
+    - dashboard hackathon
+License: |
+ The ICEYE Public Archive consists of preview images from around the world, which are released under CC BY-NC 4.0 license (https://creativecommons.org/licenses/by-nc/4.0/), allowing for non-commercial use.
+Resources:
+ - Group: Sentinel Hub Resources
+   EndPoint: shservices.mundiwebservices.com
+   Type: byoc-6aad9f62-953a-49d0-a6e2-a2f0d5a50f77
+   CollectionId: 6aad9f62-953a-49d0-a6e2-a2f0d5a50f77
+
+RegistryEntryAdded: "2021-05-07"
+RegistryEntryLastModified: "2021-05-07"

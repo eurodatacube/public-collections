@@ -14,7 +14,7 @@ GeographicalCoverage: Land surface area ([more info](https://sentinel.esa.int/we
 TemporalAvailability: 2015 - ongoing
 UpdateFrequency: New Sentinel data are added regularly, usually within few hours after they are available on Copernicus Hub.
 BandInformation: Information about [bands and data](https://docs.sentinel-hub.com/api/latest/data/sentinel-2-l1c/#available-bands-and-data)  
-Contact: https://forum.sentinel-hub.com
+Contact: https://forum.sentinel-hub.com/c/euro-data-cube/25
 Provider: "[Copernicus](https://copernicus.eu/)"
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
 Tags:
@@ -48,6 +48,5 @@ CustomScripts:
     Title: Collection of Sentinel-2 custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#sentinel-2
 
-
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2021-03-21"
+RegistryEntryLastModified: "2021-05-05"

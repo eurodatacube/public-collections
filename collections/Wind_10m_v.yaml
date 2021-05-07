@@ -1,0 +1,28 @@
+Name: Wind_10m_v
+Description: Gridded ERA5 is the fifth generation ECMWF reanalysis for the global climate and weather for the past 4 to 7 decades. This parameter is the wind V field
+AdditionalInfoExternal:
+    Title: Additional info
+    Path: Wind_10m_v/README.MD
+Resolution: 0.25° x 0.25°
+GeographicalCoverage: -179.999755859375, -90.12489004526765, 179.99977453631897, 90.125
+TemporalAvailability: 2019-01-01 - 2020-12-01
+UpdateFrequency:
+BandInformation: windv10m
+Contact: "[COPERNICUS SUPPORT](copernicus-support@ecmwf.int)"
+Provider: "[COPERNICUS](https://cds.climate.copernicus.eu/cdsapp#!/dataset/10.24381/cds.6860a573?tab=overview)"
+ManagedBy: "[ESA](http://www.esa.int/)"
+Tags:
+    - open data
+    - sentinel hub
+    - raster
+    - dashboard hackathon
+License: |
+ Free of charge, worldwide, non-exclusive, royalty free and perpetual ([details](https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-land-monthly-means?tab=overview))
+Resources:
+ - Group: Sentinel Hub Resources
+   EndPoint: shservices.mundiwebservices.com
+   Type: byoc-72139a6c-8fa3-4a90-93ca-4c1d792cc8af
+   CollectionId: 72139a6c-8fa3-4a90-93ca-4c1d792cc8af
+
+RegistryEntryAdded: "2021-05-07"
+RegistryEntryLastModified: "2021-05-07"

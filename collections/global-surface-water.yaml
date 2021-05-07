@@ -4,9 +4,10 @@ AdditionalInfoExternal:
     Title: Additional info 
     Path: global-surface-water/README.MD
 Image: global-surface-water/global-surface-water.png  
+EOBrowser: https://sentinelshare.page.link/5iTW
 Resolution: 30m
 GeographicalCoverage: Global coverage from longitude 170°E to 180°W and latitude 80°N to 50°S.
-TemporalAvailability: Suface water dynamics between 1984 and 2019
+TemporalAvailability: Surface water dynamics between 1984 and 2019
 UpdateFrequency: None 
 BandInformation:
  Table:
@@ -28,7 +29,7 @@ BandInformation:
           Description: Visualises changes in the three surface water classes (1) not water, (2) seasonal water, and (3) permanent water between the first and last year in the 36-year time period.
         - Name: Extent
           Description: Maximum extent of surface water bodies in the 36-year time range.
-Contact: "[Global Surface Water Explorer Contact](https://global-surface-water.appspot.com/)"
+Contact: https://forum.sentinel-hub.com/c/euro-data-cube/25
 Provider: "[European Commission, Joint Research Centre](https://ec.europa.eu/info/departments/joint-research-centre_en)"
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
 Tags:
@@ -54,4 +55,4 @@ CustomScripts:
     URL: https://custom-scripts.sentinel-hub.com/#copernicus_services
 
 RegistryEntryAdded: "2021-04-19"
-RegistryEntryLastModified: "2021-04-19"
+RegistryEntryLastModified: "2021-05-05"

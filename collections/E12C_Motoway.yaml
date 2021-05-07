@@ -1,0 +1,28 @@
+Name: E12C_Motoway
+Description: This indicator is based on the detection of moving trucks on motorways in the EU. The detection uses data from the Copernicus Sentinel-2 satellite.
+AdditionalInfoExternal:
+    Title: Additional info
+    Path: E12C_Motoway/README.MD
+Resolution: 0.089932160591873,-0.089932160591873
+GeographicalCoverage: -31.26818657, 27.693670044054727, 34.06794939183746, 70.09145355
+TemporalAvailability: 2017-05-15 - 2020-05-15
+UpdateFrequency:
+BandInformation: MotorwayActivity
+Contact: "[Henrik Fisser] (henrik.fisser@t-online.de)"
+Provider: "[Henrik Fisser, University of Würzburg, Germany]"
+ManagedBy: "[ESA](http://www.esa.int/)"
+Tags:
+    - open data
+    - sentinel hub
+    - raster
+    - dashboard hackathon
+License: |
+ [GNU General Public License v3.0](https://github.com/hfisser/Truck_Detection_Sentinel2_COVID19/blob/master/LICENSE)
+Resources:
+ - Group: Sentinel Hub Resources
+   EndPoint: shservices.mundiwebservices.com
+   Type: byoc-6d697640-a962-4eb0-8a59-30a8cb61dc0f
+   CollectionId: 6d697640-a962-4eb0-8a59-30a8cb61dc0f
+
+RegistryEntryAdded: "2021-05-07"
+RegistryEntryLastModified: "2021-05-07"
