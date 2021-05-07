@@ -1,8 +1,8 @@
 Name: EOxCloudless Sentinel-2 L2A 10m Mosaic
 Description: |
   EOxCloudless Sentinel-2 L2A 10m mosaic is a derived product, created to provide
-  almost cloudfree dataset annually. The exact description of the available
-  products is at the "[EOxCloudless(https://cloudless.eox.at/)" website.
+  an almost cloudfree global dataset every year. The exact description of the
+  available products is at the "[EOxCloudless(https://cloudless.eox.at/)" website.
 AdditionalInfoExternal:
   Title: Additional info
   Path: eoxcloudless-s2-l2a-mosaic-10/README.MD
