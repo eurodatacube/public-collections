@@ -55,7 +55,7 @@ License: |
   [EOX Commercial Attribution-RestrictedUse 1.1 License](https://cloudless.eox.at/license-legal/),
   Attribution: [EOxCloudless - https://cloudless.eox.at](https://cloudless.eox.at/) (Contains modified Copernicus Sentinel data [year])
 Resources:
-  - Group: EOxCLoudless Resources
+  - Group: EOxCloudless Resources
   - EndPoint: https://cloudless.eox.at/
     Type: CUSTOM
     CollectionId: Known to user after purchase depending on selected delivery option
