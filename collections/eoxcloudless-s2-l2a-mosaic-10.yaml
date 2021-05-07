@@ -1,0 +1,92 @@
+Name: EOxCloudless Sentinel-2 L2A 10m Mosaic
+Description: |
+  EOxCloudless Sentinel-2 L2A 10m mosaic is a derived product, created to provide
+  almost cloudfree dataset annually. The exact description of the available
+  products is at the "[EOxCloudless(https://cloudless.eox.at/)" website.
+AdditionalInfoExternal:
+  Title: Additional info
+  Path: eoxcloudless-s2-l2a-mosaic-10/README.MD
+Image: eoxcloudless-s2-l2a-mosaic-10/eoxcloudless-s2-l2a-mosaic-10.jpg
+Resolution: 10m
+GeographicalCoverage: Covering land surface area between 180.0 West, 90.0 South
+  and 180.0 East, 90.0 North
+TemporalAvailability: 2016, 2018, 2019 and 2020
+UpdateFrequency: New data is added annually.
+BandInformation:
+  Table:
+    Columns:
+      - Name: Name
+        Title: Name
+      - Name: Description
+        Title: Description
+      - Name: Notes
+        Title: Notes
+    Rows:
+      - Name: B04
+        Description: Red
+        Notes: DN, typically from 0-10000
+      - Name: B03
+        Description: Green
+        Notes: DN, typically from 0-10000
+      - Name: B02
+        Description: Blue
+        Notes: DN, typically from 0-10000
+      - Name: B08
+        Description: NIR
+        Notes: DN, typically from 0-10000
+Contact: cloudless@eox.at
+Provider: "[EOxCloudless(https://cloudless.eox.at/)"
+ManagedBy: "[EOX IT Services GmbH](https://eox.at/)"
+Tags:
+  - EOxCloudless
+  - cloudless
+  - raster
+  - systematic
+  - satellite imagery
+  - multi spectral imagery
+  - machine learning
+  - global
+  - agriculture
+  - maps
+License:
+  - Title: EOxCloudless License
+    URL: https://cloudless.eox.at/license-deed/
+Resources:
+  - Group: EOxCLoudless Resources
+  - EndPoint: https://cloudless.eox.at/
+    Type: CUSTOM
+    CollectionId: known to user after purchase
+    Notes: Contains the data purchased by individual user
+DataAtWork:
+  Tools & Applications:
+    - Title: Sentinel-2 cloudless
+      URL: https://s2maps.eu/
+      AuthorName: EOX
+      AuthorURL: https://eox.at/
+    - Title: Earth Observing Dashboard
+      URL: https://eodashboard.org/
+      AuthorName: NASA, ESA, JAXA
+      AuthorURL: https://github.com/eurodatacube/eodash
+    - Title: Rapid Action on coronavirus and EO
+      URL: https://race.esa.int/
+      AuthorName: ESA
+      AuthorURL: https://github.com/eurodatacube/eodash
+    - Title: VirES for AEOLUS
+      URL: https://aeolus.services/
+      AuthorName: EOX on behalf of the European Space Agency
+      AuthorURL: https://eox.at/
+    - Title: VirES for SWARM
+      URL: https://vires.services/
+      AuthorName: EOX on behalf of the European Space Agency
+      AuthorURL: https://eox.at/
+    - Title: Planefinder
+      URL: https://planefinder.net/
+      AuthorName: Pinkfroot Ltd. 2021 - Plane Finder
+      AuthorURL: https://planefinder.net/about
+  Publications:
+    - Title: Sentinel-2 cloudless 2020
+      URL: https://eox.at/2021/03/sentinel-2-cloudless-2020/
+      AuthorName: Sevcik P.
+
+RegistryEntryAdded: "2021-05-10"
+RegistryEntryLastModified: "2021-05-10"
