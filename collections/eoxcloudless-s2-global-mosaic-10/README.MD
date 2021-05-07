@@ -1,28 +1,30 @@
 # EOxCloudless Sentinel-2 10m Global Mosaic
 
-### EOxCloudless Viewing Ready
+### EOxCloudless Viewing Products
 
-The EOxCloudless Viewing Ready products are available in three formats and 
-two projections. They only have three Red, Green and Blue bands and are rendered as 
-regular images in `True Color`.
+The EOxCloudless **Viewing Ready** single-file product is available in two formats and 
+two projections. It includes the three Red, Green, and Blue bands and is rendered as 
+regular JPEG images in `True Color`.
 
 The **projections** are:
-* WGS84 `EPSG:4326` 
+* WGS84 lat/lon `EPSG:4326` 
 * Web Mercator `EPSG:3857`. 
   
-The **formats** for the viewing ready are:
+The **formats** for are:
 * `GeoPackage`
 * `MapCache SQLite` File
-* `GeoTIFF` TileDirectory
+
+The EOxCloudless **Viewing Basic** GeoTIFFs product is available in the same 
+projections as `GeoTIFF` TileDirectory.
 
 ### EOxCloudless Data Products
 
 The EOxCloudless Data Products are available as `GeoTIFF` TileDirectories in 
-single projection `EPSG:4326` and have four 10[m] resolution bands Red, Green, 
-Blue and NIR (B04, B03, B02 and B08).
+the single projection WGS84 lat/lon `EPSG:4326` and have four 10[m] resolution bands Red, Green, 
+Blue, and NIR (B04, B03, B02 and B08).
 
-We offer them in full Sentinel-2 data range as 16bit `GeoTIFF` TileDirectories and 
-reduced data range as 8bit `GeoTIFF` TileDirectories. The current offer 
+They are offered in full Sentinel-2 data range as 16bit `GeoTIFF` TileDirectories - **Exploitation Ready** and 
+reduced data range as 8bit `GeoTIFF` TileDirectories - **Exploitation Starter**. The current offer 
 (as of 2021-05-07) is:
 * EOxCloudless Sentinel-2 2020 8-bits
 * EOxCloudless Sentinel-2 2020 16-bits
