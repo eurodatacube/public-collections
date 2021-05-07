@@ -10,9 +10,9 @@ EOBrowser: https://sentinelshare.page.link/fWkD
 Resolution: 100m
 GeographicalCoverage: Pan-European, French overseas regions and departments (DOMs)
 TemporalAvailability: 1990, 2000, 2006, 2012, 2018
-UpdateFrequency: Every 6 years. 
-BandInformation: CLC (land cover class) 
-Contact: "[Copernicus Land Monitoring Service Contact](https://land.copernicus.eu/contact)"
+UpdateFrequency: Every 6 years.
+BandInformation: CLC (land cover class)
+Contact: https://forum.sentinel-hub.com/c/euro-data-cube/25
 Provider: "[European Environment Agency](https://www.eea.europa.eu/)"
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
 Tags:
@@ -34,4 +34,4 @@ Resources:
     CollectionId: cbdba844-f86d-41dc-95ad-b3f7f12535e9
 
 RegistryEntryAdded: "2021-03-21"
-RegistryEntryLastModified: "2021-03-21"
+RegistryEntryLastModified: "2021-05-05"

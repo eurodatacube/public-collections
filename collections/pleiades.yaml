@@ -15,7 +15,7 @@ GeographicalCoverage:  ([more info](https://www.intelligence-airbusds.com/en/869
 TemporalAvailability: December 2011 - ongoing
 UpdateFrequency:  data is not acquired systematically, data acquisition is tasked
 BandInformation: Information about [bands and data](https://docs.sentinel-hub.com/api/latest/data/airbus/pleiades/#available-bands-and-data)  
-Contact: https://forum.sentinel-hub.com
+Contact: https://forum.sentinel-hub.com/c/euro-data-cube/25
 Provider: "[Airbus](https://www.airbus.com//)"
 ManagedBy: "[Airbus](https://www.airbus.com/)"
 Tags:
@@ -41,6 +41,5 @@ CustomScripts:
     Title: Collection of Pleiades custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#airbus_pleiades
 
-
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2021-04-14"
+RegistryEntryLastModified: "2021-05-05"

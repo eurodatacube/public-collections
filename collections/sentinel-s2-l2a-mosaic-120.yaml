@@ -41,7 +41,7 @@ BandInformation:
         - Name: B12
           Description: SWIR
           Notes: DN, typically from 0-10000
-Contact: https://forum.sentinel-hub.com  
+Contact: https://forum.sentinel-hub.com/c/euro-data-cube/25
 Provider: "[Sentinel Hub](https://www.sentinel-hub.com/)"
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
 Tags:
@@ -81,4 +81,4 @@ DataAtWork:
       AuthorName: Milcinski G., Lubej M.
 
 RegistryEntryAdded: "2021-03-21"
-RegistryEntryLastModified: "2021-03-21"
+RegistryEntryLastModified: "2021-05-05"

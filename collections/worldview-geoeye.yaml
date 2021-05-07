@@ -16,7 +16,7 @@ GeographicalCoverage: Land surface area ([more info](https://www.maxar.com/const
 TemporalAvailability: 2009 - ongoing
 UpdateFrequency: data is not acquired systematically, data acquisition is tasked
 BandInformation: Information about [bands and data](https://docs.sentinel-hub.com/api/latest/data/maxar/world-view/#available-bands-and-data)  
-Contact: https://forum.sentinel-hub.com
+Contact: https://forum.sentinel-hub.com/c/euro-data-cube/25
 Provider: "[Maxar](https://www.maxar.com/)"
 ManagedBy: "[European Space Imaging](https://www.euspaceimaging.com/)"
 Tags:
@@ -40,4 +40,4 @@ Resources:
     Notes: Contains the data purchased by individual user
 
 RegistryEntryAdded: "2021-04-17"
-RegistryEntryLastModified: "2021-04-29"
+RegistryEntryLastModified: "2021-05-05"

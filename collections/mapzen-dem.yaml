@@ -14,7 +14,7 @@ GeographicalCoverage: Ocean and Land ([more info](https://github.com/tilezen/joe
 TemporalAvailability: static [current version was built in 2017](https://github.com/tilezen/joerd/blob/master/docs/data-sources.md#data-updates)
 UpdateFrequency: "[depends on updates by Mapzen](https://github.com/tilezen/joerd/blob/master/docs/data-sources.md#data-updates)"
 BandInformation: Information about [bands and data](https://docs.sentinel-hub.com/api/latest/data/dem/#available-bands-and-data)  
-Contact: https://forum.sentinel-hub.com
+Contact: https://forum.sentinel-hub.com/c/euro-data-cube/25
 Provider: "[Mapzen](https://www.mapzen.com/)"
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
 Tags:
@@ -44,4 +44,4 @@ CustomScripts:
     URL: https://custom-scripts.sentinel-hub.com/#dem
 
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2021-04-09"
+RegistryEntryLastModified: "2021-05-05"

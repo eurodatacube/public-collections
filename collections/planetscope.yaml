@@ -12,7 +12,7 @@ GeographicalCoverage: Land surface area ([more info](https://www.planet.com/prod
 TemporalAvailability: 2016 - ongoing
 UpdateFrequency: new imagery added on a daily basis
 BandInformation: Information about [bands and data](https://docs.sentinel-hub.com/api/latest/data/planet-scope/#available-bands-and-data)  
-Contact: https://forum.sentinel-hub.com
+Contact: https://forum.sentinel-hub.com/c/euro-data-cube/25
 Provider: "[Planet](https://www.planet.com/)"
 ManagedBy: "[Planet](https://www.planet.com/)"
 Tags:
@@ -38,6 +38,5 @@ CustomScripts:
     Title: Collection of PlanetScope custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#planet_scope
 
-
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2021-04-14"
+RegistryEntryLastModified: "2021-05-05"
