@@ -51,9 +51,9 @@ Tags:
   - global
   - agriculture
   - maps
-License:
-  - Title: EOX Commercial Attribution-RestrictedUse 1.1 License
-    URL: https://cloudless.eox.at/license-legal/
+License: |
+  [EOX Commercial Attribution-RestrictedUse 1.1 License](https://cloudless.eox.at/license-legal/),
+  Attribution: [EOxCloudless - https://cloudless.eox.at](https://cloudless.eox.at/) (Contains modified Copernicus Sentinel data [year])
 Resources:
   - Group: EOxCLoudless Resources
   - EndPoint: https://cloudless.eox.at/
