@@ -2,7 +2,7 @@ Name: EOxCloudless Sentinel-2 10m Global Cloudless Mosaic
 Description: |
   EOxCloudless Sentinel-2 10m Global Cloudless Mosaic is a derived product,
   created to provide an almost cloudfree global dataset every year. For a detailed
-  description of the available products please refer to "[EOxCloudless(https://cloudless.eox.at/)".
+  description of the available products please refer to [EOxCloudless](https://cloudless.eox.at/).
 AdditionalInfoExternal:
   Title: Additional info
   Path: eoxcloudless-s2-global-mosaic-10/README.MD
@@ -12,7 +12,8 @@ GeographicalCoverage: Covering land surface areas between 180.0 West, 90.0 South
   and 180.0 East, 90.0 North
 TemporalAvailability: 2018, 2019, and 2020
 UpdateFrequency: New data is added annually.
-Example: "[Sample Data for download(https://downloads.eox.at/EOxCloudless_Samples-and-Documentation.zip)"
+Explore: "[Open https://s2maps.eu Sentinel-2 Cloudless map](https://s2maps.eu)"
+Examples: "[Sample data for download(https://downloads.eox.at/EOxCloudless_Samples-and-Documentation.zip)"
 BandInformation:
   Table:
     Columns:
