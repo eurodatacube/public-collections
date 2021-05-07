@@ -4,22 +4,25 @@ AdditionalInfoExternal:
     Title: Additional info
     Path: CAMS_GLC_2017/README.MD
 Resolution: 10m
-GeographicalCoverage: [-33.56847525983416, 31.857766985498905, 62.19564440228477, 72.37088743023797]
-TemporalAvailability: ['2017']
+GeographicalCoverage: -33.56847525983416, 31.857766985498905, 62.19564440228477, 72.37088743023797
+TemporalAvailability: "2017"
 UpdateFrequency:
 BandInformation: RED, BLUE, GREEN
 Contact: "[Stanisław Lewiński](stlewinski@cbk.waw.pl)"
-Provider:"[CBK PAN](https://cbk.waw.pl)"
-ManagedBy:"[ESA]"
+Provider: "[CBK PAN](https://cbk.waw.pl)"
+ManagedBy: "[ESA](http://www.esa.int/)"
 Tags:
-    - CAMS GLC 2017
+    - open data
+    - sentinel hub
+    - raster
     - dashboard hackathon
-License:|
- Full, open and free access
+License: |
+ Full, open and free access, Copernicus license ([details](https://atmosphere.copernicus.eu/sites/default/files/repository/CAMS_data_license.pdf)).
 Resources:
- - EndPoint: shservices.mundiwebservices.com
+ - Group: Sentinel Hub Resources
+   EndPoint: shservices.mundiwebservices.com
    Type: byoc-b73ffbaf-92ff-4fd9-abf0-960c5fab5eaa
    CollectionId: b73ffbaf-92ff-4fd9-abf0-960c5fab5eaa
 
-RegistryEntryAdded: "2021-04-26"
-RegistryEntryLastModified: "2021-04-26"
+RegistryEntryAdded: "2021-05-07"
+RegistryEntryLastModified: "2021-05-07"

@@ -1,25 +1,28 @@
 Name: ICEYE_E11a
-Description: Activity at laisure facility (Stadium) affected by COIVD
+Description: Activity at leisure facility (Stadium) affected by COVID
 AdditionalInfoExternal:
     Title: Additional info
     Path: ICEYE_E11a/README.MD
 Resolution: Pixel Size = (0.0000060,-0.0000060)
-GeographicalCoverage: [21.039070567, 52.235855988, 21.052287012, 52.248886356]
-TemporalAvailability: ['2020-02-07', '2020-04-13']
+GeographicalCoverage: 21.039070567, 52.235855988, 21.052287012, 52.248886356
+TemporalAvailability: 2020-02-07 - 2020-04-13
 UpdateFrequency:
 BandInformation: GRD
 Contact: "[ICEYE Contact](https://www.iceye.com/lp/contact-us)"
-Provider:"[ICEYE](https://www.iceye.com/)"
-ManagedBy:"[ESA]"
+Provider: "[ICEYE](https://www.iceye.com/)"
+ManagedBy: "[ESA](http://www.esa.int/)"
 Tags:
-    - ICEYE E11a
+    - open data
+    - sentinel hub
+    - raster
     - dashboard hackathon
 License: |
  The ICEYE Public Archive consists of preview images from around the world, which are released under CC BY-NC 4.0 license (https://creativecommons.org/licenses/by-nc/4.0/), allowing for non-commercial use.
 Resources:
- - EndPoint: shservices.mundiwebservices.com
+ - Group: Sentinel Hub Resources
+   EndPoint: shservices.mundiwebservices.com
    Type: byoc-a87a8868-5969-4df5-8a57-6441067c12d2
    CollectionId: a87a8868-5969-4df5-8a57-6441067c12d2
 
-RegistryEntryAdded: "2021-04-26"
-RegistryEntryLastModified: "2021-04-26"
+RegistryEntryAdded: "2021-05-07"
+RegistryEntryLastModified: "2021-05-07"

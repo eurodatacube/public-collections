@@ -4,22 +4,25 @@ AdditionalInfoExternal:
     Title: Additional info
     Path: 2mT_2020_Monthly_Average_from_CDS/README.MD
 Resolution: 0.25° x 0.25°
-GeographicalCoverage: [-179.999755859375, -90.12489004526765, 179.99977453631897, 90.125]
-TemporalAvailability: ['2019-01-01', '2020-12-01']
+GeographicalCoverage: -179.999755859375, -90.12489004526765, 179.99977453631897, 90.125
+TemporalAvailability: 2019-01-01 - 2020-12-01
 UpdateFrequency:
-BandInformation: AIR2MT	
+BandInformation: AIR2MT
 Contact: "[COPERNICUS SUPPORT](copernicus-support@ecmwf.int)"
 Provider: "[COPERNICUS](https://cds.climate.copernicus.eu/cdsapp#!/dataset/10.24381/cds.6860a573?tab=overview)"
-ManagedBy: "[ESA]"
+ManagedBy: "[ESA](http://www.esa.int/)"
 Tags:
-    - 2mT 2020 Monthly Average from CDS
+    - open data
+    - sentinel hub
+    - raster
     - dashboard hackathon
-License:|
+License: |
  Full, open and free access, Copernicus license ([details](https://atmosphere.copernicus.eu/sites/default/files/repository/CAMS_data_license.pdf)).
 Resources:
- - EndPoint: shservices.mundiwebservices.com
+ - Group: Sentinel Hub Resources
+   EndPoint: shservices.mundiwebservices.com
    Type: byoc-e523ca12-43cf-467f-b4cf-506dfca7af91
    CollectionId: e523ca12-43cf-467f-b4cf-506dfca7af91
 
-RegistryEntryAdded: "2021-04-26"
-RegistryEntryLastModified: "2021-04-26"
+RegistryEntryAdded: "2021-05-07"
+RegistryEntryLastModified: "2021-05-07"

@@ -3,22 +3,26 @@ Description: This indicator is based on the detection of moving trucks on motorw
 AdditionalInfoExternal:
     Title: Additional info
     Path: E12D_Primary_corrected/README.MD
-Resolution: [0.089932160591873,-0.089932160591873]
-GeographicalCoverage: [-31.26818657, 27.693670044054727, 34.06794939183746, 70.09145355]
-TemporalAvailability: ['2017-05-15', '2020-05-15']
+Resolution: 0.089932160591873,-0.089932160591873
+GeographicalCoverage: -31.26818657, 27.693670044054727, 34.06794939183746, 70.09145355
+TemporalAvailability: 2017-05-15 - 2020-05-15
 UpdateFrequency:
 BandInformation: PrimaryRoadsActivity
-Contact:"[Henrik Fisser] (henrik.fisser@t-online.de)"
+Contact: "[Henrik Fisser] (henrik.fisser@t-online.de)"
 Provider: "[Henrik Fisser, University of Würzburg, Germany]"
-ManagedBy:"[ESA]"
+ManagedBy: "[ESA](http://www.esa.int/)"
 Tags:
-    - E12D Primary corrected
+    - open data
+    - sentinel hub
+    - raster
     - dashboard hackathon
-License:
+License: |
+ [GNU General Public License v3.0](https://github.com/hfisser/Truck_Detection_Sentinel2_COVID19/blob/master/LICENSE)
 Resources:
- - EndPoint: shservices.mundiwebservices.com
+ - Group: Sentinel Hub Resources
+   EndPoint: shservices.mundiwebservices.com
    Type: byoc-d50b41de-00d7-43b5-bb69-4468d738f771
    CollectionId: d50b41de-00d7-43b5-bb69-4468d738f771
 
-RegistryEntryAdded: "2021-04-26"
-RegistryEntryLastModified: "2021-04-26"
+RegistryEntryAdded: "2021-05-07"
+RegistryEntryLastModified: "2021-05-07"

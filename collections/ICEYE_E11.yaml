@@ -4,22 +4,25 @@ AdditionalInfoExternal:
     Title: Additional info
     Path: ICEYE_E11/README.MD
 Resolution: Pixel Size = (0.0000060,-0.0000060)
-GeographicalCoverage: [2.769154472, 48.861336953, 2.7987541, 48.881687237]
-TemporalAvailability: ['2020-03-20', '2020-03-20']
+GeographicalCoverage: 2.769154472, 48.861336953, 2.7987541, 48.881687237
+TemporalAvailability: 2020-03-20 - 2020-03-20
 UpdateFrequency:
 BandInformation: GRD
 Contact: "[ICEYE Contact](https://www.iceye.com/lp/contact-us)"
-Provider:"[ICEYE](https://www.iceye.com/)"
-ManagedBy:"[ESA]"
+Provider: "[ICEYE](https://www.iceye.com/)"
+ManagedBy: "[ESA](http://www.esa.int/)"
 Tags:
-    - ICEYE E11
+    - open data
+    - sentinel hub
+    - raster
     - dashboard hackathon
 License: |
  The ICEYE Public Archive consists of preview images from around the world, which are released under CC BY-NC 4.0 license (https://creativecommons.org/licenses/by-nc/4.0/), allowing for non-commercial use.
 Resources:
- - EndPoint: shservices.mundiwebservices.com
+ - Group: Sentinel Hub Resources
+   EndPoint: shservices.mundiwebservices.com
    Type: byoc-038e4f48-7bfc-4e60-bcbf-77520327799a
    CollectionId: 038e4f48-7bfc-4e60-bcbf-77520327799a
 
-RegistryEntryAdded: "2021-04-26"
-RegistryEntryLastModified: "2021-04-26"
+RegistryEntryAdded: "2021-05-07"
+RegistryEntryLastModified: "2021-05-07"

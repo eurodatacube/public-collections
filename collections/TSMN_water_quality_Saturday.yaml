@@ -1,25 +1,28 @@
 Name: TSMN_water_quality_Saturday
-Description: Total suspended matter maps for 3 sites: Lagoon Venice, M regions and Barcelona Total suspended matter maps for 3 sites: Lagoon Venice, Marseillw and Barcelona regions
+Description: "Total suspended matter maps for 3 sites: Lagoon Venice, Marseille and Barcelona regions"
 AdditionalInfoExternal:
     Title: Additional info
     Path: TSMN_water_quality_Saturday/README.MD
 Resolution: 300m
-GeographicalCoverage: [0.4982046708598385, 40.498973093940286, 13.82206392288208, 45.80052375793457]
-TemporalAvailability: ['2020-01-04', '2021-04-17']
+GeographicalCoverage: 0.4982046708598385, 40.498973093940286, 13.82206392288208, 45.80052375793457
+TemporalAvailability: 2020-01-04 - 2021-04-17
 UpdateFrequency: Weekly
-BandInformation: tsmnn 
-Contact: "[CNR]"
-Provider: "[CNR]"
-ManagedBy: "[ESA]"
+BandInformation: tsmn
+Contact: "[CNR](https://www.cnr.it/en)"
+Provider: "[CNR](https://www.cnr.it/en)"
+ManagedBy: "[ESA](http://www.esa.int/)"
 Tags:
-    - TSMN water quality Saturday
+    - open data
+    - sentinel hub
+    - raster
     - dashboard hackathon
-License:|
- 
+License: |
+ [CC BY-NC-ND 3.0](https://creativecommons.org/licenses/by-nc-nd/3.0/), Credit: Provided by ISMAR Istituto di Scienze Marine at Consiglio Nazionale delle Ricerche
 Resources:
- - EndPoint: shservices.mundiwebservices.com
+ - Group: Sentinel Hub Resources
+   EndPoint: shservices.mundiwebservices.com
    Type: byoc-45ce0fb2-fdaf-481e-b834-f728a8677e59
    CollectionId: 45ce0fb2-fdaf-481e-b834-f728a8677e59
 
-RegistryEntryAdded: "2021-04-26"
-RegistryEntryLastModified: "2021-04-26"
+RegistryEntryAdded: "2021-05-07"
+RegistryEntryLastModified: "2021-05-07"

@@ -4,22 +4,25 @@ AdditionalInfoExternal:
     Title: Additional info
     Path: S5P-NO2-tropno-daily-check/README.MD
 Resolution: 3.5 x 5.5 Km (across x along track)
-GeographicalCoverage: [-180.0, -90.0, 180.0, 90.0]
-TemporalAvailability: ['2018-04-30', '2021-04-12']
-UpdateFrequency: weekly
+GeographicalCoverage: -180.0, -90.0, 180.0, 90.0
+TemporalAvailability: 2018-04-30 - 2021-04-12
+UpdateFrequency: Weekly
 BandInformation: tropno2
 Contact: "[ESA EO Support Helpdesk](EOSupport@copernicus.esa.int)"
-Provider:"[ESA]"
-ManagedBy: "[ESA]"
+Provider: "[ESA](http://www.esa.int/)"
+ManagedBy: "[ESA](http://www.esa.int/)"
 Tags:
-    - S5P-NO2-tropno-daily-check
+    - open data
+    - sentinel hub
+    - raster
     - dashboard hackathon
 License: |
  Full, open and free access
 Resources:
- - EndPoint: shservices.mundiwebservices.com
+ - Group: Sentinel Hub Resources
+   EndPoint: shservices.mundiwebservices.com
    Type: byoc-bb92282c-b580-4206-b843-76daffbb5b0a
    CollectionId: bb92282c-b580-4206-b843-76daffbb5b0a
 
-RegistryEntryAdded: "2021-04-26"
-RegistryEntryLastModified: "2021-04-26"
+RegistryEntryAdded: "2021-05-07"
+RegistryEntryLastModified: "2021-05-07"
