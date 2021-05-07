@@ -13,7 +13,7 @@ GeographicalCoverage: Covering land surface areas between 180.0 West, 90.0 South
 TemporalAvailability: 2018, 2019, and 2020
 UpdateFrequency: New data is added annually.
 Explore: "[Open https://s2maps.eu Sentinel-2 Cloudless map](https://s2maps.eu)"
-Examples: "[Sample data for download(https://downloads.eox.at/EOxCloudless_Samples-and-Documentation.zip)"
+Examples: "[Sample data for download](https://downloads.eox.at/EOxCloudless_Samples-and-Documentation.zip)"
 BandInformation:
   Table:
     Columns:
@@ -37,7 +37,7 @@ BandInformation:
         Description: NIR
         Notes: DN, typically from 0-10000
 Contact: cloudless@eox.at
-Provider: "[EOxCloudless(https://cloudless.eox.at/)"
+Provider: "[EOxCloudless](https://cloudless.eox.at/)"
 ManagedBy: "[EOX IT Services GmbH](https://eox.at/)"
 Tags:
   - EOX
