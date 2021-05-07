@@ -6,7 +6,6 @@ AdditionalInfoExternal:
 Resolution: 0.089932160591873,-0.089932160591873
 GeographicalCoverage: -31.26818657, 27.693670044054727, 34.06794939183746, 70.09145355
 TemporalAvailability: 2017-05-15 - 2020-05-15
-UpdateFrequency:
 BandInformation: PrimaryRoadsActivity
 Contact: "[Henrik Fisser] (henrik.fisser@t-online.de)"
 Provider: "[Henrik Fisser, University of Würzburg, Germany]"

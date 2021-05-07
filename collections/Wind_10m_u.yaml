@@ -6,7 +6,6 @@ AdditionalInfoExternal:
 Resolution: 0.25° x 0.25°
 GeographicalCoverage: -179.999755859375, -90.12489004526765, 179.99977453631897, 90.125
 TemporalAvailability: 2019-01-01 - 2020-12-01
-UpdateFrequency:
 BandInformation: windu10m
 Contact: "[COPERNICUS SUPPORT](copernicus-support@ecmwf.int)"
 Provider: "[COPERNICUS](https://cds.climate.copernicus.eu/cdsapp#!/dataset/10.24381/cds.6860a573?tab=overview)"
