@@ -1,4 +1,4 @@
-# EOxCloudless Sentinel-2 L2A 10m Mosaic
+# EOxCloudless Sentinel-2 10m Global Mosaic
 
 ### EOxCloudless Viewing Ready
 

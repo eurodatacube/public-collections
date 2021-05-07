@@ -1,18 +1,18 @@
-Name: EOxCloudless Sentinel-2 L2A 10m Mosaic
+Name: EOxCloudless Sentinel-2 10m Global Cloudless Mosaic
 Description: |
-  EOxCloudless Sentinel-2 L2A 10m mosaic is a derived product, created to provide
-  an almost cloudfree global dataset every year. The exact description of the
-  available products is at the "[EOxCloudless(https://cloudless.eox.at/)" website.
+  EOxCloudless Sentinel-2 10m Global Cloudless Mosaic is a derived product,
+  created to provide an almost cloudfree global dataset every year. The exact
+  description of the available products is at the "[EOxCloudless(https://cloudless.eox.at/)" website.
 AdditionalInfoExternal:
   Title: Additional info
-  Path: eoxcloudless-s2-l2a-mosaic-10/README.MD
-Image: eoxcloudless-s2-l2a-mosaic-10/eoxcloudless-s2-l2a-mosaic-10.jpg
+  Path: eoxcloudless-s2-global-mosaic-10/README.MD
+Image: eoxcloudless-s2-global-mosaic-10/eoxcloudless-s2-global-mosaic-10.jpg
 Resolution: 10m
 GeographicalCoverage: Covering land surface area between 180.0 West, 90.0 South
   and 180.0 East, 90.0 North
-TemporalAvailability: 2016, 2018, 2019 and 2020
+TemporalAvailability: 2018, 2019 and 2020
 UpdateFrequency: New data is added annually.
-Example: "[Sample Data for Download(https://downloads.eox.at/EOxCloudless_Samples-and-Documentation.zip)"
+Example: "[Sample Data for download(https://downloads.eox.at/EOxCloudless_Samples-and-Documentation.zip)"
 BandInformation:
   Table:
     Columns:
@@ -50,8 +50,8 @@ Tags:
   - agriculture
   - maps
 License:
-  - Title: EOxCloudless License
-    URL: https://cloudless.eox.at/license-deed/
+  - Title: EOX Commercial Attribution-RestrictedUse 1.1 License
+    URL: https://cloudless.eox.at/license-legal/
 Resources:
   - Group: EOxCLoudless Resources
   - EndPoint: https://cloudless.eox.at/
@@ -89,5 +89,5 @@ DataAtWork:
       URL: https://eox.at/2021/03/sentinel-2-cloudless-2020/
       AuthorName: Sevcik P.
 
-RegistryEntryAdded: "2021-05-10"
-RegistryEntryLastModified: "2021-05-10"
+RegistryEntryAdded: "2021-05-07"
+RegistryEntryLastModified: "2021-05-07"
