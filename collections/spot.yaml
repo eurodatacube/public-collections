@@ -14,7 +14,7 @@ GeographicalCoverage: ([more info](https://www.intelligence-airbusds.com/en/8693
 TemporalAvailability: 2012 - ongoing
 UpdateFrequency: data is not acquired systematically, data acquisition is tasked
 BandInformation: Information about [bands and data](https://docs.sentinel-hub.com/api/latest/data/airbus/spot/#available-bands-and-data)  
-Contact: https://forum.sentinel-hub.com
+Contact: https://forum.sentinel-hub.com/c/euro-data-cube/25
 Provider: "[Airbus](https://www.airbus.com/)"
 ManagedBy: "[Airbus](https://www.airbus.com/)"
 Tags:
@@ -42,4 +42,4 @@ CustomScripts:
 
 
 RegistryEntryAdded: "2020-06-17"
-RegistryEntryLastModified: "2021-04-29"
+RegistryEntryLastModified: "2021-05-05"

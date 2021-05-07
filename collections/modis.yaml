@@ -16,7 +16,7 @@ GeographicalCoverage: MCD43A4.006 product covers Land ([more info](https://modis
 TemporalAvailability: February 2000 - ongoing
 UpdateFrequency: MODIS data are added regularly, usually within few hours after they are available on the USGS archive
 BandInformation: Information about [bands and data](https://docs.sentinel-hub.com/api/latest/data/modis/mcd/#available-bands-and-data)  
-Contact: https://forum.sentinel-hub.com
+Contact: https://forum.sentinel-hub.com/c/euro-data-cube/25
 Provider: "[USGS](https://www.usgs.gov//)" 
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
 Tags:
@@ -40,6 +40,5 @@ CustomScripts:
     Title: Collection of MODIS custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#modis
 
-
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2021-04-08"
+RegistryEntryLastModified: "2021-05-05"
