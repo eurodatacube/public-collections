@@ -2,7 +2,7 @@ Name: ICEYE_E13b
 Description: ICEYE image and detection of parked airplanes
 AdditionalInfoExternal:
     Title: Additional info
-    Path: ICEYE_E13b/README.MD
+    Path: iceye_e13b/README.MD
 Resolution: Pixel Size = (0.0000060,-0.0000060)
 GeographicalCoverage: -1.245691996, 40.394458816, 8.533407797, 50.049107756
 TemporalAvailability: 2020-03-20 - 2020-08-25

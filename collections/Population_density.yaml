@@ -2,7 +2,7 @@ Name: Population_density
 Description: Gridded Population of the World v4 for year 2020
 AdditionalInfoExternal:
     Title: Additional info
-    Path: Population_density/README.MD
+    Path: population_density/README.MD
 Resolution: 1000m
 GeographicalCoverage: -180.0, -90.0, 179.99999999999983, 89.99999999999991
 TemporalAvailability: "2020"

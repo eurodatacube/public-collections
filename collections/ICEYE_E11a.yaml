@@ -2,7 +2,7 @@ Name: ICEYE_E11a
 Description: Activity at leisure facility (Stadium) affected by COVID
 AdditionalInfoExternal:
     Title: Additional info
-    Path: ICEYE_E11a/README.MD
+    Path: iceye_e11a/README.MD
 Resolution: Pixel Size = (0.0000060,-0.0000060)
 GeographicalCoverage: 21.039070567, 52.235855988, 21.052287012, 52.248886356
 TemporalAvailability: 2020-02-07 - 2020-04-13
