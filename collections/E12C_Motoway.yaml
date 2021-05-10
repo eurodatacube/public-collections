@@ -2,7 +2,7 @@ Name: E12C_Motoway
 Description: This indicator is based on the detection of moving trucks on motorways in the EU. The detection uses data from the Copernicus Sentinel-2 satellite.
 AdditionalInfoExternal:
     Title: Additional info
-    Path: E12C_Motoway/README.MD
+    Path: e12c_motoway/README.MD
 Resolution: 0.089932160591873,-0.089932160591873
 GeographicalCoverage: -31.26818657, 27.693670044054727, 34.06794939183746, 70.09145355
 TemporalAvailability: 2017-05-15 - 2020-05-15

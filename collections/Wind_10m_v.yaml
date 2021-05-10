@@ -2,7 +2,7 @@ Name: Wind_10m_v
 Description: Gridded ERA5 is the fifth generation ECMWF reanalysis for the global climate and weather for the past 4 to 7 decades. This parameter is the wind V field
 AdditionalInfoExternal:
     Title: Additional info
-    Path: Wind_10m_v/README.MD
+    Path: wind_10m_v/README.MD
 Resolution: 0.25° x 0.25°
 GeographicalCoverage: -179.999755859375, -90.12489004526765, 179.99977453631897, 90.125
 TemporalAvailability: 2019-01-01 - 2020-12-01

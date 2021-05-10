@@ -2,7 +2,7 @@ Name: ICEYE_E3
 Description: Oil storages filling up as demand for oil decreases when people are not travelling
 AdditionalInfoExternal:
     Title: Additional info
-    Path: ICEYE_E3/README.MD
+    Path: iceye_e3/README.MD
 Resolution: Pixel Size = (0.0000060,-0.0000060)
 GeographicalCoverage: 4.08589, 51.94683, 4.10156, 51.95753
 TemporalAvailability: 2020-02-04 - 2020-07-17
