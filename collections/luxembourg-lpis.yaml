@@ -3,11 +3,14 @@ Description: |
   Luxembourg's Land Parcel Identification System (LPIS) data collection (also agricultural plots/ 'parcelles agricoles')
   is managed by [The administration of agricultural technical services (ASTA)](https://agriculture.public.lu/de/betriebsfuhrung/gis.html)
   and  made available on [The Luxembourg data platform](https://data.public.lu/fr/datasets/referentiel-des-parcelles-flik/). 
-  In Luxembourg, it is reffered to as plot-based parcel reference system (FLIK), an identification system for agricultural and wine-growing parcels 
+  In Luxembourg, it is referred to as plot-based parcel reference system (FLIK), an identification system for agricultural and wine-growing parcels 
   which serves as the basis for the declaration under the common agricultural policy (CAP).
   Luxembourg LPIS data collection is made available on geoDB on subscription basis. Subscription costs are meant to cover storage and service costs. 
 Documentation: |
  Read more [here](https://agriculture.public.lu/de/betriebsfuhrung/gis.html) and [Euro Data Cube checkout](https://eurodatacube.com/marketplace/data-products/lpis)
+AdditionalInfoExternal:
+    Title: Additional info 
+    Path: luxembourg-lpis/README.MD 
 Explore: "[Open on Graphical Viewer](https://map.geoportail.lu/theme/agriculture?layers=1637&zoom=13&version=3&X=704190&Y=6401913&lang=fr&rotation=0&opacities=0.75&bgLayer=orthogr_2013_global)"
 Image: luxembourg-lpis/luxembourg-lpis.png
 GeographicalCoverage: Luxembourg
