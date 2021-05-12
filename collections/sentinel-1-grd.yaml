@@ -11,6 +11,7 @@ Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/sentinel-1-
 Image: sentinel-1-grd/sentinel-1-grd.png 
 Resolution: High - 10m, Medium - 40m
 EOBrowser: https://sentinelshare.page.link/u7UY
+Explore: "[Open Notebook](https://eurodatacube.com/marketplace/notebooks/contributions/Exploring_time_and_space_with_EDC.ipynb)"
 GeographicalCoverage: Land, coastal zones, shipping routes ([more info](https://sentinel.esa.int/web/sentinel/user-guides/sentinel-1-sar/revisit-and-coverage))
 TemporalAvailability: October 2014- ongoing
 UpdateFrequency: New Sentinel data are added regularly, usually within few hours after they are available on Copernicus Hub.
@@ -45,6 +46,11 @@ Resources:
 CustomScripts:
     Title: Collection of Sentinel-1 custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#sentinel-1
+DataAtWork:
+  Tutorials:
+    - Title: "Exploring Time and Space: A guide to accessing, analysing and visualising data in the Euro Data Cube"
+      URL: https://medium.com/euro-data-cube/exploring-time-and-space-a-guide-to-accessing-analysing-and-visualising-data-in-the-euro-data-e4a46f2bb55b
+      AuthorName: Ray W.
 
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2021-05-05"
+RegistryEntryLastModified: "2021-05-12"
