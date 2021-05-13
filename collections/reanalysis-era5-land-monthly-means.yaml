@@ -11,6 +11,9 @@ Description: |
  The temporal and spatial resolutions of ERA5-Land makes it very useful for land surface monitoring applications such as flood or drought forecasting.  
  Visit [ERA5-Land documentation](https://confluence.ecmwf.int/display/CKB/ERA5-Land%3A+data+documentation) for more information. 
 Documentation: "[Product information](https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-land-monthly-means?tab=overview)"
+AdditionalInfoExternal:
+    Title: Additional info 
+    Path: reanalysis-era5-land-monthly-means/README.MD 
 Image: reanalysis-era5-land-monthly-means/reanalysis-era5-land-monthly-means.png
 Resolution: 0.1x0.1 degrees.
 GeographicalCoverage: (180°W, 180°E, 90°N, 90°S)  
