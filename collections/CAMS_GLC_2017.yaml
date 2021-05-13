@@ -3,6 +3,7 @@ Description: The S2GLC 2017 product represents land cover classification of a ma
 AdditionalInfoExternal:
     Title: Additional info
     Path: cams_glc_2017/README.MD
+Image: cams_glc_2017/cams_glc_2017.png
 Resolution: 10m
 GeographicalCoverage: -33.56847525983416, 31.857766985498905, 62.19564440228477, 72.37088743023797
 TemporalAvailability: "2017"

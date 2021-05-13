@@ -3,6 +3,7 @@ Description: Oil storages filling up as demand for oil decreases when people are
 AdditionalInfoExternal:
     Title: Additional info
     Path: iceye_e3/README.MD
+Image: iceye_e3/iceye_e3.png
 Resolution: Pixel Size = (0.0000060,-0.0000060)
 GeographicalCoverage: 4.08589, 51.94683, 4.10156, 51.95753
 TemporalAvailability: 2020-02-04 - 2020-07-17

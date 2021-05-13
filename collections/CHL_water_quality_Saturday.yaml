@@ -3,6 +3,7 @@ Description: "Chlorophyll anomaly maps for 3 sites: Lagoon Venice, Marseille and
 AdditionalInfoExternal:
     Title: Additional info
     Path: chl_water_quality_saturday/README.MD
+Image: chl_water_quality_saturday/chl_water_quality_saturday.png
 Resolution: 300m
 GeographicalCoverage: 0.4982046708598385, 40.498973093940286, 13.82206392288208, 45.80052375793457
 TemporalAvailability: 2020-01-04 - 2021-04-17

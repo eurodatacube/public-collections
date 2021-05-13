@@ -3,6 +3,7 @@ Description: Gridded ERA5 is the fifth generation ECMWF reanalysis for the globa
 AdditionalInfoExternal:
     Title: Additional info
     Path: 2mt_2020_monthly_average_from_cds/README.MD
+Image: 2mt_2020_monthly_average_from_cds/2mt_2020_monthly_average_from_cds.png
 Resolution: 0.25° x 0.25°
 GeographicalCoverage: -179.999755859375, -90.12489004526765, 179.99977453631897, 90.125
 TemporalAvailability: 2019-01-01 - 2020-12-01

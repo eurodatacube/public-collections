@@ -3,6 +3,7 @@ Description: The data comes from the Copernicus Sentinel-5P satellite and shows 
 AdditionalInfoExternal:
     Title: Additional info
     Path: s5p-no2-tropno-daily-check/README.MD
+Image: s5p-no2-tropno-daily-check/s5p-no2-tropno-daily-check.png
 Resolution: 3.5 x 5.5 Km (across x along track)
 GeographicalCoverage: -180.0, -90.0, 180.0, 90.0
 TemporalAvailability: 2018-04-30 - 2021-04-12
