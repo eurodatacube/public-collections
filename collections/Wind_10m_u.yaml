@@ -3,6 +3,7 @@ Description: Gridded ERA5 is the fifth generation ECMWF reanalysis for the globa
 AdditionalInfoExternal:
     Title: Additional info
     Path: wind_10m_u/README.MD
+Image: wind_10m_u/wind_10m_u.png
 Resolution: 0.25° x 0.25°
 GeographicalCoverage: -179.999755859375, -90.12489004526765, 179.99977453631897, 90.125
 TemporalAvailability: 2019-01-01 - 2020-12-01
