@@ -60,6 +60,11 @@
       <p>{{{md TemporalAvailability}}}</p>
       {{/if}}
 
+      {{#if TemporalResolution}}
+      <h4>Temporal Resolution</h4>
+      <p>{{{md TemporalResolution}}}</p>
+      {{/if}}
+
       {{#if UpdateFrequency}}
       <h4>Update Frequency</h4>
       <p>{{UpdateFrequency}}</p>
@@ -70,8 +75,13 @@
       {{{tabelaricRenderer BandInformation}}}
       {{/if}}
 
+      {{#if Variables}}
+      <h4>Variables Information</h4>
+      {{{tabelaricRenderer Variables}}}
+      {{/if}}
+
       {{#if Attributes}}
-      <h4>Attributes</h4>
+      <h4>Attributes Information</h4>
       <p>{{{tabelaricRenderer Attributes}}}</p>
       {{/if}}  
 
@@ -149,10 +159,6 @@
             <dt class="resource-arn">End point</dt>
             <dd><code>{{EndPoint}}</code></dd>
             {{/if}}
-            {{#if URL}}
-            <dt class="resource-arn">URL</dt>
-            <dd><code>{{URL}}</code></dd>
-            {{/if}}
             {{#if Type}}
             <dt class="resource-host">Type</dt>
             <dd><code>{{Type}}</code></dd>
@@ -173,13 +179,17 @@
             <dt class="resource-host">collection</dt>
             <dd><code>{{Collection}}</code></dd>
             {{/if}}
-            {{#if DataStore}}
-            <dt class="resource-host">Data Store</dt>
-            <dd><code>{{DataStore}}</code></dd>
+            {{#if StoreInstanceID}}
+            <dt class="resource-host">store.store_instance_id</dt>
+            <dd><code>{{StoreInstanceID}}</code></dd>
             {{/if}}
-            {{#if DataSet}}
-            <dt class="resource-host">Data Set</dt>
-            <dd><code>{{DataStore}}</code></dd>
+            {{#if StoreTitle}}
+            <dt class="resource-host">store.title</dt>
+            <dd><code>{{StoreTitle}}</code></dd>
+            {{/if}}
+            {{#if DataID}}
+            <dt class="resource-host">data.data_id</dt>
+            <dd><code>{{DataID}}</code></dd>
             {{/if}}
             {{#if Notes}}
             <dt class="resource-description">Notes</dt>
