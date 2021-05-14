@@ -1,4 +1,4 @@
-**The goal of this registry is to expand access to useful data available on Euro Data Cube.** With that in mind, we prefer to list datasets that are clearly documented, are actively supported, can be used for research or educational purposes. Collections are included at the discretion of the Euro Data Cube team, which may remove collections from the registry at any time. Data providers are responsible for maintaining and supporting the data that they share. 
+**The goal of this registry is to expand access to useful data collections available on Euro Data Cube.** With that in mind, we prefer to list collections that are clearly documented, are actively supported, can be used for research or educational purposes. Collections are included at the discretion of the Euro Data Cube team, which may remove collections from the registry at any time. Data providers are responsible for maintaining and supporting the data that they share. 
 
 ## How are collections added to the registry?
 
