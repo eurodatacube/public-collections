@@ -1,4 +1,4 @@
-# Lake Water Quality 300m
+# ERA5-Land monthly averaged data 
 
 ## Short description
 
