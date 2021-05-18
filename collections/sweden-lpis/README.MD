@@ -27,7 +27,7 @@ ogr2ogr [-s_srs srs_def] [-t_srs srs_def] [dstfile] [srcfile]
 
 Example of converting  from EPSG:3006 to EPSG:3857 
 ```
-ogr2ogr -s_srs EPSG:2169 -t_srs EPSG:3857 lpis_3857.shp lpis_3006.shp
+ogr2ogr -s_srs EPSG:3006 -t_srs EPSG:3857 lpis_3857.shp lpis_3006.shp
 ```
 
 ## Attribute Information  
