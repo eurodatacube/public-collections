@@ -10,6 +10,10 @@ Description: |
   therefore one of the primary use is in the administration of cases related to the geographical location of arable land, by EU area-based support schemes.
   Denmark LPIS data collection is made available on geoDB on subscription basis. Subscription costs are meant to cover storage and service costs. 
 Documentation: Read more on [The Danish Agency for Agriculture](https://lbst.dk/landbrug/kort-og-markblokke/) and  [Euro Data Cube checkout](https://eurodatacube.com/marketplace/data-products/lpis) 
+AdditionalInfoExternal:
+  Title: Additional info
+  Path: denmark-lpis/README.MD
+Image: denmark-lpis/denmark-lpis.png
 Explore: "[Open in Graphical Viewer](https://miljoegis.mim.dk/spatialmap?profile=lbst)"
 GeographicalCoverage: Denmark
 TemporalAvailability: 2005 - ongoing

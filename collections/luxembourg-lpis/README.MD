@@ -9,7 +9,7 @@ The plot-based parcel reference system (FLIK) in Luxembourg was digitally record
 The FLIK parcels are categorized into eligible agricultural parcels, eligible vineyard parcels, ineligible parcels, and non-payable objects. The data has been uploaded to geoDB and is available from 2016 to 2021 annually with updates expected annually. 
 
 ## Coordinate Reference System
-All datasets published in [EPSG:2169 (Luxembourg 1930 / Gauss)](http://epsg.io/2169)
+EPSG:2169 (Luxembourg 1930 / Gauss), [more info](http://epsg.io/2169)
 
 Use the GDAL command below to convert the LPIS collection's CRS into CRS of your choice:
 
