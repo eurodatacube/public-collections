@@ -329,4 +329,8 @@ table {
  box-shadow: rgb(175 158 232 / 40%) -1px 0px 4px 1px;
  height:80px;
 }
+.white_bck {
+  border: solid 0.5px lightgray;
+  width: 200px;
+}
 
