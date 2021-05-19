@@ -109,11 +109,11 @@ Download [description of crop names.xlsx](GSAA_DK_Description_of_crop_names.xlsx
 
 - [Publicly available compressed ESRI Shapefiles](https://kortdata.fvm.dk/download/Index?page=Markblokke_Marker), updated at least every three years for the previous years Download under ‘Marker’. There are no limitations to the use of these data.    
 
-- [Danish geoportal for spatial data, services search and metadata descriptions](https://www.geodata-info.dk/srv/eng/catalog.search#/home). Search ‘Markblokke’  
+- [Danish geoportal for spatial data, services search and metadata descriptions](https://www.geodata-info.dk/srv/eng/catalog.search#/home). Search ‘Marker’  
 
 - [INSPIRE geoportal](https://inspire-geoportal.ec.europa.eu/results.html?country=dk&view=details&theme=none). Search ‘Marker’  
  
-- Explore on Danish Agency for Agriculture's [MiljøGIS profile (public graphical viewer)](http://miljoegis.mim.dk/spatialmap?profile=lbst). Under ‘Markblokke’ section 
+- Explore on Danish Agency for Agriculture's [MiljøGIS profile (public graphical viewer)](http://miljoegis.mim.dk/spatialmap?profile=lbst). Under ‘Marker’ section 
 
 ### Geographic Location  
 
