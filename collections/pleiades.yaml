@@ -36,7 +36,7 @@ Resources:
     EndPoint: services.sentinel-hub.com
     Type: CUSTOM
     CollectionId: known to user after purchase
-    Notes: Contains the data purchased by individual user5
+    Notes: Contains the data purchased by individual user
 CustomScripts:
     Title: Collection of Pleiades custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#airbus_pleiades
