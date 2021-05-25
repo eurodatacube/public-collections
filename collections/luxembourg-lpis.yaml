@@ -43,7 +43,7 @@ Attributes:
         - Name: ENVIR
           Description: Environmentally sensitive grassland
 Contact: https://forum.sentinel-hub.com/c/euro-data-cube/25, 
-Provider: "[Luxembourg administration of agricultural technical services (ASTA)](https://jordbruksverket.se/om-jordbruksverket)"
+Provider: "[Luxembourg administration of agricultural technical services (ASTA)](https://ma.gouvernement.lu/fr/administrations/asta.html)"
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
 Tags:
   - commercial data
