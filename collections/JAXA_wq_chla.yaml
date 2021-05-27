@@ -1,0 +1,28 @@
+Name: JAXA_wq_chla
+Description: "water quality Chlorophil a anomalies"
+AdditionalInfoExternal:
+    Title: Additional info
+    Path: jaxa_wq_chla/README.MD
+Resolution:
+GeographicalCoverage: 12.0, 33.85, 140.25, 45.8
+TemporalAvailability: 2018-01-06 - 2021-04-17
+UpdateFrequency: weekly
+BandInformation:chla
+Contact: "[JAXA]"
+Provider:"[JAXA]"
+ManagedBy:"[ESA](http://www.esa.int/)"
+Tags:
+    - open data
+    - sentinel hub
+    - raster
+    - dashboard hackathon
+License: |
+ Full, open and free access
+Resources:
+  - Group: Sentinel Hub Resources
+  - EndPoint: shservices.mundiwebservices.com
+   Type: byoc-dc461d36-d855-4021-93e6-686f08d48f3d
+   CollectionId: dc461d36-d855-4021-93e6-686f08d48f3d
+
+RegistryEntryAdded: "2021-05-26"
+RegistryEntryLastModified: "2021-05-26"
