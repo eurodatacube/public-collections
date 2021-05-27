@@ -12,7 +12,7 @@ EOBrowser: https://sentinelshare.page.link/wDL1
 Resolution: "varies per zoom level, location and data source [more info](https://github.com/tilezen/joerd/blob/master/docs/data-sources.md#what-is-the-ground-resolution)"
 GeographicalCoverage: Ocean and Land ([more info](https://github.com/tilezen/joerd/blob/master/docs/data-sources.md#what-is-sourced-at-what-zooms))
 TemporalAvailability: static [current version was built in 2017](https://github.com/tilezen/joerd/blob/master/docs/data-sources.md#data-updates)
-UpdateFrequency: "[depends on updates by Mapzen](https://github.com/tilezen/joerd/blob/master/docs/data-sources.md#data-updates)"
+UpdateFrequency: depends on updates by Mapzen
 BandInformation: Information about [bands and data](https://docs.sentinel-hub.com/api/latest/data/dem/#available-bands-and-data)  
 Contact: https://forum.sentinel-hub.com/c/euro-data-cube/25
 Provider: "[Mapzen](https://www.mapzen.com/)"
