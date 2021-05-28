@@ -9,6 +9,7 @@ A general, negative trend of Chl concentration anomaly is observed in the Venice
 Offshore the lagoon, this striking negative trend is likely due to remarkably well-stratified thermohaline conditions, which maintained values of Chl concentration fairy low and hindered alongshore transport of riverine loads in the northern sector of the basin. These well-stratified conditions, clearly exemplified by the observed increase in Sea Surface Temperature (Fig. 2) as measured by a multi-sensor product (including data from NOAA-18, MetOpA-B, Aqua, Terra, MSG1, NPP, Meteosat11, Sentinel 3A-B), resulted from the particular interplay between low and warm Po River runoff and low wind intensities.
 
 ![Sentinel-2 MSI Turbidity](N3a2-Fig3.png)
+
 *S2-derived turbidity maps in the last inland branch of the Po River March, 19th 2020 (beginning of lockdown) and April, 8th (middle of lockdown)*
 
 ## Band information
@@ -16,4 +17,5 @@ the product contains one single band named "tsm".
 
 ## More information
 ![North Adriatic - Total Suspended Matter](jaxa_tsmn.PNG)
+
 *North Adriatic - Total Suspended Matter (TSM) i.e, the concentration of organic and inorganic materials suspended in the water*
