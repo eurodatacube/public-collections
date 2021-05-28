@@ -1,5 +1,5 @@
 Name: JAXA_wq_chla
-Description: "water quality Chlorophil a anomalies"
+Description: "water quality Chlorophyll a anomalies"
 AdditionalInfoExternal:
     Title: Additional info
     Path: jaxa_wq_chla/README.MD
@@ -7,11 +7,11 @@ Resolution:
 GeographicalCoverage: 12.0, 33.85, 140.25, 45.8
 TemporalAvailability: 2018-01-06 - 2021-04-17
 UpdateFrequency: weekly
-BandInformation:chla
+BandInformation: chla
 Contact: "[JAXA]"
-Provider:"[JAXA]"
-ManagedBy:"[ESA](http://www.esa.int/)"
-Tags:
+Provider: "[JAXA]"
+ManagedBy: "[ESA](http://www.esa.int/)"
+Tags: 
     - open data
     - sentinel hub
     - raster
