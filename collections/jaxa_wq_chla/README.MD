@@ -8,7 +8,7 @@ A general, negative trend of Chl concentration anomaly is observed in the Venice
 
 Offshore the lagoon, this striking negative trend is likely due to remarkably well-stratified thermohaline conditions, which maintained values of Chl concentration fairy low and hindered alongshore transport of riverine loads in the northern sector of the basin. These well-stratified conditions, clearly exemplified by the observed increase in Sea Surface Temperature (Fig. 2) as measured by a multi-sensor product (including data from NOAA-18, MetOpA-B, Aqua, Terra, MSG1, NPP, Meteosat11, Sentinel 3A-B), resulted from the particular interplay between low and warm Po River runoff and low wind intensities.
 
-![Sentinel 2 True-colour and turbidity](N3a2-Fig3.png)
+![Sentinel 2 True-colour and turbidity](N3a2-Fig1.png)
 
 *S2-derived true-colour images (left panels) and turbidity maps (right panels) in the lagoon of Venice on February, 20th (Pre-COVID-19) and March 19th (COVID-19)*
 
