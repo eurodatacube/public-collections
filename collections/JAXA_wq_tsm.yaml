@@ -9,8 +9,8 @@ TemporalAvailability: 2018-01-06 - 2021-04-17
 UpdateFrequency: weekly
 BandInformation: tsm
 Contact: "[JAXA]"
-Provider:"[JAXA]"
-ManagedBy:"[ESA](http://www.esa.int/)"
+Provider: "[JAXA]"
+ManagedBy: "[ESA](http://www.esa.int/)"
 Tags:
     - open data
     - sentinel hub
