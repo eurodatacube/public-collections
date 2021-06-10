@@ -10,17 +10,20 @@ Description: |
   vegetation to obtain information about vegetation and ground surface.  
   Strip Map mode 1 (SM1) is fine mode with 3m spatial resolution with 50km width swath and single polarization (HH), 
   and Strip Map mode 3 (SM3) is also fine mode with 10m spatial resolution with 70km width swath and dual polarization (HH/HV).
+AdditionalInfoExternal:
+  Title: Additional info
+  Path: alos-2-palsar-2-stripmap-for-economy/README.MD
 Resolution: |
  SMI: 3m  
  SM3: 10m
 GeographicalCoverage: |
-  PARIS SM3: (49.004, 3.111 : 48.519, 3.672) Upper Left (UL) : Bottom Right (BR)
-  Dunkrik SM3: (51.462, 1.775 : ) 
-  LA SM1:  (34.226, -118.002 : 33.707, -117.869)
-  Beijing SM3:  (40.129, 116.283 : 39.637, 117.247)
+  PARIS SM3: (49.004, 3.111 : 48.519, 3.672) Upper Left (UL) : Bottom Right (BR)  
+  Dunkrik SM3: (51.462, 1.775 : )   
+  LA SM1:  (34.226, -118.002 : 33.707, -117.869)  
+  Beijing SM3:  (40.129, 116.283 : 39.637, 117.247)  
   Haneda SM1: (35.965, 139.651: 35.267, 139.897)
-TemporalAvailability: 2019-03-01-2020-12-31
-UpdateFrequency: None, this collection was generated for EODashboard Hackathon
+TemporalAvailability: 2019-03-01  -  2020-12-31
+UpdateFrequency: This collection is meant for EODashboard Hackathon
 BandInformation: 
  Table:
     Columns:
