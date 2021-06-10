@@ -1,0 +1,44 @@
+Name: Total suspended matter concentration weekly anomaly (GCOM-C)
+Description: |
+  Ratio (percentage) of weekly total suspended matter concentration divided by average concentration of other years for 4 sites:  North Adriatic, Tokyo, Kobe and Nagoya.  
+  Anomaly[%]=((DN-1)/254*(300-(-100))-100)
+AdditionalInfoExternal:
+    Title: Additional info
+    Path: total-suspended-matter-concentration-weekly-anomaly/README.MD
+Resolution: 0.0025 degrees equal lat lon
+GeographicalCoverage: |
+   North Adriatic: lon E: 12.0 ~ 13.8, lat N: 45.8 ~ 44.5  
+   Tokyo: lon E: 139.25 ~ 140.25, lat N:  34.85 ~ 35.85  
+   Kobe-Osaka: lon E: 134.5  ~ 135.5, lat N:  33.85 ~ 34.85  
+   Nagoya: lon E: 136.4 ~ 137.4, lat N: 34.2 ~ 35.2
+TemporalAvailability: 2018-04-07 - 2021-04-17
+UpdateFrequency: weekly
+BandInformation: 
+  Table:
+    Columns:
+      - Name: Name
+        Title: Name
+      - Name: Description
+        Title: Description
+    Rows:
+      - Name: tsm
+        Description: total suspended matter concentration weekly anomaly
+Contact: sobue.shinichi@jaxa.jp
+Provider: "[JAXA](https://global.jaxa.jp/)"
+ManagedBy: "[JAXA](https://global.jaxa.jp/)"
+Tags: 
+    - open data
+    - sentinel hub
+    - raster
+    - water quality
+    - dashboard hackathon
+License: |
+ Full, open and free access
+Resources:
+  - Group: Sentinel Hub Resources
+    EndPoint: shservices.mundiwebservices.com
+    Type: byoc-4f5f67f1-5715-4f2b-8c98-ae57948ee2f5
+    CollectionId: 4f5f67f1-5715-4f2b-8c98-ae57948ee2f5
+
+RegistryEntryAdded: "2021-09-06"
+RegistryEntryLastModified: "2021-09-06"
