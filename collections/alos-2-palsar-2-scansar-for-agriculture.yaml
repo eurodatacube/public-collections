@@ -9,6 +9,7 @@ Description: |
   monitoring disasters rapidly. In addition, L-band microwave can reach to the ground partially penetrating through 
   vegetation to obtain information about vegetation and ground surface.    
   ScanSAR is wide swath mode with 100m spatial resolution, 350km width swath, and dual polarization (HH/HV).
+Image: alos-2-palsar-2-scansar-for-agriculture/alos-2-palsar-2-scansar-for-agriculture.png
 AdditionalInfoExternal:
   Title: Additional info
   Path: alos-2-palsar-2-scansar-for-agriculture/README.MD
