@@ -29,7 +29,6 @@ Provider: "[JAXA](https://global.jaxa.jp/)"
 ManagedBy: "[JAXA](https://global.jaxa.jp/)"
 Tags:
     - open data
-    - sentinel hub
     - time series
     - dashboard hackathon
     - air quality
