@@ -1,20 +1,19 @@
-Name: JAXA_wq_chla
+Name: JAXA_wq_tsm_anomaly
 Description: |
-  Water quality Chlorophyll-a weekly anomaly.  
-  It is the ratio (percentage) of weekly chlorophyll-a concentration divided by average concentration of other years for 4 sites:  North Adriatic, Tokyo, Kobe and Nagoya.  
+  Ratio (percentage) of weekly total suspended matter concentration divided by average concentration of other years for 4 sites:  North Adriatic, Tokyo, Kobe and Nagoya.  
   Anomaly[%]=((DN-1)/254*(300-(-100))-100)
-Image: jaxa_wq_chla/jaxa_wq_chla.png 
+Image: total-suspended-matter-concentration-weekly-anomaly/jaxa_wq_tsm.png 
 AdditionalInfoExternal:
     Title: Additional info
-    Path: jaxa_wq_chla/README.MD
+    Path: total-suspended-matter-concentration-weekly-anomaly/README.MD
 Resolution: 0.0025 degrees equal lat lon
 GeographicalCoverage: |
    North Adriatic: lon E: 12.0 ~ 13.8, lat N: 45.8 ~ 44.5  
    Tokyo: lon E: 139.25 ~ 140.25, lat N:  34.85 ~ 35.85  
    Kobe-Osaka: lon E: 134.5  ~ 135.5, lat N:  33.85 ~ 34.85  
    Nagoya: lon E: 136.4 ~ 137.4, lat N: 34.2 ~ 35.2
-TemporalAvailability: 2018-04-07 - 2021-05-08
-UpdateFrequency: weekly
+TemporalAvailability: 2018-01-20 - 2021-05-22
+UpdateFrequency: This collection is made available for EODashboard Hackathon
 BandInformation: 
   Table:
     Columns:
@@ -23,8 +22,8 @@ BandInformation:
       - Name: Description
         Title: Description
     Rows:
-      - Name: chla
-        Description: chlorophyll-a concentration weekly anomaly
+      - Name: tsm
+        Description: total suspended matter concentration weekly anomaly
 Contact: sobue.shinichi@jaxa.jp
 Provider: "[JAXA](https://global.jaxa.jp/)"
 ManagedBy: "[JAXA](https://global.jaxa.jp/)"
@@ -34,13 +33,14 @@ Tags:
     - raster
     - water quality
     - dashboard hackathon
+    - GCOM-C
 License: |
  Full, open and free access
 Resources:
   - Group: Sentinel Hub Resources
-    EndPoint: shservices.mundiwebservices.com
-    Type: byoc-dc461d36-d855-4021-93e6-686f08d48f3d
-    CollectionId: dc461d36-d855-4021-93e6-686f08d48f3d
+    EndPoint: services.sentinel-hub.com
+    Type: byoc-d8419142-814d-48aa-ba97-bf87950f29d3
+    CollectionId: d8419142-814d-48aa-ba97-bf87950f29d3
 
 RegistryEntryAdded: "2021-05-26"
-RegistryEntryLastModified: "2021-09-06"
+RegistryEntryLastModified: "2021-16-06"
