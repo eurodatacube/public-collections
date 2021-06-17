@@ -1,4 +1,4 @@
-Name: JAXA_wq_tsm
+Name: JAXA_wq_tsm_anomaly
 Description: |
   Ratio (percentage) of weekly total suspended matter concentration divided by average concentration of other years for 4 sites:  North Adriatic, Tokyo, Kobe and Nagoya.  
   Anomaly[%]=((DN-1)/254*(300-(-100))-100)
@@ -33,6 +33,7 @@ Tags:
     - raster
     - water quality
     - dashboard hackathon
+    - JAXA
 License: |
  Full, open and free access
 Resources:
