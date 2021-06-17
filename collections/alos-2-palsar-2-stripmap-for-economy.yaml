@@ -17,9 +17,11 @@ AdditionalInfoExternal:
 Resolution: |
  SM3: 10m
 GeographicalCoverage: |
-  PARIS SM3: [49.004, 3.111 : 48.519, 3.672] (Upper Left: Bottom Right )
-  Dunkrik SM3: [51.462, 1.775 : 54.447,3.186] 
-  Beijing SM3:  [40.129, 116.283 : 39.637, 117.247]
+  PARIS SM3: [49.004, 3.111 : 48.519, 3.672] (Upper Left: Bottom Right )  
+  Dunkrik SM3: [51.462, 1.775 : 54.447,3.186]   
+  Beijing SM1, SM3:  [40.129, 116.283 : 39.637, 117.247]  
+  Haneda SM1: [35.965, 139.651: 35.267, 139.897]  
+  LA SM1:  [34.226, -118.002 : 33.707, -117.869]
 TemporalAvailability: 2019-03-01  -  2020-12-31
 UpdateFrequency: This collection is made available for EODashboard Hackathon
 BandInformation: 
@@ -43,6 +45,7 @@ Tags:
     - raster
     - SAR
     - dashboard hackathon
+    - JAXA
 License: |
  See [additional info](https://collections.eurodatacube.com/alos-2-palsar-2-stripmap-for-economy/readme.html)
 Resources:
