@@ -2,16 +2,17 @@ Name: ALOS-2 PALSAR-2 ScanSAR Reference Rice Paddy Field Map
 Description: |
   This collection contains reference rice paddy field  maps derived from [ALOS-2 ScanSAR](https://alos-pasco.com/en/alos-2/spec/)
   geometrically corrected (orthorectified) data in selected AOIs between 2019 and 2020 for NASA/ESA/JAXA EODashboard Hackathon.   
-  The reference map is described in the digital code as 255: rice paddy field, 0: others.   
+  The reference map is described in the digital code as 255: rice paddy field, 0: others. 
+  It covers the months of March to August. 
 Image: alos-2-palsar-2-scansar-rice-fields-map/alos-2-palsar-2-scansar-rice-fields-map.png
 AdditionalInfoExternal:
   Title: Additional info
   Path: alos-2-palsar-2-scansar-rice-fields-map/README.MD
 Resolution: 100m
 GeographicalCoverage: |
-  Vietnam: [10.37, 104.86 :   8.85, 106.11] (Upper Left : Bottom Right )
+  Vietnam: [10.37, 104.86 :   8.85, 106.11] (Upper Left : Bottom Right )  
   Sacramento: [42.389, -123.518 : 38.672, -120.1]   
-TemporalAvailability: 2019-03-01 - 2020-12-31
+TemporalAvailability: "[2019-03-01]  and  [2020-03-01] "
 UpdateFrequency: This collection is made available for EODashboard Hackathon
 BandInformation: 
  Table:
@@ -37,13 +38,14 @@ Tags:
     - SAR
     - dashboard hackathon
     - rice paddy
+    - JAXA
 License: |
  See [additional info](https://collections.eurodatacube.com/alos-2-palsar-2-scansar-rice-fields-map/readme.html)
 Resources:
   - Group: Sentinel Hub Resources
     EndPoint: services.sentinel-hub.com
-    Type: byoc-69c9e40c-5a14-4d1f-a27c-c5b0bc598050
-    CollectionId: 69c9e40c-5a14-4d1f-a27c-c5b0bc598050
+    Type: byoc-4e6463e6-a328-4618-832c-fa03ed6852f1
+    CollectionId: 4e6463e6-a328-4618-832c-fa03ed6852f1
 
 RegistryEntryAdded: "2021-06-09"
 RegistryEntryLastModified: "2021-06-14"
