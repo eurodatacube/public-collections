@@ -2,7 +2,7 @@
 
 ## Short description
 
-  This [ALOS-2 PALSAR-2](https://alos-pasco.com/en/alos-2/spec/) Strip Map (SM1 with 3m single polarization or SM3 with 10m dual polarization) L2.1 product contains
+  This [ALOS-2 PALSAR-2](https://alos-pasco.com/en/alos-2/spec/) Strip Map (SM1 with 3m single/dual polarization or SM3 with 10m dual polarization) L2.1 product contains
   geometrically corrected (orthorectified)  in selected AOIs between 2019 and 2020 for NASA/ESA/JAXA EODashboard Hackathon.     
   
   The PALSAR-2 aboard the ALOS-2 is a Synthetic Aperture Radar (SAR), which emits microwave and receives the reflection 
@@ -12,7 +12,7 @@
   monitoring disasters rapidly. In addition, L-band microwave can reach to the ground partially penetrating through 
   vegetation to obtain information about vegetation and ground surface.    
   
-  Strip Map mode 1 (SM1) is fine mode with 3m spatial resolution with 50km width swath and single polarization (HH), and Strip Map mode 3 (SM3) is also fine mode with 10m spatial resolution with 70km width swath and dual polarization (HH/HV).  
+  Strip Map mode 1 (SM1) is fine mode with 3m spatial resolution with 50km width swath and single/dual polarization (HH or HH/HV), and Strip Map mode 3 (SM3) is also fine mode with 10m spatial resolution with 70km width swath and dual polarization (HH/HV).  
 
 ## License
 ALOS-2 ScanSAR data products usage conditions:
