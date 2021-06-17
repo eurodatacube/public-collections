@@ -1,4 +1,4 @@
-Name: JAXA_wq_chla
+Name: JAXA_wq_chla_anomaly
 Description: |
   Water quality Chlorophyll-a weekly anomaly.  
   It is the ratio (percentage) of weekly chlorophyll-a concentration divided by average concentration of other years for 4 sites:  North Adriatic, Tokyo, Kobe and Nagoya.  
@@ -34,6 +34,7 @@ Tags:
     - raster
     - water quality
     - dashboard hackathon
+    - JAXA
 License: |
  Full, open and free access
 Resources:
