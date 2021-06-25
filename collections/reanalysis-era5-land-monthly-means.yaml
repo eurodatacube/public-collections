@@ -38,7 +38,7 @@ Tags:
 License: |
   [Licence to use Copernicus Products](https://cds.climate.copernicus.eu/api/v2/terms/static/licence-to-use-copernicus-products.pdf)
 Resources:
--  Group: xcube Resources
+-  Group: xcube Generator Resources
    StoreInstanceID: cds
    StoreTitle: C3S Climate Data Store (CDS)
    DataID: reanalysis-era5-land-monthly-means:monthly_averaged_reanalysis
