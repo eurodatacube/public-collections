@@ -35,7 +35,7 @@ Tags:
 License: |
   [License](https://land.copernicus.eu/terms-of-usee)
 Resources:
--  Group: xcube Resources
+-  Group: xcube Generator Resources
    StoreInstanceID: cop_services_data
    StoreTitle: Datasets from Copernicus Services
    DataID: LWQ-NRT-300m.zarr
