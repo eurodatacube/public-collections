@@ -73,7 +73,7 @@ License: |
 Resources:
   - Group: Sentinel Hub Resources
     EndPoint: creodias.sentinel-hub.com
-    Type: CUSTOM
+    Type: byoc-f0a97620-0e88-4c1f-a1ac-bb388fabdf2c
     CollectionId: f0a97620-0e88-4c1f-a1ac-bb388fabdf2c
 
 RegistryEntryAdded: "2021-03-20"
