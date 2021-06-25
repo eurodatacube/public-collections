@@ -48,7 +48,7 @@ License: |
 Resources:
   - Group: Sentinel Hub Resources   
     EndPoint: creodias.sentinel-hub.com
-    Type: CUSTOM
+    Type: byoc-9a525f12-33b6-424e-a0f2-d567eec0f277
     CollectionId: 9a525f12-33b6-424e-a0f2-d567eec0f277
 CustomScripts:
     Title: Collection of Copernicus services data custom scripts
