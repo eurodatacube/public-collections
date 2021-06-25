@@ -50,6 +50,9 @@ Resources:
     EndPoint: creodias.sentinel-hub.com
     Type: byoc-9a525f12-33b6-424e-a0f2-d567eec0f277
     CollectionId: 9a525f12-33b6-424e-a0f2-d567eec0f277
+  - Group: xcube Resources
+    DatasetName: CUSTOM
+    CollectionId: 9a525f12-33b6-424e-a0f2-d567eec0f277
 CustomScripts:
     Title: Collection of Copernicus services data custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#copernicus_services

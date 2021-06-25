@@ -32,6 +32,9 @@ Resources:
     EndPoint: creodias.sentinel-hub.com
     Type: byoc-cbdba844-f86d-41dc-95ad-b3f7f12535e9
     CollectionId: cbdba844-f86d-41dc-95ad-b3f7f12535e9
+  - Group: xcube Resources
+    DatasetName: CUSTOM
+    CollectionId: cbdba844-f86d-41dc-95ad-b3f7f12535e9
 
 RegistryEntryAdded: "2021-03-21"
 RegistryEntryLastModified: "2021-05-05"
