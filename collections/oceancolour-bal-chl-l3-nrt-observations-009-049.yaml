@@ -43,7 +43,7 @@ Tags:
 License: |
   [License](https://marine.copernicus.eu/user-corner/service-commitments-and-licence)
 Resources:
--  Group: xcube Generator Resources
+-  Group: xcube Resources
    StoreInstanceID: cop_services_data
    StoreTitle: Datasets from Copernicus Services
    DataID: OCEANCOLOUR_ATL_CHL_L4_NRT_OBSERVATIONS_009_037.zarr
