@@ -13,7 +13,7 @@ In some cases, the polygons are updated more frequently if inquiries are receive
 The field blocks data are used in the administration of cases related to the geographical location of arable land, primarily by EU area-based support schemes. The field block map contains approx. 450,000 field blocks, which cover approx. 2.8 million hectares of agricultural land. Each field block is identified by a field block number and contains attributes for geographical area, eligible and ineligible area and the orthophoto used during digitizing of the blocks. 
 
 ## Coordinate Reference System
-EPSG:25832 (ETRS89 / UTM zone 32N) , [more info](https://epsg.io/25832)
+EPSG:25832 (ETRS89 / UTM zone 32N) , [more info](https://epsg.io/25832)  
 
 Use the GDAL command below to convert the LPIS collection's CRS into CRS of your choice:
 

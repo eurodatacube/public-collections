@@ -13,8 +13,7 @@ Originally (1997), the Land Survey's land cover was used to obtain the agricultu
 
 
 ## Coordinate Reference System
-EPSG: 3006 (SWEREF99 TM), [more info](https://epsg.io/3006)
-
+EPSG: 3006 (SWEREF99 TM), [more info](https://epsg.io/3006)  
 Use the GDAL command below to convert the LPIS collection's CRS into CRS of your choice:
 
 ```

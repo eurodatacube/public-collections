@@ -13,7 +13,7 @@ In 2015, RPG version 1.0 was replaced by RPG version 2.0. Even if the two produc
 
 
 ## Coordinate Reference System
-EPSG:2154 (RGF93 / Lambert-93 - France) , [more info](https://epsg.io/2154)
+EPSG:2154 (RGF93 / Lambert-93 - France) , [more info](https://epsg.io/2154)  
 
 Use the GDAL command below to convert the GSAA collection's CRS into CRS of your choice:
 
