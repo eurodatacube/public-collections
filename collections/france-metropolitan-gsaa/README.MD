@@ -13,7 +13,7 @@ In 2015, RPG version 1.0 was replaced by RPG version 2.0. Even if the two produc
 
 
 ## Coordinate Reference System
-EPSG:2154 (RGF93 / Lambert-93 - France) , [more info](https://epsg.io/2154)  
+EPSG:2154 (RGF93 / Lambert-93 - France) , [more info](https://epsg.io/2154).  
 
 Use the GDAL command below to convert the GSAA collection's CRS into CRS of your choice:
 
@@ -75,7 +75,7 @@ ogr2ogr -s_srs EPSG:2154 -t_srs EPSG:3857 gsaa_3857.shp gsaa_2154.shp
   </tbody>
 </table>   
 
-### Table 2: Description of land use categories (only 2014 collection)  
+### Table 2: Description of the crop groups
 
 | CODE_GROUP | French Description | English Description |
 | ------- |  ------------ |---------|
@@ -114,10 +114,11 @@ ogr2ogr -s_srs EPSG:2154 -t_srs EPSG:3857 gsaa_3857.shp gsaa_2154.shp
 ### Online Resources    
 
 - [Publicly available compressed ESRI shapefiles](https://geoservices.ign.fr/documentation/diffusion/telechargement-donnees-libres.html#rpg) updated annually. Download under ‘RPG’. The RPG data can be freely reused, also for commercial use, under the terms of the "open license" version 2.0.  
-Farmers’ declarations in year N are provided in a folder with a name N+1_01_01 (e.g. the data for the year 2006 is provided in a folder with a name 2007_01_01).
+
 - [Open platform for French public data](https://www.data.gouv.fr/fr/datasets/registre-parcellaire-graphique-rpg-contours-des-parcelles-et-ilots-culturaux-et-leur-groupe-de-cultures-majoritaire/#_)
 
 - [Archive](http://data.cquest.org/registre_parcellaire_graphique/)
+
 ### Geographic Location  
 
 ![geographic location](fr_geographic_location.png)  
