@@ -10,8 +10,7 @@ The GSAA is prepared with screen digitization of the agricultural parcels of eac
 
 
 ## Coordinate Reference System
-EPSG: 31370 (Belge 1972 / Belgian Lambert 72 -- Belgium) , [more info](https://epsg.io/31370)
-
+EPSG: 31370 (Belge 1972 / Belgian Lambert 72 -- Belgium) , [more info](https://epsg.io/31370)  
 Use the GDAL command below to convert the GSAA collection's CRS into CRS of your choice:
 
 ```

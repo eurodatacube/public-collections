@@ -14,7 +14,7 @@ Before June 1 annually, the agency shows datasets of previous year’s fields. A
 
 ## Coordinate Reference System  
 
-EPSG:25832 (ETRS89 / UTM zone 32N) , [more info](https://epsg.io/25832)
+EPSG:25832 (ETRS89 / UTM zone 32N) , [more info](https://epsg.io/25832)  
 
 Use the GDAL command below to convert the GSAA collection's CRS into CRS of your choice:
 
