@@ -155,6 +155,6 @@ ogr2ogr -s_srs EPSG:3006 -t_srs EPSG:3857 lpis_3857.shp lpis_3006.shp
 - [INSPIRE Geoportal](https://inspire-geoportal.ec.europa.eu/results.html?country=se&view=details&theme=none) with “jordbruksblock” as the search word.
 
 ### Geographic Location
-![geographic location](se_geographic_location.png)
+![geographic location](se_geographic_location.png)  
 SOURCE: TUBS @ Wikimedia Commons
 
