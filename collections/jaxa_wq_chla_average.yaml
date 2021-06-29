@@ -21,7 +21,7 @@ BandInformation:
     Rows:
       - Name: chla_ave
         Description: chlorophyll-a concentration weekly average 
-Contact: sobue.shinichi@jaxa.jp
+Contact: "[JAXA](https://global.jaxa.jp/)"
 Provider: "[JAXA](https://global.jaxa.jp/)"
 ManagedBy: "[JAXA](https://global.jaxa.jp/)"
 Tags: 

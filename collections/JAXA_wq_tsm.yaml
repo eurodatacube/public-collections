@@ -1,8 +1,7 @@
 Name: JAXA_wq_tsm_anomaly
 Description: |
   Ratio (percentage) of weekly total suspended matter concentration divided by average concentration of other years for 4 sites:  North Adriatic, Tokyo, Kobe and Nagoya.  
-  Anomaly[%]=((DN-1)/254*(300-(-100))-100).
-
+  Anomaly[%]=((DN-1)/254*(300-(-100))-100).  
   The base data is made by averaging within -1, 0, +1 weeks in 2018-2020.
 Image: jaxa_wq_tsm/jaxa_wq_tsm.png 
 AdditionalInfoExternal:
