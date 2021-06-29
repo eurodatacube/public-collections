@@ -9,7 +9,7 @@ GeographicalCoverage: |
    Tokyo: lon E: 139.25 ~ 140.25, lat N:  34.85 ~ 35.85  
    Kobe-Osaka: lon E: 134.5  ~ 135.5, lat N:  33.85 ~ 34.85  
    Nagoya: lon E: 136.4 ~ 137.4, lat N: 34.2 ~ 35.2
-TemporalAvailability: 2018-01-20 - 2021-05-22
+TemporalAvailability: 7 April 2018- ongoing
 UpdateFrequency: This collection is made available for EODashboard Hackathon
 BandInformation:
   Table:
@@ -21,7 +21,7 @@ BandInformation:
     Rows:
       - Name: chla_ave
         Description: chlorophyll-a concentration weekly average 
-Contact: sobue.shinichi@jaxa.jp
+Contact: "[JAXA](https://global.jaxa.jp/)"
 Provider: "[JAXA](https://global.jaxa.jp/)"
 ManagedBy: "[JAXA](https://global.jaxa.jp/)"
 Tags: 
