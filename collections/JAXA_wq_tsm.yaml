@@ -1,7 +1,9 @@
 Name: JAXA_wq_tsm_anomaly
 Description: |
   Ratio (percentage) of weekly total suspended matter concentration divided by average concentration of other years for 4 sites:  North Adriatic, Tokyo, Kobe and Nagoya.  
-  Anomaly[%]=((DN-1)/254*(300-(-100))-100)
+  Anomaly[%]=((DN-1)/254*(300-(-100))-100).
+
+  The base data is made by averaging within -1, 0, +1 weeks in 2018-2020.
 Image: jaxa_wq_tsm/jaxa_wq_tsm.png 
 AdditionalInfoExternal:
     Title: Additional info
@@ -12,7 +14,7 @@ GeographicalCoverage: |
    Tokyo: lon E: 139.25 ~ 140.25, lat N:  34.85 ~ 35.85  
    Kobe-Osaka: lon E: 134.5  ~ 135.5, lat N:  33.85 ~ 34.85  
    Nagoya: lon E: 136.4 ~ 137.4, lat N: 34.2 ~ 35.2
-TemporalAvailability: 2018-04-07 - 2021-04-17
+TemporalAvailability: 7 April 2018- ongoing
 UpdateFrequency: weekly
 BandInformation: 
   Table:
@@ -24,7 +26,7 @@ BandInformation:
     Rows:
       - Name: tsm
         Description: total suspended matter concentration weekly anomaly
-Contact: sobue.shinichi@jaxa.jp
+Contact: "[JAXA](https://global.jaxa.jp/)"
 Provider: "[JAXA](https://global.jaxa.jp/)"
 ManagedBy: "[JAXA](https://global.jaxa.jp/)"
 Tags: 
