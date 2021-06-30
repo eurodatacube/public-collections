@@ -3,6 +3,16 @@ Description: |
   Ratio (percentage) of weekly total suspended matter concentration divided by average concentration of other years for 4 sites:  North Adriatic, Tokyo, Kobe and Nagoya.  
   Anomaly[%]=((DN-1)/254*(300-(-100))-100).  
   The base data is made by averaging within -1, 0, +1 weeks in 2018-2020.
+  
+  File naming convention: jx_tsm_tif_XXX_yyyy_mm_dd.tif
+  XXX: Area name
+           nas  ->  NAdriatic
+           tok   ->  Tokyo 
+           kob   ->  Kobe 
+           nag   ->  Nagoya 
+  yyyy:Year
+  mm:Month
+  dd:Day
 Image: jaxa_wq_tsm/jaxa_wq_tsm.png 
 AdditionalInfoExternal:
     Title: Additional info
@@ -44,4 +54,4 @@ Resources:
     CollectionId: 4f5f67f1-5715-4f2b-8c98-ae57948ee2f5
 
 RegistryEntryAdded: "2021-05-26"
-RegistryEntryLastModified: "2021-09-06"
+RegistryEntryLastModified: "2021-09-30"
