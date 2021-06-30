@@ -36,7 +36,7 @@ License: |
 Resources:
   - Group: Sentinel Hub Resources
   - EndPoint: creodias.sentinel-hub.com
-    Type: S5PL2
+    Type: sentinel-5p-l2 (previously S5PL2) 
     Notes: Global since May 2018
   - EndPoint: shservices.mundiwebservices.com
     Type: S5PL2
@@ -44,10 +44,12 @@ Resources:
   - EndPoint: code-de.sentinel-hub.com
     Type: S5PL2
     Notes: Germany since May 2018
+  - Group: xcube Resources
+  - DatasetName: sentinel-5p-l2 (previously S5PL2) 
 CustomScripts:
     Title: Collection of Sentinel-5P custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#sentinel-5P
 
 
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2021-05-05"
+RegistryEntryLastModified: "2021-06-30"

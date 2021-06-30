@@ -39,10 +39,11 @@ Resources:
     Type: DEM
     demInstance: COPERNICUS_90, COPERNICUS_30
     Notes: Global
-
+  - Group: xcube Resources
+  - DatasetName: DEM
 CustomScripts:
     Title: Collection of DEM custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#dem
 
 RegistryEntryAdded: "2020-11-30"
-RegistryEntryLastModified: "2021-05-05"
+RegistryEntryLastModified: "2021-06-30"

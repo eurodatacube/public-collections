@@ -39,9 +39,11 @@ Resources:
     Type: DEM
     demInstance: MAPZEN
     Notes: Global coverage up to resolution level 13 (level 14 is missing).
+  - Group: xcube Resources
+  - DatasetName: DEM
 CustomScripts:
     Title: Collection of DEM custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#dem
 
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2021-05-05"
+RegistryEntryLastModified: "2021-06-30"

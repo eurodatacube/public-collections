@@ -35,11 +35,13 @@ License: |
 Resources:
   - Group: Sentinel Hub Resources
     EndPoint: services-uswest2.sentinel-hub.com
-    Type: LOTL1
+    Type: landsat-ot-l1 (previously LOTL1)
     Notes: Global since Feb 2013
+  - Group: xcube Resources
+  - DatasetName: landsat-ot-l1 (previously LOTL1)
 CustomScripts:
     Title: Collection of Landsat -8 custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#landsat-8
 
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2021-05-05"
+RegistryEntryLastModified: "2021-06-30"
