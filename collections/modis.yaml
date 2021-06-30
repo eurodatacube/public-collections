@@ -34,11 +34,13 @@ License: |
 Resources:
   - Group: Sentinel Hub Resources
     EndPoint: services-uswest2.sentinel-hub.com
-    Type: MODIS
+    Type: modis (previously MODIS)
     Notes: Global since Feb 2000
+  - Group: xcube Resources
+  - DatasetName: modis (previously MODIS)
 CustomScripts:
     Title: Collection of MODIS custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#modis
 
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2021-05-05"
+RegistryEntryLastModified: "2021-06-30"

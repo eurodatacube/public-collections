@@ -34,8 +34,9 @@ License: |
 Resources:
   - Group: Sentinel Hub Resources
     EndPoint: services-uswest2.sentinel-hub.com
-    Type: LTML2
+    Type: landsat-tm-l2 (previously LTML2) 
     Notes: Global coverage from July 1982 to May 2012
-
+  - Group: xcube Resources
+  - DatasetName: landsat-tm-l2 (previously LTML2) 
 RegistryEntryAdded: "2021-05-12"
-RegistryEntryLastModified: "2021-05-12"
+RegistryEntryLastModified: "2021-06-30"

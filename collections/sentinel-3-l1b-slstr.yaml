@@ -38,14 +38,16 @@ License: |
 Resources:
   - Group: Sentinel Hub Resources
   - EndPoint: creodias.sentinel-hub.com
-    Type: S3SLSTR
+    Type: sentinel-3-slstr (previously S3SLSTR)
     Notes: Global since May 2016
   - EndPoint: code-de.sentinel-hub.com
     Type: S3SLSTR
     Notes: Germany since May 2016
+  - Group: xcube Resources
+  - DatasetName: sentinel-3-slstr (previously S3SLSTR)
 CustomScripts:
     Title: Collection of Sentinel-3 custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#sentinel-3
 
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2021-05-05"
+RegistryEntryLastModified: "2021-06-30"

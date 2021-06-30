@@ -34,7 +34,7 @@ License: |
 Resources:
   - Group: Sentinel Hub Resources
   - EndPoint: services.sentinel-hub.com
-    Type: S2L1C
+    Type: sentinel-2-l1c (previously S2L1C)
     Notes: Global since November 2015
   - EndPoint: creodias.sentinel-hub.com
     Type: S2L1C
@@ -45,9 +45,11 @@ Resources:
   - EndPoint: shservices.mundiwebservices.com
     Type: S2L1C
     Notes: Europe coverage since July 2015. Rolling policy of 12 months for World.
+  - Group: xcube Resources
+  - DatasetName: sentinel-2-l1c (previously S2L1C)
 CustomScripts:
     Title: Collection of Sentinel-2 custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#sentinel-2
 
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2021-05-05"
+RegistryEntryLastModified: "2021-06-30"
