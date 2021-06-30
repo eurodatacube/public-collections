@@ -20,8 +20,10 @@ Resolution: |
 GeographicalCoverage: |
   Paris, France SM3: [49.004, 3.111 : 48.519, 3.672] (Upper Left: Bottom Right )  
   Dunkirk, France SM3: [51.462, 1.775 : 54.447,3.186]   
+  LA SM1:  (34.226, -118.002 : 33.707, -117.869)
   Beijing, China SM1, SM3:  [40.129, 116.283 : 39.637, 117.247]  
-TemporalAvailability: 2019-03-01  -  2021-04-08
+  Haneda SM1: (35.965, 139.651: 35.267, 139.897)
+TemporalAvailability: 2019-03-01  -  2020-12-31
 UpdateFrequency: This collection is made available for EODashboard Hackathon
 BandInformation: 
  Table:                                                                                                                                               
@@ -31,10 +33,10 @@ BandInformation:
       - Name: Description
         Title: Description
     Rows:
-      - Name: HH
-        Description: HH polarization 
+      - Name: HH 
+        Description: HH polarization (SM1, SM3)
       - Name: HV
-        Description: HV polarization 
+        Description: HV polarization (SM3)
 Contact: sobue.shinichi@jaxa.jp
 Provider: "[JAXA](https://global.jaxa.jp/)"
 ManagedBy: "[JAXA](https://global.jaxa.jp/)"
@@ -54,4 +56,4 @@ Resources:
     CollectionId: 5014c166-c13e-4bcf-b7cf-52d0312c54b8
 
 RegistryEntryAdded: "2021-06-09"
-RegistryEntryLastModified: "2021-06-09"
+RegistryEntryLastModified: "2021-06-30"
