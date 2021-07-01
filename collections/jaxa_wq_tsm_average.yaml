@@ -1,11 +1,9 @@
 Name: JAXA_wq_tsm_average
 Description: |
-  Total suspended matter cocentration weekly average (GCOM-C)
-  
+  Total suspended matter cocentration weekly average (GCOM-C).  
   Weekly total suspended matter concentration for 4 sites:  North Adriatic, Tokyo, Kobe and Nagoya.  
-  
   TSM[g/m^3]=10.^(DN/254*(log10(50)-log10(0.01))+log10(0.01))
-  
+  ```
   File naming convention: jx_tsm-ave_tif_XXX_yyyy_mm_dd.tif
   XXX: Area name
            nas  ->  NAdriatic
@@ -15,6 +13,7 @@ Description: |
   yyyy:Year
   mm:Month
   dd:Day
+  ```
 Resolution: 0.0025 degrees equal lat lon
 Image: jaxa_wq_tsm_average/jaxa_wq_tsm_average.png
 GeographicalCoverage: |
@@ -53,5 +52,5 @@ Resources:
     Type: byoc-d8419142-814d-48aa-ba97-bf87950f29d3
     CollectionId: d8419142-814d-48aa-ba97-bf87950f29d3
 
-RegistryEntryAdded: "2021-09-06"
-RegistryEntryLastModified: "2021-16-06"
+RegistryEntryAdded: "2021-06-06"
+RegistryEntryLastModified: "2021-07-01"
