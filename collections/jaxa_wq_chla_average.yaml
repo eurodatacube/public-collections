@@ -1,7 +1,21 @@
 Name: JAXA_wq_chla_average
 Description: |
+  Chlorophyll-a concentration weekly average (GCOM-C)
+  
   Weekly average chlorophyll-a concentration for 4 sites:  North Adriatic, Tokyo, Kobe and Nagoya.   
+  
   chl[mg/m^3]=10.^(DN/254*(log10(60)-log10(0.03))+log10(0.03))
+  
+  File naming convention: jx_chla-ave_tif_XXX_yyyy_mm_dd.tif
+  XXX: Area name
+           nas  ->  NAdriatic
+           tok   ->  Tokyo 
+           kob   ->  Kobe 
+           nag   ->  Nagoya 
+  yyyy:Year
+  mm:Month
+  dd:Day
+
 Resolution: 0.0025 degrees equal lat lon
 Image: jaxa_wq_chla_average/jaxa_wq_chla_average.png
 GeographicalCoverage: |
