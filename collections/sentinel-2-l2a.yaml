@@ -34,16 +34,37 @@ License: |
 Resources:
   - Group: Sentinel Hub Resources
   - EndPoint: services.sentinel-hub.com
-    Type: sentinel-2-l2a (previously S2L2A)
+    Type: sentinel-2-l2a 
     Notes: 	Europe since November 2016, Global since January 2017
   - EndPoint: shservices.mundiwebservices.com
-    Type: S2L2A
+    Type: sentinel-2-l2a 
     Notes: Europe since July 2016
   - Group: xcube Resources
-  - DatasetName: sentinel-2-l2a (previously S2L2A)
+  - DatasetName: sentinel-2-l2a 
 CustomScripts:
     Title: Collection of Sentinel-2 custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#sentinel-2
+Configurations: 
+  - name: True Color
+    evalscriptUrl: https://github.com/sentinel-hub/custom-scripts/blob/master/sentinel-2/true_color/script.js
+  - name: "True Color"
+    evalscriptUrl: "https://github.com/sentinel-hub/custom-scripts/blob/master/sentinel-2/true_color/script.js"
+  - name: "False color"
+    evalscriptUrl: "https://github.com/sentinel-hub/custom-scripts/blob/master/sentinel-2/false_color_infrared/script.js"
+  - name : "SWIR"
+    evalscriptUrl: "https://github.com/sentinel-hub/custom-scripts/blob/master/sentinel-2/swir-rgb/script.js"
+  - name : "False Color Urban"
+    evalscriptUrl: "https://github.com/sentinel-hub/custom-scripts/blob/master/sentinel-2/false-color-urban-rgb/script.js"
+  - name: "NDVI"
+    evalscriptUrl: "https://github.com/sentinel-hub/custom-scripts/blob/master/sentinel-2/ndvi/script.js"
+  - name: "NDMI"
+    evalscriptUrl: "https://github.com/sentinel-hub/custom-scripts/blob/master/sentinel-2/ndmi/script.js"
+  - name: "NDWI"
+    evalscriptUrl: "https://github.com/sentinel-hub/custom-scripts/blob/master/sentinel-2/ndwi/script.js"
+  - name: "NDSI"
+    evalscriptUrl: "https://github.com/sentinel-hub/custom-scripts/blob/master/sentinel-2/ndsi-visualized/script.js"
+  - name: "Scene Classification"
+    evalscriptUrl: "https://github.com/sentinel-hub/custom-scripts/blob/master/sentinel-2/scene-classification/script.js"
 
 RegistryEntryAdded: "2018-04-17"
 RegistryEntryLastModified: "2021-06-30"
