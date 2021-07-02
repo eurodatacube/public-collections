@@ -75,6 +75,16 @@
       {{{tabelaricRenderer BandInformation}}}
       {{/if}}
 
+      {{#if evalscriptUrl}}
+      <h4>evalscripturl</h4>
+      <p>{{{md evalscriptUrl}}}</p>
+      {{/if}}
+
+      {{#if configuration}}
+      <h4>configuration</h4>
+      <p>{{{md configuration}}}</p>
+      {{/if}}
+
       {{#if Variables}}
       <h4>Variables Information</h4>
       {{{tabelaricRenderer Variables}}}
