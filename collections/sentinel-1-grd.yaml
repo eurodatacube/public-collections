@@ -49,6 +49,8 @@ Resources:
 CustomScripts:
     Title: Collection of Sentinel-1 custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#sentinel-1
+evalscriptUrl: "[evalscripturl](https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-1/sar_false_color_visualization/script.js)"
+configuration: "[config.js](https://collections.eurodatacube.com/sentinel-1-grd/config.js)"
 DataAtWork:
   Tutorials:
     - Title: "Exploring Time and Space: A guide to accessing, analysing and visualising data in the Euro Data Cube"
