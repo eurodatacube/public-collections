@@ -7,7 +7,7 @@ Description: |
   and after a few days superseded by Delayed Time (DT) files as soon as they are available to provide better quality.
 Documentation: "[Product information](https://resources.marine.copernicus.eu/?option=com_csw&view=details&product_id=OCEANCOLOUR_ATL_CHL_L4_NRT_OBSERVATIONS_009_037)"
 Image: oceancolour-atl-chl-l4-nrt-observations-009-037/oceancolour-atl-chl-l4-nrt-observations-009-037.png
-Explore: "[Open in CMEMS Viewer](https://view.marine.copernicus.eu/ViewService/?record_id=6783756a-2cf7-4af7-899b-a03f115940d4)"
+Explore: "[Open Notebook](https://eurodatacube.com/marketplace/notebooks/contributions/EDC_xcube_generator_service.ipynb)"
 Resolution: 1km
 GeographicalCoverage: |
  (46°W, 13°E, 20°N, 66°N)  
@@ -47,6 +47,7 @@ Resources:
    StoreInstanceID: cop_services_data
    StoreTitle: Datasets from Copernicus Services
    DataID: OCEANCOLOUR_ATL_CHL_L4_NRT_OBSERVATIONS_009_037.zarr
+   Notes: "[Open in CMEMS Viewer](https://view.marine.copernicus.eu/ViewService/?record_id=6783756a-2cf7-4af7-899b-a03f115940d4)"
   
 RegistryEntryAdded: "2021-05-13"
 RegistryEntryLastModified: "2021-05-13"

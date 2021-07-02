@@ -11,6 +11,7 @@ AdditionalInfoExternal:
     Title: Additional info 
     Path: clms-lake-water-quality/README.MD 
 Image: clms-lake-water-quality/clms-lake-water-quality.png
+Explore: "[Open Notebook](https://eurodatacube.com/marketplace/notebooks/contributions/EDC_xcube_generator_service.ipynb)"
 Resolution: 300m
 GeographicalCoverage: (180°W, 180°E, 90°N, 90°S)  
 TemporalAvailability: "['2018-01-01', '2020-12-21']"
