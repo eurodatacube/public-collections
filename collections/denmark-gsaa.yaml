@@ -5,13 +5,13 @@ Description: |
   on [Geodata-info.dk](https://www.geodata-info.dk/srv/eng/catalog.search#/home) which is managed by [the Danish Agency for Data Supply and Efficiency](https://sdfe.dk/).
   This collection is comprised of agricultural fields ("Marker") which are an extract of fields notified to the Danish Agency for Agriculture from 
   the most recent application year. A field is defined as a contiguous area on which one crop is grown. 
-  Denmark GSAA data collection is made available on geoDB on subscription basis. Subscription costs are meant to cover storage and service costs. 
+  Denmark GSAA data collection is made available on geoDB on subscription basis. 
 Documentation: Read more on [The Danish Agency for Agriculture](https://lbst.dk/landbrug/kort-og-markblokke/) and  [Euro Data Cube checkout](https://eurodatacube.com/marketplace/data-products/lpis) 
 AdditionalInfoExternal:
   Title: Additional info
   Path: denmark-gsaa/README.MD
 Image: denmark-gsaa/denmark-gsaa.png
-Explore: "[Open in Graphical Viewer](https://miljoegis.mim.dk/spatialmap?profile=lbst)"
+Explore: "[Open Notebook](https://eurodatacube.com/marketplace/notebooks/contributions/Access_IACS_data.ipynb)"
 GeographicalCoverage: Denmark
 TemporalAvailability: 2008 - ongoing
 UpdateFrequency: annually
@@ -62,4 +62,4 @@ Resources:
     Notes: One collection per year since 2008
 
 RegistryEntryAdded: "2021-05-19"
-RegistryEntryLastModified: "2021-05-19"
+RegistryEntryLastModified: "2021-07-05"

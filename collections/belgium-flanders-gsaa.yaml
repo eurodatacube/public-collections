@@ -7,7 +7,7 @@ Description: |
   subsidies and the Flemish manure legislation. It can be used for consultation or study of the land use of agricultural parcels for the year in question. 
   This dataset does not contain all data from original GSAA dataset. 
   Only the main crop and the production method are included as attribute information. 
-  Flanders GSAA data collection is made available on geoDB on subscription basis. Subscription costs are meant to cover storage and service costs. 
+  Flanders GSAA data collection is made available on geoDB on subscription basis.
 Documentation: |
  Read more on [Metadata Flanders](https://metadata.vlaanderen.be/srv/dut/catalog.search#/search?facet.q=topicCat%2Ffarming)
  and [Euro Data Cube checkout](https://eurodatacube.com/marketplace/data-products/lpis) 
@@ -15,7 +15,7 @@ AdditionalInfoExternal:
     Title: Additional info 
     Path: belgium-flanders-gsaa/README.MD 
 Image: belgium-flanders-gsaa/belgium-flanders-gsaa.png
-Explore: "[Open in Geopunt Map](https://www.geopunt.be/kaart?viewer_url=https%3A%2F%2Fmaps.geopunt.be%2Fresources%2Fapps%2FGeopunt-kaart_app%2Findex.html%3Fid%3D8ab2084878d457640178d4d7194d0005)"
+Explore: "[Open Notebook](https://eurodatacube.com/marketplace/notebooks/contributions/Access_IACS_data.ipynb)"
 GeographicalCoverage: The Flemish Region of Belgium 
 TemporalAvailability: 2008 - ongoing
 UpdateFrequency: annually
@@ -68,4 +68,4 @@ Resources:
     Notes: one collection per year since 2008
 
 RegistryEntryAdded: "2021-05-18"
-RegistryEntryLastModified: "2021-05-18"
+RegistryEntryLastModified: "2021-07-05"
