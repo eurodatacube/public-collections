@@ -15,6 +15,7 @@ AdditionalInfoExternal:
     Title: Additional info 
     Path: reanalysis-era5-land-monthly-means/README.MD 
 Image: reanalysis-era5-land-monthly-means/reanalysis-era5-land-monthly-means.png
+Explore: "[Open Notebook](https://eurodatacube.com/marketplace/notebooks/contributions/EDC_xcube_generator_service.ipynb)"
 Resolution: 0.1x0.1 degrees.
 GeographicalCoverage: (180°W, 180°E, 90°N, 90°S)  
 TemporalAvailability: January 1981 to 2-3 months before the present
@@ -44,4 +45,4 @@ Resources:
    DataID: reanalysis-era5-land-monthly-means:monthly_averaged_reanalysis
   
 RegistryEntryAdded: "2021-05-13"
-RegistryEntryLastModified: "2021-05-13"
+RegistryEntryLastModified: "2021-07-05"
