@@ -11,6 +11,7 @@ AdditionalInfoExternal:
   Title: Additional info
   Path: france-metropolitan-gsaa/README.MD
 Image: france-metropolitan-gsaa/france-metropolitan-gsaa.png
+Explore: "[Open Notebook](https://eurodatacube.com/marketplace/notebooks/contributions/Access_IACS_data.ipynb)" 
 GeographicalCoverage: France Metropolitan 
 TemporalAvailability: 2015 - ongoing
 UpdateFrequency: annually
@@ -55,4 +56,4 @@ Resources:
     Notes: One collection per year since 2015
 
 RegistryEntryAdded: "2021-05-18"
-RegistryEntryLastModified: "2021-05-18"
+RegistryEntryLastModified: "2021-07-05"
