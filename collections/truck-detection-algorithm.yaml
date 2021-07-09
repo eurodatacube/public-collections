@@ -1,0 +1,65 @@
+Name: Truck Detection Algorithm
+Description: |
+  The Truck detection algorithm detects the number of moving trucks along roads using Sentinel-2 level 2A data.  
+  The author [Henrick Fisser](https://twitter.com/fisserhenrik), developed this algorithm (with the title: Truck detection – Sensing trade from space) 
+  in the context of the Euro Data Cube COVID-19 edition of Sentinel Hub’s custom script contest. It has now been integrated into the
+  [Rapid Action on COVID-19 with Earth Observation](https://race.esa.int/) dashboard.
+  The algorithm exploits the small offset between Sentinel-2 bands which causes moving objects to appear as rainbows in RGB images allowing 
+  the detection and mapping of moving trucks.   
+  More information regarding input and output specifications  can be found under [Additional info](https://collections.eurodatacube.com/truck-detection-algorithm/readme.html)
+
+AdditionalInfoExternal:
+    Title: Additional info 
+    Path:  truck-detection-algorithm/README.MD
+Image: truck-detection-algorithm/truck-detection-algorithm.png
+Explore: "[Open Notebook]()"
+Resolution: 10m
+GeographicalCoverage: Global
+TemporalAvailability: |  
+ Europe:  November 2016 - ongoing  
+ Global: January 2017  - ongoing
+UpdateFrequency: New Sentinel data are added regularly, usually within few hours after they are available on Copernicus Hub.
+BandInformation:
+  Table:
+      Columns:
+        - Name: Name
+          Title: Name
+        - Name: Description
+          Title: Description
+        - Name: Units & Typical Range
+          Title: Units & Typical Range      
+      Rows:
+        - Name: B02
+          Description: Blue
+          Units & Typical Range: DN, typically from 0-10000
+        - Name: B03
+          Description: Green
+          Units & Typical Range: DN, typically from 0-10000         
+        - Name: B04
+          Description: Red
+          Units & Typical Range: DN, typically from 0-10000
+        - Name: B11
+          Description: SWIR
+          Units & Typical Range: DN, typically from 0-10000
+        - Name: CLM
+          Description: Cloud Masks
+          Units & Typical Range: 0 - no cloud, 1 - clouds, 255 - no data
+        - Name: SCL
+          Description: Scene classification data, based on Sen2Cor processor
+          Units & Typical Range: Codelist, from 0-11
+          
+Contact: https://forum.sentinel-hub.com/c/euro-data-cube/
+Provider: "[Sentinel Hub](https://www.sentinel-hub.com/)"
+ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
+Tags:
+  - on-demand
+  - truck detection
+  - sentinel hub
+  - derived Data
+  - sentinel-2
+
+License: |
+  [License]()
+
+RegistryEntryAdded: "2021-07-09"
+RegistryEntryLastModified: "2021-07-09"
