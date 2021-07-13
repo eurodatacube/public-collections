@@ -42,6 +42,16 @@
       <td >stringlist</td>
       <td>OSM Values</td>
     </tr>
+    <tr>
+      <td>maxCC</td>
+      <td >int</td>
+      <td>Maximum cloud coverage</td>
+    </tr>
+    <tr>
+      <td>week_days</td>
+      <td >stringlist</td>
+      <td>days of the week</td>
+    </tr>
    </tbody>
 </table>  
 
