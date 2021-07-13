@@ -24,33 +24,33 @@
   <tbody>
     <tr>
       <td>aoi</td>
-      <td >bbox</td>
+      <td>bbox</td>
       <td>Area of Interest</td>
     </tr>
     <tr>
       <td>projection</td>
-      <td >int</td>
+      <td>int</td>
       <td>Projection</td>
     </tr>
     <tr>
       <td>time_period</td>
-      <td >daterange</td>
+      <td>daterange</td>
       <td>Time period</td>
     </tr>
     <tr>
-      <td>Osm_Values</td>
-      <td >stringlist</td>
+      <td>osm_Values</td>
+      <td>stringlist</td>
       <td>OSM Values</td>
     </tr>
     <tr>
       <td>maxCC</td>
-      <td >int</td>
-      <td>Maximum cloud coverage</td>
+      <td>int</td>
+      <td>Maximal cloud coverage</td>
     </tr>
     <tr>
       <td>week_days</td>
-      <td >stringlist</td>
-      <td>days of the week</td>
+      <td>stringlist</td>
+      <td>Week days</td>
     </tr>
    </tbody>
 </table>  
