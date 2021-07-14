@@ -49,6 +49,14 @@ Resources:
 CustomScripts:
     Title: Collection of Sentinel-3 custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#sentinel-3
-
+Configurations: 
+  - name: True color - enhanced
+    evalscriptUrl: "https://custom-scripts.sentinel-hub.com/sentinel-3/enhanced_true_color-2/script.js"
+  - name: True color - highlight optimized
+    evalscriptUrl: "https://custom-scripts.sentinel-hub.com/sentinel-3/true_color_highlight_optimized/script.js"
+  - name: OTCI
+    evalscriptUrl: "https://custom-scripts.sentinel-hub.com/sentinel-3/otci/script.js"
+  - name: Tristimulus
+    evalscriptUrl: "https://custom-scripts.sentinel-hub.com/sentinel-3/tristimulus/script.js"
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2021-06-30"
+RegistryEntryLastModified: "2021-07-14"
