@@ -49,6 +49,10 @@ Resources:
 CustomScripts:
     Title: Collection of Copernicus services data custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#copernicus_services
-
+Configurations: 
+  - name: Water Bodies
+    evalscriptUrl: "https://custom-scripts.sentinel-hub.com/copernicus_services/water-bodies/script.js"
+  - name: Water Bodies Occurrence
+    evalscriptUrl: "https://custom-scripts.sentinel-hub.com/copernicus_services/water-bodies-occurence/script.js"
 RegistryEntryAdded: "2021-03-30"
-RegistryEntryLastModified: "2021-05-05"
+RegistryEntryLastModified: "2021-07-14"
