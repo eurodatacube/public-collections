@@ -85,7 +85,7 @@ _example of trucks visible on sentinel 2 image_
 
 ![detected_trucks_](carlifornia.png)   
 
-_Example of trucks detected (green dots) by the algorithm along Ventura freeway, southern California on 22-07-2021 with Sentinel 2 image overlay_
+_Example of trucks detected (green dots) by the algorithm along Ventura freeway, southern California on 22-07-2020 with Sentinel 2 image overlay_
 
 
 
