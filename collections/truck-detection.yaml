@@ -1,4 +1,4 @@
-Name: Truck Detection Algorithm
+Name: Truck Detection 
 Description: |
   The Truck detection algorithm detects the number of moving trucks along roads using Sentinel-2 level 2A data.  
   The author [Henrick Fisser](https://twitter.com/fisserhenrik), developed this algorithm (with the title: Truck detection – Sensing trade from space) 
@@ -10,8 +10,8 @@ Description: |
 
 AdditionalInfoExternal:
     Title: Additional info 
-    Path:  truck-detection-algorithm/README.MD
-Image: truck-detection-algorithm/truck-detection-algorithm.png
+    Path:  truck-detection/README.MD
+Image: truck-detection/truck-detection-algorithm_1.png
 Explore: "[Open Notebook]()"
 Resolution: 10m
 GeographicalCoverage: Global
