@@ -6,9 +6,8 @@
   The algorithm exploits the small offset between Sentinel-2 bands which causes moving objects to appear as rainbows in RGB images allowing the detection and mapping of moving trucks.  
  
 ## Method
-The **detection method** exploits small sensing offset of different wavelength that moving objects have in Sentinel-2 data which causes a specific reflectance relationship in the RGB, which looks like a rainbow. The method only targets the blue part of the ‘rainbow’ truck object since the dominance of blue reflectance is rare over land surfaces. This blue part of the truck serves as a marker. The detection is then achieved through reflectance band math calculations.
-
-**Initial step**   All following conditions must be fulfilled:
+The **detection method** exploits small sensing offset of different wavelength that moving objects have in Sentinel-2 data which causes a specific reflectance relationship in the RGB, which looks like a rainbow. The method only targets the blue part of the ‘rainbow’ truck object since the dominance of blue reflectance is rare over land surfaces. This blue part of the truck serves as a marker. The detection is then achieved through reflectance band math calculations.  
+**Initial step** - Create a road mask, Check that the following conditions are fulfilled:
 
 - 0.06 < B02 < 0.2 - avoid building shadows
 - B03 > 0.04 - avoid building shadows
@@ -20,7 +19,7 @@ The **detection method** exploits small sensing offset of different wavelength t
 - NDWI < 0.0001 - avoid water
 - NDSI < 0.0001 - avoid snow
 
-**Cloud Masking** - 
+**Cloud masking** :
 - If B02 > 0.25 or B03 > 0.25 or B04 > 0.25 -> cloudy pixel
 - If (B02-B03)/(B02+B03) > 0.2 -> cloudy pixel
 - If (B02-B04)/(B02+B04) > 0.2 -> cloudy pixel
@@ -83,10 +82,11 @@ The output of the algorithm is locations (point geometries) and dates of detecte
 ### Supported Output Format
  - GeoPackage (.gpkg)
  - Shapefile (.shp)
- - GeoJson (.geojson)
-### Supported Output Location
- - S3 bucket
- - EDC Workspace
+ - GeoJson (.geojson)  
+ 
+### Supported Output Location  
+ - S3 bucket  
+ - EDC Workspace  
  - Direct download (for a limited time)
 
 ## Pricing
@@ -104,15 +104,15 @@ coming soon
 ### Limitations
  - False positives possible particularly in urban areas
  - Assumes moving vehicles
- - Difficult to validate vehicles of  type truck only. 
+ - Difficult to validate vehicles of type truck only. 
 
 ### Examples
 
-![trucks on sentinel 2](truck-detection-algorithm_1.png.png)   
+![trucks on sentinel 2](trucks.png)  
 
 _example of trucks visible on sentinel 2 image_
 
-![detected_trucks_](carlifornia.png)   
+![detected_trucks_](carlifornia.png)  
 
 _Example of trucks detected (green dots) by the algorithm along Ventura freeway, southern California on 22-07-2020 with Sentinel 2 image overlay_
 
