@@ -51,7 +51,7 @@ The **detection method** exploits small sensing offset of different wavelength t
     <tr>
       <td>projection</td>
       <td>int</td>
-      <td>Projection</td>
+      <td>CRS of the AOI</td>
     </tr>
     <tr>
       <td>time_period</td>
@@ -59,7 +59,7 @@ The **detection method** exploits small sensing offset of different wavelength t
       <td>Time period</td>
     </tr>
     <tr>
-      <td>osm_Values</td>
+      <td>osm_values</td>
       <td>stringlist</td>
       <td>OSM Values</td>
     </tr>
