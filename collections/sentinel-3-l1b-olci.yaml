@@ -34,14 +34,19 @@ Tags:
   - open data
   - dashboard hackathon
 
-License: |
-  [License](https://docs.sentinel-hub.com/api/latest/data/sentinel-3-olci-l1b/#attribution-and-use)
+License: "[License](https://docs.sentinel-hub.com/api/latest/data/sentinel-3-olci-l1b/#attribution-and-use)"
+LicenseType: proprietary 
 Resources:
   - Group: Sentinel Hub Resources
   - EndPoint: creodias.sentinel-hub.com
-    Type: sentinel-3-olci (previously S3OLCI)
+    Name: Sentinel Hub
+    Role: processor
+    Type: sentinel-3-olci
     Notes: Global since May 2016
+    Primary: true
   - EndPoint: code-de.sentinel-hub.com
+    Name: Sentinel Hub
+    Role: processor
     Type: S3OLCI
     Notes: Germany since May 2016
   - Group: xcube Resources
@@ -52,11 +57,83 @@ CustomScripts:
 Configurations: 
   - name: True color - enhanced
     evalscriptUrl: "https://custom-scripts.sentinel-hub.com/sentinel-3/enhanced_true_color-2/script.js"
+    mosaicking_order: mostRecent
+    upsampling: BICUBIC
+    href: https://docs.sentinel-hub.com/api/latest/api/process/
+    rel: processing-expression
   - name: True color - highlight optimized
     evalscriptUrl: "https://custom-scripts.sentinel-hub.com/sentinel-3/true_color_highlight_optimized/script.js"
+    mosaicking_order: mostRecent
+    upsampling: BICUBIC
+    href: https://docs.sentinel-hub.com/api/latest/api/process/
+    rel: processing-expression
   - name: OTCI
     evalscriptUrl: "https://custom-scripts.sentinel-hub.com/sentinel-3/otci/script.js"
+    mosaicking_order: mostRecent
+    upsampling: NEAREST
+    href: https://docs.sentinel-hub.com/api/latest/api/process/
+    rel: processing-expression
   - name: Tristimulus
     evalscriptUrl: "https://custom-scripts.sentinel-hub.com/sentinel-3/tristimulus/script.js"
+    mosaicking_order: mostRecent
+    upsampling: NEAREST
+    href: https://docs.sentinel-hub.com/api/latest/api/process/
+    rel: processing-expression
+extent: 
+  spatial: 
+    bbox: 
+    - "-180"
+    - "-85"
+    - "180"
+    - "85"
+  temporal: 
+    interval: 
+    - "2016-04-17T11:33:13Z"
+    - null
+cube:dimensions:
+  x:
+    type: spatial
+    axis: x
+    extent:
+      - "-180"
+      - "180"
+  y:
+    type: spatial
+    axis: y
+    extent:
+      - "-85"
+      - "85"
+  t:
+    type: temporal
+    extent:
+      - "2016-04-17T11:33:13Z"
+      - null
+    step: P5D
+  band:
+    type: bands
+    values:
+      - B01
+      - B02
+      - B03
+      - B04
+      - B05
+      - B06
+      - B07
+      - B08
+      - B09
+      - B10
+      - B11
+      - B12
+      - B13
+      - B14
+      - B15
+      - B16
+      - B17
+      - B18
+      - B19
+      - B20
+      - B21
+      - dataMask
+
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2021-07-14"
+RegistryEntryLastModified: "2021-08-02"

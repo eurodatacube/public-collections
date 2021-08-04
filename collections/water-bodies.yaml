@@ -36,13 +36,16 @@ Tags:
   - derived data
   - climate change
   - open data
-License: |
- free and open access policy as defined in the European Union’s Copernicus regulation ([details](https://land.copernicus.eu/global/about))
+License: free and open access policy as defined in the European Union’s Copernicus regulation ([details](https://land.copernicus.eu/global/about))
+LicenseType: proprietary  
 Resources:
   - Group: Sentinel Hub Resources   
     EndPoint: creodias.sentinel-hub.com
+    Name: Sentinel Hub
+    Role: processor
     Type: byoc-62bf6f6a-c584-48a8-a739-0bc60efee54a
     CollectionId: 62bf6f6a-c584-48a8-a739-0bc60efee54a
+    Primary: true
   - Group: xcube Resources
     DatasetName: CUSTOM
     CollectionId: 62bf6f6a-c584-48a8-a739-0bc60efee54a
@@ -52,7 +55,51 @@ CustomScripts:
 Configurations: 
   - name: Water Bodies
     evalscriptUrl: "https://custom-scripts.sentinel-hub.com/copernicus_services/water-bodies/script.js"
+    mosaicking_order: mostRecent
+    upsampling: BICUBIC
+    href: https://docs.sentinel-hub.com/api/latest/api/process/
+    rel: processing-expression
   - name: Water Bodies Occurrence
     evalscriptUrl: "https://custom-scripts.sentinel-hub.com/copernicus_services/water-bodies-occurence/script.js"
+    mosaicking_order: mostRecent
+    upsampling: BICUBIC
+    href: https://docs.sentinel-hub.com/api/latest/api/process/
+    rel: processing-expression
+extent: 
+  spatial: 
+    bbox: 
+      - "-180"
+      - "-60"
+      - "180"
+      - "80"
+  temporal: 
+    interval: 
+    - "2020-10-01T00:00:00Z"
+    - null
+cube:dimensions:
+  x:
+    type: spatial
+    axis: x
+    extent:
+      - "-180"
+      - "180"
+  y:
+    type: spatial
+    axis: y
+    extent:
+      - "-60"
+      - "80"
+  t:
+    type: temporal
+    extent:
+     - "2020-10-01T00:00:00Z"
+     - null
+    step: P5D
+  band:
+    type: bands
+    values:
+      - WB
+      - QUAL
+      
 RegistryEntryAdded: "2021-03-30"
-RegistryEntryLastModified: "2021-07-14"
+RegistryEntryLastModified: "2021-08-04"
