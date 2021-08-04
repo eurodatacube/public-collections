@@ -31,19 +31,79 @@ Tags:
   - open data
   - systematic
 
-License: |
-  [License](https://spacedata.copernicus.eu/documents/20126/0/CSCDA_ESA_Mission-specific+Annex+%281%29.pdf/83b44c0a-244a-7ba3-b00c-b578a34e88a7?t=1604070311399) (Pages 15-20)
+License: "[License](https://spacedata.copernicus.eu/documents/20126/0/CSCDA_ESA_Mission-specific+Annex+%281%29.pdf/83b44c0a-244a-7ba3-b00c-b578a34e88a7?t=1604070311399) (Pages 15-20)"
+LicenseType: proprietary 
 Resources:
   - Group: Sentinel Hub Resources
     EndPoint: services.sentinel-hub.com
+    Name: Sentinel Hub
+    Role: processor
     Type: DEM
     demInstance: COPERNICUS_90, COPERNICUS_30
     Notes: Global
+    Primary: true
   - Group: xcube Resources
   - DatasetName: DEM
 CustomScripts:
     Title: Collection of DEM custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#dem
-
+Configurations:     
+  - name: Color
+    evalscriptUrl: "https://custom-scripts.sentinel-hub.com/dem/dem-color/script.js"
+    mosaicking_order: mostRecent
+    upsampling: BICUBIC
+    demInstance: COPERNICUS_30
+    href: https://docs.sentinel-hub.com/api/latest/api/process/
+    rel: processing-expression
+  - name: Grayscale
+    evalscriptUrl: "https://custom-scripts.sentinel-hub.com/dem/dem-grayscale/script.js"
+    mosaicking_order: mostRecent
+    upsampling: BICUBIC
+    demInstance: COPERNICUS_30
+    href: https://docs.sentinel-hub.com/api/latest/api/process/
+    rel: processing-expression
+  - name: Sepia
+    evalscriptUrl: "https://custom-scripts.sentinel-hub.com/dem/dem-sepia/script.js"
+    mosaicking_order: mostRecent
+    upsampling: BICUBIC
+    demInstance: COPERNICUS_30
+    href: https://docs.sentinel-hub.com/api/latest/api/process/
+    rel: processing-expression
+extent: 
+  spatial: 
+    bbox: 
+      - "-180"
+      - "-60"
+      - "180"
+      - "80"
+  temporal: 
+    interval: 
+    - null
+    - null
+cube:dimensions:
+  x:
+    type: spatial
+    axis: x
+    extent:
+      - "-180"
+      - "180"
+  y:
+    type: spatial
+    axis: y
+    extent:
+      - "-60"
+      - "80"
+  t:
+    type: temporal
+    extent:
+     - null
+     - null
+    step: P5D
+  band:
+    type: bands
+    values:
+      - DEM
+      - dataMask
+    
 RegistryEntryAdded: "2020-11-30"
-RegistryEntryLastModified: "2021-06-30"
+RegistryEntryLastModified: "2021-08-04"
