@@ -244,6 +244,14 @@ const copyDirectoryWithMDProcessing = function(sourcePath, destPath) {
 	});
 }
 
+const escapeJson = function(str) {
+	return str
+	  .replace(/"/g, '\\"')
+	  .replace(/\n/g, '\\n')
+	  .replace(/\r/g, '\\r')
+	  .replace(/\t/g, '\\t');
+}
+
 // Handlebars helper functions
 const hbsHelpers = {
   toJSON: function (obj) {
@@ -309,6 +317,52 @@ const hbsHelpers = {
       return str;
     }
     return str.replace(/ /g, '-');
+  },
+  escapeJson: function (str) {
+	if (!str) {
+      return str;
+    }
+    return escapeJson(str);
+  },
+  listJson: function (list, indentCount) {
+	  var str = '';
+	  for (var item in list) {
+		if (str) {
+		  str += ",\n";
+		}
+		if (indentCount) {
+		  for (var i = 0; i < indentCount; i++) {
+			str += " ";
+		  }
+		}
+		str += JSON.stringify(list[item]);
+	  }
+	  return str;
+  },
+  copyJson: function (obj) {
+	  if (!obj) {
+		return "null";
+	  }
+	  return JSON.stringify(obj);
+  },
+  eachFiltered: function(arr, conditional, options) {
+	var filteredList = Array();
+	for (var item in arr) {
+		if (arr[item][conditional]) {
+			filteredList.push(arr[item]);
+		}
+	}
+	
+	if (options.inverse && !arr.length) {
+        return options.inverse(this);
+	}
+
+    return filteredList.map(function(item, index) {
+        item.$index = index;
+        item.$first = index === 0;
+        item.$last = index === filteredList.length - 1;
+        return options.fn(item);
+    }).join('');
   },
   managedByRenderer: function (str, wantLogo=true) {
     // Keep from exiting if we have an undefined string
@@ -847,8 +901,28 @@ function htmlProviders (cb) {
     .pipe(gulp.dest('./_output/'));
 };
 
+function stacGenerate(cb) {
+  return gulp.src('./_tmp/*.json')
+    .pipe(flatmap(function (stream, file) {
+      var templateData = JSON.parse(file.contents.toString('utf8'));
+      templateData.rootUrl = process.env.COLLECTIONS_BROWSER_ROOT_URL;
+      templateData.githubRepo = process.env.GIT_HUB_COLLECTIONS_REPO;
+      templateData.githubBranch = process.env.GIT_HUB_COLLECTIONS_BRANCH;
+      
+	  // Generate slug
+      const slug = generateSlug(file.path);
+      templateData.Slug = slug;
+
+      // Render
+      return gulp.src('./_build/stac.hbs')
+        .pipe(hb({data: templateData, helpers: hbsHelpers, handlebars: handlebars}))
+        .pipe(rename(`stac/${slug}.json`))
+        .pipe(gulp.dest('./_output/'));
+    }));	
+}
+
 // Server with live reload
-exports.serve = gulp.series(clean, gulp.parallel(css, fonts, img, yamlConvert), jsonOverview, js, rss, gulp.parallel(htmlAdditions, htmlDetail, htmlOverview, htmlSitemap, htmlExamples, htmlTag, htmlTagUsage, htmlProviders), htmlRedirects, function () {
+exports.serve = gulp.series(clean, gulp.parallel(css, fonts, img, yamlConvert), jsonOverview, js, rss, gulp.parallel(htmlAdditions, htmlDetail, htmlOverview, htmlSitemap, htmlExamples, htmlTag, htmlTagUsage, htmlProviders, stacGenerate), htmlRedirects, function () {
 
   browserSync({
     port: 3000,
@@ -871,6 +945,6 @@ exports.serve = gulp.series(clean, gulp.parallel(css, fonts, img, yamlConvert), 
   gulp.watch('_build/**/*', gulp.series('default'));
 });
 
-exports.build = gulp.series(clean, gulp.parallel(css, fonts, img, yamlConvert), jsonOverview, js, rss, gulp.parallel(htmlAdditions, htmlDetail, htmlOverview, htmlSitemap, htmlExamples, htmlTag, htmlTagUsage, htmlProviders), htmlRedirects);
+exports.build = gulp.series(clean, gulp.parallel(css, fonts, img, yamlConvert), jsonOverview, js, rss, gulp.parallel(htmlAdditions, htmlDetail, htmlOverview, htmlSitemap, htmlExamples, htmlTag, htmlTagUsage, htmlProviders, stacGenerate), htmlRedirects);
 exports.default = exports.build;
 

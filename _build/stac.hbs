@@ -1,0 +1,41 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "datacube"
+  ],
+  "id": "{{Slug}}",
+  "title": "{{{escapeJson Name}}}",
+  "description": "{{{escapeJson Description}}}",
+  "keywords": [
+{{{listJson Tags 4}}}
+  ],
+  "license": "{{{escapeJson LicenseType}}}",
+  "providers": [
+{{#eachFiltered Resources 'EndPoint'}}
+    {
+      "name": "{{{escapeJson Name}}}",
+      "description": "{{{escapeJson Notes}}}",
+      "roles": [
+        "{{{escapeJson Role}}}"
+      ],
+      "url": "{{{escapeJson EndPoint}}}"
+    }{{#unless $last}},{{/unless}}
+{{/eachFiltered}}
+  ],
+  "extent": {{{copyJson Extent}}},
+  "links": [
+    {
+      "href": "{{rootUrl}}/stac/{{Slug}}.json",
+      "rel": "self"
+    },
+{{#each Configurations}}
+	{{{copyJson this}}},
+{{/each}}
+    {
+      "href": "{{{escapeJson LicenseUrl}}}",
+      "rel": "license"
+    }
+  ],
+  "cube:dimensions": {{{copyJson cube:dimensions}}}
+}
