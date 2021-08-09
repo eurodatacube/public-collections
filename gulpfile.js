@@ -279,6 +279,9 @@ const hbsHelpers = {
     });
     return ret;
   },
+  offset: function(value, offset, options) {
+	return parseInt(value) + parseInt(offset);
+  },
   isEqual: function (v1, v2, options) {
     if (v1 === v2) {
       return options.fn(this);
@@ -921,8 +924,27 @@ function stacGenerate(cb) {
     }));	
 }
 
+// Compile overview page and move to _output
+function stacGenerateIndex() {
+  const datasets = getDatasets();
+
+  // HBS templating
+  var templateData = {
+    datasets: datasets,
+    isHome: true,
+    rootUrl: process.env.COLLECTIONS_BROWSER_ROOT_URL,
+    githubRepo: process.env.GIT_HUB_COLLECTIONS_REPO,
+    githubBranch: process.env.GIT_HUB_COLLECTIONS_BRANCH
+  };
+
+  return gulp.src('./_build/stacIndex.hbs')
+    .pipe(hb({data: templateData, helpers: hbsHelpers, handlebars: handlebars}))
+    .pipe(rename('stac/index.html'))
+    .pipe(gulp.dest('./_output/'));
+};
+
 // Server with live reload
-exports.serve = gulp.series(clean, gulp.parallel(css, fonts, img, yamlConvert), jsonOverview, js, rss, gulp.parallel(htmlAdditions, htmlDetail, htmlOverview, htmlSitemap, htmlExamples, htmlTag, htmlTagUsage, htmlProviders, stacGenerate), htmlRedirects, function () {
+exports.serve = gulp.series(clean, gulp.parallel(css, fonts, img, yamlConvert), jsonOverview, js, rss, gulp.parallel(htmlAdditions, htmlDetail, htmlOverview, htmlSitemap, htmlExamples, htmlTag, htmlTagUsage, htmlProviders, stacGenerate, stacGenerateIndex), htmlRedirects, function () {
 
   browserSync({
     port: 3000,
@@ -945,6 +967,6 @@ exports.serve = gulp.series(clean, gulp.parallel(css, fonts, img, yamlConvert), 
   gulp.watch('_build/**/*', gulp.series('default'));
 });
 
-exports.build = gulp.series(clean, gulp.parallel(css, fonts, img, yamlConvert), jsonOverview, js, rss, gulp.parallel(htmlAdditions, htmlDetail, htmlOverview, htmlSitemap, htmlExamples, htmlTag, htmlTagUsage, htmlProviders, stacGenerate), htmlRedirects);
+exports.build = gulp.series(clean, gulp.parallel(css, fonts, img, yamlConvert), jsonOverview, js, rss, gulp.parallel(htmlAdditions, htmlDetail, htmlOverview, htmlSitemap, htmlExamples, htmlTag, htmlTagUsage, htmlProviders, stacGenerate, stacGenerateIndex), htmlRedirects);
 exports.default = exports.build;
 

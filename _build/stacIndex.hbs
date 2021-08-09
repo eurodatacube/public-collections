@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<ul>
+{{#each datasets}}
+   <li>{{{offset @index 1}}} - {{Name}} <a href="{{rootUrl}}/stac/{{Slug}}.json">({{Slug}}.json)</a></li>
+{{/each}}
+</ul>
+</body>
+</html>
