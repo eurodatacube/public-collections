@@ -353,7 +353,7 @@ const hbsHelpers = {
 		}
 	}
 	
-	if (options.inverse && !arr.length) {
+	if (options.inverse && !filteredList.length) {
         return options.inverse(this);
 	}
 
