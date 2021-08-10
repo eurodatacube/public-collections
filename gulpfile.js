@@ -911,6 +911,10 @@ function stacGenerate(cb) {
       templateData.rootUrl = process.env.COLLECTIONS_BROWSER_ROOT_URL;
       templateData.githubRepo = process.env.GIT_HUB_COLLECTIONS_REPO;
       templateData.githubBranch = process.env.GIT_HUB_COLLECTIONS_BRANCH;
+	  
+	  if (!templateData.Extent || !templateData["cube:dimensions"]) {
+		return gulp.src('.', {allowEmpty: true});
+	  }
       
 	  // Generate slug
       const slug = generateSlug(file.path);
@@ -927,10 +931,18 @@ function stacGenerate(cb) {
 // Compile overview page and move to _output
 function stacGenerateIndex() {
   const datasets = getDatasets();
+  
+  var filteredDatasets = Array();
+  for (var index in datasets) {
+	var dataset = datasets[index];
+	if (dataset.Extent && dataset["cube:dimensions"]) {
+      filteredDatasets.push(dataset);
+	}
+  }
 
   // HBS templating
   var templateData = {
-    datasets: datasets,
+    datasets: filteredDatasets,
     isHome: true,
     rootUrl: process.env.COLLECTIONS_BROWSER_ROOT_URL,
     githubRepo: process.env.GIT_HUB_COLLECTIONS_REPO,
@@ -939,7 +951,7 @@ function stacGenerateIndex() {
 
   return gulp.src('./_build/stacIndex.hbs')
     .pipe(hb({data: templateData, helpers: hbsHelpers, handlebars: handlebars}))
-    .pipe(rename('stac/index.html'))
+    .pipe(rename('stac/index.json'))
     .pipe(gulp.dest('./_output/'));
 };
 
