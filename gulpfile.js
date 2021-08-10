@@ -912,7 +912,7 @@ function stacGenerate(cb) {
       templateData.githubRepo = process.env.GIT_HUB_COLLECTIONS_REPO;
       templateData.githubBranch = process.env.GIT_HUB_COLLECTIONS_BRANCH;
 	  
-	  if (!templateData.Extent || !templateData["cube:dimensions"]) {
+	  if (!templateData.Extent || !templateData.CubeDimensions) {
 		return gulp.src('.', {allowEmpty: true});
 	  }
       
@@ -935,7 +935,7 @@ function stacGenerateIndex() {
   var filteredDatasets = Array();
   for (var index in datasets) {
 	var dataset = datasets[index];
-	if (dataset.Extent && dataset["cube:dimensions"]) {
+	if (dataset.Extent && dataset.CubeDimensions) {
       filteredDatasets.push(dataset);
 	}
   }

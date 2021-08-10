@@ -89,7 +89,7 @@ Extent:
       -
         - '2016-11-01T00:00:00Z'
         - null
-cube:dimensions:
+CubeDimensions:
   x:
     type: spatial
     axis: x
