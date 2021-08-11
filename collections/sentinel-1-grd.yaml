@@ -31,17 +31,24 @@ Tags:
   - disaster response
   - open data
   - dashboard hackathon
-License: |
-  [License](https://docs.sentinel-hub.com/api/latest/data/sentinel-1-grd/#attribution-and-use)
+License: "[License](https://docs.sentinel-hub.com/api/latest/data/sentinel-1-grd/#attribution-and-use)"
+LicenseType: proprietary 
 Resources:
   - Group: Sentinel Hub Resources
   - EndPoint: services.sentinel-hub.com
+    Name: Sentinel Hub
+    Role: processor
     Type: sentinel-1-grd (previously S1GRD) 
     Notes: Global since January 2017
+    Primary: true
   - EndPoint: eocloud.sentinel-hub.com
+    Name: Sentinel Hub
+    Role: processor
     Type: S1GRD
     Notes: Global since October 2014
   - EndPoint: shservices.mundiwebservices.com
+    Name: Sentinel Hub
+    Role: processor
     Type:  S1GRD
     Notes: Rolling policy of 48 months for Europe , Rolling policy of 12 months for World
   - Group: xcube Resources
@@ -52,13 +59,58 @@ CustomScripts:
 Configurations: 
   - name: SAR urban
     evalscriptUrl: "https://custom-scripts.sentinel-hub.com/sentinel-1/urban_areas/script.js"
+    mosaicking_order: mostRecent
+    upsampling: BICUBIC
+    href: https://docs.sentinel-hub.com/api/latest/api/process/
+    rel: processing-expression
   - name: Enhanced visualization
     evalscriptUrl: "https://custom-scripts.sentinel-hub.com/sentinel-1/sar_false_color_visualization-2/script.js"
+    mosaicking_order: mostRecent
+    upsampling: BICUBIC
+    href: https://docs.sentinel-hub.com/api/latest/api/process/
+    rel: processing-expression
 DataAtWork:
   Tutorials:
     - Title: "Exploring Time and Space: A guide to accessing, analysing and visualising data in the Euro Data Cube"
       URL: https://medium.com/euro-data-cube/exploring-time-and-space-a-guide-to-accessing-analysing-and-visualising-data-in-the-euro-data-e4a46f2bb55b
       AuthorName: W Ray
+extent: 
+  spatial: 
+    bbox: 
+    - "-180"
+    - "-85"
+    - "180"
+    - "85"
+  temporal: 
+    interval: 
+    - "2014-12-07T04:14:15Z"
+    - null
+CubeDimensions:
+  x:
+    type: spatial
+    axis: x
+    extent:
+      - "-180"
+      - "180"
+  y:
+    type: spatial
+    axis: y
+    extent:
+      - "-85"
+      - "85"
+  t:
+    type: temporal
+    extent:
+      - "2014-12-07T04:14:15Z"
+      - null
+    step: P5D
+  band:
+    type: bands
+    values:
+      - VV
+      - VH
+      - HH
+      - HV
 
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2021-07-13"
+RegistryEntryLastModified: "2021-08-02"

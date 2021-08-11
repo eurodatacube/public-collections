@@ -24,17 +24,67 @@ Tags:
   - LULC change
   - surface temperature
   - open data
-License: |
-  [License](https://www.usgs.gov/centers/eros/data-citation?qt-science_support_page_related_con=0#qt-science_support_page_related_con)
+License: "[License](https://www.usgs.gov/centers/eros/data-citation?qt-science_support_page_related_con=0#qt-science_support_page_related_con)"
+LicenseType: proprietary  
 Resources:
   - Group: Sentinel Hub Resources
     EndPoint: services-uswest2.sentinel-hub.com
+    Name: Sentinel Hub
+    Role: processor
     Type: landsat-etm-l1
     Notes: Global coverage since April 1999. All scenes collected since May 30, 2003 have data gaps due to the Scan Line Corrector (SLC) failure.
+    Primary : true
   - Group: xcube Resources
     DatasetName: landsat-etm-l1
 CustomScripts:
     Title: Collection of Landsat 5 and 7 custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#landsat-57
+extent: 
+  spatial: 
+    bbox: 
+    - "-180"
+    - "-85"
+    - "180"
+    - "85"
+  temporal: 
+    interval: 
+    - "1999-04-01T00:00:00Z"
+    - null
+CubeDimensions:
+  x:
+    type: spatial
+    axis: x
+    extent:
+      - "-180"
+      - "180"
+  y:
+    type: spatial
+    axis: y
+    extent:
+      - "-85"
+      - "85"
+  t:
+    type: temporal
+    extent:
+     - "1999-04-01T00:00:00Z"
+     - null
+    step: P5D
+  band:
+    type: bands
+    values:
+      - B01
+      - B02
+      - B03
+      - B04
+      - B05
+      - B06_VCID_1, B06_VCID_2
+      - B07
+      - BQA
+      - QA_RADSAT
+      - VAA
+      - VZA
+      - SAA
+      - SZA
+      - dataMask
 RegistryEntryAdded: "2021-07-16"
 RegistryEntryLastModified: "2021-07-20"
