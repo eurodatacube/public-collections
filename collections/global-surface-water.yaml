@@ -43,13 +43,16 @@ Tags:
   - derived data
   - climate change
   - open data
-License: |
- Free and open access policy as defined in the European Union’s Copernicus regulation ([details](https://www.copernicus.eu/en/about-copernicus/international-cooperation))
+License: Free and open access policy as defined in the European Union’s Copernicus regulation ([details](https://www.copernicus.eu/en/about-copernicus/international-cooperation))
+LicenseType: proprietary  
 Resources:
   - Group: Sentinel Hub Resources   
     EndPoint: creodias.sentinel-hub.com
+    Name: Sentinel Hub
+    Role: processor
     Type: byoc-9a525f12-33b6-424e-a0f2-d567eec0f277
     CollectionId: 9a525f12-33b6-424e-a0f2-d567eec0f277
+    Primary: true
   - Group: xcube Resources
     DatasetName: CUSTOM
     CollectionId: 9a525f12-33b6-424e-a0f2-d567eec0f277
@@ -59,15 +62,79 @@ CustomScripts:
 Configurations: 
   - name: Global Surface Water Occurrence
     evalscriptUrl: "https://custom-scripts.sentinel-hub.com/copernicus_services/global_surface_water_occurrence/script.js"
+    mosaicking_order: mostRecent
+    upsampling: BICUBIC
+    href: https://docs.sentinel-hub.com/api/latest/api/process/
+    rel: processing-expression
   - name: Global Surface Water Occurrence Change Intensity
     evalscriptUrl: "https://custom-scripts.sentinel-hub.com/copernicus_services/global_surface_water_change/script.js"
+    mosaicking_order: mostRecent
+    upsampling: BICUBIC
+    href: https://docs.sentinel-hub.com/api/latest/api/process/
+    rel: processing-expression
   - name: Global Surface Water Seasonality
     evalscriptUrl: "https://custom-scripts.sentinel-hub.com/copernicus_services/global_surface_water_seasonality/script.js"
+    mosaicking_order: mostRecent
+    upsampling: BICUBIC
+    href: https://docs.sentinel-hub.com/api/latest/api/process/
+    rel: processing-expression
   - name: Global Surface Water Recurrence
     evalscriptUrl: "https://custom-scripts.sentinel-hub.com/copernicus_services/global_surface_water_recurrence/script.js"
+    mosaicking_order: mostRecent
+    upsampling: BICUBIC
+    href: https://docs.sentinel-hub.com/api/latest/api/process/
+    rel: processing-expression
   - name: Global Surface Water Transitions
     evalscriptUrl: "hhttps://custom-scripts.sentinel-hub.com/copernicus_services/global_surface_water_transitions/script.js"
+    mosaicking_order: mostRecent
+    upsampling: BICUBIC
+    href: https://docs.sentinel-hub.com/api/latest/api/process/
+    rel: processing-expression
   - name: Global Surface Water Extent
     evalscriptUrl: "https://custom-scripts.sentinel-hub.com/copernicus_services/global_surface_water_extent/script.js"
+    mosaicking_order: mostRecent
+    upsampling: BICUBIC
+    href: https://docs.sentinel-hub.com/api/latest/api/process/
+    rel: processing-expression
+extent: 
+  spatial: 
+    bbox: 
+      - "-180"
+      - "-50"
+      - "170"
+      - "80"
+  temporal: 
+    interval: 
+    - "1984-01-01T00:00:00Z"
+    - "2020-12-30T00:00:00Z"
+CubeDimensions:
+  x:
+    type: spatial
+    axis: x
+    extent:
+      - "-180"
+      - "170"
+  y:
+    type: spatial
+    axis: y
+    extent:
+      - "-50"
+      - "80"
+  t:
+    type: temporal
+    extent:
+    - "1984-01-01T00:00:00Z"
+    - "2020-12-30T00:00:00Z"
+    step: P5D
+  band:
+    type: bands
+    values:
+      - Occurrence
+      - Occurrence Change Intensity
+      - Seasonality
+      - Recurrence
+      - Transitions
+      - Extent
+
 RegistryEntryAdded: "2021-04-19"
-RegistryEntryLastModified: "2021-07-14"
+RegistryEntryLastModified: "2021-08-04"
