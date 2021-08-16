@@ -33,19 +33,14 @@ Tags:
   - active fires
   - open data
   - dashboard hackathon
-License: "[License](https://docs.sentinel-hub.com/api/latest/data/sentinel-3-slstr-l1b/#attribution-and-use)"
-LicenseType: proprietary 
+License: |
+  [License](https://docs.sentinel-hub.com/api/latest/data/sentinel-3-slstr-l1b/#attribution-and-use)
 Resources:
   - Group: Sentinel Hub Resources
   - EndPoint: creodias.sentinel-hub.com
-    Name: Sentinel Hub
-    Role: processor
-    Type: sentinel-3-slstr 
+    Type: sentinel-3-slstr (previously S3SLSTR)
     Notes: Global since May 2016
-    Primary: true
   - EndPoint: code-de.sentinel-hub.com
-    Name: Sentinel Hub
-    Role: processor
     Type: S3SLSTR
     Notes: Germany since May 2016
   - Group: xcube Resources
@@ -53,51 +48,6 @@ Resources:
 CustomScripts:
     Title: Collection of Sentinel-3 custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#sentinel-3
-extent: 
-  spatial: 
-    bbox: 
-    - "-180"
-    - "-85"
-    - "180"
-    - "85"
-  temporal: 
-    interval: 
-    - "2016-04-17T11:33:13Z"
-    - null
-CubeDimensions:
-  x:
-    type: spatial
-    axis: x
-    extent:
-      - "-180"
-      - "180"
-  y:
-    type: spatial
-    axis: y
-    extent:
-      - "-85"
-      - "85"
-  t:
-    type: temporal
-    extent:
-      - "2016-04-17T11:33:13Z"
-      - null
-    step: P5D
-  band:
-    type: bands
-    values:
-      - S01
-      - S02
-      - S03
-      - S04
-      - S05
-      - S06
-      - S07
-      - S08
-      - S09
-      - F01
-      - F02
-      - dataMask
 
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2021-08-02"
+RegistryEntryLastModified: "2021-06-30"
