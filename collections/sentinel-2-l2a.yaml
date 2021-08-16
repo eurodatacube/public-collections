@@ -76,7 +76,7 @@ Configurations:
     upsampling: BICUBIC
     href: https://docs.sentinel-hub.com/api/latest/api/process/
     rel: processing-expression
-  - name: NDVI
+  - name: "NDVI"
     evalscriptUrl: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/ndvi/script.js"
     mosaicking_order: mostRecent
     upsampling: NEAREST
