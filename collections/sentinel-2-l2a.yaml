@@ -52,29 +52,60 @@ CustomScripts:
   Title: Collection of Sentinel-2 custom scripts
   URL: https://custom-scripts.sentinel-hub.com/#sentinel-2
 Configurations:
-  - name: True Color
+  - name: "True Color"
     evalscriptUrl: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/true_color/script.js"
     mosaicking_order: mostRecent
-    upsampling: bilinear
-    downsampling: bilinear
+    upsampling: BICUBIC
     href: https://docs.sentinel-hub.com/api/latest/api/process/
     rel: processing-expression
   - name: "False color"
     evalscriptUrl: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/false_color_infrared/script.js"
+    mosaicking_order: mostRecent
+    upsampling: BICUBIC
+    href: https://docs.sentinel-hub.com/api/latest/api/process/
+    rel: processing-expression
   - name : "SWIR"
     evalscriptUrl: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/swir-rgb/script.js"
+    mosaicking_order: mostRecent
+    upsampling: BICUBIC
+    href: https://docs.sentinel-hub.com/api/latest/api/process/
+    rel: processing-expression
   - name : "False Color Urban"
     evalscriptUrl: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/false-color-urban-rgb/script.js"
+    mosaicking_order: mostRecent
+    upsampling: BICUBIC
+    href: https://docs.sentinel-hub.com/api/latest/api/process/
+    rel: processing-expression
   - name: "NDVI"
     evalscriptUrl: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/ndvi/script.js"
+    mosaicking_order: mostRecent
+    upsampling: NEAREST
+    href: https://docs.sentinel-hub.com/api/latest/api/process/
+    rel: processing-expression
   - name: "NDMI"
     evalscriptUrl: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/ndmi/script.js"
+    mosaicking_order: mostRecent
+    upsampling: NEAREST
+    href: https://docs.sentinel-hub.com/api/latest/api/process/
+    rel: processing-expression
   - name: "NDWI"
     evalscriptUrl: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/ndwi/script.js"
+    mosaicking_order: mostRecent
+    upsampling: NEAREST
+    href: https://docs.sentinel-hub.com/api/latest/api/process/
+    rel: processing-expression
   - name: "NDSI"
     evalscriptUrl: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/ndsi-visualized/script.js"
+    mosaicking_order: mostRecent
+    upsampling: NEAREST
+    href: https://docs.sentinel-hub.com/api/latest/api/process/
+    rel: processing-expression
   - name: "Scene Classification"
     evalscriptUrl: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/scene-classification/script.js"
+    mosaicking_order: mostRecent
+    upsampling: BICUBIC
+    href: https://docs.sentinel-hub.com/api/latest/api/process/
+    rel: processing-expression
 
 Extent:
   spatial:
@@ -137,4 +168,4 @@ CubeDimensions:
       - dataMask
 
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2021-07-05"
+RegistryEntryLastModified: "2021-08-16"
