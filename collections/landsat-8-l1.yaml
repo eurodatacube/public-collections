@@ -30,67 +30,18 @@ Tags:
   - LULC change
   - surface temperature
   - open data
-License: "[License](https://www.usgs.gov/centers/eros/data-citation?qt-science_support_page_related_con=0#qt-science_support_page_related_con)"
-LicenseType: proprietary 
+License: |
+   [License](https://www.usgs.gov/centers/eros/data-citation?qt-science_support_page_related_con=0#qt-science_support_page_related_con)
 Resources:
   - Group: Sentinel Hub Resources
     EndPoint: services-uswest2.sentinel-hub.com
-    Name: Sentinel Hub
-    Role: processor
-    Type: landsat-ot-l1 
+    Type: landsat-ot-l1 (previously LOTL1)
     Notes: Global since Feb 2013
-    Primary: true
   - Group: xcube Resources
   - DatasetName: landsat-ot-l1 (previously LOTL1)
 CustomScripts:
     Title: Collection of Landsat -8 custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#landsat-8
-extent: 
-  spatial: 
-    bbox: 
-    - "-180"
-    - "-85"
-    - "180"
-    - "85"
-  temporal: 
-    interval: 
-    - "2013-01-01T00:00:00Z"
-    - null
-CubeDimensions:
-  x:
-    type: spatial
-    axis: x
-    extent:
-      - "-180"
-      - "180"
-  y:
-    type: spatial
-    axis: y
-    extent:
-      - "-85"
-      - "85"
-  t:
-    type: temporal
-    extent:
-     - "2013-01-01T00:00:00Z"
-     - null
-    step: P5D
-  band:
-    type: bands
-    values:
-      - B01
-      - B02
-      - B03
-      - B04
-      - B05
-      - B06
-      - B07
-      - B08
-      - B09
-      - B10
-      - B11
-      - BQA
-      - dataMask
 
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2021-08-02"
+RegistryEntryLastModified: "2021-06-30"

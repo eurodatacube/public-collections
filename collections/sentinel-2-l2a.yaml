@@ -29,8 +29,10 @@ Tags:
   - disaster response
   - open data
   - dashboard hackathon
-License: "[License](https://docs.sentinel-hub.com/api/latest/data/sentinel-2-l2a/#attribution-and-use)"
-LicenseType: proprietary  
+License: |
+    [License](https://docs.sentinel-hub.com/api/latest/data/sentinel-2-l2a/#attribution-and-use)
+LicenseType: proprietary 
+LicenseUrl: https://docs.sentinel-hub.com/api/latest/data/sentinel-2-l2a/#attribution-and-use
 Resources:
   - Group: Sentinel Hub Resources
   - EndPoint: services.sentinel-hub.com
@@ -53,59 +55,26 @@ Configurations:
   - name: True Color
     evalscriptUrl: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/true_color/script.js"
     mosaicking_order: mostRecent
-<<<<<<< HEAD
     upsampling: bilinear
     downsampling: bilinear
-=======
-    upsampling: BICUBIC
->>>>>>> ba35e0a8b26cce258564324d025272c8c15def8a
     href: https://docs.sentinel-hub.com/api/latest/api/process/
     rel: processing-expression
   - name: "False color"
     evalscriptUrl: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/false_color_infrared/script.js"
-    mosaicking_order: mostRecent
-    upsampling: BICUBIC
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
   - name : "SWIR"
     evalscriptUrl: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/swir-rgb/script.js"
-    mosaicking_order: mostRecent
-    upsampling: BICUBIC
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
   - name : "False Color Urban"
     evalscriptUrl: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/false-color-urban-rgb/script.js"
-    mosaicking_order: mostRecent
-    upsampling: BICUBIC
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
   - name: "NDVI"
     evalscriptUrl: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/ndvi/script.js"
-    mosaicking_order: mostRecent
-    upsampling: NEAREST
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
   - name: "NDMI"
     evalscriptUrl: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/ndmi/script.js"
-    mosaicking_order: mostRecent
-    upsampling: NEAREST
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
   - name: "NDWI"
     evalscriptUrl: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/ndwi/script.js"
-    mosaicking_order: mostRecent
-    upsampling: NEAREST
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
   - name: "NDSI"
     evalscriptUrl: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/ndsi-visualized/script.js"
-    mosaicking_order: mostRecent
-    upsampling: NEAREST
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
   - name: "Scene Classification"
     evalscriptUrl: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/scene-classification/script.js"
-<<<<<<< HEAD
 
 Extent:
   spatial:
@@ -121,46 +90,18 @@ Extent:
         - '2016-11-01T00:00:00Z'
         - null
 CubeDimensions:
-=======
-    mosaicking_order: mostRecent
-    upsampling: NEAREST
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
-extent: 
-  spatial: 
-    bbox: 
-      - "-180"
-      - "-56"
-      - "180"
-      - "83"
-  temporal: 
-    interval: 
-    - "2016-11-01T00:00:00Z"
-    - null
-CubeDimensions:
->>>>>>> ba35e0a8b26cce258564324d025272c8c15def8a
   x:
     type: spatial
     axis: x
     extent:
-<<<<<<< HEAD
       - -180
       - 180
-=======
-      - "-180"
-      - "180"
->>>>>>> ba35e0a8b26cce258564324d025272c8c15def8a
   y:
     type: spatial
     axis: y
     extent:
-<<<<<<< HEAD
       - -56
       - 83
-=======
-      - "-56"
-      - "83"
->>>>>>> ba35e0a8b26cce258564324d025272c8c15def8a
   t:
     type: temporal
     extent:
@@ -194,9 +135,6 @@ CubeDimensions:
       - viewAzimuthMean
       - viewZenithMean
       - dataMask
-<<<<<<< HEAD
 
-=======
->>>>>>> ba35e0a8b26cce258564324d025272c8c15def8a
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2021-08-02"
+RegistryEntryLastModified: "2021-07-05"

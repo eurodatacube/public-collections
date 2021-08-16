@@ -68,74 +68,18 @@ Tags:
   - CLMS
   - derived data
   - open data
-License: free and open access policy as defined in the European Union’s Copernicus regulation ([details](https://land.copernicus.eu/global/about))
-LicenseType: proprietary  
+License: |
+ free and open access policy as defined in the European Union’s Copernicus regulation ([details](https://land.copernicus.eu/global/about))
 Resources:
   - Group: Sentinel Hub Resources
     EndPoint: creodias.sentinel-hub.com
-    Name: Sentinel Hub
-    Role: processor
     Type: byoc-f0a97620-0e88-4c1f-a1ac-bb388fabdf2c
     CollectionId: f0a97620-0e88-4c1f-a1ac-bb388fabdf2c
-    Primary: true
   - Group: xcube Resources
     DatasetName: CUSTOM
     CollectionId: f0a97620-0e88-4c1f-a1ac-bb388fabdf2c
 Configurations: 
   - name: Discrete Classification Map
     evalscriptUrl: "https://custom-scripts.sentinel-hub.com/copernicus_services/global_land_cover/script.js"   
-    mosaicking_order: mostRecent
-    upsampling: BICUBIC
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
-extent: 
-  spatial: 
-    bbox: 
-      - "-180"
-      - "-60"
-      - "180"
-      - "78.25"
-  temporal: 
-    interval: 
-    - "2015-01-01T00:00:00Z"
-    - "2019-12-31T00:00:00Z"
-CubeDimensions:
-  x:
-    type: spatial
-    axis: x
-    extent:
-      - "-180"
-      - "180"
-  y:
-    type: spatial
-    axis: y
-    extent:
-      - "-60"
-      - "78.25"
-  t:
-    type: temporal
-    extent:
-    - "2015-01-01T00:00:00Z"
-    - "2019-12-31T00:00:00Z"
-    step: P5D
-  band:
-    type: bands
-    values:
-      - Discrete_Classification_map
-      - Discrete_Classification_proba
-      - Forest_Type_layer
-      - Bare_CoverFraction_layer
-      - Crops_CoverFraction_layer
-      - Grass_CoverFraction_layer
-      - MossLichen_CoverFraction_layer
-      - Shrub_CoverFraction_layer
-      - Snow_CoverFraction_layer
-      - Tree_CoverFraction_layer
-      - BuiltUp_CoverFraction_layer
-      - PermanentWater_CoverFraction_layer
-      - SeasonalWater_CoverFraction_layer
-      - DataDensityIndicator
-      - Change_Confidence_layer
-
 RegistryEntryAdded: "2021-03-20"
-RegistryEntryLastModified: "2021-08-04"
+RegistryEntryLastModified: "2021-07-14"
