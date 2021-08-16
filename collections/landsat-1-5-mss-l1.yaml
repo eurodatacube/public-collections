@@ -28,14 +28,92 @@ Tags:
   - LULC mapping
   - LULC change
   - open data
-License: |
-  [License](https://www.usgs.gov/centers/eros/data-citation?qt-science_support_page_related_con=0#qt-science_support_page_related_con)
+License: "[License](https://www.usgs.gov/centers/eros/data-citation?qt-science_support_page_related_con=0#qt-science_support_page_related_con)"
+LicenseType: proprietary  
+LicenseUrl: https://www.usgs.gov/centers/eros/data-citation?qt-science_support_page_related_con=0#qt-science_support_page_related_con
 Resources:
   - Group: Sentinel Hub Resources
     EndPoint: services-uswest2.sentinel-hub.com
+    Name: Sentinel Hub
+    Role: processor
     Type:  landsat-mss-l1 
     Notes: Global coverage from July 1972 to October 1992 and from June 2012 to January 2013
+    Primary: true
   - Group: xcube Resources
     DatasetName: landsat-mss-l1 
+CustomScripts:
+    Title: Collection of Landsat 1-5 MSS custom scripts
+    URL: https://custom-scripts.sentinel-hub.com/#landsat-1-5-mss
+Configurations:
+  - name: False Color Near Infrared
+    evalscriptUrl: "https://custom-scripts.sentinel-hub.com/landsat-1-5-mss/false-color-nir/script.js"
+    mosaicking_order: mostRecent
+    upsampling: BICUBIC
+    href: https://docs.sentinel-hub.com/api/latest/api/process/
+    rel: processing-expression
+  - name: False Color Ultra Red
+    evalscriptUrl: "https://custom-scripts.sentinel-hub.com/landsat-1-5-mss/false-color-ultrared/script.js"
+    mosaicking_order: mostRecent
+    upsampling: BICUBIC
+    href: https://docs.sentinel-hub.com/api/latest/api/process/
+    rel: processing-expression
+  - name: NDVI
+    evalscriptUrl: "https://custom-scripts.sentinel-hub.com/landsat-1-5-mss/ndvi/script.js"
+    mosaicking_order: mostRecent
+    upsampling: NEAREST
+    href: https://docs.sentinel-hub.com/api/latest/api/process/
+    rel: processing-expression
+  - name: "NDWI"
+    evalscriptUrl: "https://custom-scripts.sentinel-hub.com/landsat-1-5-mss/ndwi/script.js"
+    mosaicking_order: mostRecent
+    upsampling: NEAREST
+    href: https://docs.sentinel-hub.com/api/latest/api/process/
+    rel: processing-expression
+Extent:
+  spatial:
+    bbox:
+      -
+        - -180
+        - -85
+        - 180
+        - 85
+  temporal:
+    interval:
+      -
+        - '1972-07-01T00:00:00Z'
+        - '2013-01-01T00:00:00Z'
+CubeDimensions:
+  x:
+    type: spatial
+    axis: x
+    extent:
+      - -180
+      - 180
+  y:
+    type: spatial
+    axis: y
+    extent:
+      - -85
+      - 85
+  t:
+    type: temporal
+    extent:
+      - '1972-07-01T00:00:00Z'
+      - '2013-01-01T00:00:00Z'
+    step: P5D
+  band:
+    type: bands
+    values:
+      - B01
+      - B02
+      - B03
+      - B04
+      - QA_RADSAT
+      - VAA
+      - VZA
+      - SAA
+      - SZA
+      - dataMask
+
 RegistryEntryAdded: "2021-07-16"
-RegistryEntryLastModified: "2021-07-20"
+RegistryEntryLastModified: "2021-08-16"
