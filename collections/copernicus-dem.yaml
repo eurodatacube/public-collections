@@ -81,8 +81,8 @@ Extent:
   temporal:
     interval:
       -
-        - '2010-01-01T00:00:00Z'
-        - '2015-12-31T00:00:00Z'
+        - '2010-12-12T05:04:33Z'
+        - '2015-01-16T01:37:12Z'
 CubeDimensions:
   x:
     type: spatial
@@ -99,8 +99,8 @@ CubeDimensions:
   t:
     type: temporal
     extent:
-      - '2010-01-01T00:00:00Z'
-      - '2015-12-31T00:00:00Z'
+      - '2010-12-12T05:04:33Z'
+      - '2015-01-16T01:37:12Z'
     step: P5D
   band:
     type: bands
