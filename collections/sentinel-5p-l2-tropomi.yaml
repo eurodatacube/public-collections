@@ -57,6 +57,67 @@ Resources:
 CustomScripts:
     Title: Collection of Sentinel-5P custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#sentinel-5P
+Configurations: 
+  - name: Nitrogen Dioxide tropospheric column
+    evalscriptUrl: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-5p/nitrogen_dioxide_tropospheric_column/script.js"
+    mosaicking_order: mostRecent
+    upsampling: BICUBIC
+    href: https://docs.sentinel-hub.com/api/latest/api/process/
+    rel: processing-expression
+  - name: Nitrogen Dioxide
+    evalscriptUrl: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-5p/nitrogen-dioxide/script.js"
+    mosaicking_order: mostRecent
+    upsampling: BICUBIC
+    href: https://docs.sentinel-hub.com/api/latest/api/process/
+    rel: processing-expression
+  - name: Carbon Monoxide - CO
+    evalscriptUrl: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-5p/carbon-monoxide/script.js"
+    mosaicking_order: mostRecent
+    upsampling: BICUBIC
+    href: https://docs.sentinel-hub.com/api/latest/api/process/
+    rel: processing-expression
+  - name: Methane - CH4
+    evalscriptUrl: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-5p/methane/script.js"
+    mosaicking_order: mostRecent
+    upsampling: BICUBIC
+    href: https://docs.sentinel-hub.com/api/latest/api/process/
+    rel: processing-expression
+  - name: Sulphur Dioxide - SO2
+    evalscriptUrl: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-5p/sulphur-dioxide/script.js"
+    mosaicking_order: mostRecent
+    upsampling: BICUBIC
+    href: https://docs.sentinel-hub.com/api/latest/api/process/
+    rel: processing-expression
+  - name: Ozone - O3
+    evalscriptUrl: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-5p/ozone/script.js"
+    mosaicking_order: mostRecent
+    upsampling: BICUBIC
+    href: https://docs.sentinel-hub.com/api/latest/api/process/
+    rel: processing-expression
+  - name: Formaldehyde - HCHO
+    evalscriptUrl: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-5p/formaldehyde/script.js"
+    mosaicking_order: mostRecent
+    upsampling: BICUBIC
+    href: https://docs.sentinel-hub.com/api/latest/api/process/
+    rel: processing-expression
+  - name: Formaldehyde - HCHO
+    evalscriptUrl: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-5p/formaldehyde/script.js"
+    mosaicking_order: mostRecent
+    upsampling: BICUBIC
+    href: https://docs.sentinel-hub.com/api/latest/api/process/
+    rel: processing-expression
+  - name: Aerosol 340/380
+    evalscriptUrl: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-5p/aer-ai-340-380/script.js"
+    mosaicking_order: mostRecent
+    upsampling: BICUBIC
+    href: https://docs.sentinel-hub.com/api/latest/api/process/
+    rel: processing-expression
+  - name: Aerosol 354/388
+    evalscriptUrl: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-5p/aer-ai-354-388/script.js"
+    mosaicking_order: mostRecent
+    upsampling: BICUBIC
+    href: https://docs.sentinel-hub.com/api/latest/api/process/
+    rel: processing-expression
 Extent:
   spatial:
     bbox:
@@ -107,6 +168,5 @@ CubeDimensions:
       - CLOUD_OPTICAL_THICKNESS
       - CLOUD_FRACTION
       - dataMask
-
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2021-08-16"
+RegistryEntryLastModified: "2021-08-17"
