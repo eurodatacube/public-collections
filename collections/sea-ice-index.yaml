@@ -19,14 +19,14 @@ UpdateFrequency: None. For demonstration purposes only.
 BandInformation:
   Table:
     Columns:
-      - layer_name: layer_name
+      - Name: layer_name
         Title: layer_name
-      - layer_name: Description
+      - Name: Description
         Title: Description
     Rows:
-      - layer_name: Concentration
+      - Name: Concentration
         Description: percentage of ice cover for cells with more than 15 percent ice cover
-      - layer_name: Extent
+      - Name: Extent
         Description: extent of ocean covered by ice at any concentration greater than 15 percent for a given day
 
 Contact: "NSIDC User Services: nsidc@nsidc.org"
