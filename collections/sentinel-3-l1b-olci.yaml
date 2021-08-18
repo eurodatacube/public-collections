@@ -56,26 +56,26 @@ CustomScripts:
     Title: Collection of Sentinel-3 custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#sentinel-3
 Configurations: 
-  - name: True color - enhanced
-    evalscriptUrl: "https://custom-scripts.sentinel-hub.com/sentinel-3/enhanced_true_color-2/script.js"
+  - layer_name: True color - enhanced
+    evalscript_url: "https://custom-scripts.sentinel-hub.com/sentinel-3/enhanced_true_color-2/script.js"
     mosaicking_order: mostRecent
     upsampling: BICUBIC
     href: https://docs.sentinel-hub.com/api/latest/api/process/
     rel: processing-expression
-  - name: True color - highlight optimized
-    evalscriptUrl: "https://custom-scripts.sentinel-hub.com/sentinel-3/true_color_highlight_optimized/script.js"
+  - layer_name: True color - highlight optimized
+    evalscript_url: "https://custom-scripts.sentinel-hub.com/sentinel-3/true_color_highlight_optimized/script.js"
     mosaicking_order: mostRecent
     upsampling: BICUBIC
     href: https://docs.sentinel-hub.com/api/latest/api/process/
     rel: processing-expression
-  - name: OTCI
-    evalscriptUrl: "https://custom-scripts.sentinel-hub.com/sentinel-3/otci/script.js"
+  - layer_name: OTCI
+    evalscript_url: "https://custom-scripts.sentinel-hub.com/sentinel-3/otci/script.js"
     mosaicking_order: mostRecent
     upsampling: NEAREST
     href: https://docs.sentinel-hub.com/api/latest/api/process/
     rel: processing-expression
-  - name: Tristimulus
-    evalscriptUrl: "https://custom-scripts.sentinel-hub.com/sentinel-3/tristimulus/script.js"
+  - layer_name: Tristimulus
+    evalscript_url: "https://custom-scripts.sentinel-hub.com/sentinel-3/tristimulus/script.js"
     mosaicking_order: mostRecent
     upsampling: NEAREST
     href: https://docs.sentinel-hub.com/api/latest/api/process/

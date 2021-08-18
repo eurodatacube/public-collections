@@ -58,62 +58,62 @@ CustomScripts:
     Title: Collection of Sentinel-5P custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#sentinel-5P
 Configurations: 
-  - name: Nitrogen Dioxide tropospheric column
-    evalscriptUrl: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-5p/nitrogen_dioxide_tropospheric_column/script.js"
+  - layer_name: Nitrogen Dioxide tropospheric column
+    evalscript_url: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-5p/nitrogen_dioxide_tropospheric_column/script.js"
     mosaicking_order: mostRecent
     upsampling: BICUBIC
     href: https://docs.sentinel-hub.com/api/latest/api/process/
     rel: processing-expression
-  - name: Nitrogen Dioxide
-    evalscriptUrl: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-5p/nitrogen-dioxide/script.js"
+  - layer_name: Nitrogen Dioxide
+    evalscript_url: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-5p/nitrogen-dioxide/script.js"
     mosaicking_order: mostRecent
     upsampling: BICUBIC
     href: https://docs.sentinel-hub.com/api/latest/api/process/
     rel: processing-expression
-  - name: Carbon Monoxide - CO
-    evalscriptUrl: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-5p/carbon-monoxide/script.js"
+  - layer_name: Carbon Monoxide - CO
+    evalscript_url: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-5p/carbon-monoxide/script.js"
     mosaicking_order: mostRecent
     upsampling: BICUBIC
     href: https://docs.sentinel-hub.com/api/latest/api/process/
     rel: processing-expression
-  - name: Methane - CH4
-    evalscriptUrl: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-5p/methane/script.js"
+  - layer_name: Methane - CH4
+    evalscript_url: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-5p/methane/script.js"
     mosaicking_order: mostRecent
     upsampling: BICUBIC
     href: https://docs.sentinel-hub.com/api/latest/api/process/
     rel: processing-expression
-  - name: Sulphur Dioxide - SO2
-    evalscriptUrl: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-5p/sulphur-dioxide/script.js"
+  - layer_name: Sulphur Dioxide - SO2
+    evalscript_url: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-5p/sulphur-dioxide/script.js"
     mosaicking_order: mostRecent
     upsampling: BICUBIC
     href: https://docs.sentinel-hub.com/api/latest/api/process/
     rel: processing-expression
-  - name: Ozone - O3
-    evalscriptUrl: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-5p/ozone/script.js"
+  - layer_name: Ozone - O3
+    evalscript_url: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-5p/ozone/script.js"
     mosaicking_order: mostRecent
     upsampling: BICUBIC
     href: https://docs.sentinel-hub.com/api/latest/api/process/
     rel: processing-expression
-  - name: Formaldehyde - HCHO
-    evalscriptUrl: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-5p/formaldehyde/script.js"
+  - layer_name: Formaldehyde - HCHO
+    evalscript_url: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-5p/formaldehyde/script.js"
     mosaicking_order: mostRecent
     upsampling: BICUBIC
     href: https://docs.sentinel-hub.com/api/latest/api/process/
     rel: processing-expression
-  - name: Formaldehyde - HCHO
-    evalscriptUrl: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-5p/formaldehyde/script.js"
+  - layer_name: Formaldehyde - HCHO
+    evalscript_url: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-5p/formaldehyde/script.js"
     mosaicking_order: mostRecent
     upsampling: BICUBIC
     href: https://docs.sentinel-hub.com/api/latest/api/process/
     rel: processing-expression
-  - name: Aerosol 340/380
-    evalscriptUrl: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-5p/aer-ai-340-380/script.js"
+  - layer_name: Aerosol 340/380
+    evalscript_url: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-5p/aer-ai-340-380/script.js"
     mosaicking_order: mostRecent
     upsampling: BICUBIC
     href: https://docs.sentinel-hub.com/api/latest/api/process/
     rel: processing-expression
-  - name: Aerosol 354/388
-    evalscriptUrl: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-5p/aer-ai-354-388/script.js"
+  - layer_name: Aerosol 354/388
+    evalscript_url: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-5p/aer-ai-354-388/script.js"
     mosaicking_order: mostRecent
     upsampling: BICUBIC
     href: https://docs.sentinel-hub.com/api/latest/api/process/
