@@ -54,14 +54,20 @@ Tags:
   - machine learning
   - agriculture
   - open data
-License: |
- CC-BY 4.0, Credit: Contains modified Copernicus data [year] processed by Sentinel Hub
+License: "CC-BY 4.0, Credit: Contains modified Copernicus data [year] processed by Sentinel Hub"
+LicenseType: proprietary
+LicenseUrl: https://www.sentinel-hub.com/tos/#collection
 Resources:
   - Group: Sentinel Hub Resources
   - EndPoint: services.sentinel-hub.com
+    Name: Sentinel Hub
+    Role: processor
     Type: byoc-0074520d-bcf5-4811-8f6f-afd946e77695
     CollectionId: 0074520d-bcf5-4811-8f6f-afd946e77695
+    Primary: true
   - EndPoint: creodias.sentinel-hub.com
+    Name: Sentinel Hub
+    Role: processor
     Type: byoc-eaa027cc-1d9b-40fc-a15c-9dc486caebd7
     CollectionId: eaa027cc-1d9b-40fc-a15c-9dc486caebd7
   - Group: xcube Resources
@@ -82,6 +88,47 @@ DataAtWork:
     - Title: Digital Twin Sandbox Sentinel-2 collection available to everyone
       URL: https://medium.com/sentinel-hub/digital-twin-sandbox-sentinel-2-collection-available-to-everyone-20f3b5de846e
       AuthorName: Milcinski G., Lubej M.
-
+Extent:
+  spatial:
+    bbox:
+      -
+        - -180
+        - -58
+        - 180
+        - 72
+  temporal:
+    interval:
+      -
+        - '2019-01-01T00:00:00Z'
+        - '2019-12-31T00:00:00Z'
+CubeDimensions:
+  x:
+    type: spatial
+    axis: x
+    extent:
+      - -180
+      - 180
+  y:
+    type: spatial
+    axis: y
+    extent:
+      - -58
+      - 72
+  t:
+    type: temporal
+    extent:
+      - '2019-01-01T00:00:00Z'
+      - '2019-12-31T00:00:00Z'
+    step: P5D
+  band:
+    type: bands
+    values:
+      - B02
+      - B03
+      - B04
+      - B08
+      - B11
+      - B12
+      - dataMask
 RegistryEntryAdded: "2021-03-21"
-RegistryEntryLastModified: "2021-05-05"
+RegistryEntryLastModified: "2021-08-18"
