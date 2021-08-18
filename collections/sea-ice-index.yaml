@@ -1,4 +1,4 @@
-layer_name: Sea Ice Index
+Name: Sea Ice Index
 Description: |
   [Sea Ice Index](https://nsidc.org/data/G02135/versions/3) products offer information about ice cover and its trends in the Arctic and Antarctica.
    In this collection, sea ice extent and concentration maps are provided at a resolution of 25 km on a daily basis.
@@ -19,8 +19,8 @@ UpdateFrequency: None. For demonstration purposes only.
 BandInformation:
   Table:
     Columns:
-      - Name: layer_name
-        Title: layer_name
+      - Name: Name
+        Title: Name
       - Name: Description
         Title: Description
     Rows:
