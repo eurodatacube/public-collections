@@ -40,8 +40,8 @@ Resources:
     DatasetName: CUSTOM
     CollectionId: cbdba844-f86d-41dc-95ad-b3f7f12535e9
 Configurations: 
-  - name: Corine Land Cover
-    evalscriptUrl: "https://custom-scripts.sentinel-hub.com/copernicus_services/corine_land_cover/script.js"
+  - layer_name: Corine Land Cover
+    evalscript_url: "https://custom-scripts.sentinel-hub.com/copernicus_services/corine_land_cover/script.js"
     mosaicking_order: mostRecent
     upsampling: BICUBIC
     href: https://docs.sentinel-hub.com/api/latest/api/process/

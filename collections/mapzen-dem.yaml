@@ -51,25 +51,25 @@ CustomScripts:
     Title: Collection of DEM custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#dem
 Configurations:     
-  - name: Color
-    evalscriptUrl: "https://custom-scripts.sentinel-hub.com/dem/dem-color/script.js"
+  - layer_name: Color
+    evalscript_url: "https://custom-scripts.sentinel-hub.com/dem/dem-color/script.js"
     mosaicking_order: mostRecent
     upsampling: BICUBIC
-    demInstance: MAPZEN 
+    dem_instance: MAPZEN 
     href: https://docs.sentinel-hub.com/api/latest/api/process/
     rel: processing-expression
-  - name: Grayscale
-    evalscriptUrl: "https://custom-scripts.sentinel-hub.com/dem/dem-grayscale/script.js"
+  - layer_name: Grayscale
+    evalscript_url: "https://custom-scripts.sentinel-hub.com/dem/dem-grayscale/script.js"
     mosaicking_order: mostRecent
     upsampling: BICUBIC
-    demInstance: MAPZEN
+    dem_instance: MAPZEN
     href: https://docs.sentinel-hub.com/api/latest/api/process/
     rel: processing-expression
-  - name: Sepia
-    evalscriptUrl: "https://custom-scripts.sentinel-hub.com/dem/dem-sepia/script.js"
+  - layer_name: Sepia
+    evalscript_url: "https://custom-scripts.sentinel-hub.com/dem/dem-sepia/script.js"
     mosaicking_order: mostRecent
     upsampling: BICUBIC
-    demInstance: MAPZEN
+    dem_instance: MAPZEN
     href: https://docs.sentinel-hub.com/api/latest/api/process/
     rel: processing-expression
 Extent:
@@ -110,4 +110,4 @@ CubeDimensions:
       - DEM
       - dataMask
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2021-08-04"
+RegistryEntryLastModified: "2021-08-17"

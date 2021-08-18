@@ -83,8 +83,8 @@ Resources:
     DatasetName: CUSTOM
     CollectionId: f0a97620-0e88-4c1f-a1ac-bb388fabdf2c
 Configurations: 
-  - name: Discrete Classification Map
-    evalscriptUrl: "https://custom-scripts.sentinel-hub.com/copernicus_services/global_land_cover/script.js"   
+  - layer_name: Discrete Classification Map
+    evalscript_url: "https://custom-scripts.sentinel-hub.com/copernicus_services/global_land_cover/script.js"   
     mosaicking_order: mostRecent
     upsampling: BICUBIC
     href: https://docs.sentinel-hub.com/api/latest/api/process/
