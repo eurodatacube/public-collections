@@ -58,17 +58,17 @@ CustomScripts:
     Title: Collection of Sentinel-1 custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#sentinel-1
 Configurations: 
-  - name: SAR urban
-    evalscriptUrl: "https://custom-scripts.sentinel-hub.com/sentinel-1/urban_areas/script.js"
-    acquisitionMode: IW
+  - layer_name: SAR urban
+    evalscript_url: "https://custom-scripts.sentinel-hub.com/sentinel-1/urban_areas/script.js"
+    acquisition_mode: IW
     polarization: DV
     resolution: HIGH
     mosaicking_order: mostRecent
     upsampling: BICUBIC
     href: https://docs.sentinel-hub.com/api/latest/api/process/
     rel: processing-expression
-  - name: Enhanced visualization
-    evalscriptUrl: "https://custom-scripts.sentinel-hub.com/sentinel-1/sar_false_color_visualization-2/script.js"
+  - layer_name: Enhanced visualization
+    evalscript_url: "https://custom-scripts.sentinel-hub.com/sentinel-1/sar_false_color_visualization-2/script.js"
     acquisitionMode: IW
     polarization: DV
     resolution: HIGH
@@ -121,4 +121,4 @@ CubeDimensions:
       - HH
       - HV
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2021-08-17"
+RegistryEntryLastModified: "2021-08-18"

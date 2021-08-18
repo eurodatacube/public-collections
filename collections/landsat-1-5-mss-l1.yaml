@@ -45,26 +45,26 @@ CustomScripts:
     Title: Collection of Landsat 1-5 MSS custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#landsat-1-5-mss
 Configurations:
-  - name: False Color Near Infrared
-    evalscriptUrl: "https://custom-scripts.sentinel-hub.com/landsat-1-5-mss/false-color-nir/script.js"
+  - layer_name: False Color Near Infrared
+    evalscript_url: "https://custom-scripts.sentinel-hub.com/landsat-1-5-mss/false-color-nir/script.js"
     mosaicking_order: mostRecent
     upsampling: BICUBIC
     href: https://docs.sentinel-hub.com/api/latest/api/process/
     rel: processing-expression
-  - name: False Color Ultra Red
-    evalscriptUrl: "https://custom-scripts.sentinel-hub.com/landsat-1-5-mss/false-color-ultrared/script.js"
+  - layer_name: False Color Ultra Red
+    evalscript_url: "https://custom-scripts.sentinel-hub.com/landsat-1-5-mss/false-color-ultrared/script.js"
     mosaicking_order: mostRecent
     upsampling: BICUBIC
     href: https://docs.sentinel-hub.com/api/latest/api/process/
     rel: processing-expression
-  - name: NDVI
-    evalscriptUrl: "https://custom-scripts.sentinel-hub.com/landsat-1-5-mss/ndvi/script.js"
+  - layer_name: NDVI
+    evalscript_url: "https://custom-scripts.sentinel-hub.com/landsat-1-5-mss/ndvi/script.js"
     mosaicking_order: mostRecent
     upsampling: NEAREST
     href: https://docs.sentinel-hub.com/api/latest/api/process/
     rel: processing-expression
-  - name: "NDWI"
-    evalscriptUrl: "https://custom-scripts.sentinel-hub.com/landsat-1-5-mss/ndwi/script.js"
+  - layer_name: "NDWI"
+    evalscript_url: "https://custom-scripts.sentinel-hub.com/landsat-1-5-mss/ndwi/script.js"
     mosaicking_order: mostRecent
     upsampling: NEAREST
     href: https://docs.sentinel-hub.com/api/latest/api/process/
@@ -116,4 +116,4 @@ CubeDimensions:
       - dataMask
 
 RegistryEntryAdded: "2021-07-16"
-RegistryEntryLastModified: "2021-08-16"
+RegistryEntryLastModified: "2021-08-18"

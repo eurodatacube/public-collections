@@ -54,14 +54,14 @@ CustomScripts:
     Title: Collection of Copernicus services data custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#copernicus_services
 Configurations: 
-  - name: Water Bodies
-    evalscriptUrl: "https://custom-scripts.sentinel-hub.com/copernicus_services/water-bodies/script.js"
+  - layer_name: Water Bodies
+    evalscript_url: "https://custom-scripts.sentinel-hub.com/copernicus_services/water-bodies/script.js"
     mosaicking_order: mostRecent
     upsampling: BICUBIC
     href: https://docs.sentinel-hub.com/api/latest/api/process/
     rel: processing-expression
-  - name: Water Bodies Occurrence
-    evalscriptUrl: "https://custom-scripts.sentinel-hub.com/copernicus_services/water-bodies-occurence/script.js"
+  - layer_name: Water Bodies Occurrence
+    evalscript_url: "https://custom-scripts.sentinel-hub.com/copernicus_services/water-bodies-occurence/script.js"
     mosaicking_order: mostRecent
     upsampling: BICUBIC
     href: https://docs.sentinel-hub.com/api/latest/api/process/
@@ -105,4 +105,4 @@ CubeDimensions:
       - QUAL
       - dataMask
 RegistryEntryAdded: "2021-03-30"
-RegistryEntryLastModified: "2021-08-17"
+RegistryEntryLastModified: "2021-08-18"

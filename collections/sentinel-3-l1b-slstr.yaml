@@ -55,14 +55,14 @@ CustomScripts:
     Title: Collection of Sentinel-3 custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#sentinel-3
 Configurations: 
-  - name: False Color based on bands S3, S2, and S1
-    evalscriptUrl: "https://custom-scripts.sentinel-hub.com/slstr/false-color-321/script.js"
+  - layer_name: False Color based on bands S3, S2, and S1
+    evalscript_url: "https://custom-scripts.sentinel-hub.com/slstr/false-color-321/script.js"
     mosaicking_order: mostRecent
     upsampling: BICUBIC
     href: https://docs.sentinel-hub.com/api/latest/api/process/
     rel: processing-expression
-  - name: F1 Brightness Temperature
-    evalscriptUrl: "https://custom-scripts.sentinel-hub.com/slstr/f1-brightness-temperature/script.js"
+  - layer_name: F1 Brightness Temperature
+    evalscript_url: "https://custom-scripts.sentinel-hub.com/slstr/f1-brightness-temperature/script.js"
     mosaicking_order: mostRecent
     upsampling: BICUBIC
     href: https://docs.sentinel-hub.com/api/latest/api/process/
@@ -117,4 +117,4 @@ CubeDimensions:
       - dataMask
 
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2021-08-16"
+RegistryEntryLastModified: "2021-08-18"

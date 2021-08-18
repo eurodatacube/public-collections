@@ -41,38 +41,38 @@ CustomScripts:
     Title: Collection of Landsat 7 ETM+ custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#landsat-7-etm
 Configurations:
-  - name: True color
-    evalscriptUrl: "https://custom-scripts.sentinel-hub.com/landsat-7-etm/true-color/script.js"
+  - layer_name: True color
+    evalscript_url: "https://custom-scripts.sentinel-hub.com/landsat-7-etm/true-color/script.js"
     mosaicking_order: mostRecent
     upsampling: BICUBIC
     href: https://docs.sentinel-hub.com/api/latest/api/process/
     rel: processing-expression
-  - name: False color
-    evalscriptUrl: "https://custom-scripts.sentinel-hub.com/landsat-7-etm/false-color/script.js"
+  - layer_name: False color
+    evalscript_url: "https://custom-scripts.sentinel-hub.com/landsat-7-etm/false-color/script.js"
     mosaicking_order: mostRecent
     upsampling: BICUBIC
     href: https://docs.sentinel-hub.com/api/latest/api/process/
     rel: processing-expression
-  - name: SWIR
-    evalscriptUrl: "https://custom-scripts.sentinel-hub.com/landsat-7-etm/swir/script.js"
+  - layer_name: SWIR
+    evalscript_url: "https://custom-scripts.sentinel-hub.com/landsat-7-etm/swir/script.js"
     mosaicking_order: mostRecent
     upsampling: BICUBIC
     href: https://docs.sentinel-hub.com/api/latest/api/process/
     rel: processing-expression
-  - name: NDVI
-    evalscriptUrl: "https://custom-scripts.sentinel-hub.com/landsat-7-etm/ndvi/script.js"
+  - layer_name: NDVI
+    evalscript_url: "https://custom-scripts.sentinel-hub.com/landsat-7-etm/ndvi/script.js"
     mosaicking_order: mostRecent
     upsampling: NEAREST
     href: https://docs.sentinel-hub.com/api/latest/api/process/
     rel: processing-expression
-  - name: Moisture Index
-    evalscriptUrl: "https://custom-scripts.sentinel-hub.com/landsat-7-etm/moisture-index/script.js"
+  - layer_name: Moisture Index
+    evalscript_url: "https://custom-scripts.sentinel-hub.com/landsat-7-etm/moisture-index/script.js"
     mosaicking_order: mostRecent
     upsampling: NEAREST
     href: https://docs.sentinel-hub.com/api/latest/api/process/
     rel: processing-expression
-  - name: NDWI
-    evalscriptUrl: "https://custom-scripts.sentinel-hub.com/landsat-7-etm/ndwi/script.js"
+  - layer_name: NDWI
+    evalscript_url: "https://custom-scripts.sentinel-hub.com/landsat-7-etm/ndwi/script.js"
     mosaicking_order: mostRecent
     upsampling: NEAREST
     href: https://docs.sentinel-hub.com/api/latest/api/process/
@@ -127,4 +127,4 @@ CubeDimensions:
       - SZA
       - dataMask
 RegistryEntryAdded: "2021-07-16"
-RegistryEntryLastModified: "2021-08-16"
+RegistryEntryLastModified: "2021-08-18"

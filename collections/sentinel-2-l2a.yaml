@@ -52,56 +52,56 @@ CustomScripts:
   Title: Collection of Sentinel-2 custom scripts
   URL: https://custom-scripts.sentinel-hub.com/#sentinel-2
 Configurations:
-  - name: "True Color"
-    evalscriptUrl: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/true_color/script.js"
+  - layer_name: "True Color"
+    evalscript_url: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/true_color/script.js"
     mosaicking_order: mostRecent
     upsampling: BICUBIC
     href: https://docs.sentinel-hub.com/api/latest/api/process/
     rel: processing-expression
-  - name: "False color"
-    evalscriptUrl: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/false_color_infrared/script.js"
+  - layer_name: "False color"
+    evalscript_url: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/false_color_infrared/script.js"
     mosaicking_order: mostRecent
     upsampling: BICUBIC
     href: https://docs.sentinel-hub.com/api/latest/api/process/
     rel: processing-expression
-  - name : "SWIR"
-    evalscriptUrl: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/swir-rgb/script.js"
+  - layer_name : "SWIR"
+    evalscript_url: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/swir-rgb/script.js"
     mosaicking_order: mostRecent
     upsampling: BICUBIC
     href: https://docs.sentinel-hub.com/api/latest/api/process/
     rel: processing-expression
-  - name : "False Color Urban"
-    evalscriptUrl: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/false-color-urban-rgb/script.js"
+  - layer_name : "False Color Urban"
+    evalscript_url: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/false-color-urban-rgb/script.js"
     mosaicking_order: mostRecent
     upsampling: BICUBIC
     href: https://docs.sentinel-hub.com/api/latest/api/process/
     rel: processing-expression
-  - name: "NDVI"
-    evalscriptUrl: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/ndvi/script.js"
+  - layer_name: "NDVI"
+    evalscript_url: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/ndvi/script.js"
     mosaicking_order: mostRecent
     upsampling: NEAREST
     href: https://docs.sentinel-hub.com/api/latest/api/process/
     rel: processing-expression
-  - name: "NDMI"
-    evalscriptUrl: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/ndmi/script.js"
+  - layer_name: "NDMI"
+    evalscript_url: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/ndmi/script.js"
     mosaicking_order: mostRecent
     upsampling: NEAREST
     href: https://docs.sentinel-hub.com/api/latest/api/process/
     rel: processing-expression
-  - name: "NDWI"
-    evalscriptUrl: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/ndwi/script.js"
+  - layer_name: "NDWI"
+    evalscript_url: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/ndwi/script.js"
     mosaicking_order: mostRecent
     upsampling: NEAREST
     href: https://docs.sentinel-hub.com/api/latest/api/process/
     rel: processing-expression
-  - name: "NDSI"
-    evalscriptUrl: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/ndsi-visualized/script.js"
+  - layer_name: "NDSI"
+    evalscript_url: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/ndsi-visualized/script.js"
     mosaicking_order: mostRecent
     upsampling: NEAREST
     href: https://docs.sentinel-hub.com/api/latest/api/process/
     rel: processing-expression
-  - name: "Scene Classification"
-    evalscriptUrl: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/scene-classification/script.js"
+  - layer_name: "Scene Classification"
+    evalscript_url: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/scene-classification/script.js"
     mosaicking_order: mostRecent
     upsampling: BICUBIC
     href: https://docs.sentinel-hub.com/api/latest/api/process/
@@ -168,4 +168,4 @@ CubeDimensions:
       - dataMask
 
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2021-08-16"
+RegistryEntryLastModified: "2021-08-18"
