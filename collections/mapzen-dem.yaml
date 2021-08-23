@@ -38,7 +38,7 @@ Resources:
     Type: DEM
     demInstance: MAPZEN
     Notes: Global 
-    primary: true
+    Primary: true
   - EndPoint: services.sentinel-hub.com
     Name: Sentinel Hub
     Role: processor

@@ -520,6 +520,13 @@ const hbsHelpers = {
     subs += '...';
 
     return subs;
+  },
+  find: function (arr, conditionalField, resultField) {
+    for(var i = 0; i < arr.length; i++) {
+      if(arr[i][conditionalField]) {
+        return arr[i][resultField];
+      }
+    }
   }
 };
 exports.hbsHelpers = hbsHelpers; // exporting for testing purposes
