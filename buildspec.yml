@@ -9,6 +9,7 @@ phases:
       - npm install
   build:
     commands:
+      - mkdir _output
       - npm run build > _output/output.log
       - aws s3 rm $COLLECTIONS_BROWSER_S3_BUCKET --recursive
       - aws s3 sync _output/ $COLLECTIONS_BROWSER_S3_BUCKET --delete --acl=bucket-owner-full-control
