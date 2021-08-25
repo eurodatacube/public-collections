@@ -73,6 +73,19 @@ Resources:
   - Group: xcube Resources
     DatasetName: CUSTOM
     CollectionId: 0074520d-bcf5-4811-8f6f-afd946e77695
+Configurations:
+  - layer_name: "True Color"
+    evalscript_url: https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/true_color/script.js
+    mosaicking_order: mostRecent
+    upsampling: BICUBIC
+    href: https://docs.sentinel-hub.com/api/latest/api/process/
+    rel: processing-expression
+  - layer_name: "False Color"
+    evalscript_url: https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/false_color_infrared/script.js
+    mosaicking_order: mostRecent
+    upsampling: BICUBIC
+    href: https://docs.sentinel-hub.com/api/latest/api/process/
+    rel: processing-expression
 DataAtWork:
   Tutorials:
     - Title: How to Make the Perfect Time-Lapse of the Earth
