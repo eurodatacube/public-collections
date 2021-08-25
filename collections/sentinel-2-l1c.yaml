@@ -61,7 +61,7 @@ CustomScripts:
     Title: Collection of Sentinel-2 custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#sentinel-2
 Configurations: 
-  - layer_name: True Color
+  - layer_name: "True Color"
     evalscript_url: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/true_color/script.js"
     mosaicking_order: mostRecent
     upsampling: BICUBIC
