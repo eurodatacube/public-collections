@@ -69,7 +69,7 @@ Configurations:
     rel: processing-expression
   - layer_name: Enhanced visualization
     evalscript_url: "https://custom-scripts.sentinel-hub.com/sentinel-1/sar_false_color_visualization-2/script.js"
-    acquisitionMode: IW
+    acquisition_mode: IW
     polarization: DV
     resolution: HIGH
     mosaicking_order: mostRecent
