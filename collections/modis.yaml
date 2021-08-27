@@ -41,7 +41,7 @@ Resources:
     Notes: Global since Feb 2000
     Primary: true
   - Group: xcube Resources
-  - DatasetName: modis (previously MODIS)
+  - DatasetName: modis 
 CustomScripts:
     Title: Collection of MODIS custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#modis
