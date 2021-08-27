@@ -45,15 +45,15 @@ Resources:
   - EndPoint: shservices.mundiwebservices.com
     Name: Sentinel Hub
     Role: processor
-    Type: S5PL2
+    Type: sentinel-5p-l2
     Notes: Global since May 2018
   - EndPoint: code-de.sentinel-hub.com
     Name: Sentinel Hub
     Role: processor
-    Type: S5PL2
+    Type: sentinel-5p-l2
     Notes: Germany since May 2018
   - Group: xcube Resources
-  - DatasetName: sentinel-5p-l2 (previously S5PL2) 
+  - DatasetName: sentinel-5p-l2 
 CustomScripts:
     Title: Collection of Sentinel-5P custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#sentinel-5P

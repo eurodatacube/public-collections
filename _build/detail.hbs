@@ -162,11 +162,11 @@
             {{#if Type}}
             <dt class="resource-host">Type</dt>
             <dd><code>{{Type}}</code></dd>
-            {{#isEqual Type 'DEM'}}
-            <dt class="resource-host">demInstance</dt>
-            <dd><code>{{demInstance}}</code></dd>
-             {{/isEqual}}
             {{/if}}
+            {{#if DemInstance}}
+            <dt class="resource-host">demInstance</dt>
+            <dd><code>{{DemInstance}}</code></dd>
+            {{/if}}            
             {{#if DatasetName}}
             <dt class="resource-host">dataset_name</dt>
             <dd><code>{{DatasetName}}</code></dd>
