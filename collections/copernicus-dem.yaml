@@ -39,12 +39,12 @@ Resources:
     EndPoint: services.sentinel-hub.com
     Name: Sentinel Hub
     Role: processor
-    Type: DEM
-    demInstance: COPERNICUS_90, COPERNICUS_30
+    Type: dem
+    DemInstance: COPERNICUS_90, COPERNICUS_30
     Notes: Global
     Primary: true
   - Group: xcube Resources
-  - DatasetName: DEM
+  - DatasetName: dem
 CustomScripts:
     Title: Collection of DEM custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#dem
