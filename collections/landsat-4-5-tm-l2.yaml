@@ -42,7 +42,7 @@ Resources:
     Notes: Global coverage from July 1982 to May 2012
     Primary: true
   - Group: xcube Resources
-  - DatasetName: landsat-tm-l2 (previously LTML2) 
+  - DatasetName: landsat-tm-l2 
 CustomScripts:
     Title: Collection of Landsat 4-5 TM custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#landsat-4-5-tm
