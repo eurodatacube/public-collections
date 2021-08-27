@@ -43,7 +43,7 @@ Resources:
     Notes: Global since Feb 2013
     Primary: true
   - Group: xcube Resources
-  - DatasetName: landsat-ot-l2 (previously LOTL2)
+  - DatasetName: landsat-ot-l2
 CustomScripts:
     Title: Collection of Landsat-8 custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#landsat-8
