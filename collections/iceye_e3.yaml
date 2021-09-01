@@ -20,9 +20,46 @@ License: |
  The ICEYE Public Archive consists of preview images from around the world, which are released under CC BY-NC 4.0 license (https://creativecommons.org/licenses/by-nc/4.0/), allowing for non-commercial use.
 Resources:
  - Group: Sentinel Hub Resources
-   EndPoint: shservices.mundiwebservices.com
+ - EndPoint: shservices.mundiwebservices.com
+   Name: Sentinel Hub
+   Role: processor
    Type: byoc-ab9106b8-29a8-4995-ae2b-043828994eb6
    CollectionId: ab9106b8-29a8-4995-ae2b-043828994eb6
-
+   Primary: True
+Extent:
+  spatial:
+    bbox:
+      -
+        - 4.08589
+        - 51.94683
+        - 4.10156
+        - 51.95753
+  temporal:
+    interval:
+      -
+        - '2020-02-04T00:00:00Z'
+        - '2020-07-17T23:59:59Z'
+CubeDimensions:
+  x:
+    type: spatial
+    axis: x
+    extent:
+      - 4.08589
+      - 4.10156
+  y:
+    type: spatial
+    axis: y
+    extent:
+      - 51.94683
+      - 51.95753
+  t:
+    type: temporal
+    extent:
+      - '2020-02-04T00:00:00Z'
+      - '2020-07-17T23:59:59Z'
+  band:
+    type: bands
+    values:
+      - GRD
 RegistryEntryAdded: "2021-05-07"
-RegistryEntryLastModified: "2021-05-07"
+RegistryEntryLastModified: "2021-09-01"
