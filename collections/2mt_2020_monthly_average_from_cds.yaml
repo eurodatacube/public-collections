@@ -16,13 +16,47 @@ Tags:
     - sentinel hub
     - raster
     - race challenges
-License: |
- Full, open and free access, Copernicus license ([details](https://atmosphere.copernicus.eu/sites/default/files/repository/CAMS_data_license.pdf)).
+License: Full, open and free access, Copernicus license ([details](https://atmosphere.copernicus.eu/sites/default/files/repository/CAMS_data_license.pdf)).
 Resources:
  - Group: Sentinel Hub Resources
-   EndPoint: shservices.mundiwebservices.com
+ - EndPoint: shservices.mundiwebservices.com
    Type: byoc-e523ca12-43cf-467f-b4cf-506dfca7af91
    CollectionId: e523ca12-43cf-467f-b4cf-506dfca7af91
-
+   Primary: true
+Extent:
+  spatial:
+    bbox:
+      -
+        - -179.999755859375
+        - -90.12489004526765
+        - 179.99977453631897
+        - 90.125
+  temporal:
+    interval:
+      -
+        - '2019-01-01T00:00:00Z'
+        - '2020-12-01T00:00:00Z'
+CubeDimensions:
+  x:
+    type: spatial
+    axis: x
+    extent:
+      - -179.999755859375
+      - 179.99977453631897
+  y:
+    type: spatial
+    axis: y
+    extent:
+      - -90.12489004526765
+      - 90.125
+  t:
+    type: temporal
+    extent:
+      - '2019-01-01T00:00:00Z'
+      - '2020-12-01T00:00:00Z'
+  band:
+    type: bands
+    values:
+     - AIR2MT
 RegistryEntryAdded: "2021-05-07"
-RegistryEntryLastModified: "2021-05-07"
+RegistryEntryLastModified: "2021-09-01"
