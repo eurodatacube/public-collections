@@ -6,7 +6,7 @@ AdditionalInfoExternal:
 Image: s5p-no2-tropno-daily-check/s5p-no2-tropno-daily-check.png
 Resolution: 3.5 x 5.5 Km (across x along track)
 GeographicalCoverage: -180.0, -90.0, 180.0, 90.0
-TemporalAvailability: 2018-04-30 - 2021-04-12
+TemporalAvailability: 2018-04-30 - ongoing
 UpdateFrequency: Weekly
 BandInformation: tropno2
 Contact: "[ESA EO Support Helpdesk](EOSupport@copernicus.esa.int)"
@@ -17,13 +17,48 @@ Tags:
     - sentinel hub
     - raster
     - race challenges
-License: |
- Full, open and free access
+License: Full, open and free access
 Resources:
  - Group: Sentinel Hub Resources
-   EndPoint: shservices.mundiwebservices.com
+ - EndPoint: shservices.mundiwebservices.com
+   Name: Sentinel Hub
    Type: byoc-bb92282c-b580-4206-b843-76daffbb5b0a
    CollectionId: bb92282c-b580-4206-b843-76daffbb5b0a
-
+   Primary: true
+Extent:
+  spatial:
+    bbox:
+      -
+        - -180
+        - -90
+        - 180
+        - 90
+  temporal:
+    interval:
+        - '2018-04-30T00:18:50Z'
+        - null
+CubeDimensions:
+  x:
+    type: spatial
+    axis: x
+    extent:
+      - -180
+      - 180
+  y:
+    type: spatial
+    axis: y
+    extent:
+      - -90
+      - 90
+  t:
+    type: temporal
+    extent:
+      - '2018-04-30T00:18:50Z'
+      - null
+    step: P7D
+  band:
+    type: bands
+    values:
+      - tropno2
 RegistryEntryAdded: "2021-05-07"
-RegistryEntryLastModified: "2021-05-07"
+RegistryEntryLastModified: "2021-09-01"
