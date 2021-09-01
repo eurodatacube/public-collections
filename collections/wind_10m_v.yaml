@@ -20,9 +20,46 @@ License: |
  Free of charge, worldwide, non-exclusive, royalty free and perpetual ([details](https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-land-monthly-means?tab=overview))
 Resources:
  - Group: Sentinel Hub Resources
-   EndPoint: shservices.mundiwebservices.com
+ - EndPoint: shservices.mundiwebservices.com
+   Name: Sentinel Hub
+   Role: processor
    Type: byoc-72139a6c-8fa3-4a90-93ca-4c1d792cc8af
    CollectionId: 72139a6c-8fa3-4a90-93ca-4c1d792cc8af
-
+   Primary: True
+Extent:
+  spatial:
+    bbox:
+      -
+        - -179.999755859375
+        - -90.12489004526765
+        - 179.99977453631897
+        - 90.125
+  temporal:
+    interval:
+      -
+        - '2019-01-01T00:00:00Z'
+        - '2020-12-01T00:00:00Z'
+CubeDimensions:
+  x:
+    type: spatial
+    axis: x
+    extent:
+      - -179.999755859375
+      - 179.99977453631897
+  y:
+    type: spatial
+    axis: y
+    extent:
+      - -90.12489004526765
+      - 90.125
+  t:
+    type: temporal
+    extent:
+      - '2019-01-01T00:00:00Z'
+      - '2020-12-01T00:00:00Z'
+  band:
+    type: bands
+    values:
+      - windv10m
 RegistryEntryAdded: "2021-05-07"
-RegistryEntryLastModified: "2021-05-07"
+RegistryEntryLastModified: "2021-09-01"
