@@ -22,8 +22,45 @@ License: |
 Resources:
  - Group: Sentinel Hub Resources
    EndPoint: shservices.mundiwebservices.com
+   Name: Sentinel Hub
+   Role: processor
    Type: byoc-fa331cca-5be2-4736-8030-793af55c0ef1
    CollectionId: fa331cca-5be2-4736-8030-793af55c0ef1
-
+   Primary: true
+Extent:
+  spatial:
+    bbox:
+      -
+        - 0.4982046708598385
+        - 40.498973093940286
+        - 13.82206392288208
+        - 45.80052375793457
+  temporal:
+    interval:
+      -
+        - '2020-01-04T00:00:00Z'
+        - '2021-04-17T00:00:00Z'
+CubeDimensions:
+  x:
+    type: spatial
+    axis: x
+    extent:
+      - 0.4982046708598385
+      - 13.82206392288208
+  y:
+    type: spatial
+    axis: y
+    extent:
+      - 40.498973093940286
+      - 45.80052375793457
+  t:
+    type: temporal
+    extent:
+      - '2020-01-04T00:00:00Z'
+      - '2021-04-17T00:00:00Z'
+  band:
+    type: bands
+    values:
+      - chl
 RegistryEntryAdded: "2021-05-07"
-RegistryEntryLastModified: "2021-05-07"
+RegistryEntryLastModified: "2021-09-01"
