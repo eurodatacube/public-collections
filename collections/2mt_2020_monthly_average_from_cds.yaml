@@ -21,7 +21,7 @@ Resources:
  - Group: Sentinel Hub Resources
  - EndPoint: shservices.mundiwebservices.com
    Name: Sentinel Hub
-   Role: host
+   Role: processor
    Type: byoc-e523ca12-43cf-467f-b4cf-506dfca7af91
    CollectionId: e523ca12-43cf-467f-b4cf-506dfca7af91
    Primary: true
