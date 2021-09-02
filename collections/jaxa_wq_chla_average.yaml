@@ -48,9 +48,66 @@ License: |
  Full, open and free access
 Resources:
   - Group: Sentinel Hub Resources
-    EndPoint: services.sentinel-hub.com
+  - EndPoint: services.sentinel-hub.com
+    Name: Sentinel Hub
+    Role: processor
     Type: byoc-a81b1960-20f2-4f55-830e-b824094c4275
     CollectionId: a81b1960-20f2-4f55-830e-b824094c4275
-
+    Primary: True
+Extent:
+  spatial:
+    bbox:
+      -
+        - 12.0
+        - 33.85
+        - 140.25
+        - 45.8
+      -
+        - 12.0
+        - 44.5
+        - 13.8
+        - 45.8
+      -
+        - 139.25
+        - 34.85
+        - 140.25
+        - 35.85
+      -
+        - 134.5
+        - 33.85
+        - 135.5
+        - 34.85
+      -
+        - 136.4
+        - 34.2
+        - 137.4
+        - 35.2
+  temporal:
+    interval:
+      -
+        - '2018-04-07T00:00:00Z'
+        - null
+CubeDimensions:
+  x:
+    type: spatial
+    axis: x
+    extent:
+      - 12.0
+      - 140.25
+  y:
+    type: spatial
+    axis: y
+    extent:
+      - 33.85
+      - 45.8
+  t:
+    type: temporal
+    extent:
+      - '2018-04-07T00:00:00Z'
+      - null
+  band:
+    type: bands
+    values:
+      - chla_ave
 RegistryEntryAdded: "2021-06-09"
-RegistryEntryLastModified: "2021-07-01"
+RegistryEntryLastModified: "2021-09-01"
