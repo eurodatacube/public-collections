@@ -17,11 +17,11 @@ Description: |
 Resolution: 0.0025 degrees equal lat lon
 Image: jaxa_wq_tsm_average/jaxa_wq_tsm_average.png
 GeographicalCoverage: |
-   North Adriatic: lon E: 12.0 ~ 13.8, lat N: 45.8 ~ 44.5  
-   Tokyo: lon E: 139.25 ~ 140.25, lat N:  34.85 ~ 35.85  
-   Kobe-Osaka: lon E: 134.5  ~ 135.5, lat N:  33.85 ~ 34.85  
+   North Adriatic: lon E: 12.0 ~ 13.8, lat N: 44.5 ~ 45.8
+   Tokyo: lon E: 139.25 ~ 140.25, lat N: 34.85 ~ 35.85
+   Kobe-Osaka: lon E: 134.5 ~ 135.5, lat N: 33.85 ~ 34.85
    Nagoya: lon E: 136.4 ~ 137.4, lat N: 34.2 ~ 35.2
-TemporalAvailability: 7 April 2018- ongoing
+TemporalAvailability: 7 April 2018 - ongoing
 UpdateFrequency: This collection is made available for EODashboard Hackathon
 BandInformation: 
   Table:
@@ -48,9 +48,67 @@ License: |
  Full, open and free access
 Resources:
   - Group: Sentinel Hub Resources
-    EndPoint: services.sentinel-hub.com
+  - EndPoint: services.sentinel-hub.com
+    Name: Sentinel Hub
+    Role: processor  
     Type: byoc-d8419142-814d-48aa-ba97-bf87950f29d3
     CollectionId: d8419142-814d-48aa-ba97-bf87950f29d3
-
+    Primary: true
+Extent:
+  spatial:
+    bbox:
+      -
+        - 12.0
+        - 33.85
+        - 140.25
+        - 45.8
+      -
+        - 12.0
+        - 44.5
+        - 13.8
+        - 45.8
+      -
+        - 139.25
+        - 34.85
+        - 140.25
+        - 35.85
+      -
+        - 134.5
+        - 33.85
+        - 135.5
+        - 34.85
+      -
+        - 136.4
+        - 34.2
+        - 137.4
+        - 35.2
+  temporal:
+    interval:
+      -
+        - '2018-04-07T00:00:00Z'
+        - null
+CubeDimensions:
+  x:
+    type: spatial
+    axis: x
+    extent:
+      - 12.0
+      - 140.25
+  y:
+    type: spatial
+    axis: y
+    extent:
+      - 33.85
+      - 45.8
+  t:
+    type: temporal
+    extent:
+      - '2018-04-07T00:00:00Z'
+      - null
+  band:
+    type: bands
+    values:
+      - tsm
+      - tsm_ave
 RegistryEntryAdded: "2021-06-06"
-RegistryEntryLastModified: "2021-07-01"
+RegistryEntryLastModified: "2021-09-01"

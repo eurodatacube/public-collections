@@ -8,7 +8,7 @@ Resolution: 300m
 GeographicalCoverage: 0.4982046708598385, 40.498973093940286, 13.82206392288208, 45.80052375793457
 TemporalAvailability: 2020-01-04 - 2021-04-17
 UpdateFrequency: Weekly
-BandInformation: tsmn
+BandInformation: tsmnn
 Contact: "[CNR](https://www.cnr.it/en)"
 Provider: "[CNR](https://www.cnr.it/en)"
 ManagedBy: "[ESA](http://www.esa.int/)"
@@ -21,9 +21,46 @@ License: |
  [CC BY-NC-ND 3.0](https://creativecommons.org/licenses/by-nc-nd/3.0/), Credit: Provided by ISMAR Istituto di Scienze Marine at Consiglio Nazionale delle Ricerche
 Resources:
  - Group: Sentinel Hub Resources
-   EndPoint: shservices.mundiwebservices.com
+ - EndPoint: shservices.mundiwebservices.com
+   Name: Sentinel Hub
+   Role: processor
    Type: byoc-45ce0fb2-fdaf-481e-b834-f728a8677e59
    CollectionId: 45ce0fb2-fdaf-481e-b834-f728a8677e59
-
+   Primary: true
+Extent:
+  spatial:
+    bbox:
+      -
+        - 0.4982046708598385
+        - 40.498973093940286
+        - 13.82206392288208
+        - 45.80052375793457
+  temporal:
+    interval:
+      -
+        - '2020-01-04T00:00:00Z'
+        - '2021-04-17T00:00:00Z'
+CubeDimensions:
+  x:
+    type: spatial
+    axis: x
+    extent:
+      - 0.4982046708598385
+      - 13.82206392288208
+  y:
+    type: spatial
+    axis: y
+    extent:
+      - 40.498973093940286
+      - 45.80052375793457
+  t:
+    type: temporal
+    extent:
+      - '2020-01-04T00:00:00Z'
+      - '2021-04-17T00:00:00Z'
+  band:
+    type: bands
+    values:
+      - tsmnn
 RegistryEntryAdded: "2021-05-07"
-RegistryEntryLastModified: "2021-05-07"
+RegistryEntryLastModified: "2021-09-01"

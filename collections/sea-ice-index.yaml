@@ -7,7 +7,6 @@ Description: |
    satellites. Sea ice concentrations are generated from 
    [brightness temperature data](https://nsidc.org/data/nsidc-0051). Sea ice extent is computed as areas covered by ice
     with a concentration greater than 15 percent. This dataset is for demonstration purposes only and is not maintained.
-
 AdditionalInfoExternal:
   Title: Additional info
   Path: sea-ice-index/README.MD
@@ -28,7 +27,6 @@ BandInformation:
         Description: percentage of ice cover for cells with more than 15 percent ice cover
       - Name: Extent
         Description: extent of ocean covered by ice at any concentration greater than 15 percent for a given day
-
 Contact: "NSIDC User Services: nsidc@nsidc.org"
 Provider: "[National Snow & Ice Data Center (NSIDC)](https://nsidc.org/)"
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
