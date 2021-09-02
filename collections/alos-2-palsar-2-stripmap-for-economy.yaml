@@ -22,7 +22,7 @@ GeographicalCoverage: |
   Dunkirk, France SM3: [51.587, 1.127 : 50.466, 3.204]   
   LA SM1: [34.226, -118.002 : 33.707, -117.869]  
   Beijing, China SM1, SM3: [40.129, 116.283 : 39.637, 117.247]  
-  Haneda SM1: [35.965, 139.651: 35.267, 139.897]
+  Haneda SM1: [35.965, 139.651 : 35.267, 139.897]
 TemporalAvailability: 2019-03-01 - 2020-12-31
 UpdateFrequency: This collection is made available for EODashboard Hackathon
 BandInformation: 
@@ -62,7 +62,7 @@ Extent:
       -
         - -118.002
         - 33.707
-        - 117.247
+        - 139.897
         - 51.587
       - 
         - 3.111
@@ -100,7 +100,7 @@ CubeDimensions:
     axis: x
     extent:
       - -118.002
-      - 117.247
+      - 139.897
   y:
     type: spatial
     axis: y

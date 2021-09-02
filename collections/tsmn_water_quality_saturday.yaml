@@ -8,7 +8,7 @@ Resolution: 300m
 GeographicalCoverage: 0.4982046708598385, 40.498973093940286, 13.82206392288208, 45.80052375793457
 TemporalAvailability: 2020-01-04 - 2021-04-17
 UpdateFrequency: Weekly
-BandInformation: tsmn
+BandInformation: tsmnn
 Contact: "[CNR](https://www.cnr.it/en)"
 Provider: "[CNR](https://www.cnr.it/en)"
 ManagedBy: "[ESA](http://www.esa.int/)"
@@ -26,7 +26,7 @@ Resources:
    Role: processor
    Type: byoc-45ce0fb2-fdaf-481e-b834-f728a8677e59
    CollectionId: 45ce0fb2-fdaf-481e-b834-f728a8677e59
-   Primary: True
+   Primary: true
 Extent:
   spatial:
     bbox:
@@ -61,6 +61,6 @@ CubeDimensions:
   band:
     type: bands
     values:
-      - tsmn
+      - tsmnn
 RegistryEntryAdded: "2021-05-07"
 RegistryEntryLastModified: "2021-09-01"

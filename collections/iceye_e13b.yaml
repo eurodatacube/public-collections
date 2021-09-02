@@ -25,7 +25,7 @@ Resources:
    Role: processor
    Type: byoc-6aad9f62-953a-49d0-a6e2-a2f0d5a50f77
    CollectionId: 6aad9f62-953a-49d0-a6e2-a2f0d5a50f77
-   Primary: True
+   Primary: true
 Extent:
   spatial:
     bbox:
