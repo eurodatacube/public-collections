@@ -20,11 +20,11 @@ AdditionalInfoExternal:
     Path: jaxa_wq_tsm/README.MD
 Resolution: 0.0025 degrees equal lat lon
 GeographicalCoverage: |
-   North Adriatic: lon E: 12.0 ~ 13.8, lat N: 45.8 ~ 44.5  
-   Tokyo: lon E: 139.25 ~ 140.25, lat N:  34.85 ~ 35.85  
-   Kobe-Osaka: lon E: 134.5  ~ 135.5, lat N:  33.85 ~ 34.85  
+   North Adriatic: lon E: 12.0 ~ 13.8, lat N: 44.5 ~ 45.8
+   Tokyo: lon E: 139.25 ~ 140.25, lat N: 34.85 ~ 35.85
+   Kobe-Osaka: lon E: 134.5 ~ 135.5, lat N: 33.85 ~ 34.85
    Nagoya: lon E: 136.4 ~ 137.4, lat N: 34.2 ~ 35.2
-TemporalAvailability: 7 April 2018- ongoing
+TemporalAvailability: 7 April 2018 - ongoing
 UpdateFrequency: weekly
 BandInformation: 
   Table:
