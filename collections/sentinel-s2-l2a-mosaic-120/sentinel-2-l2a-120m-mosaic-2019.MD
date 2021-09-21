@@ -1,6 +1,6 @@
 # Sentinel-2 L2A 120m Mosaic-2019
 
-Sentinel-2 L2A 120m mosaic is a derived product, which contains best pixel values for 10-daily periods, modelled by removing the cloudy pixels and then performing interpolation among remaining values. As clouds can be missed in the removal process and as there are some parts of the world, which have lengthy cloudy periods, clouds might be remaining in some parts. The actual modelling script is available [here](https://sentinel-hub.github.io/custom-scripts/sentinel-2/interpolated_time_series/).Sentinel-2 L2A 120m Mosaic 2019 product contains 6 of Sentinel 2 L2A bands.
+Sentinel-2 L2A 120m mosaic is a derived product, which contains best pixel values for 10-daily periods, modelled by removing the cloudy pixels and then performing interpolation among remaining values. As clouds can be missed in the removal process and as there are some parts of the world, which have lengthy cloudy periods, clouds might be remaining in some parts. The actual modelling script is available [here](https://sentinel-hub.github.io/custom-scripts/sentinel-2/interpolated_time_series/). Sentinel-2 L2A 120m Mosaic 2019 product contains 6 of Sentinel 2 L2A bands.
 
 ## Resources and access details
 
