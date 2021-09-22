@@ -25,6 +25,13 @@ Resources:
    Type: byoc-e523ca12-43cf-467f-b4cf-506dfca7af91
    CollectionId: e523ca12-43cf-467f-b4cf-506dfca7af91
    Primary: true
+Configurations:     
+  - layer_name: 2m temperature visualisation
+    evalscript_url: "https://github.com/eurodatacube/public-collections/tree/main/collections/2mt_2020_monthly_average_from_cds/script.js"
+    mosaicking_order: mostRecent
+    upsampling: BICUBIC
+    href: https://docs.sentinel-hub.com/api/latest/api/process/
+    rel: processing-expression
 Extent:
   spatial:
     bbox:
@@ -60,5 +67,5 @@ CubeDimensions:
     type: bands
     values:
      - AIR2MT
-RegistryEntryAdded: "2021-05-07"
-RegistryEntryLastModified: "2021-09-01"
+RegistryEntryAdded: "2021-05-07"2
+RegistryEntryLastModified: "2021-09-22"
