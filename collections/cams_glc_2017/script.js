@@ -14,4 +14,4 @@ function evaluatePixel(sample) {
     // Return as normal with a transparency band 
     return [sample.RED, sample.GREEN, sample.BLUE, 255];
 }
-}
+}  

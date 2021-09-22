@@ -27,4 +27,4 @@ function evaluatePixel(samples,scenes) {
     }
   }
   return[0,0,0,0];
-}
+}  
