@@ -7,7 +7,7 @@ Description: |
   and after a few days superseded by Delayed Time (DT) files as soon as they are available to provide better quality.
 Documentation: "[Product information](https://resources.marine.copernicus.eu/?option=com_csw&view=details&product_id=OCEANCOLOUR_ATL_CHL_L4_NRT_OBSERVATIONS_009_037)"
 Image: oceancolour-atl-chl-l4-nrt-observations-009-037/oceancolour-atl-chl-l4-nrt-observations-009-037.png
-Explore: "[Open Notebook](https://eurodatacube.com/marketplace/notebooks/contributions/EDC_xcube_generator_service.ipynb)"
+Explore: "[Open Notebook](https://eurodatacube.com/marketplace/notebooks/getting-started/EDC_xcube_generator_service.ipynb)"
 Resolution: 1km
 GeographicalCoverage: |
  (46°W, 13°E, 20°N, 66°N)  
