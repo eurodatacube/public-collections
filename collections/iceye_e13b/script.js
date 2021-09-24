@@ -7,4 +7,4 @@ function setup () {
 }
 function evaluatePixel(samples, scenes) {
   return [samples.GRD*0.15, samples.dataMask]
-}
+}  
