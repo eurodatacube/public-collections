@@ -26,6 +26,13 @@ Resources:
    Type: byoc-ab9106b8-29a8-4995-ae2b-043828994eb6
    CollectionId: ab9106b8-29a8-4995-ae2b-043828994eb6
    Primary: true
+Configurations:     
+  - layer_name: GRD ICEYE_E3
+    evalscript_url: "https://raw.githubusercontent.com/eurodatacube/public-collections/main/collections/iceye_e3/script.js"
+    mosaicking_order: mostRecent
+    upsampling: BICUBIC
+    href: https://docs.sentinel-hub.com/api/latest/api/process/
+    rel: processing-expression
 Extent:
   spatial:
     bbox:
@@ -62,4 +69,4 @@ CubeDimensions:
     values:
       - GRD
 RegistryEntryAdded: "2021-05-07"
-RegistryEntryLastModified: "2021-09-01"
+RegistryEntryLastModified: "2021-09-24"
