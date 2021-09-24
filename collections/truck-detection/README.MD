@@ -1,8 +1,8 @@
-# Truck Detection 
+# Truck Detection
 
-## Short Description  
+## Short Description
   The Truck detection algorithm detects the number of moving trucks along roads using Sentinel-2 level 2A data.  
-  The author [Henrick Fisser](https://twitter.com/fisserhenrik), developed this algorithm (with the title: Truck detection – Sensing trade from space) in the context of the Euro Data Cube COVID-19 edition of Sentinel Hub’s custom script contest. 
+  The author [Henrik Fisser](https://twitter.com/fisserhenrik), developed this algorithm (with the title: Truck detection – Sensing trade from space) in the context of the Euro Data Cube COVID-19 edition of Sentinel Hub’s custom script contest.
   The algorithm exploits the small offset between Sentinel-2 bands which causes moving objects to appear as rainbows in RGB images allowing the detection and mapping of moving trucks.  
  
 ## Method
@@ -90,7 +90,18 @@ The output of the algorithm is locations (point geometries) and dates of detecte
  - Direct download (for a limited time)
 
 ## Pricing
-coming soon
+
+- Unit price per area of interest per month (progressive volume discount based on the
+ordered volume during last 12 months)
+    - 1.000 km2 to 1.000.000 km2 – 0.95 EUR per 1.000 km2
+    - 1.000.000 km2 to 10.000.000 km2 – 0.75 EUR per 1.000 km2
+    - more than 10.000.000 km2 – 0.60 EUR per 1.000 km2
+
+- Terms of service
+    - Minimum individual processing order: 1.000 km²
+    - Minimum batch processing size: 100.000 km²
+    - Minimum individual API request size is 1.000 km²
+    - Consumption of the quota 12 months after purchase.
 
 ## More Information
 ### Resources
@@ -115,8 +126,3 @@ _example of trucks visible on sentinel 2 image_
 ![detected_trucks_](carlifornia.png)  
 
 _Example of trucks detected (green dots) by the algorithm along Ventura freeway, southern California on 22-07-2020 with Sentinel 2 image overlay_
-
-
-
- 
-
