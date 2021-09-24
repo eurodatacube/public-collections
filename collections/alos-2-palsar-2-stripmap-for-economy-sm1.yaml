@@ -46,6 +46,13 @@ Resources:
     Type: byoc-ebdc9854-64db-41bd-8918-2ca9f6f05525
     CollectionId: ebdc9854-64db-41bd-8918-2ca9f6f05525
     Primary: true
+Configurations:     
+  - layer_name: HH
+    evalscript_url: "https://raw.githubusercontent.com/eurodatacube/public-collections/main/collections/alos-2-palsar-2-stripmap-for-economy-sm1/hh_script.js"
+    mosaicking_order: mostRecent
+    upsampling: BICUBIC
+    href: https://docs.sentinel-hub.com/api/latest/api/process/
+    rel: processing-expression
 Extent:
   spatial:
     bbox:
@@ -92,4 +99,4 @@ CubeDimensions:
     values:
       - HH
 RegistryEntryAdded: "2021-06-09"
-RegistryEntryLastModified: "2021-09-01"
+RegistryEntryLastModified: "2021-09-24"
