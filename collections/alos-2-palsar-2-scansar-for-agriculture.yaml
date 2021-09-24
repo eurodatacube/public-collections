@@ -62,8 +62,7 @@ Configurations:
     mosaicking_order: mostRecent
     upsampling: BICUBIC
     href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
-    
+    rel: processing-expression    
 Extent:
   spatial:
     bbox:
