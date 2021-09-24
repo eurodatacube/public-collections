@@ -1,8 +1,8 @@
 # Truck Detection
 
-## Short Description  
+## Short Description
   The Truck detection algorithm detects the number of moving trucks along roads using Sentinel-2 level 2A data.  
-  The author [Henrick Fisser](https://twitter.com/fisserhenrik), developed this algorithm (with the title: Truck detection – Sensing trade from space) in the context of the Euro Data Cube COVID-19 edition of Sentinel Hub’s custom script contest. 
+  The author [Henrik Fisser](https://twitter.com/fisserhenrik), developed this algorithm (with the title: Truck detection – Sensing trade from space) in the context of the Euro Data Cube COVID-19 edition of Sentinel Hub’s custom script contest.
   The algorithm exploits the small offset between Sentinel-2 bands which causes moving objects to appear as rainbows in RGB images allowing the detection and mapping of moving trucks.  
  
 ## Method
