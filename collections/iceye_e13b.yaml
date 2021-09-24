@@ -5,7 +5,7 @@ AdditionalInfoExternal:
     Path: iceye_e13b/README.MD
 Image: iceye_e13b/iceye_e13b.png
 Resolution: Pixel Size = (0.0000060,-0.0000060)
-GeographicalCoverage: -1.245691996, 40.394458816, 8.533407797, 50.049107756
+GeographicalCoverage: 8.516097261, 50.037676694, 8.533407797, 50.049107756
 TemporalAvailability: 2020-03-20 - 2020-08-25
 BandInformation: GRD
 Contact: "[ICEYE Contact](https://www.iceye.com/lp/contact-us)"
@@ -26,12 +26,19 @@ Resources:
    Type: byoc-6aad9f62-953a-49d0-a6e2-a2f0d5a50f77
    CollectionId: 6aad9f62-953a-49d0-a6e2-a2f0d5a50f77
    Primary: true
+Configurations:     
+  - layer_name: GRD ICEYE_E13b
+    evalscript_url: "https://raw.githubusercontent.com/eurodatacube/public-collections/main/collections/iceye_e13b/script.js"
+    mosaicking_order: mostRecent
+    upsampling: BICUBIC
+    href: https://docs.sentinel-hub.com/api/latest/api/process/
+    rel: processing-expression
 Extent:
   spatial:
     bbox:
       -
-        - -1.245691996
-        - 40.394458816
+        - 8.516097261
+        - 50.037676694
         - 8.533407797
         - 50.049107756
   temporal:
@@ -44,13 +51,13 @@ CubeDimensions:
     type: spatial
     axis: x
     extent:
-      - -1.245691996
+      - 8.516097261
       - 8.533407797
   y:
     type: spatial
     axis: y
     extent:
-      - 40.394458816
+      - 50.037676694
       - 50.049107756
   t:
     type: temporal
@@ -62,4 +69,4 @@ CubeDimensions:
     values:
       - GRD
 RegistryEntryAdded: "2021-05-07"
-RegistryEntryLastModified: "2021-09-01"
+RegistryEntryLastModified: "2021-09-24"
