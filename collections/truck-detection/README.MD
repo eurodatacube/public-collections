@@ -1,4 +1,4 @@
-# Truck Detection 
+# Truck Detection
 
 ## Short Description  
   The Truck detection algorithm detects the number of moving trucks along roads using Sentinel-2 level 2A data.  
@@ -90,7 +90,18 @@ The output of the algorithm is locations (point geometries) and dates of detecte
  - Direct download (for a limited time)
 
 ## Pricing
-coming soon
+
+- Unit price per area of interest per month (progressive volume discount based on the
+ordered volume during last 12 months)
+    - 1.000 km2 to 1.000.000 km2 – 0.95 EUR per 1.000 km2
+    - 1.000.000 km2 to 10.000.000 km2 – 0.75 EUR per 1.000 km2
+    - more than 10.000.000 km2 – 0.60 EUR per 1.000 km2
+
+- Terms of service
+    - Minimum individual processing order: 1.000 km²
+    - Minimum batch processing size: 100.000 km²
+    - Minimum individual API request size is 1.000 km²
+    - Consumption of the quota 12 months after purchase.
 
 ## More Information
 ### Resources
