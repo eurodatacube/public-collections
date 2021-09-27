@@ -5,11 +5,11 @@ created to provide an almost cloudfree global dataset every year. For a detailed
 description of the generally available products please refer to
 [EOxCloudless](https://cloudless.eox.at/).
 
-## Offering on Euro Data Cube
+## EOxCloudless available from Euro Data Cube
 
 The EOxCloudless 2020 data collection is available under the
 [Insights On Demand](https://eurodatacube.com/marketplace/data-products/on-demand)
-offering of the EuroDataCube.
+section of the EuroDataCube marketplace.
 
 There is a minimum as well as a maximum price for purchasing a subset of the data
 as shown in the table below.
@@ -18,7 +18,7 @@ as shown in the table below.
 | -----|:-----------|--------------|----------------|
 | 2020 | 800,- EUR | 16 000,- EUR | 5.0 EUR/Zone |
 
-## General EOxCloudless Offering
+## General EOxCloudless Product
 
 The EOxCloudless products are readily available for the last recent years starting
 from 2016 for the Viewing Products and 2018 for the Data ones.
