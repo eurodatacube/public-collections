@@ -54,12 +54,6 @@ Configurations:
     upsampling: BICUBIC
     href: https://docs.sentinel-hub.com/api/latest/api/process/
     rel: processing-expression
-  - layer_name: True color - pansharpened
-    evalscript_url: "https://custom-scripts.sentinel-hub.com/landsat-8/true-color-pansharpened/script.js"
-    mosaicking_order: mostRecent
-    upsampling: BICUBIC
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
   - layer_name: False color
     evalscript_url: "https://custom-scripts.sentinel-hub.com/landsat-8/false-color/script.js"
     mosaicking_order: mostRecent
@@ -138,10 +132,7 @@ CubeDimensions:
       - B05
       - B06
       - B07
-      - B08
-      - B09
       - B10
-      - B11
       - BQA
       - QA_RADSAT
       - SR_QA_AEROSOL
@@ -155,4 +146,4 @@ CubeDimensions:
       - ST_CDIST
       - dataMask
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2021-08-18"
+RegistryEntryLastModified: "2021-09-27"

@@ -142,6 +142,11 @@ CubeDimensions:
       - B10
       - B11
       - BQA
+      - QA_RADSAT
+      - VAA
+      - VZA
+      - SAA
+      - SZA
       - dataMask
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2021-08-18"
+RegistryEntryLastModified: "2021-09-27"
