@@ -5,7 +5,7 @@ created to provide an almost cloudfree global dataset every year. For a detailed
 description of the generally available products please refer to
 [EOxCloudless](https://cloudless.eox.at/).
 
-## EOxCloudless available from Euro Data Cube
+## EOxCloudless available at Euro Data Cube
 
 The EOxCloudless 2020 data collection is available under the
 [Insights On Demand](https://eurodatacube.com/marketplace/data-products/on-demand)
