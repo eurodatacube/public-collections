@@ -21,5 +21,6 @@ function setup() {
   var viz = new ColorRampVisualizer(colorRamp);
   function evaluatePixel(sample) {
       return [...viz.process(sample.tsm_ave), sample.dataMask]
-  }  
+  }    
+
   
