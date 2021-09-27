@@ -18,4 +18,4 @@ const colorRamp = [[0,0x003769],
 var viz = new ColorRampVisualizer(colorRamp);
 function evaluatePixel(sample) {
     return [...viz.process(sample.tsm), sample.dataMask]
-}
+}  
