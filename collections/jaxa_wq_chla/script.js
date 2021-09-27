@@ -18,5 +18,6 @@ function setup() {
   var viz = new ColorRampVisualizer(colorRamp);
   function evaluatePixel(sample) {
       return [...viz.process(sample.chla), sample.dataMask]
-  }  
+  }    
+
   
