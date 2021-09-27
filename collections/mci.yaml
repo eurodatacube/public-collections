@@ -1,0 +1,57 @@
+Name: Maximum Chlorophyll Index (MCI)
+Description: |
+  The Maximum Chlorophyll Index (MCI) is a dimensionless indicator for critical eutrophication. It is robust and can be
+  applied to any water body for the identification of potentially critical situations due to excessive algal growth.
+  Originally developed for the MERIS intrument, it has been successfully transferred to other sensors as well.
+  Here, we offer an MCI for the whole Sentinel-2 archive, i.e., with global coverage.
+  The product contains the index itself, plus the inputs bands of Sentinel-2 as well as Scene Classification and
+  Cloud Mask to allow for the analysis of potential issues caused by the contamination with undetected clouds or
+  adjacency effects.
+Image: mci/mci.png
+Explore: "[Open Notebook]()"
+Resolution: 60m
+GeographicalCoverage: Global
+TemporalAvailability: June 23, 2015 - ongoing
+UpdateFrequency: New Sentinel data are added regularly, usually within few hours after they are available on Copernicus Hub.
+BandInformation:
+  Table:
+      Columns:
+        - Name: Name
+          Title: Name
+        - Name: Description
+          Title: Description
+        - Name: Units & Typical Range
+          Title: Units & Typical Range      
+      Rows:
+        - Name: B04
+          Description: Wavelength 665nm
+          Units & Typical Range: REFLECTANCE, typically from 0 - 1.0
+        - Name: B05
+          Description: Wavelength 704nm
+          Units & Typical Range: REFLECTANCE, typically from 0 - 1.0
+        - Name: B06
+          Description: Wavelength 740nm
+          Units & Typical Range: REFLECTANCE, typically from 0 - 1.0
+        - Name: CLD
+          Description: Cloud probability, based on Sen2Cor processor
+          Units & Typical Range: Percentage, 0 - 100
+        - Name: SCL
+          Description: Scene classification data, based on Sen2Cor processor
+          Units & Typical Range: Codelist, from 0-11
+          
+Contact: https://forum.sentinel-hub.com/c/euro-data-cube/
+Provider: "[Sentinel Hub](https://www.sentinel-hub.com/)"
+ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
+Tags:
+  - on-demand
+  - maximum chlorophyll index
+  - xcube
+  - derived Data
+  - sentinel-2
+
+License: |
+  [License]()
+Resources: []
+
+RegistryEntryAdded: "2021-09-27"
+RegistryEntryLastModified: "2021-09-27"
