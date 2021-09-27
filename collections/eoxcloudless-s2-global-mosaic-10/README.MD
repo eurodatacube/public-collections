@@ -35,7 +35,8 @@ reduced data range as 8bit `GeoTIFF` TileDirectories - **Exploitation Starter**.
 
 ### EuroDataCube Availability
 The EOxCloudless 2020 data collection is available under the ["Bring your own
-algorithm" (BYOA)]({insert_link_here}) service of the EuroDataCube.
+algorithm" (BYOA)](https://eurodatacube.com/marketplace/data-products/on-demand) 
+service of the EuroDataCube.
 
 ### Price
 URL: [EOxCloudless Pricing](https://eurodatacube.com/checkout?item=eoxcloudless)
