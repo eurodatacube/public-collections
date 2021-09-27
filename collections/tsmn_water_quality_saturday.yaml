@@ -27,6 +27,13 @@ Resources:
    Type: byoc-45ce0fb2-fdaf-481e-b834-f728a8677e59
    CollectionId: 45ce0fb2-fdaf-481e-b834-f728a8677e59
    Primary: true
+Configurations:     
+  - layer_name: Total Suspended Matter Map
+    evalscript_url: "https://raw.githubusercontent.com/eurodatacube/public-collections/main/collections//tsmn_water_quality_saturday/script.js"
+    mosaicking_order: mostRecent
+    upsampling: BICUBIC
+    href: https://docs.sentinel-hub.com/api/latest/api/process/
+    rel: processing-expression
 Extent:
   spatial:
     bbox:
@@ -63,4 +70,4 @@ CubeDimensions:
     values:
       - tsmnn
 RegistryEntryAdded: "2021-05-07"
-RegistryEntryLastModified: "2021-09-01"
+RegistryEntryLastModified: "2021-09-24"

@@ -26,7 +26,7 @@ Resources:
    CollectionId: e523ca12-43cf-467f-b4cf-506dfca7af91
    Primary: true
 Configurations:     
-  - layer_name: 2m temperature visualisation
+  - layer_name: 2m Temperature Visualisation
     evalscript_url: "https://raw.githubusercontent.com/eurodatacube/public-collections/main/collections/2mt_2020_monthly_average_from_cds/script.js"
     mosaicking_order: mostRecent
     upsampling: BICUBIC
