@@ -2,7 +2,7 @@ Name: EOxCloudless Sentinel-2 10m Global Cloudless Mosaic
 Description: |
   EOxCloudless Sentinel-2 10m Global Cloudless Mosaic is a derived product,
   created to provide an almost cloudfree global dataset every year.  
-  Details about the EOxCloudless products available at EDC are provided on the [Additional info](readme.html) page.  
+  Details about the EOxCloudless products available at EDC are provided on the [Additional info](/eoxcloudless-s2-global-mosaic-10/readme.html) page.  
   For a detailed description of the generally available products please refer to
   [EOxCloudless](https://cloudless.eox.at/).
 AdditionalInfoExternal:
