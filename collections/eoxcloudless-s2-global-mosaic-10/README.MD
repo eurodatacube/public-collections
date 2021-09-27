@@ -33,6 +33,17 @@ reduced data range as 8bit `GeoTIFF` TileDirectories - **Exploitation Starter**.
 * EOxCloudless Sentinel-2 2018 8-bits
 * EOxCloudless Sentinel-2 2018 16-bits
 
+### EuroDataCube Availibility
+The EOxCloudless 2020 data collection is availible under the ["Bring your own
+algorithm" (BYOA)]({insert_link_here}) service of the EuroDataCube.
+
+### Price
+URL: [EOxCloudless Pricing](https://eurodatacube.com/checkout?item=eoxcloudless)
+
+| Year | Min. Price | Global Price | Price per Zone |
+| -----|:-----------|--------------|----------------|
+| 2020 | 800,- EUR | 16 000,- EUR | 5.0 EUR/Zone |
+
 ## Examples
 
 ![Earth rotation 2020](S2cloudless-2020_animation_smaller.gif)<br/>
@@ -41,13 +52,13 @@ reduced data range as 8bit `GeoTIFF` TileDirectories - **Exploitation Starter**.
 
 ----------------------------------
 
-![Mosaic changes from 2016 to 2020](S2cloudless-over-the-years-animation.gif)<br/>
+![Mosaic changes from 2016 to 2020](S2cloudless-over-the-years-animation-smaller.gif)<br/>
 
 *Time-lapse of the world, showcasing EOxCloudless improvements over the years*
 
 ----------------------------------
 
-![EOxCloudless Viewing Ready 2020](S2cloudless-2020_website.jpg)<br/>
+![EOxCloudless Viewing Ready 2020](S2cloudless-2020_website_smaller.jpg)<br/>
 
 *Showcase of the EOxCloudless Viewing Ready Product from the https://s2maps.eu/*
 

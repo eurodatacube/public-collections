@@ -14,26 +14,6 @@ TemporalAvailability: 2018, 2019, and 2020
 UpdateFrequency: New data is added annually.
 Explore: "[Open https://s2maps.eu Sentinel-2 Cloudless map](https://s2maps.eu)"
 Examples: "[Sample data for download](https://downloads.eox.at/EOxCloudless_Samples-and-Documentation.zip)"
-EuroDataCubeAvailibility:
-  Title: Bring your own algorithm (BYOA)
-  URL: "[EOxCloudless BYOA]({insert_link_here})"
-Price:
-  URL: "[EOxCloudless Pricing](https://eurodatacube.com/checkout?item=eoxcloudless)"
-  Table:
-    Columns:
-      - Name: Year
-        Title: Year
-      - Name: Min. Price
-        Title: Min. Price
-      - Name: Global Price
-        Title: Global Price
-      - Name: Price per zone
-        Title: Price per zone
-    Rows:
-      - Year: 2020
-        Min. Price: 800,- EUR
-        Global Price: 16 000,- EUR
-        Price per zone: 5.0 EUR/Zone
 BandInformation:
   Table:
     Columns:
@@ -73,6 +53,7 @@ Tags:
   - global
   - agriculture
   - maps
+  - BYOA
 License: |
   [EOX Commercial Attribution-RestrictedUse 1.1 License](https://cloudless.eox.at/license-legal/),
   Attribution: [EOxCloudless - https://cloudless.eox.at](https://cloudless.eox.at/) (Contains modified Copernicus Sentinel data [year])
