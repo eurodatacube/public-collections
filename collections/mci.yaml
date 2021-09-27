@@ -8,7 +8,6 @@ Description: |
   Cloud Mask to allow for the analysis of potential issues caused by the contamination with undetected clouds or
   adjacency effects.
 Image: mci/mci.png
-Explore: "[Open Notebook]()"
 Resolution: 60m
 GeographicalCoverage: Global
 TemporalAvailability: June 23, 2015 - ongoing
@@ -37,19 +36,18 @@ BandInformation:
           Units & Typical Range: Percentage, 0 - 100
         - Name: SCL
           Description: Scene classification data, based on Sen2Cor processor
-          Units & Typical Range: Codelist, from 0-11
-          
+          Units & Typical Range: Codelist, from 0-11          
 Contact: https://forum.sentinel-hub.com/c/euro-data-cube/
-Provider: "[Sentinel Hub](https://www.sentinel-hub.com/)"
-ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
+Provider: "[Brockmann Consult](https://www.brockmann-consult.de/)"
+ManagedBy: "[Brockmann Consult](https://www.brockmann-consult.de/)"
 Tags:
   - on-demand
   - maximum chlorophyll index
   - xcube
   - derived Data
   - sentinel-2
-
 License: |
   [License]()
+Resources: []
 RegistryEntryAdded: "2021-09-27"
 RegistryEntryLastModified: "2021-09-27"
