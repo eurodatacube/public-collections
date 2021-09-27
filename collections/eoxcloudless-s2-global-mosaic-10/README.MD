@@ -33,8 +33,8 @@ reduced data range as 8bit `GeoTIFF` TileDirectories - **Exploitation Starter**.
 * EOxCloudless Sentinel-2 2018 8-bits
 * EOxCloudless Sentinel-2 2018 16-bits
 
-### EuroDataCube Availibility
-The EOxCloudless 2020 data collection is availible under the ["Bring your own
+### EuroDataCube Availability
+The EOxCloudless 2020 data collection is available under the ["Bring your own
 algorithm" (BYOA)]({insert_link_here}) service of the EuroDataCube.
 
 ### Price
