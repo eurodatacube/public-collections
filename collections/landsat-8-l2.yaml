@@ -133,7 +133,6 @@ CubeDimensions:
       - B06
       - B07
       - B10
-      - B11
       - BQA
       - QA_RADSAT
       - SR_QA_AEROSOL
