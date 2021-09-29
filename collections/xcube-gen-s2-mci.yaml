@@ -7,7 +7,7 @@ Description: |
   The product contains the index itself, plus the inputs bands of Sentinel-2 as well as Scene Classification and
   Cloud Mask to allow for the analysis of potential issues caused by the contamination with undetected clouds or
   adjacency effects.
-Image: mci/mci.png
+Image: xcube-gen-s2-mci/mci.png
 Resolution: 60m
 GeographicalCoverage: Global
 TemporalAvailability: June 23, 2015 - ongoing
