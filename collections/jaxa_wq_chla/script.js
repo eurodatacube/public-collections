@@ -19,5 +19,3 @@ function setup() {
   function evaluatePixel(sample) {
       return [...viz.process(sample.chla), sample.dataMask]
   }    
-
-  
