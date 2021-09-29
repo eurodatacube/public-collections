@@ -22,4 +22,4 @@ function setup() {
   function evaluatePixel(sample) {
       return [...viz.process(sample.chla_ave), sample.dataMask]
   }  
-           
+  
