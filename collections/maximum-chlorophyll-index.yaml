@@ -40,10 +40,10 @@ BandInformation:
           Units & Typical Range: Codelist, from 0-11
 
 Pricing:
-  The unit price per 10000km² is 13 Euro, however there is a minimum price of 25 Euro per order.
+  The unit price per 10000km² is around 14 Euro, however there is a minimum price of 25 Euro per order.
   The total price is calculated by multiplying the unit price for the area with the number of time slices.
   As an example, if the order comprises an area of interest of 41200km² side and 12 time slices,
-  the final price will be 4.12 x 12 x 13€ = 643€.
+  the final price will be 4.12 x 12 x 14€ = 692€.
 
 Contact: https://www.brockmann-consult.de/contact/
 Provider: "[Brockmann Consult GmbH](https://www.brockmann-consult.de/)"
