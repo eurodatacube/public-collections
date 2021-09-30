@@ -7,9 +7,9 @@ Description: |
   The product contains the index itself, plus the inputs bands of Sentinel-2 as well as Scene Classification and
   Cloud Mask to allow for the analysis of potential issues caused by the contamination with undetected clouds or
   adjacency effects.
-Image: mci/mci.png
-Explore: "[Open Notebook]()"
+Image: maximum-chlorophyll-index/maximum-chlorophyll-index.png
 Resolution: 60m
+TemporalResolution: 4 days
 GeographicalCoverage: Global
 TemporalAvailability: June 23, 2015 - ongoing
 UpdateFrequency: New Sentinel data are added regularly, usually within few hours after they are available on Copernicus Hub.
@@ -38,10 +38,16 @@ BandInformation:
         - Name: SCL
           Description: Scene classification data, based on Sen2Cor processor
           Units & Typical Range: Codelist, from 0-11
-          
-Contact: https://forum.sentinel-hub.com/c/euro-data-cube/
-Provider: "[Sentinel Hub](https://www.sentinel-hub.com/)"
-ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
+
+Pricing:
+  The unit price per 10000km² is 13 Euro, however there is a minimum price of 25 Euro per order.
+  The total price is calculated by multiplying the unit price for the area with the number of time slices.
+  As an example, if the order comprises an area of interest of 41200km² side and 12 time slices,
+  the final price will be 4.12 x 12 x 13€ = 643€.
+
+Contact: https://www.brockmann-consult.de/contact/
+Provider: "[Brockmann Consult GmbH](https://www.brockmann-consult.de/)"
+ManagedBy: "[Brockmann Consult GmbH](https://www.brockmann-consult.de/)"
 Tags:
   - on-demand
   - maximum chlorophyll index
@@ -49,9 +55,5 @@ Tags:
   - derived Data
   - sentinel-2
 
-License: |
-  [License]()
-Resources: []
-
 RegistryEntryAdded: "2021-09-27"
-RegistryEntryLastModified: "2021-09-27"
+RegistryEntryLastModified: "2021-09-30"
