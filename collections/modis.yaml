@@ -137,7 +137,7 @@ CubeDimensions:
 Summaries:
   instruments:
     - modis
-  EoBands:
+  eo:bands:
     - name: B01
       common_name: red
       center_wavelength: 0.645
@@ -307,7 +307,7 @@ Summaries:
     - 'http://www.opengis.net/def/crs/EPSG/0/32759'
     - 'http://www.opengis.net/def/crs/EPSG/0/32760'
     - 'http://www.opengis.net/def/crs/SR-ORG/0/98739'
-  EoGsd:
+  eo:gsd:
     - 500
   platform:
     - Terra

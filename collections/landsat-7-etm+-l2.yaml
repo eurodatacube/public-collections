@@ -138,6 +138,6 @@ CubeDimensions:
       - SR_CLOUD_QA
       - ST_QA
       - dataMask
-SciCitation: Landsat 7 product courtesy of the U.S. Geological Survey, processed with Sentinel Hub  
+sci:citation: Landsat 7 product courtesy of the U.S. Geological Survey, processed with Sentinel Hub  
 RegistryEntryAdded: "2021-07-16"
 RegistryEntryLastModified: "2021-10-01"

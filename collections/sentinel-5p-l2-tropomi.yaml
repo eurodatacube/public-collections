@@ -170,7 +170,7 @@ CubeDimensions:
       - CLOUD_OPTICAL_THICKNESS
       - CLOUD_FRACTION
       - dataMask
-SciCitation: Modified Copernicus Sentinel data [Year]/Sentinel Hub
+sci:citation: Modified Copernicus Sentinel data [Year]/Sentinel Hub
 Summaries:
   orbit_id: []
   instruments:
@@ -179,7 +179,7 @@ Summaries:
     - NRTI
     - OFFL
     - RPRO
-  EoBands:
+  eo:bands:
     - name: CO
     - name: HCHO
     - name: NO2
@@ -335,7 +335,7 @@ Summaries:
     - 'http://www.opengis.net/def/crs/EPSG/0/32759'
     - 'http://www.opengis.net/def/crs/EPSG/0/32760'
     - 'http://www.opengis.net/def/crs/SR-ORG/0/98739'
-  EoGsd: 7000
+  eo:gsd: 7000
   platform: sentinel-5 precursor
 RegistryEntryAdded: "2018-04-17"
 RegistryEntryLastModified: "2021-10-01"

@@ -145,6 +145,6 @@ CubeDimensions:
       - ST_EMSD
       - ST_CDIST
       - dataMask
-SciCitation: Landsat 8 product courtesy of the U.S. Geological Survey, processed with Sentinel Hub
+sci:citation: Landsat 8 product courtesy of the U.S. Geological Survey, processed with Sentinel Hub
 RegistryEntryAdded: "2018-04-17"
 RegistryEntryLastModified: "2021-10-01"

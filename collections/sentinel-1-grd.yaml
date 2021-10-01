@@ -126,7 +126,7 @@ CubeDimensions:
       - VH
       - HH
       - HV
-SciCitation: Modified Copernicus Sentinel data [Year]/Sentinel Hub
+sci:citation: Modified Copernicus Sentinel data [Year]/Sentinel Hub
 Summaries:
   constellation: sentinel-1
   instruments: c-sar
@@ -135,17 +135,17 @@ Summaries:
     - IW
     - EW
     - WV
-  SarFrequency_band: C
-  SarCenter_frequency: 5.405
-  SarProduct_type: GRD
-  SatOrbit_state:
+  sar:frequency_band: C
+  sar:center_frequency: 5.405
+  sar:product_type: GRD
+  sat:prbit_state:
     - ascending
     - descending
-  SarResolution:
+  sar:resolution:
     - 10
     - 40
   platform: Sentinel-1
-  SarPolarization:
+  sar:polarization:
     - SH
     - SV
     - DH
@@ -154,7 +154,7 @@ Summaries:
     - HV
     - VV
     - VH
-  SarBands:
+  sar:bands:
     - name: VV
       description: 'Single co-polarization, vertical transmit/vertical receive'
       polarization: VV

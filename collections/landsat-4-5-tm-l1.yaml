@@ -137,14 +137,14 @@ CubeDimensions:
       - SAA
       - SZA
       - dataMask
-SciCitation: Landsat 4-5 product courtesy of the U.S. Geological Survey, processed with Sentinel Hub
+sci:citation: Landsat 4-5 product courtesy of the U.S. Geological Survey, processed with Sentinel Hub
 Summaries:
   instruments:
     - tm
   SatOrbit_state:
     - ascending
     - descending
-  EoBands:
+  eo:bands:
     - name: B01
       common_name: blue
       center_wavelength: 0.485
@@ -325,7 +325,7 @@ Summaries:
     - 'http://www.opengis.net/def/crs/EPSG/0/32759'
     - 'http://www.opengis.net/def/crs/EPSG/0/32760'
     - 'http://www.opengis.net/def/crs/SR-ORG/0/98739'
-  EoGsd:
+  eo:gsd:
     - 30
   platform:
     - landsat-4

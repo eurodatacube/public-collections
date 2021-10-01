@@ -114,6 +114,6 @@ CubeDimensions:
       - SAA
       - SZA
       - dataMask
-SciCitation: Landsat 1-5 product courtesy of the U.S. Geological Survey, processed with Sentinel Hub
+sci:citation: Landsat 1-5 product courtesy of the U.S. Geological Survey, processed with Sentinel Hub
 RegistryEntryAdded: "2021-07-16"
 RegistryEntryLastModified: "2021-10-01"
