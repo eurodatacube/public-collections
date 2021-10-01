@@ -130,7 +130,7 @@ sci:citation: Modified Copernicus Sentinel data [Year]/Sentinel Hub
 Summaries:
   constellation: sentinel-1
   instruments: c-sar
-  SarInstrument_mode:
+  sar:instrument_mode:
     - SM
     - IW
     - EW

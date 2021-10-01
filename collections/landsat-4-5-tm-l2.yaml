@@ -148,7 +148,7 @@ sci:citation: Landsat 4-5 product courtesy of the U.S. Geological Survey, proces
 Summaries:
   instruments:
     - tm
-  SatOrbit_state:
+  sat:orbit_state:
     - ascending
     - descending
   eo:bands:
@@ -193,7 +193,7 @@ Summaries:
     - name: SR_CLOUD_QA
     - name: ST_QA
     - name: data Mask
-  EoCloud_cover:
+  eo:cloud_cover:
     - 0
     - 100
   crs:

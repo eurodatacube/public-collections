@@ -120,7 +120,7 @@ sci:citation: Modified Copernicus Sentinel data [Year]/Sentinel Hub
 Summaries:
   instruments:
     - slstr
-  SatOrbit_state:
+  sat:orbit_state:
     - ascending
     - descending
   eo:bands:
