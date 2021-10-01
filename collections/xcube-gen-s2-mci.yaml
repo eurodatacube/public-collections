@@ -9,6 +9,7 @@ Description: |
   adjacency effects.
 Image: xcube-gen-s2-mci/mci.png
 Resolution: 60m
+TemporalResolution: 4 days
 GeographicalCoverage: Global
 TemporalAvailability: June 23, 2015 - ongoing
 UpdateFrequency: New Sentinel data are added regularly, usually within few hours after they are available on Copernicus Hub.
@@ -20,7 +21,7 @@ BandInformation:
         - Name: Description
           Title: Description
         - Name: Units & Typical Range
-          Title: Units & Typical Range      
+          Title: Units & Typical Range
       Rows:
         - Name: B04
           Description: Wavelength 665nm
@@ -36,18 +37,23 @@ BandInformation:
           Units & Typical Range: Percentage, 0 - 100
         - Name: SCL
           Description: Scene classification data, based on Sen2Cor processor
-          Units & Typical Range: Codelist, from 0-11          
-Contact: https://forum.sentinel-hub.com/c/euro-data-cube/
-Provider: "[Brockmann Consult](https://www.brockmann-consult.de/)"
-ManagedBy: "[Brockmann Consult](https://www.brockmann-consult.de/)"
+          Units & Typical Range: Codelist, from 0-11
+
+Pricing:
+  The unit price per 10000km² is around 14 Euro, however there is a minimum price of 25 Euro per order.
+  The total price is calculated by multiplying the unit price for the area with the number of time slices.
+  As an example, if the order comprises an area of interest of 41200km² side and 12 time slices,
+  the final price will be 4.12 x 12 x 14€ = 692€.
+
+Contact: https://www.brockmann-consult.de/contact/
+Provider: "[Brockmann Consult GmbH](https://www.brockmann-consult.de/)"
+ManagedBy: "[Brockmann Consult GmbH](https://www.brockmann-consult.de/)"
 Tags:
   - on-demand
   - maximum chlorophyll index
   - xcube
   - derived Data
   - sentinel-2
-License: |
-  [License]()
-Resources: []
+
 RegistryEntryAdded: "2021-09-27"
-RegistryEntryLastModified: "2021-09-27"
+RegistryEntryLastModified: "2021-10-01"
