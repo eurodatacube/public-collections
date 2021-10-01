@@ -137,7 +137,7 @@ CubeDimensions:
 Summaries:
   instruments:
     - modis
-  eo:bands:
+  EoBands:
     - name: B01
       common_name: red
       center_wavelength: 0.645
@@ -307,10 +307,10 @@ Summaries:
     - 'http://www.opengis.net/def/crs/EPSG/0/32759'
     - 'http://www.opengis.net/def/crs/EPSG/0/32760'
     - 'http://www.opengis.net/def/crs/SR-ORG/0/98739'
-  eo:gsd:
+  EoGsd:
     - 500
   platform:
     - Terra
     - Aqua
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2021-09-29"
+RegistryEntryLastModified: "2021-10-01"
