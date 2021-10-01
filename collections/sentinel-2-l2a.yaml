@@ -166,9 +166,9 @@ CubeDimensions:
       - viewAzimuthMean
       - viewZenithMean
       - dataMask
-SciCitation: Modified Copernicus Sentinel data [Year]/Sentinel Hub
+sci:citation: Modified Copernicus Sentinel data [Year]/Sentinel Hub
 Summaries:
-  EoBands:
+  eo:bands:
     - name: B01
       common_name: coastal
       center_wavelength: 0.4427
@@ -358,7 +358,7 @@ Summaries:
     - http://www.opengis.net/def/crs/EPSG/0/32759
     - http://www.opengis.net/def/crs/EPSG/0/32760
     - http://www.opengis.net/def/crs/SR-ORG/0/98739
-  EoGsd:
+  eo:gsd:
     - 10
     - 30
     - 60
@@ -368,4 +368,4 @@ Summaries:
     - sentinel-2a
     - sentinel-2b
 RegistryEntryAdded: '2018-04-17'
-RegistryEntryLastModified: '2021-09-29'
+RegistryEntryLastModified: '2021-10-01'
