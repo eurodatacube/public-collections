@@ -527,7 +527,18 @@ const hbsHelpers = {
         return arr[i][resultField];
       }
     }
-  }
+  },
+  anyStartsWith: function (string, object) {
+    if(object) {
+      var keys = Object.keys(object)
+      for(var i = 0; i < keys.length; i++) {
+        if (keys[i].startsWith(string)) {
+          return true;
+        }
+      }
+    }
+    return false;
+  },
 };
 exports.hbsHelpers = hbsHelpers; // exporting for testing purposes
 

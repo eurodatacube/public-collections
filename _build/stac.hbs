@@ -2,7 +2,11 @@
   "type": "Collection",
   "stac_version": "1.0.0",
   "stac_extensions": [
-    "datacube"
+    "datacube" 
+    {{#if sci:citation ~}},"scientific"{{/if ~}}
+    {{#if (anyStartsWith "eo:" Summaries) ~}},"eo"{{/if ~}}
+    {{#if (anyStartsWith "sat:" Summaries) ~}},"sat"{{/if ~}}
+    {{#if (anyStartsWith "sar:" Summaries) ~}},"sar"{{/if ~}}
   ],
   "id": "{{Slug}}",
   "datasource_type": "{{{find Resources 'Primary' 'Type'}}}",
@@ -38,5 +42,11 @@
       "rel": "license"
     }
   ],
-  "cube:dimensions": {{{copyJson CubeDimensions}}}
+  "cube:dimensions": {{{copyJson CubeDimensions}}},
+  {{#if sci:citation }}
+  "sci:citation": {{{sci:citation}}},
+  {{/if}}
+  {{#if Summaries }}
+  "summaries": {{{copyJson Summaries}}}
+  {{/if}}
 }
