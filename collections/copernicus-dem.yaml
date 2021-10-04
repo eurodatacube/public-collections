@@ -70,6 +70,11 @@ Configurations:
     dem_instance: COPERNICUS_30
     href: https://docs.sentinel-hub.com/api/latest/api/process/
     rel: processing-expression
+DataAtWork:
+  Tutorials:
+    - Title: How to access DEM data through Sentinel Hub API
+      URL: https://eurodatacube.com/marketplace/notebooks/contributions/How_to_access_DEM_data_through_Sentinel_Hub_API.ipynb
+      AuthorName: Rono D.
 Extent:
   spatial:
     bbox:
