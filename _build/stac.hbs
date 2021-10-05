@@ -2,7 +2,11 @@
   "type": "Collection",
   "stac_version": "1.0.0",
   "stac_extensions": [
-    "datacube"
+    "https://stac-extensions.github.io/datacube/v1.0.0/schema.json" 
+    {{#if sci:citation ~}},"https://stac-extensions.github.io/scientific/v1.0.0/schema.json"{{/if ~}}
+    {{#if (anyStartsWith "eo:" Summaries) ~}},"https://stac-extensions.github.io/eo/v1.0.0/schema.json"{{/if ~}}
+    {{#if (anyStartsWith "sat:" Summaries) ~}},"https://stac-extensions.github.io/sat/v1.0.0/schema.json"{{/if ~}}
+    {{#if (anyStartsWith "sar:" Summaries) ~}},"https://stac-extensions.github.io/sar/v1.0.0/schema.json"{{/if ~}}
   ],
   "id": "{{Slug}}",
   "datasource_type": "{{{find Resources 'Primary' 'Type'}}}",
@@ -38,5 +42,18 @@
       "rel": "license"
     }
   ],
-  "cube:dimensions": {{{copyJson CubeDimensions}}}
+  "cube:dimensions": {{{copyJson CubeDimensions}}},
+  {{#if sci:citation }}
+  "sci:citation": {{{sci:citation}}},
+  {{/if}}
+  {{#if Summaries }}
+  "summaries": {{{copyJson Summaries}}},
+  {{/if}}
+  "assets": {
+   {{#if Image }}
+   "thumbnail": {
+      "href": "https://collections.eurodatacube.com/{{{Image}}}",
+    }
+    {{/if}}
+  },
 }
