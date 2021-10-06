@@ -146,6 +146,72 @@ CubeDimensions:
       - ST_EMSD
       - ST_CDIST
       - dataMask
+summaries:
+  eo:bands:
+    - center_wavelength: 0.44296
+      common_name: coastal
+      description: Ultra Blue (443 nm)
+      full_width_half_max: 0.01598
+      name: B01
+    - center_wavelength: 0.48204
+      common_name: blue
+      description: Blue (482 nm)
+      full_width_half_max: 0.06004
+      name: B02
+    - center_wavelength: 0.56141
+      common_name: green
+      description: Green (561.5 nm)
+      full_width_half_max: 0.05733
+      name: B03
+    - center_wavelength: 0.65459
+      common_name: red
+      description: Red (654.5 nm)
+      full_width_half_max: 0.03747
+      name: B04
+    - center_wavelength: 0.86467
+      common_name: nir08
+      description: Near Infrared (NIR) (865 nm)
+      full_width_half_max: 0.02825
+      name: B05
+    - center_wavelength: 1.60886
+      common_name: swir16
+      description: Shortwave Infrared (SWIR) 1 (1608.5 nm)
+      full_width_half_max: 0.08472
+      name: B06
+    - center_wavelength: 2.20073
+      common_name: swir22
+      description: Shortwave Infrared (SWIR) 2 (2200.5 nm)
+      full_width_half_max: 0.18666
+      name: B07
+    - center_wavelength: 10.895
+      common_name: lwir11
+      description: Thermal Infrared (TIRS) 1(10895 nm)
+      full_width_half_max: 0.8
+      name: B10
+    - description: Quality Assessment band (QA)
+      name: BQA
+    - description: Radiometric Saturation and Terrain Occlusion QA Band
+      name: QA_RADSAT
+    - description: SR Aerosol QA
+      name: SR_QA_AEROSOL
+    - description: Surface Temperature QA
+      name: ST_QA
+    - description: 	Thermal band converted to radiance
+      name: ST_TRAD
+    - description: Upwelled Radiance
+      name: ST_URAD
+    - description: 	Downwelled Radiance
+      name: ST_DRAD
+    - description: Atmospheric Transmittance
+      name: ST_ATRAN
+    - description: Emissivity of Band 10 estimated from ASTER GED
+      name: ST_EMIS
+    - description: Emissivity standard deviation
+      name: ST_EMSD
+    - description: Pixel distance to cloud
+      name: ST_CDIST
+    - description: The mask of data/no data pixels.
+      name: dataMask
 sci:citation: "Landsat 8 product courtesy of the U.S. Geological Survey, processed with Sentinel Hub"
 RegistryEntryAdded: "2018-04-17"
 RegistryEntryLastModified: "2021-10-06"
