@@ -166,7 +166,7 @@ CubeDimensions:
       - viewAzimuthMean
       - viewZenithMean
       - dataMask
-sci:citation: Modified Copernicus Sentinel data [Year]/Sentinel Hub
+sci:citation: "Modified Copernicus Sentinel data [Year]/Sentinel Hub"
 Summaries:
   eo:bands:
     - name: B01

@@ -170,7 +170,7 @@ CubeDimensions:
       - CLOUD_OPTICAL_THICKNESS
       - CLOUD_FRACTION
       - dataMask
-sci:citation: Modified Copernicus Sentinel data [Year]/Sentinel Hub
+sci:citation: "Modified Copernicus Sentinel data [Year]/Sentinel Hub"
 Summaries:
   orbit_id: []
   instruments:

@@ -125,7 +125,7 @@ CubeDimensions:
       - VH
       - HH
       - HV
-sci:citation: Modified Copernicus Sentinel data [Year]/Sentinel Hub
+sci:citation: "Modified Copernicus Sentinel data [Year]/Sentinel Hub"
 Summaries:
   constellation: sentinel-1
   instruments: c-sar

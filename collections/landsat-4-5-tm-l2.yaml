@@ -145,7 +145,7 @@ CubeDimensions:
       - SR_CLOUD_QA
       - ST_QA
       - dataMask
-sci:citation: Landsat 4-5 product courtesy of the U.S. Geological Survey, processed with Sentinel Hub
+sci:citation: "Landsat 4-5 product courtesy of the U.S. Geological Survey, processed with Sentinel Hub"
 Summaries:
   instruments:
     - tm

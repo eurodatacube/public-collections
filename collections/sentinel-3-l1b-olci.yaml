@@ -139,7 +139,7 @@ CubeDimensions:
       - B20
       - B21
       - dataMask
-sci:citation: Modified Copernicus Sentinel data [Year]/Sentinel Hub
+sci:citation: "Modified Copernicus Sentinel data [Year]/Sentinel Hub"
 Summaries:
   instruments:
     - olci

@@ -116,7 +116,7 @@ CubeDimensions:
       - F1
       - F2
       - dataMask
-sci:citation: Modified Copernicus Sentinel data [Year]/Sentinel Hub
+sci:citation: "Modified Copernicus Sentinel data [Year]/Sentinel Hub"
 Summaries:
   instruments:
     - slstr
