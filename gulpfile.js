@@ -527,7 +527,23 @@ const hbsHelpers = {
         return arr[i][resultField];
       }
     }
-  }
+  },
+  anyStartsWith: function (string, object) {
+    if(object) {
+      if(object.constructor === Object) {
+        var keys = Object.keys(object)
+        for(var i = 0; i < keys.length; i++) {
+          if (keys[i].startsWith(string)) {
+            return true;
+          }
+        }
+      } else {
+        // TO DO: other types of `object` param
+        throw new Error("Type '" + object.constructor.name + "' of parameter 'object' not supported!")
+      }
+    }
+    return false;
+  },
 };
 exports.hbsHelpers = hbsHelpers; // exporting for testing purposes
 
