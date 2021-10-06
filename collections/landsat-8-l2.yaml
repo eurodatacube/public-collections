@@ -33,7 +33,7 @@ Tags:
   - open data
   - landsat
 License: "[License](https://www.usgs.gov/centers/eros/data-citation?qt-science_support_page_related_con=0#qt-science_support_page_related_con)"
-LicenseType: proprietary  
+LicenseType: proprietary
 LicenseUrl: https://www.usgs.gov/centers/eros/data-citation?qt-science_support_page_related_con=0#qt-science_support_page_related_con
 Resources:
   - Group: Sentinel Hub Resources
@@ -203,11 +203,11 @@ Summaries:
       name: SR_QA_AEROSOL
     - description: Surface Temperature QA
       name: ST_QA
-    - description: 	Thermal band converted to radiance
+    - description: Thermal band converted to radiance
       name: ST_TRAD
     - description: Upwelled Radiance
       name: ST_URAD
-    - description: 	Downwelled Radiance
+    - description: Downwelled Radiance
       name: ST_DRAD
     - description: Atmospheric Transmittance
       name: ST_ATRAN
@@ -365,7 +365,6 @@ Summaries:
     - 'http://www.opengis.net/def/crs/EPSG/0/32760'
     - 'http://www.opengis.net/def/crs/SR-ORG/0/98739'
   eo:gsd:
-    - 15
     - 30
   platform:
     - landsat-8
