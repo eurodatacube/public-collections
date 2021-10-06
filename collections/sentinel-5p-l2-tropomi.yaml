@@ -25,13 +25,13 @@ Tags:
   - raster
   - aerosols
   - air quality
-  - Climate change
-  - Ozone 
+  - climate change
+  - ozone 
   - forecasting
   - N02
   - open data
   - race challenges
-  - Copernicus
+  - copernicus
   - sentinel
 License: "[License](https://docs.sentinel-hub.com/api/latest/data/sentinel-5p-l2/#attribution-and-use)"
 LicenseType: proprietary
@@ -338,4 +338,4 @@ Summaries:
   eo:gsd: 7000
   platform: sentinel-5 precursor
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2021-10-01"
+RegistryEntryLastModified: "2021-10-06"

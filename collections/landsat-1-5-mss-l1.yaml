@@ -15,7 +15,7 @@ TemporalAvailability: |
 UpdateFrequency: Archived data
 BandInformation: Information about [bands and data](https://docs.sentinel-hub.com/api/latest/data/landsat-mss/#available-bands-and-data)  
 Contact: https://forum.sentinel-hub.com/c/euro-data-cube/
-Provider: "[USGS](https://www.usgs.gov//)"
+Provider: "[USGS](https://www.usgs.gov/)"
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
 Tags:
   - sentinel hub
@@ -28,6 +28,7 @@ Tags:
   - LULC mapping
   - LULC change
   - open data
+  - landsat
 License: "[License](https://www.usgs.gov/centers/eros/data-citation?qt-science_support_page_related_con=0#qt-science_support_page_related_con)"
 LicenseType: proprietary  
 LicenseUrl: https://www.usgs.gov/centers/eros/data-citation?qt-science_support_page_related_con=0#qt-science_support_page_related_con
@@ -116,4 +117,4 @@ CubeDimensions:
       - dataMask
 sci:citation: Landsat 1-5 product courtesy of the U.S. Geological Survey, processed with Sentinel Hub
 RegistryEntryAdded: "2021-07-16"
-RegistryEntryLastModified: "2021-10-01"
+RegistryEntryLastModified: "2021-10-06"

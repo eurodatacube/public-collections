@@ -29,7 +29,7 @@ Tags:
   - disaster response
   - open data
   - race challenges
-  - Copernicus
+  - copernicus
   - sentinel
 License: "[License](https://docs.sentinel-hub.com/api/latest/data/sentinel-2-l1c/#attribution-and-use)"
 LicenseType: proprietary 
@@ -374,4 +374,4 @@ Summaries:
     - sentinel-2a
     - sentinel-2b
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2021-10-01"
+RegistryEntryLastModified: "2021-10-06"

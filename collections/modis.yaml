@@ -17,7 +17,7 @@ TemporalAvailability: February 2000 - ongoing
 UpdateFrequency: MODIS data are added regularly, usually within few hours after they are available on the USGS archive
 BandInformation: Information about [bands and data](https://docs.sentinel-hub.com/api/latest/data/modis/mcd/#available-bands-and-data)  
 Contact: https://forum.sentinel-hub.com/c/euro-data-cube/25
-Provider: "[USGS](https://www.usgs.gov//)" 
+Provider: "[USGS](https://www.usgs.gov/)" 
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
 Tags:
   - sentinel hub
@@ -29,9 +29,10 @@ Tags:
   - natural resource
   - disaster response
   - open data
+  - NASA
+  - modis
   - terra
   - aqua
-  - NASA
 License: "[License](https://www.usgs.gov/centers/eros/data-citation?qt-science_support_page_related_con=0#qt-science_support_page_related_con)"
 LicenseType: proprietary 
 LicenseUrl: https://www.usgs.gov/centers/eros/data-citation?qt-science_support_page_related_con=0#qt-science_support_page_related_con

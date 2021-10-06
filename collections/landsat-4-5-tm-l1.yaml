@@ -15,7 +15,7 @@ TemporalAvailability: |
 UpdateFrequency: Archived data
 BandInformation: Information about [bands and data](https://docs.sentinel-hub.com/api/latest/data/landsat-8-l2/#available-bands-and-data)  
 Contact: https://forum.sentinel-hub.com
-Provider: "[USGS](https://www.usgs.gov//)"
+Provider: "[USGS](https://www.usgs.gov/)"
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
 Tags:
   - sentinel hub
@@ -29,6 +29,7 @@ Tags:
   - LULC change
   - surface temperature
   - open data
+  - landsat
 License: "[License](https://www.usgs.gov/centers/eros/data-citation?qt-science_support_page_related_con=0#qt-science_support_page_related_con)"
 LicenseType: proprietary 
 LicenseUrl: https://www.usgs.gov/centers/eros/data-citation?qt-science_support_page_related_con=0#qt-science_support_page_related_con
@@ -331,4 +332,4 @@ Summaries:
     - landsat-4
     - landsat-5
 RegistryEntryAdded: "2021-05-12"
-RegistryEntryLastModified: "2021-08-18"
+RegistryEntryLastModified: "2021-10-06"
