@@ -5,3 +5,5 @@
 /.settings/
 /.project
 /.pydevproject
+_tmp
+_output

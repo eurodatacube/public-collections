@@ -29,6 +29,8 @@ Tags:
   - disaster response
   - open data
   - race challenges
+  - copernicus
+  - sentinel
 License: |
     [License](https://docs.sentinel-hub.com/api/latest/data/sentinel-2-l2a/#attribution-and-use)
 LicenseType: proprietary 
@@ -106,7 +108,6 @@ Configurations:
     upsampling: BICUBIC
     href: https://docs.sentinel-hub.com/api/latest/api/process/
     rel: processing-expression
-
 Extent:
   spatial:
     bbox:
@@ -367,4 +368,4 @@ Summaries:
     - sentinel-2a
     - sentinel-2b
 RegistryEntryAdded: '2018-04-17'
-RegistryEntryLastModified: '2021-09-29'
+RegistryEntryLastModified: '2021-10-06'

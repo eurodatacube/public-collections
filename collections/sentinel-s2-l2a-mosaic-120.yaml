@@ -75,6 +75,7 @@ Tags:
   - machine learning
   - agriculture
   - open data
+  - sentinel
 License: "CC-BY 4.0, Credit: Contains modified Copernicus data 2020 processed by Sentinel Hub"
 LicenseType: proprietary
 LicenseUrl: https://www.sentinel-hub.com/tos/#collection
@@ -191,4 +192,4 @@ CubeDimensions:
       - QM
       - dataMask
 RegistryEntryAdded: "2021-03-21"
-RegistryEntryLastModified: "2021-09-24"
+RegistryEntryLastModified: "2021-10-06"
