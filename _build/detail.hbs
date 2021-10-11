@@ -88,6 +88,11 @@
       {{#if CustomScripts}}
       <h4>Custom scripts</h4>
       {{{urlListRenderer CustomScripts}}}
+      {{/if}}  
+
+      {{#if Pricing}}
+      <h4>Pricing</h4>
+      <p>{{{md Pricing}}}</p>
       {{/if}}
 
       {{#if License}}
