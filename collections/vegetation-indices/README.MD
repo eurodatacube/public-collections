@@ -1,30 +1,30 @@
 # Vegetation Indices, Daily
 
 ## Short description
-Vegetation Indices (VI) product is part of the Copernicus Land Monitoring Service (CLMS), pan-European High Resolution Vegetation Phenology and Productivity [(HR-VPP)](https://land.copernicus.eu/pan-european/biophysical-parameters/high-resolution-vegetation-phenology-and-productivity) product suite. 
-The product is comprised of 4 raw Vegetation Indices; (1) Normalized Difference Vegetation Index (NDVI), (2) Leaf Area Index (LAI), 
-(3) Fraction of Absorbed Photosynthetically Active Radiation (FAPAR) and (4) Plant Phenology Index (PPI) generated near real-time (NRT) from Sentinel-2 satellite observations. 
-The raw Vegetation Indices are provided on a daily basis at 10m resolution from October 2016 onwards. Therefore VI products are available over the EEA39 region for the respective observation day 
-based on 5-day revisit period of Sentinel-2. The VIs are accompanied by  a related QFLAG2 band that flags clouds, shadows, snow, open water and other areas where the VI retrieval is less reliable. 
+Vegetation Indices (VI) product is part of the Copernicus Land Monitoring Service (CLMS), pan-European High Resolution Vegetation Phenology and Productivity [(HR-VPP)](https://land.copernicus.eu/pan-european/biophysical-parameters/high-resolution-vegetation-phenology-and-productivity) product suite.
+The product is comprised of 4 raw Vegetation Indices; (1) Normalized Difference Vegetation Index (NDVI), (2) Leaf Area Index (LAI),
+(3) Fraction of Absorbed Photosynthetically Active Radiation (FAPAR) and (4) Plant Phenology Index (PPI) generated near real-time (NRT) from Sentinel-2 satellite observations.
+The raw Vegetation Indices are provided on a daily basis at 10m resolution from October 2016 onwards. Therefore, VI products are available over the EEA39 region for the respective observation day
+based on 5-day revisit period of Sentinel-2. The VIs are accompanied by a related QFLAG2 band that flags clouds, shadows, snow, open water and other areas where the VI retrieval is less reliable.
 More information about raw vegetation indices is outlined in the [product user manual](https://land.copernicus.eu/user-corner/technical-library/product-user-manual-of-vegetation-indices/)
 
 ## Band information
-The available bands include: 4 raw vegetation indices and QFLAG2. 
+The available bands include: 4 raw vegetation indices and QFLAG2.
 
 ### Plant Phenology Index (PPI)
-PPI is a physically-based vegetation index derived from radiative transfer equation and is is calculated from red and Near-Infrared (NIR) spectral bands. PPI is  linearly related to green leaf area index, and can be used to track canopy green foliage dynamics and therefore provides an efficient approach to retrieving plant phenology.  
+PPI is a physically-based vegetation index derived from radiative transfer equation and it is calculated from red and Near-Infrared (NIR) spectral bands. PPI is  linearly related to green leaf area index, and can be used to track canopy green foliage dynamics and therefore provides an efficient approach to retrieving plant phenology.
 Physical values range from 0 to 3.
 
 ### Normalized Difference Vegetation Index (NDVI)
-NDVI quantifies vegetation photosynthetic capacity by measuring the difference between the Near-Infrared (NIR) (which vegetation strongly reflects) and red spectral bands (which vegetation absorbs). Although it is not a physical property of vegetation cover, NDVI is widely used as an indicator for live green vegetation monitoring.  
+NDVI quantifies vegetation photosynthetic capacity by measuring the difference between the Near-Infrared (NIR) (which vegetation strongly reflects) and red spectral bands (which vegetation absorbs). Although it is not a physical property of vegetation cover, NDVI is widely used as an indicator for live green vegetation monitoring.
 Physical values range from -1 to 1.
 
 ### Fraction of Absorbed Photosynthetically Active Radiation (FAPAR)
-FAPAR corresponds to the fraction of photosynthetically active radiation absorbed by the canopy. FAPAR describes only the green parts of the canopy. FAPAR is very useful in assessing the primary productivity of canopies.  
-Physical values range from 0 to 1.  
+FAPAR corresponds to the fraction of photosynthetically active radiation absorbed by the canopy. FAPAR describes only the green parts of the canopy. FAPAR is very useful in assessing the primary productivity of canopies.
+Physical values range from 0 to 1.
 
 ### Leaf Area Index (LAI)
-LAI is defined as one half of the total  area of photosynthetically active elements of the canopy per unit horizontal ground area. The LAI provided by HRVPP corresponds to actual LAI of all the canopy layers, including all green contributors. Practically, the LAI quantifies the thickness of the vegetation cover.  
+LAI is defined as one half of the total  area of photosynthetically active elements of the canopy per unit horizontal ground area. The LAI provided by HRVPP corresponds to actual LAI of all the canopy layers, including all green contributors. Practically, the LAI quantifies the thickness of the vegetation cover.
 Physical values range from 0 to 8.
 
 ### Quality Flag (QFLAG2)
@@ -124,11 +124,11 @@ Physical values range from 0 to 8.
       <td>No value</td>
     </tr>
    </tbody>
-</table> 
+</table>
 
-## More information  
+## More information
 
-### Representative Images 
+### Representative Images
 
 <img src="south-tyrol-northern-italy-fapar.png" alt="FAPAR" width="100%"/>
 <br>
