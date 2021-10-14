@@ -1,34 +1,34 @@
 Name: Seasonal Trajectories, 10-daily
 Description: |
- Seasonal Trajectories (ST) product is a filtered time series of [Plant Phenology Index(PPI)](https://www.nateko.lu.se/research/remote-sensing-and-earth-observation/lund-earth-observation-research-group/vegetation-phenology) provided yearly on a 10-daily basis at 10m resolution . 
- It is part of the Copernicus Land Monitoring Service (CLMS), pan-European High Resolution Vegetation Phenology and Productivity [(HR-VPP)](https://land.copernicus.eu/pan-european/biophysical-parameters/high-resolution-vegetation-phenology-and-productivity) product suite. 
- The Seasonal Trajectories PPI is derived through fitting a smoothing and gap filling function to the yearly time-series raw PPI values generated from Sentinel-2 satellite observations. 
- In addition to the PPI band, a  QFLAG band  indicating the quality of the smoothing process is included. 
- The Seasonal Trajectories  provide the vegetation status for each pixel on a regular 10-day time step from January 1 2017 onwards over the  EEA39 region. 
- More information about ST product is outlined in the [product user manual](https://land.copernicus.eu/user-corner/technical-library/product-user-manual-of-seasonal-trajectories/)  
+ Seasonal Trajectories (ST) product is a filtered time series of [Plant Phenology Index(PPI)](https://www.nateko.lu.se/research/remote-sensing-and-earth-observation/lund-earth-observation-research-group/vegetation-phenology) provided yearly on a 10-daily basis at 10m resolution .
+ It is part of the Copernicus Land Monitoring Service (CLMS), pan-European High Resolution Vegetation Phenology and Productivity [(HR-VPP)](https://land.copernicus.eu/pan-european/biophysical-parameters/high-resolution-vegetation-phenology-and-productivity) product suite.
+ The Seasonal Trajectories PPI is derived through fitting a smoothing and gap filling function to the yearly time-series raw PPI values generated from Sentinel-2 satellite observations.
+ In addition to the PPI band, a QFLAG band indicating the quality of the smoothing process is included.
+ The Seasonal Trajectories provide the vegetation status for each pixel on a regular 10-day time step from January 1 2017 onwards over the EEA39 region.
+ More information about ST product is outlined in the [product user manual](https://land.copernicus.eu/user-corner/technical-library/product-user-manual-of-seasonal-trajectories/)
 AdditionalInfoExternal:
-   Title: Additional info 
-   Path: seasonal-trajectories/README.MD 
-Image: seasonal-trajectories/thumbnail.png 
+   Title: Additional info
+   Path: seasonal-trajectories/README.MD
+Image: seasonal-trajectories/thumbnail.png
 Resolution: 10m
-GeographicalCoverage: Europe (Lat; 26N, 72N Lon; -25 W 45 E)
+GeographicalCoverage: Europe(Lat; 26N 72N Lon; -25W 45E)
 TemporalAvailability: January 1, 2017 - ongoing
 UpdateFrequency: Annually
-BandInformation: 
+BandInformation:
   Table:
       Columns:
         - Name: Name
           Title: Name
         - Name: Description
-          Title: Description  
-        - Name:  Unit
+          Title: Description
+        - Name: Unit
           Title: Unit
         - Name: Sentinel Hub Units
           Title: Sentinel Hub Units
         - Name: Digital Range
-          Title: Digital Range   
+          Title: Digital Range
         - Name: No data
-          Title: No data                 
+          Title: No data
       Rows:
         - Name: PPI
           Description: Plant Phenology Index
@@ -38,23 +38,23 @@ BandInformation:
           No data: 32768
         - Name: QFLAG
           Description: Quality Flag
-          Unit: Dimensionless          
+          Unit: Dimensionless
           Sentinel Hub Units: DN
           Digital Range: 1 to 5; Additional info <a href="https://collections.eurodatacube.com/seasonal-trajectories/readme.html">here</a>.
-          No data: 0 
+          No data: 0
 Contact: "[Copernicus Land Monitoring Service Contact](https://land.copernicus.eu/contact)"
-Provider:  "[European Environment Agency](https://www.eea.europa.eu/)"
+Provider: "[European Environment Agency](https://www.eea.europa.eu/)"
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
 Tags:
   - vegetation
   - agriculture
-  - Plant phenology index 
+  - Plant phenology index
   - CLMS
   - phenology
   - derived data
   - open data
 License: Freely and openly accessible according to the Copernicus data and information policy. ([Read more](https://land.copernicus.eu/terms-of-use)).
-LicenseType: proprietary 
+LicenseType: proprietary
 LicenseUrl: https://land.copernicus.eu/terms-of-use
 Resources:
   - Group: Sentinel Hub Resources
@@ -109,7 +109,6 @@ CubeDimensions:
     extent:
       - '2017-01-01T00:00:00Z'
       - null
-    step: P5D
   band:
     type: bands
     values:
