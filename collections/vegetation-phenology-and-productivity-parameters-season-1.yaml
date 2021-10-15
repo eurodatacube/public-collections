@@ -16,7 +16,7 @@ AdditionalInfoExternal:
     Path: vegetation-phenology-and-productivity-parameters-season-1/README.MD
 Image: vegetation-phenology-and-productivity-parameters-season-1/thumbnail.png
 Resolution: 10m
-GeographicalCoverage: Europe(Lat; 26N 72N Lon; -25W 45E)
+GeographicalCoverage: Europe (Lat; 26N 72N Lon; -25W 45E)
 TemporalAvailability: January 1, 2017 - ongoing
 UpdateFrequency: Annually
 BandInformation:
