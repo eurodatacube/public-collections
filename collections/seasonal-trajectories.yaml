@@ -9,6 +9,7 @@ Description: |
 AdditionalInfoExternal:
    Title: Additional info
    Path: seasonal-trajectories/README.MD
+EDCBrowser: https://browser.eurodatacube.com/?zoom=10&lat=41.9&lng=12.5&collectionId=seasonal-trajectories&layerId=PPI&type=sentinel-hub-edc&fromTime=2020-07-21T00%3A00%3A00.000Z&toTime=2020-07-21T23%3A59%3A59.999Z
 Image: seasonal-trajectories/thumbnail.png
 Resolution: 10m
 GeographicalCoverage: Europe (Lat; 26N 72N Lon; -25W 45E)
@@ -116,4 +117,4 @@ CubeDimensions:
       - QFLAG
       - dataMask
 RegistryEntryAdded: '2021-10-14'
-RegistryEntryLastModified: '2021-10-14'
+RegistryEntryLastModified: '2021-10-22'

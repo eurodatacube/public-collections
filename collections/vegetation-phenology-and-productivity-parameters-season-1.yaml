@@ -14,6 +14,7 @@ Description: |
 AdditionalInfoExternal:
     Title: Additional info
     Path: vegetation-phenology-and-productivity-parameters-season-1/README.MD
+EDCBrowser: https://browser.eurodatacube.com/?zoom=11&lat=42.02303&lng=12.25044&collectionId=vegetation-phenology-and-productivity-parameters-season-1&layerId=MAXV&type=sentinel-hub-edc&fromTime=2020-01-01T00%3A00%3A00.000Z&toTime=2020-01-01T23%3A59%3A59.999Z
 Image: vegetation-phenology-and-productivity-parameters-season-1/thumbnail.png
 Resolution: 10m
 GeographicalCoverage: Europe (Lat; 26N 72N Lon; -25W 45E)
@@ -253,4 +254,4 @@ CubeDimensions:
       - RSLOPE
       - dataMask
 RegistryEntryAdded: '2021-10-14'
-RegistryEntryLastModified: '2021-10-15'
+RegistryEntryLastModified: '2021-10-22'
