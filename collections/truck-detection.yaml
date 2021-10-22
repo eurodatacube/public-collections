@@ -1,50 +1,50 @@
 Name: Truck Detection 
 Description: |
-  The Truck detection algorithm detects the number of moving trucks along roads using Sentinel-2 level 2A data.  
-  The author [Henrik Fisser](https://twitter.com/fisserhenrik), developed this algorithm (with the title: Truck detection – Sensing trade from space) 
-  in the context of the Euro Data Cube COVID-19 edition of Sentinel Hub’s custom script contest.
-  The algorithm exploits the small offset between Sentinel-2 bands which causes moving objects to appear as rainbows in RGB images allowing 
-  the detection and mapping of moving trucks.  
-  The output of the algorithm is locations (point geometries) and dates of detected trucks.  
-  More information regarding input and output specifications can be found under additional information.
+  The Truck Detection algorithm detects the number of moving trucks along roads using 10m resolution Sentinel-2 level 2A data.
+  The author Henrik Fisser (henrik.fisser@t-online.de), developed this algorithm (with the title: Truck detection – Sensing trade from space) in the context of the Euro Data Cube COVID-19 edition of Sentinel Hub’s custom script contest.
+  The algorithm exploits the small offset between Sentinel-2 bands which causes moving objects to appear as rainbows in RGB images allowing the detection and mapping of moving trucks.  
+  The output of the algorithm is **point vector data ( GeoPackage (.gpkg) format)** with the coordinates of the detected trucks, **dates** of detected trucks and the **valid road area** as attributes. More information regarding input and output specifications can be found under [additional information](https://collections.eurodatacube.com/truck-detection/readme.html).   
+  To generate trucks vector data, navigate to [EDC Browser](https://browser.eurodatacube.com/?zoom=10&lat=41.9&lng=12.5&fromTime=1970-01-01T00%3A00%3A00.000Z&toTime=2021-10-22T14%3A36%3A31.329Z&algorithm=truck-detection), select the required input parameters and follow the check-out wizard to complete your order. To download sample trucks vector data, click [here](truck-detection/sample.gpkg)
 AdditionalInfoExternal:
     Title: Additional info 
     Path:  truck-detection/README.MD
-Image: truck-detection/truck-detection.png
-Resolution: 10m
+Image: truck-detection/thumbnail.png
+Explore: "[Run algorithm in EDC Browser](https://browser.eurodatacube.com/?zoom=10&lat=41.9&lng=12.5&fromTime=1970-01-01T00%3A00%3A00.000Z&toTime=2021-10-22T14%3A36%3A31.329Z&algorithm=truck-detection)" 
 GeographicalCoverage: Global
 TemporalAvailability: |  
  Europe:  November 2016 - ongoing  
  Global: January 2017  - ongoing
-UpdateFrequency: New Sentinel data are added regularly, usually within few hours after they are available on Copernicus Hub.
-BandInformation:
+UpdateFrequency: On-demand
+Attributes:
   Table:
       Columns:
         - Name: Name
           Title: Name
         - Name: Description
           Title: Description
-        - Name: Units & Typical Range
-          Title: Units & Typical Range      
+        - Name: Type
+          Title: Type      
       Rows:
-        - Name: B02
-          Description: Blue
-          Units & Typical Range: DN, typically from 0-10000
-        - Name: B03
-          Description: Green
-          Units & Typical Range: DN, typically from 0-10000         
-        - Name: B04
-          Description: Red
-          Units & Typical Range: DN, typically from 0-10000
-        - Name: B11
-          Description: SWIR
-          Units & Typical Range: DN, typically from 0-10000
-        - Name: CLM
-          Description: Cloud Masks
-          Units & Typical Range: 0 - no cloud, 1 - clouds, 255 - no data
-        - Name: SCL
-          Description: Scene classification data, based on Sen2Cor processor
-          Units & Typical Range: Codelist, from 0-11     
+        - Name: fid
+          Description: Truck identifier
+          Type: Integer
+        - Name: Date
+          Description: Date when the truck is detected
+          Type: String         
+        - Name: roads_covered
+          Description: Ratio of the valid road area; (entire road area - road covered by clouds area)/entire road area
+          Type: Float  
+Pricing: |   
+ Unit price per 1.000 km2 area of interest per 1 month period is 0.95 EUR, with a progressive volume discount based on the ordered volume during last 12 months. Minimum individual processing order is 1.000 km². 
+
+ | Range | Unit | Price|
+ | ------ | ------ |------ |
+ | 1.000 km2 to 1.000.000 km2  | 1.000 km2 | 0.95 EUR |
+ | 1.000.000 km2 to 10.000.000 km2  | 1.000 km2 | 0.75 EUR |
+ | more than 10.000.000 km2  | 1.000 km2 | 0.60 EUR |  
+ 
+ Read Terms of Service [here](https://collections.eurodatacube.com/truck-detection/readme.html) 
+License: "[Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). Attribution: Contains modified Copernicus Sentinel data (year) processed by Sentinel Hub"
 Contact: https://forum.sentinel-hub.com/c/euro-data-cube/
 Provider: "[Sentinel Hub](https://www.sentinel-hub.com/)"
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
@@ -54,8 +54,6 @@ Tags:
   - sentinel hub
   - derived Data
   - sentinel-2
-License: |
-  [License]()
 Resources: []
 RegistryEntryAdded: "2021-07-09"
-RegistryEntryLastModified: "2021-09-27"
+RegistryEntryLastModified: "2021-10-22"

@@ -1,11 +1,66 @@
 # Truck Detection
 
 ## Short Description
-  The Truck detection algorithm detects the number of moving trucks along roads using Sentinel-2 level 2A data.  
-  The author [Henrik Fisser](https://twitter.com/fisserhenrik), developed this algorithm (with the title: Truck detection – Sensing trade from space) in the context of the Euro Data Cube COVID-19 edition of Sentinel Hub’s custom script contest.
+  The Truck Detection algorithm detects the number of moving trucks along roads using 10m resolution Sentinel-2 level 2A data.
+  The author Henrik Fisser (henrik.fisser@t-online.de), developed this algorithm (with the title: Truck detection – Sensing trade from space) 
+  in the context of the Euro Data Cube COVID-19 edition of Sentinel Hub’s custom script contest.
   The algorithm exploits the small offset between Sentinel-2 bands which causes moving objects to appear as rainbows in RGB images allowing the detection and mapping of moving trucks.  
- 
-## Method
+  The output of the algorithm is **point vector data ( GeoPackage (.gpkg) format)** with the coordinates of the detected trucks, **dates** of detected trucks and the **valid road area** as attributes.  
+
+## How to generate trucks vector data
+Generate trucks data for your area of interest in these simple steps:  
+1. Create EDC account [here](https://eurodatacube.com/register) and purchase enough [credits](https://eurodatacube.com/support?faq=purchase_credits)
+1. Navigate to [EDC Browser](https://browser.eurodatacube.com/?zoom=10&lat=41.9&lng=12.5&fromTime=1970-01-01T00%3A00%3A00.000Z&toTime=2021-10-22T14%3A36%3A31.329Z&algorithm=truck-detection) 
+2. Select the required input parameters 
+3. Follow the check-out wizard to complete your order.  
+
+## Data Source 
+
+Truck detection algorithm detects trucks on Sentinel -2 L2A images
+
+### Table 1: Data source description
+|         |      |
+| ------ | ------ |
+| Data Source | Sentinel 2 L2A |
+| Resolution | 10m |
+| Geographical coverage | Global |
+| Update Frequency | New Sentinel data are added regularly, usually within few hours after they are available on Copernicus Hub|
+| Bands used | Blue, Green, Red, SCL|  
+
+### Table 2: Description of Sentinel 2 L2A bands used
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Description</th>
+      <th>Units & Typical Range</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>B02</td>
+      <td>Blue</td>
+      <td>DN, typically from 0-10000</td>
+    </tr>
+    <tr>
+      <td>B03</td>
+      <td>Green</td>
+      <td>DN, typically from 0-10000</td>
+    </tr>
+    <tr>
+      <td>B04</td>
+      <td>Red</td>
+      <td>DN, typically from 0-10000</td>
+    </tr>
+    <tr>
+      <td>SCL</td>
+      <td>Scene classification data, based on Sen2Cor processor</td>
+      <td>Codelist, from 0-11 </td>
+    </tr>
+   </tbody>
+</table>  
+
+## Detection Method
 The **detection method** exploits small sensing offset of different wavelength that moving objects have in Sentinel-2 data which causes a specific reflectance relationship in the RGB, which looks like a rainbow. The method only targets the blue part of the ‘rainbow’ truck object since the dominance of blue reflectance is rare over land surfaces. This blue part of the truck serves as a marker. The detection is then achieved through reflectance band math calculations.  
 **Initial step** - Create a road mask, Check that the following conditions are fulfilled:
 
@@ -31,68 +86,64 @@ The **detection method** exploits small sensing offset of different wavelength t
 
 **Result**- Each truck is represented by pixels with value 1. Connected pixels are filtered to identify single trucks and then  vectorized to get the final result. 
  
-## Input Parameters
+## Algorithm Input Parameters   
 
-### Table 1: Required Parameters
+### Table 3: Required parameters
 <table>
   <thead>
     <tr>
       <th>Name</th>
-      <th>Type </th>
+      <th>Possible Values</th>
       <th>Description</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>aoi</td>
-      <td>bbox</td>
+      <td>Area of Interest</td>
+      <td>BBox or polygon </td>
       <td>Area of Interest</td>
     </tr>
     <tr>
-      <td>projection</td>
-      <td>int</td>
-      <td>CRS of the AOI</td>
+      <td>Time range</td>
+      <td>from 2016-11-01 to date</td>
+      <td>Time period for which the algorithm will run</td>
     </tr>
     <tr>
-      <td>time_period</td>
-      <td>daterange</td>
-      <td>Time period</td>
-    </tr>
-    <tr>
-      <td>osm_values</td>
-      <td>stringlist</td>
       <td>OSM Values</td>
+      <td>"motorway", "trunk", "primary"</td>
+      <td>Road types found in OSM. Trucks are only detected on roads obtained from OSM. Their descriptions can be found [here](https://wiki.openstreetmap.org/wiki/Key:highway)</td>
     </tr>
     <tr>
-      <td>maxCC</td>
-      <td>int</td>
-      <td>Maximal cloud coverage</td>
+      <td>Max. cloud coverage</td>
+      <td>Integer (from 0 to 100)</td>
+      <td>Maximal cloud coverage in percentage</td>
     </tr>
     <tr>
-      <td>week_days</td>
-      <td>stringlist</td>
       <td>Week days</td>
+      <td>"Monday", "Tuesday" ...</td>
+      <td>Days of the week for which the algorithm will run in the selected time range</td>
     </tr>
    </tbody>
 </table>  
 
-## Output
-The output of the algorithm is locations (point geometries) and dates of detected trucks.
+## Algorithm output
+The output of the algorithm is point vector data in **GeoPackage format** with coordinates of the detected trucks, the dates of detected trucks and the valid road area as attributes.
 
-### Supported Output Format
+### Projection of the output data
+-  EPSG:4326 (WGS84 - World Geodetic System 1984)
+
+### Format of the output data
  - GeoPackage (.gpkg)
- - Shapefile (.shp)
- - GeoJson (.geojson)  
  
-### Supported Output Location  
- - S3 bucket  
- - EDC Workspace  
- - Direct download (for a limited time)
+### Supported delivery methods
+ - AWS S3 bucket  
+ - EOxHub Managed Object Storage
+ - Store in EDC GeoDB
+ - One-time Download 
 
 ## Pricing
 
-- Unit price per area of interest per month (progressive volume discount based on the
-ordered volume during last 12 months)
+- Unit price per area of interest per month (progressive volume discount based on the ordered volume during last 12 months)
     - 1.000 km2 to 1.000.000 km2 – 0.95 EUR per 1.000 km2
     - 1.000.000 km2 to 10.000.000 km2 – 0.75 EUR per 1.000 km2
     - more than 10.000.000 km2 – 0.60 EUR per 1.000 km2
@@ -105,24 +156,29 @@ ordered volume during last 12 months)
 
 ## More Information
 ### Resources
- - The original code is available in [github repository](https://github.com/hfisser/Truck_Detection_Sentinel2_COVID19)  
+ - The original code is available in [github repository](https://github.com/hfisser/Truck_Detection_Sentinel2_COVID19)
+ - EDC Checking-out "data on demand" [documentation](https://eurodatacube.com/documentation/checking_out_data_on_demand)  
+ - Download [sample trucks vector data](truck-detection/sample.gpkg)   
 
 ### Application Areas
  - Monitor truck traffic
- - Sense disruptions of logistic flow
+ - Track disruptions of logistic flow
  - Complement highway usage data
 
-### Limitations
- - False positives possible particularly in urban areas
- - Assumes moving vehicles
- - Difficult to validate vehicles of type truck only. 
+### Known Limitations
+ - Possible false positives particularly in urban areas
+ - Assumes moving vehicles  
 
-### Examples
+### Examples  
 
-![trucks on sentinel 2](trucks.png)  
+<img src="trucks.png" alt="trucks on sentinel 2" width="100%"/>
+<br>
 
-_example of trucks visible on sentinel 2 image_
+*example of trucks visible on sentinel 2 image*
 
-![detected_trucks_](carlifornia.png)  
+<br>
+<br>
+<img src="carlifornia.png" alt="detected_trucks" width="100%"/>
+<br>
 
-_Example of trucks detected (green dots) by the algorithm along Ventura freeway, southern California on 22-07-2020 with Sentinel 2 image overlay_
+*Example of trucks detected (green dots) by the algorithm along Ventura freeway, southern California on 22-07-2020 with Sentinel 2 image overlay* 
