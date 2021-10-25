@@ -65,7 +65,7 @@ CubeDimensions:
     extent:
       - '2020-01-01T00:00:00Z'
       - '2020-12-31T23:59:59Z'
-  band:
+  bands:
     type: bands
     values:
       - populationDensity   

@@ -102,7 +102,7 @@ CubeDimensions:
       - '1972-07-01T00:00:00Z'
       - '2013-01-01T00:00:00Z'
     step: P5D
-  band:
+  bands:
     type: bands
     values:
       - B01

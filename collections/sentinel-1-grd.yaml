@@ -118,7 +118,7 @@ CubeDimensions:
       - '2014-12-07T04:14:15Z'
       - null
     step: P5D
-  band:
+  bands:
     type: bands
     values:
       - VV

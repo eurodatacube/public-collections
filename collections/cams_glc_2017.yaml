@@ -63,7 +63,7 @@ CubeDimensions:
     extent:
       - '2017-01-01T00:00:00Z'
       - '2017-12-31T00:00:00Z'
-  band:
+  bands:
     type: bands
     values:
       - RED

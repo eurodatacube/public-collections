@@ -64,7 +64,7 @@ CubeDimensions:
     extent:
       - '2019-01-01T00:00:00Z'
       - '2020-12-01T00:00:00Z'
-  band:
+  bands:
     type: bands
     values:
       - windu10m
