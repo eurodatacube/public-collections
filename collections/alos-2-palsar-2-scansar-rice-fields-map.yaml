@@ -103,7 +103,7 @@ CubeDimensions:
     extent:
       - '2019-03-01T00:00:00Z'
       - '2020-08-31T00:00:00Z'
-  band:
+  bands:
     type: bands
     values:
       - RF

@@ -65,7 +65,7 @@ CubeDimensions:
     extent:
       - '2020-01-04T00:00:00Z'
       - '2021-04-17T00:00:00Z'
-  band:
+  bands:
     type: bands
     values:
       - chl
