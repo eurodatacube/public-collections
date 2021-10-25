@@ -94,7 +94,7 @@ CubeDimensions:
     extent:
       - '2019-03-11T00:00:00Z'
       - '2021-04-18T00:00:00Z'
-  band:
+  bands:
     type: bands
     values:
       - HH

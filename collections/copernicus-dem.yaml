@@ -107,7 +107,7 @@ CubeDimensions:
       - '2010-12-12T05:04:33Z'
       - '2015-01-16T01:37:12Z'
     step: P5D
-  band:
+  bands:
     type: bands
     values:
       - DEM

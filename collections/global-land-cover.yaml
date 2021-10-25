@@ -121,7 +121,7 @@ CubeDimensions:
       - '2015-01-01T00:00:00Z'
       - '2019-12-31T00:00:00Z'
     step: P5D
-  band:
+  bands:
     type: bands
     values:
       - Discrete_Classification_map

@@ -76,7 +76,7 @@ CubeDimensions:
       - '2017-01-01T00:00:00Z'
       - '2021-05-31T00:00:00Z'
     step: P5D
-  band:
+  bands:
     type: bands
     values:
       - concentration
