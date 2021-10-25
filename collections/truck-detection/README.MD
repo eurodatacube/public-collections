@@ -157,7 +157,7 @@ The output of the algorithm is point vector data in **GeoPackage format** with c
 ### Resources
  - The original code is available in [github repository](https://github.com/hfisser/Truck_Detection_Sentinel2_COVID19)
  - EDC Checking-out "data on demand" [documentation](https://eurodatacube.com/documentation/checking_out_data_on_demand)  
- - Download [sample trucks vector data](truck-detection/sample.gpkg)   
+ - Download [sample trucks vector data](sample.gpkg)   
 
 ### Application Areas
  - Monitor truck traffic
