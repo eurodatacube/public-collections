@@ -16,8 +16,7 @@ Generate trucks data for your area of interest in these simple steps:
 
 ## Data Source 
 
-Truck detection algorithm detects trucks on Sentinel -2 L2A images
-
+Truck detection algorithm detects trucks on Sentinel -2 L2A images. Find out more information about  Sentinel-2  data in the [documentation](https://docs.sentinel-hub.com/api/latest/data/sentinel-2-l2a/)
 ### Table 1: Data source description
 |         |      |
 | ------ | ------ |
@@ -111,7 +110,7 @@ The **detection method** exploits small sensing offset of different wavelength t
     <tr>
       <td>OSM Values</td>
       <td>"motorway", "trunk", "primary"</td>
-      <td>Road types found in OSM. Trucks are only detected on roads obtained from OSM. Their descriptions can be found [here](https://wiki.openstreetmap.org/wiki/Key:highway)</td>
+      <td>Road types found in OSM. Trucks are only detected on roads obtained from OSM. Their descriptions can be found <a href="https://wiki.openstreetmap.org/wiki/Key:highway">here</a></td>
     </tr>
     <tr>
       <td>Max. cloud coverage</td>
