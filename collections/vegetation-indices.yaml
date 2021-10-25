@@ -146,7 +146,7 @@ CubeDimensions:
     extent:
       - '2016-10-01T00:00:00Z'
       - null
-  band:
+  bands:
     type: bands
     values:
       - LAI

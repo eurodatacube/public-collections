@@ -109,7 +109,7 @@ CubeDimensions:
       - null
       - null
     step: P5D
-  band:
+  bands:
     type: bands
     values:
       - DEM

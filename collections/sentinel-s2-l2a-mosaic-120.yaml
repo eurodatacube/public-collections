@@ -174,7 +174,7 @@ CubeDimensions:
       - '2020-01-01T00:00:00Z'
       - '2020-12-31T00:00:00Z'
     step: P5D
-  band:
+  bands:
     type: bands
     values:
       - B01

@@ -64,7 +64,7 @@ CubeDimensions:
     extent:
       - '2020-02-07T00:00:00Z'
       - '2020-04-13T23:59:59Z'
-  band:
+  bands:
     type: bands
     values:
       - GRD

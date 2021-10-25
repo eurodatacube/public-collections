@@ -114,7 +114,7 @@ CubeDimensions:
       - '2016-04-17T11:33:13Z'
       - null
     step: P5D
-  band:
+  bands:
     type: bands
     values:
       - B01

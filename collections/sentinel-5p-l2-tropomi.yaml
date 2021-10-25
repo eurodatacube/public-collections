@@ -152,7 +152,7 @@ CubeDimensions:
       - '2018-04-30T00:18:50Z'
       - null
     step: P5D
-  band:
+  bands:
     type: bands
     values:
       - CO

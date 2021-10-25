@@ -124,7 +124,7 @@ CubeDimensions:
       - '2000-02-24T00:00:00Z'
       - null
     step: P5D
-  band:
+  bands:
     type: bands
     values:
       - B01
