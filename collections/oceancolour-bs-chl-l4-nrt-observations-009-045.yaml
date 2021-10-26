@@ -1,0 +1,48 @@
+Name: OCEANCOLOUR_BS_CHL_L4_NRT_OBSERVATIONS_009_045
+Description: |
+  OCEANCOLOUR_BS_CHL_L4_NRT_OBSERVATIONS_009_045 is one of the ocean products provided by [Copernicus Marine Environment Monitoring Service (CMEMS)](https://marine.copernicus.eu/).
+  This product is delivered as daily-interpolated NRT, L4 chlorophyll-a product of 0.3km resolution over the
+  Black Sea, based on the merging of the sensors MODIS-Aqua, NOAA-20 VIIRS, NPP-VIIRS, Sentinel3A-OLCI.
+  The dataset available in EDC is static and currently not updated.
+Documentation: "[Product information](https://resources.marine.copernicus.eu/product-detail/OCEANCOLOUR_BS_CHL_L4_NRT_OBSERVATIONS_009_045/INFORMATION)"
+Image: oceancolour-bs-chl-l4-nrt-observations-009-045/oceancolour-bs-chl-l4-nrt-observations-009-045.png
+Explore: "[Open Notebook](https://eurodatacube.com/marketplace/notebooks/getting-started/EDC_xcube_generator_service.ipynb)"
+Resolution: 0.3km
+GeographicalCoverage: |
+ (26.5°E, 42°E, 40°N, 48°N)
+ Areas: 
+  -  black-sea
+TemporalAvailability: "['2019-01-01', '2021-03-15']"
+TemporalResolution: Daily-interpolated
+UpdateFrequency: Static
+Variables: 
+ Table:
+      Columns:
+        - Name: Name
+          Title: Name
+        - Name: Description
+          Title: Description        
+      Rows:
+        - Name: CHL
+          Description: mass concentration of chlorophyll-a in sea water(mg/m3)
+Contact: https://forum.sentinel-hub.com/c/euro-data-cube/25
+Provider: "[Copernicus Marine Environment Monitoring Service](https://marine.copernicus.eu/)"
+ManagedBy: "[Brockmann Consult](https://www.brockmann-consult.de/)"
+Tags:
+  - xcube
+  - raster
+  - systematic
+  - open data
+  - chlorophyll
+  - oceancolour
+  - black-sea
+License: |
+  [License](https://marine.copernicus.eu/user-corner/service-commitments-and-licence)
+Resources:
+-  Group: xcube Generator Resources
+   StoreInstanceID: cop_services_data
+   StoreTitle: Datasets from Copernicus Services
+   DataID: OCEANCOLOUR_BS_CHL_L4_NRT_OBSERVATIONS_009_045.zarr
+
+RegistryEntryAdded: "2021-10-25"
+RegistryEntryLastModified: "2021-10-25"

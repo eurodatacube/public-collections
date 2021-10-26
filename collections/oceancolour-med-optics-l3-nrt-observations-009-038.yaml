@@ -1,0 +1,49 @@
+Name: OCEANCOLOUR_MED_OPTICS_L3_NRT_OBSERVATIONS_009_038
+Description: |
+  OCEANCOLOUR_MED_OPTICS_L3_NRT_OBSERVATIONS_009_038 is one of the ocean products provided by [Copernicus Marine Environment Monitoring Service (CMEMS)](https://marine.copernicus.eu/).
+  This product is delivered as daily-interpolated  NRT, L3 diffuse attenuation coefficient of light at 490 nm (kd490)
+  product of 0.3km resolution over the Mediterranean Sea,
+  based on the merging of the sensors MODIS-AQUA, NOAA20-VIIRS, NPP-VIIRS and Sentinel3A-OLCI.
+  The dataset available in EDC is static and currently not updated.
+Documentation: "[Product information](https://resources.marine.copernicus.eu/product-detail/OCEANCOLOUR_MED_OPTICS_L3_NRT_OBSERVATIONS_009_038/INFORMATION)"
+Image: oceancolour-med-optics-l3-nrt-observations-009-038/oceancolour-med-optics-l3-nrt-observations-009-038.png
+Explore: "[Open Notebook](https://eurodatacube.com/marketplace/notebooks/getting-started/EDC_xcube_generator_service.ipynb)"
+Resolution: 0.3km
+GeographicalCoverage: |
+  (6°W, 36.5°E, 30°N, 46°N)
+  Areas:
+   - mediterranean-sea
+TemporalAvailability: "['2019-01-01', '2021-03-20']"
+TemporalResolution: Daily mean
+UpdateFrequency: Static
+Variables:
+  Table:
+    Columns:
+      - Name: Name
+        Title: Name
+      - Name: Description
+        Title: Description
+    Rows:
+      - Name: KD490
+        Description: Multi-sensor Diffuse Attenuation Coefficient at 490nm (m^-1)
+Contact: https://forum.sentinel-hub.com/c/euro-data-cube/25
+Provider: "[Copernicus Marine Environment Monitoring Service](https://marine.copernicus.eu/)"
+ManagedBy: "[Brockmann Consult](https://www.brockmann-consult.de/)"
+Tags:
+  - xcube
+  - raster
+  - systematic
+  - open data
+  - chlorophyll
+  - oceancolour
+  - mediterranean-sea
+License: |
+  [License](https://marine.copernicus.eu/user-corner/service-commitments-and-licence)
+Resources:
+  - Group: xcube Generator Resources
+    StoreInstanceID: cop_services_data
+    StoreTitle: Datasets from Copernicus Services
+    DataID: OCEANCOLOUR_MED_OPTICS_L3_NRT_OBSERVATIONS_009_038.zarr
+
+RegistryEntryAdded: "2021-10-25"
+RegistryEntryLastModified: "2021-10-25"
