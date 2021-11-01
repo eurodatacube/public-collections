@@ -10,7 +10,7 @@ Explore: "[Open Notebook](https://eurodatacube.com/marketplace/notebooks/getting
 Resolution: 0.3km
 GeographicalCoverage: |
  (26.5°E, 42°E, 40°N, 48°N)
- Areas: 
+ Areas:
   -  black-sea
 TemporalAvailability: "['2019-01-01', '2021-03-15']"
 TemporalResolution: Daily-interpolated
