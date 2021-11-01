@@ -4,7 +4,6 @@ Description: |
   This product is delivered as daily  NRT, L3 chlorophyll-a product of 0.3km resolution over the Baltic Sea, based on
   the OLCI single sensor product.
   The dataset available in EDC is static and currently not updated.
-
 Documentation: "[Product information](https://resources.marine.copernicus.eu/product-detail/OCEANCOLOUR_BAL_CHL_L3_NRT_OBSERVATIONS_009_049/INFORMATION)"
 Image: oceancolour-bal-chl-l3-nrt-observations-009-049/oceancolour-bal-chl-l3-nrt-observations-009-049.png
 Explore: "[Open Notebook](https://eurodatacube.com/marketplace/notebooks/getting-started/EDC_xcube_generator_service.ipynb)"
