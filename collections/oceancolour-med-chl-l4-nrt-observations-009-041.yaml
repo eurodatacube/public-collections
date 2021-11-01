@@ -9,7 +9,7 @@ Image: oceancolour-med-chl-l4-nrt-observations-009-041/oceancolour-med-chl-l4-nr
 Explore: "[Open Notebook](https://eurodatacube.com/marketplace/notebooks/getting-started/EDC_xcube_generator_service.ipynb)"
 Resolution: 0.3km
 GeographicalCoverage: |
- (6°W, 36.5°E, 30°N, 46°N)
+ (6°W, 36.5°E, 30°N, 46°N)  
  Areas: 
   - mediterranean-sea
 TemporalAvailability: "['2019-01-01', '2021-03-15']"
