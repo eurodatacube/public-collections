@@ -9,7 +9,7 @@ Image: oceancolour-bal-chl-l3-nrt-observations-009-049/oceancolour-bal-chl-l3-nr
 Explore: "[Open Notebook](https://eurodatacube.com/marketplace/notebooks/getting-started/EDC_xcube_generator_service.ipynb)"
 Resolution: 0.3km
 GeographicalCoverage: |
- (9.25°E, 30.25°E, 53.25°N,  65.85°N)
+ (9.25°E, 30.25°E, 53.25°N,  65.85°N)  
  Areas: 
   - baltic-sea
 TemporalAvailability: "['2018-08-01', '2021-04-01']"
