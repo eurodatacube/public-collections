@@ -7,7 +7,7 @@ Description: |
 Documentation: "[Product information](https://resources.marine.copernicus.eu/product-detail/OCEANCOLOUR_MED_CHL_L4_NRT_OBSERVATIONS_009_041/INFORMATION)"
 Image: oceancolour-med-chl-l4-nrt-observations-009-041/oceancolour-med-chl-l4-nrt-observations-009-041.png
 Explore: "[Open Notebook](https://eurodatacube.com/marketplace/notebooks/getting-started/EDC_xcube_generator_service.ipynb)"
-Resolution: 1km
+Resolution: 0.3km
 GeographicalCoverage: |
  (6°W, 36.5°E, 30°N, 46°N)
  Areas: 
