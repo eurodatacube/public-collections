@@ -127,7 +127,7 @@ Extent:
     interval:
       -
         - '2016-10-01T00:00:00Z'
-        - '2021-02-28T00:00:00Z'
+        - '2021-03-01T00:00:00Z'
 CubeDimensions:
   x:
     type: spatial
@@ -145,7 +145,7 @@ CubeDimensions:
     type: temporal
     extent:
       - '2016-10-01T00:00:00Z'
-      - '2021-02-28T00:00:00Z'
+      - '2021-03-01T00:00:00Z'
     step: P5D
   bands:
     type: bands
