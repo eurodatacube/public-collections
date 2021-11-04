@@ -13,7 +13,7 @@ EDCBrowser: https://browser.eurodatacube.com/?zoom=10&lat=41.9&lng=12.5&collecti
 Image: vegetation-indices/thumbnail.png
 Resolution: 10m
 GeographicalCoverage: Europe (Lat; 26N 72N Lon; -25W 45E)
-TemporalAvailability: October 1, 2016 - ongoing
+TemporalAvailability: October 1, 2016 - Februray 28, 2021
 UpdateFrequency: Daily
 BandInformation:
   Table:
@@ -127,7 +127,7 @@ Extent:
     interval:
       -
         - '2016-10-01T00:00:00Z'
-        - null
+        - '2021-02-28T00:00:00Z'
 CubeDimensions:
   x:
     type: spatial
@@ -145,7 +145,8 @@ CubeDimensions:
     type: temporal
     extent:
       - '2016-10-01T00:00:00Z'
-      - null
+      - '2021-02-28T00:00:00Z'
+    step: P5D
   bands:
     type: bands
     values:
@@ -156,4 +157,4 @@ CubeDimensions:
       - QFLAG2
       - dataMask
 RegistryEntryAdded: '2021-10-14'
-RegistryEntryLastModified: '2021-10-22'
+RegistryEntryLastModified: '2021-11-04'
