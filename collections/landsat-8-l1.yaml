@@ -116,12 +116,14 @@ CubeDimensions:
     extent:
       - -180
       - 180
+    reference_system: AUTO:42001
   y:
     type: spatial
     axis: y
     extent:
       - -85
       - 85
+    reference_system: AUTO:42001
   t:
     type: temporal
     extent:
