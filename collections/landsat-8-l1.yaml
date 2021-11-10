@@ -372,9 +372,6 @@ Summaries:
     - 'http://www.opengis.net/def/crs/EPSG/0/32759'
     - 'http://www.opengis.net/def/crs/EPSG/0/32760'
     - 'http://www.opengis.net/def/crs/SR-ORG/0/98739'
-  eo:gsd:
-    - 15
-    - 30
   platform:
     - landsat-8
 RegistryEntryAdded: "2018-04-17"
