@@ -165,10 +165,11 @@ Summaries:
       description: Ultra Blue (443 nm)
       full_width_half_max: 0.01598
       name: B01
-      openeo:gsd: 
-        - 30
-        - 30
-      openeo:gsd_unit: m
+      openeo:gsd:
+        value:
+          - 30
+          - 30
+        unit: m
     - center_wavelength: 0.48204
       common_name: blue
       description: Blue (482 nm)
