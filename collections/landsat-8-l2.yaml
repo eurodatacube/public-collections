@@ -111,12 +111,74 @@ CubeDimensions:
     extent:
       - -180
       - 180
+    reference_system:
+      $schema: https://proj.org/schemas/v0.2/projjson.schema.json
+      type: GeodeticCRS
+      name: AUTO 42001 (Universal Transverse Mercator)
+      datum:
+        type: GeodeticReferenceFrame
+        name: World Geodetic System 1984
+        ellipsoid:
+          name: WGS 84
+          semi_major_axis: 6378137
+          inverse_flattening: 298.257223563
+      coordinate_system:
+        subtype: ellipsoidal
+        axis:
+          - name: Geodetic latitude
+            abbreviation: Lat
+            direction: north
+            unit: degree
+          - name: Geodetic longitude
+            abbreviation: Lon
+            direction: east
+            unit: degree
+      area: World
+      bbox:
+        south_latitude: -90
+        west_longitude: -180
+        north_latitude: 90
+        east_longitude: 180
+      id:
+        authority: OGC
+        code: Auto:42001
   y:
     type: spatial
     axis: y
     extent:
       - -85
       - 85
+    reference_system:
+      $schema: https://proj.org/schemas/v0.2/projjson.schema.json
+      type: GeodeticCRS
+      name: AUTO 42001 (Universal Transverse Mercator)
+      datum:
+        type: GeodeticReferenceFrame
+        name: World Geodetic System 1984
+        ellipsoid:
+          name: WGS 84
+          semi_major_axis: 6378137
+          inverse_flattening: 298.257223563
+      coordinate_system:
+        subtype: ellipsoidal
+        axis:
+          - name: Geodetic latitude
+            abbreviation: Lat
+            direction: north
+            unit: degree
+          - name: Geodetic longitude
+            abbreviation: Lon
+            direction: east
+            unit: degree
+      area: World
+      bbox:
+        south_latitude: -90
+        west_longitude: -180
+        north_latitude: 90
+        east_longitude: 180
+      id:
+        authority: OGC
+        code: Auto:42001
   t:
     type: temporal
     extent:
@@ -160,63 +222,158 @@ Summaries:
       description: Ultra Blue (443 nm)
       full_width_half_max: 0.01598
       name: B01
+      openeo:gsd:
+        value:
+          - 30
+          - 30
+        unit: m
     - center_wavelength: 0.48204
       common_name: blue
       description: Blue (482 nm)
       full_width_half_max: 0.06004
       name: B02
+      openeo:gsd:
+        value:
+          - 30
+          - 30
+        unit: m
     - center_wavelength: 0.56141
       common_name: green
       description: Green (561.5 nm)
       full_width_half_max: 0.05733
       name: B03
+      openeo:gsd:
+        value:
+          - 30
+          - 30
+        unit: m
     - center_wavelength: 0.65459
       common_name: red
       description: Red (654.5 nm)
       full_width_half_max: 0.03747
       name: B04
+      openeo:gsd:
+        value:
+          - 30
+          - 30
+        unit: m
     - center_wavelength: 0.86467
       common_name: nir08
       description: Near Infrared (NIR) (865 nm)
       full_width_half_max: 0.02825
       name: B05
+      openeo:gsd:
+        value:
+          - 30
+          - 30
+        unit: m
     - center_wavelength: 1.60886
       common_name: swir16
       description: Shortwave Infrared (SWIR) 1 (1608.5 nm)
       full_width_half_max: 0.08472
       name: B06
+      openeo:gsd:
+        value:
+          - 30
+          - 30
+        unit: m
     - center_wavelength: 2.20073
       common_name: swir22
       description: Shortwave Infrared (SWIR) 2 (2200.5 nm)
       full_width_half_max: 0.18666
       name: B07
+      openeo:gsd:
+        value:
+          - 30
+          - 30
+        unit: m
     - center_wavelength: 10.895
       common_name: lwir11
       description: Thermal Infrared (TIRS) 1(10895 nm)
       full_width_half_max: 0.8
       name: B10
+      openeo:gsd:
+        value:
+          - 30
+          - 30
+        unit: m
     - description: Quality Assessment band (QA)
       name: BQA
+      openeo:gsd:
+        value:
+          - 30
+          - 30
+        unit: m
     - description: Radiometric Saturation and Terrain Occlusion QA Band
       name: QA_RADSAT
+      openeo:gsd:
+        value:
+          - 30
+          - 30
+        unit: m
     - description: SR Aerosol QA
       name: SR_QA_AEROSOL
+      openeo:gsd:
+        value:
+          - 30
+          - 30
+        unit: m
     - description: Surface Temperature QA
       name: ST_QA
+      openeo:gsd:
+        value:
+          - 30
+          - 30
+        unit: m
     - description: Thermal band converted to radiance
       name: ST_TRAD
+      openeo:gsd:
+        value:
+          - 30
+          - 30
+        unit: m
     - description: Upwelled Radiance
       name: ST_URAD
+      openeo:gsd:
+        value:
+          - 30
+          - 30
+        unit: m
     - description: Downwelled Radiance
       name: ST_DRAD
+      openeo:gsd:
+        value:
+          - 30
+          - 30
+        unit: m
     - description: Atmospheric Transmittance
       name: ST_ATRAN
+      openeo:gsd:
+        value:
+          - 30
+          - 30
+        unit: m
     - description: Emissivity of Band 10 estimated from ASTER GED
       name: ST_EMIS
+      openeo:gsd:
+        value:
+          - 30
+          - 30
+        unit: m
     - description: Emissivity standard deviation
       name: ST_EMSD
+      openeo:gsd:
+        value:
+          - 30
+          - 30
+        unit: m
     - description: Pixel distance to cloud
       name: ST_CDIST
+      openeo:gsd:
+        value:
+          - 30
+          - 30
+        unit: m
     - description: The mask of data/no data pixels.
       name: dataMask
   eo:cloud_cover:
@@ -364,8 +521,6 @@ Summaries:
     - 'http://www.opengis.net/def/crs/EPSG/0/32759'
     - 'http://www.opengis.net/def/crs/EPSG/0/32760'
     - 'http://www.opengis.net/def/crs/SR-ORG/0/98739'
-  eo:gsd:
-    - 30
   platform:
     - landsat-8
 RegistryEntryAdded: "2018-04-17"
