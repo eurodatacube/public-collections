@@ -8,6 +8,10 @@ const path = require('path');
 
 const jsonDir = './_output/stac/';
 const files = fs.readdirSync(jsonDir);
+
+
+
+
 files.forEach((file) => {
     test(`.Should parse ${file} in STAC folder as JSON.`, () => {
         const buffer = fs.readFileSync(path.join(jsonDir, file));
