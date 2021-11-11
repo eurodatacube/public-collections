@@ -137,15 +137,6 @@ const getUniqueTags = function (datasets) {
   return tags;
 };
 
-function canStringifyJSON(obj) {
-
-  try {
-    JSON.stringify(obj)
-  } catch (error) {
-    throw new Error("Invalid JSON")
-  }
-}
-
 
 // Helper function to get unique dates
 const getUniqueDates = function (datasets) {
@@ -941,13 +932,14 @@ function stacGenerate(cb) {
   return gulp.src('./_tmp/*.json')
     .pipe(flatmap(function (stream, file) {
       var templateData;
+
       try {
         templateData = JSON.parse(file.contents.toString('utf8'));
         if (typeof templateData !== 'object') {
-          throw new Error("")
+          throw new Error()
         }
       } catch (error) {
-        throw new Error(error)
+        throw new Error("Invalid JSON for" + templateData.Name)
       }
       templateData.rootUrl = process.env.COLLECTIONS_BROWSER_ROOT_URL;
       templateData.githubRepo = process.env.GIT_HUB_COLLECTIONS_REPO;
@@ -990,11 +982,10 @@ function stacGenerateIndex() {
     githubBranch: process.env.GIT_HUB_COLLECTIONS_BRANCH
   };
 
+
+
   try {
     JSON.stringify(templateData.datasets)
-    if (typeof templateData.datasets !== 'object') {
-      throw new Error("")
-    }
   } catch (error) {
     throw new Error("Invalid JSON.")
   }

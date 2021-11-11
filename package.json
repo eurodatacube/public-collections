@@ -5,7 +5,8 @@
   "main": "gulpfile.js",
   "scripts": {
     "build": "./node_modules/gulp-cli/bin/gulp.js",
-    "serve": "./node_modules/gulp-cli/bin/gulp.js serve"
+    "serve": "./node_modules/gulp-cli/bin/gulp.js serve",
+    "test": "jest"
   },
   "author": "Joe Flasher",
   "license": "Apache-2.0",
