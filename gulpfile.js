@@ -61,7 +61,7 @@ const sortDataAtWork = function (dataAtWork) {
 };
 
 // Helper function to grab datasets from JSON files
-const getDatasets = function (ignoreRank=false) {
+const getDatasets = function (ignoreRank = false) {
   if (allDatasets && !ignoreRank) {
     return allDatasets;
   }
@@ -137,6 +137,16 @@ const getUniqueTags = function (datasets) {
   return tags;
 };
 
+function canStringifyJSON(obj) {
+
+  try {
+    JSON.stringify(obj)
+  } catch (error) {
+    throw new Error("Invalid JSON")
+  }
+}
+
+
 // Helper function to get unique dates
 const getUniqueDates = function (datasets) {
   // Build up list of unique tags
@@ -186,70 +196,70 @@ const rankDatasets = function (datasets, ignoreRank) {
 };
 
 
-const convertMDtoHTML = function(mdFile, destDirectory) {
-    var htmlFile = path.basename(path.basename(mdFile, '.md'), '.MD').toLowerCase();
-    htmlFile += ".html";
-	if (fs.existsSync(path.join(destDirectory, htmlFile))) {
-	  return false;
-	}
-    
-    var mdContent = fs.readFileSync(mdFile, "utf-8");
-    var htmlContent = marked(mdContent, {renderer: renderer});
-    
-    var templateData = {
-      baseURL: process.env.BASE_URL,
-      buildDate: new Date().toUTCString(),
-      rootUrl: process.env.COLLECTIONS_BROWSER_ROOT_URL,
-      githubRepo: process.env.GIT_HUB_COLLECTIONS_REPO,
-      githubBranch: process.env.GIT_HUB_COLLECTIONS_BRANCH
-    };
-    var htmlHeader = handlebars.compile(fs.readFileSync('./_build/partials/header.hbs', 'utf-8'))(templateData);
-    var htmlFooter = handlebars.compile(fs.readFileSync('./_build/partials/footer.hbs', 'utf-8'))(templateData);
-    
-    htmlContent = htmlHeader + htmlContent + htmlFooter;
-    
-    fs.writeFileSync(path.join(destDirectory, htmlFile), htmlContent);
-	return true;
+const convertMDtoHTML = function (mdFile, destDirectory) {
+  var htmlFile = path.basename(path.basename(mdFile, '.md'), '.MD').toLowerCase();
+  htmlFile += ".html";
+  if (fs.existsSync(path.join(destDirectory, htmlFile))) {
+    return false;
+  }
+
+  var mdContent = fs.readFileSync(mdFile, "utf-8");
+  var htmlContent = marked(mdContent, { renderer: renderer });
+
+  var templateData = {
+    baseURL: process.env.BASE_URL,
+    buildDate: new Date().toUTCString(),
+    rootUrl: process.env.COLLECTIONS_BROWSER_ROOT_URL,
+    githubRepo: process.env.GIT_HUB_COLLECTIONS_REPO,
+    githubBranch: process.env.GIT_HUB_COLLECTIONS_BRANCH
+  };
+  var htmlHeader = handlebars.compile(fs.readFileSync('./_build/partials/header.hbs', 'utf-8'))(templateData);
+  var htmlFooter = handlebars.compile(fs.readFileSync('./_build/partials/footer.hbs', 'utf-8'))(templateData);
+
+  htmlContent = htmlHeader + htmlContent + htmlFooter;
+
+  fs.writeFileSync(path.join(destDirectory, htmlFile), htmlContent);
+  return true;
 }
 
-const copyDirectory = function(sourcePath, destPath, fileProcessingFunc) {
+const copyDirectory = function (sourcePath, destPath, fileProcessingFunc) {
   var files = fs.readdirSync(sourcePath);
   if (!fs.existsSync(destPath)) {
-	fs.mkdirSync(destPath);
+    fs.mkdirSync(destPath);
   }
 
   for (var i in files) {
     var file = files[i];
     var srcFileAbs = path.join(sourcePath, file);
-	var destFileAbs = path.join(destPath, file);
-	
+    var destFileAbs = path.join(destPath, file);
+
     if (fs.lstatSync(srcFileAbs).isDirectory()) {
       copyDirectory(srcFileAbs, path.join(destPath, file));
     }
-	else if ((fileProcessingFunc == null) || !fileProcessingFunc(srcFileAbs)) {
+    else if ((fileProcessingFunc == null) || !fileProcessingFunc(srcFileAbs)) {
       if (!fs.existsSync(destFileAbs)) {
         fs.writeFileSync(destFileAbs, fs.readFileSync(srcFileAbs));
-	  }
+      }
     }
   }
 }
 
-const copyDirectoryWithMDProcessing = function(sourcePath, destPath) {
-	return copyDirectory(sourcePath, destPath, function(file) {
-		if (path.extname(file).toLowerCase() == '.md') {
-			convertMDtoHTML(file, destPath);
-			return true;
-		}
-		return false;
-	});
+const copyDirectoryWithMDProcessing = function (sourcePath, destPath) {
+  return copyDirectory(sourcePath, destPath, function (file) {
+    if (path.extname(file).toLowerCase() == '.md') {
+      convertMDtoHTML(file, destPath);
+      return true;
+    }
+    return false;
+  });
 }
 
-const escapeJson = function(str) {
-	return str
-	  .replace(/"/g, '\\"')
-	  .replace(/\n/g, '\\n')
-	  .replace(/\r/g, '\\r')
-	  .replace(/\t/g, '\\t');
+const escapeJson = function (str) {
+  return str
+    .replace(/"/g, '\\"')
+    .replace(/\n/g, '\\n')
+    .replace(/\r/g, '\\r')
+    .replace(/\t/g, '\\t');
 }
 
 // Handlebars helper functions
@@ -279,8 +289,8 @@ const hbsHelpers = {
     });
     return ret;
   },
-  offset: function(value, offset, options) {
-	return parseInt(value) + parseInt(offset);
+  offset: function (value, offset, options) {
+    return parseInt(value) + parseInt(offset);
   },
   isEqual: function (v1, v2, options) {
     if (v1 === v2) {
@@ -288,30 +298,30 @@ const hbsHelpers = {
     }
     return options.inverse(this);
   },
-  md: function (str, escapeStr=false) {
+  md: function (str, escapeStr = false) {
     // Keep from exiting if we have an undefined string
     if (!str) {
       return str;
     }
-    var res = marked(str, {renderer: renderer});
-    if (escapeStr===true) {
+    var res = marked(str, { renderer: renderer });
+    if (escapeStr === true) {
       res = res.replace(/\"/g, '\\\"');
     }
     return res;
   },
-  mdExternal: function (data, escapeStr=false) {
+  mdExternal: function (data, escapeStr = false) {
     // Keep from exiting if we have an undefined string
     if (!data || !data.Title || !data.Path) {
       return data;
     }
-    
+
     var mdFile = data.Path;
     var htmlFile = path.basename(path.basename(mdFile, '.md'), '.MD').toLowerCase();
     htmlFile += ".html";
-    
+
     var dir = path.dirname(mdFile);
-	copyDirectoryWithMDProcessing(path.join(dataSourcesDirectory, dir), path.join("./_output/", dir));
-    
+    copyDirectoryWithMDProcessing(path.join(dataSourcesDirectory, dir), path.join("./_output/", dir));
+
     return "<a href=\"" + process.env.COLLECTIONS_BROWSER_ROOT_URL + dir + "/" + htmlFile + "\">" + data.Title + "</a>";
   },
   escapeTag: function (str) {
@@ -322,52 +332,52 @@ const hbsHelpers = {
     return str.replace(/ /g, '-');
   },
   escapeJson: function (str) {
-	if (!str) {
+    if (!str) {
       return str;
     }
     return escapeJson(str);
   },
   listJson: function (list, indentCount) {
-	  var str = '';
-	  for (var item in list) {
-		if (str) {
-		  str += ",\n";
-		}
-		if (indentCount) {
-		  for (var i = 0; i < indentCount; i++) {
-			str += " ";
-		  }
-		}
-		str += JSON.stringify(list[item]);
-	  }
-	  return str;
+    var str = '';
+    for (var item in list) {
+      if (str) {
+        str += ",\n";
+      }
+      if (indentCount) {
+        for (var i = 0; i < indentCount; i++) {
+          str += " ";
+        }
+      }
+      str += JSON.stringify(list[item]);
+    }
+    return str;
   },
   copyJson: function (obj) {
-	  if (!obj) {
-		return "null";
-	  }
-	  return JSON.stringify(obj);
+    if (!obj) {
+      return "null";
+    }
+    return JSON.stringify(obj);
   },
-  eachFiltered: function(arr, conditional, options) {
-	var filteredList = Array();
-	for (var item in arr) {
-		if (arr[item][conditional]) {
-			filteredList.push(arr[item]);
-		}
-	}
-	
-	if (options.inverse && !filteredList.length) {
-        return options.inverse(this);
-	}
+  eachFiltered: function (arr, conditional, options) {
+    var filteredList = Array();
+    for (var item in arr) {
+      if (arr[item][conditional]) {
+        filteredList.push(arr[item]);
+      }
+    }
 
-    return filteredList.map(function(item, index) {
-        item.$index = index;
-        item.$first = index === 0;
-        item.$last = index === filteredList.length - 1;
-        return options.fn(item);
+    if (options.inverse && !filteredList.length) {
+      return options.inverse(this);
+    }
+
+    return filteredList.map(function (item, index) {
+      item.$index = index;
+      item.$first = index === 0;
+      item.$last = index === filteredList.length - 1;
+      return options.fn(item);
     }).join('');
   },
-  managedByRenderer: function (str, wantLogo=true) {
+  managedByRenderer: function (str, wantLogo = true) {
     // Keep from exiting if we have an undefined string
     if (!str) {
       return str;
@@ -389,60 +399,60 @@ const hbsHelpers = {
     }
 
     // No logo if we're here, just render markdown
-    return marked(str, {renderer: renderer});
+    return marked(str, { renderer: renderer });
   },
   urlListRenderer: function (urlListData) {
-	  if (!urlListData) {
-		  return "";
-	  }
-	  
-	  if (urlListData.Title) { // was a single resource, not a list
-		  return "<p><a href=\"" + urlListData.URL + "\">" + urlListData.Title + "</a></li></p>";
-	  }
-	  
-	  var html = "<ul>";
-	  for (var urlIndex in urlListData) {
-		  var urlData = urlListData[urlIndex];
-		  html += "<li><a href=\"" + urlData.URL + "\">" + urlData.Title + "</a></li>";
-	  }
-	  html += "</ul>\n";
-	  
-	  return html;
+    if (!urlListData) {
+      return "";
+    }
+
+    if (urlListData.Title) { // was a single resource, not a list
+      return "<p><a href=\"" + urlListData.URL + "\">" + urlListData.Title + "</a></li></p>";
+    }
+
+    var html = "<ul>";
+    for (var urlIndex in urlListData) {
+      var urlData = urlListData[urlIndex];
+      html += "<li><a href=\"" + urlData.URL + "\">" + urlData.Title + "</a></li>";
+    }
+    html += "</ul>\n";
+
+    return html;
   },
   tabelaricRenderer: function (tabelaricData) {
     if (!tabelaricData) {
       return "";
     }
-    
+
     if (!tabelaricData.Table) {
-    	return "<p>" + marked(tabelaricData, {renderer: renderer}) + "</p>"; // was a simple non-tabelaric string
+      return "<p>" + marked(tabelaricData, { renderer: renderer }) + "</p>"; // was a simple non-tabelaric string
     }
-    
+
     var html = "";
-	var tableData = tabelaricData.Table;
-	html += "<table><thead><tr>";
-	
-	var cols = [];
-	for (var colIndex in tableData.Columns) {
-		var colData = tableData.Columns[colIndex];
-		cols.push(colData.Name);
-		html += "<th>" + colData.Title + "</th>";
-	}
-	
-	html += "</tr></thead><tbody>";
-	
-	for (var rowIndex in tableData.Rows) {
-		html += "<tr>";
-		var rowData = tableData.Rows[rowIndex];
-		for (var colIndex in cols) {
-			var colName = cols[colIndex];
-			html += "<td>" + rowData[colName] + "</td>";
-		}
-		html += "</tr>";
-	}
-		
-	html += "</tbody></table>\n";
-    
+    var tableData = tabelaricData.Table;
+    html += "<table><thead><tr>";
+
+    var cols = [];
+    for (var colIndex in tableData.Columns) {
+      var colData = tableData.Columns[colIndex];
+      cols.push(colData.Name);
+      html += "<th>" + colData.Title + "</th>";
+    }
+
+    html += "</tr></thead><tbody>";
+
+    for (var rowIndex in tableData.Rows) {
+      html += "<tr>";
+      var rowData = tableData.Rows[rowIndex];
+      for (var colIndex in cols) {
+        var colName = cols[colIndex];
+        html += "<td>" + rowData[colName] + "</td>";
+      }
+      html += "</tr>";
+    }
+
+    html += "</tbody></table>\n";
+
     return html;
   },
   toType: function (str) {
@@ -459,7 +469,7 @@ const hbsHelpers = {
     }
     return str;
   },
-  trimHTML: function(passedString, length) {
+  trimHTML: function (passedString, length) {
     // This function will trim an HTML string to a desired length
     // while keeping links intact.
     const regexAllTags = /<[^>]*>/;
@@ -470,21 +480,21 @@ const hbsHelpers = {
 
     let necessaryCount = 0;
     if (passedString.replace(regexAllTags, "").length <= length) {
-        return passedString;
+      return passedString;
     }
 
     const split = passedString.split(regexAllTags);
     let counter = '';
 
     split.forEach(item => {
-       if (counter.length < length && counter.length + item.length >= length) {
-           necessaryCount = passedString.indexOf(item, counter.length)
-           + item.substring(0, length - counter.length).length;
+      if (counter.length < length && counter.length + item.length >= length) {
+        necessaryCount = passedString.indexOf(item, counter.length)
+          + item.substring(0, length - counter.length).length;
 
-           return;
-       }
+        return;
+      }
 
-       counter += item;
+      counter += item;
     });
 
     if (necessaryCount == 0) {
@@ -493,7 +503,7 @@ const hbsHelpers = {
 
     let x = passedString.match(regexIsTag, necessaryCount);
     if (x != null && x[0] == ">") {
-        necessaryCount = x.index + 1;
+      necessaryCount = x.index + 1;
     }
     let subs = passedString.substring(0, necessaryCount);
     let openTags = subs.match(regexOpen) || [];
@@ -502,8 +512,8 @@ const hbsHelpers = {
     openTags.forEach(item => {
       let trans = item.toString().match(regexAttribute)[0];
       trans = '</' + trans.substring(1, trans.length - 1);
-      if (trans.charAt(trans.length-1) != '>') {
-          trans += '>';
+      if (trans.charAt(trans.length - 1) != '>') {
+        trans += '>';
       }
 
       OpenTags.push(trans);
@@ -514,7 +524,7 @@ const hbsHelpers = {
     });
 
     for (var i = OpenTags.length - 1; i >= 0; i--) {
-        subs += OpenTags[i];
+      subs += OpenTags[i];
     }
 
     subs += '...';
@@ -522,17 +532,17 @@ const hbsHelpers = {
     return subs;
   },
   find: function (arr, conditionalField, resultField) {
-    for(var i = 0; i < arr.length; i++) {
-      if(arr[i][conditionalField]) {
+    for (var i = 0; i < arr.length; i++) {
+      if (arr[i][conditionalField]) {
         return arr[i][resultField];
       }
     }
   },
   anyStartsWith: function (string, object) {
-    if(object) {
-      if(object.constructor === Object) {
+    if (object) {
+      if (object.constructor === Object) {
         var keys = Object.keys(object)
-        for(var i = 0; i < keys.length; i++) {
+        for (var i = 0; i < keys.length; i++) {
           if (keys[i].startsWith(string)) {
             return true;
           }
@@ -548,35 +558,35 @@ const hbsHelpers = {
 exports.hbsHelpers = hbsHelpers; // exporting for testing purposes
 
 // Clean _output directory
-function clean () {
+function clean() {
   return del(['./_output/**/*', './_tmp/**/*']);
 };
 
 // Convert YAML to JSON
-function yamlConvert () {
+function yamlConvert() {
   if (!fs.existsSync('./_tmp/')) {
     fs.mkdirSync('./_tmp/');
   }
-	
-  var datasetFiles = fs.readdirSync(dataSourcesDirectory).filter(function(file) {
+
+  var datasetFiles = fs.readdirSync(dataSourcesDirectory).filter(function (file) {
     return path.extname(file).toLowerCase() === '.yaml';
   });
-  
+
   for (var i in datasetFiles) {
-	  var dataset = jsyaml.parse(fs.readFileSync(path.join(dataSourcesDirectory, datasetFiles[i]), 'utf8'));
-      var datasetName = path.basename(datasetFiles[i], '.yaml').toLowerCase();
-	  fs.writeFileSync(`./_tmp/${datasetName}.json`, JSON.stringify(dataset));
+    var dataset = jsyaml.parse(fs.readFileSync(path.join(dataSourcesDirectory, datasetFiles[i]), 'utf8'));
+    var datasetName = path.basename(datasetFiles[i], '.yaml').toLowerCase();
+    fs.writeFileSync(`./_tmp/${datasetName}.json`, JSON.stringify(dataset));
   }
 
   return gulp.src('./_tmp/');
 };
 
 // Compile the top level ndjson and move to _output
-function jsonOverview (cb) {
+function jsonOverview(cb) {
   // Loop over each dataset JSON and save to in-memory string
   const serialize = ndjson.serialize();
   let json = '';
-  serialize.on('data', function(line) {
+  serialize.on('data', function (line) {
     json += line;
   });
   const datasets = requireDir('./_tmp');
@@ -592,13 +602,13 @@ function jsonOverview (cb) {
 };
 
 // Copy CSS files to _output
-function css () {
+function css() {
   return gulp.src('./_build/css/**/*.css')
     .pipe(gulp.dest('./_output/css/'));
 };
 
 // Compile the RSS feed and move to _output
-function rss () {
+function rss() {
   var templateData = {
     datasets: getDatasets(),
     baseURL: process.env.BASE_URL,
@@ -609,25 +619,25 @@ function rss () {
   };
 
   return gulp.src('./_build/rss.xml.hbs')
-    .pipe(hb({data: templateData, helpers: hbsHelpers, handlebars: handlebars}))
+    .pipe(hb({ data: templateData, helpers: hbsHelpers, handlebars: handlebars }))
     .pipe(rename('rss.xml'))
     .pipe(gulp.dest('./_output/'));
 };
 
 // Copy font files to _output
-function fonts () {
+function fonts() {
   return gulp.src('./_build/font/**/*')
     .pipe(gulp.dest('./_output/font/'));
 };
 
 // Copy images to _output
-function img () {
+function img() {
   return gulp.src('./_build/img/**/*')
     .pipe(gulp.dest('./_output/img/'));
 };
 
 // Compile the sitemap and move to _output
-function htmlSitemap () {
+function htmlSitemap() {
   // Build up sitemap items
   let slugs = [];
   const datasets = getDatasets();
@@ -653,13 +663,13 @@ function htmlSitemap () {
   };
 
   return gulp.src('./_build/sitemap.hbs')
-    .pipe(hb({data: templateData, handlebars: handlebars}))
+    .pipe(hb({ data: templateData, handlebars: handlebars }))
     .pipe(rename('sitemap.txt'))
     .pipe(gulp.dest('./_output/'));
 };
 
 // Compile JS and move to _output
-function js () {
+function js() {
   // HBS templating
   var templateData = {
     datasets: getDatasets(),
@@ -672,12 +682,12 @@ function js () {
   };
 
   return gulp.src('./_build/**/*.js')
-    .pipe(hb({data: templateData, helpers: hbsHelpers, handlebars: handlebars}))
+    .pipe(hb({ data: templateData, helpers: hbsHelpers, handlebars: handlebars }))
     .pipe(gulp.dest('./_output/'));
 };
 
 // Compile overview page and move to _output
-function htmlOverview () {
+function htmlOverview() {
   const datasets = getDatasets();
 
   // Do some work to alter the datasets data for display
@@ -697,13 +707,13 @@ function htmlOverview () {
   };
 
   return gulp.src('./_build/index.hbs')
-    .pipe(hb({data: templateData, helpers: hbsHelpers, partials: ['./_build/partials/*'], handlebars: handlebars}))
+    .pipe(hb({ data: templateData, helpers: hbsHelpers, partials: ['./_build/partials/*'], handlebars: handlebars }))
     .pipe(rename('index.html'))
     .pipe(gulp.dest('./_output/'));
 };
 
 // Compile redirect pages and move to _output
-function htmlRedirects (cb) {
+function htmlRedirects(cb) {
   const file = fs.readFileSync('./_build/config.yaml', 'utf8');
   const config = jsyaml.parse(file);
   // Exit if we have no redirects
@@ -722,7 +732,7 @@ function htmlRedirects (cb) {
     };
 
     return gulp.src('./_build/redirect.hbs')
-      .pipe(hb({data: templateData, helpers: hbsHelpers, partials: ['./_build/partials/*'], handlebars: handlebars}))
+      .pipe(hb({ data: templateData, helpers: hbsHelpers, partials: ['./_build/partials/*'], handlebars: handlebars }))
       .pipe(rename(`${r.source}`))
       .pipe(gulp.dest('./_output/'));
   });
@@ -731,7 +741,7 @@ function htmlRedirects (cb) {
 };
 
 // Compile the usage examples page and move to _output
-function htmlExamples () {
+function htmlExamples() {
   const templateData = {
     datasets: getDatasets(),
     isHome: false,
@@ -749,13 +759,13 @@ function htmlExamples () {
   });
 
   return gulp.src('./_build/examples.hbs')
-    .pipe(hb({data: templateData, helpers: hbsHelpers, partials: ['./_build/partials/*'], handlebars: handlebars}))
+    .pipe(hb({ data: templateData, helpers: hbsHelpers, partials: ['./_build/partials/*'], handlebars: handlebars }))
     .pipe(rename('index.html'))
     .pipe(gulp.dest('./_output/usage-examples/'));
 };
 
 // Compile tag usage examples pages and move to _output
-function htmlTagUsage (cb) {
+function htmlTagUsage(cb) {
   const datasets = getDatasets();
 
   // Build up list of unique tags
@@ -779,7 +789,7 @@ function htmlTagUsage (cb) {
     };
 
     return gulp.src('./_build/examples.hbs')
-      .pipe(hb({data: templateData, helpers: hbsHelpers, partials: ['./_build/partials/*'], handlebars: handlebars}))
+      .pipe(hb({ data: templateData, helpers: hbsHelpers, partials: ['./_build/partials/*'], handlebars: handlebars }))
       .pipe(rename(`tag/${t.replace(/ /g, '-')}/usage-examples/index.html`))
       .pipe(gulp.dest('./_output/'));
   });
@@ -788,7 +798,7 @@ function htmlTagUsage (cb) {
 };
 
 // Compile detail pages and move to _output
-function htmlDetail () {
+function htmlDetail() {
   return gulp.src('./_tmp/*.json')
     .pipe(flatmap(function (stream, file) {
       var templateData = JSON.parse(file.contents.toString('utf8'));
@@ -815,7 +825,7 @@ function htmlDetail () {
       if (templateData.Tags) {
         templateData.Tags.sort((a, b) => a.localeCompare(b))
       }
-      
+
       // Generate slug
       const slug = generateSlug(file.path);
       templateData.Slug = slug;
@@ -830,19 +840,19 @@ function htmlDetail () {
         templateData.managedByLink = `${process.env.COLLECTIONS_BROWSER_ROOT_URL}?search=managedBy:${managedByName.toLowerCase()}`;
         templateData.managedByName = managedByName;
       }
-	  
+
       copyDirectoryWithMDProcessing(`./collections/${slug}`, `./_output/${slug}`);
 
       // Render
       return gulp.src('./_build/detail.hbs')
-        .pipe(hb({data: templateData, helpers: hbsHelpers, partials: ['./_build/partials/*'], handlebars: handlebars}))
+        .pipe(hb({ data: templateData, helpers: hbsHelpers, partials: ['./_build/partials/*'], handlebars: handlebars }))
         .pipe(rename(`${slug}/index.html`))
         .pipe(gulp.dest('./_output/'));
     }));
 };
 
 // Compile tag pages and move to _output
-function htmlTag (cb) {
+function htmlTag(cb) {
   const datasets = getDatasets();
 
   // Build up list of unique tags
@@ -867,7 +877,7 @@ function htmlTag (cb) {
     };
 
     return gulp.src('./_build/index.hbs')
-      .pipe(hb({data: templateData, helpers: hbsHelpers, partials: ['./_build/partials/*'], handlebars: handlebars}))
+      .pipe(hb({ data: templateData, helpers: hbsHelpers, partials: ['./_build/partials/*'], handlebars: handlebars }))
       .pipe(rename(`tag/${t.replace(/ /g, '-')}/index.html`))
       .pipe(gulp.dest('./_output/'));
   });
@@ -877,14 +887,14 @@ function htmlTag (cb) {
 
 
 // Compile page for when datasets were added
-function htmlAdditions (cb) {
+function htmlAdditions(cb) {
   const datasets = getDatasets();
 
   // Build up list of unique tags
   const dates = getUniqueDates(datasets);
 
   var filteredDatasets = {};
-  reduce(dates, function(acc, key) {
+  reduce(dates, function (acc, key) {
     // Filter out datasets without a matching tag
     acc[key] = datasets.filter((d) => {
       return d.RegistryEntryAdded == key;
@@ -902,13 +912,13 @@ function htmlAdditions (cb) {
   };
 
   return gulp.src('./_build/changelogindex.hbs')
-    .pipe(hb({data: templateData, helpers: hbsHelpers, partials: ['./_build/partials/*'], handlebars: handlebars}))
+    .pipe(hb({ data: templateData, helpers: hbsHelpers, partials: ['./_build/partials/*'], handlebars: handlebars }))
     .pipe(rename(`change-log/index.html`))
     .pipe(gulp.dest('./_output/'));
 };
 
 // Compile providers page and move to _output
-function htmlProviders (cb) {
+function htmlProviders(cb) {
   const logos = fs.readdirSync('./_build/img/logos').map((c) => {
     return `img/logos/${c}`;
   });
@@ -922,7 +932,7 @@ function htmlProviders (cb) {
   };
 
   return gulp.src('./_build/providers.hbs')
-    .pipe(hb({data: templateData, helpers: hbsHelpers, partials: ['./_build/partials/*'], handlebars: handlebars}))
+    .pipe(hb({ data: templateData, helpers: hbsHelpers, partials: ['./_build/partials/*'], handlebars: handlebars }))
     .pipe(rename(`/providers.html`))
     .pipe(gulp.dest('./_output/'));
 };
@@ -930,37 +940,45 @@ function htmlProviders (cb) {
 function stacGenerate(cb) {
   return gulp.src('./_tmp/*.json')
     .pipe(flatmap(function (stream, file) {
-      var templateData = JSON.parse(file.contents.toString('utf8'));
+      var templateData;
+      try {
+        templateData = JSON.parse(file.contents.toString('utf8'));
+        if (typeof templateData !== 'object') {
+          throw new Error("")
+        }
+      } catch (error) {
+        throw new Error(error)
+      }
       templateData.rootUrl = process.env.COLLECTIONS_BROWSER_ROOT_URL;
       templateData.githubRepo = process.env.GIT_HUB_COLLECTIONS_REPO;
       templateData.githubBranch = process.env.GIT_HUB_COLLECTIONS_BRANCH;
-	  
-	  if (!templateData.Extent || !templateData.CubeDimensions) {
-		return gulp.src('.', {allowEmpty: true});
-	  }
-      
-	  // Generate slug
+
+      if (!templateData.Extent || !templateData.CubeDimensions) {
+        return gulp.src('.', { allowEmpty: true });
+      }
+
+
+
+      // Generate slug
       const slug = generateSlug(file.path);
       templateData.Slug = slug;
-
       // Render
       return gulp.src('./_build/stac.hbs')
-        .pipe(hb({data: templateData, helpers: hbsHelpers, handlebars: handlebars}))
+        .pipe(hb({ data: templateData, helpers: hbsHelpers, handlebars: handlebars }))
         .pipe(rename(`stac/${slug}.json`))
         .pipe(gulp.dest('./_output/'));
-    }));	
+    }));
 }
 
 // Compile overview page and move to _output
 function stacGenerateIndex() {
   const datasets = getDatasets();
-  
   var filteredDatasets = Array();
   for (var index in datasets) {
-	var dataset = datasets[index];
-	if (dataset.Extent && dataset.CubeDimensions) {
+    var dataset = datasets[index];
+    if (dataset.Extent && dataset.CubeDimensions) {
       filteredDatasets.push(dataset);
-	}
+    }
   }
 
   // HBS templating
@@ -972,8 +990,17 @@ function stacGenerateIndex() {
     githubBranch: process.env.GIT_HUB_COLLECTIONS_BRANCH
   };
 
+  try {
+    JSON.stringify(templateData.datasets)
+    if (typeof templateData.datasets !== 'object') {
+      throw new Error("")
+    }
+  } catch (error) {
+    throw new Error("Invalid JSON.")
+  }
+
   return gulp.src('./_build/stacIndex.hbs')
-    .pipe(hb({data: templateData, helpers: hbsHelpers, handlebars: handlebars}))
+    .pipe(hb({ data: templateData, helpers: hbsHelpers, handlebars: handlebars }))
     .pipe(rename('stac/index.json'))
     .pipe(gulp.dest('./_output/'));
 };
