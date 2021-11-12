@@ -969,6 +969,11 @@ function stacGenerateIndex() {
   for (var index in datasets) {
     var dataset = datasets[index];
     if (dataset.Extent && dataset.CubeDimensions) {
+      try {
+        JSON.stringify(dataset)
+      } catch (error) {
+        throw new Error(`Invalid JSON for ${dataset.Name}`)
+      }
       filteredDatasets.push(dataset);
     }
   }
@@ -987,7 +992,7 @@ function stacGenerateIndex() {
   try {
     JSON.stringify(templateData.datasets)
   } catch (error) {
-    throw new Error("Invalid JSON.")
+    throw new Error("Invalid JSON in index stac")
   }
 
   return gulp.src('./_build/stacIndex.hbs')
