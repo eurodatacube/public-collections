@@ -18,6 +18,14 @@ as shown in the table below.
 | -----|:-----------|--------------|----------------|
 | 2020 | 800,- EUR | 16 000,- EUR | 5.0 EUR/Zone |
 
+Zones as mentioned in the table above are 2.813x2.813[degree] large squares in 
+EPSG:4326 distributed over the Earth's landmasses. The distribution of these zones
+for the EOxCloudless 2020 data is displayed in the image below. These zones are
+used to calculate the price between the min. and max. (global) price for the 
+EOxCloudless products.
+
+![EOxCloudless 2020 - Zones for Pricing](eoxcloudless-2020_zones.jpg)<br/>
+
 ## General EOxCloudless Product
 
 The EOxCloudless products are readily available for the last recent years starting
