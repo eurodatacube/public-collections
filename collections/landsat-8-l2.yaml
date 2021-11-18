@@ -141,7 +141,8 @@ CubeDimensions:
         east_longitude: 180
       id:
         authority: OGC
-        code: Auto:42001
+        version: "1.3"
+        code: Auto42001
   y:
     type: spatial
     axis: y
@@ -178,7 +179,8 @@ CubeDimensions:
         east_longitude: 180
       id:
         authority: OGC
-        code: Auto:42001
+        version: "1.3"
+        code: Auto42001
   t:
     type: temporal
     extent:
