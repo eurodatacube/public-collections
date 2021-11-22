@@ -476,7 +476,7 @@ const hbsHelpers = {
 
     const split = passedString.split(regexAllTags);
     let counter = '';
-
+    let irrelevant = ''
     split.forEach(item => {
       if (counter.length < length && counter.length + item.length >= length) {
         necessaryCount = passedString.indexOf(item, counter.length)
