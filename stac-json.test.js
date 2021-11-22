@@ -4,13 +4,13 @@ const path = require('path');
 
 const jsonDir = './_output/stac/';
 
-let testif; 
-let files; 
+let testif;
+let files;
 
-if(isExistingDirectory(jsonDir)) { 
+if (isExistingDirectory(jsonDir)) {
     testif = test
     files = fs.readdirSync(jsonDir);
-} else { 
+} else {
     testif = test.skip
     files = []
 }
@@ -22,7 +22,7 @@ files.forEach((file) => {
     })
 })
 
-test.skip("Workaround to have at least one test available", () => true)
+test.skip("Workaround to have at least one test available at all times", () => true)
 
 function isExistingDirectory(directory) {
     try {
