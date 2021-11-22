@@ -4,6 +4,7 @@
   "description": "Browser for https://github.com/sentinel-hub/public-collections",
   "main": "gulpfile.js",
   "scripts": {
+    "postinstall": "husky install",
     "build": "./node_modules/gulp-cli/bin/gulp.js",
     "serve": "./node_modules/gulp-cli/bin/gulp.js serve",
     "test": "jest"
