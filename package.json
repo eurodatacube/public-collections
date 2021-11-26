@@ -4,8 +4,10 @@
   "description": "Browser for https://github.com/sentinel-hub/public-collections",
   "main": "gulpfile.js",
   "scripts": {
+    "postinstall": "husky install",
     "build": "./node_modules/gulp-cli/bin/gulp.js",
-    "serve": "./node_modules/gulp-cli/bin/gulp.js serve"
+    "serve": "./node_modules/gulp-cli/bin/gulp.js serve",
+    "test": "jest"
   },
   "author": "Joe Flasher",
   "license": "Apache-2.0",
@@ -21,6 +23,7 @@
     "gulp-rename": "^1.4.0",
     "gulp-yaml": "^2.0.4",
     "handlebars": "^4.3.0",
+    "husky": "^7.0.4",
     "jest": "^26.6.3",
     "lodash": "^4.17.19",
     "marked": "^0.8.0",
