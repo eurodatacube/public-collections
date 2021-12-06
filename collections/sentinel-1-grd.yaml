@@ -45,7 +45,7 @@ Resources:
     Name: Sentinel Hub
     Role: processor
     Type: sentinel-1-grd
-    Notes: Global since January 2017
+    Notes: Global since October 2014
     Primary: true
   - EndPoint: eocloud.sentinel-hub.com
     Name: Sentinel Hub
@@ -91,13 +91,13 @@ Extent:
     bbox:
       -
         - -180
-        - -85
+        - -90
         - 180
-        - 85
+        - 90
   temporal:
     interval:
       -
-        - '2014-12-07T04:14:15Z'
+        - '2014-10-03T04:14:15Z'
         - null
 CubeDimensions:
   x:
@@ -110,14 +110,14 @@ CubeDimensions:
     type: spatial
     axis: y
     extent:
-      - -85
-      - 85
+      - -90
+      - 90
   t:
     type: temporal
     extent:
-      - '2014-12-07T04:14:15Z'
+      - '2014-10-03T04:14:15Z'
       - null
-    step: P5D
+    step: P6D
   bands:
     type: bands
     values:
@@ -143,7 +143,9 @@ Summaries:
   sar:resolution:
     - 10
     - 40
-  platform: Sentinel-1
+  platform: 
+    - sentinel-1a
+    - sentinel-1b
   sar:polarization:
     - SH
     - SV
@@ -309,4 +311,4 @@ Summaries:
     - 'http://www.opengis.net/def/crs/EPSG/0/32760'
     - 'http://www.opengis.net/def/crs/SR-ORG/0/98739'
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2021-10-06"
+RegistryEntryLastModified: "2021-11-30"
