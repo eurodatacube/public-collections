@@ -30,14 +30,14 @@ Tags:
   - open data
   - landsat
 License: "[License](https://www.usgs.gov/centers/eros/data-citation?qt-science_support_page_related_con=0#qt-science_support_page_related_con)"
-LicenseType: proprietary  
+LicenseType: proprietary
 LicenseUrl: https://www.usgs.gov/centers/eros/data-citation?qt-science_support_page_related_con=0#qt-science_support_page_related_con
 Resources:
   - Group: Sentinel Hub Resources
     EndPoint: services-uswest2.sentinel-hub.com
     Name: Sentinel Hub
     Role: processor
-    Type:  landsat-mss-l1 
+    Type: landsat-mss-l1 
     Notes: Global coverage from July 1972 to October 1992 and from June 2012 to January 2013
     Primary: true
   - Group: xcube Resources
@@ -90,18 +90,82 @@ CubeDimensions:
     extent:
       - -180
       - 180
+    reference_system:
+      $schema: https://proj.org/schemas/v0.2/projjson.schema.json
+      type: GeodeticCRS
+      name: AUTO 42001 (Universal Transverse Mercator)
+      datum:
+        type: GeodeticReferenceFrame
+        name: World Geodetic System 1984
+        ellipsoid:
+          name: WGS 84
+          semi_major_axis: 6378137
+          inverse_flattening: 298.257223563
+      coordinate_system:
+        subtype: ellipsoidal
+        axis:
+          - name: Geodetic latitude
+            abbreviation: Lat
+            direction: north
+            unit: degree
+          - name: Geodetic longitude
+            abbreviation: Lon
+            direction: east
+            unit: degree
+      area: World
+      bbox:
+        south_latitude: -90
+        west_longitude: -180
+        north_latitude: 90
+        east_longitude: 180
+      id:
+        authority: OGC
+        version: "1.3"
+        code: Auto42001
   y:
     type: spatial
     axis: y
     extent:
       - -85
       - 85
+    reference_system:
+      $schema: https://proj.org/schemas/v0.2/projjson.schema.json
+      type: GeodeticCRS
+      name: AUTO 42001 (Universal Transverse Mercator)
+      datum:
+        type: GeodeticReferenceFrame
+        name: World Geodetic System 1984
+        ellipsoid:
+          name: WGS 84
+          semi_major_axis: 6378137
+          inverse_flattening: 298.257223563
+      coordinate_system:
+        subtype: ellipsoidal
+        axis:
+          - name: Geodetic latitude
+            abbreviation: Lat
+            direction: north
+            unit: degree
+          - name: Geodetic longitude
+            abbreviation: Lon
+            direction: east
+            unit: degree
+      area: World
+      bbox:
+        south_latitude: -90
+        west_longitude: -180
+        north_latitude: 90
+        east_longitude: 180
+      id:
+        authority: OGC
+        version: "1.3"
+        code: Auto42001
   t:
     type: temporal
     extent:
       - '1972-07-01T00:00:00Z'
       - '2013-01-01T00:00:00Z'
-    step: P5D
+    step: P16D
   bands:
     type: bands
     values:
@@ -109,12 +173,223 @@ CubeDimensions:
       - B02
       - B03
       - B04
+      - BQA
       - QA_RADSAT
-      - VAA
-      - VZA
-      - SAA
-      - SZA
       - dataMask
 sci:citation: "Landsat 1-5 product courtesy of the U.S. Geological Survey, processed with Sentinel Hub"
+Summaries:
+  instruments:
+    - mss
+  sat:orbit_state:
+    - ascending
+    - descending
+  eo:bands:
+    - center_wavelength: 0.55
+      common_name: green
+      description: Green (500-600 nm)
+      full_width_half_max: 0.05
+      name: B01
+      openeo:gsd:
+        value:
+          - 60
+          - 60
+        unit: m
+    - center_wavelength: 0.65
+      common_name: red
+      description: Red (600-700 nm)
+      full_width_half_max: 0.05
+      name: B02
+      openeo:gsd:
+        value:
+          - 60
+          - 60
+        unit: m
+    - center_wavelength: 0.75
+      common_name: rededge
+      description: Ultra Red (700-800 nm)
+      full_width_half_max: 0.05
+      name: B03
+      openeo:gsd:
+        value:
+          - 60
+          - 60
+        unit: m
+    - center_wavelength: 0.95
+      common_name: nir09
+      description: Near Infrared (NIR) (800-1100 nm)
+      full_width_half_max: 0.15
+      name: B04
+      openeo:gsd:
+        value:
+          - 60
+          - 60
+        unit: m
+    - description: Quality Assessment band (QA)
+      name: BQA
+      openeo:gsd:
+        value:
+          - 60
+          - 60
+        unit: m
+    - description: Radiometric Saturation and Terrain Occlusion QA Band
+      name: QA_RADSAT
+      openeo:gsd:
+        value:
+          - 60
+          - 60
+        unit: m
+    - description: The mask of data/no data pixels.
+      name: dataMask
+  eo:cloud_cover:
+    - 0
+    - 100
+  crs:
+    - 'http://www.opengis.net/def/crs/OGC/1.3/CRS84'
+    - 'http://www.opengis.net/def/crs/EPSG/0/2154'
+    - 'http://www.opengis.net/def/crs/EPSG/0/2180'
+    - 'http://www.opengis.net/def/crs/EPSG/0/2193'
+    - 'http://www.opengis.net/def/crs/EPSG/0/3003'
+    - 'http://www.opengis.net/def/crs/EPSG/0/3004'
+    - 'http://www.opengis.net/def/crs/EPSG/0/3031'
+    - 'http://www.opengis.net/def/crs/EPSG/0/3035'
+    - 'http://www.opengis.net/def/crs/EPSG/0/4326'
+    - 'http://www.opengis.net/def/crs/EPSG/0/4346'
+    - 'http://www.opengis.net/def/crs/EPSG/0/4416'
+    - 'http://www.opengis.net/def/crs/EPSG/0/4765'
+    - 'http://www.opengis.net/def/crs/EPSG/0/4794'
+    - 'http://www.opengis.net/def/crs/EPSG/0/4844'
+    - 'http://www.opengis.net/def/crs/EPSG/0/4857'
+    - 'http://www.opengis.net/def/crs/EPSG/0/3912'
+    - 'http://www.opengis.net/def/crs/EPSG/0/3995'
+    - 'http://www.opengis.net/def/crs/EPSG/0/4026'
+    - 'http://www.opengis.net/def/crs/EPSG/0/5514'
+    - 'http://www.opengis.net/def/crs/EPSG/0/28992'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32601'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32602'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32603'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32604'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32605'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32606'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32607'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32608'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32609'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32610'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32611'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32612'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32613'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32614'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32615'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32616'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32617'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32618'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32619'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32620'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32621'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32622'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32623'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32624'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32625'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32626'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32627'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32628'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32629'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32630'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32631'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32632'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32633'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32634'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32635'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32636'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32637'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32638'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32639'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32640'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32641'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32642'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32643'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32644'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32645'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32646'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32647'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32648'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32649'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32650'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32651'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32652'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32653'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32654'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32655'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32656'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32657'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32658'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32659'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32660'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32701'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32702'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32703'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32704'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32705'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32706'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32707'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32708'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32709'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32710'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32711'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32712'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32713'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32714'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32715'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32716'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32717'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32718'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32719'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32720'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32721'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32722'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32723'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32724'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32725'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32726'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32727'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32728'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32729'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32730'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32731'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32732'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32733'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32734'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32735'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32736'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32737'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32738'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32739'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32740'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32741'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32742'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32743'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32744'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32745'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32746'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32746'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32748'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32749'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32750'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32751'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32752'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32753'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32754'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32755'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32756'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32757'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32758'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32759'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32760'
+    - 'http://www.opengis.net/def/crs/SR-ORG/0/98739'
+  platform:
+    - landsat-1
+    - landsat-2
+    - landsat-3
+    - landsat-4
+    - landsat-5
 RegistryEntryAdded: "2021-07-16"
 RegistryEntryLastModified: "2021-10-06"
