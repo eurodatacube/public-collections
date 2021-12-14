@@ -48,6 +48,9 @@ Resources:
 CustomScripts:
     Title: Collection of Landsat-8 custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#landsat-8
+WMTS:
+  - href: https://services.sentinel-hub.com/ogc/wmts/2bb342e8-8d2e-4f06-8ed6-b6d7ab65187d
+    layer_id: TRUE-COLOR
 Configurations:
   - layer_name: True color
     evalscript_url: "https://custom-scripts.sentinel-hub.com/landsat-8/true-color/script.js"

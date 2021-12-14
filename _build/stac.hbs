@@ -34,6 +34,11 @@
       "href": "{{rootUrl}}stac/{{Slug}}.json",
       "rel": "self"
     },
+    {
+      "href": {{{find WMTS true 'href'}}},
+      "rel": "wmts"
+      "wmts:layer": "{{{find WMTS true 'layer_id'}}}"
+    },
 {{#each Configurations}}
 	{{{copyJson this}}},
 {{/each}}
