@@ -102,7 +102,7 @@ CubeDimensions:
     extent:
       - '2016-04-17T11:33:13Z'
       - null
-    step: P5D
+    step: P1D
   bands:
     type: bands
     values:
