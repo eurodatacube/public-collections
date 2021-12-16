@@ -1,20 +1,20 @@
 Name: Sentinel-5P L2
 Description: |
  The Copernicus [Sentinel-5 Precursor mission](https://sentinels.copernicus.eu/web/sentinel/missions/sentinel-5p) dedicated to monitoring our atmosphere,
- consists of one satellite carrying the TROPOspheric Monitoring Instrument (TROPOMI) instrument.  Sentinel-5 Precursor mission aims to fill in
+ consists of one satellite carrying the TROPOspheric Monitoring Instrument (TROPOMI) instrument. Sentinel-5 Precursor mission aims to fill in
  global atmospheric data gap between the retired ENVISAT and AURA missions and the future Sentinel -5 mission.The main objective of TROPOMI is 
  provide daily global observations of key atmospheric constituents related to air quality, ozone layer and climate change monitoring and forecasting. 
  Level 2 data provide total columns of ozone, sulfur dioxide, nitrogen dioxide, carbon monoxide, formaldehyde, tropospheric columns of ozone, 
  vertical profiles of ozone and cloud & aerosol information. Level 2 data are available since April 2018.
- These measurements are used  for improving air quality forecasts as well as for monitoring the concentrations of atmospheric constituents.
+ These measurements are used for improving air quality forecasts as well as for monitoring the concentrations of atmospheric constituents.
 Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/sentinel-5p-l2/)"
-Image: sentinel-5p-l2-tropomi/sentinel-5p-l2-tropomi.png   
+Image: sentinel-5p-l2-tropomi/sentinel-5p-l2-tropomi.png
 EOBrowser: https://sentinelshare.page.link/GQwM
-Resolution:  5.5 km x 3.5 km since August 6th in 2019, 7.0 km x 3.5 km at beginning of mission [more info](https://sentinels.copernicus.eu/web/sentinel/data-products/-/asset_publisher/fp37fc19FN8F/content/sentinel-5-precursor-level-2-ozone)
+Resolution: 5.5 km x 3.5 km since August 6th in 2019, 7.0 km x 3.5 km at beginning of mission [more info](https://sentinels.copernicus.eu/web/sentinel/data-products/-/asset_publisher/fp37fc19FN8F/content/sentinel-5-precursor-level-2-ozone)
 GeographicalCoverage: Ocean and Land ([more info](https://sentinels.copernicus.eu/web/sentinel/missions/sentinel-5p/geographical-coverage))
 TemporalAvailability: April 2018 - ongoing
 UpdateFrequency: New Sentinel data are added regularly, usually within few hours after they are available on Copernicus Hub.
-BandInformation: Information about [bands and data](https://docs.sentinel-hub.com/api/latest/data/sentinel-5p-l2/#available-bands-and-data)  
+BandInformation: Information about [bands and data](https://docs.sentinel-hub.com/api/latest/data/sentinel-5p-l2/#available-bands-and-data)
 Contact: https://forum.sentinel-hub.com/c/euro-data-cube/25
 Provider: "[Copernicus](https://copernicus.eu/)"
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
@@ -43,7 +43,7 @@ Resources:
     Role: processor
     Type: sentinel-5p-l2
     Notes: Global since May 2018
-    Primary: true  
+    Primary: true
   - EndPoint: shservices.mundiwebservices.com
     Name: Sentinel Hub
     Role: processor
@@ -140,18 +140,20 @@ CubeDimensions:
     extent:
       - -180
       - 180
+    reference_system: 4326
   y:
     type: spatial
     axis: y
     extent:
       - -85
       - 85
+    reference_system: 4326
   t:
     type: temporal
     extent:
       - '2018-04-30T00:18:50Z'
       - null
-    step: P5D
+    step: P1D
   bands:
     type: bands
     values:
@@ -181,18 +183,85 @@ Summaries:
     - RPRO
   eo:bands:
     - name: CO
+      openeo:gsd:
+        value:
+          - 5500
+          - 3500
+        unit: m
     - name: HCHO
+      openeo:gsd:
+        value:
+          - 5500
+          - 3500
+        unit: m
     - name: NO2
+      openeo:gsd:
+        value:
+          - 5500
+          - 3500
+        unit: m
     - name: O3
+      openeo:gsd:
+        value:
+          - 5500
+          - 3500
+        unit: m
     - name: CH4
+      openeo:gsd:
+        value:
+          - 5500
+          - 3500
+        unit: m
     - name: AER_AI_340_380
+      openeo:gsd:
+        value:
+          - 5500
+          - 3500
+        unit: m
     - name: AER_AI_354_388
+      openeo:gsd:
+        value:
+          - 5500
+          - 3500
+        unit: m
     - name: CLOUD_BASE_PRESSURE
+      openeo:gsd:
+        value:
+          - 5500
+          - 3500
+        unit: m
     - name: CLOUD_TOP_PRESSURE
+      openeo:gsd:
+        value:
+          - 5500
+          - 3500
+        unit: m
     - name: CLOUD_BASE_HEIGHT
+      openeo:gsd:
+        value:
+          - 5500
+          - 3500
+        unit: m
     - name: CLOUD_TOP_HEIGHT
+      openeo:gsd:
+        value:
+          - 5500
+          - 3500
+        unit: m
     - name: CLOUD_OPTICAL_THICKNESS
+      openeo:gsd:
+        value:
+          - 5500
+          - 3500
+        unit: m
     - name: CLOUD_FRACTION
+      openeo:gsd:
+        value:
+          - 5500
+          - 3500
+        unit: m
+    - description: The mask of data/no data pixels.
+      name: dataMask
   crs:
     - 'http://www.opengis.net/def/crs/OGC/1.3/CRS84'
     - 'http://www.opengis.net/def/crs/EPSG/0/2154'
@@ -338,4 +407,4 @@ Summaries:
   eo:gsd: 7000
   platform: sentinel-5 precursor
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2021-10-06"
+RegistryEntryLastModified: "2021-12-09"

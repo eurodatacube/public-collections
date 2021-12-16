@@ -16,7 +16,7 @@ Resolution: 500m and 1km
 GeographicalCoverage: Ocean and Land ([more info](https://sentinel.esa.int/web/sentinel/user-guides/sentinel-3-slstr/coverage))
 TemporalAvailability: April 2016 - ongoing
 UpdateFrequency: New Sentinel data are added regularly, usually within few hours after they are available on Copernicus Hub.
-BandInformation: Information about [bands and data](https://docs.sentinel-hub.com/api/latest/data/sentinel-3-slstr-l1b/#available-bands-and-data)  
+BandInformation: Information about [bands and data](https://docs.sentinel-hub.com/api/latest/data/sentinel-3-slstr-l1b/#available-bands-and-data)
 Contact: https://forum.sentinel-hub.com/c/euro-data-cube/25
 Provider: "[Copernicus](https://copernicus.eu/)"
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
@@ -89,18 +89,20 @@ CubeDimensions:
     extent:
       - -180
       - 180
+    reference_system: 4326
   y:
     type: spatial
     axis: y
     extent:
       - -85
       - 85
+    reference_system: 4326
   t:
     type: temporal
     extent:
       - '2016-04-17T11:33:13Z'
       - null
-    step: P5D
+    step: P1D
   bands:
     type: bands
     values:
@@ -127,36 +129,93 @@ Summaries:
     - name: S01
       center_wavelength: 0.55427
       full_width_half_max: 0.01926
+      openeo:gsd:
+        value:
+          - 500
+          - 500
+        unit: m
     - name: S02
       center_wavelength: 0.65947
       full_width_half_max: 0.01925
+      openeo:gsd:
+        value:
+          - 500
+          - 500
+        unit: m
     - name: S03
       center_wavelength: 0.868
       full_width_half_max: 0.0206
+      openeo:gsd:
+        value:
+          - 500
+          - 500
+        unit: m
     - name: S04
       center_wavelength: 1.3748
       full_width_half_max: 0.0208
+      openeo:gsd:
+        value:
+          - 500
+          - 500
+        unit: m
     - name: S05
       center_wavelength: 1.6134
       full_width_half_max: 0.06068
+      openeo:gsd:
+        value:
+          - 500
+          - 500
+        unit: m
     - name: S06
       center_wavelength: 2.2557
       full_width_half_max: 0.05015
+      openeo:gsd:
+        value:
+          - 500
+          - 500
+        unit: m
     - name: S07
       center_wavelength: 3.742
       full_width_half_max: 0.398
+      openeo:gsd:
+        value:
+          - 1000
+          - 1000
+        unit: m
     - name: S08
       center_wavelength: 10.854
       full_width_half_max: 0.776
+      openeo:gsd:
+        value:
+          - 1000
+          - 1000
+        unit: m
     - name: S09
       center_wavelength: 12.0225
       full_width_half_max: 0.905
+      openeo:gsd:
+        value:
+          - 1000
+          - 1000
+        unit: m
     - name: F01
       center_wavelength: 3.742
       full_width_half_max: 0.398
+      openeo:gsd:
+        value:
+          - 1000
+          - 1000
+        unit: m
     - name: F02
       center_wavelength: 10.854
       full_width_half_max: 0.776
+      openeo:gsd:
+        value:
+          - 1000
+          - 1000
+        unit: m
+    - description: The mask of data/no data pixels.
+      name: dataMask
   crs:
     - 'http://www.opengis.net/def/crs/OGC/1.3/CRS84'
     - 'http://www.opengis.net/def/crs/EPSG/0/2154'
@@ -306,4 +365,4 @@ Summaries:
     - sentinel-3a
     - sentinel-3b
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2021-10-06"
+RegistryEntryLastModified: "2021-12-09"

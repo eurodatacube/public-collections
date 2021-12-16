@@ -1,7 +1,7 @@
 Name: Landsat 4-5 TM L1
 Description: |
  The Landsat Thematic Mapper (TM) sensor was carried onboard Landsats 4 and 5. 
- TM collected data in 7 spectral bands; from  the blue, green, red, near-infrared, mid-infrared (2)  and  thermal infrared portions of the electromagnetic spectrum.
+ TM collected data in 7 spectral bands; from the blue, green, red, near-infrared, mid-infrared (2) and thermal infrared portions of the electromagnetic spectrum.
  Visit [USGS EROS Archive - Landsat Archives - Landsat 4-5 Thematic Mapper Collection 2 Level-1 Data](https://www.usgs.gov/centers/eros/science/usgs-eros-archive-landsat-archives-landsat-4-5-thematic-mapper-collection-2?qt-science_center_objects=0#qt-science_center_objects) webpage
  for more information.
 Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/landsat-tm/#available-bands-and-data)"
@@ -109,18 +109,82 @@ CubeDimensions:
     extent:
       - -180
       - 180
+    reference_system:
+      $schema: https://proj.org/schemas/v0.2/projjson.schema.json
+      type: GeodeticCRS
+      name: AUTO 42001 (Universal Transverse Mercator)
+      datum:
+        type: GeodeticReferenceFrame
+        name: World Geodetic System 1984
+        ellipsoid:
+          name: WGS 84
+          semi_major_axis: 6378137
+          inverse_flattening: 298.257223563
+      coordinate_system:
+        subtype: ellipsoidal
+        axis:
+          - name: Geodetic latitude
+            abbreviation: Lat
+            direction: north
+            unit: degree
+          - name: Geodetic longitude
+            abbreviation: Lon
+            direction: east
+            unit: degree
+      area: World
+      bbox:
+        south_latitude: -90
+        west_longitude: -180
+        north_latitude: 90
+        east_longitude: 180
+      id:
+        authority: OGC
+        version: "1.3"
+        code: Auto42001
   y:
     type: spatial
     axis: y
     extent:
       - -85
       - 85
+    reference_system:
+      $schema: https://proj.org/schemas/v0.2/projjson.schema.json
+      type: GeodeticCRS
+      name: AUTO 42001 (Universal Transverse Mercator)
+      datum:
+        type: GeodeticReferenceFrame
+        name: World Geodetic System 1984
+        ellipsoid:
+          name: WGS 84
+          semi_major_axis: 6378137
+          inverse_flattening: 298.257223563
+      coordinate_system:
+        subtype: ellipsoidal
+        axis:
+          - name: Geodetic latitude
+            abbreviation: Lat
+            direction: north
+            unit: degree
+          - name: Geodetic longitude
+            abbreviation: Lon
+            direction: east
+            unit: degree
+      area: World
+      bbox:
+        south_latitude: -90
+        west_longitude: -180
+        north_latitude: 90
+        east_longitude: 180
+      id:
+        authority: OGC
+        version: "1.3"
+        code: Auto42001
   t:
     type: temporal
     extent:
       - '1982-07-16T00:00:00Z'
       - '2012-05-04T00:00:00Z'
-    step: P5D
+    step: P16D
   bands:
     type: bands
     values:
@@ -150,37 +214,109 @@ Summaries:
       common_name: blue
       center_wavelength: 0.485
       full_width_half_max: 0.066
+      openeo:gsd:
+        value:
+          - 30
+          - 30
+        unit: m
     - name: B02
       common_name: green
       center_wavelength: 0.569
       full_width_half_max: 0.081
+      openeo:gsd:
+        value:
+          - 30
+          - 30
+        unit: m
     - name: B03
       common_name: red
       center_wavelength: 0.66
       full_width_half_max: 0.067
+      openeo:gsd:
+        value:
+          - 30
+          - 30
+        unit: m
     - name: B04
       common_name: nir
       center_wavelength: 0.84
       full_width_half_max: 0.128
+      openeo:gsd:
+        value:
+          - 30
+          - 30
+        unit: m
     - name: B05
       common_name: swir16
       center_wavelength: 1.676
       full_width_half_max: 0.217
+      openeo:gsd:
+        value:
+          - 30
+          - 30
+        unit: m
     - name: B06
       common_name: lwir
       center_wavelength: 11.435
       full_width_half_max: 1.97
+      openeo:gsd:
+        value:
+          - 30
+          - 30
+        unit: m
     - name: B07
       common_name: swir22
       center_wavelength: 2.223
       full_width_half_max: 0.252
-    - name: BQA
-    - name: QA_RADSAT
-    - name: VAA
-    - name: VZA
-    - name: SAA
-    - name: SZA
-    - name: data Mask
+      openeo:gsd:
+        value:
+          - 30
+          - 30
+        unit: m
+    - description: Quality Assessment band (QA)
+      name: BQA
+      openeo:gsd:
+        value:
+          - 30
+          - 30
+        unit: m
+    - description: Radiometric Saturation and Terrain Occlusion QA Band
+      name: QA_RADSAT
+      openeo:gsd:
+        value:
+          - 30
+          - 30
+        unit: m
+    - description: View (sensor) Azimuth Angle
+      name: VAA
+      openeo:gsd:
+        value:
+          - 30
+          - 30
+        unit: m
+    - description: View (sensor) Zenith Angle
+      name: VZA
+      openeo:gsd:
+        value:
+          - 30
+          - 30
+        unit: m
+    - description: Sun Azimuth Angle
+      name: SAA
+      openeo:gsd:
+        value:
+          - 30
+          - 30
+        unit: m
+    - description: Sun Zenith Angle
+      name: SZA
+      openeo:gsd:
+        value:
+          - 30
+          - 30
+        unit: m
+    - description: The mask of data/no data pixels.
+      name: dataMask
   eo:cloud_cover:
     - 0
     - 100
@@ -332,4 +468,4 @@ Summaries:
     - landsat-4
     - landsat-5
 RegistryEntryAdded: "2021-05-12"
-RegistryEntryLastModified: "2021-10-06"
+RegistryEntryLastModified: "2021-12-06"

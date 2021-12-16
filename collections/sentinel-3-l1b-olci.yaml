@@ -5,7 +5,7 @@ Description: |
  Sentinel -3 satellites make use of four main instruments on board; OLCI, SLSTR, SRAL and MWR, to measure sea surface topography, 
  sea and land surface temperature and ocean and land surface color.
  The medium resolution OLCI(Ocean and Land Colour Instrument) is the successor to ENVISAT's MERIS instrument. 
- Since its launch in 2016, OLCI acquires data of the entire globe atleast every 2 days, in 21 bands, from which information on  marine and terrestrial biomass can be derived. 
+ Since its launch in 2016, OLCI acquires data of the entire globe atleast every 2 days, in 21 bands, from which information on marine and terrestrial biomass can be derived. 
  OLCI also provides reliable information on the atmosphere, especially on the aerosols characterisation.
  Level 1B data provides calibrated, ortho-geolocated and spatially re-sampled Top Of Atmosphere (TOA) radiances for the 21 OLCI spectral bands.
 Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/sentinel-3-olci-l1b/)"
@@ -15,7 +15,7 @@ Resolution: 300m
 GeographicalCoverage: Ocean and Land ([more info](https://sentinel.esa.int/web/sentinel/user-guides/sentinel-3-olci/coverage))
 TemporalAvailability: April 2016 - ongoing
 UpdateFrequency: New Sentinel data are added regularly, usually within few hours after they are available on Copernicus Hub.
-BandInformation: Information about [bands and data](https://docs.sentinel-hub.com/api/latest/data/sentinel-3-olci-l1b/#available-bands-and-data)  
+BandInformation: Information about [bands and data](https://docs.sentinel-hub.com/api/latest/data/sentinel-3-olci-l1b/#available-bands-and-data)
 Contact: https://forum.sentinel-hub.com/c/euro-data-cube/25
 Provider: "[Copernicus](https://copernicus.eu/)"
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
@@ -102,18 +102,20 @@ CubeDimensions:
     extent:
       - -180
       - 180
+    reference_system: 4326
   y:
     type: spatial
     axis: y
     extent:
       - -85
       - 85
+    reference_system: 4326
   t:
     type: temporal
     extent:
       - '2016-04-17T11:33:13Z'
       - null
-    step: P5D
+    step: P2D
   bands:
     type: bands
     values:
@@ -138,6 +140,14 @@ CubeDimensions:
       - B19
       - B20
       - B21
+      - SAA
+      - SZA
+      - VAA
+      - VZA
+      - HUMIDITY
+      - SEA_LEVEL_PRESSURE
+      - TOTAL_COLUMN_OZONE
+      - TOTAL_COLUMN_WATER_VAPOUR
       - dataMask
 sci:citation: "Modified Copernicus Sentinel data [Year]/Sentinel Hub"
 Summaries:
@@ -147,66 +157,221 @@ Summaries:
     - name: B01
       center_wavelength: 0.4
       full_width_half_max: 0.015
+      openeo:gsd:
+        value:
+          - 300
+          - 300
+        unit: m
     - name: B02
       center_wavelength: 0.4125
       full_width_half_max: 0.01
+      openeo:gsd:
+        value:
+          - 300
+          - 300
+        unit: m
     - name: B03
       center_wavelength: 0.4425
       full_width_half_max: 0.01
+      openeo:gsd:
+        value:
+          - 300
+          - 300
+        unit: m
     - name: B04
       center_wavelength: 0.49
       full_width_half_max: 0.01
+      openeo:gsd:
+        value:
+          - 300
+          - 300
+        unit: m
     - name: B05
       center_wavelength: 0.51
       full_width_half_max: 0.01
+      openeo:gsd:
+        value:
+          - 300
+          - 300
+        unit: m
     - name: B06
       center_wavelength: 0.56
       full_width_half_max: 0.01
+      openeo:gsd:
+        value:
+          - 300
+          - 300
+        unit: m
     - name: B07
       center_wavelength: 0.62
       full_width_half_max: 0.01
+      openeo:gsd:
+        value:
+          - 300
+          - 300
+        unit: m
     - name: B08
       center_wavelength: 0.665
       full_width_half_max: 0.01
+      openeo:gsd:
+        value:
+          - 300
+          - 300
+        unit: m
     - name: B09
       center_wavelength: 0.67375
       full_width_half_max: 0.0075
+      openeo:gsd:
+        value:
+          - 300
+          - 300
+        unit: m
     - name: B10
       center_wavelength: 0.68125
       full_width_half_max: 0.0075
+      openeo:gsd:
+        value:
+          - 300
+          - 300
+        unit: m
     - name: B11
       center_wavelength: 0.70875
       full_width_half_max: 0.01
+      openeo:gsd:
+        value:
+          - 300
+          - 300
+        unit: m
     - name: B12
       center_wavelength: 0.75375
       full_width_half_max: 0.0075
+      openeo:gsd:
+        value:
+          - 300
+          - 300
+        unit: m
     - name: B13
       center_wavelength: 0.76125
       full_width_half_max: 0.0025
+      openeo:gsd:
+        value:
+          - 300
+          - 300
+        unit: m
     - name: B14
       center_wavelength: 0.764375
       full_width_half_max: 0.00375
+      openeo:gsd:
+        value:
+          - 300
+          - 300
+        unit: m
     - name: B15
       center_wavelength: 0.7675
       full_width_half_max: 0.0025
+      openeo:gsd:
+        value:
+          - 300
+          - 300
+        unit: m
     - name: B16
       center_wavelength: 0.77875
       full_width_half_max: 0.015
+      openeo:gsd:
+        value:
+          - 300
+          - 300
+        unit: m
     - name: B17
       center_wavelength: 0.865
       full_width_half_max: 0.02
+      openeo:gsd:
+        value:
+          - 300
+          - 300
+        unit: m
     - name: B18
       center_wavelength: 0.885
       full_width_half_max: 0.01
+      openeo:gsd:
+        value:
+          - 300
+          - 300
+        unit: m
     - name: B19
       center_wavelength: 0.9
       full_width_half_max: 0.01
+      openeo:gsd:
+        value:
+          - 300
+          - 300
+        unit: m
     - name: B20
       center_wavelength: 0.94
       full_width_half_max: 0.02
+      openeo:gsd:
+        value:
+          - 300
+          - 300
+        unit: m
     - name: B21
       center_wavelength: 1.02
       full_width_half_max: 0.04
+      openeo:gsd:
+        value:
+          - 300
+          - 300
+        unit: m
+    - name: SAA
+      openeo:gsd:
+        value:
+          - 19000
+          - 19000
+        unit: m
+    - name: SZA
+      openeo:gsd:
+        value:
+          - 19000
+          - 19000
+        unit: m
+    - name: VAA
+      openeo:gsd:
+        value:
+          - 19000
+          - 19000
+        unit: m
+    - name: VZA
+      openeo:gsd:
+        value:
+          - 19000
+          - 19000
+        unit: m
+    - name: HUMIDITY
+      openeo:gsd:
+        value:
+          - 19000
+          - 19000
+        unit: m
+    - name: SEA_LEVEL_PRESSURE
+      openeo:gsd:
+        value:
+          - 19000
+          - 19000
+        unit: m
+    - name: TOTAL_COLUMN_OZONE
+      openeo:gsd:
+        value:
+          - 19000
+          - 19000
+        unit: m
+    - name: TOTAL_COLUMN_WATER_VAPOUR
+      openeo:gsd:
+        value:
+          - 19000
+          - 19000
+        unit: m
+    - description: The mask of data/no data pixels.
+      name: dataMask
   crs:
     - 'http://www.opengis.net/def/crs/OGC/1.3/CRS84'
     - 'http://www.opengis.net/def/crs/EPSG/0/2154'
@@ -354,4 +519,4 @@ Summaries:
     - sentinel-3a
     - sentinel-3b
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2021-10-06"
+RegistryEntryLastModified: "2021-12-09"

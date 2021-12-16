@@ -128,12 +128,76 @@ CubeDimensions:
     extent:
       - -180
       - 180
+    reference_system:
+      $schema: https://proj.org/schemas/v0.2/projjson.schema.json
+      type: GeodeticCRS
+      name: AUTO 42001 (Universal Transverse Mercator)
+      datum:
+        type: GeodeticReferenceFrame
+        name: World Geodetic System 1984
+        ellipsoid:
+          name: WGS 84
+          semi_major_axis: 6378137
+          inverse_flattening: 298.257223563
+      coordinate_system:
+        subtype: ellipsoidal
+        axis:
+          - name: Geodetic latitude
+            abbreviation: Lat
+            direction: north
+            unit: degree
+          - name: Geodetic longitude
+            abbreviation: Lon
+            direction: east
+            unit: degree
+      area: World
+      bbox:
+        south_latitude: -90
+        west_longitude: -180
+        north_latitude: 90
+        east_longitude: 180
+      id:
+        authority: OGC
+        version: "1.3"
+        code: Auto42001
   y:
     type: spatial
     axis: y
     extent:
       - -56
       - 83
+    reference_system:
+      $schema: https://proj.org/schemas/v0.2/projjson.schema.json
+      type: GeodeticCRS
+      name: AUTO 42001 (Universal Transverse Mercator)
+      datum:
+        type: GeodeticReferenceFrame
+        name: World Geodetic System 1984
+        ellipsoid:
+          name: WGS 84
+          semi_major_axis: 6378137
+          inverse_flattening: 298.257223563
+      coordinate_system:
+        subtype: ellipsoidal
+        axis:
+          - name: Geodetic latitude
+            abbreviation: Lat
+            direction: north
+            unit: degree
+          - name: Geodetic longitude
+            abbreviation: Lon
+            direction: east
+            unit: degree
+      area: World
+      bbox:
+        south_latitude: -90
+        west_longitude: -180
+        north_latitude: 90
+        east_longitude: 180
+      id:
+        authority: OGC
+        version: "1.3"
+        code: Auto42001
   t:
     type: temporal
     extent:
@@ -173,47 +237,179 @@ Summaries:
       common_name: coastal
       center_wavelength: 0.4427
       full_width_half_max: 0.021
+      openeo:gsd:
+        value:
+          - 60
+          - 60
+        unit: m
     - name: B02
       common_name: blue
       center_wavelength: 0.4924
       full_width_half_max: 0.066
+      openeo:gsd:
+        value:
+          - 10
+          - 10
+        unit: m
     - name: B03
       common_name: green
       center_wavelength: 0.5598
       full_width_half_max: 0.036
+      openeo:gsd:
+        value:
+          - 10
+          - 10
+        unit: m
     - name: B04
       common_name: red
       center_wavelength: 0.6646
       full_width_half_max: 0.031
+      openeo:gsd:
+        value:
+          - 10
+          - 10
+        unit: m
     - name: B05
       center_wavelength: 0.7041
       full_width_half_max: 0.015
+      openeo:gsd:
+        value:
+          - 20
+          - 20
+        unit: m
     - name: B06
       center_wavelength: 0.7405
       full_width_half_max: 0.015
+      openeo:gsd:
+        value:
+          - 20
+          - 20
+        unit: m
     - name: B07
       center_wavelength: 0.7828
       full_width_half_max: 0.02
+      openeo:gsd:
+        value:
+          - 20
+          - 20
+        unit: m
     - name: B08
       common_name: nir
       center_wavelength: 0.8328
       full_width_half_max: 0.106
+      openeo:gsd:
+        value:
+          - 10
+          - 10
+        unit: m
     - name: B8A
       common_name: nir08
       center_wavelength: 0.8647
       full_width_half_max: 0.021
+      openeo:gsd:
+        value:
+          - 20
+          - 20
+        unit: m
     - name: B09
       common_name: nir09
       center_wavelength: 0.9451
       full_width_half_max: 0.02
+      openeo:gsd:
+        value:
+          - 60
+          - 60
+        unit: m
     - name: B11
       common_name: swir16
       center_wavelength: 1.6137
       full_width_half_max: 0.091
+      openeo:gsd:
+        value:
+          - 20
+          - 20
+        unit: m
     - name: B12
       common_name: swir22
       center_wavelength: 2.2024
       full_width_half_max: 0.175
+      openeo:gsd:
+        value:
+          - 20
+          - 20
+        unit: m
+    - description: Aerosol Optical Thickness map, based on Sen2Cor processor
+      name: AOT
+      openeo:gsd:
+        value:
+          - 10
+          - 10
+        unit: m
+    - description: Scene classification data, based on Sen2Cor processor, codelist
+      name: SCL
+      openeo:gsd:
+        value:
+          - 20
+          - 20
+        unit: m
+    - description: Snow probability, based on Sen2Cor processor
+      name: SNW
+      openeo:gsd:
+        value:
+          - 20
+          - 20
+        unit: m
+    - description: Cloud probability, based on Sen2Cor processor
+      name: CLD
+      openeo:gsd:
+        value:
+          - 20
+          - 20
+        unit: m
+    - description: Cloud probability, based on s2cloudless
+      name: CLP
+      openeo:gsd:
+        value:
+          - 160
+          - 160
+        unit: m
+    - description: Cloud masks
+      name: CLM
+      openeo:gsd:
+        value:
+          - 160
+          - 160
+        unit: m
+    - description: Sun azimuth angle
+      name: sunAzimuthAngles
+      openeo:gsd:
+        value:
+          - 5000
+          - 5000
+        unit: m
+    - description: Sun zenith angle
+      name: sunZenithAngles
+      openeo:gsd:
+        value:
+          - 5000
+          - 5000
+        unit: m
+    - description: Viewing azimuth angle
+      name: viewAzimuthMean
+      openeo:gsd:
+        value:
+          - 5000
+          - 5000
+        unit: m
+    - description: Viewing zenith angle
+      name: viewZenithMean
+      openeo:gsd:
+        value:
+          - 5000
+          - 5000
+        unit: m
+    - description: The mask of data/no data pixels.
+      name: dataMask
   constellation:
     - sentinel-2
   crs:
@@ -368,4 +564,4 @@ Summaries:
     - sentinel-2a
     - sentinel-2b
 RegistryEntryAdded: '2018-04-17'
-RegistryEntryLastModified: '2021-10-06'
+RegistryEntryLastModified: '2021-12-16'

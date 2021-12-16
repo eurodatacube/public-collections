@@ -3,8 +3,8 @@ Description:
   The [Sentinel - 1 radar imaging mission](https://sentinel.esa.int/web/sentinel/missions/sentinel-1)
   is composed of a constellation of two polar-orbiting satellites providing continous all-weather, day and night imagery for 
   Land and Maritime Monitoring. C-band synthentic aperture radar imaging has the advantage of operating at wavelenghts that are
-  not obstructed by clouds or lack of illumination  and therefore can acquire data during day or night under all weather conditions.
-  With  6 days repeat cycle on the entire world and daily acquistions of sea ice zones and Europe's major shipping routes,
+  not obstructed by clouds or lack of illumination and therefore can acquire data during day or night under all weather conditions.
+  With 6 days repeat cycle on the entire world and daily acquistions of sea ice zones and Europe's major shipping routes,
   Sentinel-1 ensures reliable data availability to support emergency services and applications requiring time series observations. 
   Sentinel-1 continues the retired ERS and ENVISAT missions. Level 1 GRD products are available since October 2014.
 Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/sentinel-1-grd/)"
@@ -15,7 +15,7 @@ Explore: "[Open Notebook](https://eurodatacube.com/marketplace/notebooks/contrib
 GeographicalCoverage: Land, coastal zones, shipping routes ([more info](https://sentinel.esa.int/web/sentinel/user-guides/sentinel-1-sar/revisit-and-coverage))
 TemporalAvailability: October 2014- ongoing
 UpdateFrequency: New Sentinel data are added regularly, usually within few hours after they are available on Copernicus Hub.
-BandInformation: Information about [bands and data](https://docs.sentinel-hub.com/api/latest/data/sentinel-1-grd/#available-bands-and-data)  
+BandInformation: Information about [bands and data](https://docs.sentinel-hub.com/api/latest/data/sentinel-1-grd/#available-bands-and-data)
 Contact: https://forum.sentinel-hub.com/c/euro-data-cube/25
 Provider: "[Copernicus](https://copernicus.eu/)"
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
@@ -45,7 +45,7 @@ Resources:
     Name: Sentinel Hub
     Role: processor
     Type: sentinel-1-grd
-    Notes: Global since January 2017
+    Notes: Global since October 2014
     Primary: true
   - EndPoint: eocloud.sentinel-hub.com
     Name: Sentinel Hub
@@ -55,7 +55,7 @@ Resources:
   - EndPoint: shservices.mundiwebservices.com
     Name: Sentinel Hub
     Role: processor
-    Type:  sentinel-1-grd
+    Type: sentinel-1-grd
     Notes: Rolling policy of 48 months for Europe , Rolling policy of 12 months for World
   - Group: xcube Resources
   - DatasetName: sentinel-1-grd 
@@ -91,13 +91,13 @@ Extent:
     bbox:
       -
         - -180
-        - -85
+        - -90
         - 180
-        - 85
+        - 90
   temporal:
     interval:
       -
-        - '2014-12-07T04:14:15Z'
+        - '2014-10-03T04:14:15Z'
         - null
 CubeDimensions:
   x:
@@ -110,14 +110,14 @@ CubeDimensions:
     type: spatial
     axis: y
     extent:
-      - -85
-      - 85
+      - -90
+      - 90
   t:
     type: temporal
     extent:
-      - '2014-12-07T04:14:15Z'
+      - '2014-10-03T04:14:15Z'
       - null
-    step: P5D
+    step: null
   bands:
     type: bands
     values:
@@ -142,8 +142,11 @@ Summaries:
     - descending
   sar:resolution:
     - 10
+    - 25
     - 40
-  platform: Sentinel-1
+  platform: 
+    - sentinel-1a
+    - sentinel-1b
   sar:polarization:
     - SH
     - SV
@@ -309,4 +312,4 @@ Summaries:
     - 'http://www.opengis.net/def/crs/EPSG/0/32760'
     - 'http://www.opengis.net/def/crs/SR-ORG/0/98739'
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2021-10-06"
+RegistryEntryLastModified: "2021-12-09"
