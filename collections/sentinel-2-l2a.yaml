@@ -338,6 +338,78 @@ Summaries:
           - 20
           - 20
         unit: m
+    - description: Aerosol Optical Thickness map, based on Sen2Cor processor
+      name: AOT
+      openeo:gsd:
+        value:
+          - 10
+          - 10
+        unit: m
+    - description: Scene classification data, based on Sen2Cor processor, codelist
+      name: SCL
+      openeo:gsd:
+        value:
+          - 20
+          - 20
+        unit: m
+    - description: Snow probability, based on Sen2Cor processor
+      name: SNW
+      openeo:gsd:
+        value:
+          - 20
+          - 20
+        unit: m
+    - description: Cloud probability, based on Sen2Cor processor
+      name: CLD
+      openeo:gsd:
+        value:
+          - 20
+          - 20
+        unit: m
+    - description: Cloud probability, based on s2cloudless
+      name: CLP
+      openeo:gsd:
+        value:
+          - 160
+          - 160
+        unit: m
+    - description: Cloud masks
+      name: CLM
+      openeo:gsd:
+        value:
+          - 160
+          - 160
+        unit: m
+    - description: Sun azimuth angle
+      name: sunAzimuthAngles
+      openeo:gsd:
+        value:
+          - 5000
+          - 5000
+        unit: m
+    - description: Sun zenith angle
+      name: sunZenithAngles
+      openeo:gsd:
+        value:
+          - 5000
+          - 5000
+        unit: m
+    - description: Viewing azimuth angle
+      name: viewAzimuthMean
+      openeo:gsd:
+        value:
+          - 5000
+          - 5000
+        unit: m
+    - description: Viewing zenith angle
+      name: viewZenithMean
+      openeo:gsd:
+        value:
+          - 5000
+          - 5000
+        unit: m
+    - description: The mask of data/no data pixels.
+      name: dataMask
   constellation:
     - sentinel-2
   crs:
@@ -492,4 +564,4 @@ Summaries:
     - sentinel-2a
     - sentinel-2b
 RegistryEntryAdded: '2018-04-17'
-RegistryEntryLastModified: '2021-12-06'
+RegistryEntryLastModified: '2021-12-16'
