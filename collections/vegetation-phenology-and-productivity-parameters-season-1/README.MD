@@ -87,11 +87,14 @@ The available bands include: 13 parameters and QFLAG
 ## More information
 ### Representative Images 
 
-<img src="sosv-candasnos-spain-2019.PNG" alt="Vegetation index value at day of start of season 1" width="100%"/>
-*Vegetation index value at day of start of season 1, 2019, Candasnos Spain.*
-<br>
-<img src="maxv-candasnos-spain-2019.PNG" alt="Vegetation index value at day of maximum of season 1" width="100%"/>
-*Vegetation index value at day of maximum of season 1, 2019, Candasnos Spain.*
-<br>
-<img src="eosv-candasnos-spain-2019.PNG" alt="Vegetation index value at day of end of season 1" width="100%"/>
+<img src="sosv-candasnos-spain-2019.PNG" alt="Vegetation index value at day of start of season 1" width="100%"/>  
+
+*Vegetation index value at day of start of season 1, 2019, Candasnos Spain.*  
+
+<img src="maxv-candasnos-spain-2019.PNG" alt="Vegetation index value at day of maximum of season 1" width="100%"/>  
+
+*Vegetation index value at day of maximum of season 1, 2019, Candasnos Spain.*   
+
+<img src="eosv-candasnos-spain-2019.PNG" alt="Vegetation index value at day of end of season 1" width="100%"/>  
+
 *Vegetation index value at day of end of season 1, 2019, Candasnos Spain.*
