@@ -32,7 +32,7 @@ The available bands include: 13 parameters and QFLAG
       <td>More than 2 clear-sky land observations found during green up, green down and green peak</td>
     </tr>
     <tr>
-      <td>49</td>
+      <td>9</td>
       <td >Medium </td>
       <td>More than 2 clear-sky land observations found during green down and green peak</td>
     </tr>
@@ -82,26 +82,21 @@ The available bands include: 13 parameters and QFLAG
       <td>The time series was not processed.</td>
     </tr>
    </tbody>
-</table> 
+</table>  
 
 ## More information
 ### Representative Images 
 
-<img src="sosv-candasnos-spain-2019.PNG" alt="Vegetation index value at day of start of season 1" width="100%"/>
-<br>
+<img src="sosv-candasnos-spain-2019.PNG" alt="Vegetation index value at day of start of season 1" width="100%"/>  
 
-*Vegetation index value at day of start of season 1, 2019, Candasnos Spain.*
-
-<br>
-<br>
-<img src="maxv-candasnos-spain-2019.PNG" alt="Vegetation index value at day of maximum of season 1" width="100%"/>
-<br>
-
-*Vegetation index value at day of maximum of season 1, 2019, Candasnos Spain.*
+*Vegetation index value at day of start of season 1, 2019, Candasnos Spain.*  
 
 <br>
+<img src="maxv-candasnos-spain-2019.PNG" alt="Vegetation index value at day of maximum of season 1" width="100%"/>  
+
+*Vegetation index value at day of maximum of season 1, 2019, Candasnos Spain.*  
+
 <br>
-<img src="eosv-candasnos-spain-2019.PNG" alt="Vegetation index value at day of end of season 1" width="100%"/>
-<br>
+<img src="eosv-candasnos-spain-2019.PNG" alt="Vegetation index value at day of end of season 1" width="100%"/>  
 
 *Vegetation index value at day of end of season 1, 2019, Candasnos Spain.*

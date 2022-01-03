@@ -60,13 +60,10 @@ The available bands include: PPI and QFLAG
 ### Representative Images 
 
 <img src="erdine-turkey-august.PNG" alt="Erdine Turkey Seasonal Trajectories PPI" width="100%"/>
-<br>
 
 *Seasonal Trajectories PPI August 2019, Gala Lake and surroundings along Greece-Turkey border.*
 
 <br>
-<br>
 <img src="erdine-turkey-sept.PNG" alt="Erdine Turkey Seasonal Trajectories PPI" width="100%"/>
-<br>
 
 *Seasonal Trajectories PPI September 2019, Gala Lake and surroundings along Greece-Turkey border.*
