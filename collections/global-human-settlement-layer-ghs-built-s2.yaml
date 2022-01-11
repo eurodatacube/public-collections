@@ -61,7 +61,7 @@ Extent:
     interval:
       -
         - '2018-01-01T00:00:00Z'
-        - '2018-12-31T00:00:00Z'
+        - '2018-01-01T23:59:59Z'
 CubeDimensions:
   x:
     type: spatial
@@ -80,7 +80,6 @@ CubeDimensions:
     extent:
       - '2018-01-01T00:00:00Z'
       - '2018-12-31T00:00:00Z'
-    step: P5D
   bands:
     type: bands
     values:
