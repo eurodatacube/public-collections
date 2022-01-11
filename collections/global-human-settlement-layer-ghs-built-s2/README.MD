@@ -21,7 +21,8 @@ Built-up probability values rescaled in the range 0-100 (0 for probability = 0 a
 <img src="ghsl_paris.png" alt="GLobal Human Settlement Layer built-up probabilities over Paris" width="100%"/>
 <br>
 
-*Global Human Settlement Layer built-up probabilities over Paris (France) visualised in EO Browser*
+*Global Human Settlement Layer built-up probabilities over Paris (France) visualised in EO Browser*  
+<br>
 
 <img src="ghsl_overview.png" alt="GLobal Human Settlement Layer built-up probabilities over Germany, Netherlands and Belgium" width="100%"/>
 <br>
