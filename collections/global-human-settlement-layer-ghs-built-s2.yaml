@@ -79,7 +79,7 @@ CubeDimensions:
     type: temporal
     extent:
       - '2018-01-01T00:00:00Z'
-      - '2018-12-31T00:00:00Z'
+      - '2018-01-01T23:59:59Z'
   bands:
     type: bands
     values:
