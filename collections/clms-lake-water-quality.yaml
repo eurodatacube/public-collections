@@ -24,6 +24,7 @@ Contact: https://forum.sentinel-hub.com/c/euro-data-cube/25
 Provider: "[Copernicus Land Monitoring Service](https://land.copernicus.eu/)"
 ManagedBy: "[Brockmann Consult](https://www.brockmann-consult.de/)"
 Tags:
+  - copernicus services
   - xcube
   - raster
   - systematic
@@ -43,4 +44,4 @@ Resources:
    DataID: LWQ-NRT-300m.zarr
   
 RegistryEntryAdded: "2021-05-13"
-RegistryEntryLastModified: "2021-07-05"
+RegistryEntryLastModified: "2022-01-13"

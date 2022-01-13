@@ -16,6 +16,7 @@ Contact: https://forum.sentinel-hub.com/c/euro-data-cube/25
 Provider: "[European Environment Agency](https://www.eea.europa.eu/)"
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
 Tags:
+  - copernicus services
   - sentinel hub
   - xcube
   - raster
@@ -86,4 +87,4 @@ CubeDimensions:
       - CLC
       - dataMask
 RegistryEntryAdded: "2021-03-21"
-RegistryEntryLastModified: "2021-08-18"
+RegistryEntryLastModified: "2022-01-13"

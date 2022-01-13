@@ -25,6 +25,7 @@ Contact: https://forum.sentinel-hub.com/c/euro-data-cube/25
 Provider: "[European Commision, Joint Research Centre](https://ec.europa.eu/info/departments/joint-research-centre_en)"
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
 Tags:
+  - copernicus services
   - sentinel hub
   - water bodies
   - xcube
@@ -105,4 +106,4 @@ CubeDimensions:
       - QUAL
       - dataMask
 RegistryEntryAdded: "2021-03-30"
-RegistryEntryLastModified: "2021-08-18"
+RegistryEntryLastModified: "2022-01-13"
