@@ -21,6 +21,7 @@ Contact: https://forum.sentinel-hub.com/c/euro-data-cube/25
 Provider: "[Copernicus](https://copernicus.eu/)"
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
 Tags:
+  - copernicus services
   - sentinel hub
   - xcube
   - DEM
@@ -113,4 +114,4 @@ CubeDimensions:
       - DEM
       - dataMask
 RegistryEntryAdded: "2020-11-30"
-RegistryEntryLastModified: "2021-08-18"
+RegistryEntryLastModified: "2022-01-13"

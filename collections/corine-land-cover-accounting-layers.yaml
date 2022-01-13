@@ -28,6 +28,7 @@ Contact: <a href="mailto:sdi@eea.europa.eu">European Environment Agency</a>
 Provider: "[European Environment Agency](https://www.eea.europa.eu/)"
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
 Tags:
+  - copernicus services
   - accounting
   - land cover
   - CLMS
@@ -92,4 +93,4 @@ CubeDimensions:
       - CLC_ACC
       - dataMask
 RegistryEntryAdded: "2021-10-20"
-RegistryEntryLastModified: "2021-10-22"
+RegistryEntryLastModified: "2022-01-13"

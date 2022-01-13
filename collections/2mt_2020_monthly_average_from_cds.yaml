@@ -12,6 +12,8 @@ Contact: "[COPERNICUS SUPPORT](copernicus-support@ecmwf.int)"
 Provider: "[COPERNICUS](https://cds.climate.copernicus.eu/cdsapp#!/dataset/10.24381/cds.6860a573?tab=overview)"
 ManagedBy: "[ESA](http://www.esa.int/)"
 Tags:
+    - copernicus services
+    - C3S
     - open data
     - sentinel hub
     - raster
@@ -68,4 +70,4 @@ CubeDimensions:
     values:
      - AIR2MT
 RegistryEntryAdded: "2021-05-07"
-RegistryEntryLastModified: "2021-09-22"
+RegistryEntryLastModified: "2022-01-13"

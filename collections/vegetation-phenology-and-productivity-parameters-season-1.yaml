@@ -124,6 +124,7 @@ Contact: "[Copernicus Land Monitoring Service Contact](https://land.copernicus.e
 Provider: "[European Environment Agency](https://www.eea.europa.eu/)"
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
 Tags:
+  - copernicus services
   - vegetation
   - agriculture
   - Plant phenology index
@@ -255,4 +256,4 @@ CubeDimensions:
       - RSLOPE
       - dataMask
 RegistryEntryAdded: '2021-10-14'
-RegistryEntryLastModified: '2021-11-04'
+RegistryEntryLastModified: '2022-01-13'
