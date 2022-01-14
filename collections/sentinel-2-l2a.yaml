@@ -54,60 +54,80 @@ CustomScripts:
   Title: Collection of Sentinel-2 custom scripts
   URL: https://custom-scripts.sentinel-hub.com/#sentinel-2
 Configurations:
-  - layer_name: "True Color"
-    evalscript_url: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/true_color/script.js"
-    mosaicking_order: mostRecent
-    upsampling: BICUBIC
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
-  - layer_name: "False color"
-    evalscript_url: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/false_color_infrared/script.js"
-    mosaicking_order: mostRecent
-    upsampling: BICUBIC
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
-  - layer_name : "SWIR"
-    evalscript_url: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/swir-rgb/script.js"
-    mosaicking_order: mostRecent
-    upsampling: BICUBIC
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
-  - layer_name : "False Color Urban"
-    evalscript_url: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/false-color-urban-rgb/script.js"
-    mosaicking_order: mostRecent
-    upsampling: BICUBIC
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
-  - layer_name: "NDVI"
-    evalscript_url: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/ndvi/script.js"
-    mosaicking_order: mostRecent
-    upsampling: NEAREST
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
-  - layer_name: "NDMI"
-    evalscript_url: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/ndmi/script.js"
-    mosaicking_order: mostRecent
-    upsampling: NEAREST
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
-  - layer_name: "NDWI"
-    evalscript_url: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/ndwi/script.js"
-    mosaicking_order: mostRecent
-    upsampling: NEAREST
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
-  - layer_name: "NDSI"
-    evalscript_url: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/ndsi-visualized/script.js"
-    mosaicking_order: mostRecent
-    upsampling: NEAREST
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
-  - layer_name: "Scene Classification"
-    evalscript_url: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/scene-classification/script.js"
-    mosaicking_order: mostRecent
-    upsampling: BICUBIC
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
+  - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
+    rel: "about"
+    type: "text/html"
+    title: "Details about running Evalscripts"
+  - href: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/true_color/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate True Color imagery"
+    sentinelhub:layer_name: "True Color"
+    sentinelhub:mosaicking_order": "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
+  - href: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/false_color_infrared/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate False color imagery"
+    sentinelhub:layer_name: "False color"
+    sentinelhub:mosaicking_order": "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
+  - href: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/swir-rgb/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate Short Wave Infrared (SWIR) RGB Composite"
+    sentinelhub:layer_name: "SWIR"
+    sentinelhub:mosaicking_order": "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
+  - href: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/false-color-urban-rgb/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate False Color Urban imagery"
+    sentinelhub:layer_name: "False Color Urban"
+    sentinelhub:mosaicking_order": "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
+  - href: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/false-color-urban-rgb/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate False Color Urban imagery"
+    sentinelhub:layer_name: "False Color Urban"
+    sentinelhub:mosaicking_order": "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
+  - href: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/ndvi/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate NDVI imagery"
+    sentinelhub:layer_name: "NDVI"
+    sentinelhub:mosaicking_order": "mostRecent"
+    sentinelhub:upsampling: "NEAREST"
+  - href: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/ndmi/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate NDMI imagery"
+    sentinelhub:layer_name: "NDMI"
+    sentinelhub:mosaicking_order": "mostRecent"
+    sentinelhub:upsampling: "NEAREST"
+  - href: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/ndwi/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate NDWI imagery"
+    sentinelhub:layer_name: "NDWI"
+    sentinelhub:mosaicking_order": "mostRecent"
+    sentinelhub:upsampling: "NEAREST"    
+  - href: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/ndsi-visualized/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate NDSI imagery"
+    sentinelhub:layer_name: "NDSI"
+    sentinelhub:mosaicking_order": "mostRecent"
+    sentinelhub:upsampling: "NEAREST"
+  - href: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/scene-classification/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate Scene Classification imagery"
+    sentinelhub:layer_name: "Scene Classification"
+    sentinelhub:mosaicking_order": "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
 Extent:
   spatial:
     bbox:
