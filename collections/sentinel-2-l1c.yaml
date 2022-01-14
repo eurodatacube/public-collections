@@ -111,7 +111,6 @@ Configurations:
     upsampling: NEAREST
     href: https://docs.sentinel-hub.com/api/latest/api/process/
     rel: processing-expression
-
 Extent:
   spatial:
     bbox:
