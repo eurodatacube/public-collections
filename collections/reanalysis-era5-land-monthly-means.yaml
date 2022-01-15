@@ -26,6 +26,8 @@ Contact: https://forum.sentinel-hub.com/c/euro-data-cube/25
 Provider: "[Copernicus Climate Change Service (C3S)](https://www.copernicus.eu/en/copernicus-services/climate-change)"
 ManagedBy: "[Brockmann Consult](https://www.brockmann-consult.de/)"
 Tags:
+  - copernicus services
+  - C3S
   - xcube
   - raster
   - open data
@@ -44,4 +46,4 @@ Resources:
    DataID: reanalysis-era5-land-monthly-means:monthly_averaged_reanalysis
   
 RegistryEntryAdded: "2021-05-13"
-RegistryEntryLastModified: "2021-07-05"
+RegistryEntryLastModified: "2022-01-15"
