@@ -29,6 +29,8 @@ Contact: https://forum.sentinel-hub.com/c/euro-data-cube/25
 Provider: "[Copernicus Marine Environment Monitoring Service](https://marine.copernicus.eu/)"
 ManagedBy: "[Brockmann Consult](https://www.brockmann-consult.de/)"
 Tags:
+  - copernicus services
+  - CMEMS
   - xcube
   - raster
   - systematic
@@ -43,6 +45,5 @@ Resources:
    StoreInstanceID: cop_services_data
    StoreTitle: Datasets from Copernicus Services
    DataID: OCEANCOLOUR_BS_CHL_L4_NRT_OBSERVATIONS_009_045.zarr
-
 RegistryEntryAdded: "2021-10-25"
-RegistryEntryLastModified: "2021-10-25"
+RegistryEntryLastModified: "2022-01-17"

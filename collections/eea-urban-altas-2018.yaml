@@ -17,7 +17,7 @@ Attributes:
         - Name: Name
           Title: Name
         - Name: Description
-          Title: Description        
+          Title: Description
       Rows:
         - Name: country
           Description: Country 2-letter code e.g (DE) 
@@ -43,6 +43,8 @@ Contact: https://forum.sentinel-hub.com/c/euro-data-cube/25,
 Provider: "[European Environment Agency](https://www.eea.europa.eu/)"
 ManagedBy: "[Brockmann Consult](https://www.brockmann-consult.de/)"
 Tags:
+  - copernicus services
+  - CLMS
   - open data
   - geoDB
   - vector
@@ -62,4 +64,4 @@ Resources:
     Collection: <fua_code>_<fua_name>_UA2018  (DE002L1_HAMBURG_UA2018)
     Notes: 788 collections corresponding to 788 FUAs
 RegistryEntryAdded: "2021-05-06"
-RegistryEntryLastModified: "2021-05-06"
+RegistryEntryLastModified: "2022-01-17"

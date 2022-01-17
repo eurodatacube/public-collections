@@ -42,6 +42,5 @@ Resources:
    StoreInstanceID: cop_services_data
    StoreTitle: Datasets from Copernicus Services
    DataID: LWQ-NRT-300m.zarr
-  
 RegistryEntryAdded: "2021-05-13"
-RegistryEntryLastModified: "2022-01-13"
+RegistryEntryLastModified: "2022-01-17"
