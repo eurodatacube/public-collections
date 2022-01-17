@@ -12,8 +12,6 @@ Contact: "[Stanisław Lewiński](stlewinski@cbk.waw.pl)"
 Provider: "[CBK PAN](https://cbk.waw.pl)"
 ManagedBy: "[ESA](http://www.esa.int/)"
 Tags:
-    - copernicus services
-    - CAMS
     - open data
     - sentinel hub
     - raster
@@ -72,4 +70,4 @@ CubeDimensions:
       - BLUE
       - GREEN
 RegistryEntryAdded: "2021-05-07"
-RegistryEntryLastModified: "2022-01-13"
+RegistryEntryLastModified: "2022-01-17"
