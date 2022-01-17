@@ -45,7 +45,7 @@ Resources:
   - Group: xcube Resources
   - DatasetName: landsat-ot-l1
 WMTS:
-  - href: https://services.sentinel-hub.com/ogc/wmts/fc306b9b-4448-41d2-922d-6db03b26610e
+  - href: https://services-uswest2.sentinel-hub.com/ogc/wmts/fc306b9b-4448-41d2-922d-6db03b26610e
     layer_id: TRUE-COLOR
 CustomScripts:
     Title: Collection of Landsat-8 custom scripts
@@ -527,4 +527,4 @@ Summaries:
   platform:
     - landsat-8
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2021-10-06"
+RegistryEntryLastModified: "2022-01-17"
