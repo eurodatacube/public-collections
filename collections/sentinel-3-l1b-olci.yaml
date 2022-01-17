@@ -347,58 +347,58 @@ Summaries:
       name: SAA
       openeo:gsd:
         value:
-          - 19000
-          - 19000
-        unit: m
+          - 0,188492063492033 
+          - 0,188492063492033 
+        unit: degree
     - description: Sun zenith angle
       name: SZA
       openeo:gsd:
         value:
-          - 19000
-          - 19000
-        unit: m
+          - 0,188492063492033 
+          - 0,188492063492033 
+        unit: degree
     - description: Viewing (observation) azimuth angle
       name: VAA
       openeo:gsd:
         value:
-          - 19000
-          - 19000
-        unit: m
+          - 0,188492063492033 
+          - 0,188492063492033 
+        unit: degree
     - description: Viewing (observation) zenith angle
       name: VZA
       openeo:gsd:
         value:
-          - 19000
-          - 19000
-        unit: m
+          - 0,188492063492033 
+          - 0,188492063492033 
+        unit: degree
     - description: Relative humidity (meteo band)
       name: HUMIDITY
       openeo:gsd:
         value:
-          - 19000
-          - 19000
-        unit: m
+          - 0,188492063492033 
+          - 0,188492063492033 
+        unit: degree
     - description: Mean sea level pressure (meteo band)
       name: SEA_LEVEL_PRESSURE
       openeo:gsd:
         value:
-          - 19000
-          - 19000
-        unit: m
+          - 0,188492063492033 
+          - 0,188492063492033 
+        unit: degree
     - description: Total column ozone (meteo band)
       name: TOTAL_COLUMN_OZONE
       openeo:gsd:
         value:
-          - 19000
-          - 19000
-        unit: m
+          - 0,188492063492033 
+          - 0,188492063492033 
+        unit: degree
     - description: Total column water vapour (meteo band)
       name: TOTAL_COLUMN_WATER_VAPOUR
       openeo:gsd:
         value:
-          - 19000
-          - 19000
-        unit: m
+          - 0,188492063492033 
+          - 0,188492063492033 
+        unit: degree
     - description: The mask of data/no data pixels.
       name: dataMask
   crs:
