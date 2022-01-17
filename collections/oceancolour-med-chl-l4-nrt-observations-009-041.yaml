@@ -45,6 +45,40 @@ Resources:
    StoreInstanceID: cop_services_data
    StoreTitle: Datasets from Copernicus Services
    DataID: OCEANCOLOUR_MED_CHL_L4_NRT_OBSERVATIONS_009_041.zarr
-
+Extent:
+  spatial:
+    bbox:
+      -
+        - -6
+        - 30
+        - 36.5
+        - 46
+  temporal:
+    interval:
+      -
+        - '2019-01-01T00:00:00Z'
+        - '2021-03-15T23:59:59Z'
+CubeDimensions:
+  x:
+    type: spatial
+    axis: x
+    extent:
+      - -6
+      - 36.5
+  y:
+    type: spatial
+    axis: y
+    extent:
+      - 30
+      - 46
+  t:
+    type: temporal
+    extent:
+      - '2019-01-01T00:00:00Z'
+      - '2021-03-15T23:59:59Z'
+  bands:
+    type: bands
+    values:
+      - CHL
 RegistryEntryAdded: "2021-10-25"
-RegistryEntryLastModified: "2022-01-15"
+RegistryEntryLastModified: "2022-01-17"

@@ -42,6 +42,36 @@ Resources:
    StoreInstanceID: cop_services_data
    StoreTitle: Datasets from Copernicus Services
    DataID: LWQ-NRT-300m.zarr
-  
+Extent:
+  spatial:
+    bbox:
+      -
+        - -180
+        - -90
+        - 180
+        - 90
+  temporal:
+    interval:
+      -
+        - '2018-01-01T00:00:00Z'
+        - '2020-12-21T23:59:59Z'
+CubeDimensions:
+  x:
+    type: spatial
+    axis: x
+    extent:
+      - -180
+      - 180
+  y:
+    type: spatial
+    axis: y
+    extent:
+      - -90
+      - 90
+  t:
+    type: temporal
+    extent:
+      - '2018-01-01T00:00:00Z'
+      - '2020-12-21T23:59:59Z'
 RegistryEntryAdded: "2021-05-13"
-RegistryEntryLastModified: "2022-01-13"
+RegistryEntryLastModified: "2022-01-17"
