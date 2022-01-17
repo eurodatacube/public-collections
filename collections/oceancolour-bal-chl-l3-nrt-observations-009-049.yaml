@@ -47,41 +47,5 @@ Resources:
    StoreInstanceID: cop_services_data
    StoreTitle: Datasets from Copernicus Services
    DataID: OCEANCOLOUR_BAL_CHL_L3_NRT_OBSERVATIONS_009_049.zarr
-Extent:
-  spatial:
-    bbox:
-      -
-        - 9.25
-        - 53.25
-        - 30.25
-        - 65.85
-  temporal:
-    interval:
-      -
-        - '2018-08-01T00:00:00Z'
-        - '2021-04-01T23:59:59Z'
-CubeDimensions:
-  x:
-    type: spatial
-    axis: x
-    extent:
-      - 9.25
-      - 30.25
-  y:
-    type: spatial
-    axis: y
-    extent:
-      - 53.25
-      - 65.85
-  t:
-    type: temporal
-    extent:
-      - '2018-08-01T00:00:00Z'
-      - '2021-04-01T23:59:59Z'
-  bands:
-    type: bands
-    values:
-      - CHL
-      - QI
 RegistryEntryAdded: "2021-10-25"
 RegistryEntryLastModified: "2022-01-17"

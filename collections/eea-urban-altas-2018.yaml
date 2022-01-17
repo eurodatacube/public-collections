@@ -63,56 +63,5 @@ Resources:
     Database: eea-urban-atlas
     Collection: <fua_code>_<fua_name>_UA2018  (DE002L1_HAMBURG_UA2018)
     Notes: 788 collections corresponding to 788 FUAs
-Extent:
-  spatial:
-    bbox:
-      -
-        - -61.256391
-        - -21.297903
-        - 55.768982
-        - 70.312018
-      -
-        - -25.857000
-        - 27.911684
-        - 43.853010
-        - 70.312018
-      -
-        - 55.318301
-        - -21.297903
-        - 55.768982
-        - -20.724430
-      -
-        - -61.256391
-        - 14.310927
-        - -60.680714
-        - 14.915168
-  temporal:
-    interval:
-      -
-        - '2019-05-01T00:00:00Z'
-        - '2021-03-14T23:59:59Z'
-CubeDimensions:
-  x:
-    type: spatial
-    axis: x
-    extent:
-      - -61.256391
-      - 55.768982
-  y:
-    type: spatial
-    axis: y
-    extent:
-      - -21.297903
-      - 70.312018
-  t:
-    type: temporal
-    extent:
-      - '2019-05-01T00:00:00Z'
-      - '2021-03-14T23:59:59Z'
-  bands:
-    type: bands
-    values:
-      - CHL
-      - CHL_error
 RegistryEntryAdded: "2021-05-06"
 RegistryEntryLastModified: "2022-01-17"
