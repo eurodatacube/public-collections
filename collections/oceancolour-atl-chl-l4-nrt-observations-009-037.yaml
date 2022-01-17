@@ -51,6 +51,41 @@ Resources:
    StoreTitle: Datasets from Copernicus Services
    DataID: OCEANCOLOUR_ATL_CHL_L4_NRT_OBSERVATIONS_009_037.zarr
    Notes: "[Open in CMEMS Viewer](https://view.marine.copernicus.eu/ViewService/?record_id=6783756a-2cf7-4af7-899b-a03f115940d4)"
-  
+Extent:
+  spatial:
+    bbox:
+      -
+        - -46
+        - 20
+        - 13
+        - 66
+  temporal:
+    interval:
+      -
+        - '2019-05-01T00:00:00Z'
+        - '2021-03-14T23:59:59Z'
+CubeDimensions:
+  x:
+    type: spatial
+    axis: x
+    extent:
+      - -46
+      - 13
+  y:
+    type: spatial
+    axis: y
+    extent:
+      - 20
+      - 66
+  t:
+    type: temporal
+    extent:
+      - '2019-05-01T00:00:00Z'
+      - '2021-03-14T23:59:59Z'
+  bands:
+    type: bands
+    values:
+      - CHL
+      - CHL_error
 RegistryEntryAdded: "2021-05-13"
-RegistryEntryLastModified: "2022-01-15"
+RegistryEntryLastModified: "2022-01-17"
