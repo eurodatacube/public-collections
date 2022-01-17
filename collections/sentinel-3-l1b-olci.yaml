@@ -160,8 +160,8 @@ Summaries:
       full_width_half_max: 0.015
       openeo:gsd:
         value:
-          - 0,002976190476190
-          - 0,002976190476190
+          - 0.002976190476190
+          - 0.002976190476190
         unit: degree
     - description: Yellow substance and detrital pigments (turbidity)
       name: B02
@@ -169,8 +169,8 @@ Summaries:
       full_width_half_max: 0.01
       openeo:gsd:
         value:
-          - 0,002976190476190
-          - 0,002976190476190
+          - 0.002976190476190
+          - 0.002976190476190
         unit: degree
     - description: Chlorophyll absorption maximum, biogeochemistry, vegetation
       name: B03
@@ -178,8 +178,8 @@ Summaries:
       full_width_half_max: 0.01
       openeo:gsd:
         value:
-          - 0,002976190476190
-          - 0,002976190476190
+          - 0.002976190476190
+          - 0.002976190476190
         unit: degree
     - description: Chlorophyll
       name: B04
@@ -187,8 +187,8 @@ Summaries:
       full_width_half_max: 0.01
       openeo:gsd:
         value:
-          - 0,002976190476190
-          - 0,002976190476190
+          - 0.002976190476190
+          - 0.002976190476190
         unit: degree
     - description: Chlorophyll, sediment, turbidity, red tide
       name: B05
@@ -196,8 +196,8 @@ Summaries:
       full_width_half_max: 0.01
       openeo:gsd:
         value:
-          - 0,002976190476190
-          - 0,002976190476190
+          - 0.002976190476190
+          - 0.002976190476190
         unit: degree
     - description: Chlorophyll reference (minimum)
       name: B06
@@ -205,8 +205,8 @@ Summaries:
       full_width_half_max: 0.01
       openeo:gsd:
         value:
-          - 0,002976190476190
-          - 0,002976190476190
+          - 0.002976190476190
+          - 0.002976190476190
         unit: degree
     - description: Sediment loading
       name: B07
@@ -214,8 +214,8 @@ Summaries:
       full_width_half_max: 0.01
       openeo:gsd:
         value:
-          - 0,002976190476190
-          - 0,002976190476190
+          - 0.002976190476190
+          - 0.002976190476190
         unit: degree
     - description: 2nd Chlorophyll absorption maximum, sediment, yellow substance / vegetation
       name: B08
@@ -223,8 +223,8 @@ Summaries:
       full_width_half_max: 0.01
       openeo:gsd:
         value:
-          - 0,002976190476190
-          - 0,002976190476190
+          - 0.002976190476190
+          - 0.002976190476190
         unit: degree
     - description: Improved fluorescence retrieval
       name: B09
@@ -232,8 +232,8 @@ Summaries:
       full_width_half_max: 0.0075
       openeo:gsd:
         value:
-          - 0,002976190476190
-          - 0,002976190476190
+          - 0.002976190476190
+          - 0.002976190476190
         unit: degree
     - description: Chlorophyll fluorescence peak, red edge
       name: B10
@@ -241,8 +241,8 @@ Summaries:
       full_width_half_max: 0.0075
       openeo:gsd:
         value:
-          - 0,002976190476190
-          - 0,002976190476190
+          - 0.002976190476190
+          - 0.002976190476190
         unit: degree
     - description: Chlorophyll fluorescence baseline, red edge transition
       name: B11
@@ -250,8 +250,8 @@ Summaries:
       full_width_half_max: 0.01
       openeo:gsd:
         value:
-          - 0,002976190476190
-          - 0,002976190476190
+          - 0.002976190476190
+          - 0.002976190476190
         unit: degree
     - description: O2 absorption / clouds, vegetation
       name: B12
@@ -259,8 +259,8 @@ Summaries:
       full_width_half_max: 0.0075
       openeo:gsd:
         value:
-          - 0,002976190476190
-          - 0,002976190476190
+          - 0.002976190476190
+          - 0.002976190476190
         unit: degree
     - description: O2 absorption / aerosol correction
       name: B13
@@ -268,8 +268,8 @@ Summaries:
       full_width_half_max: 0.0025
       openeo:gsd:
         value:
-          - 0,002976190476190
-          - 0,002976190476190
+          - 0.002976190476190
+          - 0.002976190476190
         unit: degree
     - description: Atmospheric correction
       name: B14
@@ -277,8 +277,8 @@ Summaries:
       full_width_half_max: 0.00375
       openeo:gsd:
         value:
-          - 0,002976190476190
-          - 0,002976190476190
+          - 0.002976190476190
+          - 0.002976190476190
         unit: degree
     - description: O2 absorption used for cloud top pressure, fluorescence over land
       name: B15
@@ -286,8 +286,8 @@ Summaries:
       full_width_half_max: 0.0025
       openeo:gsd:
         value:
-          - 0,002976190476190
-          - 0,002976190476190
+          - 0.002976190476190
+          - 0.002976190476190
         unit: degree
     - description: Atmospheric / aerosol correction
       name: B16
@@ -295,8 +295,8 @@ Summaries:
       full_width_half_max: 0.015
       openeo:gsd:
         value:
-          - 0,002976190476190
-          - 0,002976190476190
+          - 0.002976190476190
+          - 0.002976190476190
         unit: degree
     - description: Atmospheric / aerosol correction, clouds, pixel co-registration
       name: B17
@@ -304,8 +304,8 @@ Summaries:
       full_width_half_max: 0.02
       openeo:gsd:
         value:
-          - 0,002976190476190
-          - 0,002976190476190
+          - 0.002976190476190
+          - 0.002976190476190
         unit: degree
     - description: Water vapour absorption reference. Common reference band with SLSTR. Vegetation monitoring
       name: B18
@@ -313,8 +313,8 @@ Summaries:
       full_width_half_max: 0.01
       openeo:gsd:
         value:
-          - 0,002976190476190
-          - 0,002976190476190
+          - 0.002976190476190
+          - 0.002976190476190
         unit: degree
     - description: Water vapour absorption, vegetation monitoring (maximum REFLECTANCE)
       name: B19
@@ -322,8 +322,8 @@ Summaries:
       full_width_half_max: 0.01
       openeo:gsd:
         value:
-          - 0,002976190476190
-          - 0,002976190476190
+          - 0.002976190476190
+          - 0.002976190476190
         unit: degree
     - description: Water vapour absorption, atmospheric / aerosol correction
       name: B20
@@ -331,8 +331,8 @@ Summaries:
       full_width_half_max: 0.02
       openeo:gsd:
         value:
-          - 0,002976190476190
-          - 0,002976190476190
+          - 0.002976190476190
+          - 0.002976190476190
         unit: degree
     - description: Atmospheric / aerosol correction, snow grain size
       name: B21
@@ -340,64 +340,64 @@ Summaries:
       full_width_half_max: 0.04
       openeo:gsd:
         value:
-          - 0,002976190476190
-          - 0,002976190476190
+          - 0.002976190476190
+          - 0.002976190476190
         unit: degree
     - description: Sun azimuth angle
       name: SAA
       openeo:gsd:
         value:
-          - 0,188492063492033 
-          - 0,188492063492033 
+          - 0.188492063492033 
+          - 0.188492063492033 
         unit: degree
     - description: Sun zenith angle
       name: SZA
       openeo:gsd:
         value:
-          - 0,188492063492033 
-          - 0,188492063492033 
+          - 0.188492063492033 
+          - 0.188492063492033 
         unit: degree
     - description: Viewing (observation) azimuth angle
       name: VAA
       openeo:gsd:
         value:
-          - 0,188492063492033 
-          - 0,188492063492033 
+          - 0.188492063492033 
+          - 0.188492063492033 
         unit: degree
     - description: Viewing (observation) zenith angle
       name: VZA
       openeo:gsd:
         value:
-          - 0,188492063492033 
-          - 0,188492063492033 
+          - 0.188492063492033 
+          - 0.188492063492033 
         unit: degree
     - description: Relative humidity (meteo band)
       name: HUMIDITY
       openeo:gsd:
         value:
-          - 0,188492063492033 
-          - 0,188492063492033 
+          - 0.188492063492033 
+          - 0.188492063492033 
         unit: degree
     - description: Mean sea level pressure (meteo band)
       name: SEA_LEVEL_PRESSURE
       openeo:gsd:
         value:
-          - 0,188492063492033 
-          - 0,188492063492033 
+          - 0.188492063492033 
+          - 0.188492063492033 
         unit: degree
     - description: Total column ozone (meteo band)
       name: TOTAL_COLUMN_OZONE
       openeo:gsd:
         value:
-          - 0,188492063492033 
-          - 0,188492063492033 
+          - 0.188492063492033 
+          - 0.188492063492033 
         unit: degree
     - description: Total column water vapour (meteo band)
       name: TOTAL_COLUMN_WATER_VAPOUR
       openeo:gsd:
         value:
-          - 0,188492063492033 
-          - 0,188492063492033 
+          - 0.188492063492033 
+          - 0.188492063492033 
         unit: degree
     - description: The mask of data/no data pixels.
       name: dataMask
