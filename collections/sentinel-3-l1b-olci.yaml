@@ -154,222 +154,251 @@ Summaries:
   instruments:
     - olci
   eo:bands:
-    - name: B01
+    - description: Aerosol correction, improved water constituent retrieval
+      name: B01
       center_wavelength: 0.4
       full_width_half_max: 0.015
       openeo:gsd:
         value:
-          - 300
-          - 300
-        unit: m
-    - name: B02
+          - 0.002976190476190
+          - 0.002976190476190
+        unit: °
+    - description: Yellow substance and detrital pigments (turbidity)
+      name: B02
       center_wavelength: 0.4125
       full_width_half_max: 0.01
       openeo:gsd:
         value:
-          - 300
-          - 300
-        unit: m
-    - name: B03
+          - 0.002976190476190
+          - 0.002976190476190
+        unit: °
+    - description: Chlorophyll absorption maximum, biogeochemistry, vegetation
+      name: B03
       center_wavelength: 0.4425
       full_width_half_max: 0.01
       openeo:gsd:
         value:
-          - 300
-          - 300
-        unit: m
-    - name: B04
+          - 0.002976190476190
+          - 0.002976190476190
+        unit: °
+    - description: Chlorophyll
+      name: B04
       center_wavelength: 0.49
       full_width_half_max: 0.01
       openeo:gsd:
         value:
-          - 300
-          - 300
-        unit: m
-    - name: B05
+          - 0.002976190476190
+          - 0.002976190476190
+        unit: °
+    - description: Chlorophyll, sediment, turbidity, red tide
+      name: B05
       center_wavelength: 0.51
       full_width_half_max: 0.01
       openeo:gsd:
         value:
-          - 300
-          - 300
-        unit: m
-    - name: B06
+          - 0.002976190476190
+          - 0.002976190476190
+        unit: °
+    - description: Chlorophyll reference (minimum)
+      name: B06
       center_wavelength: 0.56
       full_width_half_max: 0.01
       openeo:gsd:
         value:
-          - 300
-          - 300
-        unit: m
-    - name: B07
+          - 0.002976190476190
+          - 0.002976190476190
+        unit: °
+    - description: Sediment loading
+      name: B07
       center_wavelength: 0.62
       full_width_half_max: 0.01
       openeo:gsd:
         value:
-          - 300
-          - 300
-        unit: m
-    - name: B08
+          - 0.002976190476190
+          - 0.002976190476190
+        unit: °
+    - description: 2nd Chlorophyll absorption maximum, sediment, yellow substance / vegetation
+      name: B08
       center_wavelength: 0.665
       full_width_half_max: 0.01
       openeo:gsd:
         value:
-          - 300
-          - 300
-        unit: m
-    - name: B09
+          - 0.002976190476190
+          - 0.002976190476190
+        unit: °
+    - description: Improved fluorescence retrieval
+      name: B09
       center_wavelength: 0.67375
       full_width_half_max: 0.0075
       openeo:gsd:
         value:
-          - 300
-          - 300
-        unit: m
-    - name: B10
+          - 0.002976190476190
+          - 0.002976190476190
+        unit: °
+    - description: Chlorophyll fluorescence peak, red edge
+      name: B10
       center_wavelength: 0.68125
       full_width_half_max: 0.0075
       openeo:gsd:
         value:
-          - 300
-          - 300
-        unit: m
-    - name: B11
+          - 0.002976190476190
+          - 0.002976190476190
+        unit: °
+    - description: Chlorophyll fluorescence baseline, red edge transition
+      name: B11
       center_wavelength: 0.70875
       full_width_half_max: 0.01
       openeo:gsd:
         value:
-          - 300
-          - 300
-        unit: m
-    - name: B12
+          - 0.002976190476190
+          - 0.002976190476190
+        unit: °
+    - description: O2 absorption / clouds, vegetation
+      name: B12
       center_wavelength: 0.75375
       full_width_half_max: 0.0075
       openeo:gsd:
         value:
-          - 300
-          - 300
-        unit: m
-    - name: B13
+          - 0.002976190476190
+          - 0.002976190476190
+        unit: °
+    - description: O2 absorption / aerosol correction
+      name: B13
       center_wavelength: 0.76125
       full_width_half_max: 0.0025
       openeo:gsd:
         value:
-          - 300
-          - 300
-        unit: m
-    - name: B14
+          - 0.002976190476190
+          - 0.002976190476190
+        unit: °
+    - description: Atmospheric correction
+      name: B14
       center_wavelength: 0.764375
       full_width_half_max: 0.00375
       openeo:gsd:
         value:
-          - 300
-          - 300
-        unit: m
-    - name: B15
+          - 0.002976190476190
+          - 0.002976190476190
+        unit: °
+    - description: O2 absorption used for cloud top pressure, fluorescence over land
+      name: B15
       center_wavelength: 0.7675
       full_width_half_max: 0.0025
       openeo:gsd:
         value:
-          - 300
-          - 300
-        unit: m
-    - name: B16
+          - 0.002976190476190
+          - 0.002976190476190
+        unit: °
+    - description: Atmospheric / aerosol correction
+      name: B16
       center_wavelength: 0.77875
       full_width_half_max: 0.015
       openeo:gsd:
         value:
-          - 300
-          - 300
-        unit: m
-    - name: B17
+          - 0.002976190476190
+          - 0.002976190476190
+        unit: °
+    - description: Atmospheric / aerosol correction, clouds, pixel co-registration
+      name: B17
       center_wavelength: 0.865
       full_width_half_max: 0.02
       openeo:gsd:
         value:
-          - 300
-          - 300
-        unit: m
-    - name: B18
+          - 0.002976190476190
+          - 0.002976190476190
+        unit: °
+    - description: Water vapour absorption reference. Common reference band with SLSTR. Vegetation monitoring
+      name: B18
       center_wavelength: 0.885
       full_width_half_max: 0.01
       openeo:gsd:
         value:
-          - 300
-          - 300
-        unit: m
-    - name: B19
+          - 0.002976190476190
+          - 0.002976190476190
+        unit: °
+    - description: Water vapour absorption, vegetation monitoring (maximum reflectance)
+      name: B19
       center_wavelength: 0.9
       full_width_half_max: 0.01
       openeo:gsd:
         value:
-          - 300
-          - 300
-        unit: m
-    - name: B20
+          - 0.002976190476190
+          - 0.002976190476190
+        unit: °
+    - description: Water vapour absorption, atmospheric / aerosol correction
+      name: B20
       center_wavelength: 0.94
       full_width_half_max: 0.02
       openeo:gsd:
         value:
-          - 300
-          - 300
-        unit: m
-    - name: B21
+          - 0.002976190476190
+          - 0.002976190476190
+        unit: °
+    - description: Atmospheric / aerosol correction, snow grain size
+      name: B21
       center_wavelength: 1.02
       full_width_half_max: 0.04
       openeo:gsd:
         value:
-          - 300
-          - 300
-        unit: m
-    - name: SAA
+          - 0.002976190476190
+          - 0.002976190476190
+        unit: °
+    - description: Sun azimuth angle
+      name: SAA
       openeo:gsd:
         value:
-          - 19000
-          - 19000
-        unit: m
-    - name: SZA
+          - 0.188492063492033 
+          - 0.188492063492033 
+        unit: °
+    - description: Sun zenith angle
+      name: SZA
       openeo:gsd:
         value:
-          - 19000
-          - 19000
-        unit: m
-    - name: VAA
+          - 0.188492063492033 
+          - 0.188492063492033 
+        unit: °
+    - description: Viewing (observation) azimuth angle
+      name: VAA
       openeo:gsd:
         value:
-          - 19000
-          - 19000
-        unit: m
-    - name: VZA
+          - 0.188492063492033 
+          - 0.188492063492033 
+        unit: °
+    - description: Viewing (observation) zenith angle
+      name: VZA
       openeo:gsd:
         value:
-          - 19000
-          - 19000
-        unit: m
-    - name: HUMIDITY
+          - 0.188492063492033 
+          - 0.188492063492033 
+        unit: °
+    - description: Relative humidity (meteo band)
+      name: HUMIDITY
       openeo:gsd:
         value:
-          - 19000
-          - 19000
-        unit: m
-    - name: SEA_LEVEL_PRESSURE
+          - 0.188492063492033 
+          - 0.188492063492033 
+        unit: °
+    - description: Mean sea level pressure (meteo band)
+      name: SEA_LEVEL_PRESSURE
       openeo:gsd:
         value:
-          - 19000
-          - 19000
-        unit: m
-    - name: TOTAL_COLUMN_OZONE
+          - 0.188492063492033 
+          - 0.188492063492033 
+        unit: °
+    - description: Total column ozone (meteo band)
+      name: TOTAL_COLUMN_OZONE
       openeo:gsd:
         value:
-          - 19000
-          - 19000
-        unit: m
-    - name: TOTAL_COLUMN_WATER_VAPOUR
+          - 0.188492063492033 
+          - 0.188492063492033 
+        unit: °
+    - description: Total column water vapour (meteo band)
+      name: TOTAL_COLUMN_WATER_VAPOUR
       openeo:gsd:
         value:
-          - 19000
-          - 19000
-        unit: m
+          - 0.188492063492033 
+          - 0.188492063492033 
+        unit: °
     - description: The mask of data/no data pixels.
       name: dataMask
   crs:
@@ -520,4 +549,4 @@ Summaries:
     - sentinel-3a
     - sentinel-3b
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2021-12-09"
+RegistryEntryLastModified: "2022-01-17"
