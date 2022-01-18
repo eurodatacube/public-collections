@@ -316,7 +316,7 @@ Summaries:
           - 0.002976190476190
           - 0.002976190476190
         unit: °
-    - description: Water vapour absorption, vegetation monitoring (maximum REFLECTANCE)
+    - description: Water vapour absorption, vegetation monitoring (maximum reflectance)
       name: B19
       center_wavelength: 0.9
       full_width_half_max: 0.01
