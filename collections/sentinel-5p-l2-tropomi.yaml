@@ -182,79 +182,92 @@ Summaries:
     - OFFL
     - RPRO
   eo:bands:
-    - name: CO
+    - description: Carbon monoxide
+      name: CO
       openeo:gsd:
         value:
           - 5500
           - 3500
         unit: m
-    - name: HCHO
+    - description: Formaldehyde
+      name: HCHO
       openeo:gsd:
         value:
           - 5500
           - 3500
         unit: m
-    - name: NO2
+    - description: Nitrogen oxide
+      name: NO2
       openeo:gsd:
         value:
           - 5500
           - 3500
         unit: m
-    - name: O3
+    - description: Ozone
+      name: O3
       openeo:gsd:
         value:
           - 5500
           - 3500
         unit: m
-    - name: CH4
+    - description: Methane
+      name: CH4
       openeo:gsd:
         value:
           - 5500
           - 3500
         unit: m
-    - name: AER_AI_340_380
+    - description: UV (Ultraviolet) Aerosol Index calculated based on wavelengths of 340 nm and 380 nm
+      name: AER_AI_340_380
       openeo:gsd:
         value:
           - 5500
           - 3500
         unit: m
-    - name: AER_AI_354_388
+    - description: UV (Ultraviolet) Aerosol Index calculated based on wavelengths of 354 nm and 388 nm
+      name: AER_AI_354_388
       openeo:gsd:
         value:
           - 5500
           - 3500
         unit: m
-    - name: CLOUD_BASE_PRESSURE
+    - description: Cloud base pressure
+      name: CLOUD_BASE_PRESSURE
       openeo:gsd:
         value:
           - 5500
           - 3500
         unit: m
-    - name: CLOUD_TOP_PRESSURE
+    - description: Cloud top pressure
+      name: CLOUD_TOP_PRESSURE
       openeo:gsd:
         value:
           - 5500
           - 3500
         unit: m
-    - name: CLOUD_BASE_HEIGHT
+    - description: Cloud base height
+      name: CLOUD_BASE_HEIGHT
       openeo:gsd:
         value:
           - 5500
           - 3500
         unit: m
-    - name: CLOUD_TOP_HEIGHT
+    - description: Cloud top height
+      name: CLOUD_TOP_HEIGHT
       openeo:gsd:
         value:
           - 5500
           - 3500
         unit: m
-    - name: CLOUD_OPTICAL_THICKNESS
+    - description: Cloud optical thickness
+      name: CLOUD_OPTICAL_THICKNESS
       openeo:gsd:
         value:
           - 5500
           - 3500
         unit: m
-    - name: CLOUD_FRACTION
+    - description: Effective radiometric cloud fraction
+      name: CLOUD_FRACTION
       openeo:gsd:
         value:
           - 5500
