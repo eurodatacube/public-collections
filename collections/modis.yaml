@@ -148,9 +148,9 @@ Summaries:
       full_width_half_max: 0.05
       openeo:gsd:
         value:
-          - 500
-          - 500
-        unit: m
+          - 0.004960317460317
+          - 0.004960317460317
+        unit: °
     - description: NIR (841 - 876 nm)
       name: B02
       common_name: nir
@@ -158,9 +158,9 @@ Summaries:
       full_width_half_max: 0.035
       openeo:gsd:
         value:
-          - 500
-          - 500
-        unit: m
+          - 0.004960317460317
+          - 0.004960317460317
+        unit: °
     - description: Blue (459 - 479 nm)
       name: B03
       common_name: blue
@@ -168,9 +168,9 @@ Summaries:
       full_width_half_max: 0.02
       openeo:gsd:
         value:
-          - 500
-          - 500
-        unit: m
+          - 0.004960317460317
+          - 0.004960317460317
+        unit: °
     - description: Green (545 - 565 nm)
       name: B04
       common_name: green
@@ -178,18 +178,18 @@ Summaries:
       full_width_half_max: 0.02
       openeo:gsd:
         value:
-          - 500
-          - 500
-        unit: m
+          - 0.004960317460317
+          - 0.004960317460317
+        unit: °
     - description: N/A (1230 - 1250 nm)
       name: B05
       center_wavelength: 1.24
       full_width_half_max: 0.02
       openeo:gsd:
         value:
-          - 500
-          - 500
-        unit: m
+          - 0.004960317460317
+          - 0.004960317460317
+        unit: °
     - description: SWIR16 (1628 - 1652 nm)
       name: B06
       common_name: swir16
@@ -197,9 +197,9 @@ Summaries:
       full_width_half_max: 0.024
       openeo:gsd:
         value:
-          - 500
-          - 500
-        unit: m
+          - 0.004960317460317
+          - 0.004960317460317
+        unit: °
     - description: SWIR22 (2105 - 2155 nm)
       name: B07
       common_name: swir22
@@ -207,9 +207,9 @@ Summaries:
       full_width_half_max: 0.05
       openeo:gsd:
         value:
-          - 500
-          - 500
-        unit: m
+          - 0.004960317460317
+          - 0.004960317460317
+        unit: °
     - description: The mask of data/no data pixels.
       name: dataMask
   crs:

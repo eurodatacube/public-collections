@@ -186,100 +186,100 @@ Summaries:
       name: CO
       openeo:gsd:
         value:
-          - 5500
-          - 3500
-        unit: m
+          - 0.054563492063483
+          - 0.034722222222216
+        unit: °
     - description: Formaldehyde
       name: HCHO
       openeo:gsd:
         value:
-          - 5500
-          - 3500
-        unit: m
+          - 0.054563492063483
+          - 0.034722222222216
+        unit: °
     - description: Nitrogen oxide
       name: NO2
       openeo:gsd:
         value:
-          - 5500
-          - 3500
-        unit: m
+          - 0.054563492063483
+          - 0.034722222222216
+        unit: °
     - description: Ozone
       name: O3
       openeo:gsd:
         value:
-          - 5500
-          - 3500
-        unit: m
+          - 0.054563492063483
+          - 0.034722222222216
+        unit: °
     - description: Sulphur dioxide
       name: SO2
       openeo:gsd:
         value:
-          - 5500
-          - 3500
-        unit: m
+          - 0.054563492063483
+          - 0.034722222222216
+        unit: °
     - description: Methane
       name: CH4
       openeo:gsd:
         value:
-          - 5500
-          - 3500
-        unit: m
+          - 0.054563492063483
+          - 0.034722222222216
+        unit: °
     - description: UV (Ultraviolet) Aerosol Index calculated based on wavelengths of 340 nm and 380 nm
       name: AER_AI_340_380
       openeo:gsd:
         value:
-          - 5500
-          - 3500
-        unit: m
+          - 0.054563492063483
+          - 0.034722222222216
+        unit: °
     - description: UV (Ultraviolet) Aerosol Index calculated based on wavelengths of 354 nm and 388 nm
       name: AER_AI_354_388
       openeo:gsd:
         value:
-          - 5500
-          - 3500
-        unit: m
+          - 0.054563492063483
+          - 0.034722222222216
+        unit: °
     - description: Cloud base pressure
       name: CLOUD_BASE_PRESSURE
       openeo:gsd:
         value:
-          - 5500
-          - 3500
-        unit: m
+          - 0.054563492063483
+          - 0.034722222222216
+        unit: °
     - description: Cloud top pressure
       name: CLOUD_TOP_PRESSURE
       openeo:gsd:
         value:
-          - 5500
-          - 3500
-        unit: m
+          - 0.054563492063483
+          - 0.034722222222216
+        unit: °
     - description: Cloud base height
       name: CLOUD_BASE_HEIGHT
       openeo:gsd:
         value:
-          - 5500
-          - 3500
-        unit: m
+          - 0.054563492063483
+          - 0.034722222222216
+        unit: °
     - description: Cloud top height
       name: CLOUD_TOP_HEIGHT
       openeo:gsd:
         value:
-          - 5500
-          - 3500
-        unit: m
+          - 0.054563492063483
+          - 0.034722222222216
+        unit: °
     - description: Cloud optical thickness
       name: CLOUD_OPTICAL_THICKNESS
       openeo:gsd:
         value:
-          - 5500
-          - 3500
-        unit: m
+          - 0.054563492063483
+          - 0.034722222222216
+        unit: °
     - description: Effective radiometric cloud fraction
       name: CLOUD_FRACTION
       openeo:gsd:
         value:
-          - 5500
-          - 3500
-        unit: m
+          - 0.054563492063483
+          - 0.034722222222216
+        unit: °
     - description: The mask of data/no data pixels.
       name: dataMask
   crs:
