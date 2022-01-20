@@ -126,7 +126,8 @@ Summaries:
     - ascending
     - descending
   eo:bands:
-    - name: S01
+    - description: Cloud screening, vegetation monitoring, aerosol
+      name: S01
       center_wavelength: 0.55427
       full_width_half_max: 0.01926
       openeo:gsd:
@@ -134,7 +135,8 @@ Summaries:
           - 500
           - 500
         unit: m
-    - name: S02
+    - description: NDVI, vegetation monitoring, aerosol
+      name: S02
       center_wavelength: 0.65947
       full_width_half_max: 0.01925
       openeo:gsd:
@@ -142,7 +144,8 @@ Summaries:
           - 500
           - 500
         unit: m
-    - name: S03
+    - description: NDVI, cloud flagging, pixel co-registration
+      name: S03
       center_wavelength: 0.868
       full_width_half_max: 0.0206
       openeo:gsd:
@@ -150,7 +153,8 @@ Summaries:
           - 500
           - 500
         unit: m
-    - name: S04
+    - description: Cirrus detection over land
+      name: S04
       center_wavelength: 1.3748
       full_width_half_max: 0.0208
       openeo:gsd:
@@ -158,7 +162,8 @@ Summaries:
           - 500
           - 500
         unit: m
-    - name: S05
+    - description: Cloud clearing, ice, snow, vegetation monitoring
+      name: S05
       center_wavelength: 1.6134
       full_width_half_max: 0.06068
       openeo:gsd:
@@ -166,7 +171,8 @@ Summaries:
           - 500
           - 500
         unit: m
-    - name: S06
+    - description: Vegetation state and cloud clearing
+      name: S06
       center_wavelength: 2.2557
       full_width_half_max: 0.05015
       openeo:gsd:
@@ -174,7 +180,8 @@ Summaries:
           - 500
           - 500
         unit: m
-    - name: S07
+    - description: SST, LST, Active fire
+      name: S07
       center_wavelength: 3.742
       full_width_half_max: 0.398
       openeo:gsd:
@@ -182,7 +189,8 @@ Summaries:
           - 1000
           - 1000
         unit: m
-    - name: S08
+    - description: SST, LST, Active fire
+      name: S08
       center_wavelength: 10.854
       full_width_half_max: 0.776
       openeo:gsd:
@@ -190,7 +198,8 @@ Summaries:
           - 1000
           - 1000
         unit: m
-    - name: S09
+    - description: SST, LST
+      name: S09
       center_wavelength: 12.0225
       full_width_half_max: 0.905
       openeo:gsd:
@@ -198,7 +207,8 @@ Summaries:
           - 1000
           - 1000
         unit: m
-    - name: F01
+    - description: Active fire
+      name: F01
       center_wavelength: 3.742
       full_width_half_max: 0.398
       openeo:gsd:
@@ -206,7 +216,8 @@ Summaries:
           - 1000
           - 1000
         unit: m
-    - name: F02
+    - description: Active fire
+      name: F02
       center_wavelength: 10.854
       full_width_half_max: 0.776
       openeo:gsd:
