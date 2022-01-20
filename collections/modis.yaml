@@ -141,7 +141,8 @@ Summaries:
   instruments:
     - modis
   eo:bands:
-    - name: B01
+    - description: Red (620 - 670 nm)
+      name: B01
       common_name: red
       center_wavelength: 0.645
       full_width_half_max: 0.05
@@ -150,7 +151,8 @@ Summaries:
           - 0.004960317460317
           - 0.004960317460317
         unit: °
-    - name: B02
+    - description: NIR (841 - 876 nm)
+      name: B02
       common_name: nir
       center_wavelength: 0.8585
       full_width_half_max: 0.035
@@ -159,7 +161,8 @@ Summaries:
           - 0.004960317460317
           - 0.004960317460317
         unit: °
-    - name: B03
+    - description: Blue (459 - 479 nm)
+      name: B03
       common_name: blue
       center_wavelength: 0.469
       full_width_half_max: 0.02
@@ -168,7 +171,8 @@ Summaries:
           - 0.004960317460317
           - 0.004960317460317
         unit: °
-    - name: B04
+    - description: Green (545 - 565 nm)
+      name: B04
       common_name: green
       center_wavelength: 0.555
       full_width_half_max: 0.02
@@ -177,7 +181,8 @@ Summaries:
           - 0.004960317460317
           - 0.004960317460317
         unit: °
-    - name: B05
+    - description: N/A (1230 - 1250 nm)
+      name: B05
       center_wavelength: 1.24
       full_width_half_max: 0.02
       openeo:gsd:
@@ -185,7 +190,8 @@ Summaries:
           - 0.004960317460317
           - 0.004960317460317
         unit: °
-    - name: B06
+    - description: SWIR16 (1628 - 1652 nm)
+      name: B06
       common_name: swir16
       center_wavelength: 1.64
       full_width_half_max: 0.024
@@ -194,7 +200,8 @@ Summaries:
           - 0.004960317460317
           - 0.004960317460317
         unit: °
-    - name: B07
+    - description: SWIR22 (2105 - 2155 nm)
+      name: B07
       common_name: swir22
       center_wavelength: 2.13
       full_width_half_max: 0.05
