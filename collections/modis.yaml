@@ -147,62 +147,62 @@ Summaries:
       full_width_half_max: 0.05
       openeo:gsd:
         value:
-          - 500
-          - 500
-        unit: m
+          - 0,004960317460317
+          - 0,004960317460317
+        unit: °
     - name: B02
       common_name: nir
       center_wavelength: 0.8585
       full_width_half_max: 0.035
       openeo:gsd:
         value:
-          - 500
-          - 500
-        unit: m
+          - 0,004960317460317
+          - 0,004960317460317
+        unit: °
     - name: B03
       common_name: blue
       center_wavelength: 0.469
       full_width_half_max: 0.02
       openeo:gsd:
         value:
-          - 500
-          - 500
-        unit: m
+          - 0,004960317460317
+          - 0,004960317460317
+        unit: °
     - name: B04
       common_name: green
       center_wavelength: 0.555
       full_width_half_max: 0.02
       openeo:gsd:
         value:
-          - 500
-          - 500
-        unit: m
+          - 0,004960317460317
+          - 0,004960317460317
+        unit: °
     - name: B05
       center_wavelength: 1.24
       full_width_half_max: 0.02
       openeo:gsd:
         value:
-          - 500
-          - 500
-        unit: m
+          - 0,004960317460317
+          - 0,004960317460317
+        unit: °
     - name: B06
       common_name: swir16
       center_wavelength: 1.64
       full_width_half_max: 0.024
       openeo:gsd:
         value:
-          - 500
-          - 500
-        unit: m
+          - 0,004960317460317
+          - 0,004960317460317
+        unit: °
     - name: B07
       common_name: swir22
       center_wavelength: 2.13
       full_width_half_max: 0.05
       openeo:gsd:
         value:
-          - 500
-          - 500
-        unit: m
+          - 0,004960317460317
+          - 0,004960317460317
+        unit: °
     - description: The mask of data/no data pixels.
       name: dataMask
   crs:
@@ -353,4 +353,4 @@ Summaries:
     - Terra
     - Aqua
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2021-12-09"
+RegistryEntryLastModified: "2022-01-20"
