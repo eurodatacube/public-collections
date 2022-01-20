@@ -210,6 +210,13 @@ Summaries:
           - 5500
           - 3500
         unit: m
+    - description: Sulphur dioxide
+      name: SO2
+      openeo:gsd:
+        value:
+          - 5500
+          - 3500
+        unit: m
     - description: Methane
       name: CH4
       openeo:gsd:
