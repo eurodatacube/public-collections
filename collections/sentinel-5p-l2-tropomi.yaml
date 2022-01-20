@@ -185,81 +185,81 @@ Summaries:
     - name: CO
       openeo:gsd:
         value:
-          - 5500
-          - 3500
-        unit: m
+          - 0,054563492063483
+          - 0,034722222222216
+        unit: °
     - name: HCHO
       openeo:gsd:
         value:
-          - 5500
-          - 3500
-        unit: m
+          - 0,054563492063483
+          - 0,034722222222216
+        unit: °
     - name: NO2
       openeo:gsd:
         value:
-          - 5500
-          - 3500
-        unit: m
+          - 0,054563492063483
+          - 0,034722222222216
+        unit: °
     - name: O3
       openeo:gsd:
         value:
-          - 5500
-          - 3500
-        unit: m
+          - 0,054563492063483
+          - 0,034722222222216
+        unit: °
     - name: CH4
       openeo:gsd:
         value:
-          - 5500
-          - 3500
-        unit: m
+          - 0,054563492063483
+          - 0,034722222222216
+        unit: °
     - name: AER_AI_340_380
       openeo:gsd:
         value:
-          - 5500
-          - 3500
-        unit: m
+          - 0,054563492063483
+          - 0,034722222222216
+        unit: °
     - name: AER_AI_354_388
       openeo:gsd:
         value:
-          - 5500
-          - 3500
-        unit: m
+          - 0,054563492063483
+          - 0,034722222222216
+        unit: °
     - name: CLOUD_BASE_PRESSURE
       openeo:gsd:
         value:
-          - 5500
-          - 3500
-        unit: m
+          - 0,054563492063483
+          - 0,034722222222216
+        unit: °
     - name: CLOUD_TOP_PRESSURE
       openeo:gsd:
         value:
-          - 5500
-          - 3500
-        unit: m
+          - 0,054563492063483
+          - 0,034722222222216
+        unit: °
     - name: CLOUD_BASE_HEIGHT
       openeo:gsd:
         value:
-          - 5500
-          - 3500
-        unit: m
+          - 0,054563492063483
+          - 0,034722222222216
+        unit: °
     - name: CLOUD_TOP_HEIGHT
       openeo:gsd:
         value:
-          - 5500
-          - 3500
-        unit: m
+          - 0,054563492063483
+          - 0,034722222222216
+        unit: °
     - name: CLOUD_OPTICAL_THICKNESS
       openeo:gsd:
         value:
-          - 5500
-          - 3500
-        unit: m
+          - 0,054563492063483
+          - 0,034722222222216
+        unit: °
     - name: CLOUD_FRACTION
       openeo:gsd:
         value:
-          - 5500
-          - 3500
-        unit: m
+          - 0,054563492063483
+          - 0,034722222222216
+        unit: °
     - description: The mask of data/no data pixels.
       name: dataMask
   crs:
@@ -409,4 +409,4 @@ Summaries:
   platform: 
   - sentinel-5 precursor
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2021-12-09"
+RegistryEntryLastModified: "2022-01-20"
