@@ -113,5 +113,19 @@ CubeDimensions:
     values:
       - DEM
       - dataMask
+Summaries:
+  raster:bands:
+    - description: Heights in meters
+      name: DEM
+      openeo:gsd:
+        value:
+          - 90
+          - 90
+        unit: m
+        # https://docs.sentinel-hub.com/api/latest/data/dem/#mission-information
+        # 30 when DemInstance = COPERNICUS_30
+        # 90 when DemInstance = COPERNICUS_90
+    - description: The mask of data/no data pixels.
+      name: dataMask
 RegistryEntryAdded: "2020-11-30"
 RegistryEntryLastModified: "2022-01-13"
