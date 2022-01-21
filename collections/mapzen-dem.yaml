@@ -115,5 +115,15 @@ CubeDimensions:
     values:
       - DEM
       - dataMask
+Summaries:
+  raster:bands:
+    - data_type: "int16"
+      spatial_resolution: "various"
+      unit: "meter"
+      # for DEM band
+    - no-data: 0
+      unit: "DN"
+      # for dataMask badn
+
 RegistryEntryAdded: "2018-04-17"
 RegistryEntryLastModified: "2021-12-09"
