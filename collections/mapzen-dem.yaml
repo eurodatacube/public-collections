@@ -117,13 +117,19 @@ CubeDimensions:
       - dataMask
 Summaries:
   raster:bands:
-    - data_type: "int16"
-      spatial_resolution: "various"
-      unit: "meter"
-      # for DEM band
-    - no-data: 0
-      unit: "DN"
-      # for dataMask band
+    - description: Heights in meters
+      name: DEM
+      openeo:gsd:
+        value:
+          - 3
+          - 3
+        unit: m
+        # depends on the location on the Earth 
+        #   https://github.com/tilezen/joerd/blob/master/docs/data-sources.md#list-of-sources
+        # or on the zoom level
+        #   https://github.com/tilezen/joerd/blob/master/docs/data-sources.md#what-is-the-ground-resolution
+    - description: The mask of data/no data pixels.
+      name: dataMask
 
 RegistryEntryAdded: "2018-04-17"
 RegistryEntryLastModified: "2021-12-09"
