@@ -106,12 +106,14 @@ CubeDimensions:
     extent:
       - -180
       - 180
+    reference_system: 4326
   y:
     type: spatial
     axis: y
     extent:
       - -90
       - 90
+    reference_system: 4326
   t:
     type: temporal
     extent:
