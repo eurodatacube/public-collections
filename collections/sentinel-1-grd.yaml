@@ -163,19 +163,6 @@ Summaries:
     - HV
     - VV
     - VH
-  sar:bands:
-    - name: VV
-      description: 'Single co-polarization, vertical transmit/vertical receive'
-      polarization: VV
-    - name: VH
-      description: 'Dual-band cross-polarization, vertical transmit/horizontal receive'
-      polarization: VH
-    - name: HV
-      description: 'Dual-band cross-polarization, horizontal transmit/vertical receive'
-      polarization: HV
-    - name: HH
-      description: 'Single co-polarization, horizontal transmit/horizontal receive'
-      polarization: HH
   raster:bands:
     - name: VV
       description: 'Single co-polarization, vertical transmit/vertical receive'
