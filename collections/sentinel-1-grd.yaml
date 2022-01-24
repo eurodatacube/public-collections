@@ -144,7 +144,7 @@ Summaries:
     - 5.405
   sar:product_type: 
     - GRD
-  sat:prbit_state:
+  sat:orbit_state:
     - ascending
     - descending
   sar:resolution:
