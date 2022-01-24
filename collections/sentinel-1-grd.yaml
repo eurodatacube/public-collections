@@ -144,7 +144,7 @@ Summaries:
     - 5.405
   sar:product_type: 
     - GRD
-  sat:prbit_state:
+  sat:orbit_state:
     - ascending
     - descending
   sar:resolution:
@@ -332,4 +332,4 @@ Summaries:
     - 'http://www.opengis.net/def/crs/EPSG/0/32760'
     - 'http://www.opengis.net/def/crs/SR-ORG/0/98739'
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2022-01-21"
+RegistryEntryLastModified: "2022-01-24"
