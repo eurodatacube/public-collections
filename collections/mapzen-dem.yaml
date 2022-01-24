@@ -121,9 +121,9 @@ Summaries:
       name: DEM
       openeo:gsd:
         value:
-          - 30
-          - 30
-        unit: m
+          - 0.000277777777777
+          - 0.000277777777777
+        unit: °
         # using unit of the SRTM30 on which Mapzen DEM is supposed to be based on
         #   https://docs.sentinel-hub.com/api/latest/data/dem/#mission-information
         # but it really depends on the location on the Earth 
