@@ -1,5 +1,5 @@
 Name: Operational Sentinel-3 snow and ice products (SICE)
-  Description: |
+Description: |
   Operational Sentinel-3 snow and ice products (SICE) is a modification of the original algorithm developed by the Geological Survey of Denmark and Greenland (GEUS) which is available [here](https://github.com/GEUS-SICE/SICE). The algorithms were originally developed after the work from Kokhanovsky et al. (2018, 2019, 2020). 
   
   The EDC SICE algorithm produces the same results but it's integrated with the Sentinel Hub infrastructure which allows the user to obtain the results much faster and at higher resolutions. The algorithm uses the already geopositioned and orthorectified S3 - Ocean and Land Color Instrument (OLCI) data provided by Sentinel Hub api in order to calculate different snow optical properties such as snow spectral and broadband albedo and also snow microstructure (snow specific surface area and effective optical grain size). Theoretical basis of the algorithm can be obtained [here] (https://www.researchgate.net/publication/345375161_Pre-operational_Sentinel-3_Snow_and_Ice_SICE_Products_Algorithm_Theoretical_Basis_Document) and [here](https://www.preprints.org/manuscript/202009.0529/v1). 
