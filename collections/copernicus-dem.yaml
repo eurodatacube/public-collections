@@ -122,9 +122,6 @@ Summaries:
           - 0.000277777777777
           - 0.000277777777777
         unit: °
-        # https://docs.sentinel-hub.com/api/latest/data/dem/#mission-information
-        # 30 when DemInstance = COPERNICUS_30
-        # 90 when DemInstance = COPERNICUS_90
     - description: The mask of data/no data pixels.
       name: dataMask
 RegistryEntryAdded: "2020-11-30"

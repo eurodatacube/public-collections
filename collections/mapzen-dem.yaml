@@ -124,12 +124,6 @@ Summaries:
           - 0.000277777777777
           - 0.000277777777777
         unit: °
-        # using unit of the SRTM30 on which Mapzen DEM is supposed to be based on
-        #   https://docs.sentinel-hub.com/api/latest/data/dem/#mission-information
-        # but it really depends on the location on the Earth 
-        #   https://github.com/tilezen/joerd/blob/master/docs/data-sources.md#list-of-sources
-        # or on the zoom level
-        #   https://github.com/tilezen/joerd/blob/master/docs/data-sources.md#what-is-the-ground-resolution
     - description: The mask of data/no data pixels.
       name: dataMask
 
