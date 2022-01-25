@@ -62,8 +62,7 @@ Resources:
 CustomScripts:
     Title: Collection of Sentinel-2 custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#sentinel-2
-Configurations: 
-
+Configurations:
   - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
     rel: "about"
     type: "text/html"
