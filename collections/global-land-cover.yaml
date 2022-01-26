@@ -83,13 +83,18 @@ Resources:
   - Group: xcube Resources
     DatasetName: CUSTOM
     CollectionId: f0a97620-0e88-4c1f-a1ac-bb388fabdf2c
-Configurations: 
-  - layer_name: Discrete Classification Map
-    evalscript_url: "https://custom-scripts.sentinel-hub.com/copernicus_services/global_land_cover/script.js"   
-    mosaicking_order: mostRecent
-    upsampling: BICUBIC
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
+Configurations:
+  - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
+    rel: "about"
+    type: "text/html"
+    title: "Details about running Evalscripts"
+  - href: "https://custom-scripts.sentinel-hub.com/copernicus_services/global_land_cover/script.js"   
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate Discrete Classification Map imagery"
+    sentinelhub:layer_name: "Discrete Classification Map"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
 Extent:
   spatial:
     bbox:
@@ -142,4 +147,4 @@ CubeDimensions:
       - Change_Confidence_layer
       - dataMask
 RegistryEntryAdded: "2021-03-20"
-RegistryEntryLastModified: "2022-01-13"
+RegistryEntryLastModified: "2022-01-26"
