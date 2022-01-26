@@ -47,6 +47,10 @@ CustomScripts:
     Title: Collection of Landsat 4-5 TM custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#landsat-4-5-tm
 Configurations:
+  - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
+    rel: "about"
+    type: "text/html"
+    title: "Details about running Evalscripts"
   - href: "https://custom-scripts.sentinel-hub.com/landsat-4-5-tm/true-color/script.js"
     rel: "processing-expression"
     type: "application/javascript"

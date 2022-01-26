@@ -39,6 +39,10 @@ Resources:
   - Group: xcube Resources
     DatasetName: landsat-etm-l2
 CustomScripts:
+  - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
+    rel: "about"
+    type: "text/html"
+    title: "Details about running Evalscripts"
     Title: Collection of Landsat 7 ETM+ custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#landsat-7-etm
 Configurations:

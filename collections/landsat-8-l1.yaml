@@ -51,6 +51,10 @@ CustomScripts:
     Title: Collection of Landsat-8 custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#landsat-8
 Configurations:
+  - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
+    rel: "about"
+    type: "text/html"
+    title: "Details about running Evalscripts"
   - href: "https://custom-scripts.sentinel-hub.com/landsat-8/true-color/script.js"
     rel: "processing-expression"
     type: "application/javascript"
