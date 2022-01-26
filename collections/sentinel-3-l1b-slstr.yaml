@@ -56,19 +56,25 @@ Resources:
 CustomScripts:
     Title: Collection of Sentinel-3 custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#sentinel-3
-Configurations: 
-  - layer_name: False Color based on bands S3, S2, and S1
-    evalscript_url: "https://custom-scripts.sentinel-hub.com/slstr/false-color-321/script.js"
-    mosaicking_order: mostRecent
-    upsampling: BICUBIC
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
-  - layer_name: F1 Brightness Temperature
-    evalscript_url: "https://custom-scripts.sentinel-hub.com/slstr/f1-brightness-temperature/script.js"
-    mosaicking_order: mostRecent
-    upsampling: BICUBIC
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
+Configurations:
+  - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
+    rel: "about"
+    type: "text/html"
+    title: "Details about running Evalscripts"
+  - href: "https://custom-scripts.sentinel-hub.com/slstr/false-color-321/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate False Color based on bands S3, S2, and S1 imagery"
+    sentinelhub:layer_name: "False Color based on bands S3, S2, and S1"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
+  - href: "https://custom-scripts.sentinel-hub.com/slstr/f1-brightness-temperature/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate F1 Brightness Temperature imagery"
+    sentinelhub:layer_name: "F1 Brightness Temperature"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
 Extent:
   spatial:
     bbox:
