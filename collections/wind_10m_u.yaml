@@ -29,12 +29,17 @@ Resources:
    CollectionId: e54d24b0-3a92-41ea-a759-c954e3a9203e
    Primary: True
 Configurations:     
-  - layer_name: Wind U-component
-    evalscript_url: "https://raw.githubusercontent.com/eurodatacube/public-collections/main/collections/wind_10m_u/script.js"
-    mosaicking_order: mostRecent
-    upsampling: BICUBIC
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
+  - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
+    rel: "about"
+    type: "text/html"
+    title: "Details about running Evalscripts"
+  - href: "https://raw.githubusercontent.com/eurodatacube/public-collections/main/collections/wind_10m_u/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate Wind U-component imagery"
+    sentinelhub:layer_name: "Wind U-component"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
 Extent:
   spatial:
     bbox:
@@ -71,4 +76,4 @@ CubeDimensions:
     values:
       - windu10m
 RegistryEntryAdded: "2021-05-07"
-RegistryEntryLastModified: "2022-01-13"
+RegistryEntryLastModified: "2022-01-27"
