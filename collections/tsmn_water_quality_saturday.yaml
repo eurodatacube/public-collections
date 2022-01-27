@@ -28,12 +28,17 @@ Resources:
    CollectionId: 45ce0fb2-fdaf-481e-b834-f728a8677e59
    Primary: true
 Configurations:     
-  - layer_name: Total Suspended Matter Map
-    evalscript_url: "https://raw.githubusercontent.com/eurodatacube/public-collections/main/collections//tsmn_water_quality_saturday/script.js"
-    mosaicking_order: mostRecent
-    upsampling: BICUBIC
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
+  - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
+    rel: "about"
+    type: "text/html"
+    title: "Details about running Evalscripts"
+  - href: "https://raw.githubusercontent.com/eurodatacube/public-collections/main/collections//tsmn_water_quality_saturday/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate Total Suspended Matter Map imagery"
+    sentinelhub:layer_name: "Total Suspended Matter Map"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
 Extent:
   spatial:
     bbox:
@@ -70,4 +75,4 @@ CubeDimensions:
     values:
       - tsmnn
 RegistryEntryAdded: "2021-05-07"
-RegistryEntryLastModified: "2021-09-24"
+RegistryEntryLastModified: "2022-01-27"
