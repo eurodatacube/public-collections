@@ -28,12 +28,17 @@ Resources:
    CollectionId: fa331cca-5be2-4736-8030-793af55c0ef1
    Primary: true
 Configurations:     
-  - layer_name: Chlorophyll Anomaly Map
-    evalscript_url: "https://raw.githubusercontent.com/eurodatacube/public-collections/main/collections/chl_water_quality_saturday/script.js"
-    mosaicking_order: mostRecent
-    upsampling: BICUBIC
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
+  - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
+    rel: "about"
+    type: "text/html"
+    title: "Details about running Evalscripts"
+  - href: "https://raw.githubusercontent.com/eurodatacube/public-collections/main/collections/chl_water_quality_saturday/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate Chlorophyll Anomaly Map imagery"
+    sentinelhub:layer_name: "Chlorophyll Anomaly Map"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
 Extent:
   spatial:
     bbox:
@@ -70,4 +75,4 @@ CubeDimensions:
     values:
       - chl
 RegistryEntryAdded: "2021-05-07"
-RegistryEntryLastModified: "2021-09-22"
+RegistryEntryLastModified: "2022-01-27"
