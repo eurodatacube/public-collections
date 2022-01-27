@@ -55,18 +55,24 @@ CustomScripts:
     Title: Collection of Copernicus services data custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#copernicus_services
 Configurations: 
-  - layer_name: Water Bodies
-    evalscript_url: "https://custom-scripts.sentinel-hub.com/copernicus_services/water-bodies/script.js"
-    mosaicking_order: mostRecent
-    upsampling: BICUBIC
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
-  - layer_name: Water Bodies Occurrence
-    evalscript_url: "https://custom-scripts.sentinel-hub.com/copernicus_services/water-bodies-occurence/script.js"
-    mosaicking_order: mostRecent
-    upsampling: BICUBIC
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
+  - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
+    rel: "about"
+    type: "text/html"
+    title: "Details about running Evalscripts"
+  - href: "https://custom-scripts.sentinel-hub.com/copernicus_services/water-bodies/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate Water Bodies imagery"
+    sentinelhub:layer_name: "Water Bodies"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
+  - href: "https://custom-scripts.sentinel-hub.com/copernicus_services/water-bodies-occurence/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate Water Bodies Occurrence imagery"
+    sentinelhub:layer_name: "Water Bodies Occurrence"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
 Extent:
   spatial:
     bbox:
@@ -106,4 +112,4 @@ CubeDimensions:
       - QUAL
       - dataMask
 RegistryEntryAdded: "2021-03-30"
-RegistryEntryLastModified: "2022-01-13"
+RegistryEntryLastModified: "2022-01-27"
