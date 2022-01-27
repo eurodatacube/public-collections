@@ -63,24 +63,30 @@ CustomScripts:
     Title: Collection of Sentinel-1 custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#sentinel-1
 Configurations: 
-  - layer_name: SAR urban
-    evalscript_url: "https://custom-scripts.sentinel-hub.com/sentinel-1/urban_areas/script.js"
-    acquisition_mode: IW
-    polarization: DV
-    resolution: HIGH
-    mosaicking_order: mostRecent
-    upsampling: BICUBIC
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
+  - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
+    rel: "about"
+    type: "text/html"
+    title: "Details about running Evalscripts"
+  - href: "https://custom-scripts.sentinel-hub.com/sentinel-1/urban_areas/script.js"
     rel: processing-expression
-  - layer_name: Enhanced visualization
-    evalscript_url: "https://custom-scripts.sentinel-hub.com/sentinel-1/sar_false_color_visualization-2/script.js"
-    acquisition_mode: IW
-    polarization: DV
-    resolution: HIGH
-    mosaicking_order: mostRecent
-    upsampling: BICUBIC
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
+    type: "application/javascript"
+    title: "Evalscript to generate SAR urban imagery"
+    sentinelhub:layer_name: SAR urban
+    sentinelhub:acquisition_mode: IW
+    sentinelhub:polarization: DV
+    sentinelhub:resolution: HIGH
+    sentinelhub:mosaicking_order: mostRecent
+    sentinelhub:upsampling: BICUBIC
+  - href: "https://custom-scripts.sentinel-hub.com/sentinel-1/sar_false_color_visualization-2/script.js"
     rel: processing-expression
+    type: "application/javascript"
+    title: "Evalscript to generate Enhanced visualization imagery"
+    sentinelhub:layer_name: Enhanced visualization
+    sentinelhub:acquisition_mode: IW
+    sentinelhub:polarization: DV
+    sentinelhub:resolution: HIGH
+    sentinelhub:mosaicking_order: mostRecent
+    sentinelhub:upsampling: BICUBIC
 DataAtWork:
   Tutorials:
     - Title: "Exploring Time and Space: A guide to accessing, analysing and visualising data in the Euro Data Cube"
