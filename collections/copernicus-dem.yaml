@@ -121,8 +121,8 @@ Summaries:
         value:
         - - 0.000277777777778
           - 0.000277777777778
-        - - 0.00083333333333
-          - 0.00083333333333
+        - - 0.000833333333333
+          - 0.000833333333333
         unit: °
     - description: The mask of data/no data pixels.
       name: dataMask
