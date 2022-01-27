@@ -151,60 +151,73 @@ CustomScripts:
     Title: Collection of Copernicus services data custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#copernicus_services
 Configurations:
-  - layer_name: "AMPL"
-    evalscript_url: "https://custom-scripts.sentinel-hub.com/custom-scripts/copernicus_services/vpp-amplitude-ampl/script.js"
-    mosaicking_order: mostRecent
-    upsampling: BICUBIC
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
-  - layer_name: "MAXV"
-    evalscript_url: "https://custom-scripts.sentinel-hub.com/custom-scripts/copernicus_services/vpp-season-maximum-value-maxv/script.js"
-    mosaicking_order: mostRecent
-    upsampling: BICUBIC
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
-  - layer_name: "MINV"
-    evalscript_url: "https://custom-scripts.sentinel-hub.com/custom-scripts/copernicus_services/vpp-season-minimum-value-minv/script.js"
-    mosaicking_order: mostRecent
-    upsampling: BICUBIC
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
-  - layer_name: "SOSV"
-    evalscript_url: "https://custom-scripts.sentinel-hub.com/custom-scripts/copernicus_services/vpp-start-of-season-value-sosv/script.js"
-    mosaicking_order: mostRecent
-    upsampling: BICUBIC
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
-  - layer_name: "EOSV"
-    evalscript_url: "https://custom-scripts.sentinel-hub.com/custom-scripts/copernicus_services/vpp-end-of-season-value-eosv/script.js"
-    mosaicking_order: mostRecent
-    upsampling: BICUBIC
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
-  - layer_name: "RSLOPE"
-    evalscript_url: "https://custom-scripts.sentinel-hub.com/custom-scripts/copernicus_services/vpp-slope-of-senescent-period-rslope/script.js"
-    mosaicking_order: mostRecent
-    upsampling: BICUBIC
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
-  - layer_name: "LSLOPE"
-    evalscript_url: "https://custom-scripts.sentinel-hub.com/custom-scripts/copernicus_services/vpp-slope-of-greening-up-period-lslope/script.js"
-    mosaicking_order: mostRecent
-    upsampling: BICUBIC
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
-  - layer_name: "SPROD"
-    evalscript_url: "https://custom-scripts.sentinel-hub.com/custom-scripts/copernicus_services/vpp-seasonal-productivity-sprod/script.js"
-    mosaicking_order: mostRecent
-    upsampling: BICUBIC
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
-  - layer_name: "TPROD"
-    evalscript_url: "https://custom-scripts.sentinel-hub.com/custom-scripts/copernicus_services/vpp-total-productivity-tprod/script.js"
-    mosaicking_order: mostRecent
-    upsampling: BICUBIC
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
+  - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
+    rel: "about"
+    type: "text/html"
+    title: "Details about running Evalscripts"
+  - href: "https://custom-scripts.sentinel-hub.com/custom-scripts/copernicus_services/vpp-amplitude-ampl/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate AMPL imagery"
+    sentinelhub:layer_name: "AMPL"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
+  - href: "https://custom-scripts.sentinel-hub.com/custom-scripts/copernicus_services/vpp-season-maximum-value-maxv/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate MAXV imagery"
+    sentinelhub:layer_name: "MAXV"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
+  - href: "https://custom-scripts.sentinel-hub.com/custom-scripts/copernicus_services/vpp-season-minimum-value-minv/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate MINV imagery"
+    sentinelhub:layer_name: "MINV"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
+  - href: "https://custom-scripts.sentinel-hub.com/custom-scripts/copernicus_services/vpp-start-of-season-value-sosv/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate SOSV imagery"
+    sentinelhub:layer_name: "SOSV"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
+  - href: "https://custom-scripts.sentinel-hub.com/custom-scripts/copernicus_services/vpp-end-of-season-value-eosv/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate EOSV imagery"
+    sentinelhub:layer_name: "EOSV"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
+  - href: "https://custom-scripts.sentinel-hub.com/custom-scripts/copernicus_services/vpp-slope-of-senescent-period-rslope/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate RSLOPE imagery"
+    sentinelhub:layer_name: "RSLOPE"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
+  - href: "https://custom-scripts.sentinel-hub.com/custom-scripts/copernicus_services/vpp-slope-of-greening-up-period-lslope/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate LSLOPE imagery"
+    sentinelhub:layer_name: "LSLOPE"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
+  - href: "https://custom-scripts.sentinel-hub.com/custom-scripts/copernicus_services/vpp-seasonal-productivity-sprod/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate SPROD imagery"
+    sentinelhub:layer_name: "SPROD"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
+  - href: "https://custom-scripts.sentinel-hub.com/custom-scripts/copernicus_services/vpp-total-productivity-tprod/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate TPROD imagery"
+    sentinelhub:layer_name: "TPROD"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
 Extent:
   spatial:
     bbox:
@@ -256,4 +269,4 @@ CubeDimensions:
       - RSLOPE
       - dataMask
 RegistryEntryAdded: '2021-10-14'
-RegistryEntryLastModified: '2022-01-13'
+RegistryEntryLastModified: "2022-01-27"
