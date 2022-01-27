@@ -27,7 +27,7 @@ Resources:
    Type: byoc-fa331cca-5be2-4736-8030-793af55c0ef1
    CollectionId: fa331cca-5be2-4736-8030-793af55c0ef1
    Primary: true
-Configurations:     
+Configurations:
   - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
     rel: "about"
     type: "text/html"

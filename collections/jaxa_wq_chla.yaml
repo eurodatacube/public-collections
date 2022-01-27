@@ -59,7 +59,7 @@ Resources:
     Type: byoc-dc461d36-d855-4021-93e6-686f08d48f3d
     CollectionId: dc461d36-d855-4021-93e6-686f08d48f3d
     Primary: true
-Configurations:     
+Configurations:
   - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
     rel: "about"
     type: "text/html"

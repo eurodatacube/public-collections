@@ -56,7 +56,7 @@ Resources:
     Type: byoc-5014c166-c13e-4bcf-b7cf-52d0312c54b8
     CollectionId: 5014c166-c13e-4bcf-b7cf-52d0312c54b8
     Primary: true
-Configurations:     
+Configurations:
   - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
     rel: "about"
     type: "text/html"

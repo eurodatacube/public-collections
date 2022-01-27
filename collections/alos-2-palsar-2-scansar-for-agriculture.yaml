@@ -50,7 +50,7 @@ Resources:
     Type: byoc-7c90e9bb-0842-4f37-bb34-37b467eb5c95
     CollectionId: 7c90e9bb-0842-4f37-bb34-37b467eb5c95
     Primary: true
-Configurations:     
+Configurations:
   - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
     rel: "about"
     type: "text/html"

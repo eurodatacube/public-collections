@@ -26,7 +26,7 @@ Resources:
    Type: byoc-038e4f48-7bfc-4e60-bcbf-77520327799a
    CollectionId: 038e4f48-7bfc-4e60-bcbf-77520327799a
    Primary: true
-Configurations:     
+Configurations:
   - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
     rel: "about"
     type: "text/html"

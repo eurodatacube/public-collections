@@ -27,7 +27,7 @@ Resources:
    Type: byoc-45ce0fb2-fdaf-481e-b834-f728a8677e59
    CollectionId: 45ce0fb2-fdaf-481e-b834-f728a8677e59
    Primary: true
-Configurations:     
+Configurations:
   - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
     rel: "about"
     type: "text/html"

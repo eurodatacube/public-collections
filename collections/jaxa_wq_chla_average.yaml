@@ -54,7 +54,7 @@ Resources:
     Type: byoc-a81b1960-20f2-4f55-830e-b824094c4275
     CollectionId: a81b1960-20f2-4f55-830e-b824094c4275
     Primary: true
-Configurations:     
+Configurations:
   - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
     rel: "about"
     type: "text/html"

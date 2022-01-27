@@ -26,7 +26,7 @@ Resources:
    Type: byoc-6d697640-a962-4eb0-8a59-30a8cb61dc0f
    CollectionId: 6d697640-a962-4eb0-8a59-30a8cb61dc0f
    Primary: true
-Configurations:     
+Configurations:
   - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
     rel: "about"
     type: "text/html"

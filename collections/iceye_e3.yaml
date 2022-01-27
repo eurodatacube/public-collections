@@ -26,7 +26,7 @@ Resources:
    Type: byoc-ab9106b8-29a8-4995-ae2b-043828994eb6
    CollectionId: ab9106b8-29a8-4995-ae2b-043828994eb6
    Primary: true
-Configurations:     
+Configurations:
   - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
     rel: "about"
     type: "text/html"

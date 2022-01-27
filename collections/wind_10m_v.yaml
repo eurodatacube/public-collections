@@ -28,7 +28,7 @@ Resources:
    Type: byoc-72139a6c-8fa3-4a90-93ca-4c1d792cc8af
    CollectionId: 72139a6c-8fa3-4a90-93ca-4c1d792cc8af
    Primary: true
-Configurations:     
+Configurations:
   - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
     rel: "about"
     type: "text/html"

@@ -28,7 +28,7 @@ Resources:
    Type: byoc-e54d24b0-3a92-41ea-a759-c954e3a9203e
    CollectionId: e54d24b0-3a92-41ea-a759-c954e3a9203e
    Primary: True
-Configurations:     
+Configurations:
   - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
     rel: "about"
     type: "text/html"

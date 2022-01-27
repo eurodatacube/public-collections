@@ -48,7 +48,7 @@ Resources:
   - Group: xcube Resources
     DatasetName: CUSTOM
     CollectionId: 0b940c63-45dd-4e6b-8019-c3660b81b884
-Configurations: 
+Configurations:
   - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
     rel: "about"
     type: "text/html"
