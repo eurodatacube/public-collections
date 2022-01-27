@@ -27,12 +27,17 @@ Resources:
    CollectionId: bb92282c-b580-4206-b843-76daffbb5b0a
    Primary: true
 Configurations:     
-  - layer_name: NO2
-    evalscript_url: "https://raw.githubusercontent.com/eurodatacube/public-collections/main/collections/s5p-no2-tropno-daily-check/script.js"
-    mosaicking_order: mostRecent
-    upsampling: BICUBIC
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
+  - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
+    rel: "about"
+    type: "text/html"
+    title: "Details about running Evalscripts"
+  - href: "https://raw.githubusercontent.com/eurodatacube/public-collections/main/collections/s5p-no2-tropno-daily-check/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate NO2 imagery"
+    sentinelhub:layer_name: "NO2"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
 Extent:
   spatial:
     bbox:
@@ -69,4 +74,4 @@ CubeDimensions:
     values:
       - tropno2
 RegistryEntryAdded: "2021-05-07"
-RegistryEntryLastModified: "2021-09-24"
+RegistryEntryLastModified: "2022-01-27"
