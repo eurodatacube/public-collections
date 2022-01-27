@@ -91,42 +91,52 @@ Resources:
     DatasetName: CUSTOM
     CollectionId: 484d8dbb-9e3e-41f2-b96b-35189d3ae37f
 Configurations:
-  - layer_name: "True Color"
-    evalscript_url: https://custom-scripts.sentinel-hub.com/sentinel2-120m-mosaic/true-color/script.js
-    mosaicking_order: mostRecent
-    upsampling: BICUBIC
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
-  - layer_name: "False Color"
-    evalscript_url: https://custom-scripts.sentinel-hub.com/sentinel2-120m-mosaic/false-color/script.js
-    mosaicking_order: mostRecent
-    upsampling: BICUBIC
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
-  - layer_name: "Highlight Optimized Natural Color"
-    evalscript_url: https://custom-scripts.sentinel-hub.com/sentinel2-120m-mosaic/highlight-optimized/script.js
-    mosaicking_order: mostRecent
-    upsampling: BICUBIC
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
-  - layer_name: "NDVI"
-    evalscript_url: https://custom-scripts.sentinel-hub.com/sentinel2-120m-mosaic/ndvi/script.js
-    mosaicking_order: mostRecent
-    upsampling: NEAREST
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
-  - layer_name: "NDMI"
-    evalscript_url: https://custom-scripts.sentinel-hub.com/sentinel2-120m-mosaic/ndmi/script.js
-    mosaicking_order: mostRecent
-    upsampling: NEAREST
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
-  - layer_name: "NDWI"
-    evalscript_url: https://custom-scripts.sentinel-hub.com/sentinel2-120m-mosaic/ndwi/script.js
-    mosaicking_order: mostRecent
-    upsampling: NEAREST
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
+  - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
+    rel: "about"
+    type: "text/html"
+    title: "Details about running Evalscripts"
+  - href: https://custom-scripts.sentinel-hub.com/sentinel2-120m-mosaic/true-color/script.js
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate True Color imagery"
+    sentinelhub:layer_name: "True Color"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
+  - href: https://custom-scripts.sentinel-hub.com/sentinel2-120m-mosaic/false-color/script.js
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate False Color imagery"
+    sentinelhub:layer_name: "False Color"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
+  - href: https://custom-scripts.sentinel-hub.com/sentinel2-120m-mosaic/highlight-optimized/script.js
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate Highlight Optimized Natural Color imagery"
+    sentinelhub:layer_name: "Highlight Optimized Natural Color"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
+  - href: https://custom-scripts.sentinel-hub.com/sentinel2-120m-mosaic/ndvi/script.js
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate NDVI imagery"
+    sentinelhub:layer_name: "NDVI"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "NEAREST"
+  - href: https://custom-scripts.sentinel-hub.com/sentinel2-120m-mosaic/ndmi/script.js
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate NDMI imagery"
+    sentinelhub:layer_name: "NDMI"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "NEAREST"
+  - href: https://custom-scripts.sentinel-hub.com/sentinel2-120m-mosaic/ndwi/script.js
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate NDWI imagery"
+    sentinelhub:layer_name: "NDWI"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "NEAREST"
 DataAtWork:
   Tutorials:
     - Title: How to Make the Perfect Time-Lapse of the Earth
@@ -192,4 +202,4 @@ CubeDimensions:
       - QM
       - dataMask
 RegistryEntryAdded: "2021-03-21"
-RegistryEntryLastModified: "2021-10-06"
+RegistryEntryLastModified: "2022-01-27"
