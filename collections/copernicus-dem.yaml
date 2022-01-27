@@ -95,22 +95,36 @@ CubeDimensions:
     extent:
       - -180
       - 180
+    reference_system: 4326
   y:
     type: spatial
     axis: y
     extent:
       - -85
       - 85
+    reference_system: 4326
   t:
     type: temporal
     extent:
       - '2010-12-12T05:04:33Z'
       - '2015-01-16T01:37:12Z'
-    step: P5D
   bands:
     type: bands
     values:
       - DEM
       - dataMask
+Summaries:
+  raster:bands:
+    - description: Heights in meters
+      name: DEM
+      openeo:gsd:
+        value:
+        - - 0.000277777777778
+          - 0.000277777777778
+        - - 0.000833333333333
+          - 0.000833333333333
+        unit: °
+    - description: The mask of data/no data pixels.
+      name: dataMask
 RegistryEntryAdded: "2020-11-30"
-RegistryEntryLastModified: "2022-01-13"
+RegistryEntryLastModified: "2022-01-27"

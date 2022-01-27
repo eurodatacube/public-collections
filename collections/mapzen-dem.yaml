@@ -115,5 +115,16 @@ CubeDimensions:
     values:
       - DEM
       - dataMask
+Summaries:
+  raster:bands:
+    - description: Heights in meters
+      name: DEM
+      openeo:gsd:
+        value:
+          - 0.000277777777778
+          - 0.000277777777778
+        unit: °
+    - description: The mask of data/no data pixels.
+      name: dataMask
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2021-12-09"
+RegistryEntryLastModified: "2022-01-27"
