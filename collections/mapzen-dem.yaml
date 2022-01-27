@@ -121,8 +121,8 @@ Summaries:
       name: DEM
       openeo:gsd:
         value:
-          - 0.000277777777777
-          - 0.000277777777777
+          - 0.000277777777778
+          - 0.000277777777778
         unit: °
     - description: The mask of data/no data pixels.
       name: dataMask
