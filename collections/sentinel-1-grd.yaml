@@ -166,7 +166,6 @@ Summaries:
   raster:bands:
     - name: VV
       description: 'Single co-polarization, vertical transmit/vertical receive'
-      polarization: VV
       openeo:gsd:
         value:
         - - 10
@@ -178,7 +177,6 @@ Summaries:
         unit: m
     - name: VH
       description: 'Dual-band cross-polarization, vertical transmit/horizontal receive'
-      polarization: VH
       openeo:gsd:
         value:
         - - 10
@@ -190,10 +188,8 @@ Summaries:
         unit: m
     - name: HV
       description: 'Dual-band cross-polarization, horizontal transmit/vertical receive'
-      polarization: HV
     - name: HH
       description: 'Single co-polarization, horizontal transmit/horizontal receive'
-      polarization: HH
       openeo:gsd:
         value:
         - - 10
