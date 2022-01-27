@@ -27,12 +27,17 @@ Resources:
    CollectionId: d50b41de-00d7-43b5-bb69-4468d738f771
    Primary: true
 Configurations:     
-  - layer_name: Trucks E12D Motorway
-    evalscript_url: "https://raw.githubusercontent.com/eurodatacube/public-collections/main/collections/e12d_primary_corrected/script.js"
-    mosaicking_order: mostRecent
-    upsampling: BICUBIC
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
+  - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
+    rel: "about"
+    type: "text/html"
+    title: "Details about running Evalscripts"
+  - href: "https://raw.githubusercontent.com/eurodatacube/public-collections/main/collections/e12d_primary_corrected/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate Trucks E12D Motorway imagery"
+    sentinelhub:layer_name: "Trucks E12D Motorway"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
 Extent:
   spatial:
     bbox:
@@ -69,4 +74,4 @@ CubeDimensions:
     values:
       - PrimaryRoadsActivity
 RegistryEntryAdded: "2021-05-07"
-RegistryEntryLastModified: "2021-09-24"
+RegistryEntryLastModified: "2022-01-27"
