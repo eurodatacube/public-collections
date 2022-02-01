@@ -47,6 +47,7 @@ Resources:
 WMTS:
   - href: https://services-uswest2.sentinel-hub.com/ogc/wmts/fc306b9b-4448-41d2-922d-6db03b26610e
     layer_id: TRUE-COLOR
+    dimensions: "warnings: true"
 CustomScripts:
     Title: Collection of Landsat-8 custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#landsat-8
