@@ -51,6 +51,7 @@ CustomScripts:
 WMTS:
   - href: https://services-uswest2.sentinel-hub.com/ogc/wmts/2bb342e8-8d2e-4f06-8ed6-b6d7ab65187d
     layer_id: TRUE-COLOR
+    dimensions: "warnings: true"
 Configurations:
   - layer_name: True color
     evalscript_url: "https://custom-scripts.sentinel-hub.com/landsat-8/true-color/script.js"
@@ -529,4 +530,4 @@ Summaries:
   platform:
     - landsat-8
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2022-01-17"
+RegistryEntryLastModified: "2022-02-01"
