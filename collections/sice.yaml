@@ -1,68 +1,77 @@
 Name: Operational Sentinel-3 snow and ice products (SICE)
 Description: |
   Operational Sentinel-3 snow and ice products (SICE) is a modification of the original algorithm developed by the Geological Survey of Denmark and Greenland (GEUS) which is available [here](https://github.com/GEUS-SICE/SICE). The algorithms were originally developed after the work from Kokhanovsky et al. (2018, 2019, 2020). 
-  
-  The EDC SICE algorithm produces the same results but it's integrated with the Sentinel Hub infrastructure which allows the user to obtain the results much faster and at higher resolutions. The algorithm uses the already geopositioned and orthorectified S3 - Ocean and Land Color Instrument (OLCI) data provided by Sentinel Hub api in order to calculate different snow optical properties such as snow spectral and broadband albedo and also snow microstructure (snow specific surface area and effective optical grain size). Theoretical basis of the algorithm can be obtained [here] (https://www.researchgate.net/publication/345375161_Pre-operational_Sentinel-3_Snow_and_Ice_SICE_Products_Algorithm_Theoretical_Basis_Document) and [here](https://www.preprints.org/manuscript/202009.0529/v1). 
-  
+
+  The EDC SICE algorithm produces the same results but it's integrated with the Sentinel Hub infrastructure which allows the user to obtain the results much faster and at higher resolutions. The algorithm uses the already geopositioned and orthorectified S3 - Ocean and Land Color Instrument (OLCI) data provided by Sentinel Hub api in order to calculate different snow optical properties such as snow spectral and broadband albedo and also snow microstructure (snow specific surface area and effective optical grain size). Theoretical basis of the algorithm can be obtained [here](https://www.researchgate.net/publication/345375161_Pre-operational_Sentinel-3_Snow_and_Ice_SICE_Products_Algorithm_Theoretical_Basis_Document) and [here](https://www.preprints.org/manuscript/202009.0529/v1). 
+
   Since the algorithm relies heavily on the sun zenith angle (SZA), the best results for the northern polar regions can be obtained for the periods between May and September (depanding on the location Latitude).  
 
   To generate the SICE data, navigate to [EDC Browser](https://browser.eurodatacube.com/?zoom=4&lat=74.70645&lng=-45.84855&fromTime=1970-01-01T00%3A00%3A00.000Z&toTime=2021-10-22T14%3A36%3A31.329Z&algorithm=sice), 
   select the required input parameters and follow the check-out wizard to complete your order. Produced data will be uploaded directly into your JupyterLab environment on EDC.
 Image: sice/thumbnail.png
-Explore: "[Run algorithm in EDC Browser](https://browser.eurodatacube.com/?zoom=4&lat=74.70645&lng=-45.84855&fromTime=1970-01-01T00%3A00%3A00.000Z&toTime=2021-10-22T14%3A36%3A31.329Z&algorithm=sice)" 
+Explore: "[Run algorithm in EDC Browser](https://browser.eurodatacube.com/?zoom=4&lat=74.70645&lng=-45.84855&fromTime=1970-01-01T00%3A00%3A00.000Z&toTime=2021-10-22T14%3A36%3A31.329Z&algorithm=sice)"
 GeographicalCoverage: Polar regions covered by snow
-TemporalAvailability: |  
- Global:  November 2016 - ongoing
+TemporalAvailability: |
+  Global:  November 2016 - ongoing
 UpdateFrequency: On-demand
 Attributes:
   Table:
-      Columns:
-        - Name: Name
-          Title: Name
-        - Name: Description
-          Title: Description
-        - Name: Type
-          Title: Type      
-      Rows:
-        - Name: aoi
-          Description: Area of interest
-          Type: Polyon or bounding box
-        - Name: Date
-          Description: Date of data retieval
-          Type: String         
-        - Name: Projection
-          Description: Target projection of the produced data. By default the results will be provided in EPSG:4326.
-          Type: String
-Produced results:
+    Columns:
+      - Name: Name
+        Title: Name
+      - Name: Description
+        Title: Description
+      - Name: Type
+        Title: Type
+    Rows:
+      - Name: aoi
+        Description: Area of interest
+        Type: Polyon or bounding box
+      - Name: Date
+        Description: Date of data retieval
+        Type: String
+      - Name: Projection
+        Description: Target projection of the produced data. By default the results will be provided in EPSG:4326.
+        Type: String
+AdditionalInfo:
   Table:
-      Columns:
-        - Name: Name
-          Title: Name
-        - Name: Description
-          Title: Description
-        - Name: Units
-          Title: Units      
-      Rows:
-        - Name: grain_diameter.tif
-          Description: Grain diameter
-          Units: mm
-        - Name: snow_specific_surface_area.tif
-          Description: Snow specific surface area 
-          Units: m2kg-1         
-        - Name: r_TOA_01_valid.tif
-          Description: Top of the Atmosphere Reflectance (OLCI band 1)
-          Units: 
-        - Name: r_TOA_06_valid.tif
-          Description: Top of the Atmosphere Reflectance (OLCI band 6)
-          Units: 
-        - Name: r_TOA_17_valid.tif
-          Description: Top of the Atmosphere Reflectance (OLCI band 7)
-          Units:   
-        - Name: r_TOA_21_valid.tif
-          Description: Top of the Atmosphere Reflectance (OLCI band 21)
-          Units:   
-Pricing: |   
- Prices are defined based on the selected roi and resolution. Regardles of the size and resolution, the minimal cost for initiating request is 10 EDC credits.
+    Columns:
+      - Name: Name
+        Title: Name
+      - Name: Description
+        Title: Description
+      - Name: Units
+        Title: Units
+    Rows:
+      - Name: diagnostic_retrieval.tif
+        Description: Snow quality (0 - clean snow, 1 - polluted snow; 6 - polluted snow for which r0 was calculated and not derived from observations; 7 - polluted snow of calculated spherical albedo in bands 1 and 2 > 0.98 reprocessed as clean snow; 100 - sza>75, no retrival; 102 - TOA reflectance at band 21 < 0.1, no retrieval; 104 - grain_diameter < 0.1, no retrieval, potential cloud flag; -n - impossible to solve polluted snow albedo equation at band n)
+        Units:
+      - Name: grain_diameter.tif
+        Description: Grain diameter
+        Units: mm
+      - Name: albedo_bb_planar_sw.tif
+        Description: Shortwave broadband planar albedo
+        Units: 700-2400 nm
+      - Name: albedo_bb_spherical_sw.tif
+        Description: Shortwave broadband spherical albedo
+        Units: 700-2400 nm
+      - Name: snow_specific_surface_area.tif
+        Description: Snow specific surface area
+        Units: m2kg-1
+      - Name: r_TOA_01_valid.tif
+        Description: Top of the Atmosphere Reflectance (OLCI band 1)
+        Units:
+      - Name: r_TOA_06_valid.tif
+        Description: Top of the Atmosphere Reflectance (OLCI band 6)
+        Units:
+      - Name: r_TOA_17_valid.tif
+        Description: Top of the Atmosphere Reflectance (OLCI band 7)
+        Units:
+      - Name: r_TOA_21_valid.tif
+        Description: Top of the Atmosphere Reflectance (OLCI band 21)
+        Units:
+Pricing: |
+  Prices are defined based on the selected roi and resolution. Regardles of the size and resolution, the minimal cost for initiating request is 10 EDC credits.
 License: "[Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). Attribution: Contains modified Copernicus Sentinel data (year) processed by Sentinel Hub"
 Contact: https://forum.sentinel-hub.com/c/euro-data-cube/
 Provider: "[Sentinel Hub](https://www.sentinel-hub.com/)"
