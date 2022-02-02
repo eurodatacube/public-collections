@@ -33,7 +33,7 @@ Attributes:
       - Name: Projection
         Description: Target projection of the produced data. By default the results will be provided in EPSG:4326.
         Type: String
-ProducedResults:
+AdditionalInfo:
   Table:
     Columns:
       - Name: Name
