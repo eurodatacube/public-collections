@@ -132,7 +132,7 @@ CubeDimensions:
       - -180
       - 180
     reference_system:
-      $schema: https://proj.org/schemas/v0.2/projjson.schema.json
+      $schema: https://proj.org/schemas/v0.4/projjson.schema.json
       type: GeodeticCRS
       name: AUTO 42001 (Universal Transverse Mercator)
       datum:
@@ -170,7 +170,7 @@ CubeDimensions:
       - -56
       - 83
     reference_system:
-      $schema: https://proj.org/schemas/v0.2/projjson.schema.json
+      $schema: https://proj.org/schemas/v0.4/projjson.schema.json
       type: GeodeticCRS
       name: AUTO 42001 (Universal Transverse Mercator)
       datum:
