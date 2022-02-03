@@ -47,7 +47,7 @@ Resources:
     Type: sentinel-1-grd
     Notes: Global since October 2014
     Primary: true
-  - EndPoint: eocloud.sentinel-hub.com
+  - EndPoint: https://eocloud.sentinel-hub.com
     Name: Sentinel Hub
     Role: processor
     Type: sentinel-1-grd
