@@ -38,7 +38,7 @@ LicenseType: proprietary
 LicenseUrl: https://nsidc.org/about/use_copyright.html.
 Resources:
   - Group: Sentinel Hub Resources
-    EndPoint: creodias.sentinel-hub.com
+    EndPoint: https://creodias.sentinel-hub.com
     Name: Sentinel Hub
     Role: processor
     Type: byoc-10549890-13bb-4ec5-8ae0-df387bd0b785

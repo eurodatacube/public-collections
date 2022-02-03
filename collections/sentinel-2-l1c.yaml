@@ -42,7 +42,7 @@ Resources:
     Type: sentinel-2-l1c
     Notes: Global since November 2015
     Primary: true
-  - EndPoint: creodias.sentinel-hub.com
+  - EndPoint: https://creodias.sentinel-hub.com
     Name: Sentinel Hub
     Role: processor
     Type: sentinel-2-l1c
