@@ -52,7 +52,7 @@ Resources:
     Role: processor
     Type: sentinel-2-l1c
     Notes: Germany since July 2015
-  - EndPoint: shservices.mundiwebservices.com
+  - EndPoint: https://shservices.mundiwebservices.com
     Type: sentinel-2-l1c
     Name: Sentinel Hub
     Role: processor

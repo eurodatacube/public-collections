@@ -52,7 +52,7 @@ Resources:
     Role: processor
     Type: sentinel-1-grd
     Notes: Global since October 2014
-  - EndPoint: shservices.mundiwebservices.com
+  - EndPoint: https://shservices.mundiwebservices.com
     Name: Sentinel Hub
     Role: processor
     Type: sentinel-1-grd

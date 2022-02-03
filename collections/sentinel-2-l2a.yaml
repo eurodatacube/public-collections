@@ -43,7 +43,7 @@ Resources:
     Type: sentinel-2-l2a
     Notes: Europe since November 2016, Global since January 2017
     Primary: true
-  - EndPoint: shservices.mundiwebservices.com
+  - EndPoint: https://shservices.mundiwebservices.com
     Name: Sentinel Hub
     Role: processor
     Type: sentinel-2-l2a

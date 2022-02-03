@@ -20,7 +20,7 @@ License: |
  [GNU General Public License v3.0](https://github.com/hfisser/Truck_Detection_Sentinel2_COVID19/blob/master/LICENSE)
 Resources:
  - Group: Sentinel Hub Resources
- - EndPoint: shservices.mundiwebservices.com
+ - EndPoint: https://shservices.mundiwebservices.com
    Name: Sentinel Hub
    Role: processor
    Type: byoc-d50b41de-00d7-43b5-bb69-4468d738f771
