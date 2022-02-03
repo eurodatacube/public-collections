@@ -41,6 +41,21 @@ BandInformation:
           Notes:
 Variables:
 Attributes:       
+ProducedResults:
+     or
+ProducedResults:
+  Table:
+      Columns:
+        - Name: Name
+          Title: Name
+        - Name: Description
+          Title: Description
+        - Name: Units
+          Title: Units          
+      Rows:
+        - Name: 
+          Description: 
+          Units:
 Contact:  
 Provider: 
 ManagedBy: 
