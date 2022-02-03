@@ -7,7 +7,8 @@
     "postinstall": "husky install",
     "build": "./node_modules/gulp-cli/bin/gulp.js",
     "serve": "./node_modules/gulp-cli/bin/gulp.js serve",
-    "test": "jest"
+    "test": "jest",
+    "test-stac": "npx stac-node-validator ./_output/stac/*.json"
   },
   "author": "Joe Flasher",
   "license": "Apache-2.0",
@@ -30,6 +31,7 @@
     "natives": "^1.1.6",
     "object-path": ">=0.11.5",
     "require-dir": "^0.3.2",
+    "stac-node-validator": "^1.2.2",
     "yaml": "^1.4.0"
   },
   "dependencies": {
