@@ -49,7 +49,7 @@ Resources:
     Role: processor
     Type: sentinel-5p-l2
     Notes: Global since May 2018
-  - EndPoint: code-de.sentinel-hub.com
+  - EndPoint: https://code-de.sentinel-hub.com
     Name: Sentinel Hub
     Role: processor
     Type: sentinel-5p-l2

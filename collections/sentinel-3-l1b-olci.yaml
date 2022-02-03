@@ -46,7 +46,7 @@ Resources:
     Type: sentinel-3-olci
     Notes: Global since May 2016
     Primary: true
-  - EndPoint: code-de.sentinel-hub.com
+  - EndPoint: https://code-de.sentinel-hub.com
     Name: Sentinel Hub
     Role: processor
     Type: sentinel-3-olci
