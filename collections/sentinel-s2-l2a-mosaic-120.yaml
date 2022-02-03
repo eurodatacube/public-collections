@@ -81,7 +81,7 @@ LicenseType: proprietary
 LicenseUrl: https://www.sentinel-hub.com/tos/#collection
 Resources:
   - Group: Sentinel Hub Resources
-  - EndPoint: services.sentinel-hub.com
+  - EndPoint: https://services.sentinel-hub.com
     Name: Sentinel Hub
     Role: processor
     Type: byoc-484d8dbb-9e3e-41f2-b96b-35189d3ae37f

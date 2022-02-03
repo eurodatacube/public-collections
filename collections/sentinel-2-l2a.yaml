@@ -37,7 +37,7 @@ LicenseType: proprietary
 LicenseUrl: https://docs.sentinel-hub.com/api/latest/data/sentinel-2-l2a/#attribution-and-use
 Resources:
   - Group: Sentinel Hub Resources
-  - EndPoint: services.sentinel-hub.com
+  - EndPoint: https://services.sentinel-hub.com
     Name: Sentinel Hub
     Role: processor
     Type: sentinel-2-l2a

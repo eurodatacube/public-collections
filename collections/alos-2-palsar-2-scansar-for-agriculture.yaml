@@ -44,7 +44,7 @@ Tags:
 License: See [additional info](https://collections.eurodatacube.com/alos-2-palsar-2-scansar-for-agriculture/readme.html)
 Resources:
   - Group: Sentinel Hub Resources
-  - EndPoint: services.sentinel-hub.com
+  - EndPoint: https://services.sentinel-hub.com
     Name: Sentinel Hub
     Role: processor
     Type: byoc-7c90e9bb-0842-4f37-bb34-37b467eb5c95

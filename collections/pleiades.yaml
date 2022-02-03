@@ -33,7 +33,7 @@ License: |
   [License](https://docs.sentinel-hub.com/api/latest/data/airbus/pleiades/#attribution-and-use)
 Resources:
   - Group: Sentinel Hub Resources   
-    EndPoint: services.sentinel-hub.com
+    EndPoint: https://services.sentinel-hub.com
     Type: CUSTOM
     CollectionId: known to user after purchase
     Notes: Contains the data purchased by individual user
