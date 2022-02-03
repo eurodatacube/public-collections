@@ -554,7 +554,7 @@ Summaries:
     - http://www.opengis.net/def/crs/EPSG/0/32759
     - http://www.opengis.net/def/crs/EPSG/0/32760
     - http://www.opengis.net/def/crs/SR-ORG/0/98739
-  eo:gsd:
+  gsd:
     - 10
     - 30
     - 60
