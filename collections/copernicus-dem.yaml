@@ -36,7 +36,7 @@ LicenseType: proprietary
 LicenseUrl: https://spacedata.copernicus.eu/documents/20126/0/CSCDA_ESA_Mission-specific+Annex+%281%29.pdf/83b44c0a-244a-7ba3-b00c-b578a34e88a7?t=1604070311399
 Resources:
   - Group: Sentinel Hub Resources
-    EndPoint: services.sentinel-hub.com
+    EndPoint: https://services.sentinel-hub.com
     Name: Sentinel Hub
     Role: processor
     Type: dem
@@ -127,4 +127,4 @@ Summaries:
     - description: The mask of data/no data pixels.
       name: dataMask
 RegistryEntryAdded: "2020-11-30"
-RegistryEntryLastModified: "2022-01-27"
+RegistryEntryLastModified: "2022-02-09"

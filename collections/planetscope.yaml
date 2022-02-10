@@ -30,7 +30,7 @@ License: |
   [License](https://docs.sentinel-hub.com/api/latest/data/planet-scope/#attribution-and-use)
 Resources:
   - Group: Sentinel Hub Resources   
-    EndPoint: services.sentinel-hub.com
+    EndPoint: https://services.sentinel-hub.com
     Type: CUSTOM
     CollectionId: known to user after purchase
     Notes: Contains the data purchased by individual user
@@ -39,4 +39,4 @@ CustomScripts:
     URL: https://custom-scripts.sentinel-hub.com/#planet_scope
 
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2021-05-05"
+RegistryEntryLastModified: "2022-02-09"
