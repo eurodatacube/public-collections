@@ -21,7 +21,7 @@ License: |
  [CC BY-NC-ND 3.0](https://creativecommons.org/licenses/by-nc-nd/3.0/), Credit: Provided by ISMAR Istituto di Scienze Marine at Consiglio Nazionale delle Ricerche
 Resources:
  - Group: Sentinel Hub Resources
- - EndPoint: shservices.mundiwebservices.com
+ - EndPoint: https://shservices.mundiwebservices.com
    Name: Sentinel Hub
    Role: processor
    Type: byoc-45ce0fb2-fdaf-481e-b834-f728a8677e59
@@ -75,4 +75,4 @@ CubeDimensions:
     values:
       - tsmnn
 RegistryEntryAdded: "2021-05-07"
-RegistryEntryLastModified: "2022-01-27"
+RegistryEntryLastModified: "2022-02-09"

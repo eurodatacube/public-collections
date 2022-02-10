@@ -35,7 +35,7 @@ LicenseType: proprietary
 LicenseUrl: https://www.usgs.gov/centers/eros/data-citation?qt-science_support_page_related_con=0#qt-science_support_page_related_con
 Resources:
   - Group: Sentinel Hub Resources
-    EndPoint: services-uswest2.sentinel-hub.com
+    EndPoint: https://services-uswest2.sentinel-hub.com
     Name: Sentinel Hub
     Role: processor
     Type: landsat-tm-l1 
@@ -121,7 +121,7 @@ CubeDimensions:
       - -180
       - 180
     reference_system:
-      $schema: https://proj.org/schemas/v0.2/projjson.schema.json
+      $schema: https://proj.org/schemas/v0.4/projjson.schema.json
       type: GeodeticCRS
       name: AUTO 42001 (Universal Transverse Mercator)
       datum:
@@ -159,7 +159,7 @@ CubeDimensions:
       - -85
       - 85
     reference_system:
-      $schema: https://proj.org/schemas/v0.2/projjson.schema.json
+      $schema: https://proj.org/schemas/v0.4/projjson.schema.json
       type: GeodeticCRS
       name: AUTO 42001 (Universal Transverse Mercator)
       datum:
@@ -473,10 +473,10 @@ Summaries:
     - 'http://www.opengis.net/def/crs/EPSG/0/32759'
     - 'http://www.opengis.net/def/crs/EPSG/0/32760'
     - 'http://www.opengis.net/def/crs/SR-ORG/0/98739'
-  eo:gsd:
+  gsd:
     - 30
   platform:
     - landsat-4
     - landsat-5
 RegistryEntryAdded: "2021-05-12"
-RegistryEntryLastModified: "2022-01-26"
+RegistryEntryLastModified: "2022-02-09"

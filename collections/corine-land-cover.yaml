@@ -33,7 +33,7 @@ LicenseType: proprietary
 LicenseUrl: https://land.copernicus.eu/terms-of-use
 Resources:
   - Group: Sentinel Hub Resources
-    EndPoint: creodias.sentinel-hub.com
+    EndPoint: https://creodias.sentinel-hub.com
     Name: Sentinel Hub
     Role: processor
     Type: byoc-cbdba844-f86d-41dc-95ad-b3f7f12535e9
@@ -92,4 +92,4 @@ CubeDimensions:
       - CLC
       - dataMask
 RegistryEntryAdded: "2021-03-21"
-RegistryEntryLastModified: "2022-01-26"
+RegistryEntryLastModified: "2022-02-09"

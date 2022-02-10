@@ -48,7 +48,7 @@ LicenseType: proprietary
 LicenseUrl: https://www.copernicus.eu/en/about-copernicus/international-cooperation
 Resources:
   - Group: Sentinel Hub Resources   
-    EndPoint: creodias.sentinel-hub.com
+    EndPoint: https://creodias.sentinel-hub.com
     Name: Sentinel Hub
     Role: processor
     Type: byoc-9a525f12-33b6-424e-a0f2-d567eec0f277
@@ -150,4 +150,4 @@ CubeDimensions:
       - Extent
       - dataMask
 RegistryEntryAdded: "2021-04-19"
-RegistryEntryLastModified: "2022-01-26"
+RegistryEntryLastModified: "2022-02-09"

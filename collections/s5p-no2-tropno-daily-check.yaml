@@ -20,7 +20,7 @@ Tags:
 License: Full, open and free access
 Resources:
  - Group: Sentinel Hub Resources
- - EndPoint: shservices.mundiwebservices.com
+ - EndPoint: https://shservices.mundiwebservices.com
    Name: Sentinel Hub
    Role: processor
    Type: byoc-bb92282c-b580-4206-b843-76daffbb5b0a
@@ -74,4 +74,4 @@ CubeDimensions:
     values:
       - tropno2
 RegistryEntryAdded: "2021-05-07"
-RegistryEntryLastModified: "2022-01-27"
+RegistryEntryLastModified: "2022-02-09"

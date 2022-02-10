@@ -22,7 +22,7 @@ License: |
  Free of charge, worldwide, non-exclusive, royalty free and perpetual ([details](https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-land-monthly-means?tab=overview))
 Resources:
  - Group: Sentinel Hub Resources
- - EndPoint: shservices.mundiwebservices.com
+ - EndPoint: https://shservices.mundiwebservices.com
    Name: Sentinel Hub
    Role: processor
    Type: byoc-e54d24b0-3a92-41ea-a759-c954e3a9203e
@@ -76,4 +76,4 @@ CubeDimensions:
     values:
       - windu10m
 RegistryEntryAdded: "2021-05-07"
-RegistryEntryLastModified: "2022-01-27"
+RegistryEntryLastModified: "2022-02-09"

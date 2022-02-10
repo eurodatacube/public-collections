@@ -53,7 +53,7 @@ License: |
  Full, open and free access
 Resources:
   - Group: Sentinel Hub Resources
-  - EndPoint: shservices.mundiwebservices.com
+  - EndPoint: https://shservices.mundiwebservices.com
     Name: Sentinel Hub
     Role: processor
     Type: byoc-dc461d36-d855-4021-93e6-686f08d48f3d
@@ -127,4 +127,4 @@ CubeDimensions:
     values:
       - chla
 RegistryEntryAdded: "2021-05-26"
-RegistryEntryLastModified: "2022-01-27"
+RegistryEntryLastModified: "2022-02-09"

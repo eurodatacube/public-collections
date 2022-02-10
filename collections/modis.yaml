@@ -38,7 +38,7 @@ LicenseType: proprietary
 LicenseUrl: https://www.usgs.gov/centers/eros/data-citation?qt-science_support_page_related_con=0#qt-science_support_page_related_con
 Resources:
   - Group: Sentinel Hub Resources
-    EndPoint: services-uswest2.sentinel-hub.com
+    EndPoint: https://services-uswest2.sentinel-hub.com
     Name: Sentinel Hub
     Role: processor
     Type: modis 
@@ -365,10 +365,10 @@ Summaries:
     - 'http://www.opengis.net/def/crs/EPSG/0/32759'
     - 'http://www.opengis.net/def/crs/EPSG/0/32760'
     - 'http://www.opengis.net/def/crs/SR-ORG/0/98739'
-  eo:gsd:
+  gsd:
     - 500
   platform:
     - Terra
     - Aqua
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2022-01-27"
+RegistryEntryLastModified: "2022-02-09"

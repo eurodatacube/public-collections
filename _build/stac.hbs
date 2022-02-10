@@ -39,7 +39,8 @@
     {
       "href": "{{{find WMTS 'href' 'href'}}}",
       "rel": "wmts",
-      "wmts:layer": "{{{find WMTS 'layer_id' 'layer_id'}}}"
+      "wmts:layer": "{{{find WMTS 'layer_id' 'layer_id'}}}",
+      "wmts:dimensions": {{{copyJson (find WMTS 'dimensions' 'dimensions')}}}
     },
     {{/if}}
 {{#each Configurations}}
@@ -47,7 +48,9 @@
 {{/each}}
     {
       "href": "{{{escapeJson LicenseUrl}}}",
-      "rel": "license"
+      "rel": "license",
+      "title": "License",
+      "type": "text/html"
     }
   ],
   "cube:dimensions": {{{copyJson CubeDimensions}}},
