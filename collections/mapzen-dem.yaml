@@ -50,6 +50,11 @@ Resources:
 CustomScripts:
     Title: Collection of DEM custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#dem
+WMTS:
+  - href: https://services-uswest2.sentinel-hub.com/ogc/wmts/5b860c57-bf48-401c-b755-6a9edccb9bd6
+    layer_id: TOPOGRAPHIC
+    dimensions: 
+      warnings: true
 Configurations: 
   - layer_name: Color
     evalscript_url: "https://custom-scripts.sentinel-hub.com/dem/dem-color/script.js"
