@@ -56,6 +56,11 @@ Resources:
 CustomScripts:
     Title: Collection of Sentinel-3 custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#sentinel-3
+WMTS:
+  - href: https://creodias.sentinel-hub.com/ogc/wmts/cf579fd9-135d-4597-b7dc-72e67bb5cf13
+    layer_id: F1-BRIGHTNESS-TEMPERATURE
+    dimensions: 
+      warnings: true
 Configurations: 
   - layer_name: False Color based on bands S3, S2, and S1
     evalscript_url: "https://custom-scripts.sentinel-hub.com/slstr/false-color-321/script.js"
