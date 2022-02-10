@@ -47,6 +47,11 @@ Resources:
 CustomScripts:
     Title: Collection of Landsat 4-5 TM custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#landsat-4-5-tm
+WMTS:
+  - href: https://services-uswest2.sentinel-hub.com/ogc/wmts/3ef5a237-d4de-4572-a685-789ea86bebc1
+    layer_id: TRUE-COLOR
+    dimensions: 
+      warnings: true
 Configurations:
   - layer_name: True color
     evalscript_url: "https://custom-scripts.sentinel-hub.com/landsat-4-5-tm/true-color/script.js"
