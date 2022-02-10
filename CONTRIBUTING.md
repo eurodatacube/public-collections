@@ -123,7 +123,7 @@ RegistryEntryLastModified: "2021-03-21"
 |**Tags**|List of strings|Tags that topically describe the collection. Tags must include either  `open data`or `commercial data`  ,  `xcube` or `sentinel hub` or `geodb` , `raster` or `vector`  ,  `systematic` or `on-demand`|
 |**Resources**|List of lists|A list of resources to access the collections. Each resource entry requires collection specific metadata as below:|
 |**Resources > Group**|String| Category of the resources. Must either be `Sentinel Hub Resources` or `xcube Resources` or `geoDB Resources` |
-|**Resources > Endpoint**|String|endpoint where the Sentinel Hub collection can be accessed .|
+|**Resources > Endpoint**|String|endpoint where the Sentinel Hub collection can be accessed. Should also include the protocol (`https://`).|
 |**Resources > Type**|String|Sentinel Hub Collection identifier name e.g S1LC|
 |**Resources > ColllectionId**|String|Sentinel Hub BYOC collection ID|
 |**Resources > Database**|String|Name of geoDB database of the collection|
