@@ -56,6 +56,11 @@ Resources:
 CustomScripts:
     Title: Collection of Sentinel-3 custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#sentinel-3
+WMTS:
+  - href: https://creodias.sentinel-hub.com/ogc/wmts/b486fc4b-9c05-49f0-8360-a31df5c691c0
+    layer_id: TRUE-COLOR
+    dimensions: 
+      warnings: true
 Configurations: 
   - layer_name: True color - enhanced
     evalscript_url: "https://custom-scripts.sentinel-hub.com/sentinel-3/enhanced_true_color-2/script.js"
