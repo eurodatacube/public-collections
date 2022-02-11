@@ -53,6 +53,11 @@ Resources:
 CustomScripts:
   Title: Collection of Sentinel-2 custom scripts
   URL: https://custom-scripts.sentinel-hub.com/#sentinel-2
+WMTS:
+  - href: https://services.sentinel-hub.com/ogc/wmts/7d34803f-511c-4caf-9438-6d72f32c8174
+    layer_id: TRUE-COLOR
+    dimensions: 
+      warnings: true
 Configurations:
   - layer_name: "True Color"
     evalscript_url: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/true_color/script.js"

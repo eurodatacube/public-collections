@@ -49,6 +49,11 @@ Resources:
 CustomScripts:
     Title: Collection of MODIS custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#modis
+WMTS:
+  - href: https://services-uswest2.sentinel-hub.com/ogc/wmts/ce4588f8-5f20-4334-9c07-b36ac0765768
+    layer_id: TRUE-COLOR
+    dimensions: 
+      warnings: true
 Configurations:
   - layer_name: True Color
     evalscript_url: "https://custom-scripts.sentinel-hub.com/modis/true-color/script.js"

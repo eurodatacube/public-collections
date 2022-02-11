@@ -41,6 +41,11 @@ Resources:
 CustomScripts:
     Title: Collection of Landsat 7 ETM+ custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#landsat-7-etm
+WMTS:
+  - href: https://services-uswest2.sentinel-hub.com/ogc/wmts/457c6893-85cb-435c-9a63-9555da68c56b
+    layer_id: TRUE-COLOR
+    dimensions: 
+      warnings: true
 Configurations:
   - layer_name: True color
     evalscript_url: "https://custom-scripts.sentinel-hub.com/landsat-7-etm/true-color/script.js"

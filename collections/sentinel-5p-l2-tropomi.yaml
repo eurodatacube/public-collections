@@ -59,6 +59,11 @@ Resources:
 CustomScripts:
     Title: Collection of Sentinel-5P custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#sentinel-5P
+WMTS:
+  - href: https://creodias.sentinel-hub.com/ogc/wmts/9a4227b9-0b79-41f9-ba6f-d1e1257a8fee
+    layer_id: FORMALDEHYDE
+    dimensions: 
+      warnings: true
 Configurations: 
   - layer_name: Nitrogen Dioxide tropospheric column
     evalscript_url: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-5p/nitrogen_dioxide_tropospheric_column/script.js"
