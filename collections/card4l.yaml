@@ -31,8 +31,8 @@ BandInformation:
         - Name: ANGLE
           Description: Local incidence angle (degree).
 Contact: https://forum.sentinel-hub.com/c/euro-data-cube/
-Provider: "[Digital Earth Africa](https://www.digitalearthafrica.org/)"
-ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
+Provider: "[Sentinel Hub GmbH](https://www.sentinel-hub.at/), (contributing partners: [Geoscience Australia](http://www.ga.gov.au/) and [ESA](https://www.esa.int/))"
+ManagedBy: "[Sentinel Hub GmbH](https://www.sentinel-hub.at/)"
 Tags:
   - sentinel hub
   - xcube
@@ -118,5 +118,5 @@ CubeDimensions:
       - ANGLE 
       - MASK
       - dataMask
-RegistryEntryAdded: "2022-02-10"
-RegistryEntryLastModified: "2022-02-10"
+RegistryEntryAdded: "2022-02-11"
+RegistryEntryLastModified: "2022-02-11"
