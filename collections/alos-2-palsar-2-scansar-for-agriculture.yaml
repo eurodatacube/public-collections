@@ -63,7 +63,7 @@ Configurations:
     sentinelhub:mosaicking_order: "mostRecent"
     sentinelhub:upsampling: "BICUBIC"
   - href: "https://raw.githubusercontent.com/eurodatacube/public-collections/main/collections/alos-2-palsar-2-scansar-for-agriculture/hv_script.js"
-    rel: "processing-expression    "
+    rel: "processing-expression"
     type: "application/javascript"
     title: "Evalscript to generate HV imagery"
     sentinelhub:layer_name: "HV"
