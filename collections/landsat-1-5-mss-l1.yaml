@@ -51,33 +51,33 @@ Configurations:
     type: "text/html"
     title: "Details about running Evalscripts"
   - href: "https://custom-scripts.sentinel-hub.com/landsat-1-5-mss/false-color-nir/script.js"
-    rel: processing-expression
+    rel: "processing-expression"
     type: "application/javascript"
     title: "Evalscript to generate False Color Near Infrared imagery"
-    sentinelhub:layer_name: False Color Near Infrared
-    sentinelhub:mosaicking_order: mostRecent
-    sentinelhub:upsampling: BICUBIC
+    sentinelhub:layer_name: "False Color Near Infrared"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
   - href: "https://custom-scripts.sentinel-hub.com/landsat-1-5-mss/false-color-ultrared/script.js"
-    rel: processing-expression
+    rel: "processing-expression"
     type: "application/javascript"
     title: "Evalscript to generate False Color Ultra Red imagery"
-    sentinelhub:layer_name: False Color Ultra Red
-    sentinelhub:mosaicking_order: mostRecent
-    sentinelhub:upsampling: BICUBIC
+    sentinelhub:layer_name: "False Color Ultra Red"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
   - href: "https://custom-scripts.sentinel-hub.com/landsat-1-5-mss/ndvi/script.js"
-    rel: processing-expression
+    rel: "processing-expression"
     type: "application/javascript"
     title: "Evalscript to generate NDVI imagery"
-    sentinelhub:layer_name: NDVI
-    sentinelhub:mosaicking_order: mostRecent
-    sentinelhub:upsampling: NEAREST
+    sentinelhub:layer_name: "NDVI"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "NEAREST"
   - href: "https://custom-scripts.sentinel-hub.com/landsat-1-5-mss/ndwi/script.js"
-    rel: processing-expression
+    rel: "processing-expression"
     type: "application/javascript"
     title: "Evalscript to generate NDWI imagery"
     sentinelhub:layer_name: "NDWI"
-    sentinelhub:mosaicking_order: mostRecent
-    sentinelhub:upsampling: NEAREST
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "NEAREST"
 Extent:
   spatial:
     bbox:
