@@ -50,19 +50,25 @@ Resources:
     Type: byoc-7c90e9bb-0842-4f37-bb34-37b467eb5c95
     CollectionId: 7c90e9bb-0842-4f37-bb34-37b467eb5c95
     Primary: true
-Configurations:     
-  - layer_name: HH
-    evalscript_url: "https://raw.githubusercontent.com/eurodatacube/public-collections/main/collections/alos-2-palsar-2-scansar-for-agriculture/hh_script.js"
-    mosaicking_order: mostRecent
-    upsampling: BICUBIC
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
-  - layer_name: HV
-    evalscript_url: "https://raw.githubusercontent.com/eurodatacube/public-collections/main/collections/alos-2-palsar-2-scansar-for-agriculture/hv_script.js"
-    mosaicking_order: mostRecent
-    upsampling: BICUBIC
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression    
+Configurations:
+  - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
+    rel: "about"
+    type: "text/html"
+    title: "Details about running Evalscripts"
+  - href: "https://raw.githubusercontent.com/eurodatacube/public-collections/main/collections/alos-2-palsar-2-scansar-for-agriculture/hh_script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate HH imagery"
+    sentinelhub:layer_name: "HH"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
+  - href: "https://raw.githubusercontent.com/eurodatacube/public-collections/main/collections/alos-2-palsar-2-scansar-for-agriculture/hv_script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate HV imagery"
+    sentinelhub:layer_name: "HV"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
 Extent:
   spatial:
     bbox:
@@ -110,4 +116,4 @@ CubeDimensions:
       - HH
       - HV
 RegistryEntryAdded: "2021-06-09"
-RegistryEntryLastModified: "2022-02-09"
+RegistryEntryLastModified: "2022-02-10"

@@ -53,48 +53,59 @@ WMTS:
     dimensions: 
       warnings: true
 Configurations:
-  - layer_name: True color
-    evalscript_url: "https://custom-scripts.sentinel-hub.com/landsat-4-5-tm/true-color/script.js"
-    mosaicking_order: mostRecent
-    upsampling: BICUBIC
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
-  - layer_name: False color
-    evalscript_url: "https://custom-scripts.sentinel-hub.com/landsat-4-5-tm/false-color/script.js"
-    mosaicking_order: mostRecent
-    upsampling: BICUBIC
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
-  - layer_name: SWIR
-    evalscript_url: "https://custom-scripts.sentinel-hub.com/landsat-4-5-tm/swir/script.js"
-    mosaicking_order: mostRecent
-    upsampling: BICUBIC
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
-  - layer_name: NDVI
-    evalscript_url: "https://custom-scripts.sentinel-hub.com/landsat-4-5-tm/ndvi/script.js"
-    mosaicking_order: mostRecent
-    upsampling: NEAREST
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
-  - layer_name: NDMI
-    evalscript_url: "https://custom-scripts.sentinel-hub.com/landsat-4-5-tm/ndmi/script.js"
-    mosaicking_order: mostRecent
-    upsampling: NEAREST
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
-  - layer_name: NDWI
-    evalscript_url: "https://custom-scripts.sentinel-hub.com/landsat-4-5-tm/ndwi/script.js"
-    mosaicking_order: mostRecent
-    upsampling: NEAREST
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
-  - layer_name: Thermal
-    evalscript_url: "https://custom-scripts.sentinel-hub.com/landsat-4-5-tm/thermal/script.js"
-    mosaicking_order: mostRecent
-    upsampling: BICUBIC
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
+  - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
+    rel: "about"
+    type: "text/html"
+    title: "Details about running Evalscripts"
+  - href: "https://custom-scripts.sentinel-hub.com/landsat-4-5-tm/true-color/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate True color imagery"
+    sentinelhub:layer_name: "True color"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
+  - href: "https://custom-scripts.sentinel-hub.com/landsat-4-5-tm/false-color/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate False color imagery"
+    sentinelhub:layer_name: "False color"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
+  - href: "https://custom-scripts.sentinel-hub.com/landsat-4-5-tm/swir/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate SWIR imagery"
+    sentinelhub:layer_name: "SWIR"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
+  - href: "https://custom-scripts.sentinel-hub.com/landsat-4-5-tm/ndvi/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate NDVI imagery"
+    sentinelhub:layer_name: "NDVI"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "NEAREST"
+  - href: "https://custom-scripts.sentinel-hub.com/landsat-4-5-tm/ndmi/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate NDMI imagery"
+    sentinelhub:layer_name: "NDMI"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "NEAREST"
+  - href: "https://custom-scripts.sentinel-hub.com/landsat-4-5-tm/ndwi/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate NDWI imagery"
+    sentinelhub:layer_name: "NDWI"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "NEAREST"
+  - href: "https://custom-scripts.sentinel-hub.com/landsat-4-5-tm/thermal/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate Thermal imagery"
+    sentinelhub:layer_name: "Thermal"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
 Extent:
   spatial:
     bbox:
@@ -522,4 +533,4 @@ Summaries:
     - landsat-4
     - landsat-5
 RegistryEntryAdded: "2021-05-12"
-RegistryEntryLastModified: "2022-02-09"
+RegistryEntryLastModified: "2022-02-10"

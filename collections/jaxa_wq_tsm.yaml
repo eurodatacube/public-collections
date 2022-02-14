@@ -56,13 +56,18 @@ Resources:
     Type: byoc-4f5f67f1-5715-4f2b-8c98-ae57948ee2f5
     CollectionId: 4f5f67f1-5715-4f2b-8c98-ae57948ee2f5
     Primary: true
-Configurations:     
-  - layer_name: Total Suspended Matter weekly anomaly
-    evalscript_url: "https://raw.githubusercontent.com/eurodatacube/public-collections/main/collections/jaxa_wq_tsm/script.js"
-    mosaicking_order: mostRecent
-    upsampling: BICUBIC
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
+Configurations:
+  - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
+    rel: "about"
+    type: "text/html"
+    title: "Details about running Evalscripts"
+  - href: "https://raw.githubusercontent.com/eurodatacube/public-collections/main/collections/jaxa_wq_tsm/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate Total Suspended Matter weekly anomaly imagery"
+    sentinelhub:layer_name: "Total Suspended Matter weekly anomaly"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
 Extent:
   spatial:
     bbox:
@@ -119,4 +124,4 @@ CubeDimensions:
     values:
       - tsm
 RegistryEntryAdded: "2021-05-26"
-RegistryEntryLastModified: "2022-02-09"
+RegistryEntryLastModified: "2022-02-10"

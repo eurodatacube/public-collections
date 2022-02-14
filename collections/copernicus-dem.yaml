@@ -53,28 +53,35 @@ WMTS:
     layer_id: TOPOGRAPHIC
     dimensions: 
       warnings: true
-Configurations:     
-  - layer_name: Color
-    evalscript_url: "https://custom-scripts.sentinel-hub.com/dem/dem-color/script.js"
-    mosaicking_order: mostRecent
-    upsampling: BICUBIC
-    dem_instance: COPERNICUS_30
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
-  - layer_name: Grayscale
-    evalscript_url: "https://custom-scripts.sentinel-hub.com/dem/dem-grayscale/script.js"
-    mosaicking_order: mostRecent
-    upsampling: BICUBIC
-    dem_instance: COPERNICUS_30
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
-  - layer_name: Sepia
-    evalscript_url: "https://custom-scripts.sentinel-hub.com/dem/dem-sepia/script.js"
-    mosaicking_order: mostRecent
-    upsampling: BICUBIC
-    dem_instance: COPERNICUS_30
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
+Configurations:
+  - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
+    rel: "about"
+    type: "text/html"
+    title: "Details about running Evalscripts"
+  - href: "https://custom-scripts.sentinel-hub.com/dem/dem-color/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate Color imagery"
+    sentinelhub:layer_name: "Color"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
+    sentinelhub:dem_instance: "COPERNICUS_30"
+  - href: "https://custom-scripts.sentinel-hub.com/dem/dem-grayscale/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate Grayscale imagery"
+    sentinelhub:layer_name: "Grayscale"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
+    sentinelhub:dem_instance: "COPERNICUS_30"
+  - href: "https://custom-scripts.sentinel-hub.com/dem/dem-sepia/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate Sepia imagery"
+    sentinelhub:layer_name: "Sepia"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
+    sentinelhub:dem_instance: "COPERNICUS_30"
 DataAtWork:
   Tutorials:
     - Title: How to access DEM data through Sentinel Hub API
@@ -132,4 +139,4 @@ Summaries:
     - description: The mask of data/no data pixels.
       name: dataMask
 RegistryEntryAdded: "2020-11-30"
-RegistryEntryLastModified: "2022-02-09"
+RegistryEntryLastModified: "2022-02-10"

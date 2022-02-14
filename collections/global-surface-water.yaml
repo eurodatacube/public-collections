@@ -60,43 +60,53 @@ Resources:
 CustomScripts:
     Title: Collection of Copernicus services data custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#copernicus_services
-Configurations: 
-  - layer_name: Global Surface Water Occurrence
-    evalscript_url: "https://custom-scripts.sentinel-hub.com/copernicus_services/global_surface_water_occurrence/script.js"
-    mosaicking_order: mostRecent
-    upsampling: BICUBIC
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
-  - layer_name: Global Surface Water Occurrence Change Intensity
-    evalscript_url: "https://custom-scripts.sentinel-hub.com/copernicus_services/global_surface_water_change/script.js"
-    mosaicking_order: mostRecent
-    upsampling: BICUBIC
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
-  - layer_name: Global Surface Water Seasonality
-    evalscript_url: "https://custom-scripts.sentinel-hub.com/copernicus_services/global_surface_water_seasonality/script.js"
-    mosaicking_order: mostRecent
-    upsampling: BICUBIC
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
-  - layer_name: Global Surface Water Recurrence
-    evalscript_url: "https://custom-scripts.sentinel-hub.com/copernicus_services/global_surface_water_recurrence/script.js"
-    mosaicking_order: mostRecent
-    upsampling: BICUBIC
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
-  - layer_name: Global Surface Water Transitions
-    evalscript_url: "hhttps://custom-scripts.sentinel-hub.com/copernicus_services/global_surface_water_transitions/script.js"
-    mosaicking_order: mostRecent
-    upsampling: BICUBIC
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
-  - layer_name: Global Surface Water Extent
-    evalscript_url: "https://custom-scripts.sentinel-hub.com/copernicus_services/global_surface_water_extent/script.js"
-    mosaicking_order: mostRecent
-    upsampling: BICUBIC
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
+Configurations:
+  - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
+    rel: "about"
+    type: "text/html"
+    title: "Details about running Evalscripts"
+  - href: "https://custom-scripts.sentinel-hub.com/copernicus_services/global_surface_water_occurrence/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate Global Surface Water Occurrence imagery"
+    sentinelhub:layer_name: "Global Surface Water Occurrence"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
+  - href: "https://custom-scripts.sentinel-hub.com/copernicus_services/global_surface_water_change/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate Global Surface Water Occurrence Change Intensity imagery"
+    sentinelhub:layer_name: "Global Surface Water Occurrence Change Intensity"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
+  - href: "https://custom-scripts.sentinel-hub.com/copernicus_services/global_surface_water_seasonality/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate Global Surface Water Seasonality imagery"
+    sentinelhub:layer_name: "Global Surface Water Seasonality"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
+  - href: "https://custom-scripts.sentinel-hub.com/copernicus_services/global_surface_water_recurrence/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate Global Surface Water Recurrence imagery"
+    sentinelhub:layer_name: "Global Surface Water Recurrence"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
+  - href: "hhttps://custom-scripts.sentinel-hub.com/copernicus_services/global_surface_water_transitions/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate Global Surface Water Transitions imagery"
+    sentinelhub:layer_name: "Global Surface Water Transitions"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
+  - href: "https://custom-scripts.sentinel-hub.com/copernicus_services/global_surface_water_extent/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate Global Surface Water Extent imagery"
+    sentinelhub:layer_name: "Global Surface Water Extent"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
 Extent:
   spatial:
     bbox:
@@ -140,4 +150,4 @@ CubeDimensions:
       - Extent
       - dataMask
 RegistryEntryAdded: "2021-04-19"
-RegistryEntryLastModified: "2022-02-09"
+RegistryEntryLastModified: "2022-02-10"

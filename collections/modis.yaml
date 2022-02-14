@@ -55,48 +55,59 @@ WMTS:
     dimensions: 
       warnings: true
 Configurations:
-  - layer_name: True Color
-    evalscript_url: "https://custom-scripts.sentinel-hub.com/modis/true-color/script.js"
-    mosaicking_order: mostRecent
-    upsampling: BICUBIC
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
-  - layer_name: False color
-    evalscript_url: "https://custom-scripts.sentinel-hub.com/modis/false-color/script.js"
-    mosaicking_order: mostRecent
-    upsampling: BICUBIC
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
-  - layer_name : SWIR
-    evalscript_url: "https://custom-scripts.sentinel-hub.com/modis/swir/script.js"
-    mosaicking_order: mostRecent
-    upsampling: BICUBIC
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
-  - layer_name: NDVI
-    evalscript_url: "https://custom-scripts.sentinel-hub.com/modis/ndvi/script.js"
-    mosaicking_order: mostRecent
-    upsampling: NEAREST
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
-  - layer_name: "NDWI"
-    evalscript_url: "https://custom-scripts.sentinel-hub.com/modis/ndwi/script.js"
-    mosaicking_order: mostRecent
-    upsampling: NEAREST
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
-  - layer_name: NDSI
-    evalscript_url: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/ndsi-visualized/script.js"
-    mosaicking_order: mostRecent
-    upsampling: NEAREST
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
-  - layer_name: Salinity Index
-    evalscript_url: "https://custom-scripts.sentinel-hub.com/modis/salinity-index/script.js"
-    mosaicking_order: mostRecent
-    upsampling: BICUBIC
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression  
+  - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
+    rel: "about"
+    type: "text/html"
+    title: "Details about running Evalscripts"
+  - href: "https://custom-scripts.sentinel-hub.com/modis/true-color/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate True Color imagery"
+    sentinelhub:layer_name: "True Color"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
+  - href: "https://custom-scripts.sentinel-hub.com/modis/false-color/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate False color imagery"
+    sentinelhub:layer_name: "False color"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
+  - href: "https://custom-scripts.sentinel-hub.com/modis/swir/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate SWIR imagery"
+    sentinelhub:layer_name: "SWIR"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
+  - href: "https://custom-scripts.sentinel-hub.com/modis/ndvi/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate NDVI imagery"
+    sentinelhub:layer_name: "NDVI"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "NEAREST"
+  - href: "https://custom-scripts.sentinel-hub.com/modis/ndwi/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate NDWI imagery"
+    sentinelhub:layer_name: "NDWI"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "NEAREST"
+  - href: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/ndsi-visualized/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate NDSI imagery"
+    sentinelhub:layer_name: "NDSI"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "NEAREST"
+  - href: "https://custom-scripts.sentinel-hub.com/modis/salinity-index/script.js"
+    rel: "processing-expression  "
+    type: "application/javascript"
+    title: "Evalscript to generate Salinity Index imagery"
+    sentinelhub:layer_name: "Salinity Index"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
 Extent:
   spatial:
     bbox:
@@ -365,4 +376,4 @@ Summaries:
     - Terra
     - Aqua
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2022-02-09"
+RegistryEntryLastModified: "2022-02-10"

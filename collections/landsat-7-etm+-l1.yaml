@@ -47,42 +47,52 @@ WMTS:
     dimensions: 
       warnings: true
 Configurations:
-  - layer_name: True color
-    evalscript_url: "https://custom-scripts.sentinel-hub.com/landsat-7-etm/true-color/script.js"
-    mosaicking_order: mostRecent
-    upsampling: BICUBIC
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
-  - layer_name: False color
-    evalscript_url: "https://custom-scripts.sentinel-hub.com/landsat-7-etm/false-color/script.js"
-    mosaicking_order: mostRecent
-    upsampling: BICUBIC
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
-  - layer_name: SWIR
-    evalscript_url: "https://custom-scripts.sentinel-hub.com/landsat-7-etm/swir/script.js"
-    mosaicking_order: mostRecent
-    upsampling: BICUBIC
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
-  - layer_name: NDVI
-    evalscript_url: "https://custom-scripts.sentinel-hub.com/landsat-7-etm/ndvi/script.js"
-    mosaicking_order: mostRecent
-    upsampling: NEAREST
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
-  - layer_name: Moisture Index
-    evalscript_url: "https://custom-scripts.sentinel-hub.com/landsat-7-etm/moisture-index/script.js"
-    mosaicking_order: mostRecent
-    upsampling: NEAREST
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
-  - layer_name: NDWI
-    evalscript_url: "https://custom-scripts.sentinel-hub.com/landsat-7-etm/ndwi/script.js"
-    mosaicking_order: mostRecent
-    upsampling: NEAREST
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
+  - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
+    rel: "about"
+    type: "text/html"
+    title: "Details about running Evalscripts"
+  - href: "https://custom-scripts.sentinel-hub.com/landsat-7-etm/true-color/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate True color imagery"
+    sentinelhub:layer_name: "True color"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
+  - href: "https://custom-scripts.sentinel-hub.com/landsat-7-etm/false-color/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate False color imagery"
+    sentinelhub:layer_name: "False color"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
+  - href: "https://custom-scripts.sentinel-hub.com/landsat-7-etm/swir/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate SWIR imagery"
+    sentinelhub:layer_name: "SWIR"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
+  - href: "https://custom-scripts.sentinel-hub.com/landsat-7-etm/ndvi/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate NDVI imagery"
+    sentinelhub:layer_name: "NDVI"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "NEAREST"
+  - href: "https://custom-scripts.sentinel-hub.com/landsat-7-etm/moisture-index/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate Moisture Index imagery"
+    sentinelhub:layer_name: "Moisture Index"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "NEAREST"
+  - href: "https://custom-scripts.sentinel-hub.com/landsat-7-etm/ndwi/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate NDWI imagery"
+    sentinelhub:layer_name: "NDWI"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "NEAREST"
 Extent:
   spatial:
     bbox:
@@ -488,4 +498,4 @@ Summaries:
   platform:
     - landsat-7
 RegistryEntryAdded: "2021-07-16"
-RegistryEntryLastModified: "2022-02-09"
+RegistryEntryLastModified: "2022-02-10"

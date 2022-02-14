@@ -49,13 +49,18 @@ Resources:
     Type: byoc-4e6463e6-a328-4618-832c-fa03ed6852f1
     CollectionId: 4e6463e6-a328-4618-832c-fa03ed6852f1
     Primary: true
-Configurations:     
-  - layer_name: Reference Rice Paddy Map
-    evalscript_url: "https://raw.githubusercontent.com/eurodatacube/public-collections/main/collections/alos-2-palsar-2-scansar-rice-fields-map/script.js"
-    mosaicking_order: mostRecent
-    upsampling: BICUBIC
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
+Configurations:
+  - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
+    rel: "about"
+    type: "text/html"
+    title: "Details about running Evalscripts"
+  - href: "https://raw.githubusercontent.com/eurodatacube/public-collections/main/collections/alos-2-palsar-2-scansar-rice-fields-map/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate Reference Rice Paddy Map imagery"
+    sentinelhub:layer_name: "Reference Rice Paddy Map"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
 Extent:
   spatial:
     bbox:
@@ -108,4 +113,4 @@ CubeDimensions:
     values:
       - RF
 RegistryEntryAdded: "2021-06-09"
-RegistryEntryLastModified: "2022-02-09"
+RegistryEntryLastModified: "2022-02-10"

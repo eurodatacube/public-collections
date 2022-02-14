@@ -42,13 +42,18 @@ Resources:
   - Group: xcube Resources
     DatasetName: CUSTOM
     CollectionId: cbdba844-f86d-41dc-95ad-b3f7f12535e9
-Configurations: 
-  - layer_name: Corine Land Cover
-    evalscript_url: "https://custom-scripts.sentinel-hub.com/copernicus_services/corine_land_cover/script.js"
-    mosaicking_order: mostRecent
-    upsampling: BICUBIC
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
+Configurations:
+  - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
+    rel: "about"
+    type: "text/html"
+    title: "Details about running Evalscripts"
+  - href: "https://custom-scripts.sentinel-hub.com/copernicus_services/corine_land_cover/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate Corine Land Cover imagery"
+    sentinelhub:layer_name: "Corine Land Cover"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
 Extent:
   spatial:
     bbox:
@@ -87,4 +92,4 @@ CubeDimensions:
       - CLC
       - dataMask
 RegistryEntryAdded: "2021-03-21"
-RegistryEntryLastModified: "2022-02-09"
+RegistryEntryLastModified: "2022-02-10"

@@ -74,12 +74,17 @@ CustomScripts:
     Title: Collection of Copernicus services data custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#copernicus_services
 Configurations:
-  - layer_name: "PPI"
-    evalscript_url: "https://custom-scripts.sentinel-hub.com/custom-scripts/copernicus_services/st-ppi/script.js"
-    mosaicking_order: mostRecent
-    upsampling: BICUBIC
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
+  - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
+    rel: "about"
+    type: "text/html"
+    title: "Details about running Evalscripts"
+  - href: "https://custom-scripts.sentinel-hub.com/custom-scripts/copernicus_services/st-ppi/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate PPI imagery"
+    sentinelhub:layer_name: "PPI"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
 Extent:
   spatial:
     bbox:
@@ -118,4 +123,4 @@ CubeDimensions:
       - QFLAG
       - dataMask
 RegistryEntryAdded: '2021-10-14'
-RegistryEntryLastModified: "2022-02-09"
+RegistryEntryLastModified: "2022-02-10"

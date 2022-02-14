@@ -64,67 +64,74 @@ WMTS:
     layer_id: FORMALDEHYDE
     dimensions: 
       warnings: true
-Configurations: 
-  - layer_name: Nitrogen Dioxide tropospheric column
-    evalscript_url: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-5p/nitrogen_dioxide_tropospheric_column/script.js"
-    mosaicking_order: mostRecent
-    upsampling: BICUBIC
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
-  - layer_name: Nitrogen Dioxide
-    evalscript_url: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-5p/nitrogen-dioxide/script.js"
-    mosaicking_order: mostRecent
-    upsampling: BICUBIC
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
-  - layer_name: Carbon Monoxide - CO
-    evalscript_url: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-5p/carbon-monoxide/script.js"
-    mosaicking_order: mostRecent
-    upsampling: BICUBIC
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
-  - layer_name: Methane - CH4
-    evalscript_url: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-5p/methane/script.js"
-    mosaicking_order: mostRecent
-    upsampling: BICUBIC
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
-  - layer_name: Sulphur Dioxide - SO2
-    evalscript_url: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-5p/sulphur-dioxide/script.js"
-    mosaicking_order: mostRecent
-    upsampling: BICUBIC
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
-  - layer_name: Ozone - O3
-    evalscript_url: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-5p/ozone/script.js"
-    mosaicking_order: mostRecent
-    upsampling: BICUBIC
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
-  - layer_name: Formaldehyde - HCHO
-    evalscript_url: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-5p/formaldehyde/script.js"
-    mosaicking_order: mostRecent
-    upsampling: BICUBIC
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
-  - layer_name: Formaldehyde - HCHO
-    evalscript_url: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-5p/formaldehyde/script.js"
-    mosaicking_order: mostRecent
-    upsampling: BICUBIC
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
-  - layer_name: Aerosol 340/380
-    evalscript_url: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-5p/aer-ai-340-380/script.js"
-    mosaicking_order: mostRecent
-    upsampling: BICUBIC
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
-  - layer_name: Aerosol 354/388
-    evalscript_url: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-5p/aer-ai-354-388/script.js"
-    mosaicking_order: mostRecent
-    upsampling: BICUBIC
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
+Configurations:
+  - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
+    rel: "about"
+    type: "text/html"
+    title: "Details about running Evalscripts"
+  - href: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-5p/nitrogen_dioxide_tropospheric_column/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate Nitrogen Dioxide tropospheric column imagery"
+    sentinelhub:layer_name: "Nitrogen Dioxide tropospheric column"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
+  - href: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-5p/nitrogen-dioxide/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate Nitrogen Dioxide imagery"
+    sentinelhub:layer_name: "Nitrogen Dioxide"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
+  - href: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-5p/carbon-monoxide/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate Carbon Monoxide - CO imagery"
+    sentinelhub:layer_name: "Carbon Monoxide - CO"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
+  - href: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-5p/methane/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate Methane - CH4 imagery"
+    sentinelhub:layer_name: "Methane - CH4"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
+  - href: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-5p/sulphur-dioxide/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate Sulphur Dioxide - SO2 imagery"
+    sentinelhub:layer_name: "Sulphur Dioxide - SO2"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
+  - href: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-5p/ozone/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate Ozone - O3 imagery"
+    sentinelhub:layer_name: "Ozone - O3"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
+  - href: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-5p/formaldehyde/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate Formaldehyde - HCHO imagery"
+    sentinelhub:layer_name: "Formaldehyde - HCHO"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
+  - href: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-5p/aer-ai-340-380/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate Aerosol 340/380 imagery"
+    sentinelhub:layer_name: "Aerosol 340/380"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
+  - href: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-5p/aer-ai-354-388/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate Aerosol 354/388 imagery"
+    sentinelhub:layer_name: "Aerosol 354/388"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
 Extent:
   spatial:
     bbox:
@@ -434,4 +441,4 @@ Summaries:
   platform: 
   - sentinel-5 precursor
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2022-02-09"
+RegistryEntryLastModified: "2022-02-10"

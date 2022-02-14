@@ -54,13 +54,18 @@ Resources:
     Type: byoc-d8419142-814d-48aa-ba97-bf87950f29d3
     CollectionId: d8419142-814d-48aa-ba97-bf87950f29d3
     Primary: true
-Configurations:     
-  - layer_name: Total suspended matter weekly average
-    evalscript_url: "https://raw.githubusercontent.com/eurodatacube/public-collections/main/collections/jaxa_wq_tsm_average/script.js"
-    mosaicking_order: mostRecent
-    upsampling: BICUBIC
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
+Configurations:
+  - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
+    rel: "about"
+    type: "text/html"
+    title: "Details about running Evalscripts"
+  - href: "https://raw.githubusercontent.com/eurodatacube/public-collections/main/collections/jaxa_wq_tsm_average/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate Total suspended matter weekly average imagery"
+    sentinelhub:layer_name: "Total suspended matter weekly average"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
 Extent:
   spatial:
     bbox:
@@ -118,4 +123,4 @@ CubeDimensions:
       - tsm
       - tsm_ave
 RegistryEntryAdded: "2021-06-06"
-RegistryEntryLastModified: "2022-02-09"
+RegistryEntryLastModified: "2022-02-10"

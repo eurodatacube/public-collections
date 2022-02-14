@@ -51,30 +51,38 @@ WMTS:
     dimensions: 
       warnings: true
 Configurations:
-  - layer_name: False Color Near Infrared
-    evalscript_url: "https://custom-scripts.sentinel-hub.com/landsat-1-5-mss/false-color-nir/script.js"
-    mosaicking_order: mostRecent
-    upsampling: BICUBIC
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
-  - layer_name: False Color Ultra Red
-    evalscript_url: "https://custom-scripts.sentinel-hub.com/landsat-1-5-mss/false-color-ultrared/script.js"
-    mosaicking_order: mostRecent
-    upsampling: BICUBIC
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
-  - layer_name: NDVI
-    evalscript_url: "https://custom-scripts.sentinel-hub.com/landsat-1-5-mss/ndvi/script.js"
-    mosaicking_order: mostRecent
-    upsampling: NEAREST
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
-  - layer_name: "NDWI"
-    evalscript_url: "https://custom-scripts.sentinel-hub.com/landsat-1-5-mss/ndwi/script.js"
-    mosaicking_order: mostRecent
-    upsampling: NEAREST
-    href: https://docs.sentinel-hub.com/api/latest/api/process/
-    rel: processing-expression
+  - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
+    rel: "about"
+    type: "text/html"
+    title: "Details about running Evalscripts"
+  - href: "https://custom-scripts.sentinel-hub.com/landsat-1-5-mss/false-color-nir/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate False Color Near Infrared imagery"
+    sentinelhub:layer_name: "False Color Near Infrared"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
+  - href: "https://custom-scripts.sentinel-hub.com/landsat-1-5-mss/false-color-ultrared/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate False Color Ultra Red imagery"
+    sentinelhub:layer_name: "False Color Ultra Red"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
+  - href: "https://custom-scripts.sentinel-hub.com/landsat-1-5-mss/ndvi/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate NDVI imagery"
+    sentinelhub:layer_name: "NDVI"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "NEAREST"
+  - href: "https://custom-scripts.sentinel-hub.com/landsat-1-5-mss/ndwi/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate NDWI imagery"
+    sentinelhub:layer_name: "NDWI"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "NEAREST"
 Extent:
   spatial:
     bbox:
@@ -397,4 +405,4 @@ Summaries:
     - landsat-4
     - landsat-5
 RegistryEntryAdded: "2021-07-16"
-RegistryEntryLastModified: "2022-02-09"
+RegistryEntryLastModified: "2022-02-10"
