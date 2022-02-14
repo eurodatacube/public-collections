@@ -56,6 +56,11 @@ Resources:
 CustomScripts:
     Title: Collection of Sentinel-3 custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#sentinel-3
+WMTS:
+  - href: https://creodias.sentinel-hub.com/ogc/wmts/cf579fd9-135d-4597-b7dc-72e67bb5cf13
+    layer_id: F1-BRIGHTNESS-TEMPERATURE
+    dimensions: 
+      warnings: true
 Configurations:
   - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
     rel: "about"

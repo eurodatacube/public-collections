@@ -45,6 +45,11 @@ Resources:
 CustomScripts:
     Title: Collection of Landsat 1-5 MSS custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#landsat-1-5-mss
+WMTS:
+  - href: https://services-uswest2.sentinel-hub.com/ogc/wmts/9202f9cd-976a-4614-a766-fb26cc0aebab
+    layer_id: FALSE-COLOR-NEAR-INFRARED
+    dimensions: 
+      warnings: true
 Configurations:
   - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
     rel: "about"

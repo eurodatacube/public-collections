@@ -62,6 +62,11 @@ Resources:
 CustomScripts:
     Title: Collection of Sentinel-2 custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#sentinel-2
+WMTS:
+  - href: https://services.sentinel-hub.com/ogc/wmts/ef291c3e-77fd-43f2-a885-dced9ac1e6a7
+    layer_id: TRUE-COLOR
+    dimensions: 
+      warnings: true
 Configurations:
   - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
     rel: "about"

@@ -59,6 +59,11 @@ Resources:
 CustomScripts:
     Title: Collection of Sentinel-5P custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#sentinel-5P
+WMTS:
+  - href: https://creodias.sentinel-hub.com/ogc/wmts/9a4227b9-0b79-41f9-ba6f-d1e1257a8fee
+    layer_id: FORMALDEHYDE
+    dimensions: 
+      warnings: true
 Configurations:
   - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
     rel: "about"

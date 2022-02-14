@@ -62,6 +62,11 @@ Resources:
 CustomScripts:
     Title: Collection of Sentinel-1 custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#sentinel-1
+WMTS:
+  - href: https://services.sentinel-hub.com/ogc/wmts/113184fa-263a-4bd8-a2d3-0c00fbcef8b5
+    layer_id: SAR-URBAN
+    dimensions: 
+      warnings: true
 Configurations:
   - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
     rel: "about"

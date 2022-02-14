@@ -48,6 +48,11 @@ Resources:
 CustomScripts:
     Title: Collection of DEM custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#dem
+WMTS:
+  - href: https://services.sentinel-hub.com/ogc/wmts/6972d617-83a8-4e20-a3e3-85883e49cb8b
+    layer_id: TOPOGRAPHIC
+    dimensions: 
+      warnings: true
 Configurations:
   - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
     rel: "about"
