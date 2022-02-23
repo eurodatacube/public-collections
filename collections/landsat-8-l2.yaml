@@ -12,7 +12,7 @@ Description: |
 Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/landsat-8-l2/)"
 Image: landsat-8-l2/landsat-8-l2.png 
 EOBrowser: https:sentinelshare.page.link/X3Hc
-Resolution: 30 m
+Resolution: 30m
 GeographicalCoverage: Land ([more info](https://landsat.gsfc.nasa.gov/landsat-8/mission-details))
 TemporalAvailability: 
   Landsat 8 from February 2013 - ongoing
