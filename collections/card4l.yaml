@@ -6,6 +6,7 @@ Description: |
 AdditionalInfoExternal:
     Title: Additional info 
     Path: card4l/README.MD 
+EDCBrowser: https://browser.eurodatacube.com/?zoom=11&lat=0.33316&lng=9.44028&collectionId=card4l&layerId=SAR%20urban&type=sentinel-hub-edc&fromTime=2022-01-24T00%3A00%3A00.000Z&toTime=2022-01-24T23%3A59%3A59.999Z
 Image: card4l/thumbnail.png        
 Resolution: 20m
 GeographicalCoverage: Africa Continent
