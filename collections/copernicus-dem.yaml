@@ -85,7 +85,7 @@ Configurations:
 DataAtWork:
   Tutorials:
     - Title: How to access DEM data through Sentinel Hub API
-      URL: https://eurodatacube.com/marketplace/notebooks/contributions/How_to_access_DEM_data_through_Sentinel_Hub_API.ipynb
+      URL: https://eurodatacube.com/marketplace/notebooks/curated/How_to_access_DEM_data_through_Sentinel_Hub_API.ipynb
       AuthorName: Rono D.
 Extent:
   spatial:
