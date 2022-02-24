@@ -9,7 +9,7 @@ Image: cnes-land-cover-map/cnes-land-cover-map-france-overview.png
 #EDCBrowser: https://sentinelshare.page.link/kP8Y
 Resolution: 10m
 GeographicalCoverage: Metropolitan France with longitude from 6.26°W to 11.85°E and latitude from 51.45°N to 40.46°N
-TemporalAvailability: 2016 - ongoing
+TemporalAvailability: 2018 - ongoing
 UpdateFrequency: Annually
 BandInformation: 
   Table:
@@ -77,14 +77,38 @@ Extent:
   spatial:
     bbox:
       -
-        - -180
-        - -56
-        - 180
-        - 83
+        - -6.26
+        - 40.46
+        - 11.85
+        - 51.45
   temporal:
     interval:
       -
-        - '2020-01-01T00:00:00Z'
+        - '2018-01-01T00:00:00Z'
         - '2020-12-31T00:00:00Z'
-RegistryEntryAdded: "2022-02-08"
-RegistryEntryLastModified: "2022-02-08"
+CubeDimensions:
+  x:
+    type: spatial
+    axis: x
+    extent:
+      - -6.26
+      - 11.85
+  y:
+    type: spatial
+    axis: y
+    extent:
+      - 40.46
+      - 51.45
+  t:
+    type: temporal
+    extent:
+      - '2018-01-01T00:00:00Z'
+      - '2020-12-31T00:00:00Z'
+  bands:
+    type: bands
+    values:
+      - Map
+      - Confidence
+      - Validity
+RegistryEntryAdded: "2022-02-24"
+RegistryEntryLastModified: "2022-02-24"
