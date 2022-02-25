@@ -19,7 +19,7 @@ BandInformation:
       Rows:
         - Name: Occurrence
           Description: Intra- and inter-annual frequency of surface water presence in the time range between 1984 and 2020.
-        - Name: Occurrence Change Intensity
+        - Name: Occurrence Change Intensity (change)
           Description: Changes in water occurrence between two epochs, the first ranging from 1984 to 1999 and the second covering 2000 to 2020.
         - Name: Seasonality
           Description: Intra-annual distribution of surface water in the particular review year.
@@ -65,42 +65,42 @@ Configurations:
     rel: "about"
     type: "text/html"
     title: "Details about running Evalscripts"
-  - href: "https://custom-scripts.sentinel-hub.com/copernicus_services/global_surface_water_occurrence/script.js"
+  - href: "https://custom-scripts.sentinel-hub.com/custom-scripts/other_collections/global_surface_water_occurrence/script.js"
     rel: "processing-expression"
     type: "application/javascript"
     title: "Evalscript to generate Global Surface Water Occurrence imagery"
     sentinelhub:layer_name: "Global Surface Water Occurrence"
     sentinelhub:mosaicking_order: "mostRecent"
     sentinelhub:upsampling: "BICUBIC"
-  - href: "https://custom-scripts.sentinel-hub.com/copernicus_services/global_surface_water_change/script.js"
+  - href: "https://custom-scripts.sentinel-hub.com/custom-scripts/other_collections/global_surface_water_change/script.js"
     rel: "processing-expression"
     type: "application/javascript"
     title: "Evalscript to generate Global Surface Water Occurrence Change Intensity imagery"
     sentinelhub:layer_name: "Global Surface Water Occurrence Change Intensity"
     sentinelhub:mosaicking_order: "mostRecent"
     sentinelhub:upsampling: "BICUBIC"
-  - href: "https://custom-scripts.sentinel-hub.com/copernicus_services/global_surface_water_seasonality/script.js"
+  - href: "https://custom-scripts.sentinel-hub.com/custom-scripts/other_collections/global_surface_water_seasonality/script.js"
     rel: "processing-expression"
     type: "application/javascript"
     title: "Evalscript to generate Global Surface Water Seasonality imagery"
     sentinelhub:layer_name: "Global Surface Water Seasonality"
     sentinelhub:mosaicking_order: "mostRecent"
     sentinelhub:upsampling: "BICUBIC"
-  - href: "https://custom-scripts.sentinel-hub.com/copernicus_services/global_surface_water_recurrence/script.js"
+  - href: "https://custom-scripts.sentinel-hub.com/custom-scripts/other_collections/global_surface_water_recurrence/script.js"
     rel: "processing-expression"
     type: "application/javascript"
     title: "Evalscript to generate Global Surface Water Recurrence imagery"
     sentinelhub:layer_name: "Global Surface Water Recurrence"
     sentinelhub:mosaicking_order: "mostRecent"
     sentinelhub:upsampling: "BICUBIC"
-  - href: "hhttps://custom-scripts.sentinel-hub.com/copernicus_services/global_surface_water_transitions/script.js"
+  - href: "https://custom-scripts.sentinel-hub.com/custom-scripts/other_collections/global_surface_water_transitions/script.js"
     rel: "processing-expression"
     type: "application/javascript"
     title: "Evalscript to generate Global Surface Water Transitions imagery"
     sentinelhub:layer_name: "Global Surface Water Transitions"
     sentinelhub:mosaicking_order: "mostRecent"
     sentinelhub:upsampling: "BICUBIC"
-  - href: "https://custom-scripts.sentinel-hub.com/copernicus_services/global_surface_water_extent/script.js"
+  - href: "https://custom-scripts.sentinel-hub.com/custom-scripts/other_collections/global_surface_water_extent/script.js"
     rel: "processing-expression"
     type: "application/javascript"
     title: "Evalscript to generate Global Surface Water Extent imagery"
@@ -142,12 +142,11 @@ CubeDimensions:
   bands:
     type: bands
     values:
-      - Occurrence
-      - Occurrence Change Intensity
-      - Seasonality
-      - Recurrence
-      - Transitions
-      - Extent
-      - dataMask
+      - change
+      - extent
+      - occurrence
+      - recurrence
+      - seasonality
+      - transitions
 RegistryEntryAdded: "2021-04-19"
-RegistryEntryLastModified: "2022-02-10"
+RegistryEntryLastModified: "2022-02-25"
