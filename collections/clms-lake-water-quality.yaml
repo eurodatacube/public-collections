@@ -39,8 +39,8 @@ License: |
   [License](https://land.copernicus.eu/terms-of-usee)
 Resources:
 -  Group: xcube Generator Resources
-   StoreInstanceID: cop_services_data
-   StoreTitle: Datasets from Copernicus Services
+   StoreInstanceID: @cop_services_clms
+   StoreTitle: CLMS Copernicus Datasets on S3
    DataID: LWQ-NRT-300m.zarr
 RegistryEntryAdded: "2021-05-13"
-RegistryEntryLastModified: "2022-01-17"
+RegistryEntryLastModified: "2022-02-21"
