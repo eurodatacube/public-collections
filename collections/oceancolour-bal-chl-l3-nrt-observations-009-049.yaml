@@ -3,7 +3,6 @@ Description: |
   OCEANCOLOUR_BAL_CHL_L3_NRT_OBSERVATIONS_009_049  is one of the ocean products provided by [Copernicus Marine Environment Monitoring Service (CMEMS)](https://marine.copernicus.eu/).
   This product is delivered as daily  NRT, L3 chlorophyll-a product of 0.3km resolution over the Baltic Sea, based on
   the OLCI single sensor product.
-  The dataset available in EDC is static and currently not updated.
 Documentation: "[Product information](https://resources.marine.copernicus.eu/product-detail/OCEANCOLOUR_BAL_CHL_L3_NRT_OBSERVATIONS_009_049/INFORMATION)"
 Image: oceancolour-bal-chl-l3-nrt-observations-009-049/oceancolour-bal-chl-l3-nrt-observations-009-049.png
 Explore: "[Open Notebook](https://eurodatacube.com/marketplace/notebooks/getting-started/EDC_xcube_generator_service.ipynb)"
@@ -12,7 +11,7 @@ GeographicalCoverage: |
  (9.25°E, 30.25°E, 53.25°N,  65.85°N)  
  Areas: 
   - baltic-sea
-TemporalAvailability: "['2018-08-01', '2021-04-01']"
+TemporalAvailability: "['2018-08-01', ]"
 TemporalResolution: Daily mean 
 UpdateFrequency: Static
 Variables: 
@@ -44,8 +43,8 @@ License: |
   [License](https://marine.copernicus.eu/user-corner/service-commitments-and-licence)
 Resources:
 -  Group: xcube Generator Resources
-   StoreInstanceID: cop_services_data
-   StoreTitle: Datasets from Copernicus Services
-   DataID: OCEANCOLOUR_BAL_CHL_L3_NRT_OBSERVATIONS_009_049.zarr
+   StoreInstanceID: "@cop_services_cmems"
+   StoreTitle: CMEMS Copernicus Datasets on S3
+   DataID: BAL/CHL/OCEANCOLOUR_BAL_CHL_L3_NRT_OBSERVATIONS_009_049.zarr
 RegistryEntryAdded: "2021-10-25"
-RegistryEntryLastModified: "2022-01-17"
+RegistryEntryLastModified: "2022-02-21"
