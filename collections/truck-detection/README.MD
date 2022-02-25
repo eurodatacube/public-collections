@@ -59,18 +59,6 @@ Truck detection algorithm detects trucks on Sentinel -2 L2A images. Find out mor
    </tbody>
 </table>  
 
-### Paramters usage
-
-Area of Interest: The area where the algorithm requests the Sentinel-2 data and detects trucks. Noted that the algorithm requests ALL Sentienl-2 data available inside of area of interest no matter there are roads or not.
-
-Time range: The time range that the algorithm requests the Sentinel-2 data and detects trucks. Noted that the algorithm requests ALL available data/acquisitions within the time range.
-
-OSM Values: The road types that the algorithm detects trucks. Currently motorway, trunk, and primary are supported. The OSM Values determine the valid area and mask data outside of selected roads.
-
-Max. cloud coverage: The algorithm computes the cloud coverage of the pixels located over the network of roads (pixel intersects a road) and we compute the % of cloudiness by dividing the number of cloudy pixels by the total number of pixels intersecting roads. There is a trade-off between a high value that can generate a lot of false positives because of the same signature of cloud edges as trucks, and a low value that can loose a lot of traffic detected resulted from filtering too much.
-
-Week days: The algorithm allows users to select specific week days for filtering purposes. Noted that the revisit time of Sentinel-2 is 5 days, meaning that there may be only ONE acquisition for each week day in a month. To avoid empty result, the less week days are selected, the longer time range is required.
-
 ## Detection Method
 The **detection method** exploits small sensing offset of different wavelength that moving objects have in Sentinel-2 data which causes a specific reflectance relationship in the RGB, which looks like a rainbow. The method only targets the blue part of the ‘rainbow’ truck object since the dominance of blue reflectance is rare over land surfaces. This blue part of the truck serves as a marker. The detection is then achieved through reflectance band math calculations.  
 **Initial step** - Create a road mask, Check that the following conditions are fulfilled:
@@ -136,6 +124,17 @@ The **detection method** exploits small sensing offset of different wavelength t
     </tr>
    </tbody>
 </table>  
+
+### Paramters usage
+Area of Interest: The area where the algorithm requests the Sentinel-2 data and detects trucks. Noted that the algorithm requests ALL Sentienl-2 data available inside of area of interest no matter there are roads or not.<br />
+<br />
+Time range: The time range that the algorithm requests the Sentinel-2 data and detects trucks. Noted that the algorithm requests ALL available data/acquisitions within the time range.<br />
+<br />
+OSM Values: The road types that the algorithm detects trucks. Currently motorway, trunk, and primary are supported. The OSM Values determine the valid area and mask data outside of selected roads.<br />
+<br />
+Max. cloud coverage: The algorithm computes the cloud coverage of the pixels located over the network of roads (pixel intersects a road) and we compute the % of cloudiness by dividing the number of cloudy pixels by the total number of pixels intersecting roads. There is a trade-off between a high value that can generate a lot of false positives because of the same signature of cloud edges as trucks, and a low value that can loose a lot of traffic detected resulted from filtering too much.<br />
+<br />
+Week days: The algorithm allows users to select specific week days for filtering purposes. Noted that the revisit time of Sentinel-2 is 5 days, meaning that there may be only ONE acquisition for each week day in a month. To avoid empty result, the less week days are selected, the longer time range is required.<br />
 
 ## Algorithm output
 The output of the algorithm is point vector data in **GeoPackage format** with coordinates of the detected trucks, the dates of detected trucks and the valid road area as attributes.
