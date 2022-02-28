@@ -136,11 +136,11 @@ The **detection method** exploits small sensing offset of different wavelength t
   <tbody>
     <tr>
       <td>Area of Interest</td>
-      <td>The area where the algorithm requests the Sentinel-2 data and detects trucks. Note that the algorithm requests **ALL** Sentienl-2 data available inside of area of interest no matter there are roads or not.</td>
+      <td>The area where the algorithm requests the Sentinel-2 data and detects trucks. Note that the algorithm requests <b>ALL</b> Sentienl-2 data available inside of area of interest no matter there are roads or not.</td>
     </tr>
     <tr>
       <td>Time range</td>
-      <td>The time range that the algorithm requests the Sentinel-2 data and detects trucks. Note that the algorithm requests **ALL** available data/acquisitions within the time range.</td>
+      <td>The time range that the algorithm requests the Sentinel-2 data and detects trucks. Note that the algorithm requests <b>ALL</b> available data/acquisitions within the time range.</td>
     </tr>
     <tr>
       <td>OSM Values</td>
