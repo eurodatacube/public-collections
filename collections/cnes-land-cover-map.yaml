@@ -107,8 +107,8 @@ CubeDimensions:
   bands:
     type: bands
     values:
-      - Map
-      - Confidence
-      - Validity
+      - OCS
+      - OCS_CONFIDENCE
+      - OCS_VALIDITY
 RegistryEntryAdded: "2022-02-24"
-RegistryEntryLastModified: "2022-02-24"
+RegistryEntryLastModified: "2022-02-28"
