@@ -19,20 +19,23 @@ BandInformation:
         - Name: Description
           Title: Description        
       Rows:
-        - Name: Map
+        - Name: OCS
           Description: Main discrete classification according to 23-categories nomenclature.
-        - Name: Confidence
+        - Name: OCS_Confidence
           Description: The confidence of the classifier.
-        - Name: Validity
+        - Name: OCS_Validity
           Description: The number of cloudless images.
 Contact: "Jordi Inglada: jordi.inglada@cesbio.eu, Vincent Thierion: vincent.thierion@inrae.fr, Silvia Valero: silvia.valero@cesbio.cnes.fr"
 Provider: "[Theia](https://www.theia-land.fr/en/homepage-en/#)"
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
 Tags:
+  - derived data
   - land cover
   - machine learning
-  - derived data
   - open data
+  - raster
+  - sentinel hub
+  - systematic
 License: "[ETALAB V2.0 open license](https://theia.cnes.fr/atdistrib/documents/Licence-Theia-CNES-Sentinel-ETALAB-v2.0-en.pdf). Value-added data processed by CNES for the [Theia data center](www.theia.land.fr) from Copernicus data. Processing uses algorithms developed by Theia's Centers of Scientific Expertise."
 LicenseType: proprietary
 LicenseUrl: https://theia.cnes.fr/atdistrib/documents/Licence-Theia-CNES-Sentinel-ETALAB-v2.0-en.pdf
@@ -108,7 +111,7 @@ CubeDimensions:
     type: bands
     values:
       - OCS
-      - OCS_CONFIDENCE
-      - OCS_VALIDITY
+      - OCS_Confidence
+      - OCS_Validity
 RegistryEntryAdded: "2022-02-24"
 RegistryEntryLastModified: "2022-02-28"
