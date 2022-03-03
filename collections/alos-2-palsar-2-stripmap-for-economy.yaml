@@ -11,6 +11,7 @@ Description: |
   Data for Paris and Dunkirk are  Strip Map mode 3 (SM3) which is  fine mode with 10m spatial resolution with 70km width swath and dual polarization (HH/HV),
   while Beijing data is both Strip Map mode 3 (SM3) and Strip Map mode 1 (SM1) which is also fine mode with 3m spatial resolution with 50km width swath and dual polarization (HH/HV).
 Image: alos-2-palsar-2-stripmap-for-economy/alos-2-palsar-2-stripmap-for-economy.png
+EDCBrowser: https://browser.eurodatacube.com/?zoom=10&lat=48.90326&lng=2.43442&collectionId=alos-2-palsar-2-stripmap-for-economy&layerId=HH&type=sentinel-hub-edc&fromTime=2019-12-31T00%3A00%3A00.000Z&toTime=2021-12-31T00%3A00%3A00.000Z
 AdditionalInfoExternal:
   Title: Additional info
   Path: alos-2-palsar-2-stripmap-for-economy/README.MD

@@ -14,7 +14,8 @@ Description: |
   mm:Month
   dd:Day
   ```
-Image: jaxa_wq_tsm/jaxa_wq_tsm.png 
+Image: jaxa_wq_tsm/jaxa_wq_tsm.png
+EDCBrowser: https://browser.eurodatacube.com/?zoom=10&lat=34.7&lng=136.9&collectionId=jaxa_wq_tsm&layerId=Total%20Suspended%20Matter%20weekly%20anomaly&type=sentinel-hub-edc&fromTime=2021-03-03T15%3A38%3A55.330Z&toTime=2022-03-03T15%3A38%3A55.330Z 
 AdditionalInfoExternal:
     Title: Additional info
     Path: jaxa_wq_tsm/README.MD

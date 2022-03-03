@@ -16,6 +16,7 @@ Description: |
   ```
 Resolution: 0.0025 degrees equal lat lon
 Image: jaxa_wq_chla_average/jaxa_wq_chla_average.png
+EDCBrowser: https://browser.eurodatacube.com/?zoom=10&lat=34.7&lng=136.9&collectionId=jaxa_wq_chla_average&layerId=Chlorophyll-a%20weekly%20average&type=sentinel-hub-edc&fromTime=2021-03-03T15%3A37%3A15.909Z&toTime=2022-03-03T15%3A37%3A15.909Z
 GeographicalCoverage: |
    North Adriatic: lon E: 12.0 ~ 13.8, lat N: 44.5 ~ 45.8
    Tokyo: lon E: 139.25 ~ 140.25, lat N: 34.85 ~ 35.85

@@ -4,6 +4,7 @@ AdditionalInfoExternal:
     Title: Additional info
     Path: e12c_motorway/README.MD
 Image: e12c_motorway/e12c_motorway.png
+EDCBrowser: https://browser.eurodatacube.com/?zoom=4&lat=48.89256&lng=1.39988&collectionId=e12c_motorway&layerId=Trucks%20E12C%20Motorway&type=sentinel-hub-edc&fromTime=2019-05-15T23%3A59%3A59.000Z&toTime=2020-05-15T23%3A59%3A59.000Z
 Resolution: 0.089932160591873,-0.089932160591873
 GeographicalCoverage: -31.26818657, 27.693670044054727, 34.06794939183746, 70.09145355
 TemporalAvailability: 2017-05-15 - 2020-05-15

@@ -10,6 +10,7 @@ Description: |
   and "COP-DEM GLO-90" in areas where "COP-DEM GLO-30 Public" tiles are not yet released to the public by Copernicus Programme.
   Copernicus DEM provides elevation data and can also be used for the orthorectification of satellite imagery (e.g Sentinel 1).
 Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/dem/)"
+EDCBrowser: https://browser.eurodatacube.com/?zoom=7&lat=43.14975&lng=7.16013&collectionId=copernicus-dem&layerId=Color&type=sentinel-hub-edc&fromTime=2014-01-16T01%3A37%3A12.000Z&toTime=2015-01-16T01%3A37%3A12.000Z
 EOBrowser: https://sentinelshare.page.link/d3v1
 Image: copernicus-dem/copernicus-dem.png
 Resolution: 30m and 90m 
