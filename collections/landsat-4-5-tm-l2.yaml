@@ -7,6 +7,7 @@ Description: |
  for  more information.
 Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/landsat-tm-l2/)"
 Image: landsat-4-5-tm-l2/landsat-4-5-tm-l2.png 
+EDCBrowser: https://browser.eurodatacube.com/?zoom=10&lat=41.9&lng=12.5&collectionId=landsat-4-5-tm-l2&layerId=True%20color&type=sentinel-hub-edc&fromTime=2011-05-04T00%3A00%3A00.000Z&toTime=2012-05-04T00%3A00%3A00.000Z
 EOBrowser: https://sentinelshare.page.link/rDSK
 Resolution: 30 m (the thermal band is re-sampled from 120 m)
 GeographicalCoverage: Global Land

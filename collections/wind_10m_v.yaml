@@ -4,6 +4,7 @@ AdditionalInfoExternal:
     Title: Additional info
     Path: wind_10m_v/README.MD
 Image: wind_10m_v/wind_10m_v.png
+EDCBrowser: https://browser.eurodatacube.com/?zoom=1&lat=0.00005&lng=0.00001&collectionId=wind_10m_v&layerId=Wind%20V-component&type=sentinel-hub-edc&fromTime=2019-12-01T00%3A00%3A00.000Z&toTime=2020-12-01T00%3A00%3A00.000Z
 Resolution: 0.25° x 0.25°
 GeographicalCoverage: -179.999755859375, -90.12489004526765, 179.99977453631897, 90.125
 TemporalAvailability: 2019-01-01 - 2020-12-01

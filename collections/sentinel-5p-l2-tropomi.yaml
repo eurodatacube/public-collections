@@ -9,6 +9,7 @@ Description: |
  These measurements are used for improving air quality forecasts as well as for monitoring the concentrations of atmospheric constituents.
 Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/sentinel-5p-l2/)"
 Image: sentinel-5p-l2-tropomi/sentinel-5p-l2-tropomi.png
+EDCBrowser: https://browser.eurodatacube.com/?zoom=10&lat=41.9&lng=12.5&collectionId=sentinel-5p-l2-tropomi&layerId=Nitrogen%20Dioxide%20tropospheric%20column&type=sentinel-hub-edc&fromTime=2021-03-04T16%3A42%3A07.386Z&toTime=2021-04-01T16%3A42%3A07.386Z
 EOBrowser: https://sentinelshare.page.link/GQwM
 Resolution: 5.5 km x 3.5 km since August 6th in 2019, 7.0 km x 3.5 km at beginning of mission [more info](https://sentinels.copernicus.eu/web/sentinel/data-products/-/asset_publisher/fp37fc19FN8F/content/sentinel-5-precursor-level-2-ozone)
 GeographicalCoverage: Ocean and Land ([more info](https://sentinels.copernicus.eu/web/sentinel/missions/sentinel-5p/geographical-coverage))

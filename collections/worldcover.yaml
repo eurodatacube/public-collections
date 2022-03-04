@@ -9,6 +9,7 @@ AdditionalInfoExternal:
     Title: Additional info 
     Path: worldcover/README.MD 
 EDCBrowser: https://browser.eurodatacube.com/?zoom=10&lat=41.91823&lng=12.492&collectionId=worldcover&layerId=ESA%20WorldCover%20Map&type=sentinel-hub-edc&fromTime=2020-01-01T00%3A00%3A00.000Z&toTime=2020-01-01T23%3A59%3A59.999Z
+EOBrowser: https://sentinelshare.page.link/hjyS
 Image: worldcover/thumbnail.png        
 Resolution: 10m
 GeographicalCoverage: Global land area
