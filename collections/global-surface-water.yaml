@@ -3,7 +3,8 @@ Description: The Global Surface Water dataset was developed by the European Comm
 AdditionalInfoExternal:
     Title: Additional info 
     Path: global-surface-water/README.MD
-Image: global-surface-water/global-surface-water.png  
+Image: global-surface-water/global-surface-water.png
+EDCBrowser: https://browser.eurodatacube.com/?zoom=10&lat=41.9&lng=12.5&collectionId=global-surface-water&layerId=Global%20Surface%20Water%20Occurrence&type=sentinel-hub-edc&fromTime=2019-12-31T00%3A00%3A00.000Z&toTime=2020-12-31T00%3A00%3A00.000Z  
 EOBrowser: https://sentinelshare.page.link/BN9T
 Resolution: 30m
 GeographicalCoverage: Global coverage from longitude 170°E to 180°W and latitude 80°N to 50°S.

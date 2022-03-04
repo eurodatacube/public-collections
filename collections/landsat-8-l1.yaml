@@ -9,7 +9,8 @@ Description: |
   from the most recently released [collection 2](https://www.usgs.gov/faqs/what-updates-are-being-made-landsat-collection-2?qt-news_science_products=0#qt-news_science_products), 
   provides Top of Atmosphere Reflectance and Top of the Atmosphere Brightness Temperature products. Level 1 data are available since February 2013 for Landsat 8 and since January 2022 for Landsat 9.
 Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/landsat-8/)"  
-Image: landsat-8-l1/landsat-8-l1.png  
+Image: landsat-8-l1/landsat-8-l1.png
+EDCBrowser: https://browser.eurodatacube.com/?zoom=10&lat=41.9&lng=12.5&collectionId=landsat-8-l1&layerId=True%20color&type=sentinel-hub-edc&fromTime=2021-06-06T16%3A08%3A30.217Z&toTime=2021-06-15T16%3A08%3A30.217Z  
 EOBrowser: https://sentinelshare.page.link/abtC
 Resolution: 30m 
 GeographicalCoverage: Land ([more info](https://landsat.gsfc.nasa.gov/landsat-8/mission-details))

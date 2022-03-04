@@ -10,6 +10,7 @@ Description: |
   vegetation to obtain information about vegetation and ground surface.  
   Data for Tokyo and Los Angeles are Strip Map mode 1 (SM1) which is fine mode with 3m spatial resolution with 50km width swath and single polarization (HH).
 Image: alos-2-palsar-2-stripmap-for-economy-sm1/alos-2-palsar-2-stripmap-for-economy-sm1.png
+EDCBrowser: https://browser.eurodatacube.com/?zoom=10&lat=35.616&lng=139.774&collectionId=alos-2-palsar-2-stripmap-for-economy-sm1&layerId=HH&type=sentinel-hub-edc&fromTime=2020-04-18T00%3A00%3A00.000Z&toTime=2021-04-18T00%3A00%3A00.000Z
 Resolution: |
  SM1: 3m
 GeographicalCoverage: |

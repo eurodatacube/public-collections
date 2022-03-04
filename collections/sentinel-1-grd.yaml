@@ -10,6 +10,7 @@ Description:
 Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/sentinel-1-grd/)"
 Image: sentinel-1-grd/sentinel-1-grd.png 
 Resolution: High - 10m, Medium - 40m
+EDCBrowser: https://browser.eurodatacube.com/?zoom=10&lat=41.9&lng=12.5&collectionId=sentinel-1-grd&layerId=SAR%20urban&type=sentinel-hub-edc&fromTime=2021-03-04T16%3A39%3A33.381Z&toTime=2022-03-04T16%3A39%3A33.381Z
 EOBrowser: https://sentinelshare.page.link/u7UY
 Explore: "[Open Notebook](https://eurodatacube.com/marketplace/notebooks/contributions/Exploring_time_and_space_with_EDC.ipynb)"
 GeographicalCoverage: Land, coastal zones, shipping routes ([more info](https://sentinel.esa.int/web/sentinel/user-guides/sentinel-1-sar/revisit-and-coverage))

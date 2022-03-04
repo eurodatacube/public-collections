@@ -17,7 +17,8 @@ Description: |
   dd:Day
   ```
 
-Image: jaxa_wq_chla/jaxa_wq_chla.png 
+Image: jaxa_wq_chla/jaxa_wq_chla.png
+EDCBrowser: https://browser.eurodatacube.com/?zoom=10&lat=34.7&lng=136.9&collectionId=jaxa_wq_chla&layerId=Chlorophyll-a%20weekly%20anomaly&type=sentinel-hub-edc&fromTime=2021-03-03T15%3A37%3A51.349Z&toTime=2022-03-03T15%3A37%3A51.349Z 
 AdditionalInfoExternal:
     Title: Additional info
     Path: jaxa_wq_chla/README.MD

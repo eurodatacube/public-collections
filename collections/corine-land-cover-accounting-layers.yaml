@@ -9,6 +9,7 @@ AdditionalInfoExternal:
     Title: Additional info 
     Path: corine-land-cover-accounting-layers/README.MD 
 EDCBrowser: https://browser.eurodatacube.com/?zoom=9&lat=42.28036&lng=12.28821&collectionId=corine-land-cover-accounting-layers&layerId=Corine%20Land%20Cover%20Accounting%20Layer&type=sentinel-hub-edc&fromTime=2018-01-01T00%3A00%3A00.000Z&toTime=2018-01-01T23%3A59%3A59.999Z
+EOBrowser: https://sentinelshare.page.link/Qs8E
 Image: corine-land-cover-accounting-layers/thumbnail.png   
 Resolution: 100m
 GeographicalCoverage: EEA39 region

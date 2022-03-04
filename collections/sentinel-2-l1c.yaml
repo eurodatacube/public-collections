@@ -8,6 +8,7 @@ Description: |
   June 2015 globally. L1C data provide Top of the atmosphere (TOA) reflectance.
 Image: sentinel-2-l1c/sentinel-2-l1c.png
 Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/sentinel-2-l1c/)"
+EDCBrowser: https://browser.eurodatacube.com/?zoom=10&lat=41.9&lng=12.5&collectionId=sentinel-2-l1c&layerId=True%20Color&type=sentinel-hub-edc&fromTime=2021-03-04T16%3A40%3A01.877Z&toTime=2022-03-04T16%3A40%3A01.877Z
 EOBrowser: https://sentinelshare.page.link/a3tB
 Resolution: 10m
 GeographicalCoverage: Land surface area ([more info](https://sentinel.esa.int/web/sentinel/user-guides/sentinel-2-msi/revisit-coverage))

@@ -4,6 +4,7 @@ Description: |
  See [USGS EROS Archive](https://www.usgs.gov/centers/eros/science/usgs-eros-archive-landsat-archives-landsat-1-5-multispectral-scanner-collection?qt-science_center_objects=0#qt-science_center_objects) for more information. MSS Level-1 data provides Top of Atmosphere Reflectance products for the period from July 1972 to October 1992 and from June 2012 to January 2013.
 Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/landsat-mss/)"
 Image: landsat-1-5-mss-l1/landsat-1-5-mss-l1.png 
+EOBrowser: https://sentinelshare.page.link/b6WC
 Resolution: 68 m x 83 m (commonly resampled to 57 m, or 60 m)
 GeographicalCoverage: Global land
 TemporalAvailability: |
