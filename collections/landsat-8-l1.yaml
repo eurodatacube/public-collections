@@ -1,6 +1,6 @@
 Name: Landsat 8-9 L1
 Description: |
-  [Landsat 8-9 Level 2](https://www.usgs.gov/centers/eros/science/usgs-eros-archive-landsat-archives-landsat-8-9-operational-land-imager-and) collection includes both 
+  [Landsat 8-9 Level ](https://www.usgs.gov/centers/eros/science/usgs-eros-archive-landsat-archives-landsat-8-9-operational-land-imager-and) collection includes both 
   [Landsat 8](https://www.usgs.gov/landsat-missions/landsat-8?qt-science_support_page_related_con=0#qt-science_support_page_related_con) and the most recently launched 
   [Landsat 9](https://www.usgs.gov/landsat-missions/landsat-9) satellites (provided by NASA/USGS), both carrying the Operational Land Imager (OLI) and 
   the Thermal Infrared Sensor (TIRS) instruments, with 9 optical and 2 thermal bands. These two sensors provide seasonal coverage of the global landmass.
@@ -545,4 +545,4 @@ Summaries:
     - landsat-8
     - landsat-9
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2022-02-22"
+RegistryEntryLastModified: "2022-03-04"
