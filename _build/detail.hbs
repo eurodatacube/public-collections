@@ -26,15 +26,20 @@
       <h4>Additional info</h4>
       <p>{{{mdExternal AdditionalInfoExternal}}}</p>
       {{/if}}    
- 
-      {{#if EOBrowser}}
-      <h4>Explore</h4>
-      <p><a href="{{EOBrowser}}" target="_blank"><button class="label label-info" > Open in EO Browser </button></a> </p>
-      {{/if}}  
+
       {{#if EDCBrowser}}
       <h4>Explore</h4>
-      <p><a href="{{EDCBrowser}}" target="_blank"><button class="label label-info" > Open in EDC Browser </button></a> </p>
-      {{/if}} 
+      <p><a href="{{EDCBrowser}}" target="_blank"><button class="label label-info"> Open in EDC Browser </button></a>
+            {{#if EOBrowser}}
+            <a href="{{EOBrowser}}" target="_blank"><button class="label label-info" style="margin:10px"> Open in EO Browser </button></a> </p>
+            {{/if}} 
+      {{else}}
+            {{#if EOBrowser}}
+            <h4>Explore</h4>
+            <p><a href="{{EOBrowser}}" target="_blank"><button class="label label-info" > Open in EO Browser </button></a> </p>
+      {{/if}}
+      {{/if}}
+
       {{#if TutorialNotebook}}
       <h4>Explore</h4>
       <p><a href="{{TutorialNotebook}}" target="_blank"><button class="label label-info" > Open Notebook </button></a> </p>

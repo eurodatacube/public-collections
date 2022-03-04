@@ -4,6 +4,7 @@ AdditionalInfoExternal:
     Title: Additional info
     Path: population_density/README.MD
 Image: population_density/population_density.png
+EDCBrowser: https://browser.eurodatacube.com/?zoom=3&lat=21.89208&lng=-48.28697&collectionId=population_density&layerId=Population%20Density&type=sentinel-hub-edc&fromTime=2019-12-31T23%3A59%3A59.000Z&toTime=2020-12-31T23%3A59%3A59.000Z
 Resolution: 1000m
 GeographicalCoverage: -180.0, -90.0, 179.99999999999983, 89.99999999999991
 TemporalAvailability: "2020"

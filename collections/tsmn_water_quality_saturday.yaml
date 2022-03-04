@@ -4,6 +4,7 @@ AdditionalInfoExternal:
     Title: Additional info
     Path: tsmn_water_quality_saturday/README.MD
 Image: tsmn_water_quality_saturday/tsmn_water_quality_saturday.png
+EDCBrowser: https://browser.eurodatacube.com/?zoom=7&lat=43.14975&lng=7.16013&collectionId=tsmn_water_quality_saturday&layerId=Total%20Suspended%20Matter%20Map&type=sentinel-hub-edc&fromTime=2020-04-17T00%3A00%3A00.000Z&toTime=2021-04-17T00%3A00%3A00.000Z
 Resolution: 300m
 GeographicalCoverage: 0.4982046708598385, 40.498973093940286, 13.82206392288208, 45.80052375793457
 TemporalAvailability: 2020-01-04 - 2021-04-17

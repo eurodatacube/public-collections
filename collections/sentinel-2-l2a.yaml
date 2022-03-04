@@ -8,6 +8,7 @@ Description: |
   region and globally since January 2017. L2A data provide Bottom of the atmosphere (BOA) reflectance.
 Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/sentinel-2-l2a/)"
 Image: sentinel-2-l2a/sentinel-2-l2a.png
+EDCBrowser: https://browser.eurodatacube.com/?zoom=10&lat=41.9&lng=12.5&collectionId=sentinel-2-l2a&layerId=True%20Color&type=sentinel-hub-edc&fromTime=2021-03-04T16%3A40%3A30.791Z&toTime=2022-03-04T16%3A40%3A30.791Z
 EOBrowser: https://sentinelshare.page.link/9no6
 Resolution: 10m
 GeographicalCoverage: Land surface area ([more info](https://sentinel.esa.int/web/sentinel/user-guides/sentinel-2-msi/revisit-coverage))

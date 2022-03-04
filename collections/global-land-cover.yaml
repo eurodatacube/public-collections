@@ -11,7 +11,8 @@ Description: |
 AdditionalInfoExternal:
     Title: Additional info 
     Path: global-land-cover/README.MD 
-Image: global-land-cover/global-land-cover.png       
+Image: global-land-cover/global-land-cover.png
+EDCBrowser: https://browser.eurodatacube.com/?zoom=10&lat=41.9&lng=12.5&collectionId=global-land-cover&layerId=Discrete%20Classification%20Map&type=sentinel-hub-edc&fromTime=2018-12-31T00%3A00%3A00.000Z&toTime=2019-12-31T00%3A00%3A00.000Z       
 EOBrowser: https://sentinelshare.page.link/fzXz
 Resolution: 100m
 GeographicalCoverage: Global coverage of land surface area with longitude from 180°W to 180°E and latitude from 78.25°N to 60°S.
