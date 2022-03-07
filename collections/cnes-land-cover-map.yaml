@@ -6,6 +6,8 @@ AdditionalInfoExternal:
     Title: Additional info
     Path: cnes-land-cover-map/README.MD 
 Image: cnes-land-cover-map/cnes-land-cover-map-france-overview.png
+EDCBrowser: https://browser.eurodatacube.com/?zoom=6&lat=46.77491&lng=-0.08909&collectionId=cnes-land-cover-map&layerId=CNES%20Land%20Cover%20Map&type=sentinel-hub-edc&fromTime=2019-12-31T00%3A00%3A00.000Z&toTime=2020-12-31T00%3A00%3A00.000Z
+EOBrowser: https://sentinelshare.page.link/NG53
 Resolution: 10m
 GeographicalCoverage: Metropolitan France with longitude from 6.26°W to 11.85°E and latitude from 51.45°N to 40.46°N
 TemporalAvailability: 2018 - ongoing
