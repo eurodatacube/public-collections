@@ -11,7 +11,7 @@ Description: |
   Collection 2 level 2 data are available since February 2013 for Landsat 8 and since January 2022 for Landsat 9 and new data are continously added usually within 24 hours after Level 1 scenes are available.
 Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/landsat-8-l2/)"
 Image: landsat-8-l2/landsat-8-l2.png
-EDCBrowser: https://browser.eurodatacube.com/?zoom=10&lat=41.9&lng=12.5&collectionId=landsat-8-l2&layerId=True%20color&type=sentinel-hub-edc&fromTime=2021-06-06T16%3A10%3A58.102Z&toTime=2021-06-22T16%3A10%3A58.102Z 
+EDCBrowser: https://browser.eurodatacube.com/?zoom=12&lat=41.88454&lng=12.40628&collectionId=landsat-8-l2&customVisualizationSelected=true&evalscript=Ly9WRVJTSU9OPTMKCmxldCBtaW5WYWwgPSAwLjA7CmxldCBtYXhWYWwgPSAwLjQ7CgpsZXQgdml6ID0gbmV3IERlZmF1bHRWaXN1YWxpemVyKG1pblZhbCwgbWF4VmFsKTsKCmZ1bmN0aW9uIGV2YWx1YXRlUGl4ZWwoc2FtcGxlcykgewogICAgbGV0IHZhbCA9IFtzYW1wbGVzLkIwNCwgc2FtcGxlcy5CMDMsIHNhbXBsZXMuQjAyXTsKICAgIHZhbCA9IHZpei5wcm9jZXNzTGlzdCh2YWwpOwogICAgdmFsLnB1c2goc2FtcGxlcy5kYXRhTWFzayk7CiAgICByZXR1cm4gdmFsOwp9CgpmdW5jdGlvbiBzZXR1cCgpIHsKICByZXR1cm4gewogICAgaW5wdXQ6IFt7CiAgICAgIGJhbmRzOiBbCiAgICAgICAgIkIwMiIsCiAgICAgICAgIkIwMyIsCiAgICAgICAgIkIwNCIsCiAgICAgICAgImRhdGFNYXNrIgogICAgICBdCiAgICB9XSwKICAgIG91dHB1dDogewogICAgICBiYW5kczogNAogICAgfQogIH0KfQ%3D%3D&type=sentinel-hub-edc&fromTime=2012-07-01T08%3A43%3A10.672Z&toTime=2013-08-05T08%3A43%3A10.672Z 
 EOBrowser: https:sentinelshare.page.link/X3Hc
 Resolution: 30m
 GeographicalCoverage: Land ([more info](https://landsat.gsfc.nasa.gov/landsat-8/mission-details))

@@ -4,8 +4,7 @@ AdditionalInfoExternal:
     Title: Additional info
     Path: s5p-no2-tropno-daily-check/README.MD
 Image: s5p-no2-tropno-daily-check/s5p-no2-tropno-daily-check.png
-EDCBrowser: https://browser.eurodatacube.com/?zoom=3&lat=21.89208&lng=-48.28697&collectionId=sentinel-5p-l2-tropomi&layerId=Nitrogen%20Dioxide%20tropospheric%20column&type=sentinel-hub-edc&fromTime=2021-03-04T16%3A30%3A21.421Z&toTime=2022-03-04T16%3A30%3A21.421Z
-EOBrowser: https://sentinelshare.page.link/WLoV
+EDCBrowser: https://browser.eurodatacube.com/?zoom=7&lat=53.23106&lng=-9.38391&collectionId=s5p-no2-tropno-daily-check&customVisualizationSelected=true&evalscript=Ly9WRVJTSU9OPTMKZnVuY3Rpb24gc2V0dXAoKSB7CiAgcmV0dXJuIHsKICAgIGlucHV0OiBbInRyb3BubzIiXSwKICAgIG91dHB1dDogeyBiYW5kczogMywgc2FtcGxlVHlwZTogIkFVVE8iIH0KICB9Owp9CgpmdW5jdGlvbiBldmFsdWF0ZVBpeGVsKHNhbXBsZSkgewogIHJldHVybiBbMi41KnNhbXBsZS50cm9wbm8yLDIuNSpzYW1wbGUudHJvcG5vMiwyLjUqc2FtcGxlLnRyb3BubzJdO30%3D&type=sentinel-hub-edc&fromTime=2021-03-08T09%3A44%3A48.897Z&toTime=2022-03-08T09%3A44%3A48.897Z#custom-script
 Resolution: 3.5 x 5.5 Km (across x along track)
 GeographicalCoverage: -180.0, -90.0, 180.0, 90.0
 TemporalAvailability: 2018-04-30 - ongoing

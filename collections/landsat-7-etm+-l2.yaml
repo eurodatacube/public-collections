@@ -5,7 +5,7 @@ Description: |
 Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/landsat-etm-l2/)"
 Image: landsat-7-etm+-l2/landsat-7-etm+-l2.png 
 EDCBrowser: https://browser.eurodatacube.com/?zoom=10&lat=41.9&lng=12.5&collectionId=landsat-7-etm%2B-l2&layerId=True%20color&type=sentinel-hub-edc&fromTime=2021-03-04T16%3A06%3A33.574Z&toTime=2022-03-04T16%3A06%3A33.574Z
-EOBrowser: https://sentinelshare.page.link/8nCQ
+EOBrowser: https://sentinelshare.page.link/15du
 Resolution: 30 m (thermal band is re-sampled from 60 m)
 GeographicalCoverage: Global land
 TemporalAvailability: April 1999 - ongoing
