@@ -45,6 +45,25 @@ Resources:
     Type: byoc-10549890-13bb-4ec5-8ae0-df387bd0b785
     CollectionId: 10549890-13bb-4ec5-8ae0-df387bd0b785
     Primary: true  
+Configurations:
+  - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
+    rel: "about"
+    type: "text/html"
+    title: "Details about running Evalscripts"
+  - href: "https://raw.githubusercontent.com/eurodatacube/public-collections/main/collections/sea-ice-index/concentration-script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to visualise sea ice concentration"
+    sentinelhub:layer_name: "Sea Ice Concentration"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
+  - href: "https://raw.githubusercontent.com/eurodatacube/public-collections/main/collections/sea-ice-index/extent-script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to visualise sea ice extent"
+    sentinelhub:layer_name: "Sea Ice Extent"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
 Extent:
   spatial:
     bbox:
