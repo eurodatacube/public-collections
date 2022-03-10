@@ -29,10 +29,12 @@
 
       {{#if EDCBrowser}}
       <h4>Explore</h4>
-      <p><a href="{{EDCBrowser}}" target="_blank"><button class="label label-info"> Open in EDC Browser </button></a>
+      <p>
+            <a href="{{EDCBrowser}}" target="_blank"><button class="label label-info"> Open in EDC Browser </button></a>
             {{#if EOBrowser}}
-            <a href="{{EOBrowser}}" target="_blank"><button class="label label-info" style="margin:10px"> Open in EO Browser </button></a> </p>
-            {{/if}} 
+            <a href="{{EOBrowser}}" target="_blank"><button class="label label-info" style="margin:10px"> Open in EO Browser </button></a>
+            {{/if}}
+      </p>
       {{else}}
             {{#if EOBrowser}}
             <h4>Explore</h4>
