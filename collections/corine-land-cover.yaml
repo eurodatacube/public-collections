@@ -7,7 +7,7 @@ AdditionalInfoExternal:
     Path: corine-land-cover/README.MD 
 Image: corine-land-cover/corine-land-cover.png
 EDCBrowser: https://browser.eurodatacube.com/?zoom=7&lat=43.14975&lng=7.16013&collectionId=corine-land-cover&layerId=Corine%20Land%20Cover&type=sentinel-hub-edc&fromTime=2017-12-31T00%3A00%3A00.000Z&toTime=2018-12-31T00%3A00%3A00.000Z   
-EOBrowser: https://sentinelshare.page.link/fWkD
+EOBrowser: https://apps.sentinel-hub.com/eo-browser/?zoom=10&lat=41.9&lng=12.5&themeId=DEFAULT-THEME&visualizationUrl=https%3A%2F%2Fcreodias.sentinel-hub.com%2Fogc%2Fwms%2F5da777d3-e322-468c-b7b5-4c90437d9946&datasetId=COPERNICUS_CORINE_LAND_COVER&fromTime=2018-01-01T00%3A00%3A00.000Z&toTime=2018-01-01T23%3A59%3A59.999Z&layerId=1_CORINE-LAND-COVER
 Resolution: 100m
 GeographicalCoverage: Pan-European, French overseas regions and departments (DOMs)
 TemporalAvailability: 1990, 2000, 2006, 2012, 2018

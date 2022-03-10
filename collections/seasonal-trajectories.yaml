@@ -10,7 +10,7 @@ AdditionalInfoExternal:
    Title: Additional info
    Path: seasonal-trajectories/README.MD
 EDCBrowser: https://browser.eurodatacube.com/?zoom=10&lat=41.9&lng=12.5&collectionId=seasonal-trajectories&layerId=PPI&type=sentinel-hub-edc&fromTime=2020-07-21T00%3A00%3A00.000Z&toTime=2020-07-21T23%3A59%3A59.999Z
-EOBrowser: https://sentinelshare.page.link/mnLj
+EOBrowser: https://apps.sentinel-hub.com/eo-browser/?zoom=9&lat=41.94103&lng=12.48162&themeId=DEFAULT-THEME&visualizationUrl=https%3A%2F%2Fcreodias.sentinel-hub.com%2Fogc%2Fwms%2F279b6a98-f7ca-4779-af4b-f181b706955c&datasetId=COPERNICUS_HR_VPP_SEASONAL_TRAJECTORIES&fromTime=2020-12-21T00%3A00%3A00.000Z&toTime=2020-12-21T23%3A59%3A59.999Z&layerId=PPI-VISUALIZATION
 Image: seasonal-trajectories/thumbnail.png
 Resolution: 10m
 GeographicalCoverage: Europe (Lat; 26N 72N Lon; -25W 45E)

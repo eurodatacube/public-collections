@@ -11,7 +11,7 @@ Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/sentinel-1-
 Image: sentinel-1-grd/sentinel-1-grd.png 
 Resolution: High - 10m, Medium - 40m
 EDCBrowser: https://browser.eurodatacube.com/?zoom=10&lat=41.9&lng=12.5&collectionId=sentinel-1-grd&layerId=SAR%20urban&type=sentinel-hub-edc&fromTime=2021-03-04T16%3A39%3A33.381Z&toTime=2022-03-04T16%3A39%3A33.381Z
-EOBrowser: https://sentinelshare.page.link/u7UY
+EOBrowser: https://apps.sentinel-hub.com/eo-browser/?zoom=10&lat=41.9&lng=12.5&themeId=DEFAULT-THEME&visualizationUrl=https%3A%2F%2Fservices.sentinel-hub.com%2Fogc%2Fwms%2Ff2068f4f-3c75-42cf-84a1-42948340a846&datasetId=S1_AWS_IW_VVVH&fromTime=2021-03-28T00%3A00%3A00.000Z&toTime=2021-03-28T23%3A59%3A59.999Z&layerId=ENHANCED-VISUALIZATION-ORTHORECTIFIED
 Explore: "[Open Notebook](https://eurodatacube.com/marketplace/notebooks/contributions/Exploring_time_and_space_with_EDC.ipynb)"
 GeographicalCoverage: Land, coastal zones, shipping routes ([more info](https://sentinel.esa.int/web/sentinel/user-guides/sentinel-1-sar/revisit-and-coverage))
 TemporalAvailability: October 2014- ongoing

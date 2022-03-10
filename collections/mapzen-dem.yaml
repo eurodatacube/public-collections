@@ -9,7 +9,7 @@ Description: |
 Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/dem/)"
 Image: mapzen-dem/mapzen-dem.png
 EDCBrowser: https://browser.eurodatacube.com/?zoom=10&lat=41.9&lng=12.5&collectionId=mapzen-dem&layerId=Color&type=sentinel-hub-edc&fromTime=2021-03-04T16%3A12%3A38.129Z&toTime=2022-03-04T16%3A12%3A38.129Z
-EOBrowser: https://sentinelshare.page.link/wDL1
+EOBrowser: https://apps.sentinel-hub.com/eo-browser/?zoom=10&lat=41.9&lng=12.5&themeId=DEFAULT-THEME&visualizationUrl=https%3A%2F%2Fservices.sentinel-hub.com%2Fogc%2Fwms%2F7ffc45f2-61f3-4c4d-b7eb-13cce1633d81&datasetId=DEM_MAPZEN&fromTime=2021-04-08T00%3A00%3A00.000Z&toTime=2021-04-08T23%3A59%3A59.999Z&layerId=COLOR
 Resolution: "varies per zoom level, location and data source [more info](https://github.com/tilezen/joerd/blob/master/docs/data-sources.md#what-is-the-ground-resolution)"
 GeographicalCoverage: Ocean and Land ([more info](https://github.com/tilezen/joerd/blob/master/docs/data-sources.md#footprints-database))
 TemporalAvailability: static [current version was built in 2017](https://github.com/tilezen/joerd/blob/master/docs/data-sources.md#data-updates)

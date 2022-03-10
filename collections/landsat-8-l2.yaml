@@ -12,7 +12,7 @@ Description: |
 Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/landsat-8-l2/)"
 Image: landsat-8-l2/landsat-8-l2.png
 EDCBrowser: https://browser.eurodatacube.com/?zoom=12&lat=41.88454&lng=12.40628&collectionId=landsat-8-l2&layerId=True%20color&type=sentinel-hub-edc&fromTime=2012-07-01T08%3A43%3A10.672Z&toTime=2013-08-05T08%3A43%3A10.672Z 
-EOBrowser: https:sentinelshare.page.link/X3Hc
+EOBrowser: https://apps.sentinel-hub.com/eo-browser/?zoom=12&lat=45.66157&lng=12.77023&themeId=DEFAULT-THEME&visualizationUrl=https%3A%2F%2Fservices.sentinel-hub.com%2Fogc%2Fwms%2Ffa073661-b70d-4b16-a6a9-e866825f05fd&datasetId=AWS_LOTL2&fromTime=2021-03-02T00%3A00%3A00.000Z&toTime=2021-03-02T23%3A59%3A59.999Z&layerId=1_TRUE_COLOR
 Resolution: 30m
 GeographicalCoverage: Land ([more info](https://landsat.gsfc.nasa.gov/landsat-8/mission-details))
 TemporalAvailability: 

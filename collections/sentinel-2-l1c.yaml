@@ -9,7 +9,7 @@ Description: |
 Image: sentinel-2-l1c/sentinel-2-l1c.png
 Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/sentinel-2-l1c/)"
 EDCBrowser: https://browser.eurodatacube.com/?zoom=11&lat=41.91326&lng=12.41386&collectionId=sentinel-2-l1c&layerId=True%20Color&type=sentinel-hub-edc&fromTime=2020-03-08T09%3A57%3A46.781Z&toTime=2021-08-01T09%3A57%3A46.781Z
-EOBrowser: https://sentinelshare.page.link/a3tB
+EOBrowser: https://apps.sentinel-hub.com/eo-browser/?zoom=10&lat=41.9&lng=12.5&themeId=DEFAULT-THEME&datasetId=S2L1C&fromTime=2021-03-31T00:00:00.000Z&toTime=2021-03-31T23:59:59.999Z&layerId=1_TRUE_COLOR&visualizationUrl=https://services.sentinel-hub.com/ogc/wms/42924c6c-257a-4d04-9b8e-36387513a99c
 Resolution: 10m
 GeographicalCoverage: Land surface area ([more info](https://sentinel.esa.int/web/sentinel/user-guides/sentinel-2-msi/revisit-coverage))
 TemporalAvailability: 2015 - ongoing

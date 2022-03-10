@@ -5,7 +5,7 @@ AdditionalInfoExternal:
     Path: global-surface-water/README.MD
 Image: global-surface-water/global-surface-water.png
 EDCBrowser: https://browser.eurodatacube.com/?zoom=10&lat=41.9&lng=12.5&collectionId=global-surface-water&layerId=Global%20Surface%20Water%20Occurrence&type=sentinel-hub-edc&fromTime=2019-12-31T00%3A00%3A00.000Z&toTime=2020-12-31T00%3A00%3A00.000Z  
-EOBrowser: https://sentinelshare.page.link/BN9T
+EOBrowser: https://apps.sentinel-hub.com/eo-browser/?zoom=10&lat=41.9&lng=12.5&themeId=DEFAULT-THEME&visualizationUrl=https%3A%2F%2Fcreodias.sentinel-hub.com%2Fogc%2Fwms%2F0a6c7252-9515-4be1-b6f0-6542ddf971d5&datasetId=COPERNICUS_GLOBAL_SURFACE_WATER&fromTime=2020-01-01T00%3A00%3A00.000Z&toTime=2020-01-01T23%3A59%3A59.999Z&layerId=1_OCCURRENCE
 Resolution: 30m
 GeographicalCoverage: Global coverage from longitude 170°E to 180°W and latitude 80°N to 50°S.
 TemporalAvailability: 1984 - 2019, 1984 - 2020
