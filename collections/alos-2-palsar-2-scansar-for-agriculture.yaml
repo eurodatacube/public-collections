@@ -10,6 +10,7 @@ Description: |
   vegetation to obtain information about vegetation and ground surface.    
   ScanSAR is wide swath mode with 100m spatial resolution, 350km width swath, and dual polarization (HH/HV).
 Image: alos-2-palsar-2-scansar-for-agriculture/alos-2-palsar-2-scansar-for-agriculture.png
+EDCBrowser: https://browser.eurodatacube.com/?zoom=8&lat=40.5305&lng=-121.809&collectionId=alos-2-palsar-2-scansar-for-agriculture&layerId=HH&type=sentinel-hub-edc&fromTime=2019-12-31T00%3A00%3A00.000Z&toTime=2020-12-31T00%3A00%3A00.000Z
 AdditionalInfoExternal:
   Title: Additional info
   Path: alos-2-palsar-2-scansar-for-agriculture/README.MD

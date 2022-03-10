@@ -4,6 +4,7 @@ Description: |
   geometrically corrected (orthorectified) data in selected AOIs between 2019 and 2020 for NASA/ESA/JAXA EODashboard Hackathon.   
   The reference map is described in the digital code as 255: rice paddy field, 0: others.  
 Image: alos-2-palsar-2-scansar-rice-fields-map/alos-2-palsar-2-scansar-rice-fields-map.png
+EDCBrowser: https://browser.eurodatacube.com/?zoom=12&lat=39.57112&lng=-121.97664&collectionId=alos-2-palsar-2-scansar-rice-fields-map&layerId=Reference%20Rice%20Paddy%20Map&type=sentinel-hub-edc&fromTime=2019-08-31T00%3A00%3A00.000Z&toTime=2020-08-31T00%3A00%3A00.000Z
 AdditionalInfoExternal:
   Title: Additional info
   Path: alos-2-palsar-2-scansar-rice-fields-map/README.MD

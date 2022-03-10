@@ -11,6 +11,7 @@ AdditionalInfoExternal:
   Title: Additional info
   Path: sea-ice-index/README.MD
 Image: sea-ice-index/sea-ice.png
+EDCBrowser: https://browser.eurodatacube.com/?zoom=5&lat=71.20137&lng=-28.9579&collectionId=sea-ice-index&customVisualizationSelected=true&evalscript=Ly9WRVJTSU9OPTMKZnVuY3Rpb24gc2V0dXAoKSB7CiAgcmV0dXJuIHsKICAgIGlucHV0OiBbImNvbmNlbnRyYXRpb24iLCJleHRlbnQiLCJkYXRhTWFzayJdLAogICAgb3V0cHV0OiB7IGJhbmRzOiAzLCBzYW1wbGVUeXBlOiAiQVVUTyIgfQogIH07Cn0KCmZ1bmN0aW9uIGV2YWx1YXRlUGl4ZWwoc2FtcGxlKSB7CiAgcmV0dXJuIFsyLjUqc2FtcGxlLmNvbmNlbnRyYXRpb24sMi41KnNhbXBsZS5leHRlbnQsMi41KnNhbXBsZS5kYXRhTWFza107fQ%3D%3D&type=sentinel-hub-edc&fromTime=2020-01-31T00%3A00%3A00.000Z&toTime=2021-01-31T00%3A00%3A00.000Z#custom-composite
 Resolution: 25km
 GeographicalCoverage: Longitude from 180°W to 180°E and latitude from 39.23°N to 90°N and 30.98°S to 90°S.
 TemporalAvailability: 2017 - May 2021
@@ -44,6 +45,25 @@ Resources:
     Type: byoc-10549890-13bb-4ec5-8ae0-df387bd0b785
     CollectionId: 10549890-13bb-4ec5-8ae0-df387bd0b785
     Primary: true  
+Configurations:
+  - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
+    rel: "about"
+    type: "text/html"
+    title: "Details about running Evalscripts"
+  - href: "https://raw.githubusercontent.com/eurodatacube/public-collections/main/collections/sea-ice-index/concentration-script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to visualise sea ice concentration"
+    sentinelhub:layer_name: "Sea Ice Concentration"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
+  - href: "https://raw.githubusercontent.com/eurodatacube/public-collections/main/collections/sea-ice-index/extent-script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to visualise sea ice extent"
+    sentinelhub:layer_name: "Sea Ice Extent"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
 Extent:
   spatial:
     bbox:

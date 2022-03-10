@@ -3,8 +3,9 @@ Description: The Global Water Bodies product shows the surface extent covered by
 AdditionalInfoExternal:
     Title: Additional info 
     Path: water-bodies/README.MD  
-Image: water-bodies/water-bodies.png   
-EOBrowser: https://sentinelshare.page.link/vmqd
+Image: water-bodies/water-bodies.png
+EDCBrowser: https://browser.eurodatacube.com/?zoom=11&lat=42.01767&lng=12.2422&collectionId=water-bodies&layerId=Water%20Bodies&type=sentinel-hub-edc&fromTime=2021-03-04T16%3A56%3A44.386Z&toTime=2022-03-04T16%3A56%3A44.386Z   
+EOBrowser: https://apps.sentinel-hub.com/eo-browser/?zoom=10&lat=41.9&lng=12.5&themeId=DEFAULT-THEME&visualizationUrl=https%3A%2F%2Fcreodias.sentinel-hub.com%2Fogc%2Fwms%2F6630abc2-b00c-46af-b2cd-2fcb8574ff2e&datasetId=COPERNICUS_WATER_BODIES&fromTime=2021-03-01T00%3A00%3A00.000Z&toTime=2021-03-01T23%3A59%3A59.999Z&layerId=WATER-BODIES
 Resolution: 100m
 GeographicalCoverage: Global coverage from longitude -180°E to +180°W and latitude +80°N to -60S . Depending on the month, some high latitude areas are not covered by Sentinel-2 satellites.
 TemporalAvailability: October 2020 - ongoing

@@ -4,6 +4,7 @@ AdditionalInfoExternal:
     Title: Additional info
     Path: iceye_e3/README.MD
 Image: iceye_e3/iceye_e3.png
+EDCBrowser: https://browser.eurodatacube.com/?zoom=16&lat=51.95218&lng=4.09373&collectionId=iceye_e3&layerId=GRD%20ICEYE_E3&type=sentinel-hub-edc&fromTime=2019-07-17T23%3A59%3A59.000Z&toTime=2020-07-17T23%3A59%3A59.000Z
 Resolution: Pixel Size = (0.0000060,-0.0000060)
 GeographicalCoverage: 4.08589, 51.94683, 4.10156, 51.95753
 TemporalAvailability: 2020-02-04 - 2020-07-17

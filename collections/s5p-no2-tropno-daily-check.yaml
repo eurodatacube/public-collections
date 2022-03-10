@@ -4,6 +4,7 @@ AdditionalInfoExternal:
     Title: Additional info
     Path: s5p-no2-tropno-daily-check/README.MD
 Image: s5p-no2-tropno-daily-check/s5p-no2-tropno-daily-check.png
+EDCBrowser: https://browser.eurodatacube.com/?zoom=5&lat=50.44351&lng=-5.75684&collectionId=s5p-no2-tropno-daily-check&layerId=NO2&type=sentinel-hub-edc&fromTime=2021-03-08T09%3A44%3A48.897Z&toTime=2022-03-08T09%3A44%3A48.897Z
 Resolution: 3.5 x 5.5 Km (across x along track)
 GeographicalCoverage: -180.0, -90.0, 180.0, 90.0
 TemporalAvailability: 2018-04-30 - ongoing
