@@ -8,7 +8,6 @@ Description: |
 
 Documentation: "[Product information](https://resources.marine.copernicus.eu/?option=com_csw&view=details&product_id=OCEANCOLOUR_ATL_CHL_L4_NRT_OBSERVATIONS_009_037)"
 Image: oceancolour-atl-chl-l4-nrt-observations-009-037/oceancolour-atl-chl-l4-nrt-observations-009-037.png
-EDCBrowser: https://browser.eurodatacube.com/?zoom=6&lat=54&lng=-4&collectionId=oceancolour_atl_chl_l4_nrt_observations_009_037&layerId=CHL%20visualization&type=sentinel-hub-edc&fromTime=2020-12-31T00%3A00%3A00.000Z&toTime=2021-12-31T00%3A00%3A00.000Z
 Explore: "[Open Notebook](https://eurodatacube.com/marketplace/notebooks/getting-started/EDC_xcube_generator_service.ipynb)"
 Resolution: 1km
 GeographicalCoverage: |

@@ -5,7 +5,6 @@ Description: |
   Black Sea, based on the merging of the sensors MODIS-Aqua, NOAA-20 VIIRS, NPP-VIIRS, Sentinel3A-OLCI.
 Documentation: "[Product information](https://resources.marine.copernicus.eu/product-detail/OCEANCOLOUR_BS_CHL_L4_NRT_OBSERVATIONS_009_045/INFORMATION)"
 Image: oceancolour-bs-chl-l4-nrt-observations-009-045/oceancolour-bs-chl-l4-nrt-observations-009-045.png
-EDCBrowser: https://browser.eurodatacube.com/?zoom=6&lat=44&lng=31&collectionId=oceancolour_bs_chl_l4_nrt_observations_009_045&layerId=CHL%20visualization&type=sentinel-hub-edc&fromTime=2020-12-31T00%3A00%3A00.000Z&toTime=2021-12-31T00%3A00%3A00.000Z
 Explore: "[Open Notebook](https://eurodatacube.com/marketplace/notebooks/getting-started/EDC_xcube_generator_service.ipynb)"
 Resolution: 0.3km
 GeographicalCoverage: |

@@ -5,7 +5,6 @@ Description: |
   based on the merging of the sensors MODIS-AQUA, NOAA20-VIIRS, NPP-VIIRS and Sentinel3A-OLCI.
 Documentation: "[Product information](https://resources.marine.copernicus.eu/product-detail/OCEANCOLOUR_MED_CHL_L4_NRT_OBSERVATIONS_009_041/INFORMATION)"
 Image: oceancolour-med-chl-l4-nrt-observations-009-041/oceancolour-med-chl-l4-nrt-observations-009-041.png
-EDCBrowser: https://browser.eurodatacube.com/?zoom=6&lat=37.49229&lng=12.50244&collectionId=oceancolour_med_chl_l4_nrt_observations_009_041&layerId=CHL%20visualization&type=sentinel-hub-edc&fromTime=2020-12-31T00%3A00%3A00.000Z&toTime=2021-12-31T00%3A00%3A00.000Z
 Explore: "[Open Notebook](https://eurodatacube.com/marketplace/notebooks/getting-started/EDC_xcube_generator_service.ipynb)"
 Resolution: 0.3km
 GeographicalCoverage: |
