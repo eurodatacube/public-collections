@@ -84,12 +84,14 @@ CubeDimensions:
     extent:
       - -180
       - 180
+    reference_system: 4326
   y:
     type: spatial
     axis: y
     extent:
       - -90
       - 90
+    reference_system: 4326
   t:
     type: temporal
     extent:
@@ -102,5 +104,23 @@ CubeDimensions:
       - concentration
       - extent
       - dataMask
+Summaries:
+  raster:bands:
+    - description: percentage of ice cover for cells with more than 15 percent ice cover
+      name: concentration
+      openeo:gsd:
+        value:
+        - 0.231481481481666
+        - 0.231481481481666
+        unit: °
+    - description: extent of ocean covered by ice at any concentration greater than 15 percent for a given day
+      name: extent
+      openeo:gsd:
+        value:
+        - 0.231481481481666
+        - 0.231481481481666
+        unit: °
+    - description: The mask of data/no data pixels.
+      name: dataMask
 RegistryEntryAdded: "2021-05-11"
-RegistryEntryLastModified: "2022-02-09"
+RegistryEntryLastModified: "2022-03-11"

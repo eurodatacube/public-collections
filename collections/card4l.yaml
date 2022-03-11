@@ -99,12 +99,14 @@ CubeDimensions:
     extent:
       - -26.15
       - 60.42
+    reference_system: 4326
   y:
     type: spatial
     axis: y
     extent:
       - -48
       - 39
+    reference_system: 4326
   t:
     type: temporal
     extent:
@@ -119,5 +121,44 @@ CubeDimensions:
       - ANGLE 
       - MASK
       - dataMask
+Summaries:
+  raster:bands:
+    - description: Linear backscatter intensity in VV polarization.
+      name: VV
+      openeo:gsd:
+        value:
+        - 0.000925925925926
+        - 0.000925925925926
+        unit: °
+    - description: Linear backscatter intensity in VH polarization.
+      name: VH
+      openeo:gsd:
+        value:
+        - 0.000925925925926
+        - 0.000925925925926
+        unit: °
+    - description: Normalized scattering area.
+      name: AREA
+      openeo:gsd:
+        value:
+        - 0.000925925925926
+        - 0.000925925925926
+        unit: °
+    - description: Local incidence angle (degree).
+      name: ANGLE
+      openeo:gsd:
+        value:
+        - 0.000925925925926
+        - 0.000925925925926
+        unit: °
+    - description: Data mask.
+      name: MASK
+      openeo:gsd:
+        value:
+        - 0.000925925925926
+        - 0.000925925925926
+        unit: °
+    - description: The mask of data/no data pixels.
+      name: dataMask
 RegistryEntryAdded: "2022-02-11"
-RegistryEntryLastModified: "2022-02-11"
+RegistryEntryLastModified: "2022-03-11"

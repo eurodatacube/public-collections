@@ -94,12 +94,14 @@ CubeDimensions:
     extent:
       - -180
       - 180
+    reference_system: 4326
   y:
     type: spatial
     axis: y
     extent:
       - -60
       - 80
+    reference_system: 4326
   t:
     type: temporal
     extent:
@@ -112,5 +114,23 @@ CubeDimensions:
       - WB
       - QUAL
       - dataMask
+Summaries:
+  raster:bands:
+    - description: Main Water Bodies detection layer showing water pixels and non-water pixels
+      name: WB
+      openeo:gsd:
+        value:
+        - 0.000925925925926
+        - 0.000925925925926
+        unit: °
+    - description: Quality layer which gives information on water bodies occurrence
+      name: QUAL
+      openeo:gsd:
+        value:
+        - 0.000925925925926
+        - 0.000925925925926
+        unit: °
+    - description: The mask of data/no data pixels.
+      name: dataMask
 RegistryEntryAdded: "2021-03-30"
-RegistryEntryLastModified: "2022-02-10"
+RegistryEntryLastModified: "2022-03-11"

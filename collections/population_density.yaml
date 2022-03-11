@@ -60,12 +60,14 @@ CubeDimensions:
     extent:
       - -180.0
       - 179.99999999999983
+    reference_system: 4326
   y:
     type: spatial
     axis: y
     extent:
       - -90.0
       - 89.99999999999991
+    reference_system: 4326
   t:
     type: temporal
     extent:
@@ -75,5 +77,14 @@ CubeDimensions:
     type: bands
     values:
       - populationDensity   
+Summaries:
+  raster:bands:
+    - description: Population density
+      name: populationDensity
+      openeo:gsd:
+        value:
+        - 0.009920634920333
+        - 0.009920634920333
+        unit: °
 RegistryEntryAdded: "2021-05-07"
-RegistryEntryLastModified: "2022-02-10"
+RegistryEntryLastModified: "2022-03-11"

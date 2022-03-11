@@ -116,12 +116,14 @@ CubeDimensions:
     extent:
       - -180
       - 180
+    reference_system: 4326
   y:
     type: spatial
     axis: y
     extent:
       - -60
       - 78.25
+    reference_system: 4326
   t:
     type: temporal
     extent:
@@ -147,5 +149,114 @@ CubeDimensions:
       - DataDensityIndicator
       - Change_Confidence_layer
       - dataMask
+Summaries:
+  raster:bands:
+    - description: main discrete land cover classification according to FAO LCCS scheme
+      name: Discrete_Classification_map
+      openeo:gsd:
+        value:
+        - 0.000925925925926
+        - 0.000925925925926
+        unit: °
+    - description: Classification probability, a quality indicator for the discrete classification
+      name: Discrete_Classification_proba
+      openeo:gsd:
+        value:
+        - 0.000925925925926
+        - 0.000925925925926
+        unit: °
+    - description: Forest type for all pixels where tree cover fraction is bigger than 1 %
+      name: Forest_Type_layer
+      openeo:gsd:
+        value:
+        - 0.000925925925926
+        - 0.000925925925926
+        unit: °
+    - description: Fractional cover (%) for the bare and sparse vegetation class
+      name: Bare_CoverFraction_layer
+      openeo:gsd:
+        value:
+        - 0.000925925925926
+        - 0.000925925925926
+        unit: °
+    - description: Fractional cover (%) for the cropland class
+      name: Crops_CoverFraction_layer
+      openeo:gsd:
+        value:
+        - 0.000925925925926
+        - 0.000925925925926
+        unit: °
+    - description: Fractional cover (%) for the herbaceous vegetation class
+      name: Grass_CoverFraction_layer
+      openeo:gsd:
+        value:
+        - 0.000925925925926
+        - 0.000925925925926
+        unit: °
+    - description: Fractional cover (%) for the moss & lichen class
+      name: MossLichen_CoverFraction_layer
+      openeo:gsd:
+        value:
+        - 0.000925925925926
+        - 0.000925925925926
+        unit: °
+    - description: Fractional cover (%) for the shrubland class
+      name: Shrub_CoverFraction_layer
+      openeo:gsd:
+        value:
+        - 0.000925925925926
+        - 0.000925925925926
+        unit: °
+    - description: Fractional cover (%) for the snow & ice class
+      name: Snow_CoverFraction_layer
+      openeo:gsd:
+        value:
+        - 0.000925925925926
+        - 0.000925925925926
+        unit: °
+    - description: Fractional cover (%) for the forest class
+      name: Tree_CoverFraction_layer
+      openeo:gsd:
+        value:
+        - 0.000925925925926
+        - 0.000925925925926
+        unit: °
+    - description: Fractional cover (%) for the built-up class
+      name: BuiltUp_CoverFraction_layer
+      openeo:gsd:
+        value:
+        - 0.000925925925926
+        - 0.000925925925926
+        unit: °
+    - description: Fractional cover (%) for the permanent inland water bodies class
+      name: PermanentWater_CoverFraction_layer
+      openeo:gsd:
+        value:
+        - 0.000925925925926
+        - 0.000925925925926
+        unit: °
+    - description: Fractional cover (%) for the seasonal inland water bodies class
+      name: SeasonalWater_CoverFraction_layer
+      openeo:gsd:
+        value:
+        - 0.000925925925926
+        - 0.000925925925926
+        unit: °
+    - description: Data density indicator showing quality of the EO input data (0 = bad, 100 = perfect data)
+      name: DataDensityIndicator
+      openeo:gsd:
+        value:
+        - 0.000925925925926
+        - 0.000925925925926
+        unit: °
+    - description: Quality layer regarding the change detection of the current mapped year to the previous mapped year.
+      name: Change_Confidence_layer
+      openeo:gsd:
+        value:
+        - 0.000925925925926
+        - 0.000925925925926
+        unit: °
+    - description: The mask of data/no data pixels.
+      name: dataMask
 RegistryEntryAdded: "2021-03-20"
-RegistryEntryLastModified: "2022-02-10"
+RegistryEntryLastModified: "2022-03-11"
