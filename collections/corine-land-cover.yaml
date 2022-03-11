@@ -96,7 +96,8 @@ CubeDimensions:
       - dataMask
 Summaries:
   raster:bands:
-    - name: CLC
+    - description: CLC (land cover class)
+      name: CLC
       openeo:gsd:
         value:
           - 100
@@ -105,4 +106,4 @@ Summaries:
     - description: The mask of data/no data pixels.
       name: dataMask
 RegistryEntryAdded: "2021-03-21"
-RegistryEntryLastModified: "2022-02-10"
+RegistryEntryLastModified: "2022-03-11"
