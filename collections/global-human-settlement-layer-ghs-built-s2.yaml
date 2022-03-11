@@ -155,11 +155,6 @@ CubeDimensions:
     values:
       - PROB
 Summaries:
-  instruments:
-    - mss
-  sat:orbit_state:
-    - ascending
-    - descending
   raster:bands:
     - description: Built-up probability [0 - 100 %]
       name: PROB
@@ -310,7 +305,5 @@ Summaries:
     - 'http://www.opengis.net/def/crs/EPSG/0/32759'
     - 'http://www.opengis.net/def/crs/EPSG/0/32760'
     - 'http://www.opengis.net/def/crs/SR-ORG/0/98739'
-  platform:
-    - global human settlement
 RegistryEntryAdded: "2022-01-10"
 RegistryEntryLastModified: "2022-03-11"
