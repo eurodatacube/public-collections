@@ -160,7 +160,7 @@ Summaries:
   sat:orbit_state:
     - ascending
     - descending
-  eo:bands:
+  raster:bands:
     - description: Built-up probability [0 - 100 %]
       name: PROB
       openeo:gsd:

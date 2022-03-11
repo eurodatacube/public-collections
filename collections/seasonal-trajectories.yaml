@@ -193,7 +193,7 @@ Summaries:
   sat:orbit_state:
     - ascending
     - descending
-  eo:bands:
+  raster:bands:
     - description: Plant Phenology Index
       name: PPI
       openeo:gsd:

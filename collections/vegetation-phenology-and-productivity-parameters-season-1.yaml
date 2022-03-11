@@ -339,7 +339,7 @@ Summaries:
   sat:orbit_state:
     - ascending
     - descending
-  eo:bands:
+  raster:bands:
     - description: Season amplitude (MAXV – MINV)
       name: AMPL
       openeo:gsd:

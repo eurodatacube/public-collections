@@ -236,7 +236,7 @@ Summaries:
   sat:orbit_state:
     - ascending
     - descending
-  eo:bands:
+  raster:bands:
     - description: Leaf Area Index
       name: LAI
       openeo:gsd:
