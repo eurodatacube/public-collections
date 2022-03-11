@@ -239,12 +239,76 @@ CubeDimensions:
     extent:
       - -25
       - 45
+    reference_system:
+      $schema: https://proj.org/schemas/v0.4/projjson.schema.json
+      type: GeodeticCRS
+      name: AUTO 42001 (Universal Transverse Mercator)
+      datum:
+        type: GeodeticReferenceFrame
+        name: World Geodetic System 1984
+        ellipsoid:
+          name: WGS 84
+          semi_major_axis: 6378137
+          inverse_flattening: 298.257223563
+      coordinate_system:
+        subtype: ellipsoidal
+        axis:
+          - name: Geodetic latitude
+            abbreviation: Lat
+            direction: north
+            unit: degree
+          - name: Geodetic longitude
+            abbreviation: Lon
+            direction: east
+            unit: degree
+      area: World
+      bbox:
+        south_latitude: -90
+        west_longitude: -180
+        north_latitude: 90
+        east_longitude: 180
+      id:
+        authority: OGC
+        version: "1.3"
+        code: Auto42001
   y:
     type: spatial
     axis: y
     extent:
       - 26
       - 72
+    reference_system:
+      $schema: https://proj.org/schemas/v0.4/projjson.schema.json
+      type: GeodeticCRS
+      name: AUTO 42001 (Universal Transverse Mercator)
+      datum:
+        type: GeodeticReferenceFrame
+        name: World Geodetic System 1984
+        ellipsoid:
+          name: WGS 84
+          semi_major_axis: 6378137
+          inverse_flattening: 298.257223563
+      coordinate_system:
+        subtype: ellipsoidal
+        axis:
+          - name: Geodetic latitude
+            abbreviation: Lat
+            direction: north
+            unit: degree
+          - name: Geodetic longitude
+            abbreviation: Lon
+            direction: east
+            unit: degree
+      area: World
+      bbox:
+        south_latitude: -90
+        west_longitude: -180
+        north_latitude: 90
+        east_longitude: 180
+      id:
+        authority: OGC
+        version: "1.3"
+        code: Auto42001
   t:
     type: temporal
     extent:
@@ -269,5 +333,256 @@ CubeDimensions:
       - LSLOPE
       - RSLOPE
       - dataMask
+Summaries:
+  instruments:
+    - mss
+  sat:orbit_state:
+    - ascending
+    - descending
+  eo:bands:
+    - description: Season amplitude (MAXV – MINV)
+      name: AMPL
+      openeo:gsd:
+        value:
+          - 10
+          - 10
+        unit: m
+    - description: Day of end-of-season
+      name: EOSD
+      openeo:gsd:
+        value:
+          - 10
+          - 10
+        unit: m
+    - description: Vegetation index value at EOSD
+      name: EOSV
+      openeo:gsd:
+        value:
+          - 10
+          - 10
+        unit: m
+    - description: Day of maximum-of-season
+      name: MAXD
+      openeo:gsd:
+        value:
+          - 10
+          - 10
+        unit: m
+    - description: Vegetation index value at MAXD
+      name: MAXV
+      openeo:gsd:
+        value:
+          - 10
+          - 10
+        unit: m
+    - description: Average vegetation index value of minima on left and right sides of each season
+      name: MINV
+      openeo:gsd:
+        value:
+          - 10
+          - 10
+        unit: m
+    - description: Day of start-of-season
+      name: SOSD
+      openeo:gsd:
+        value:
+          - 10
+          - 10
+        unit: m
+    - description: Vegetation index value at SOSD
+      name: SOSV
+      openeo:gsd:
+        value:
+          - 10
+          - 10
+        unit: m
+    - description: Quality Flag
+      name: QFLAG
+      openeo:gsd:
+        value:
+          - 10
+          - 10
+        unit: m
+    - description: Seasonal productivity. The growing season integral computed as the sum of all daily values between SOSD and EOSD
+      name: SPROD
+      openeo:gsd:
+        value:
+          - 10
+          - 10
+        unit: m
+    - description: Total productivity. The growing season integral computed as sum of all daily values minus their base level value.
+      name: TPROD
+      openeo:gsd:
+        value:
+          - 10
+          - 10
+        unit: m
+    - description: Length of Season (number of days between start and end)
+      name: LENGTH
+      openeo:gsd:
+        value:
+          - 10
+          - 10
+        unit: m
+    - description: Slope of the greening up period
+      name: LSLOPE
+      openeo:gsd:
+        value:
+          - 10
+          - 10
+        unit: m
+    - description: Slope of the senescent period
+      name: RSLOPE
+      openeo:gsd:
+        value:
+          - 10
+          - 10
+        unit: m
+    - description: The mask of data/no data pixels.
+      name: dataMask
+  crs:
+    - 'http://www.opengis.net/def/crs/OGC/1.3/CRS84'
+    - 'http://www.opengis.net/def/crs/EPSG/0/2154'
+    - 'http://www.opengis.net/def/crs/EPSG/0/2180'
+    - 'http://www.opengis.net/def/crs/EPSG/0/2193'
+    - 'http://www.opengis.net/def/crs/EPSG/0/3003'
+    - 'http://www.opengis.net/def/crs/EPSG/0/3004'
+    - 'http://www.opengis.net/def/crs/EPSG/0/3031'
+    - 'http://www.opengis.net/def/crs/EPSG/0/3035'
+    - 'http://www.opengis.net/def/crs/EPSG/0/4326'
+    - 'http://www.opengis.net/def/crs/EPSG/0/4346'
+    - 'http://www.opengis.net/def/crs/EPSG/0/4416'
+    - 'http://www.opengis.net/def/crs/EPSG/0/4765'
+    - 'http://www.opengis.net/def/crs/EPSG/0/4794'
+    - 'http://www.opengis.net/def/crs/EPSG/0/4844'
+    - 'http://www.opengis.net/def/crs/EPSG/0/4857'
+    - 'http://www.opengis.net/def/crs/EPSG/0/3912'
+    - 'http://www.opengis.net/def/crs/EPSG/0/3995'
+    - 'http://www.opengis.net/def/crs/EPSG/0/4026'
+    - 'http://www.opengis.net/def/crs/EPSG/0/5514'
+    - 'http://www.opengis.net/def/crs/EPSG/0/28992'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32601'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32602'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32603'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32604'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32605'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32606'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32607'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32608'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32609'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32610'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32611'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32612'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32613'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32614'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32615'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32616'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32617'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32618'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32619'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32620'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32621'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32622'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32623'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32624'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32625'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32626'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32627'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32628'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32629'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32630'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32631'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32632'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32633'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32634'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32635'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32636'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32637'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32638'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32639'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32640'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32641'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32642'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32643'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32644'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32645'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32646'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32647'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32648'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32649'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32650'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32651'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32652'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32653'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32654'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32655'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32656'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32657'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32658'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32659'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32660'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32701'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32702'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32703'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32704'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32705'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32706'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32707'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32708'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32709'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32710'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32711'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32712'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32713'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32714'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32715'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32716'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32717'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32718'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32719'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32720'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32721'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32722'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32723'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32724'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32725'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32726'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32727'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32728'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32729'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32730'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32731'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32732'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32733'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32734'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32735'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32736'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32737'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32738'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32739'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32740'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32741'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32742'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32743'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32744'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32745'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32746'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32746'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32748'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32749'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32750'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32751'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32752'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32753'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32754'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32755'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32756'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32757'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32758'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32759'
+    - 'http://www.opengis.net/def/crs/EPSG/0/32760'
+    - 'http://www.opengis.net/def/crs/SR-ORG/0/98739'
+  platform:
+    - vegetation phenology and productivity parameters season 2
 RegistryEntryAdded: '2021-10-14'
-RegistryEntryLastModified: "2022-02-10"
+RegistryEntryLastModified: "2022-03-11"
