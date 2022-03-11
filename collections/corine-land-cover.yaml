@@ -75,12 +75,14 @@ CubeDimensions:
     extent:
       - -32
       - 45
+    reference_system: 3035
   y:
     type: spatial
     axis: y
     extent:
       - 27
       - 71
+    reference_system: 3035
   t:
     type: temporal
     extent:
@@ -92,5 +94,15 @@ CubeDimensions:
     values:
       - CLC
       - dataMask
+Summaries:
+  raster:bands:
+    - name: CLC
+      openeo:gsd:
+        value:
+          - 100
+          - 100
+        unit: m
+    - description: The mask of data/no data pixels.
+      name: dataMask
 RegistryEntryAdded: "2021-03-21"
 RegistryEntryLastModified: "2022-02-10"

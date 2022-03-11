@@ -82,12 +82,14 @@ CubeDimensions:
     extent:
       - -56
       - 72
+    reference_system: 3857
   y:
     type: spatial
     axis: y
     extent:
       - 24
       - 72
+    reference_system: 3857
   t:
     type: temporal
     extent:
@@ -98,5 +100,15 @@ CubeDimensions:
     values:
       - CLC_ACC
       - dataMask
+Summaries:
+  raster:bands:
+    - name: CLC_ACC
+      openeo:gsd:
+        value:
+          - 100
+          - 100
+        unit: m
+    - description: The mask of data/no data pixels.
+      name: dataMask
 RegistryEntryAdded: "2021-10-20"
 RegistryEntryLastModified: "2022-02-10"
