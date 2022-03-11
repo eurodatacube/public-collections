@@ -49,6 +49,7 @@ Extent:
         - 90
   temporal:
     interval:
+      -
         - '2018-04-30T00:18:50Z'
         - null
 CubeDimensions:
