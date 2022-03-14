@@ -202,5 +202,100 @@ CubeDimensions:
       - B12
       - QM
       - dataMask
+Summaries:
+  raster:bands:
+    - description: Coastal aerosol
+      name: B01
+      openeo:gsd:
+        value:
+          - 120
+          - 120
+        unit: m
+    - description: Blue
+      name: B02
+      openeo:gsd:
+        value:
+          - 120
+          - 120
+        unit: m
+    - description: Green
+      name: B03
+      openeo:gsd:
+        value:
+          - 120
+          - 120
+        unit: m
+    - description: Red
+      name: B04
+      openeo:gsd:
+        value:
+          - 120
+          - 120
+        unit: m
+    - description: Vegetation red edge
+      name: B05
+      openeo:gsd:
+        value:
+          - 120
+          - 120
+        unit: m
+    - description: Vegetation red edge
+      name: B06
+      openeo:gsd:
+        value:
+          - 120
+          - 120
+        unit: m
+    - description: Vegetation red edge
+      name: B07
+      openeo:gsd:
+        value:
+          - 120
+          - 120
+        unit: m
+    - description: NIR
+      name: B08
+      openeo:gsd:
+        value:
+          - 120
+          - 120
+        unit: m
+    - description: Narrow NIR
+      name: B8A
+      openeo:gsd:
+        value:
+          - 120
+          - 120
+        unit: m
+    - description: Water Vapour
+      name: B09
+      openeo:gsd:
+        value:
+          - 120
+          - 120
+        unit: m
+    - description: SWIR
+      name: B11
+      openeo:gsd:
+        value:
+          - 120
+          - 120
+        unit: m
+    - description: SWIR
+      name: B12
+      openeo:gsd:
+        value:
+          - 120
+          - 120
+        unit: m
+    - description: QualityMask
+      name: QM
+      openeo:gsd:
+        value:
+          - 120
+          - 120
+        unit: m
+    - description: The mask of data/no data pixels.
+      name: dataMask
 RegistryEntryAdded: "2021-03-21"
-RegistryEntryLastModified: "2022-02-10"
+RegistryEntryLastModified: "2022-03-11"
