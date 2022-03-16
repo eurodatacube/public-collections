@@ -97,7 +97,7 @@ CubeDimensions:
     extent:
       - '2017-01-01T00:00:00Z'
       - '2021-05-31T00:00:00Z'
-    step: P5D
+    step: P1D
   bands:
     type: bands
     values:
