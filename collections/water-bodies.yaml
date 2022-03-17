@@ -107,7 +107,7 @@ CubeDimensions:
     extent:
       - '2020-10-01T00:00:00Z'
       - null
-    step: P5D
+    step: P1M
   bands:
     type: bands
     values:
