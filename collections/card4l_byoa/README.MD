@@ -14,7 +14,7 @@
 
 ## Algorithm Input Parameters
 
-Based on the selected input parameters, an analysis is run to determine the number of datatakes, distinct dates and total area of the data to be processed. The processing is currently limited to 20 datatakes. For larger orders, customers should get in contact with Sentinel Hub support.
+Based on the selected input parameters, an analysis is run to determine the number of datatakes, distinct dates and total area of the data to be processed. The processing is currently limited to 20 datatakes. For larger orders, customers should get in contact with [Sentinel Hub support](https://forum.sentinel-hub.com/c/euro-data-cube/). 
 
 ### Table 1: Required parameters
 
