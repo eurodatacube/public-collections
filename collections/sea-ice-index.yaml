@@ -79,7 +79,7 @@ Extent:
       - - -180
         - -90
         - 180
-        - 30.98
+        - -30.98
   temporal:
     interval:
       -
