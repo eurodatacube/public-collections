@@ -72,6 +72,16 @@ Extent:
         - -90
         - 180
         - 90
+      - 
+        - -180
+        - 39.23
+        - 180
+        - 90
+      - 
+        - -180
+        - -90
+        - 180
+        - -30.98
   temporal:
     interval:
       -
@@ -123,4 +133,4 @@ Summaries:
     - description: The mask of data/no data pixels.
       name: dataMask
 RegistryEntryAdded: "2021-05-11"
-RegistryEntryLastModified: "2022-03-11"
+RegistryEntryLastModified: "2022-03-23"
