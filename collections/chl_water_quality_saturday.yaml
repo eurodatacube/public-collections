@@ -7,7 +7,7 @@ Image: chl_water_quality_saturday/chl_water_quality_saturday.png
 EDCBrowser: https://browser.eurodatacube.com/?zoom=7&lat=43.14975&lng=7.16013&collectionId=chl_water_quality_saturday&layerId=Chlorophyll%20Anomaly%20Map&type=sentinel-hub-edc&fromTime=2020-04-17T00%3A00%3A00.000Z&toTime=2021-04-17T00%3A00%3A00.000Z
 Resolution: 300m
 GeographicalCoverage: 0.4982046708598385, 40.498973093940286, 13.82206392288208, 45.80052375793457
-TemporalAvailability: 2020-01-04 - 2021-04-17
+TemporalAvailability: 2020-01-04 - ongoing
 UpdateFrequency: Weekly
 BandInformation: chl
 Contact: "[CNR](https://www.cnr.it/en)"
@@ -22,11 +22,11 @@ License: |
  [CC BY-NC-ND 3.0](https://creativecommons.org/licenses/by-nc-nd/3.0/), Credit: Provided by ISMAR Istituto di Scienze Marine at Consiglio Nazionale delle Ricerche
 Resources:
  - Group: Sentinel Hub Resources
- - EndPoint: https://shservices.mundiwebservices.com
+ - EndPoint: https://services.sentinel-hub.com
    Name: Sentinel Hub
    Role: processor
-   Type: byoc-fa331cca-5be2-4736-8030-793af55c0ef1
-   CollectionId: fa331cca-5be2-4736-8030-793af55c0ef1
+   Type: byoc-82560c29-0b55-44c8-a01c-43b95c359518
+   CollectionId: 82560c29-0b55-44c8-a01c-43b95c359518
    Primary: true
 Configurations:
   - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
@@ -52,7 +52,7 @@ Extent:
     interval:
       -
         - '2020-01-04T00:00:00Z'
-        - '2021-04-17T00:00:00Z'
+        - null
 CubeDimensions:
   x:
     type: spatial
@@ -70,10 +70,10 @@ CubeDimensions:
     type: temporal
     extent:
       - '2020-01-04T00:00:00Z'
-      - '2021-04-17T00:00:00Z'
+      - null
   bands:
     type: bands
     values:
       - chl
 RegistryEntryAdded: "2021-05-07"
-RegistryEntryLastModified: "2022-02-10"
+RegistryEntryLastModified: "2022-04-01"

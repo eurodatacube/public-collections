@@ -51,11 +51,11 @@ License: |
  Full, open and free access
 Resources:
   - Group: Sentinel Hub Resources
-  - EndPoint: https://shservices.mundiwebservices.com
+  - EndPoint: https://services.sentinel-hub.com
     Name: Sentinel Hub
     Role: processor
-    Type: byoc-4f5f67f1-5715-4f2b-8c98-ae57948ee2f5
-    CollectionId: 4f5f67f1-5715-4f2b-8c98-ae57948ee2f5
+    Type: byoc-925b4bf6-ca1b-45df-a523-88f30823ab07
+    CollectionId: 925b4bf6-ca1b-45df-a523-88f30823ab07
     Primary: true
 Configurations:
   - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
@@ -125,4 +125,4 @@ CubeDimensions:
     values:
       - tsm
 RegistryEntryAdded: "2021-05-26"
-RegistryEntryLastModified: "2022-02-10"
+RegistryEntryLastModified: "2022-04-01"
