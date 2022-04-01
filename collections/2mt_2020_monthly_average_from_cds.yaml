@@ -22,11 +22,11 @@ Tags:
 License: Full, open and free access, Copernicus license ([details](https://atmosphere.copernicus.eu/sites/default/files/repository/CAMS_data_license.pdf)).
 Resources:
  - Group: Sentinel Hub Resources
- - EndPoint: https://shservices.mundiwebservices.com
+ - EndPoint: https://services.sentinel-hub.com
    Name: Sentinel Hub
    Role: processor
-   Type: byoc-e523ca12-43cf-467f-b4cf-506dfca7af91
-   CollectionId: e523ca12-43cf-467f-b4cf-506dfca7af91
+   Type: byoc-0b3eebec-30de-4fa6-9cd3-4b252d45d847
+   CollectionId: 0b3eebec-30de-4fa6-9cd3-4b252d45d847
    Primary: true
 Configurations:
   - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
@@ -76,4 +76,4 @@ CubeDimensions:
     values:
      - AIR2MT
 RegistryEntryAdded: "2021-05-07"
-RegistryEntryLastModified: "2022-02-10"
+RegistryEntryLastModified: "2022-04-01"
