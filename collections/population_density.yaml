@@ -22,11 +22,11 @@ License: |
  The GPW data collection is licensed under the Creative Commons Attribution 4.0 International License (http://creativecommons.org/licenses/by/4.0), thus providing openly-available, gridded population data that maintains fidelity to the input census data. This is an advantage of GPW because minimally modeled census information may be analyzed in conjunction with other data sets, such as land cover and elevation, without concern for endogeneity, or double counting ([details] (https://sedac.ciesin.columbia.edu/data/collection/gpw-v4)).
 Resources:
  - Group: Sentinel Hub Resources
- - EndPoint: https://shservices.mundiwebservices.com
+ - EndPoint: https://services.sentinel-hub.com
    Name: Sentinel Hub
    Role: processor 
-   Type: byoc-a9743257-ef21-4fd3-999d-15c5c7fcacbd
-   CollectionId: a9743257-ef21-4fd3-999d-15c5c7fcacbd
+   Type: byoc-b468089b-2627-4787-b984-89c10434f6c6
+   CollectionId: b468089b-2627-4787-b984-89c10434f6c6
    Primary: true
 Configurations:
   - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
@@ -87,4 +87,4 @@ Summaries:
         - 0.009920634920333
         unit: °
 RegistryEntryAdded: "2021-05-07"
-RegistryEntryLastModified: "2022-03-11"
+RegistryEntryLastModified: "2022-04-01"
