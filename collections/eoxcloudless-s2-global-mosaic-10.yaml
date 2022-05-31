@@ -12,7 +12,7 @@ Image: eoxcloudless-s2-global-mosaic-10/eoxcloudless-s2-global-mosaic-10.png
 Resolution: 10m
 GeographicalCoverage: Covering land surface areas between 180.0 West, 90.0 South
   and 180.0 East, 90.0 North
-TemporalAvailability: ongoing
+TemporalAvailability: 2018 - ongoing
 UpdateFrequency: New data is added annually.
 Explore: "[Open https://s2maps.eu Sentinel-2 cloudless map](https://s2maps.eu)"
 Examples: "[Sample data for download](https://downloads.eox.at/EOxCloudless_Samples-and-Documentation.zip)"
@@ -94,7 +94,6 @@ DataAtWork:
     - Title: Sentinel-2 cloudless 2020
       URL: https://eox.at/2021/03/sentinel-2-cloudless-2020/
       AuthorName: Sevcik P.
-  Publications:
     - Title: Sentinel-2 cloudless 2021
       URL: https://eox.at/2022/05/sentinel-2-cloudless-2021/
       AuthorName: Sevcik P.      
