@@ -7,7 +7,7 @@ description of the generally available products please refer to
 
 ## EOxCloudless available at Euro Data Cube
 
-The EOxCloudless 2020 data collection is available under the
+The EOxCloudless data collection is available under the
 [Insights On Demand](https://eurodatacube.com/marketplace/data-products/on-demand)
 section of the EuroDataCube marketplace.
 
@@ -16,11 +16,12 @@ as shown in the table below.
 
 | Year | Min. Price | Global Price | Price per Zone |
 | -----|:-----------|--------------|----------------|
-| 2020 | 800,- EUR | 16 000,- EUR | 5.0 EUR/Zone |
+| 2021 | 800,- EUR | 16 000,- EUR | 5.0 EUR/Zone   |
+| 2020 | 700,- EUR | 14 000,- EUR | 4.375 EUR/Zone |
 
 Zones as mentioned in the table above are 2.813x2.813[degree] large squares in 
 EPSG:4326 distributed over the Earth's landmasses. The distribution of these zones
-for the EOxCloudless 2020 data is displayed in the image below. These zones are
+for the EOxCloudless data is displayed in the image below. These zones are
 used to calculate the price between the min. and max. (global) price for the 
 EOxCloudless products.
 
@@ -29,7 +30,7 @@ EOxCloudless products.
 ## General EOxCloudless Product
 
 The EOxCloudless products are readily available for the last recent years starting
-from 2016 for the Viewing Products and 2018 for the Data ones.
+from 2016 for the Viewing Products and 2018 for the Data Products.
 
 ### EOxCloudless Viewing Products
 
@@ -56,7 +57,7 @@ Blue, and NIR (B04, B03, B02, and B08).
 
 They are offered in full Sentinel-2 data range as 16bit `GeoTIFF` TileDirectory - **Exploitation Ready** and
 reduced data range as 8bit `GeoTIFF` TileDirectory - **Exploitation Starter**.
-
+ 
 ## Examples
 
 ![Earth rotation 2020](S2cloudless-2020_animation_smaller.gif)<br/>
@@ -65,9 +66,15 @@ reduced data range as 8bit `GeoTIFF` TileDirectory - **Exploitation Starter**.
 
 ----------------------------------
 
-![Mosaic changes from 2016 to 2020](S2cloudless-over-the-years-animation-smaller.gif)<br/>
+![Mosaic changes from 2016 to 2021](S2cloudless-over-the-years-animation-smaller.gif)<br/>
 
 *Time-lapse of the world, showcasing EOxCloudless improvements over the years*
+
+----------------------------------
+
+![Different Color Render of 2021 Mosaic](2021-versions-small.gif)<br/>
+
+*True Color, NDVI and False Color NIR versions of the 2021 Mosaic*
 
 ----------------------------------
 
