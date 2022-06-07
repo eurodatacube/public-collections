@@ -46,11 +46,11 @@ Configurations:
     rel: "about"
     type: "text/html"
     title: "Details about running Evalscripts"
-  - href: ""
+  - href: "https://raw.githubusercontent.com/eurodatacube/public-collections/main/collections/vessel_density_tanker/script.js"
     rel: "processing-expression"
     type: "application/javascript"
     title: "Evalscript to generate Vessel Density imagery"
-    sentinelhub:layer_name: ""
+    sentinelhub:layer_name: "vessel_density_tanker"
     sentinelhub:mosaicking_order: "mostRecent"
     sentinelhub:upsampling: "BICUBIC"
 Extent:
