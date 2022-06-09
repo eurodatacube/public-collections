@@ -1,0 +1,92 @@
+Name: Vessel_Density_cargo
+Description: |
+  The Vessel Density maps in the EU are created since the 2019 by Cogea for the European Marine Observation and Data Network (EMODnet). The dataset is updated every year and is available for viewing and download on EMODnet Human Activities web portal (www.emodnet-humanactivities.eu). The maps are based on AIS data yearly purchased from Collecte Localisation Satellites (CLS) and ORBCOMM. The maps, GeoTIFF format, show shipping density in 1x1km cells of a grid covering all EU waters and some neighbouring areas. Density is expressed as hours per square kilometre per month. The following ship types are available:0 Other, 1 Fishing, 2 Service, 3 Dredging or underwater ops, 4 Sailing, 5 Pleasure Craft, 6 High speed craft, 7 Tug and towing, 8 Passenger, 9 Cargo, 10 Tanker, 11 Military and Law Enforcement, 12 Unknown and All ship types.
+  This particular layer refers to EMODnet ship type "9 cargo" that includes the following AIS ship Type codes;
+  70 Cargo, all ships of this type
+  71 Cargo, Hazardous category A
+  72 Cargo, Hazardous category B
+  73 Cargo, Hazardous category C
+  74 Cargo, Hazardous category D
+  75 Cargo, Reserved for future use
+  76 Cargo, Reserved for future use
+  77 Cargo, Reserved for future use
+  78 Cargo, Reserved for future use
+  79 Cargo, No additional information
+AdditionalInfoExternal:
+  Title: Additional info
+  Path: vessel_density_cargo/README.md
+Image: vessel_density_cargo/vessel_density_cargo.png
+EDCBrowser: ""
+Resolution: 0.0083 x 0.0083°
+GeographicalCoverage: -66.949482215, 19.222315519, 72.48195026, 74.653019863
+TemporalAvailability: 2017-01-01 - 2020-12-01
+BandInformation: cargo
+Contact: "[Cogea srl](mailto:lfalco@cogea.it), [AUTHOR](mailto:lfalco@cogea.it)"
+Provider: "[RESOURCE PROVIDER](mailto:pdebusschere@cls.fr), [RESOURCE SOURCE](https://www.emodnet-humanactivities.eu/) "
+ManagedBy: "[ESA](http://www.esa.int/)"
+Tags:
+  - copernicus services
+  - C3S
+  - open data
+  - sentinel hub
+  - raster
+  - race challenges
+License: |
+ Re-use of content for commercial or non-commercial purposes is permitted free of charge, provided that the sources (both EMODnet - Human Activities, and CLS) are acknowledged. EMODnet - Human Activities accepts no responsibility or liability whatsoever for the re-use of content accessible on its website. ([details](https://www.emodnet-humanactivities.eu/search-results.php?dataname=Vessel+Density+))
+Resources:
+ - Group: Sentinel Hub Resources
+ - EndPoint: https://services.sentinel-hub.com
+   Name: Sentinel Hub
+   Role: processor
+   Type: byoc-093a3988-6ed6-4bb0-ae37-e356f14d7daf
+   CollectionId: 093a3988-6ed6-4bb0-ae37-e356f14d7daf
+   Primary: True
+Configurations:
+  - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
+    rel: "about"
+    type: "text/html"
+    title: "Details about running Evalscripts"
+  - href: "https://raw.githubusercontent.com/eurodatacube/public-collections/main/collections/vessel_density_cargo/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate Vessel Density imagery"
+    sentinelhub:layer_name: "vessel_density_cargo"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
+Extent:
+  spatial:
+    bbox:
+      -
+        - -66.949482215
+        - 19.222315519
+        - 72.48195026
+        - 74.653019863
+  temporal:
+    interval:
+      -
+        - '2017-01-01T00:00:00Z'
+        - '2020-12-01T00:00:00Z'
+CubeDimensions:
+  x:
+    type: spatial
+    axis: x
+    extent:
+      - -66.949482215
+      - 72.48195026
+  y:
+    type: spatial
+    axis: y
+    extent:
+      - 19.222315519
+      - 74.653019863
+  t:
+    type: temporal
+    extent:
+      - '2017-01-01T00:00:00Z'
+      - '2020-12-01T00:00:00Z'
+  bands:
+    type: bands
+    values:
+      - cargo
+RegistryEntryAdded: "2022-05-19"
+RegistryEntryLastModified: "2022-04-01"
