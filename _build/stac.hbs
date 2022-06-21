@@ -9,7 +9,7 @@
     {{#if (anyStartsWith "sar:" Summaries) ~}},"https://stac-extensions.github.io/sar/v1.0.0/schema.json"{{/if ~}}
     {{#if (anyStartsWith "raster:" Summaries) ~}},"https://stac-extensions.github.io/raster/v1.0.0/schema.json"{{/if ~}}
   ],
-  "id": "{{Slug}}",
+  "id": "{{{escape JSON OpenEOPName}}}",
   "datasource_type": "{{{find Resources 'Primary' 'Type'}}}",
   "title": "{{{escapeJson Name}}}",
   "description": "{{{escapeJson Description}}}",
