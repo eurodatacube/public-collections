@@ -1,5 +1,5 @@
 Name: Sentinel-2 L2A
-OpenEOPName: SENTINEL2_L2A
+OpenEOPID: SENTINEL2_L2A
 Description: |
   The [Sentinel-2 mission](https://sentinel.esa.int/web/sentinel/missions/sentinel-2) is
   a land monitoring constellation of two satellites that provide high resolution
