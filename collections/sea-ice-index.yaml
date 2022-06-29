@@ -44,7 +44,7 @@ Resources:
     Role: processor
     Type: byoc-10549890-13bb-4ec5-8ae0-df387bd0b785
     CollectionId: 10549890-13bb-4ec5-8ae0-df387bd0b785
-    Primary: true     
+    Primary: true
 Configurations:
   - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
     rel: "about"
