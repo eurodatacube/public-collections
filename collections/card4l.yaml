@@ -66,6 +66,11 @@ Resources:
   - Group: xcube Resources
     DatasetName: CUSTOM
     CollectionId: 608bffb4-5012-4489-abec-71e134a7a609
+WMTS:
+  - href: https://creodias.sentinel-hub.com/ogc/wmts/c23384ad-ffd4-4397-9b0d-5229d2885331
+    layer_id: SAR-URBAN
+    dimensions: 
+      warnings: true    
 Configurations: 
   - layer_name: SAR urban
     evalscript_url: "https://custom-scripts.sentinel-hub.com/sentinel-1/urban_areas/script.js"
@@ -161,4 +166,4 @@ Summaries:
     - description: The mask of data/no data pixels.
       name: dataMask
 RegistryEntryAdded: "2022-02-11"
-RegistryEntryLastModified: "2022-03-11"
+RegistryEntryLastModified: "2022-06-23"

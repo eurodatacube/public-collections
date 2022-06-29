@@ -61,6 +61,11 @@ Resources:
 CustomScripts:
     Title: Collection of Copernicus services data custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#copernicus_services
+WMTS:
+  - href: https://creodias.sentinel-hub.com/ogc/wmts/8c9bcae9-3c93-4587-8ada-9e55818979da
+    layer_id: GLOBAL-SURFACE-WATER-OCCURRENCE
+    dimensions: 
+      warnings: true     
 Configurations:
   - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
     rel: "about"
@@ -198,4 +203,4 @@ Summaries:
     - description: The mask of data/no data pixels.
       name: dataMask
 RegistryEntryAdded: "2021-04-19"
-RegistryEntryLastModified: "2022-03-11"
+RegistryEntryLastModified: "2022-06-22"

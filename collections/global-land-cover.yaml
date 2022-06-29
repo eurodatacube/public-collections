@@ -84,6 +84,11 @@ Resources:
   - Group: xcube Resources
     DatasetName: CUSTOM
     CollectionId: f0a97620-0e88-4c1f-a1ac-bb388fabdf2c
+WMTS:
+  - href: https://creodias.sentinel-hub.com/ogc/wmts/0325f8d4-3e2c-421e-ad10-d0cb1b45d5b2
+    layer_id: DISCRETE-CLASSIFICATION-MAP
+    dimensions: 
+      warnings: true     
 Configurations:
   - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
     rel: "about"
@@ -259,4 +264,4 @@ Summaries:
     - description: The mask of data/no data pixels.
       name: dataMask
 RegistryEntryAdded: "2021-03-20"
-RegistryEntryLastModified: "2022-03-11"
+RegistryEntryLastModified: "2022-06-22"

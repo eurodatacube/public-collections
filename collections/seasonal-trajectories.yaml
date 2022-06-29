@@ -74,6 +74,11 @@ Resources:
 CustomScripts:
     Title: Collection of Copernicus services data custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#copernicus_services
+WMTS:
+  - href: https://creodias.sentinel-hub.com/ogc/wmts/0a2b47c5-3707-4bf7-a2a9-4fa83f46bc7d
+    layer_id: PPI
+    dimensions: 
+      warnings: true      
 Configurations:
   - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
     rel: "about"
@@ -348,4 +353,4 @@ CRS:
   - "http://www.opengis.net/def/crs/EPSG/0/32760"
   - "http://www.opengis.net/def/crs/SR-ORG/0/98739"   
 RegistryEntryAdded: '2021-10-14'
-RegistryEntryLastModified: "2022-06-17"
+RegistryEntryLastModified: "2022-06-23"
