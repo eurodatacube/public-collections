@@ -45,6 +45,11 @@ Resources:
     Type: byoc-10549890-13bb-4ec5-8ae0-df387bd0b785
     CollectionId: 10549890-13bb-4ec5-8ae0-df387bd0b785
     Primary: true
+WMTS:
+  - href: https://creodias.sentinel-hub.com/ogc/wmts/2a0231a2-5c91-4d3b-a911-ff55711aa983
+    layer_id: SEA-ICE-CONCENTRATION
+    dimensions: 
+      warnings: true         
 Configurations:
   - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
     rel: "about"
@@ -133,4 +138,4 @@ Summaries:
     - description: The mask of data/no data pixels.
       name: dataMask
 RegistryEntryAdded: "2021-05-11"
-RegistryEntryLastModified: "2022-06-22"
+RegistryEntryLastModified: "2022-07-01"
