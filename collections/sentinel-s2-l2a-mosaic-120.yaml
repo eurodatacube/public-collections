@@ -1,4 +1,5 @@
 Name: Sentinel-2 L2A 120m Mosaic
+OpenEOPID: SENTINEL2_L2A_MOSAIC_120
 Description: |
   Sentinel-2 L2A 120m mosaic is a derived product, which contains best pixel values for 10-daily periods, 
   modelled by removing the cloudy pixels and then performing interpolation 
@@ -361,4 +362,4 @@ Summaries:
     - description: The mask of data/no data pixels.
       name: dataMask
 RegistryEntryAdded: "2021-03-21"
-RegistryEntryLastModified: "2022-03-11"
+RegistryEntryLastModified: "2022-07-04"

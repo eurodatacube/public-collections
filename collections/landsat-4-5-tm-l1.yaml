@@ -1,4 +1,5 @@
 Name: Landsat 4-5 TM L1
+OpenEOPID: LANDSAT4-5_TM_L1
 Description: |
  The Landsat Thematic Mapper (TM) sensor was carried onboard Landsats 4 and 5. 
  TM collected data in 7 spectral bands; from the blue, green, red, near-infrared, mid-infrared (2) and thermal infrared portions of the electromagnetic spectrum.
@@ -485,4 +486,4 @@ CRS:
   - "http://www.opengis.net/def/crs/EPSG/0/32760"
   - "http://www.opengis.net/def/crs/SR-ORG/0/98739"   
 RegistryEntryAdded: "2021-05-12"
-RegistryEntryLastModified: "2022-06-17"
+RegistryEntryLastModified: "2022-07-04"

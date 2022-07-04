@@ -1,4 +1,5 @@
 Name: Seasonal Trajectories, 10-daily
+OpenEOPID: SEASONAL_TRAJECTORIES
 Description: |
  Seasonal Trajectories (ST) product is a filtered time series of [Plant Phenology Index (PPI)](https://www.nateko.lu.se/research/remote-sensing-and-earth-observation/lund-earth-observation-research-group/vegetation-phenology) provided yearly on a 10-daily basis at 10m resolution .
  It is part of the Copernicus Land Monitoring Service (CLMS), pan-European High Resolution Vegetation Phenology and Productivity [(HR-VPP)](https://land.copernicus.eu/pan-european/biophysical-parameters/high-resolution-vegetation-phenology-and-productivity) product suite.
@@ -348,4 +349,4 @@ CRS:
   - "http://www.opengis.net/def/crs/EPSG/0/32760"
   - "http://www.opengis.net/def/crs/SR-ORG/0/98739"   
 RegistryEntryAdded: '2021-10-14'
-RegistryEntryLastModified: "2022-06-17"
+RegistryEntryLastModified: "2022-07-04"

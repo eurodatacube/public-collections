@@ -1,4 +1,5 @@
 Name: Global Land Cover
+OpenEOPID: GLOBAL_LAND_COVER
 Description: |
   Global Land Cover products at 100 m resolution are delivered annually by the 
   [global component of the Copernicus Land Service](https://land.copernicus.eu/global/products/lc). 
@@ -259,4 +260,4 @@ Summaries:
     - description: The mask of data/no data pixels.
       name: dataMask
 RegistryEntryAdded: "2021-03-20"
-RegistryEntryLastModified: "2022-03-11"
+RegistryEntryLastModified: "2022-07-04"
