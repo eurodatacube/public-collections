@@ -94,7 +94,7 @@ var isMatch = function(slug, text) {
     return true;
   }
 
-  if (dataset.Resources) {
+  if (typeof dataset.Resources != "undefined") {
     // Check resources Type
     var hasMatch = false;
     for (var i = 0; i < dataset.Resources.length; i++) {
