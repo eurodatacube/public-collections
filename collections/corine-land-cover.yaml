@@ -59,6 +59,11 @@ Configurations:
     sentinelhub:layer_name: "Corine Land Cover"
     sentinelhub:mosaicking_order: "mostRecent"
     sentinelhub:upsampling: "BICUBIC"
+DocumentationLinks:
+  - href: https://collections.eurodatacube.com/corine-land-cover/readme.html#band-information
+    rel:  about
+    type: text/html
+    title: "Nomenclature mapping - band values CLC labels"    
 Extent:
   spatial:
     bbox:
