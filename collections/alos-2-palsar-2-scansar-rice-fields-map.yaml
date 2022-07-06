@@ -1,4 +1,5 @@
-Name: ALOS-2 PALSAR-2 ScanSAR Reference Rice Paddy Field Map 
+Name: ALOS-2 PALSAR-2 ScanSAR Reference Rice Paddy Field Map
+OpenEOPID: ALOS_PALSAR2_RICE_PADDY_FIELD_MAP
 Description: |
   This collection contains reference rice paddy field  maps derived from [ALOS-2 ScanSAR](https://alos-pasco.com/en/alos-2/spec/)
   geometrically corrected (orthorectified) data in selected AOIs between 2019 and 2020 for NASA/ESA/JAXA EODashboard Hackathon.   
@@ -114,4 +115,4 @@ CubeDimensions:
     values:
       - RF
 RegistryEntryAdded: "2021-06-09"
-RegistryEntryLastModified: "2022-02-10"
+RegistryEntryLastModified: "2022-07-06"
