@@ -46,11 +46,11 @@
 {{#each Configurations}}
 	{{{copyJson this}}},
 {{/each}}
-{{#if DocumentationLinks }}    
+    {{#if DocumentationLinks }}    
     {
       "href": "{{{find DocumentationLinks 'href' 'href'}}}",
       "rel": "about",
-      "type: "text/html",
+      "type": "text/html",
       "title": "{{{find DocumentationLinks 'title' 'title'}}}"  
     },
     {{/if}}

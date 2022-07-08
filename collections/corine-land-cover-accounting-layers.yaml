@@ -68,9 +68,9 @@ Configurations:
     sentinelhub:mosaicking_order: "mostRecent"
     sentinelhub:upsampling: "BICUBIC"
 DocumentationLinks:
-  - href: https://collections.eurodatacube.com/corine-land-cover-accounting-layers/readme.html#band-information
-    rel:  about
-    type: text/html
+  - href: "https://collections.eurodatacube.com/corine-land-cover-accounting-layers/readme.html#band-information"
+    rel:  "about"
+    type: "text/html"
     title: "Nomenclature mapping - band values CLC-ACC labels"      
 Extent:
   spatial:
