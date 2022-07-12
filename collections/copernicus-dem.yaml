@@ -99,8 +99,8 @@ Extent:
   temporal:
     interval:
       -
-        - '2010-12-12T05:04:33Z'
-        - '2015-01-16T01:37:12Z'
+        - null
+        - null
 CubeDimensions:
   x:
     type: spatial
@@ -119,8 +119,8 @@ CubeDimensions:
   t:
     type: temporal
     extent:
-      - '2010-12-12T05:04:33Z'
-      - '2015-01-16T01:37:12Z'
+      - null
+      - null
   bands:
     type: bands
     values:
@@ -140,4 +140,4 @@ Summaries:
     - description: The mask of data/no data pixels.
       name: dataMask
 RegistryEntryAdded: "2020-11-30"
-RegistryEntryLastModified: "2022-02-10"
+RegistryEntryLastModified: "2022-07-12"
