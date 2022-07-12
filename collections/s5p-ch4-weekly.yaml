@@ -1,0 +1,82 @@
+Name: S5P CH4 weekly
+Description: |
+  The data comes from the Copernicus Sentinel-5P satellite and uses data from the Copernicus Sentinel-5P satellite and shows the averaged methane concentrations across the globe — using weekly averaged maps. The methane map shown here is measured by the Tropomi instrument on the Sentinel 5 Precursor satellite.
+  The Copernicus Sentinel-5P CH4 measurements were first filtered according to the recommendation in the Product Readme file (only data with a qa_value > 0.50 was used). Then the measurements are mapped on a fixed latitude-longitude grid of 4096 x 8192 pixels. The grid is turned into an EPSG:4326 geotiff file using the appropriate color scale, which is again turned into an EPSG:3857 tile map.
+  Data gaps are visible based on the product quality filtering and the fact that over the sea only measurements for sun-glint situations are being provided.
+AdditionalInfoExternal:
+  Title: Additional info
+  Path: s5p-ch4-weekly/README.MD
+Image: s5p-ch4-weekly/ch4.png
+EDCBrowser: ""
+Resolution: 4.8 x 4.8 Km (across x along track)
+GeographicalCoverage: -180.0, -90.0, 180.0, 90.0
+TemporalAvailability: 2021-11-15 - ongoing
+UpdateFrequency: Weekly
+BandInformation: ch4
+Contact: "[ESA EO Support Helpdesk](EOSupport@copernicus.esa.int)"
+Provider: "[ESA](http://www.esa.int/)"
+ManagedBy: "[ESA](http://www.esa.int/)"
+Tags:
+  - open data
+  - sentinel hub
+  - raster
+  - race challenges
+License: Full, open and free access
+Resources:
+  - Group: Sentinel Hub Resources
+  - EndPoint: https://services.sentinel-hub.com
+    Name: Sentinel Hub
+    Role: processor
+    Type: byoc-0ecb4a55-5ce2-4525-bdcb-a333d37d46ef
+    CollectionId: 0ecb4a55-5ce2-4525-bdcb-a333d37d46ef
+    Primary: true
+Configurations:
+  - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
+    rel: "about"
+    type: "text/html"
+    title: "Details about running Evalscripts"
+  - href: "https://raw.githubusercontent.com/eurodatacube/public-collections/main/collections/s5p-ch4-weekly/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate ch4 imagery"
+    sentinelhub:layer_name: "CH4-weekly"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
+Extent:
+  spatial:
+    bbox:
+      -
+        - -180
+        - -90
+        - 180
+        - 90
+  temporal:
+    interval:
+      -
+        - '2021-11-15T00:00:00Z'
+        - null
+CubeDimensions:
+  x:
+    type: spatial
+    axis: x
+    extent:
+      - -180
+      - 180
+  y:
+    type: spatial
+    axis: y
+    extent:
+      - -90
+      - 90
+  t:
+    type: temporal
+    extent:
+      - '2021-11-15T00:00:00Z'
+      - null
+    step: P7D
+  bands:
+    type: bands
+    values:
+      - ch4
+RegistryEntryAdded: "2022-07-12"
+RegistryEntryLastModified: "2022-07-12"
