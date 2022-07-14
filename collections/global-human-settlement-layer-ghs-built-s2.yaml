@@ -44,6 +44,11 @@ Resources:
 CustomScripts:
     Title: Collection of Copernicus services data custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#copernicus_services
+WMTS:
+  - href: https://creodias.sentinel-hub.com/ogc/wmts/3f58a020-3523-4c53-85ac-a562af9e09ba
+    layer_id: GHS-BUILT-S2
+    dimensions: 
+      warnings: true    
 Configurations:
   - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
     rel: "about"

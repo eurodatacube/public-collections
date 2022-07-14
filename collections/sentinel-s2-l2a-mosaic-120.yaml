@@ -92,6 +92,11 @@ Resources:
   - Group: xcube Resources
     DatasetName: CUSTOM
     CollectionId: 484d8dbb-9e3e-41f2-b96b-35189d3ae37f
+WMTS:
+  - href: https://services.sentinel-hub.com/ogc/wmts/205fb2e0-0deb-464d-9103-82d33baf3b5d
+    layer_id: TRUE-COLOR
+    dimensions: 
+      warnings: true    
 Configurations:
   - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
     rel: "about"

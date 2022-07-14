@@ -29,6 +29,11 @@ Resources:
    Type: byoc-b468089b-2627-4787-b984-89c10434f6c6
    CollectionId: b468089b-2627-4787-b984-89c10434f6c6
    Primary: true
+WMTS:
+  - href: https://services.sentinel-hub.com/ogc/wmts/9b12a1a1-d4ca-45ae-a345-311accb663a5
+    layer_id: POPULATION-DENSITY
+    dimensions: 
+      warnings: true    
 Configurations:
   - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
     rel: "about"

@@ -51,6 +51,11 @@ Resources:
   - Group: xcube Resources
     DatasetName: CUSTOM
     CollectionId: 4c5441a6-6040-4dc4-a392-c1317bbd1031
+WMTS:
+  - href: https://creodias.sentinel-hub.com/ogc/wmts/0f674e0c-f211-4df8-ad9f-fa31997a1e7f
+    layer_id: CORINE-LAND-COVER-ACCOUNTING-LAYER
+    dimensions: 
+      warnings: true
 Configurations:
   - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
     rel: "about"

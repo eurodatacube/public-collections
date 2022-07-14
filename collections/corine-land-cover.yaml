@@ -29,7 +29,6 @@ Tags:
   - corine
   - derived data
   - open data
-
 License: Full, open and free access, Copernicus license ([details](https://land.copernicus.eu/terms-of-use)).
 LicenseType: proprietary 
 LicenseUrl: https://land.copernicus.eu/terms-of-use
@@ -44,6 +43,11 @@ Resources:
   - Group: xcube Resources
     DatasetName: CUSTOM
     CollectionId: cbdba844-f86d-41dc-95ad-b3f7f12535e9
+WMTS:
+  - href: https://creodias.sentinel-hub.com/ogc/wmts/d2344774-2e63-443f-ac1a-f961d7b19319
+    layer_id: CORINE-LAND-COVER
+    dimensions: 
+      warnings: true    
 Configurations:
   - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
     rel: "about"

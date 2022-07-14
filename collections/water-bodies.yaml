@@ -56,6 +56,11 @@ Resources:
 CustomScripts:
     Title: Collection of Copernicus services data custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#copernicus_services
+WMTS:
+  - href: https://creodias.sentinel-hub.com/ogc/wmts/1ab25604-1794-4a9d-a9e6-33763e2cc632
+    layer_id: WATER-BODIES
+    dimensions: 
+      warnings: true    
 Configurations:
   - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
     rel: "about"

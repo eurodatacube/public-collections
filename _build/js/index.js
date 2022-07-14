@@ -94,38 +94,40 @@ var isMatch = function(slug, text) {
     return true;
   }
 
-  // Check resources Type
-  var hasMatch = false;
-  for (var i = 0; i < dataset.Resources.length; i++) {
-    if (!dataset.Resources[i].Type) { continue; }
-    if (dataset.Resources[i].Type.toLowerCase().indexOf(text) !== -1) {
-      hasMatch = true;
-      break;
+  if (typeof dataset.Resources != "undefined") {
+    // Check resources Type
+    var hasMatch = false;
+    for (var i = 0; i < dataset.Resources.length; i++) {
+      if (!dataset.Resources[i].Type) { continue; }
+      if (dataset.Resources[i].Type.toLowerCase().indexOf(text) !== -1) {
+        hasMatch = true;
+        break;
+      }
     }
-  }
-  if (hasMatch) { return true; }
+    if (hasMatch) { return true; }
 
-  // Check resources ARN
-  hasMatch = false;
-  for (var i = 0; i < dataset.Resources.length; i++) {
-    if (!dataset.Resources[i].ARN) { continue; }
-    if (dataset.Resources[i].ARN.toLowerCase().indexOf(text) !== -1) {
-      hasMatch = true;
-      break;
+    // Check resources ARN
+    hasMatch = false;
+    for (var i = 0; i < dataset.Resources.length; i++) {
+      if (!dataset.Resources[i].ARN) { continue; }
+      if (dataset.Resources[i].ARN.toLowerCase().indexOf(text) !== -1) {
+        hasMatch = true;
+        break;
+      }
     }
-  }
-  if (hasMatch) { return true; }
+    if (hasMatch) { return true; }
 
-  // Check resources region
-  hasMatch = false;
-  for (var i = 0; i < dataset.Resources.length; i++) {
-    if (!dataset.Resources[i].Region) { continue; }
-    if (dataset.Resources[i].Region.toLowerCase().indexOf(text) !== -1) {
-      hasMatch = true;
-      break;
+    // Check resources region
+    hasMatch = false;
+    for (var i = 0; i < dataset.Resources.length; i++) {
+      if (!dataset.Resources[i].Region) { continue; }
+      if (dataset.Resources[i].Region.toLowerCase().indexOf(text) !== -1) {
+        hasMatch = true;
+        break;
+      }
     }
+    if (hasMatch) { return true; }
   }
-  if (hasMatch) { return true; }
 
   // If we're here, no match
   return false;
