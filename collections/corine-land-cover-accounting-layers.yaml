@@ -10,7 +10,7 @@ AdditionalInfoExternal:
     Path: corine-land-cover-accounting-layers/README.MD 
 EDCBrowser: https://browser.eurodatacube.com/?zoom=9&lat=42.28036&lng=12.28821&collectionId=corine-land-cover-accounting-layers&layerId=Corine%20Land%20Cover%20Accounting%20Layer&type=sentinel-hub-edc&fromTime=2018-01-01T00%3A00%3A00.000Z&toTime=2018-01-01T23%3A59%3A59.999Z
 EOBrowser: https://apps.sentinel-hub.com/eo-browser/?zoom=10&lat=41.9&lng=12.5&themeId=DEFAULT-THEME&visualizationUrl=https%3A%2F%2Fcreodias.sentinel-hub.com%2Fogc%2Fwms%2F390dc3a0-c9c9-4799-8c44-2ff1e055e5fc&datasetId=COPERNICUS_CLC_ACCOUNTING&fromTime=2018-01-01T00%3A00%3A00.000Z&toTime=2018-01-01T23%3A59%3A59.999Z&layerId=ACCOUNTING-LAYERS-VISUALIZATION
-Image: corine-land-cover-accounting-layers/thumbnail.png   
+Image: corine-land-cover-accounting-layers/thumbnail.png 
 Resolution: 100m
 GeographicalCoverage: EEA39 region
 TemporalAvailability: 2000, 2006, 2012, 2018
@@ -21,7 +21,7 @@ BandInformation:
         - Name: Name
           Title: Name
         - Name: Description
-          Title: Description        
+          Title: Description
       Rows:
         - Name: CLC_ACC
           Description: Corine Land Cover Accounting Layer 
@@ -67,6 +67,11 @@ Configurations:
     sentinelhub:layer_name: "Corine Land Cover Accounting Layer"
     sentinelhub:mosaicking_order: "mostRecent"
     sentinelhub:upsampling: "BICUBIC"
+DocumentationLinks:
+  - href: "https://collections.eurodatacube.com/corine-land-cover-accounting-layers/readme.html#band-information"
+    rel: "about"
+    type: "text/html"
+    title: "Nomenclature mapping - band values CLC-ACC labels"
 Extent:
   spatial:
     bbox:

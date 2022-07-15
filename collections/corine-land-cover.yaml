@@ -46,7 +46,7 @@ WMTS:
   - href: https://creodias.sentinel-hub.com/ogc/wmts/d2344774-2e63-443f-ac1a-f961d7b19319
     layer_id: CORINE-LAND-COVER
     dimensions: 
-      warnings: true    
+      warnings: true
 Configurations:
   - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
     rel: "about"
@@ -59,6 +59,11 @@ Configurations:
     sentinelhub:layer_name: "Corine Land Cover"
     sentinelhub:mosaicking_order: "mostRecent"
     sentinelhub:upsampling: "BICUBIC"
+DocumentationLinks:
+  - href: "https://collections.eurodatacube.com/corine-land-cover/readme.html#band-information"
+    rel: "about"
+    type: "text/html"
+    title: "Nomenclature mapping - band values CLC labels"
 Extent:
   spatial:
     bbox:
