@@ -1,5 +1,5 @@
 Name: E12D_Primary_corrected
-OpenEOPID: E12D_Primary
+OpenEOPID: E12D_PRIMARY
 Description: This indicator is based on the detection of moving trucks on motorways in the EU. The detection uses data from the Copernicus Sentinel-2 satellite.
 AdditionalInfoExternal:
     Title: Additional info
@@ -76,4 +76,4 @@ CubeDimensions:
     values:
       - PrimaryRoadsActivity
 RegistryEntryAdded: "2021-05-07"
-RegistryEntryLastModified: "2022-07-06"
+RegistryEntryLastModified: "2022-07-15"
