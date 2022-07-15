@@ -49,7 +49,7 @@ WMTS:
   - href: https://creodias.sentinel-hub.com/ogc/wmts/2a0231a2-5c91-4d3b-a911-ff55711aa983
     layer_id: SEA-ICE-CONCENTRATION
     dimensions: 
-      warnings: true         
+      warnings: true
 Configurations:
   - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
     rel: "about"

@@ -1,12 +1,12 @@
 Name: CO2 and CH4 (GOSAT) partial column density
 Description: |
   Carbon dioxide (CO2) and methane (CH4) partial column density of lower (approximately 0 -4 km)
-  and upper (approximately 4 -12km) troposphere (LT and UT, respectively).  
+  and upper (approximately 4 -12km) troposphere (LT and UT, respectively).
   Read more about GOSAT [here](https://www.eorc.jaxa.jp/GOSAT/index.html)
 Image: co2-ch4-gosat/co2-ch4-gosat.png
 Documentation: |
-  More information:  
-   [GHGs Trend Viewer user guide](https://www.eorc.jaxa.jp/GOSAT/CO2_monitor/guide_Ver.K.html)  
+  More information:
+   [GHGs Trend Viewer user guide](https://www.eorc.jaxa.jp/GOSAT/CO2_monitor/guide_Ver.K.html)
    [GHGs Trend Viewer operation guide](https://www.eorc.jaxa.jp/GOSAT/CO2_monitor/operation_guide.html)
 Explore: "[GHGs Trend Viewer-Partial Column](https://www.eorc.jaxa.jp/GOSAT/CO2_monitor/index_Ver.K.V3.html)"
 GeographicalCoverage: Global observation sites
@@ -18,7 +18,7 @@ BandInformation:
         - Name: Name
           Title: Name
         - Name: Description
-          Title: Description  
+          Title: Description
       Rows:
         - Name: XC02
           Description: carbon dioxide partial column

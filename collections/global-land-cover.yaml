@@ -24,7 +24,7 @@ BandInformation:
         - Name: Name
           Title: Name
         - Name: Description
-          Title: Description        
+          Title: Description
       Rows:
         - Name: Discrete_Classification_map
           Description: main discrete land cover classification according to FAO LCCS scheme
@@ -71,7 +71,7 @@ Tags:
   - derived data
   - open data
 License: free and open access policy as defined in the European Union’s Copernicus regulation ([details](https://land.copernicus.eu/global/about))
-LicenseType: proprietary  
+LicenseType: proprietary
 LicenseUrl: https://land.copernicus.eu/global/about
 Resources:
   - Group: Sentinel Hub Resources
@@ -88,13 +88,13 @@ WMTS:
   - href: https://creodias.sentinel-hub.com/ogc/wmts/0325f8d4-3e2c-421e-ad10-d0cb1b45d5b2
     layer_id: DISCRETE-CLASSIFICATION-MAP
     dimensions: 
-      warnings: true     
+      warnings: true
 Configurations:
   - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
     rel: "about"
     type: "text/html"
     title: "Details about running Evalscripts"
-  - href: "https://custom-scripts.sentinel-hub.com/copernicus_services/global_land_cover/script.js"   
+  - href: "https://custom-scripts.sentinel-hub.com/copernicus_services/global_land_cover/script.js" 
     rel: "processing-expression"
     type: "application/javascript"
     title: "Evalscript to generate Discrete Classification Map imagery"

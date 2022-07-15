@@ -4,11 +4,10 @@ Description: |
   [Landsat 8](https://www.usgs.gov/landsat-missions/landsat-8?qt-science_support_page_related_con=0#qt-science_support_page_related_con) and the most recently launched 
   [Landsat 9](https://www.usgs.gov/landsat-missions/landsat-9) satellites (provided by NASA/USGS), both carrying the Operational Land Imager (OLI) and 
   the Thermal Infrared Sensor (TIRS) instruments, with 9 optical and 2 thermal bands. These two sensors provide seasonal coverage of the global landmass.
-
   [Landsat 8-9 Level 1 data](https://www.usgs.gov/core-science-systems/nli/landsat/landsat-collection-2-level-1-data?qt-science_support_page_related_con=1#qt-science_support_page_related_con) 
   from the most recently released [collection 2](https://www.usgs.gov/faqs/what-updates-are-being-made-landsat-collection-2?qt-news_science_products=0#qt-news_science_products), 
   provides Top of Atmosphere Reflectance and Top of the Atmosphere Brightness Temperature products. Level 1 data are available since February 2013 for Landsat 8 and since January 2022 for Landsat 9.
-Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/landsat-8/)"  
+Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/landsat-8/)"
 Image: landsat-8-l1/landsat-8-l1.png
 EDCBrowser: https://browser.eurodatacube.com/?zoom=10&lat=41.96442&lng=12.44594&collectionId=landsat-8-l1&layerId=True%20color&type=sentinel-hub-edc&fromTime=2012-07-03T16%3A08%3A30.217Z&toTime=2019-01-01T16%3A08%3A30.217Z 
 EOBrowser: https://apps.sentinel-hub.com/eo-browser/?zoom=12&lat=45.66157&lng=12.77023&themeId=DEFAULT-THEME&visualizationUrl=https%3A%2F%2Fservices.sentinel-hub.com%2Fogc%2Fwms%2Fe35192fe-33a1-41f3-b798-b755e771c5a5&datasetId=AWS_LOTL1&fromTime=2021-03-02T00%3A00%3A00.000Z&toTime=2021-03-02T23%3A59%3A59.999Z&layerId=1_TRUE_COLOR
@@ -18,10 +17,10 @@ TemporalAvailability:
   Landsat 8 from February 2013 - ongoing
   Landsat 9 from January 2022 - ongoing
 UpdateFrequency: Landsat data are added regularly,as soon as they are available in USGS AWS cloud 
-BandInformation: Information about [bands and data](https://docs.sentinel-hub.com/api/latest/data/landsat-8/#available-bands-and-data)  
+BandInformation: Information about [bands and data](https://docs.sentinel-hub.com/api/latest/data/landsat-8/#available-bands-and-data)
 Contact: https://forum.sentinel-hub.com/c/euro-data-cube/25
 Provider: "[USGS](https://www.usgs.gov/)"
-ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"                    
+ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
 Tags:
   - sentinel hub
   - xcube
@@ -544,6 +543,6 @@ CRS:
   - "http://www.opengis.net/def/crs/EPSG/0/32758"
   - "http://www.opengis.net/def/crs/EPSG/0/32759"
   - "http://www.opengis.net/def/crs/EPSG/0/32760"
-  - "http://www.opengis.net/def/crs/SR-ORG/0/98739"      
+  - "http://www.opengis.net/def/crs/SR-ORG/0/98739"
 RegistryEntryAdded: "2018-04-17"
 RegistryEntryLastModified: "2022-06-17"

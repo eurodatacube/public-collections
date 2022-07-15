@@ -4,7 +4,7 @@ Description: |
  TM collected data in 7 spectral bands; from the blue, green, red, near-infrared, mid-infrared(2) and thermal infrared portions of the electromagnetic spectrum.
  L2 data include Surface Reflectance and Surface Temperature scene-based products.
  Visit [USGS EROS Archive - Landsat Archives - Landsat 4-5 TM Collection 2 Level-2 Science Products](https://www.usgs.gov/centers/eros/science/usgs-eros-archive-landsat-archives-landsat-4-5-tm-collection-2-level-2-science?qt-science_center_objects=0#qt-science_center_objects)
- for  more information.
+ for more information.
 Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/landsat-tm-l2/)"
 Image: landsat-4-5-tm-l2/landsat-4-5-tm-l2.png 
 EDCBrowser: https://browser.eurodatacube.com/?zoom=10&lat=41.9&lng=12.5&collectionId=landsat-4-5-tm-l2&layerId=True%20color&type=sentinel-hub-edc&fromTime=2011-05-04T00%3A00%3A00.000Z&toTime=2012-05-04T00%3A00%3A00.000Z
@@ -12,7 +12,7 @@ EOBrowser: https://apps.sentinel-hub.com/eo-browser/?zoom=11&lat=42.04904&lng=12
 Resolution: 30 m (the thermal band is re-sampled from 120 m)
 GeographicalCoverage: Global Land
 TemporalAvailability: |
-  Landsat 4 from July 1982 to December 1993  
+  Landsat 4 from July 1982 to December 1993
   Landsat 5 from March 1984 to May 2012
 UpdateFrequency: Archived data
 BandInformation: Information about [bands and data](https://docs.sentinel-hub.com/api/latest/data/landsat-tm-l2/#available-bands-and-data)
@@ -532,6 +532,6 @@ CRS:
   - "http://www.opengis.net/def/crs/EPSG/0/32758"
   - "http://www.opengis.net/def/crs/EPSG/0/32759"
   - "http://www.opengis.net/def/crs/EPSG/0/32760"
-  - "http://www.opengis.net/def/crs/SR-ORG/0/98739"      
+  - "http://www.opengis.net/def/crs/SR-ORG/0/98739"
 RegistryEntryAdded: "2021-05-12"
 RegistryEntryLastModified: "2022-06-17"

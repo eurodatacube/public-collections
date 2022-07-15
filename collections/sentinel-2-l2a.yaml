@@ -4,7 +4,7 @@ Description: |
   a land monitoring constellation of two satellites that provide high resolution
   optical imagery and provide continuity for the current SPOT and Landsat missions.
   The mission provides a global coverage of the Earth's land surface every 5 days,
-  making the data of great use in on-going studies. L2A data  are available from September 2016 over wider Europe
+  making the data of great use in on-going studies. L2A data are available from September 2016 over wider Europe
   region and globally since January 2017. L2A data provide Bottom of the atmosphere (BOA) reflectance.
 Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/sentinel-2-l2a/)"
 Image: sentinel-2-l2a/sentinel-2-l2a.png
@@ -12,7 +12,7 @@ EDCBrowser: https://browser.eurodatacube.com/?zoom=11&lat=41.91326&lng=12.41386&
 EOBrowser: https://apps.sentinel-hub.com/eo-browser/?zoom=10&lat=41.9&lng=12.5&themeId=DEFAULT-THEME&visualizationUrl=https%3A%2F%2Fservices.sentinel-hub.com%2Fogc%2Fwms%2Fbd86bcc0-f318-402b-a145-015f85b9427e&datasetId=S2L2A&fromTime=2021-03-31T00%3A00%3A00.000Z&toTime=2021-03-31T23%3A59%3A59.999Z&layerId=1_TRUE_COLOR
 Resolution: 10m
 GeographicalCoverage: Land surface area ([more info](https://sentinel.esa.int/web/sentinel/user-guides/sentinel-2-msi/revisit-coverage))
-TemporalAvailability: Europe  November 2016 - ongoing, Global January 2017  - ongoing
+TemporalAvailability: Europe November 2016 - ongoing, Global January 2017- ongoing
 UpdateFrequency: New Sentinel data are added regularly, usually within few hours after they are available on Copernicus Hub.
 BandInformation: "Information about [bands and data](https://docs.sentinel-hub.com/api/latest/data/sentinel-2-l2a/#available-bands-and-data)"
 Contact: https://forum.sentinel-hub.com/c/euro-data-cube/25
@@ -112,7 +112,7 @@ Configurations:
     title: "Evalscript to generate NDWI imagery"
     sentinelhub:layer_name: "NDWI"
     sentinelhub:mosaicking_order: "mostRecent"
-    sentinelhub:upsampling: "NEAREST"    
+    sentinelhub:upsampling: "NEAREST"
   - href: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/ndsi-visualized/script.js"
     rel: "processing-expression"
     type: "application/javascript"
@@ -581,6 +581,6 @@ CRS:
   - "http://www.opengis.net/def/crs/EPSG/0/32758"
   - "http://www.opengis.net/def/crs/EPSG/0/32759"
   - "http://www.opengis.net/def/crs/EPSG/0/32760"
-  - "http://www.opengis.net/def/crs/SR-ORG/0/98739"  
+  - "http://www.opengis.net/def/crs/SR-ORG/0/98739"
 RegistryEntryAdded: '2018-04-17'
 RegistryEntryLastModified: "2022-06-16"

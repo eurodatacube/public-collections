@@ -1,5 +1,5 @@
 Name: ICEYE_E13b
-Description: ICEYE image and detection of parked airplanes
+Description: ICEYE image and detection of parked airplanes.
 AdditionalInfoExternal:
     Title: Additional info
     Path: iceye_e13b/README.MD

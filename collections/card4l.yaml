@@ -7,7 +7,7 @@ AdditionalInfoExternal:
     Title: Additional info 
     Path: card4l/README.MD 
 EDCBrowser: https://browser.eurodatacube.com/?zoom=11&lat=0.33316&lng=9.44028&collectionId=card4l&layerId=SAR%20urban&type=sentinel-hub-edc&fromTime=2022-01-24T00%3A00%3A00.000Z&toTime=2022-01-24T23%3A59%3A59.999Z
-Image: card4l/thumbnail.png        
+Image: card4l/thumbnail.png
 Resolution: 20m
 GeographicalCoverage: Africa Continent
 TemporalResolution: Every 6 to 12 days
@@ -19,7 +19,7 @@ BandInformation:
         - Name: Name
           Title: Name
         - Name: Description
-          Title: Description        
+          Title: Description
       Rows:
         - Name: VV
           Description: Linear backscatter intensity in VV polarization.
@@ -53,7 +53,7 @@ Tags:
   - card4l
   - radiometric terrain correction
 License: Access to Sentinel data is free, full and open for the broad Regional, National, European and International user community. Read [Terms and Conditions](https://scihub.copernicus.eu/twiki/do/view/SciHubWebPortal/TermsConditions).
-LicenseType: proprietary  
+LicenseType: proprietary
 LicenseUrl: https://scihub.copernicus.eu/twiki/do/view/SciHubWebPortal/TermsConditions
 Resources:
   - Group: Sentinel Hub Resources
@@ -70,7 +70,7 @@ WMTS:
   - href: https://creodias.sentinel-hub.com/ogc/wmts/c23384ad-ffd4-4397-9b0d-5229d2885331
     layer_id: SAR-URBAN
     dimensions: 
-      warnings: true    
+      warnings: true
 Configurations: 
   - layer_name: SAR urban
     evalscript_url: "https://custom-scripts.sentinel-hub.com/sentinel-1/urban_areas/script.js"
@@ -121,7 +121,7 @@ CubeDimensions:
     type: bands
     values:
       - VV
-      - VH  
+      - VH
       - AREA
       - ANGLE 
       - MASK

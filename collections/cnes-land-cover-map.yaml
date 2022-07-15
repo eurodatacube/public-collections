@@ -18,7 +18,7 @@ BandInformation:
         - Name: Name
           Title: Name
         - Name: Description
-          Title: Description        
+          Title: Description
       Rows:
         - Name: OCS
           Description: Main discrete classification according to 23-categories nomenclature.

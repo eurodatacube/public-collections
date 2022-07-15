@@ -4,7 +4,7 @@ Description: |
   To access sample processed data, we provide freely accessible Sentinel-1 GRD archived CARD4L data covering Africa Continent [here](https://collections.eurodatacube.com/card4l/), in collaboration with [Geoscience Australia](http://www.ga.gov.au/) and [ESA](https://www.esa.int/). 
 AdditionalInfoExternal:
     Title: Additional info 
-    Path:  card4l_byoa/README.MD
+    Path: card4l_byoa/README.MD
 Image: card4l_byoa/thumbnail.png
 Explore: "[Run algorithm in EDC Browser](https://browser.eurodatacube.com/?zoom=10&lat=41.9&lng=12.5&fromTime=1970-01-01T00%3A00%3A00.000Z&toTime=2021-10-22T14%3A36%3A31.329Z&algorithm=card4l)" 
 GeographicalCoverage: Global
@@ -16,7 +16,7 @@ BandInformation:
         - Name: Name
           Title: Name
         - Name: Description
-          Title: Description        
+          Title: Description
       Rows:
         - Name: VV
           Description: Linear backscatter intensity in VV polarization.
@@ -28,10 +28,10 @@ BandInformation:
           Description: Normalized scattering area.
         - Name: ANGLE
           Description: Local incidence angle (degree).
-Pricing: |   
+Pricing: | 
  | Price| Unit |
  | ------ | ------ |
- | 10 EUR | 1.000.000 km² |  
+ | 10 EUR | 1.000.000 km² |
 License: Access to Sentinel data is free, full and open for the broad Regional, National, European and International user community. Read [Terms and Conditions](https://scihub.copernicus.eu/twiki/do/view/SciHubWebPortal/TermsConditions).
 Contact: https://forum.sentinel-hub.com/c/euro-data-cube/
 Provider: "[Sentinel Hub GmbH](https://www.sentinel-hub.at/)"
