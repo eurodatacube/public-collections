@@ -1,4 +1,5 @@
 Name: Sentinel-5P L2
+OpenEOPID: SENTINEL_5P_L2
 Description: |
  The Copernicus [Sentinel-5 Precursor mission](https://sentinels.copernicus.eu/web/sentinel/missions/sentinel-5p) dedicated to monitoring our atmosphere,
  consists of one satellite carrying the TROPOspheric Monitoring Instrument (TROPOMI) instrument. Sentinel-5 Precursor mission aims to fill in
@@ -442,4 +443,4 @@ CRS:
   - "http://www.opengis.net/def/crs/EPSG/0/32760"
   - "http://www.opengis.net/def/crs/SR-ORG/0/98739"    
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2022-06-17"
+RegistryEntryLastModified: "2022-07-04"

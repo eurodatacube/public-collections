@@ -1,4 +1,5 @@
 Name: CORINE Land Cover Accounting Layers
+OpenEOPID: CORINE_LAND_COVER_ACCOUNTING_LAYERS
 Description: |
  The CORINE Land Cover (CLC) Accounting Layers are CLC status layers modified for the purpose of consistent statistical analysis in the land cover change accounting system at EEA. 
  The modification combines CLC status and change layers in the 100m raster in order to create homogeneous quality time series of CLC / CLC-change layers for accounting purposes.
@@ -122,4 +123,4 @@ Summaries:
     - description: The mask of data/no data pixels.
       name: dataMask
 RegistryEntryAdded: "2021-10-20"
-RegistryEntryLastModified: "2022-06-22"
+RegistryEntryLastModified: "2022-07-04"

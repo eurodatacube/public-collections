@@ -1,4 +1,5 @@
 Name: ALOS-2 PALSAR-2 Stripmap for Economy (SM1, SM3)
+OpenEOPID: ALOS_PALSAR2_L2_1_10M
 Description: |
   This [ALOS-2 PALSAR-2](https://alos-pasco.com/en/alos-2/spec/) Strip Map (SM1 with 3m single/dual polarization or SM3 with 10m dual polarization) L2.1 product contains
   geometrically corrected (orthorectified)  in selected AOIs between 2019 and 2020 for NASA/ESA/JAXA EODashboard Hackathon.   
@@ -138,4 +139,4 @@ CubeDimensions:
       - HH
       - HV
 RegistryEntryAdded: "2021-06-09"
-RegistryEntryLastModified: "2022-02-10"
+RegistryEntryLastModified: "2022-07-06"

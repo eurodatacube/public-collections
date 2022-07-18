@@ -1,4 +1,5 @@
 Name: ICEYE_E11a
+OpenEOPID: ICEYE_GRD_E11A
 Description: Activity at leisure facility (Stadium) affected by COVID
 AdditionalInfoExternal:
     Title: Additional info
@@ -75,4 +76,4 @@ CubeDimensions:
     values:
       - GRD
 RegistryEntryAdded: "2021-05-07"
-RegistryEntryLastModified: "2022-04-01"
+RegistryEntryLastModified: "2022-07-06"

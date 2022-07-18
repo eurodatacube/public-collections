@@ -1,4 +1,5 @@
 Name: CAMS_GLC_2017
+OpenEOPID: CAMS_GLC
 Description: The S2GLC 2017 product represents land cover classification of a major portion of the European continent. The classification has been performed using multi-temporal Sentinel-2 data collected during the year 2017 with the methodology developed in the frame of the Sentinel-2 Global Land Cover (S2GLC) project. The S2GLC 2017 dataset is delivered with 10 m spatial resolution with thematic legend composed of 13 land cover classes
 AdditionalInfoExternal:
     Title: Additional info
@@ -76,4 +77,4 @@ CubeDimensions:
       - BLUE
       - GREEN
 RegistryEntryAdded: "2021-05-07"
-RegistryEntryLastModified: "2022-02-10"
+RegistryEntryLastModified: "2022-07-06"

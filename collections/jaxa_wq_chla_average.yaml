@@ -1,4 +1,5 @@
 Name: JAXA_wq_chla_average
+OpenEOPID: JAXA_WQ_CHLA_AVERAGE
 Description: |
   Chlorophyll-a concentration weekly average (GCOM-C).  
   Weekly average chlorophyll-a concentration for 4 sites:  North Adriatic, Tokyo, Kobe and Nagoya.   
@@ -124,4 +125,4 @@ CubeDimensions:
       - chla
       - chla_ave
 RegistryEntryAdded: "2021-06-09"
-RegistryEntryLastModified: "2022-02-10"
+RegistryEntryLastModified: "2022-07-06"

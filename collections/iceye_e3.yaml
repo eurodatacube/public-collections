@@ -1,4 +1,5 @@
 Name: ICEYE_E3
+OpenEOPID: ICEYE_GRD_E3
 Description: Oil storages filling up as demand for oil decreases when people are not travelling
 AdditionalInfoExternal:
     Title: Additional info
@@ -75,4 +76,4 @@ CubeDimensions:
     values:
       - GRD
 RegistryEntryAdded: "2021-05-07"
-RegistryEntryLastModified: "2022-04-01"
+RegistryEntryLastModified: "2022-07-06"

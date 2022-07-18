@@ -1,4 +1,5 @@
 Name: S5P-NO2-tropno-daily-check
+OpenEOPID: SENTINEL_5P_NO2_T14D_AVERAGE
 Description: The data comes from the Copernicus Sentinel-5P satellite and shows the averaged nitrogen dioxide concentrations across the globe – using a 14-day moving average. Concentrations of short-lived pollutants, such as nitrogen dioxide, are indicators of changes in economic slowdowns and are comparable to changes in emissions. Using a 14 day average eliminates some effects which are caused by short term weather changes and cloud cover. The average gives an overview over the whole time period and therefore reflects trends better than shorter time periods.
 AdditionalInfoExternal:
     Title: Additional info
@@ -76,4 +77,4 @@ CubeDimensions:
     values:
       - tropno2
 RegistryEntryAdded: "2021-05-07"
-RegistryEntryLastModified: "2022-04-01"
+RegistryEntryLastModified: "2022-07-06"

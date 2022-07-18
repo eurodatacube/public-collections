@@ -1,4 +1,5 @@
 Name: E12C_Motorway
+OpenEOPID: E12C_MOTORWAY
 Description: This indicator is based on the detection of moving trucks on motorways in the EU. The detection uses data from the Copernicus Sentinel-2 satellite.
 AdditionalInfoExternal:
     Title: Additional info
@@ -75,4 +76,4 @@ CubeDimensions:
     values:
       - MotorwayActivity
 RegistryEntryAdded: "2021-05-07"
-RegistryEntryLastModified: "2022-04-01"
+RegistryEntryLastModified: "2022-07-15"
