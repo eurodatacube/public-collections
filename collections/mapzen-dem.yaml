@@ -1,4 +1,5 @@
 Name: Mapzen DEM
+OpenEOPID: MAPZEN_DEM
 Description: |
   Mapzen DEM is based on [Mapzen's terrain tiles](https://github.com/tilezen/joerd/tree/master/docs) that provide global DEM and bathymetry data.
   Mapzen terrain tiles is a composite of elevation data of varying resolutions from [multiple open data sources](https://github.com/tilezen/joerd/blob/master/docs/data-sources.md)
@@ -140,4 +141,4 @@ Summaries:
     - description: The mask of data/no data pixels.
       name: dataMask
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2022-02-10"
+RegistryEntryLastModified: "2022-07-04"

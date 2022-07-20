@@ -9,7 +9,7 @@
     {{#if (anyStartsWith "sar:" Summaries) ~}},"https://stac-extensions.github.io/sar/v1.0.0/schema.json"{{/if ~}}
     {{#if (anyStartsWith "raster:" Summaries) ~}},"https://stac-extensions.github.io/raster/v1.0.0/schema.json"{{/if ~}}
   ],
-  "id": "{{Slug}}",
+  "id": "{{{escapeJson OpenEOPID}}}",
   "datasource_type": "{{{find Resources 'Primary' 'Type'}}}",
   "title": "{{{escapeJson Name}}}",
   "description": "{{{escapeJson Description}}}",
@@ -46,11 +46,19 @@
 {{#each Configurations}}
 	{{{copyJson this}}},
 {{/each}}
+    {{#if DocumentationLinks }}    
+    {
+      "href": "{{{find DocumentationLinks 'href' 'href'}}}",
+      "rel": "about",
+      "type": "text/html",
+      "title": "{{{find DocumentationLinks 'title' 'title'}}}"  
+    },
+    {{/if}}
     {
       "href": "{{{escapeJson LicenseUrl}}}",
       "rel": "license",
-      "title": "License",
-      "type": "text/html"
+      "type": "text/html",
+      "title": "License"
     }
   ],
   "cube:dimensions": {{{copyJson CubeDimensions}}},

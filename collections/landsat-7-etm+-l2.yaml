@@ -1,4 +1,5 @@
 Name: Landsat 7 ETM+ L2
+OpenEOPID: LANDSAT7_ETM_L2
 Description: |
  The Landsat 7 Enhanced Thematic Mapper (ETM+) sensor is carried onboard Landsat 7. ETM+ provides 7 spectral bands and 1 thermal band.
  See [USGS EROS Archive](https://www.usgs.gov/centers/eros/science/usgs-eros-archive-landsat-archives-landsat-7-etm-plus-collection-2-level-2?qt-science_center_objects=0#qt-science_center_objects) for more information. Landsat 7 level-2 data provides atmospherically corrected Surface Reflectance and Surface Brightness Temperature products. Level-2 data are available since April 1999.
@@ -533,4 +534,4 @@ CRS:
   - "http://www.opengis.net/def/crs/EPSG/0/32760"
   - "http://www.opengis.net/def/crs/SR-ORG/0/98739"      
 RegistryEntryAdded: "2021-07-16"
-RegistryEntryLastModified: "2022-06-17"
+RegistryEntryLastModified: "2022-07-04"

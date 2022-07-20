@@ -1,4 +1,5 @@
 Name: JAXA_wq_tsm_average
+OpenEOPID: JAXA_WQ_TSM_AVERAGE
 Description: |
   Total suspended matter cocentration weekly average (GCOM-C).  
   Weekly total suspended matter concentration for 4 sites:  North Adriatic, Tokyo, Kobe and Nagoya.  
@@ -124,4 +125,4 @@ CubeDimensions:
       - tsm
       - tsm_ave
 RegistryEntryAdded: "2021-06-06"
-RegistryEntryLastModified: "2022-02-10"
+RegistryEntryLastModified: "2022-07-06"

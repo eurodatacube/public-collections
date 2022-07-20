@@ -1,4 +1,5 @@
 Name: Vessel_Density_cargo
+OpenEOPID: EMODNET_VESSEL_DENSITY_CARGO
 Description: |
   The Vessel Density maps in the EU are created since the 2019 by Cogea for the European Marine Observation and Data Network (EMODnet). The dataset is updated every year and is available for viewing and download on EMODnet Human Activities web portal (www.emodnet-humanactivities.eu). The maps are based on AIS data yearly purchased from Collecte Localisation Satellites (CLS) and ORBCOMM. The maps, GeoTIFF format, show shipping density in 1x1km cells of a grid covering all EU waters and some neighbouring areas. Density is expressed as hours per square kilometre per month. The following ship types are available:0 Other, 1 Fishing, 2 Service, 3 Dredging or underwater ops, 4 Sailing, 5 Pleasure Craft, 6 High speed craft, 7 Tug and towing, 8 Passenger, 9 Cargo, 10 Tanker, 11 Military and Law Enforcement, 12 Unknown and All ship types.
   This particular layer refers to EMODnet ship type "9 cargo" that includes the following AIS ship Type codes;
@@ -89,4 +90,4 @@ CubeDimensions:
     values:
       - cargo
 RegistryEntryAdded: "2022-05-19"
-RegistryEntryLastModified: "2022-04-01"
+RegistryEntryLastModified: "2022-07-06"
