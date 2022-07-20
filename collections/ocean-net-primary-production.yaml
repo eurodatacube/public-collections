@@ -1,17 +1,16 @@
 Name: BICEP
 Description: |
-  The data comes from the Copernicus Sentinel-5P satellite and uses data from the Copernicus Sentinel-5P satellite and shows the averaged methane concentrations across the globe — using weekly averaged maps. The methane map shown here is measured by the Tropomi instrument on the Sentinel 5 Precursor satellite.
-  The Copernicus Sentinel-5P CH4 measurements were first filtered according to the recommendation in the Product Readme file (only data with a qa_value > 0.50 was used). Then the measurements are mapped on a fixed latitude-longitude grid of 4096 x 8192 pixels. The grid is turned into an EPSG:4326 geotiff file using the appropriate color scale, which is again turned into an EPSG:3857 tile map.
-  Data gaps are visible based on the product quality filtering and the fact that over the sea only measurements for sun-glint situations are being provided.
+  This dataset contains global, monthly marine phytoplankton primary production products (in mg C m-2 d-1) for the period of 1998 to 2020 at 9 km spatial resolution. Data are provided in ZARR format with monthly averages. 
 AdditionalInfoExternal:
   Title: Additional info
-  Path: ocean-net-primary-production/README.MD
-Image: ocean-net-primary-production/npp.png
+  Path: pythoplancton-primary-production/README.MD
+Image: pythoplancton-primary-production/npp.png
 EDCBrowser: ""
-Resolution: xx x xx Km (across x along track)
+Resolution: gridded 9 Km spatial resolution
 GeographicalCoverage: -180.0, -90.0, 180.0, 90.0
-TemporalAvailability: 1998 - 2018
-BandInformation: pp
+TemporalAvailability: 1998 - 2020
+TemporalResolution: Monthly 
+BandInformation: Primary production (band called "pp") is a single band product obtained by marine phytoplankton which was modelled using ocean-colour remote sensing products and a spectrally-resolved primary production model that incorporates the vertical structure of phytoplankton and simulates changes in photosynthesis as a function of irradiance using a two-parameter photosynthesis versus irradiance (P-I) function
 Contact: "[ESA EO Support Helpdesk](EOSupport@copernicus.esa.int)"
 Provider: "[ESA](http://www.esa.int/)"
 ManagedBy: "[ESA](http://www.esa.int/)"
@@ -53,7 +52,7 @@ Extent:
     interval:
       -
         - '1998-01-01T00:00:00Z'
-        - null
+        - '2020-12-31T23:59:59'
 CubeDimensions:
   x:
     type: spatial
@@ -71,7 +70,7 @@ CubeDimensions:
     type: temporal
     extent:
       - '1998-01-01T00:00:00Z'
-      - null
+      - '2020-12-31T23:59:59'
   bands:
     type: bands
     values:

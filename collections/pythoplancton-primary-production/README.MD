@@ -17,7 +17,7 @@ Our ocean is vast and complex, which results in regional differences in primary 
 Layer ID:
 ID: BICEP_NPP_VIS_PP2
 collectionID: a216afca-8a65-4072-87a5-8ed7aa21e08a
-from 1998 - 2018
+from 1998 - 2020
 
 ## Band information
 
