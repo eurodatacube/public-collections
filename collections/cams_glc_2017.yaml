@@ -51,7 +51,7 @@ Extent:
     interval:
       -
         - '2017-01-01T00:00:00Z'
-        - '2017-12-31T00:00:00Z'
+        - '2017-01-01T00:00:01Z'
 CubeDimensions:
   x:
     type: spatial
@@ -69,7 +69,7 @@ CubeDimensions:
     type: temporal
     extent:
       - '2017-01-01T00:00:00Z'
-      - '2017-12-31T00:00:00Z'
+      - '2017-01-01T00:00:01Z'
   bands:
     type: bands
     values:
@@ -77,4 +77,4 @@ CubeDimensions:
       - BLUE
       - GREEN
 RegistryEntryAdded: "2021-05-07"
-RegistryEntryLastModified: "2022-07-06"
+RegistryEntryLastModified: "2022-07-19"

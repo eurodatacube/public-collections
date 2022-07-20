@@ -76,8 +76,8 @@ Extent:
   temporal:
     interval:
       -
-        - '1986-01-01T00:00:00Z'
-        - '2018-12-31T00:00:00Z'
+        - '1990-01-01T00:00:00Z'
+        - '2018-01-01T00:00:00Z'
 CubeDimensions:
   x:
     type: spatial
@@ -96,8 +96,8 @@ CubeDimensions:
   t:
     type: temporal
     extent:
-      - '1986-01-01T00:00:00Z'
-      - '2018-12-31T00:00:00Z'
+      - '1990-01-01T00:00:00Z'
+      - '2018-01-01T00:00:00Z'
     step: P6Y
   bands:
     type: bands
@@ -116,4 +116,4 @@ Summaries:
     - description: The mask of data/no data pixels.
       name: dataMask
 RegistryEntryAdded: "2021-03-21"
-RegistryEntryLastModified: "2022-07-04"
+RegistryEntryLastModified: "2022-07-19"

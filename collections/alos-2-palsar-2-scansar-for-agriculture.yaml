@@ -92,8 +92,8 @@ Extent:
   temporal:
     interval:
       -
-        - '2019-01-01T00:00:00Z'
-        - '2020-12-31T00:00:00Z'
+        - '2019-02-06T00:00:00Z'
+        - '2020-10-16T00:00:00Z'
 CubeDimensions:
   x:
     type: spatial
@@ -110,12 +110,12 @@ CubeDimensions:
   t:
     type: temporal
     extent:
-      - '2019-01-01T00:00:00Z'
-      - '2020-12-31T00:00:00Z'
+      - '2019-02-06T00:00:00Z'
+      - '2020-10-16T00:00:00Z'
   bands:
     type: bands
     values:
       - HH
       - HV
 RegistryEntryAdded: "2021-06-09"
-RegistryEntryLastModified: "2022-07-06"
+RegistryEntryLastModified: "2022-07-19"

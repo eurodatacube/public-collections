@@ -96,7 +96,7 @@ Extent:
   temporal:
     interval:
       -
-        - '2018-07-01T00:00:00Z'
+        - '2018-01-01T02:50:58Z'
         - null
 CubeDimensions:
   x:
@@ -116,7 +116,7 @@ CubeDimensions:
   t:
     type: temporal
     extent:
-      - '2018-07-01T00:00:00Z'
+      - '2018-01-01T02:50:58Z'
       - null
   bands:
     type: bands
@@ -167,4 +167,4 @@ Summaries:
     - description: The mask of data/no data pixels.
       name: dataMask
 RegistryEntryAdded: "2022-02-11"
-RegistryEntryLastModified: "2022-07-04"
+RegistryEntryLastModified: "2022-07-19"

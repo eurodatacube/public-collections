@@ -89,8 +89,8 @@ Extent:
   temporal:
     interval:
       -
-        - '2018-01-01T00:00:00Z'
-        - '2020-12-31T00:00:00Z'
+        - '2016-01-01T00:00:00Z'
+        - '2020-01-01T00:00:00Z'
 CubeDimensions:
   x:
     type: spatial
@@ -107,8 +107,8 @@ CubeDimensions:
   t:
     type: temporal
     extent:
-      - '2018-01-01T00:00:00Z'
-      - '2020-12-31T00:00:00Z'
+      - '2016-01-01T00:00:00Z'
+      - '2020-01-01T00:00:00Z'
   bands:
     type: bands
     values:
@@ -116,4 +116,4 @@ CubeDimensions:
       - OCS_Confidence
       - OCS_Validity
 RegistryEntryAdded: "2022-02-24"
-RegistryEntryLastModified: "2022-07-06"
+RegistryEntryLastModified: "2022-07-19"

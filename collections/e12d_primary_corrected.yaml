@@ -52,7 +52,7 @@ Extent:
     interval:
       -
         - '2017-05-15T00:00:00Z'
-        - '2020-05-15T23:59:59Z'
+        - '2020-05-15T00:00:00Z'
 CubeDimensions:
   x:
     type: spatial
@@ -70,10 +70,10 @@ CubeDimensions:
     type: temporal
     extent:
       - '2017-05-15T00:00:00Z'
-      - '2020-05-15T23:59:59Z'
+      - '2020-05-15T00:00:00Z'
   bands:
     type: bands
     values:
       - PrimaryRoadsActivity
 RegistryEntryAdded: "2021-05-07"
-RegistryEntryLastModified: "2022-07-15"
+RegistryEntryLastModified: "2022-07-19"

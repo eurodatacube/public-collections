@@ -81,7 +81,7 @@ Extent:
   temporal:
     interval:
       -
-        - '2019-03-11T00:00:00Z'
+        - '2019-03-21T00:00:00Z'
         - '2021-04-18T00:00:00Z'
 CubeDimensions:
   x:
@@ -99,11 +99,11 @@ CubeDimensions:
   t:
     type: temporal
     extent:
-      - '2019-03-11T00:00:00Z'
+      - '2019-03-21T00:00:00Z'
       - '2021-04-18T00:00:00Z'
   bands:
     type: bands
     values:
       - HH
 RegistryEntryAdded: "2021-06-09"
-RegistryEntryLastModified: "2022-07-06"
+RegistryEntryLastModified: "2022-07-19"

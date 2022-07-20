@@ -92,7 +92,7 @@ Extent:
     interval:
       -
         - '2017-01-01T00:00:00Z'
-        - '2021-05-31T00:00:00Z'
+        - '2021-05-03T00:00:00Z'
 CubeDimensions:
   x:
     type: spatial
@@ -112,7 +112,7 @@ CubeDimensions:
     type: temporal
     extent:
       - '2017-01-01T00:00:00Z'
-      - '2021-05-31T00:00:00Z'
+      - '2021-05-03T00:00:00Z'
     step: P1D
   bands:
     type: bands
@@ -139,4 +139,4 @@ Summaries:
     - description: The mask of data/no data pixels.
       name: dataMask
 RegistryEntryAdded: "2021-05-11"
-RegistryEntryLastModified: "2022-07-04"
+RegistryEntryLastModified: "2022-07-19"
