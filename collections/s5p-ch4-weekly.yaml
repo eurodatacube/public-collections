@@ -11,8 +11,9 @@ EDCBrowser: ""
 Resolution: 4.8 x 4.8 Km (across x along track)
 GeographicalCoverage: -180.0, -90.0, 180.0, 90.0
 TemporalAvailability: 2021-11-15 - ongoing
+TemporalResolution: Weekly
 UpdateFrequency: Weekly
-BandInformation: ch4
+BandInformation: It is made of a single band called "ch4". it is an averaged methane concentrations across the globe — using weekly averaged maps
 Contact: "[ESA EO Support Helpdesk](EOSupport@copernicus.esa.int)"
 Provider: "[ESA](http://www.esa.int/)"
 ManagedBy: "[ESA](http://www.esa.int/)"
@@ -54,7 +55,7 @@ Extent:
     interval:
       -
         - '2021-11-15T00:00:00Z'
-        - null
+        - ongoing
 CubeDimensions:
   x:
     type: spatial
@@ -72,7 +73,7 @@ CubeDimensions:
     type: temporal
     extent:
       - '2021-11-15T00:00:00Z'
-      - null
+      - ongoing
     step: P7D
   bands:
     type: bands

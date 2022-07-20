@@ -16,3 +16,4 @@ function evaluatePixel(sample) {
 	else arr.push(0);
 	return arr;
 }
+
