@@ -26,7 +26,7 @@ GeographicalCoverage: |
    Tokyo: lon E: 139.25 ~ 140.25, lat N: 34.85 ~ 35.85
    Kobe-Osaka: lon E: 134.5 ~ 135.5, lat N: 33.85 ~ 34.85
    Nagoya: lon E: 136.4 ~ 137.4, lat N: 34.2 ~ 35.2
-TemporalAvailability: 7 April 2018 - ongoing
+TemporalAvailability: 2018-01-06 - ongoing
 UpdateFrequency: weekly
 BandInformation: 
   Table:
@@ -126,4 +126,4 @@ CubeDimensions:
     values:
       - tsm
 RegistryEntryAdded: "2021-05-26"
-RegistryEntryLastModified: "2022-07-19"
+RegistryEntryLastModified: "2022-07-21"

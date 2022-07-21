@@ -12,7 +12,7 @@ Image: card4l/thumbnail.png
 Resolution: 20m
 GeographicalCoverage: Africa Continent
 TemporalResolution: Every 6 to 12 days
-TemporalAvailability: July 01, 2018 - Ongoing
+TemporalAvailability: 2018-01-01 - Ongoing
 UpdateFrequency: Daily
 BandInformation: 
   Table:
@@ -167,4 +167,4 @@ Summaries:
     - description: The mask of data/no data pixels.
       name: dataMask
 RegistryEntryAdded: "2022-02-11"
-RegistryEntryLastModified: "2022-07-19"
+RegistryEntryLastModified: "2022-07-21"

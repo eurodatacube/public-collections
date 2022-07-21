@@ -15,7 +15,7 @@ EOBrowser: https://apps.sentinel-hub.com/eo-browser/?zoom=10&lat=41.9&lng=12.5&t
 Image: vegetation-indices/thumbnail.png
 Resolution: 10m
 GeographicalCoverage: Europe (Lat; 26N 72N Lon; -25W 45E)
-TemporalAvailability: October 1, 2016 - Februray 28, 2021
+TemporalAvailability: 2016-10-01 - 2021-02-28
 UpdateFrequency: Daily
 BandInformation:
   Table:
@@ -142,8 +142,8 @@ Extent:
   temporal:
     interval:
       -
-        - '2016-10-01T09:20:22.026Z'
-        - '2021-02-28T14:10:51.024Z'
+        - '2016-10-01T09:20:22Z'
+        - '2021-02-28T14:10:52Z'
 CubeDimensions:
   x:
     type: spatial
@@ -224,8 +224,8 @@ CubeDimensions:
   t:
     type: temporal
     extent:
-      - '2016-10-01T09:20:22.026Z'
-      - '2021-02-28T14:10:51.024Z'
+      - '2016-10-01T09:20:22Z'
+      - '2021-02-28T14:10:52Z'
     step: P5D
   bands:
     type: bands
@@ -418,4 +418,4 @@ CRS:
   - "http://www.opengis.net/def/crs/EPSG/0/32760"
   - "http://www.opengis.net/def/crs/SR-ORG/0/98739"
 RegistryEntryAdded: '2021-10-14'
-RegistryEntryLastModified: "2022-07-19"
+RegistryEntryLastModified: "2022-07-21"
