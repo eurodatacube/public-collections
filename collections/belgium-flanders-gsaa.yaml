@@ -2,7 +2,7 @@ Name: Belgium - Flanders GSAA
 Description: |
   Flemish Geo-spatial Aid Application (GSAA) data is managed by [the Belgium Department of Agriculture and Fisheries](https://lv.vlaanderen.be/nl).
   It contains the parcels that are in agricultural use on the deadline for submission of the single application that year. 
-  The register also includes pounds, wood edges and agricultural production facilities (stables and similar buildings).   
+  The register also includes pounds, wood edges and agricultural production facilities (stables and similar buildings). 
   The inventory of these parcels takes place annually in the context of the payment of the (co-financed) European agricultural 
   subsidies and the Flemish manure legislation. It can be used for consultation or study of the land use of agricultural parcels for the year in question. 
   This dataset does not contain all data from original GSAA dataset. 
@@ -10,22 +10,22 @@ Description: |
   Flanders GSAA data collection is made available on geoDB on subscription basis.
 Documentation: |
  Read more on [Metadata Flanders](https://metadata.vlaanderen.be/srv/dut/catalog.search#/search?facet.q=topicCat%2Ffarming)
- and [Euro Data Cube checkout](https://eurodatacube.com/marketplace/data-products/lpis) 
+ and [Euro Data Cube checkout](https://eurodatacube.com/marketplace/data-products/lpis)
 AdditionalInfoExternal:
-    Title: Additional info 
-    Path: belgium-flanders-gsaa/README.MD 
+    Title: Additional info
+    Path: belgium-flanders-gsaa/README.MD
 Image: belgium-flanders-gsaa/belgium-flanders-gsaa.png
 Explore: "[Open Notebook](https://eurodatacube.com/marketplace/notebooks/contributions/Access_IACS_data.ipynb)"
-GeographicalCoverage: The Flemish Region of Belgium 
+GeographicalCoverage: The Flemish Region of Belgium
 TemporalAvailability: 2008 - ongoing
 UpdateFrequency: annually
-Attributes: 
+Attributes:
   Table:
       Columns:
         - Name: Name
           Title: Name
         - Name: Description
-          Title: Description        
+          Title: Description
       Rows:
         - Name: OIDN
           Description: Object identifier
@@ -47,7 +47,7 @@ Attributes:
           Description: Perimeter of parcel(m)
         - Name: OPPERVL
           Description: Area of parcel (m²)
-Contact: https://forum.sentinel-hub.com/c/euro-data-cube/25, 
+Contact: https://forum.sentinel-hub.com/c/euro-data-cube/25,
 Provider: "[Flemish Department of Agriculture and Fisheries](https://lv.vlaanderen.be/nl)"
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
 Tags:
@@ -58,11 +58,11 @@ Tags:
   - agriculture
   - gsaa
   - parcel
-  - Landbouwgebruikspercelen  
+  - Landbouwgebruikspercelen
 License: |
  [Model license for free reuse](https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licenties/hergebruik/modellicentie_gratis_hergebruik_v1_0.html)
 Resources:
-  - Group: geoDB Resources  
+  - Group: geoDB Resources
     Database: lpis_iacs
     Collection: flanders_gsaa_<year> (flanders_gsaa_2018)
     Notes: one collection per year since 2008

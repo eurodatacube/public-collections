@@ -3,7 +3,7 @@ Description: |
   The Graphical Parcel Register (Registre parcellaire graphique (RPG) is a geographical database allowing the identification of agricultural parcels. 
   Its primary purpose is to provide a spatial reference for aid applications under the Common Agricultural Policy (CAP). 
   The anonymised version of RPG with information on the main crop on the agricultural parcel is publicly available. 
-  RGP is managed by the [Service and Payment Agency (ASP)](https://www.asp-public.fr/au-service-de/agency-services-and-payment-and-eu-funds) .  
+  RGP is managed by the [Service and Payment Agency (ASP)](https://www.asp-public.fr/au-service-de/agency-services-and-payment-and-eu-funds).
   
   France Metropolitan GSAA data collection is made available on geoDB on subscription basis. 
 Documentation: Read more on [data.gouv.fr](https://www.data.gouv.fr/fr/datasets/registre-parcellaire-graphique-rpg-contours-des-parcelles-et-ilots-culturaux-et-leur-groupe-de-cultures-majoritaire/#_) and [Euro Data Cube checkout](https://eurodatacube.com/marketplace/data-products/lpis) 
@@ -11,8 +11,8 @@ AdditionalInfoExternal:
   Title: Additional info
   Path: france-metropolitan-gsaa/README.MD
 Image: france-metropolitan-gsaa/france-metropolitan-gsaa.png
-Explore: "[Open Notebook](https://eurodatacube.com/marketplace/notebooks/contributions/Access_IACS_data.ipynb)" 
-GeographicalCoverage: France Metropolitan 
+Explore: "[Open Notebook](https://eurodatacube.com/marketplace/notebooks/contributions/Access_IACS_data.ipynb)"
+GeographicalCoverage: France Metropolitan
 TemporalAvailability: 2015 - ongoing
 UpdateFrequency: annually
 Attributes: 
@@ -21,7 +21,7 @@ Attributes:
         - Name: Name
           Title: Name
         - Name: Description
-          Title: Description        
+          Title: Description
       Rows:
         - Name: ID_PARCEL
           Description: Parcel identifier
@@ -35,7 +35,7 @@ Attributes:
           Description: Code of the second catch crop
         - Name: SURF_PARC
           Description: Area of the parcel in hectares
-Contact: https://forum.sentinel-hub.com/c/euro-data-cube/25, 
+Contact: https://forum.sentinel-hub.com/c/euro-data-cube/25,
 Provider: "[The French National Institute of Geographic and Forest Information (IGN)](https://www.ign.fr/institut/identity-card)"
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
 Tags:
@@ -45,12 +45,12 @@ Tags:
   - Machine Learning
   - agriculture
   - gsaa
-  - Registre parcellaire graphique 
+  - Registre parcellaire graphique
   - CAP
 License: |
   The RPG data can be freely reused, also for commercial use, under the terms of the "open license" version 2.0. [License](https://www.etalab.gouv.fr/licence-ouverte-open-licence)
 Resources:
-  - Group: geoDB Resources  
+  - Group: geoDB Resources
     Database: lpis_iacs
     Collection: france_metropolitan_gsaa_<year> (france_metropolitan_gsaa_2018)
     Notes: One collection per year since 2015

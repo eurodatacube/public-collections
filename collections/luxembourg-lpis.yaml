@@ -2,15 +2,15 @@ Name: Luxembourg LPIS
 Description: |
   Luxembourg's Land Parcel Identification System (LPIS) data collection (also agricultural plots/ 'parcelles agricoles')
   is managed by [The administration of agricultural technical services (ASTA)](https://agriculture.public.lu/de/betriebsfuhrung/gis.html)
-  and  made available on [The Luxembourg data platform](https://data.public.lu/fr/datasets/referentiel-des-parcelles-flik/). 
+  and made available on [The Luxembourg data platform](https://data.public.lu/fr/datasets/referentiel-des-parcelles-flik/). 
   In Luxembourg, it is referred to as plot-based parcel reference system (FLIK), an identification system for agricultural and wine-growing parcels 
   which serves as the basis for the declaration under the common agricultural policy (CAP).
   Luxembourg LPIS data collection is made available on geoDB on subscription basis.
 Documentation: |
  Read more [here](https://agriculture.public.lu/de/betriebsfuhrung/gis.html) and [Euro Data Cube checkout](https://eurodatacube.com/marketplace/data-products/lpis)
 AdditionalInfoExternal:
-    Title: Additional info 
-    Path: luxembourg-lpis/README.MD 
+    Title: Additional info
+    Path: luxembourg-lpis/README.MD
 Explore: "[Open Notebook](https://eurodatacube.com/marketplace/notebooks/contributions/Access_IACS_data.ipynb)"
 Image: luxembourg-lpis/luxembourg-lpis.png
 GeographicalCoverage: Luxembourg
@@ -22,7 +22,7 @@ Attributes:
         - Name: Name
           Title: Name
         - Name: Description
-          Title: Description        
+          Title: Description
       Rows:
         - Name: FLIK
           Description: Parcels record number
@@ -42,7 +42,7 @@ Attributes:
           Description: The perimeter of the parcel
         - Name: ENVIR
           Description: Environmentally sensitive grassland
-Contact: https://forum.sentinel-hub.com/c/euro-data-cube/25, 
+Contact: https://forum.sentinel-hub.com/c/euro-data-cube/25,
 Provider: "[Luxembourg administration of agricultural technical services (ASTA)](https://ma.gouvernement.lu/fr/administrations/asta.html)"
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
 Tags:
@@ -58,15 +58,13 @@ Tags:
   - parcelles agricoles
   - land cover
   - CAP
-
 License: |
  Creative Commons 1.0 Universal (CC0 1.0) Public Domain Dedication [License](https://creativecommons.org/publicdomain/zero/1.0/)
 Resources:
-  - Group: geoDB Resources  
+  - Group: geoDB Resources
     Database: lpis_iacs
     Collection: luxembourg_lpis_<year> (luxembourg_lpis_2018)
-    Notes: one collection per year since  2016,  
+    Notes: one collection per year since 2016,
     
-
 RegistryEntryAdded: "2021-05-06"
 RegistryEntryLastModified: "2021-07-05"

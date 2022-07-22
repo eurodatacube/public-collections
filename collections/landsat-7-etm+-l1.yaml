@@ -10,7 +10,7 @@ EOBrowser: https://apps.sentinel-hub.com/eo-browser/?zoom=10&lat=41.87876&lng=12
 Resolution: 30 m (15 m for the panchromatic band, thermal band is re-sampled from 60 m)
 GeographicalCoverage: Global land
 TemporalAvailability: April 1999 - ongoing
-UpdateFrequency: Landsat data are added regularly,as soon as they are available in USGS AWS cloud 
+UpdateFrequency: Landsat data are added regularly,as soon as they are available in USGS AWS cloud
 BandInformation: Information about [bands and data](https://docs.sentinel-hub.com/api/latest/data/landsat-etm/#available-bands-and-data)
 Contact: https://forum.sentinel-hub.com/c/euro-data-cube/
 Provider: "[USGS](https://www.usgs.gov/)"

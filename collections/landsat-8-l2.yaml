@@ -5,7 +5,6 @@ Description: |
   [Landsat 8](https://www.usgs.gov/landsat-missions/landsat-8?qt-science_support_page_related_con=0#qt-science_support_page_related_con) and the most recently launched 
   [Landsat 9](https://www.usgs.gov/landsat-missions/landsat-9) satellites (provided by NASA/USGS), both carrying the Operational Land Imager (OLI) and 
   the Thermal Infrared Sensor (TIRS) instruments, with 9 optical and 2 thermal bands. These two sensors provide seasonal coverage of the global landmass.
-
   [Landsat 8-9 Level 2 data](https://www.usgs.gov/core-science-systems/nli/landsat/landsat-collection-2-level-2-science-products)
   from the most recently released [collection 2](https://www.usgs.gov/faqs/what-updates-are-being-made-landsat-collection-2?qt-news_science_products=0#qt-news_science_products), 
   provides atmospherically corrected Surface Reflectance and Surface Brightness Temperature products generated from Collection 2 Level-1 scenes that have been processed to Tier 1 or Tier 2.
@@ -19,8 +18,8 @@ GeographicalCoverage: Land ([more info](https://landsat.gsfc.nasa.gov/landsat-8/
 TemporalAvailability: 
   Landsat 8 from February 2013 - ongoing
   Landsat 9 from January 2022 - ongoing
-UpdateFrequency: Landsat data are added regularly, as soon as they are available in USGS AWS cloud 
-BandInformation: Information about [bands and data](https://docs.sentinel-hub.com/api/latest/data/landsat-8-l2/#available-bands-and-data)  
+UpdateFrequency: Landsat data are added regularly, as soon as they are available in USGS AWS cloud
+BandInformation: Information about [bands and data](https://docs.sentinel-hub.com/api/latest/data/landsat-8-l2/#available-bands-and-data)
 Contact: https://forum.sentinel-hub.com/c/euro-data-cube/25
 Provider: "[USGS](https://www.usgs.gov/)"
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
@@ -546,6 +545,6 @@ CRS:
   - "http://www.opengis.net/def/crs/EPSG/0/32758"
   - "http://www.opengis.net/def/crs/EPSG/0/32759"
   - "http://www.opengis.net/def/crs/EPSG/0/32760"
-  - "http://www.opengis.net/def/crs/SR-ORG/0/98739"    
+  - "http://www.opengis.net/def/crs/SR-ORG/0/98739"
 RegistryEntryAdded: "2018-04-17"
 RegistryEntryLastModified: "2022-07-04"

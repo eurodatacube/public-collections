@@ -2,14 +2,14 @@ Name: ALOS-2 PALSAR-2 Stripmap for Economy (SM1, SM3)
 OpenEOPID: ALOS_PALSAR2_L2_1_10M
 Description: |
   This [ALOS-2 PALSAR-2](https://alos-pasco.com/en/alos-2/spec/) Strip Map (SM1 with 3m single/dual polarization or SM3 with 10m dual polarization) L2.1 product contains
-  geometrically corrected (orthorectified)  in selected AOIs between 2019 and 2020 for NASA/ESA/JAXA EODashboard Hackathon.   
+  geometrically corrected (orthorectified) in selected AOIs between 2019 and 2020 for NASA/ESA/JAXA EODashboard Hackathon. 
   The PALSAR-2 aboard the ALOS-2 is a Synthetic Aperture Radar (SAR), which emits microwave and receives the reflection 
   from the ground to acquire information. Since it does not need other sources of light such as the sun, SAR has the 
   advantage of providing satellite images during day or night. For transmitting and receiving microwaves PALSAR-2 uses 
   the L-band, which is less affected by clouds and rains. This all-weather observing capability is suitable for 
   monitoring disasters rapidly. In addition, L-band microwave can reach to the ground partially penetrating through 
-  vegetation to obtain information about vegetation and ground surface.   
-  Data for Paris and Dunkirk are  Strip Map mode 3 (SM3) which is  fine mode with 10m spatial resolution with 70km width swath and dual polarization (HH/HV),
+  vegetation to obtain information about vegetation and ground surface. 
+  Data for Paris and Dunkirk are Strip Map mode 3 (SM3) which is fine mode with 10m spatial resolution with 70km width swath and dual polarization (HH/HV),
   while Beijing data is both Strip Map mode 3 (SM3) and Strip Map mode 1 (SM1) which is also fine mode with 3m spatial resolution with 50km width swath and dual polarization (HH/HV).
 Image: alos-2-palsar-2-stripmap-for-economy/alos-2-palsar-2-stripmap-for-economy.png
 EDCBrowser: https://browser.eurodatacube.com/?zoom=10&lat=48.90326&lng=2.43442&collectionId=alos-2-palsar-2-stripmap-for-economy&layerId=HH&type=sentinel-hub-edc&fromTime=2019-12-31T00%3A00%3A00.000Z&toTime=2021-12-31T00%3A00%3A00.000Z
@@ -20,15 +20,15 @@ Resolution: |
  SM3: 10m
  SM1: 3m
 GeographicalCoverage: |
-  Paris, France SM3: [49.004, 3.111 : 48.519, 3.672] (Upper Left: Bottom Right )  
-  Dunkirk, France SM3: [51.587, 1.127 : 50.466, 3.204]   
-  LA SM1: [34.226, -118.002 : 33.707, -117.869]  
-  Beijing, China SM1, SM3: [40.129, 116.283 : 39.637, 117.247]  
+  Paris, France SM3: [49.004, 3.111 : 48.519, 3.672] (Upper Left: Bottom Right )
+  Dunkirk, France SM3: [51.587, 1.127 : 50.466, 3.204]
+  LA SM1: [34.226, -118.002 : 33.707, -117.869]
+  Beijing, China SM1, SM3: [40.129, 116.283 : 39.637, 117.247]
   Haneda SM1: [35.965, 139.651 : 35.267, 139.897]
 TemporalAvailability: 2019-03-01 - 2020-12-31
 UpdateFrequency: This collection is made available for EODashboard Hackathon
 BandInformation: 
- Table:                                                                                                                                               
+ Table: 
     Columns:
       - Name: Name
         Title: Name

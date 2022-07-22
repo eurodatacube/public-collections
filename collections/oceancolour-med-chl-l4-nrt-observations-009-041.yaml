@@ -1,15 +1,15 @@
 Name: OCEANCOLOUR_MED_CHL_L4_NRT_OBSERVATIONS_009_041
 Description: |
-  OCEANCOLOUR_MED_CHL_L4_NRT_OBSERVATIONS_009_041  is one of the ocean products provided by [Copernicus Marine Environment Monitoring Service (CMEMS)](https://marine.copernicus.eu/).
-  This product is delivered as daily-interpolated  NRT, L4 chlorophyll-a product of 0.3km resolution over the Mediterranean Sea,
+  OCEANCOLOUR_MED_CHL_L4_NRT_OBSERVATIONS_009_041 is one of the ocean products provided by [Copernicus Marine Environment Monitoring Service (CMEMS)](https://marine.copernicus.eu/).
+  This product is delivered as daily-interpolated NRT, L4 chlorophyll-a product of 0.3km resolution over the Mediterranean Sea,
   based on the merging of the sensors MODIS-AQUA, NOAA20-VIIRS, NPP-VIIRS and Sentinel3A-OLCI.
 Documentation: "[Product information](https://resources.marine.copernicus.eu/product-detail/OCEANCOLOUR_MED_CHL_L4_NRT_OBSERVATIONS_009_041/INFORMATION)"
 Image: oceancolour-med-chl-l4-nrt-observations-009-041/oceancolour-med-chl-l4-nrt-observations-009-041.png
 Explore: "[Open Notebook](https://eurodatacube.com/marketplace/notebooks/getting-started/EDC_xcube_generator_service.ipynb)"
 Resolution: 0.3km
 GeographicalCoverage: |
- (6°W, 36.5°E, 30°N, 46°N)  
- Areas: 
+ (6°W, 36.5°E, 30°N, 46°N)
+ Areas:
   - mediterranean-sea
 TemporalAvailability: "['2019-01-01', ]"
 TemporalResolution: Daily-interpolated
@@ -20,7 +20,7 @@ Variables:
         - Name: Name
           Title: Name
         - Name: Description
-          Title: Description        
+          Title: Description
       Rows:
         - Name: CHL
           Description: Multi-sensor, multi water-type, interpolated Chlorophyll a concentration (mg/m3)

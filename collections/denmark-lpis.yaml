@@ -9,7 +9,7 @@ Description: |
   LPIS collection contains attributes for geographical area, eligible and ineligible area for basic payments, 
   therefore one of the primary use is in the administration of cases related to the geographical location of arable land, by EU area-based support schemes.
   Denmark LPIS data collection is made available on geoDB on subscription basis. 
-Documentation: Read more on [The Danish Agency for Agriculture](https://lbst.dk/landbrug/kort-og-markblokke/) and  [Euro Data Cube checkout](https://eurodatacube.com/marketplace/data-products/lpis) 
+Documentation: Read more on [The Danish Agency for Agriculture](https://lbst.dk/landbrug/kort-og-markblokke/) and [Euro Data Cube checkout](https://eurodatacube.com/marketplace/data-products/lpis) 
 AdditionalInfoExternal:
   Title: Additional info
   Path: denmark-lpis/README.MD
@@ -18,13 +18,13 @@ Explore: "[Open Notebook](https://eurodatacube.com/marketplace/notebooks/contrib
 GeographicalCoverage: Denmark
 TemporalAvailability: 2005 - ongoing
 UpdateFrequency: annually
-Attributes: 
+Attributes:
   Table:
       Columns:
         - Name: Name
           Title: Name
         - Name: Description
-          Title: Description        
+          Title: Description
       Rows:
         - Name: BLOKNR
           Description: The field block number
@@ -56,7 +56,7 @@ Tags:
 License: |
   [License](https://kortforsyningen.dk/indhold/vilkaar-og-betingelser)
 Resources:
-  - Group: geoDB Resources  
+  - Group: geoDB Resources
     Database: lpis_iacs
     Collection: denmark_lpis_<year> (denmark_lpis_2018)
     Notes: One collection per year since 2005

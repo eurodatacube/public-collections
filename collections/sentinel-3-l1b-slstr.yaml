@@ -9,7 +9,7 @@ Description: |
  The principal objective of SLSTR products is to provide global and regional Sea and Land Surface Temperature (SST, LST) 
  to a very high level of accuracy (better than 0.3 K for SST) for both climatological and meteorological applications.
  Level 1B provides calibrated and ortho-geolocated Top Of Atmosphere (TOA) radiances for the 6 VNIR/SWIR bands 
- and TOA brightness temperatures for the thermal IR and active fire channels. 
+ and TOA brightness temperatures for the thermal IR and active fire channels.
 Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/sentinel-3-slstr-l1b/)"
 Image: sentinel-3-l1b-slstr/sentinel-3-l1b-slstr.png
 EDCBrowser: https://browser.eurodatacube.com/?zoom=10&lat=41.9&lng=12.5&collectionId=sentinel-3-l1b-slstr&layerId=False%20Color%20based%20on%20bands%20S3%2C%20S2%2C%20and%20S1&type=sentinel-hub-edc&fromTime=2021-03-04T16%3A41%3A20.101Z&toTime=2022-03-04T16%3A41%3A20.101Z 
@@ -38,14 +38,14 @@ Tags:
   - copernicus
   - sentinel
 License: "[License](https://docs.sentinel-hub.com/api/latest/data/sentinel-3-slstr-l1b/#attribution-and-use)"
-LicenseType: proprietary 
+LicenseType: proprietary
 LicenseUrl: https://docs.sentinel-hub.com/api/latest/data/sentinel-3-slstr-l1b/#attribution-and-use
 Resources:
   - Group: Sentinel Hub Resources
   - EndPoint: https://creodias.sentinel-hub.com
     Name: Sentinel Hub
     Role: processor
-    Type: sentinel-3-slstr 
+    Type: sentinel-3-slstr
     Notes: Global since May 2016
     Primary: true
   - EndPoint: https://code-de.sentinel-hub.com
@@ -61,7 +61,7 @@ CustomScripts:
 WMTS:
   - href: https://creodias.sentinel-hub.com/ogc/wmts/cf579fd9-135d-4597-b7dc-72e67bb5cf13
     layer_id: F1-BRIGHTNESS-TEMPERATURE
-    dimensions: 
+    dimensions:
       warnings: true
 Configurations:
   - href: "https://docs.sentinel-hub.com/api/latest/api/process/"

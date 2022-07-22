@@ -9,13 +9,13 @@ EOBrowser: https://apps.sentinel-hub.com/eo-browser/?zoom=10&lat=41.9&lng=12.5&t
 Resolution: 68 m x 83 m (commonly resampled to 57 m, or 60 m)
 GeographicalCoverage: Global land
 TemporalAvailability: |
-  Landsat 1 from July 1972 to January 1978  
-  Landsat 2 from January 1975 to February 1982  
-  Landsat 3 from March 1978 to March 1983  
-  Landsat 4 from July 1982 to December 1993   
+  Landsat 1 from July 1972 to January 1978
+  Landsat 2 from January 1975 to February 1982
+  Landsat 3 from March 1978 to March 1983
+  Landsat 4 from July 1982 to December 1993 
   Landsat 5 from 1984 to October 1992, and from June 2012 to January 2013
 UpdateFrequency: Archived data
-BandInformation: Information about [bands and data](https://docs.sentinel-hub.com/api/latest/data/landsat-mss/#available-bands-and-data)  
+BandInformation: Information about [bands and data](https://docs.sentinel-hub.com/api/latest/data/landsat-mss/#available-bands-and-data)
 Contact: https://forum.sentinel-hub.com/c/euro-data-cube/
 Provider: "[USGS](https://www.usgs.gov/)"
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"

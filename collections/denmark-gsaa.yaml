@@ -6,7 +6,7 @@ Description: |
   This collection is comprised of agricultural fields ("Marker") which are an extract of fields notified to the Danish Agency for Agriculture from 
   the most recent application year. A field is defined as a contiguous area on which one crop is grown. 
   Denmark GSAA data collection is made available on geoDB on subscription basis. 
-Documentation: Read more on [The Danish Agency for Agriculture](https://lbst.dk/landbrug/kort-og-markblokke/) and  [Euro Data Cube checkout](https://eurodatacube.com/marketplace/data-products/lpis) 
+Documentation: Read more on [The Danish Agency for Agriculture](https://lbst.dk/landbrug/kort-og-markblokke/) and [Euro Data Cube checkout](https://eurodatacube.com/marketplace/data-products/lpis) 
 AdditionalInfoExternal:
   Title: Additional info
   Path: denmark-gsaa/README.MD
@@ -21,7 +21,7 @@ Attributes:
         - Name: Name
           Title: Name
         - Name: Description
-          Title: Description        
+          Title: Description
       Rows:
         - Name: JOURNALNR
           Description: Record number
@@ -30,7 +30,7 @@ Attributes:
         - Name: MARKNR
           Description: Field number
         - Name: AFGROEDE
-          Description: Crop  name
+          Description: Crop name
         - Name: AFGKODE
           Description: Crop code
         - Name: IMK_AREAL
@@ -56,7 +56,7 @@ Tags:
 License: |
   [License](https://kortforsyningen.dk/indhold/vilkaar-og-betingelser)
 Resources:
-  - Group: geoDB Resources  
+  - Group: geoDB Resources
     Database: lpis_iacs
     Collection: denmark_gsaa_<year> (denmark_gsaa_2018)
     Notes: One collection per year since 2008

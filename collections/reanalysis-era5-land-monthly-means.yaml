@@ -1,25 +1,25 @@
-Name: ERA5-Land monthly averaged data 
+Name: ERA5-Land monthly averaged data
 Description: |
  [The European Centre for Medium-Range Weather Forecasts (ECMWF)](https://www.ecmwf.int/) produces ERA5-Land dataset within the frame of 
  [Copernicus Climate Change Service](https://www.copernicus.eu/en/copernicus-services/climate-change).
- ERA5-Land  is a replay of the land component of the ERA5 climate reanalysis with a finer native resolution of 9km compared to 31km in ERA5 and an improved
+ ERA5-Land is a replay of the land component of the ERA5 climate reanalysis with a finer native resolution of 9km compared to 31km in ERA5 and an improved
  computational efficiency. The data in the [Climate Data Store (CDS)](https://cds.climate.copernicus.eu/#!/home) has been regridded to a regular lat-lon grid of 0.1x0.1 degrees.
  ERA5-Land dataset describes the evolution of the water and energy cycles over land in a consistent manner over the production period. 
- By combining model data and observations that goes back several decades in time, reanalysis provides an accurate description of the climate of the past.  
+ By combining model data and observations that goes back several decades in time, reanalysis provides an accurate description of the climate of the past.
  ERA5-Land monthly averaged data is a post-processed subset of the full ERA5-Land dataset representing pre-calculated monthly-mean averages
- to facilitate  quick and easy access when sub-monthly data is not required. 
- The temporal and spatial resolutions of ERA5-Land makes it very useful for land surface monitoring applications such as flood or drought forecasting.  
+ to facilitate quick and easy access when sub-monthly data is not required. 
+ The temporal and spatial resolutions of ERA5-Land makes it very useful for land surface monitoring applications such as flood or drought forecasting.
  Visit [ERA5-Land documentation](https://confluence.ecmwf.int/display/CKB/ERA5-Land%3A+data+documentation) for more information. 
 Documentation: "[Product information](https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-land-monthly-means?tab=overview)"
 AdditionalInfoExternal:
-    Title: Additional info 
-    Path: reanalysis-era5-land-monthly-means/README.MD 
+    Title: Additional info
+    Path: reanalysis-era5-land-monthly-means/README.MD
 Image: reanalysis-era5-land-monthly-means/reanalysis-era5-land-monthly-means.png
 Explore: "[Open Notebook](https://eurodatacube.com/marketplace/notebooks/getting-started/EDC_xcube_generator_service.ipynb)"
 Resolution: 0.1x0.1 degrees.
-GeographicalCoverage: (180°W, 180°E, 90°N, 90°S)  
+GeographicalCoverage: (180°W, 180°E, 90°N, 90°S)
 TemporalAvailability: January 1981 to 2-3 months before the present
-TemporalResolution:  Monthly
+TemporalResolution: Monthly
 UpdateFrequency: Monthly with a delay of 2-3 months relatively to actual date.
 Variables: See additional info
 Contact: https://forum.sentinel-hub.com/c/euro-data-cube/25

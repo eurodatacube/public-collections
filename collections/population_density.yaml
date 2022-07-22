@@ -33,7 +33,7 @@ WMTS:
   - href: https://services.sentinel-hub.com/ogc/wmts/9b12a1a1-d4ca-45ae-a345-311accb663a5
     layer_id: POPULATION-DENSITY
     dimensions: 
-      warnings: true    
+      warnings: true
 Configurations:
   - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
     rel: "about"
@@ -82,7 +82,7 @@ CubeDimensions:
   bands:
     type: bands
     values:
-      - populationDensity   
+      - populationDensity 
 Summaries:
   raster:bands:
     - description: Population density

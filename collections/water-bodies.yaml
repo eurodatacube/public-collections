@@ -3,7 +3,7 @@ OpenEOPID: WATER_BODIES
 Description: The Global Water Bodies product shows the surface extent covered by inland water on permanent, seasonal or occasional basis. The product available here is the Water Bodies 100m Version 1 collection which is derived from Sentinel-2 level 1C data, starting from October 2020 after the end of the PROBA-V mission and is delivered as a monthly composite product at 100m resolution.The Water Bodies product contain one main Water Bodies detection layer (WB) and one Quality layer (QUAL) that provides information on the seasonal dynamics of the detected water bodies. Water Bodies detection layer (WB) shows water bodies detected using the Modified Normalized Difference Water Index (MNDWI) derived from Sentinel-2 Level 1C data. The Quality layer (QUAL) is generated from water body occurrence statistics computed from previous monthly Water Bodies products.The occurrence statistics is ranked from low occurrence to permanent occurrence.
 AdditionalInfoExternal:
     Title: Additional info 
-    Path: water-bodies/README.MD  
+    Path: water-bodies/README.MD
 Image: water-bodies/water-bodies.png
 EDCBrowser: https://browser.eurodatacube.com/?zoom=11&lat=42.01767&lng=12.2422&collectionId=water-bodies&layerId=Water%20Bodies&type=sentinel-hub-edc&fromTime=2021-03-04T16%3A56%3A44.386Z&toTime=2022-03-04T16%3A56%3A44.386Z   
 EOBrowser: https://apps.sentinel-hub.com/eo-browser/?zoom=10&lat=41.9&lng=12.5&themeId=DEFAULT-THEME&visualizationUrl=https%3A%2F%2Fcreodias.sentinel-hub.com%2Fogc%2Fwms%2F6630abc2-b00c-46af-b2cd-2fcb8574ff2e&datasetId=COPERNICUS_WATER_BODIES&fromTime=2021-03-01T00%3A00%3A00.000Z&toTime=2021-03-01T23%3A59%3A59.999Z&layerId=WATER-BODIES
@@ -17,7 +17,7 @@ BandInformation:
         - Name: Name
           Title: Name
         - Name: Description
-          Title: Description  
+          Title: Description
       Rows:
         - Name: WB
           Description: Main Water Bodies detection layer showing water pixels and non-water pixels
@@ -40,10 +40,10 @@ Tags:
   - climate change
   - open data
 License: free and open access policy as defined in the European Union’s Copernicus regulation ([details](https://land.copernicus.eu/global/about))
-LicenseType: proprietary  
+LicenseType: proprietary
 LicenseUrl: https://land.copernicus.eu/global/about
 Resources:
-  - Group: Sentinel Hub Resources   
+  - Group: Sentinel Hub Resources 
     EndPoint: https://creodias.sentinel-hub.com
     Name: Sentinel Hub
     Role: processor
@@ -60,7 +60,7 @@ WMTS:
   - href: https://creodias.sentinel-hub.com/ogc/wmts/1ab25604-1794-4a9d-a9e6-33763e2cc632
     layer_id: WATER-BODIES
     dimensions: 
-      warnings: true    
+      warnings: true
 Configurations:
   - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
     rel: "about"

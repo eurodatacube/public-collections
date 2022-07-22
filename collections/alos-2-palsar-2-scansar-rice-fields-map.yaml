@@ -1,9 +1,9 @@
 Name: ALOS-2 PALSAR-2 ScanSAR Reference Rice Paddy Field Map
 OpenEOPID: ALOS_PALSAR2_RICE_PADDY_FIELD_MAP
 Description: |
-  This collection contains reference rice paddy field  maps derived from [ALOS-2 ScanSAR](https://alos-pasco.com/en/alos-2/spec/)
-  geometrically corrected (orthorectified) data in selected AOIs between 2019 and 2020 for NASA/ESA/JAXA EODashboard Hackathon.   
-  The reference map is described in the digital code as 255: rice paddy field, 0: others.  
+  This collection contains reference rice paddy field maps derived from [ALOS-2 ScanSAR](https://alos-pasco.com/en/alos-2/spec/)
+  geometrically corrected (orthorectified) data in selected AOIs between 2019 and 2020 for NASA/ESA/JAXA EODashboard Hackathon.
+  The reference map is described in the digital code as 255: rice paddy field, 0: others.
 Image: alos-2-palsar-2-scansar-rice-fields-map/alos-2-palsar-2-scansar-rice-fields-map.png
 EDCBrowser: https://browser.eurodatacube.com/?zoom=12&lat=39.57112&lng=-121.97664&collectionId=alos-2-palsar-2-scansar-rice-fields-map&layerId=Reference%20Rice%20Paddy%20Map&type=sentinel-hub-edc&fromTime=2019-08-31T00%3A00%3A00.000Z&toTime=2020-08-31T00%3A00%3A00.000Z
 AdditionalInfoExternal:
@@ -11,10 +11,10 @@ AdditionalInfoExternal:
   Path: alos-2-palsar-2-scansar-rice-fields-map/README.MD
 Resolution: 100m
 GeographicalCoverage: |
-  Mekong, Vietnam: [10.37, 104.86 : 8.85, 106.11] (Upper Left : Bottom Right )  
-  Sacramento, California: [42.389, -123.518 : 38.672, -120.1]   
-TemporalAvailability: |  
-     [2019-03-01 (covers data from march to august)]  and   
+  Mekong, Vietnam: [10.37, 104.86 : 8.85, 106.11] (Upper Left : Bottom Right )
+  Sacramento, California: [42.389, -123.518 : 38.672, -120.1] 
+TemporalAvailability: |
+     [2019-03-01 (covers data from march to august)] and 
      [2020-03-01 (covers data from march to august)] 
 UpdateFrequency: This collection is made available for EODashboard Hackathon
 BandInformation: 
@@ -29,7 +29,7 @@ BandInformation:
     Rows:
       - Name: RF
         Description: Reference map
-        Values: 255 - rice paddy field,   
+        Values: 255 - rice paddy field,
                  0 - others.
 Contact: sobue.shinichi@jaxa.jp
 Provider: "[JAXA](https://global.jaxa.jp/)"

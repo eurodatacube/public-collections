@@ -1,7 +1,7 @@
 Name: Sentinel-1 GRD
 OpenEOPID: SENTINEL1_GRD
 Description: 
-  The [Sentinel - 1 radar imaging mission](https://sentinel.esa.int/web/sentinel/missions/sentinel-1)
+  The [Sentinel-1 radar imaging mission](https://sentinel.esa.int/web/sentinel/missions/sentinel-1)
   is composed of a constellation of two polar-orbiting satellites providing continous all-weather, day and night imagery for 
   Land and Maritime Monitoring. C-band synthentic aperture radar imaging has the advantage of operating at wavelenghts that are
   not obstructed by clouds or lack of illumination and therefore can acquire data during day or night under all weather conditions.
@@ -9,7 +9,7 @@ Description:
   Sentinel-1 ensures reliable data availability to support emergency services and applications requiring time series observations. 
   Sentinel-1 continues the retired ERS and ENVISAT missions. Level 1 GRD products are available since October 2014.
 Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/sentinel-1-grd/)"
-Image: sentinel-1-grd/sentinel-1-grd.png 
+Image: sentinel-1-grd/sentinel-1-grd.png
 Resolution: High - 10m, Medium - 40m
 EDCBrowser: https://browser.eurodatacube.com/?zoom=10&lat=41.9&lng=12.5&collectionId=sentinel-1-grd&layerId=SAR%20urban&type=sentinel-hub-edc&fromTime=2021-03-04T16%3A39%3A33.381Z&toTime=2022-03-04T16%3A39%3A33.381Z
 EOBrowser: https://apps.sentinel-hub.com/eo-browser/?zoom=10&lat=41.9&lng=12.5&themeId=DEFAULT-THEME&visualizationUrl=https%3A%2F%2Fservices.sentinel-hub.com%2Fogc%2Fwms%2Ff2068f4f-3c75-42cf-84a1-42948340a846&datasetId=S1_AWS_IW_VVVH&fromTime=2021-03-28T00%3A00%3A00.000Z&toTime=2021-03-28T23%3A59%3A59.999Z&layerId=ENHANCED-VISUALIZATION-ORTHORECTIFIED
@@ -60,14 +60,14 @@ Resources:
     Type: sentinel-1-grd
     Notes: Rolling policy of 48 months for Europe , Rolling policy of 12 months for World
   - Group: xcube Resources
-  - DatasetName: sentinel-1-grd 
+  - DatasetName: sentinel-1-grd
 CustomScripts:
     Title: Collection of Sentinel-1 custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#sentinel-1
 WMTS:
   - href: https://services.sentinel-hub.com/ogc/wmts/113184fa-263a-4bd8-a2d3-0c00fbcef8b5
     layer_id: SAR-URBAN
-    dimensions: 
+    dimensions:
       warnings: true
 Configurations:
   - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
@@ -142,20 +142,20 @@ CubeDimensions:
       - HV
 sci:citation: "Modified Copernicus Sentinel data [Year]/Sentinel Hub"
 Summaries:
-  constellation: 
+  constellation:
     - sentinel-1
-  instruments: 
+  instruments:
     - c-sar
   sar:instrument_mode:
     - SM
     - IW
     - EW
     - WV
-  sar:frequency_band: 
+  sar:frequency_band:
     - C
-  sar:center_frequency: 
+  sar:center_frequency:
     - 5.405
-  sar:product_type: 
+  sar:product_type:
     - GRD
   sat:orbit_state:
     - ascending
@@ -164,7 +164,7 @@ Summaries:
     - 10
     - 25
     - 40
-  platform: 
+  platform:
     - sentinel-1a
     - sentinel-1b
   sar:polarizations:
