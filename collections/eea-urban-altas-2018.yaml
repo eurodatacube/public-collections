@@ -8,7 +8,7 @@ Documentation: |
  Read the mapping guide for Urban Atlas 2018 [here](https://eur02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fland.copernicus.eu%2Fuser-corner%2Ftechnical-library%2Furban_atlas_2012_2018_mapping_guide_v6-1.pdf&data=04%7C01%7CKeri.Bloomfield%40eea.europa.eu%7Ccb4091ca2ece4286fd0e08d8c205eadd%7Cbe2e7beab4934de5bbc58b4a6a235600%7C1%7C0%7C637472677959411915%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=iLr8W2%2BoRfUfXh43E%2FL%2BBcaK2H5OW5mGiRRYrcqvENU%3D&reserved=0) 
 Explore: "[Open Notebook](https://eurodatacube.com/marketplace/notebooks/contributions/EDC_GeoDB_access_Urban_Atlas_Data_v1.ipynb)"
 Image: eea-urban-altas-2018/eea-urban-altas-2018.png
-GeographicalCoverage: EU, EFTA, West Balkans, UK, Turkey. 
+GeographicalCoverage: EU, EFTA, West Balkans, UK, Turkey.
 TemporalAvailability: "2018"
 UpdateFrequency: None
 Attributes: 
@@ -20,7 +20,7 @@ Attributes:
           Title: Description
       Rows:
         - Name: country
-          Description: Country 2-letter code e.g (DE) 
+          Description: Country 2-letter code e.g (DE)
         - Name: fua_name
           Description: FUA Name
         - Name: fua_code
@@ -39,7 +39,7 @@ Attributes:
           Description: area of polygon in square metres
         - Name: comment
           Description: mmu exceptions regarding changes
-Contact: https://forum.sentinel-hub.com/c/euro-data-cube/25, 
+Contact: https://forum.sentinel-hub.com/c/euro-data-cube/25,
 Provider: "[European Environment Agency](https://www.eea.europa.eu/)"
 ManagedBy: "[Brockmann Consult](https://www.brockmann-consult.de/)"
 Tags:
@@ -55,13 +55,13 @@ Tags:
   - FUA
   - urban atlas
 License: |
- Full, open and free access, Copernicus license ([details](https://land.copernicus.eu/terms-of-use)).  
+ Full, open and free access, Copernicus license ([details](https://land.copernicus.eu/terms-of-use)).
  **Disclaimer:** The full statistical validation of Urban Atlas 2018 hasn't been performed yet. 
  The European Environment Agency accepts no responsibility or liability whatsoever with regard to use of the non-validated Urban Atlas 2018 data.
 Resources:
-  - Group: geoDB Resources  
+  - Group: geoDB Resources
     Database: eea-urban-atlas
-    Collection: <fua_code>_<fua_name>_UA2018  (DE002L1_HAMBURG_UA2018)
+    Collection: <fua_code>_<fua_name>_UA2018 (DE002L1_HAMBURG_UA2018)
     Notes: 788 collections corresponding to 788 FUAs
 RegistryEntryAdded: "2021-05-06"
 RegistryEntryLastModified: "2022-01-17"

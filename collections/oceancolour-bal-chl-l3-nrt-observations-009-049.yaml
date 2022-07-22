@@ -1,15 +1,15 @@
 Name: OCEANCOLOUR_BAL_CHL_L3_NRT_OBSERVATIONS_009_049
 Description: |
-  OCEANCOLOUR_BAL_CHL_L3_NRT_OBSERVATIONS_009_049  is one of the ocean products provided by [Copernicus Marine Environment Monitoring Service (CMEMS)](https://marine.copernicus.eu/).
-  This product is delivered as daily  NRT, L3 chlorophyll-a product of 0.3km resolution over the Baltic Sea, based on
+  OCEANCOLOUR_BAL_CHL_L3_NRT_OBSERVATIONS_009_049 is one of the ocean products provided by [Copernicus Marine Environment Monitoring Service (CMEMS)](https://marine.copernicus.eu/).
+  This product is delivered as daily NRT, L3 chlorophyll-a product of 0.3km resolution over the Baltic Sea, based on
   the OLCI single sensor product.
 Documentation: "[Product information](https://resources.marine.copernicus.eu/product-detail/OCEANCOLOUR_BAL_CHL_L3_NRT_OBSERVATIONS_009_049/INFORMATION)"
 Image: oceancolour-bal-chl-l3-nrt-observations-009-049/oceancolour-bal-chl-l3-nrt-observations-009-049.png
 Explore: "[Open Notebook](https://eurodatacube.com/marketplace/notebooks/getting-started/EDC_xcube_generator_service.ipynb)"
 Resolution: 0.3km
 GeographicalCoverage: |
- (9.25°E, 30.25°E, 53.25°N,  65.85°N)  
- Areas: 
+ (9.25°E, 30.25°E, 53.25°N, 65.85°N)
+ Areas:
   - baltic-sea
 TemporalAvailability: "['2018-08-01', ]"
 TemporalResolution: Daily mean 
@@ -20,7 +20,7 @@ Variables:
         - Name: Name
           Title: Name
         - Name: Description
-          Title: Description        
+          Title: Description
       Rows:
         - Name: CHL
           Description: mass concentration of chlorophyll-a in sea water(mg/m3)

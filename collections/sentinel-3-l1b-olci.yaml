@@ -54,14 +54,14 @@ Resources:
     Type: sentinel-3-olci
     Notes: Germany since May 2016
   - Group: xcube Resources
-  - DatasetName: sentinel-3-olci 
+  - DatasetName: sentinel-3-olci
 CustomScripts:
     Title: Collection of Sentinel-3 custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#sentinel-3
 WMTS:
   - href: https://creodias.sentinel-hub.com/ogc/wmts/b486fc4b-9c05-49f0-8360-a31df5c691c0
     layer_id: TRUE-COLOR
-    dimensions: 
+    dimensions:
       warnings: true
 Configurations:
   - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
@@ -561,6 +561,6 @@ CRS:
   - "http://www.opengis.net/def/crs/EPSG/0/32758"
   - "http://www.opengis.net/def/crs/EPSG/0/32759"
   - "http://www.opengis.net/def/crs/EPSG/0/32760"
-  - "http://www.opengis.net/def/crs/SR-ORG/0/98739"    
+  - "http://www.opengis.net/def/crs/SR-ORG/0/98739"
 RegistryEntryAdded: "2018-04-17"
 RegistryEntryLastModified: "2022-07-04"

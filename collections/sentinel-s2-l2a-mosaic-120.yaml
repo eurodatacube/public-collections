@@ -7,7 +7,7 @@ Description: |
   clouds might be remaining in some parts. 
   The actual modelling script is available [here](https://sentinel-hub.github.io/custom-scripts/sentinel-2/interpolated_time_series/). 
 AdditionalInfoExternal:
-    Title: Additional info 
+    Title: Additional info
     Path: sentinel-s2-l2a-mosaic-120/README.MD
 Image: sentinel-s2-l2a-mosaic-120/sentinel-s2-l2a-mosaic-120.png
 EDCBrowser: https://browser.eurodatacube.com/?zoom=10&lat=41.9&lng=12.5&collectionId=sentinel-s2-l2a-mosaic-120&layerId=True%20Color&type=sentinel-hub-edc&fromTime=2019-12-31T00%3A00%3A00.000Z&toTime=2020-12-31T00%3A00%3A00.000Z
@@ -95,8 +95,8 @@ Resources:
 WMTS:
   - href: https://services.sentinel-hub.com/ogc/wmts/205fb2e0-0deb-464d-9103-82d33baf3b5d
     layer_id: TRUE-COLOR
-    dimensions: 
-      warnings: true    
+    dimensions:
+      warnings: true
 Configurations:
   - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
     rel: "about"

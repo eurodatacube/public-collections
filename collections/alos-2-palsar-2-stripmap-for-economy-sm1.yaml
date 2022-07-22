@@ -2,13 +2,13 @@ Name: ALOS-2 PALSAR-2 Stripmap for Economy (SM1)
 OpenEOPID: ALOS_PALSAR2_L2_1_3M
 Description: |
   This [ALOS-2 PALSAR-2](https://alos-pasco.com/en/alos-2/spec/) Strip Map (SM1 with 3m single polarization ) L2.1 product contains
-  geometrically corrected (orthorectified)  in selected AOIs between 2019 and 2020 for NASA/ESA/JAXA EODashboard Hackathon.   
+  geometrically corrected (orthorectified) in selected AOIs between 2019 and 2020 for NASA/ESA/JAXA EODashboard Hackathon. 
   The PALSAR-2 aboard the ALOS-2 is a Synthetic Aperture Radar (SAR), which emits microwave and receives the reflection 
   from the ground to acquire information. Since it does not need other sources of light such as the sun, SAR has the 
   advantage of providing satellite images during day or night. For transmitting and receiving microwaves PALSAR-2 uses 
   the L-band, which is less affected by clouds and rains. This all-weather observing capability is suitable for 
   monitoring disasters rapidly. In addition, L-band microwave can reach to the ground partially penetrating through 
-  vegetation to obtain information about vegetation and ground surface.  
+  vegetation to obtain information about vegetation and ground surface.
   Data for Tokyo and Los Angeles are Strip Map mode 1 (SM1) which is fine mode with 3m spatial resolution with 50km width swath and single polarization (HH).
 Image: alos-2-palsar-2-stripmap-for-economy-sm1/alos-2-palsar-2-stripmap-for-economy-sm1.png
 EDCBrowser: https://browser.eurodatacube.com/?zoom=10&lat=35.616&lng=139.774&collectionId=alos-2-palsar-2-stripmap-for-economy-sm1&layerId=HH&type=sentinel-hub-edc&fromTime=2020-04-18T00%3A00%3A00.000Z&toTime=2021-04-18T00%3A00%3A00.000Z
@@ -20,7 +20,7 @@ GeographicalCoverage: |
 TemporalAvailability: 2019-03-21 - 2021-04-18
 UpdateFrequency: This collection is made available for EODashboard Hackathon
 BandInformation: 
- Table:                                                                                                                                               
+ Table: 
     Columns:
       - Name: Name
         Title: Name
@@ -28,7 +28,7 @@ BandInformation:
         Title: Description
     Rows:
       - Name: HH
-        Description: HH polarization 
+        Description: HH polarization
 Contact: sobue.shinichi@jaxa.jp
 Provider: "[JAXA](https://global.jaxa.jp/)"
 ManagedBy: "[JAXA](https://global.jaxa.jp/)"

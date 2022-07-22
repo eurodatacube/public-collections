@@ -8,9 +8,9 @@ Image: oceancolour-bs-chl-l4-nrt-observations-009-045/oceancolour-bs-chl-l4-nrt-
 Explore: "[Open Notebook](https://eurodatacube.com/marketplace/notebooks/getting-started/EDC_xcube_generator_service.ipynb)"
 Resolution: 0.3km
 GeographicalCoverage: |
- (26.5°E, 42°E, 40°N, 48°N)  
+ (26.5°E, 42°E, 40°N, 48°N)
  Areas:
-  -  black-sea
+  - black-sea
 TemporalAvailability: "['2019-01-01', ]"
 TemporalResolution: Daily-interpolated
 UpdateFrequency: Static
@@ -20,7 +20,7 @@ Variables:
         - Name: Name
           Title: Name
         - Name: Description
-          Title: Description        
+          Title: Description
       Rows:
         - Name: CHL
           Description: mass concentration of chlorophyll-a in sea water(mg/m3)

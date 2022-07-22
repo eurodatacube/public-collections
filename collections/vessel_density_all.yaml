@@ -13,7 +13,7 @@ GeographicalCoverage: -66.949482215, 19.222315519, 72.48195026, 74.653019863
 TemporalAvailability: 2017-01-01 - 2020-12-01
 BandInformation: All
 Contact: "[Cogea srl](mailto:lfalco@cogea.it), [AUTHOR](mailto:lfalco@cogea.it)"
-Provider: "[RESOURCE PROVIDER](mailto:pdebusschere@cls.fr), [RESOURCE SOURCE](https://www.emodnet-humanactivities.eu/) "
+Provider: "[RESOURCE PROVIDER](mailto:pdebusschere@cls.fr), [RESOURCE SOURCE](https://www.emodnet-humanactivities.eu/)"
 ManagedBy: "[ESA](http://www.esa.int/)"
 Tags:
   - copernicus services

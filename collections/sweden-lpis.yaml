@@ -10,22 +10,22 @@ Description: |
   Sweden LPIS data collection is made available on geoDB on subscription basis. 
 Documentation: |
  Read more on [ Geodata portal](https://www.geodata.se/geodataportalen/srv/swe/catalog.search;jsessionid=12B29B7148347DEB5AB1D99D820F840F#/search?resultType=swe-details&_schema=iso19139*&from=1&to=20&fast=index&_content_type=json&sortBy=relevance&or=jordbruksblock)
- and [Euro Data Cube checkout](https://eurodatacube.com/marketplace/data-products/lpis) 
+ and [Euro Data Cube checkout](https://eurodatacube.com/marketplace/data-products/lpis)
 AdditionalInfoExternal:
-    Title: Additional info 
-    Path: sweden-lpis/README.MD 
+    Title: Additional info
+    Path: sweden-lpis/README.MD
 Image: sweden-lpis/sweden-lpis.png
 Explore: "[Open Notebook](https://eurodatacube.com/marketplace/notebooks/contributions/Access_IACS_data.ipynb)"
 GeographicalCoverage: Sweden
 TemporalAvailability: 2015 - ongoing
 UpdateFrequency: annually
-Attributes: 
+Attributes:
   Table:
       Columns:
         - Name: Name
           Title: Name
         - Name: Description
-          Title: Description        
+          Title: Description
       Rows:
         - Name: blockid
           Description: Object identifier
@@ -37,7 +37,7 @@ Attributes:
           Description: Land use category
         - Name: agoslag
           Description: Land use class
-Contact: https://forum.sentinel-hub.com/c/euro-data-cube/25, 
+Contact: https://forum.sentinel-hub.com/c/euro-data-cube/25,
 Provider: "[Swedish Board of Agriculture](https://jordbruksverket.se/om-jordbruksverket)"
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
 Tags:
@@ -55,7 +55,7 @@ Tags:
 License: |
   No restrictions on public access [License](https://www.geodata.se/geodataportalen/srv/swe/catalog.search;jsessionid=12B29B7148347DEB5AB1D99D820F840F#/metadata/df439ba5-014e-44ec-86cb-ddb9e5ba306c)
 Resources:
-  - Group: geoDB Resources  
+  - Group: geoDB Resources
     Database: lpis_iacs
     Collection: sweden_lpis_<year> (sweden_lpis_2018)
     Notes: one collection per year since 2015

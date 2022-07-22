@@ -17,7 +17,7 @@ BandInformation:
         - Name: Name
           Title: Name
         - Name: Description
-          Title: Description  
+          Title: Description
       Rows:
         - Name: Occurrence
           Description: Intra- and inter-annual frequency of surface water presence in the time range between 1984 and 2020.
@@ -46,10 +46,10 @@ Tags:
   - climate change
   - open data
 License: Free and open access policy as defined in the European Union’s Copernicus regulation ([details](https://www.copernicus.eu/en/about-copernicus/international-cooperation))
-LicenseType: proprietary  
+LicenseType: proprietary
 LicenseUrl: https://www.copernicus.eu/en/about-copernicus/international-cooperation
 Resources:
-  - Group: Sentinel Hub Resources   
+  - Group: Sentinel Hub Resources
     EndPoint: https://creodias.sentinel-hub.com
     Name: Sentinel Hub
     Role: processor
@@ -66,7 +66,7 @@ WMTS:
   - href: https://creodias.sentinel-hub.com/ogc/wmts/8c9bcae9-3c93-4587-8ada-9e55818979da
     layer_id: GLOBAL-SURFACE-WATER-OCCURRENCE
     dimensions: 
-      warnings: true     
+      warnings: true
 Configurations:
   - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
     rel: "about"
