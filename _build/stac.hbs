@@ -35,6 +35,12 @@
       "href": "{{rootUrl}}stac/{{Slug}}.json",
       "rel": "self"
     },
+    {
+      "href": "{{rootUrl}}/{{Slug}}",
+      "rel": "about",
+      "type": "text/html",
+      "title": "Website describing the collection"
+    },
     {{#if WMTS }}    
     {
       "href": "{{{find WMTS 'href' 'href'}}}",
