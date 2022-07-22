@@ -15,7 +15,7 @@ Image: sea-ice-index/sea-ice.png
 EDCBrowser: https://browser.eurodatacube.com/?zoom=5&lat=71.20137&lng=-28.9579&collectionId=sea-ice-index&customVisualizationSelected=true&evalscript=Ly9WRVJTSU9OPTMKZnVuY3Rpb24gc2V0dXAoKSB7CiAgcmV0dXJuIHsKICAgIGlucHV0OiBbImNvbmNlbnRyYXRpb24iLCJleHRlbnQiLCJkYXRhTWFzayJdLAogICAgb3V0cHV0OiB7IGJhbmRzOiAzLCBzYW1wbGVUeXBlOiAiQVVUTyIgfQogIH07Cn0KCmZ1bmN0aW9uIGV2YWx1YXRlUGl4ZWwoc2FtcGxlKSB7CiAgcmV0dXJuIFsyLjUqc2FtcGxlLmNvbmNlbnRyYXRpb24sMi41KnNhbXBsZS5leHRlbnQsMi41KnNhbXBsZS5kYXRhTWFza107fQ%3D%3D&type=sentinel-hub-edc&fromTime=2020-01-31T00%3A00%3A00.000Z&toTime=2021-01-31T00%3A00%3A00.000Z#custom-composite
 Resolution: 25km
 GeographicalCoverage: Longitude from 180°W to 180°E and latitude from 39.23°N to 90°N and 30.98°S to 90°S.
-TemporalAvailability: 2017 - May 2021
+TemporalAvailability: 2017-01-01 - 2021-05-03
 UpdateFrequency: None. For demonstration purposes only.
 BandInformation:
   Table:
@@ -92,7 +92,7 @@ Extent:
     interval:
       -
         - '2017-01-01T00:00:00Z'
-        - '2021-05-31T00:00:00Z'
+        - '2021-05-03T00:00:00Z'
 CubeDimensions:
   x:
     type: spatial
@@ -112,7 +112,7 @@ CubeDimensions:
     type: temporal
     extent:
       - '2017-01-01T00:00:00Z'
-      - '2021-05-31T00:00:00Z'
+      - '2021-05-03T00:00:00Z'
     step: P1D
   bands:
     type: bands
@@ -139,4 +139,4 @@ Summaries:
     - description: The mask of data/no data pixels.
       name: dataMask
 RegistryEntryAdded: "2021-05-11"
-RegistryEntryLastModified: "2022-07-04"
+RegistryEntryLastModified: "2022-07-21"

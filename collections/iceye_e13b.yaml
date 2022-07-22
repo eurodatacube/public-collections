@@ -8,7 +8,7 @@ Image: iceye_e13b/iceye_e13b.png
 EDCBrowser: https://browser.eurodatacube.com/?zoom=14&lat=40.41555&lng=-1.23107&collectionId=iceye_e13b&layerId=GRD%20ICEYE_E13b&type=sentinel-hub-edc&fromTime=2019-08-25T23%3A59%3A59.000Z&toTime=2020-08-25T23%3A59%3A59.000Z
 Resolution: Pixel Size = (0.0000060,-0.0000060)
 GeographicalCoverage: -1.245691996, 40.394458816, 8.533407797, 50.049107756
-TemporalAvailability: 2020-03-20 - 2020-08-25
+TemporalAvailability: 2020-02-04 - 2020-08-29
 BandInformation: GRD
 Contact: "[ICEYE Contact](https://www.iceye.com/lp/contact-us)"
 Provider: "[ICEYE](https://www.iceye.com/)"
@@ -51,8 +51,8 @@ Extent:
   temporal:
     interval:
       -
-        - '2020-03-20T00:00:00Z'
-        - '2020-08-25T23:59:59Z'
+        - '2020-02-04T03:38:35Z'
+        - '2020-08-29T03:28:38Z'
 CubeDimensions:
   x:
     type: spatial
@@ -69,11 +69,11 @@ CubeDimensions:
   t:
     type: temporal
     extent:
-      - '2020-03-20T00:00:00Z'
-      - '2020-08-25T23:59:59Z'
+      - '2020-02-04T03:38:35Z'
+      - '2020-08-29T03:28:38Z'
   bands:
     type: bands
     values:
       - GRD
 RegistryEntryAdded: "2021-05-07"
-RegistryEntryLastModified: "2022-07-06"
+RegistryEntryLastModified: "2022-07-21"

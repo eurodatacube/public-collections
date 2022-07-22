@@ -85,13 +85,7 @@ Extent:
     interval:
       -
         - '2019-03-01T00:00:00Z'
-        - '2020-08-31T00:00:00Z'
-      -
-        - '2019-03-01T00:00:00Z'
-        - '2019-08-31T00:00:00Z'
-      - 
         - '2020-03-01T00:00:00Z'
-        - '2020-08-31T00:00:00Z'
 CubeDimensions:
   x:
     type: spatial
@@ -109,10 +103,10 @@ CubeDimensions:
     type: temporal
     extent:
       - '2019-03-01T00:00:00Z'
-      - '2020-08-31T00:00:00Z'
+      - '2020-03-01T00:00:00Z'
   bands:
     type: bands
     values:
       - RF
 RegistryEntryAdded: "2021-06-09"
-RegistryEntryLastModified: "2022-07-06"
+RegistryEntryLastModified: "2022-07-19"

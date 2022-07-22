@@ -15,7 +15,7 @@ EOBrowser: https://apps.sentinel-hub.com/eo-browser/?zoom=9&lat=41.94103&lng=12.
 Image: seasonal-trajectories/thumbnail.png
 Resolution: 10m
 GeographicalCoverage: Europe (Lat; 26N 72N Lon; -25W 45E)
-TemporalAvailability: January 1, 2017 - ongoing
+TemporalAvailability: 2017-01-01 - 2020-12-21
 UpdateFrequency: Annually
 BandInformation:
   Table:
@@ -104,7 +104,7 @@ Extent:
     interval:
       -
         - '2017-01-01T00:00:00Z'
-        - '2020-12-31T00:00:00Z'
+        - '2020-12-21T00:00:00Z'
 CubeDimensions:
   x:
     type: spatial
@@ -186,7 +186,7 @@ CubeDimensions:
     type: temporal
     extent:
       - '2017-01-01T00:00:00Z'
-      - '2020-12-31T00:00:00Z'
+      - '2020-12-21T00:00:00Z'
   bands:
     type: bands
     values:
@@ -354,4 +354,4 @@ CRS:
   - "http://www.opengis.net/def/crs/EPSG/0/32760"
   - "http://www.opengis.net/def/crs/SR-ORG/0/98739"
 RegistryEntryAdded: '2021-10-14'
-RegistryEntryLastModified: "2022-07-04"
+RegistryEntryLastModified: "2022-07-22"

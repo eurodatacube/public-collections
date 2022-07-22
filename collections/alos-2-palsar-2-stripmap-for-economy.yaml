@@ -25,7 +25,7 @@ GeographicalCoverage: |
   LA SM1: [34.226, -118.002 : 33.707, -117.869]
   Beijing, China SM1, SM3: [40.129, 116.283 : 39.637, 117.247]
   Haneda SM1: [35.965, 139.651 : 35.267, 139.897]
-TemporalAvailability: 2019-03-01 - 2020-12-31
+TemporalAvailability: 2019-03-06 - 2021-04-08
 UpdateFrequency: This collection is made available for EODashboard Hackathon
 BandInformation: 
  Table: 
@@ -113,8 +113,8 @@ Extent:
   temporal:
     interval:
       -
-        - '2019-03-01T00:00:00Z'
-        - '2021-12-31T00:00:00Z'
+        - '2019-03-06T00:00:00Z'
+        - '2021-04-08T00:00:00Z'
 CubeDimensions:
   x:
     type: spatial
@@ -131,12 +131,12 @@ CubeDimensions:
   t:
     type: temporal
     extent:
-      - '2019-03-01T00:00:00Z'
-      - '2021-12-31T00:00:00Z'
+      - '2019-03-06T00:00:00Z'
+      - '2021-04-08T00:00:00Z'
   bands:
     type: bands
     values:
       - HH
       - HV
 RegistryEntryAdded: "2021-06-09"
-RegistryEntryLastModified: "2022-07-06"
+RegistryEntryLastModified: "2022-07-21"
