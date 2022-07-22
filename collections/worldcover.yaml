@@ -1,4 +1,5 @@
 Name: ESA WorldCover
+OpenEOPID: ESA_WORLDCOVER_10M_2020_V1
 Description: |
   The European Space Agency (ESA) WorldCover is a global land cover map with 11 different land cover classes produced at 10m resolution based on combination of both Sentinel-1 and Sentinel-2 data. 
   In areas where Sentinel-2 images are covered by clouds for an extended period of time, Sentinel-1 data then provides complimentary information on the structural 
@@ -98,4 +99,4 @@ CubeDimensions:
       - Map
       - dataMask
 RegistryEntryAdded: "2021-10-19"
-RegistryEntryLastModified: "2022-02-10"
+RegistryEntryLastModified: "2022-07-04"

@@ -1,4 +1,5 @@
 Name: JAXA_wq_chla_anomaly
+OpenEOPID: JAXA_WQ_CHLA_ANOMALY
 Description: |
   Water quality Chlorophyll-a weekly anomaly.
   It is the ratio (percentage) of weekly chlorophyll-a concentration divided by average concentration of other years for 4 sites: North Adriatic, Tokyo, Kobe and Nagoya.  
@@ -128,4 +129,4 @@ CubeDimensions:
     values:
       - chla
 RegistryEntryAdded: "2021-05-26"
-RegistryEntryLastModified: "2022-04-01"
+RegistryEntryLastModified: "2022-07-06"

@@ -1,5 +1,6 @@
 Name: 2mT_2020_Monthly_Average_from_CDS
-Description: Gridded ERA5 is the fifth generation ECMWF reanalysis for the global climate and weather for the past 4 to 7 decades. This parameter is the 2m temperature monthly average.
+OpenEOPID: CDS_2M_TEMP_2020
+Description: Gridded ERA5 is the fifth generation ECMWF reanalysis for the global climate and weather for the past 4 to 7 decades. This parameter is the 2m temperature monthly average
 AdditionalInfoExternal:
     Title: Additional info
     Path: 2mt_2020_monthly_average_from_cds/README.MD
@@ -76,4 +77,4 @@ CubeDimensions:
     values:
      - AIR2MT
 RegistryEntryAdded: "2021-05-07"
-RegistryEntryLastModified: "2022-04-01"
+RegistryEntryLastModified: "2022-07-06"

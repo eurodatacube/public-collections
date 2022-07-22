@@ -1,4 +1,5 @@
 Name: CHL_water_quality_Saturday
+OpenEOPID: CNR_CHL
 Description: "Chlorophyll anomaly maps for 3 sites: Lagoon Venice, Marseille and Barcelona regions"
 AdditionalInfoExternal:
     Title: Additional info
@@ -76,4 +77,4 @@ CubeDimensions:
     values:
       - chl
 RegistryEntryAdded: "2021-05-07"
-RegistryEntryLastModified: "2022-04-01"
+RegistryEntryLastModified: "2022-07-06"

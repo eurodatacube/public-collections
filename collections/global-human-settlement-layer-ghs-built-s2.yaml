@@ -1,4 +1,5 @@
 Name: Global Human Settlement Layer - GHS-BUILT-S2
+OpenEOPID: GHS_BUILT_S2
 Description: |
   The Global Human Settlement (GHS) framework produces global maps of built-up, population density
   and settlements to monitor human presence on Earth over time.
@@ -311,4 +312,4 @@ CRS:
   - "http://www.opengis.net/def/crs/EPSG/0/32760"
   - "http://www.opengis.net/def/crs/SR-ORG/0/98739"
 RegistryEntryAdded: "2022-01-10"
-RegistryEntryLastModified: "2022-06-22"
+RegistryEntryLastModified: "2022-07-04"

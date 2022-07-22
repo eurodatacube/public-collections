@@ -1,5 +1,6 @@
 Name: ICEYE_E11
-Description: Activity for Leisure industry reduced. Images from ICEYE.
+OpenEOPID: ICEYE_GRD_E11
+Description: Activity for Leisure industry reduced. Images from ICEYE
 AdditionalInfoExternal:
     Title: Additional info
     Path: iceye_e11/README.MD
@@ -75,4 +76,4 @@ CubeDimensions:
     values:
       - GRD
 RegistryEntryAdded: "2021-05-07"
-RegistryEntryLastModified: "2022-04-01"
+RegistryEntryLastModified: "2022-07-06"

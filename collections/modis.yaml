@@ -1,4 +1,5 @@
 Name: MODIS MCD43A4.006
+OpenEOPID: MODIS
 Description: |
  [MODIS](https://modis.gsfc.nasa.gov/about/) (Moderate Resolution Imaging Spectroradiometer) is the main
  instrument operating on both NASA's [Terra](https://terra.nasa.gov/) and [Aqua](https://aqua.nasa.gov/) satellites.
@@ -377,4 +378,4 @@ CRS:
   - "http://www.opengis.net/def/crs/EPSG/0/32760"
   - "http://www.opengis.net/def/crs/SR-ORG/0/98739"
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2022-06-17"
+RegistryEntryLastModified: "2022-07-04"

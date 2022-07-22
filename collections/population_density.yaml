@@ -1,4 +1,5 @@
 Name: Population_density
+OpenEOPID: POPULATION_DENSITY
 Description: Gridded Population of the World v4 for year 2020
 AdditionalInfoExternal:
     Title: Additional info
@@ -92,4 +93,4 @@ Summaries:
         - 0.009920634920333
         unit: °
 RegistryEntryAdded: "2021-05-07"
-RegistryEntryLastModified: "2022-06-22"
+RegistryEntryLastModified: "2022-07-04"

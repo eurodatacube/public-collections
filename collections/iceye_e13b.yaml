@@ -1,5 +1,6 @@
 Name: ICEYE_E13b
-Description: ICEYE image and detection of parked airplanes.
+OpenEOPID: ICEYE_GRD_E13B
+Description: ICEYE image and detection of parked airplanes
 AdditionalInfoExternal:
     Title: Additional info
     Path: iceye_e13b/README.MD
@@ -75,4 +76,4 @@ CubeDimensions:
     values:
       - GRD
 RegistryEntryAdded: "2021-05-07"
-RegistryEntryLastModified: "2022-04-01"
+RegistryEntryLastModified: "2022-07-06"

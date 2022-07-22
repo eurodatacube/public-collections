@@ -1,4 +1,5 @@
 Name: Global Surface Water
+OpenEOPID: GLOBAL_SURFACE_WATER
 Description: The Global Surface Water dataset was developed by the European Commission's Joint Research Centre within the framework of the Copernicus Programme. It is derived from Landsat imagery and and shows different aspects of the spatio-temporal distribution of surface water between 1984 and 2020 at the global scale.
 AdditionalInfoExternal:
     Title: Additional info 
@@ -145,7 +146,7 @@ CubeDimensions:
     type: temporal
     extent:
       - '1984-01-01T00:00:00Z'
-      - '2020-12-30T00:00:00Z'
+      - '2020-12-31T00:00:00Z'
     step: P1Y
   bands:
     type: bands
@@ -203,4 +204,4 @@ Summaries:
     - description: The mask of data/no data pixels.
       name: dataMask
 RegistryEntryAdded: "2021-04-19"
-RegistryEntryLastModified: "2022-06-22"
+RegistryEntryLastModified: "2022-07-04"

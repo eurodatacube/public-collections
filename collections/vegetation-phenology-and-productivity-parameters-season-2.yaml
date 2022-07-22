@@ -1,4 +1,5 @@
 Name: Vegetation Phenology and Productivity Parameters Season 2, Yearly
+OpenEOPID: VEGETATION_PHENOLOGY_AND_PRODUCTIVITY_PARAMETERS_SEASON_2
 Description: |
   Vegetation Phenology and Productivity Parameters (VPP) product is part of the Copernicus Land Monitoring Service (CLMS),
   pan-European High Resolution Vegetation Phenology and Productivity [(HR-VPP)](https://land.copernicus.eu/pan-european/biophysical-parameters/high-resolution-vegetation-phenology-and-productivity) product suite.
@@ -583,4 +584,4 @@ CRS:
   - "http://www.opengis.net/def/crs/EPSG/0/32760"
   - "http://www.opengis.net/def/crs/SR-ORG/0/98739"
 RegistryEntryAdded: '2021-10-14'
-RegistryEntryLastModified: "2022-06-23"
+RegistryEntryLastModified: "2022-07-04"

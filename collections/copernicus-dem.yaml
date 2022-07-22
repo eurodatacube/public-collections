@@ -1,4 +1,5 @@
 Name: Copernicus DEM
+OpenEOPID: COPERNICUS_30
 Description: |
   [The Copernicus DEM](https://spacedata.copernicus.eu/web/cscda/dataset-details?articleId=394198) is a Digital Surface Model (DSM)
   which represents the bare-Earth surface and all above ground natural and built features.
@@ -134,8 +135,6 @@ Summaries:
         value:
         - - 0.000277777777778
           - 0.000277777777778
-        - - 0.000833333333333
-          - 0.000833333333333
         unit: °
     - description: The mask of data/no data pixels.
       name: dataMask
