@@ -10,16 +10,16 @@ Description: |
   Flanders GSAA data collection is made available on geoDB on subscription basis.
 Documentation: |
  Read more on [Metadata Flanders](https://metadata.vlaanderen.be/srv/dut/catalog.search#/search?facet.q=topicCat%2Ffarming)
- and [Euro Data Cube checkout](https://eurodatacube.com/marketplace/data-products/lpis) 
+ and [Euro Data Cube checkout](https://eurodatacube.com/marketplace/data-products/lpis)
 AdditionalInfoExternal:
-    Title: Additional info 
-    Path: belgium-flanders-gsaa/README.MD 
+    Title: Additional info
+    Path: belgium-flanders-gsaa/README.MD
 Image: belgium-flanders-gsaa/belgium-flanders-gsaa.png
 Explore: "[Open Notebook](https://eurodatacube.com/marketplace/notebooks/contributions/Access_IACS_data.ipynb)"
-GeographicalCoverage: The Flemish Region of Belgium 
+GeographicalCoverage: The Flemish Region of Belgium
 TemporalAvailability: 2008 - ongoing
 UpdateFrequency: annually
-Attributes: 
+Attributes:
   Table:
       Columns:
         - Name: Name
@@ -47,7 +47,7 @@ Attributes:
           Description: Perimeter of parcel(m)
         - Name: OPPERVL
           Description: Area of parcel (m²)
-Contact: https://forum.sentinel-hub.com/c/euro-data-cube/25, 
+Contact: https://forum.sentinel-hub.com/c/euro-data-cube/25,
 Provider: "[Flemish Department of Agriculture and Fisheries](https://lv.vlaanderen.be/nl)"
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
 Tags:

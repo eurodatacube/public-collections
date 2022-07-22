@@ -12,7 +12,7 @@ EDCBrowser: https://browser.eurodatacube.com/?zoom=11&lat=41.91326&lng=12.41386&
 EOBrowser: https://apps.sentinel-hub.com/eo-browser/?zoom=10&lat=41.9&lng=12.5&themeId=DEFAULT-THEME&visualizationUrl=https%3A%2F%2Fservices.sentinel-hub.com%2Fogc%2Fwms%2Fbd86bcc0-f318-402b-a145-015f85b9427e&datasetId=S2L2A&fromTime=2021-03-31T00%3A00%3A00.000Z&toTime=2021-03-31T23%3A59%3A59.999Z&layerId=1_TRUE_COLOR
 Resolution: 10m
 GeographicalCoverage: Land surface area ([more info](https://sentinel.esa.int/web/sentinel/user-guides/sentinel-2-msi/revisit-coverage))
-TemporalAvailability: Europe November 2016 - ongoing, Global January 2017- ongoing
+TemporalAvailability: Europe November 2016 - ongoing, Global January 2017 - ongoing
 UpdateFrequency: New Sentinel data are added regularly, usually within few hours after they are available on Copernicus Hub.
 BandInformation: "Information about [bands and data](https://docs.sentinel-hub.com/api/latest/data/sentinel-2-l2a/#available-bands-and-data)"
 Contact: https://forum.sentinel-hub.com/c/euro-data-cube/25
@@ -34,7 +34,7 @@ Tags:
   - sentinel
 License: |
     [License](https://docs.sentinel-hub.com/api/latest/data/sentinel-2-l2a/#attribution-and-use)
-LicenseType: proprietary 
+LicenseType: proprietary
 LicenseUrl: https://docs.sentinel-hub.com/api/latest/data/sentinel-2-l2a/#attribution-and-use
 Resources:
   - Group: Sentinel Hub Resources

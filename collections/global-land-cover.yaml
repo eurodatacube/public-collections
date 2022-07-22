@@ -9,14 +9,14 @@ Description: |
   a 100 m pixel that is filled with a specific land cover class, are also included in the Land Cover products to
   provide more detailed information on each land cover class.
 AdditionalInfoExternal:
-    Title: Additional info 
-    Path: global-land-cover/README.MD 
+    Title: Additional info
+    Path: global-land-cover/README.MD
 Image: global-land-cover/global-land-cover.png
 EDCBrowser: https://browser.eurodatacube.com/?zoom=10&lat=41.9&lng=12.5&collectionId=global-land-cover&layerId=Discrete%20Classification%20Map&type=sentinel-hub-edc&fromTime=2018-12-31T00%3A00%3A00.000Z&toTime=2019-12-31T00%3A00%3A00.000Z       
 EOBrowser: https://apps.sentinel-hub.com/eo-browser/?zoom=10&lat=41.9&lng=12.5&themeId=DEFAULT-THEME&visualizationUrl=https%3A%2F%2Fcreodias.sentinel-hub.com%2Fogc%2Fwms%2F968dcdec-a419-4894-bba2-0b21670b8a22&datasetId=COPERNICUS_GLOBAL_LAND_COVER&fromTime=2019-01-01T00%3A00%3A00.000Z&toTime=2019-01-01T23%3A59%3A59.999Z&layerId=DISCRETE-CLASSIFICATION-MAP
 Resolution: 100m
 GeographicalCoverage: Global coverage of land surface area with longitude from 180°W to 180°E and latitude from 78.25°N to 60°S.
-TemporalAvailability: 2015 - ongoing 
+TemporalAvailability: 2015 - ongoing
 UpdateFrequency: Annually
 BandInformation: 
   Table:
@@ -55,7 +55,7 @@ BandInformation:
         - Name: DataDensityIndicator
           Description: Data density indicator showing quality of the EO input data (0 = bad, 100 = perfect data)
         - Name: Change_Confidence_layer
-          Description: Quality layer regarding the change detection of the current mapped year to the previous mapped year. 
+          Description: Quality layer regarding the change detection of the current mapped year to the previous mapped year.
 Contact: https://forum.sentinel-hub.com/c/euro-data-cube/25
 Provider: "[European Commission Joint Research Centre (JRC)](https://land.copernicus.eu/global/about)"
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
@@ -94,7 +94,7 @@ Configurations:
     rel: "about"
     type: "text/html"
     title: "Details about running Evalscripts"
-  - href: "https://custom-scripts.sentinel-hub.com/copernicus_services/global_land_cover/script.js" 
+  - href: "https://custom-scripts.sentinel-hub.com/copernicus_services/global_land_cover/script.js"
     rel: "processing-expression"
     type: "application/javascript"
     title: "Evalscript to generate Discrete Classification Map imagery"

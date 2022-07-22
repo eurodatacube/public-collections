@@ -1,4 +1,4 @@
-Name: Truck Detection 
+Name: Truck Detection
 Description: |
   The Truck Detection algorithm detects the number of moving trucks along roads using 10m resolution Sentinel-2 level 2A data.
   The author Henrik Fisser (henrik.fisser@t-online.de), developed this algorithm (with the title: Truck detection – Sensing trade from space) in the context of the Euro Data Cube COVID-19 edition of Sentinel Hub’s custom script contest.
@@ -6,7 +6,7 @@ Description: |
   The output of the algorithm is **point vector data ( GeoPackage (.gpkg) format)** with the coordinates of the detected trucks, **dates** of detected trucks and the **valid road area** as attributes. More information regarding input and output specifications can be found under [additional information](https://collections.eurodatacube.com/truck-detection/readme.html).   
   To generate trucks vector data, navigate to [EDC Browser](https://browser.eurodatacube.com/?zoom=10&lat=41.9&lng=12.5&fromTime=1970-01-01T00%3A00%3A00.000Z&toTime=2021-10-22T14%3A36%3A31.329Z&algorithm=truck-detection), select the required input parameters and follow the check-out wizard to complete your order. To download sample trucks vector data, click [here](https://collections.eurodatacube.com/truck-detection/sample.gpkg)
 AdditionalInfoExternal:
-    Title: Additional info 
+    Title: Additional info
     Path: truck-detection/README.MD
 Image: truck-detection/thumbnail.png
 Explore: "[Run algorithm in EDC Browser](https://browser.eurodatacube.com/?zoom=10&lat=41.9&lng=12.5&fromTime=1970-01-01T00%3A00%3A00.000Z&toTime=2021-10-22T14%3A36%3A31.329Z&algorithm=truck-detection)" 
@@ -41,9 +41,9 @@ Pricing: |
  | ------ | ------ |------ |
  | 1.000 km2 to 1.000.000 km2 | 1.000 km2 | 0.95 EUR |
  | 1.000.000 km2 to 10.000.000 km2 | 1.000 km2 | 0.75 EUR |
- | more than 10.000.000 km2 | 1.000 km2 | 0.60 EUR | 
+ | more than 10.000.000 km2 | 1.000 km2 | 0.60 EUR |
  
- Read Terms of Service [here](https://collections.eurodatacube.com/truck-detection/readme.html) 
+ Read Terms of Service [here](https://collections.eurodatacube.com/truck-detection/readme.html)
 License: "[Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). Attribution: Contains modified Copernicus Sentinel data (year) processed by Sentinel Hub"
 Contact: https://forum.sentinel-hub.com/c/euro-data-cube/
 Provider: "[Sentinel Hub](https://www.sentinel-hub.com/)"

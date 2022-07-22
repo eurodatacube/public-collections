@@ -11,12 +11,12 @@ Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/landsat-8/)
 Image: landsat-8-l1/landsat-8-l1.png
 EDCBrowser: https://browser.eurodatacube.com/?zoom=10&lat=41.96442&lng=12.44594&collectionId=landsat-8-l1&layerId=True%20color&type=sentinel-hub-edc&fromTime=2012-07-03T16%3A08%3A30.217Z&toTime=2019-01-01T16%3A08%3A30.217Z 
 EOBrowser: https://apps.sentinel-hub.com/eo-browser/?zoom=12&lat=45.66157&lng=12.77023&themeId=DEFAULT-THEME&visualizationUrl=https%3A%2F%2Fservices.sentinel-hub.com%2Fogc%2Fwms%2Fe35192fe-33a1-41f3-b798-b755e771c5a5&datasetId=AWS_LOTL1&fromTime=2021-03-02T00%3A00%3A00.000Z&toTime=2021-03-02T23%3A59%3A59.999Z&layerId=1_TRUE_COLOR
-Resolution: 30m 
+Resolution: 30m
 GeographicalCoverage: Land ([more info](https://landsat.gsfc.nasa.gov/landsat-8/mission-details))
 TemporalAvailability: 
   Landsat 8 from February 2013 - ongoing
   Landsat 9 from January 2022 - ongoing
-UpdateFrequency: Landsat data are added regularly,as soon as they are available in USGS AWS cloud 
+UpdateFrequency: Landsat data are added regularly,as soon as they are available in USGS AWS cloud
 BandInformation: Information about [bands and data](https://docs.sentinel-hub.com/api/latest/data/landsat-8/#available-bands-and-data)
 Contact: https://forum.sentinel-hub.com/c/euro-data-cube/25
 Provider: "[USGS](https://www.usgs.gov/)"

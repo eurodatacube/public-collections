@@ -13,10 +13,10 @@ Resolution: 1km
 GeographicalCoverage: |
  (46°W, 13°E, 20°N, 66°N)
  Areas: 
-  - north-west-shelf-seas 
+  - north-west-shelf-seas
   - iberian-biscay-irish-seas
 TemporalAvailability: "['2019-05-01', ]"
-TemporalResolution: Daily mean 
+TemporalResolution: Daily mean
 UpdateFrequency: Static
 Variables: 
  Table:

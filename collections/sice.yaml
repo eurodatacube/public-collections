@@ -12,7 +12,7 @@ Image: sice/thumbnail.png
 Explore: "[Run algorithm in EDC Browser](https://browser.eurodatacube.com/?zoom=4&lat=74.70645&lng=-45.84855&fromTime=1970-01-01T00%3A00%3A00.000Z&toTime=2021-10-22T14%3A36%3A31.329Z&algorithm=sice)"
 GeographicalCoverage: Polar regions covered by snow
 TemporalAvailability: |
-  Global:  November 2016 - ongoing
+  Global: November 2016 - ongoing
 UpdateFrequency: On-demand
 Attributes:
   Table:

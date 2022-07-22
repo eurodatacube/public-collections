@@ -18,7 +18,7 @@ Explore: "[Open Notebook](https://eurodatacube.com/marketplace/notebooks/contrib
 GeographicalCoverage: Denmark
 TemporalAvailability: 2005 - ongoing
 UpdateFrequency: annually
-Attributes: 
+Attributes:
   Table:
       Columns:
         - Name: Name

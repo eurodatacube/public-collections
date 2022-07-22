@@ -9,7 +9,7 @@ Explore: "[Open Notebook](https://eurodatacube.com/marketplace/notebooks/getting
 Resolution: 0.3km
 GeographicalCoverage: |
  (6°W, 36.5°E, 30°N, 46°N)
- Areas: 
+ Areas:
   - mediterranean-sea
 TemporalAvailability: "['2019-01-01', ]"
 TemporalResolution: Daily-interpolated

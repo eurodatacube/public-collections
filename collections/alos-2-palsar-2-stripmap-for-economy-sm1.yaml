@@ -27,7 +27,7 @@ BandInformation:
         Title: Description
     Rows:
       - Name: HH
-        Description: HH polarization 
+        Description: HH polarization
 Contact: sobue.shinichi@jaxa.jp
 Provider: "[JAXA](https://global.jaxa.jp/)"
 ManagedBy: "[JAXA](https://global.jaxa.jp/)"

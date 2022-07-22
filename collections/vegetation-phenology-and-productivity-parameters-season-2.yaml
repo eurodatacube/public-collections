@@ -154,8 +154,8 @@ CustomScripts:
 WMTS:
   - href: https://creodias.sentinel-hub.com/ogc/wmts/b61d2200-914a-40b9-a1c3-86b9c345a703
     layer_id: AMPL
-    dimensions: 
-      warnings: true     
+    dimensions:
+      warnings: true
 Configurations:
   - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
     rel: "about"

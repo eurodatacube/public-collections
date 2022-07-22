@@ -9,9 +9,9 @@ Description: |
   jx_chla_tif_XXX_yyyy_mm_dd.tif
   XXX: Area name
            nas -> NAdriatic
-           tok -> Tokyo 
-           kob -> Kobe 
-           nag -> Nagoya 
+           tok -> Tokyo
+           kob -> Kobe
+           nag -> Nagoya
   yyyy:Year
   mm:Month
   dd:Day

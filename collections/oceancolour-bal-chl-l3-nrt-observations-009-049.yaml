@@ -9,7 +9,7 @@ Explore: "[Open Notebook](https://eurodatacube.com/marketplace/notebooks/getting
 Resolution: 0.3km
 GeographicalCoverage: |
  (9.25°E, 30.25°E, 53.25°N, 65.85°N)
- Areas: 
+ Areas:
   - baltic-sea
 TemporalAvailability: "['2018-08-01', ]"
 TemporalResolution: Daily mean 

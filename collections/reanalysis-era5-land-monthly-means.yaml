@@ -1,4 +1,4 @@
-Name: ERA5-Land monthly averaged data 
+Name: ERA5-Land monthly averaged data
 Description: |
  [The European Centre for Medium-Range Weather Forecasts (ECMWF)](https://www.ecmwf.int/) produces ERA5-Land dataset within the frame of 
  [Copernicus Climate Change Service](https://www.copernicus.eu/en/copernicus-services/climate-change).
@@ -12,8 +12,8 @@ Description: |
  Visit [ERA5-Land documentation](https://confluence.ecmwf.int/display/CKB/ERA5-Land%3A+data+documentation) for more information. 
 Documentation: "[Product information](https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-land-monthly-means?tab=overview)"
 AdditionalInfoExternal:
-    Title: Additional info 
-    Path: reanalysis-era5-land-monthly-means/README.MD 
+    Title: Additional info
+    Path: reanalysis-era5-land-monthly-means/README.MD
 Image: reanalysis-era5-land-monthly-means/reanalysis-era5-land-monthly-means.png
 Explore: "[Open Notebook](https://eurodatacube.com/marketplace/notebooks/getting-started/EDC_xcube_generator_service.ipynb)"
 Resolution: 0.1x0.1 degrees.

@@ -17,7 +17,7 @@ AdditionalInfoExternal:
 Resolution: 100m
 GeographicalCoverage: |
   Mekong, Vietnam: [10.37, 104.86 : 8.85, 106.11] (Upper Left : Bottom Right )
-  Sacramento, California: [42.389, -123.518 : 38.672, -120.1] 
+  Sacramento, California: [42.389, -123.518 : 38.672, -120.1]
 TemporalAvailability: 2019-03-01 - 2020-12-31
 UpdateFrequency: This collection is made available for EODashboard Hackathon
 BandInformation: 

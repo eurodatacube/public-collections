@@ -9,8 +9,8 @@ Description: |
 Documentation: |
  Read more [here](https://agriculture.public.lu/de/betriebsfuhrung/gis.html) and [Euro Data Cube checkout](https://eurodatacube.com/marketplace/data-products/lpis)
 AdditionalInfoExternal:
-    Title: Additional info 
-    Path: luxembourg-lpis/README.MD 
+    Title: Additional info
+    Path: luxembourg-lpis/README.MD
 Explore: "[Open Notebook](https://eurodatacube.com/marketplace/notebooks/contributions/Access_IACS_data.ipynb)"
 Image: luxembourg-lpis/luxembourg-lpis.png
 GeographicalCoverage: Luxembourg
@@ -42,7 +42,7 @@ Attributes:
           Description: The perimeter of the parcel
         - Name: ENVIR
           Description: Environmentally sensitive grassland
-Contact: https://forum.sentinel-hub.com/c/euro-data-cube/25, 
+Contact: https://forum.sentinel-hub.com/c/euro-data-cube/25,
 Provider: "[Luxembourg administration of agricultural technical services (ASTA)](https://ma.gouvernement.lu/fr/administrations/asta.html)"
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
 Tags:
@@ -58,7 +58,6 @@ Tags:
   - parcelles agricoles
   - land cover
   - CAP
-
 License: |
  Creative Commons 1.0 Universal (CC0 1.0) Public Domain Dedication [License](https://creativecommons.org/publicdomain/zero/1.0/)
 Resources:
@@ -67,6 +66,5 @@ Resources:
     Collection: luxembourg_lpis_<year> (luxembourg_lpis_2018)
     Notes: one collection per year since 2016,
     
-
 RegistryEntryAdded: "2021-05-06"
 RegistryEntryLastModified: "2021-07-05"

@@ -17,7 +17,7 @@ GeographicalCoverage: Land ([more info](https://landsat.gsfc.nasa.gov/landsat-8/
 TemporalAvailability: 
   Landsat 8 from February 2013 - ongoing
   Landsat 9 from January 2022 - ongoing
-UpdateFrequency: Landsat data are added regularly, as soon as they are available in USGS AWS cloud 
+UpdateFrequency: Landsat data are added regularly, as soon as they are available in USGS AWS cloud
 BandInformation: Information about [bands and data](https://docs.sentinel-hub.com/api/latest/data/landsat-8-l2/#available-bands-and-data)
 Contact: https://forum.sentinel-hub.com/c/euro-data-cube/25
 Provider: "[USGS](https://www.usgs.gov/)"

@@ -4,8 +4,8 @@ Description: |
  These products are processed using Sentinel Hub [CARD4L generation tool](https://apps.sentinel-hub.com/s1-card4l/) and are radiometrically calibrated to γ° (gamma-nought) backscatter, and provided as linear backscatter power. Full radiometric terrain correction (RTC) based on the technique developed by David Small which is described in the article [Flattening Gamma: Radiometric Terrain Correction for SAR Imagery](https://doi.org/10.1109/TGRS.2011.2120616), has been applied using the [Copernicus DEM](https://docs.sentinel-hub.com/api/latest/data/dem/) in order to mitigate topographic terrain effects on the backscatter induced by side-looking geometry of SAR imaging and compounded by rugged terrain. Speckle filtering has not been applied in order to preserve spatial resolution and user freedom. 
  The twin Sentinel-1A and 1B satellites are designed to acquire data with a revisit cycle of 6 to 12 days providing continuous all-weather, day and night imagery for Land and Maritime Monitoring. This collection is comprised of CARD4L compliant Sentinel-1 VV and VH backscatter products over Africa for archived data, with new acquisitions being updated daily as they become available. To obtain CARD4L compliant Sentinel-1 data for other parts of the world, registered users have the possibility of custom processing using [CARD4L generation tool](https://apps.sentinel-hub.com/s1-card4l/). 
 AdditionalInfoExternal:
-    Title: Additional info 
-    Path: card4l/README.MD 
+    Title: Additional info
+    Path: card4l/README.MD
 EDCBrowser: https://browser.eurodatacube.com/?zoom=11&lat=0.33316&lng=9.44028&collectionId=card4l&layerId=SAR%20urban&type=sentinel-hub-edc&fromTime=2022-01-24T00%3A00%3A00.000Z&toTime=2022-01-24T23%3A59%3A59.999Z
 Image: card4l/thumbnail.png
 Resolution: 20m

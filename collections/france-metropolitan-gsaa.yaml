@@ -11,8 +11,8 @@ AdditionalInfoExternal:
   Title: Additional info
   Path: france-metropolitan-gsaa/README.MD
 Image: france-metropolitan-gsaa/france-metropolitan-gsaa.png
-Explore: "[Open Notebook](https://eurodatacube.com/marketplace/notebooks/contributions/Access_IACS_data.ipynb)" 
-GeographicalCoverage: France Metropolitan 
+Explore: "[Open Notebook](https://eurodatacube.com/marketplace/notebooks/contributions/Access_IACS_data.ipynb)"
+GeographicalCoverage: France Metropolitan
 TemporalAvailability: 2015 - ongoing
 UpdateFrequency: annually
 Attributes: 
@@ -35,7 +35,7 @@ Attributes:
           Description: Code of the second catch crop
         - Name: SURF_PARC
           Description: Area of the parcel in hectares
-Contact: https://forum.sentinel-hub.com/c/euro-data-cube/25, 
+Contact: https://forum.sentinel-hub.com/c/euro-data-cube/25,
 Provider: "[The French National Institute of Geographic and Forest Information (IGN)](https://www.ign.fr/institut/identity-card)"
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
 Tags:
@@ -45,7 +45,7 @@ Tags:
   - Machine Learning
   - agriculture
   - gsaa
-  - Registre parcellaire graphique 
+  - Registre parcellaire graphique
   - CAP
 License: |
   The RPG data can be freely reused, also for commercial use, under the terms of the "open license" version 2.0. [License](https://www.etalab.gouv.fr/licence-ouverte-open-licence)

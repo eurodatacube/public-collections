@@ -9,8 +9,8 @@ Description: |
  the parameters except for lake water-leaving reflectances which corresponds to the the most representative spectrum of the period of observation.
  The dataset available in EDC is static and currently not updated.
 AdditionalInfoExternal:
-    Title: Additional info 
-    Path: clms-lake-water-quality/README.MD 
+    Title: Additional info
+    Path: clms-lake-water-quality/README.MD
 Image: clms-lake-water-quality/clms-lake-water-quality.png
 Explore: "[Open Notebook](https://eurodatacube.com/marketplace/notebooks/getting-started/EDC_xcube_generator_service.ipynb)"
 Resolution: 300m

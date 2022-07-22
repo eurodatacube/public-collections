@@ -65,7 +65,7 @@ WMTS:
   - href: https://creodias.sentinel-hub.com/ogc/wmts/8c9bcae9-3c93-4587-8ada-9e55818979da
     layer_id: GLOBAL-SURFACE-WATER-OCCURRENCE
     dimensions: 
-      warnings: true 
+      warnings: true
 Configurations:
   - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
     rel: "about"

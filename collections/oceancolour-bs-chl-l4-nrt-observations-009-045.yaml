@@ -10,7 +10,7 @@ Resolution: 0.3km
 GeographicalCoverage: |
  (26.5°E, 42°E, 40°N, 48°N)
  Areas:
-  -  black-sea
+  - black-sea
 TemporalAvailability: "['2019-01-01', ]"
 TemporalResolution: Daily-interpolated
 UpdateFrequency: Static
