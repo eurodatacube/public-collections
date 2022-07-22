@@ -17,7 +17,7 @@ EDCBrowser: https://browser.eurodatacube.com/?zoom=10&lat=41.9&lng=12.5&collecti
 EOBrowser: https://apps.sentinel-hub.com/eo-browser/?zoom=10&lat=41.9&lng=12.5&themeId=DEFAULT-THEME&visualizationUrl=https%3A%2F%2Fcreodias.sentinel-hub.com%2Fogc%2Fwms%2F968dcdec-a419-4894-bba2-0b21670b8a22&datasetId=COPERNICUS_GLOBAL_LAND_COVER&fromTime=2019-01-01T00%3A00%3A00.000Z&toTime=2019-01-01T23%3A59%3A59.999Z&layerId=DISCRETE-CLASSIFICATION-MAP
 Resolution: 100m
 GeographicalCoverage: Global coverage of land surface area with longitude from 180°W to 180°E and latitude from 78.25°N to 60°S.
-TemporalAvailability: 2015 - ongoing 
+TemporalAvailability: 2015-01-01 - 2019-01-01
 UpdateFrequency: Annually
 BandInformation: 
   Table:
@@ -265,4 +265,4 @@ Summaries:
     - description: The mask of data/no data pixels.
       name: dataMask
 RegistryEntryAdded: "2021-03-20"
-RegistryEntryLastModified: "2022-07-19"
+RegistryEntryLastModified: "2022-07-22"
