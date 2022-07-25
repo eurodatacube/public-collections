@@ -82,7 +82,7 @@ DocumentationLinks:
   - href: "https://collections.eurodatacube.com/cnes-land-cover-map/readme.html#band-information"
     rel: "about"
     type: "text/html"
-    title: "Nomenclature mapping - band values CNES Land Cover Map labels - Legend used for 2020, 2019 and 2018 data"    
+    title: "Nomenclature mapping - band values CNES Land Cover Map labels - Legend used for 2020, 2019 and 2018 data"
 Extent:
   spatial:
     bbox:
