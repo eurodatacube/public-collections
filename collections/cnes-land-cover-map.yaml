@@ -78,6 +78,11 @@ Configurations:
     sentinelhub:layer_name: "CNES Land Cover Validity"
     sentinelhub:mosaicking_order: "mostRecent"
     sentinelhub:upsampling: "BICUBIC"
+DocumentationLinks:
+  - href: "https://collections.eurodatacube.com/cnes-land-cover-map/readme.html#band-information"
+    rel: "about"
+    type: "text/html"
+    title: "Nomenclature mapping - band values CNES Land Cover Map labels - Legend used for 2020, 2019 and 2018 data"    
 Extent:
   spatial:
     bbox:
@@ -116,4 +121,4 @@ CubeDimensions:
       - OCS_Confidence
       - OCS_Validity
 RegistryEntryAdded: "2022-02-24"
-RegistryEntryLastModified: "2022-07-06"
+RegistryEntryLastModified: "2022-07-25"

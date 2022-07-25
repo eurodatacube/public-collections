@@ -102,6 +102,11 @@ Configurations:
     sentinelhub:layer_name: "Discrete Classification Map"
     sentinelhub:mosaicking_order: "mostRecent"
     sentinelhub:upsampling: "BICUBIC"
+DocumentationLinks:
+  - href: "https://collections.eurodatacube.com/global-land-cover/readme.html#band-information)"
+    rel: "about"
+    type: "text/html"
+    title: "Nomenclature mapping - band values Global Land Cover labels"    
 Extent:
   spatial:
     bbox:
@@ -265,4 +270,4 @@ Summaries:
     - description: The mask of data/no data pixels.
       name: dataMask
 RegistryEntryAdded: "2021-03-20"
-RegistryEntryLastModified: "2022-07-04"
+RegistryEntryLastModified: "2022-07-25"
