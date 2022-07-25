@@ -84,7 +84,7 @@ DocumentationLinks:
   - href: "https://collections.eurodatacube.com/water-bodies/readme.html#band-information"
     rel: "about"
     type: "text/html"
-    title: "Nomenclature mapping - band values Water Bodies labels"    
+    title: "Nomenclature mapping - band values Water Bodies labels"
 Extent:
   spatial:
     bbox:

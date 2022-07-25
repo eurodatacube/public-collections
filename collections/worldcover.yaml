@@ -66,7 +66,7 @@ DocumentationLinks:
   - href: "https://collections.eurodatacube.com/worldcover/readme.html#band-information"
     rel: "about"
     type: "text/html"
-    title: "Nomenclature mapping - band values WorldCover labels"    
+    title: "Nomenclature mapping - band values WorldCover labels"
 Extent:
   spatial:
     bbox:
