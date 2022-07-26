@@ -51,7 +51,7 @@ Extent:
   temporal:
     interval:
       -
-        - '2018-04-30T00:18:50Z'
+        - '2018-04-30T00:00:00Z'
         - null
 CubeDimensions:
   x:
@@ -69,7 +69,7 @@ CubeDimensions:
   t:
     type: temporal
     extent:
-      - '2018-04-30T00:18:50Z'
+      - '2018-04-30T00:00:00Z'
       - null
     step: P7D
   bands:
@@ -77,4 +77,4 @@ CubeDimensions:
     values:
       - tropno2
 RegistryEntryAdded: "2021-05-07"
-RegistryEntryLastModified: "2022-07-06"
+RegistryEntryLastModified: "2022-07-19"

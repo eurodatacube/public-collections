@@ -8,7 +8,7 @@ Image: wind_10m_v/wind_10m_v.png
 EDCBrowser: https://browser.eurodatacube.com/?zoom=1&lat=0.00005&lng=0.00001&collectionId=wind_10m_v&layerId=Wind%20V-component&type=sentinel-hub-edc&fromTime=2019-12-01T00%3A00%3A00.000Z&toTime=2020-12-01T00%3A00%3A00.000Z
 Resolution: 0.25° x 0.25°
 GeographicalCoverage: -179.999755859375, -90.12489004526765, 179.99977453631897, 90.125
-TemporalAvailability: 2019-01-01 - 2020-12-01
+TemporalAvailability: 2019-01-01 - 2022-04-01
 BandInformation: windv10m
 Contact: "[COPERNICUS SUPPORT](copernicus-support@ecmwf.int)"
 Provider: "[COPERNICUS](https://cds.climate.copernicus.eu/cdsapp#!/dataset/10.24381/cds.6860a573?tab=overview)"
@@ -54,7 +54,7 @@ Extent:
     interval:
       -
         - '2019-01-01T00:00:00Z'
-        - '2020-12-01T00:00:00Z'
+        - '2022-04-01T00:00:00Z'
 CubeDimensions:
   x:
     type: spatial
@@ -72,10 +72,10 @@ CubeDimensions:
     type: temporal
     extent:
       - '2019-01-01T00:00:00Z'
-      - '2020-12-01T00:00:00Z'
+      - '2022-04-01T00:00:00Z'
   bands:
     type: bands
     values:
       - windv10m
 RegistryEntryAdded: "2021-05-07"
-RegistryEntryLastModified: "2022-07-06"
+RegistryEntryLastModified: "2022-07-21"

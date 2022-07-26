@@ -51,8 +51,8 @@ Extent:
   temporal:
     interval:
       -
-        - '2020-02-07T00:00:00Z'
-        - '2020-04-13T23:59:59Z'
+        - '2020-02-07T13:08:50Z'
+        - '2020-04-13T13:10:17Z'
 CubeDimensions:
   x:
     type: spatial
@@ -69,11 +69,11 @@ CubeDimensions:
   t:
     type: temporal
     extent:
-      - '2020-02-07T00:00:00Z'
-      - '2020-04-13T23:59:59Z'
+      - '2020-02-07T13:08:50Z'
+      - '2020-04-13T13:10:17Z'
   bands:
     type: bands
     values:
       - GRD
 RegistryEntryAdded: "2021-05-07"
-RegistryEntryLastModified: "2022-07-06"
+RegistryEntryLastModified: "2022-07-19"

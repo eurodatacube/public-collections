@@ -130,8 +130,8 @@ Extent:
   temporal:
     interval:
       -
-        - '1984-01-01T00:00:00Z'
-        - '2020-12-31T00:00:00Z'
+        - '2019-01-01T00:00:00Z'
+        - '2020-01-01T00:00:00Z'
 CubeDimensions:
   x:
     type: spatial
@@ -150,8 +150,8 @@ CubeDimensions:
   t:
     type: temporal
     extent:
-      - '1984-01-01T00:00:00Z'
-      - '2020-12-31T00:00:00Z'
+      - '2019-01-01T00:00:00Z'
+      - '2020-01-01T00:00:00Z'
     step: P1Y
   bands:
     type: bands
