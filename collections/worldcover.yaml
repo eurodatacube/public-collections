@@ -62,6 +62,11 @@ Configurations:
     sentinelhub:layer_name: "ESA WorldCover Map"
     sentinelhub:mosaicking_order: "mostRecent"
     sentinelhub:upsampling: "BICUBIC"
+DocumentationLinks:
+  - href: "https://collections.eurodatacube.com/worldcover/readme.html#band-information"
+    rel: "about"
+    type: "text/html"
+    title: "Nomenclature mapping - band values WorldCover labels"
 Extent:
   spatial:
     bbox:
@@ -99,4 +104,4 @@ CubeDimensions:
       - Map
       - dataMask
 RegistryEntryAdded: "2021-10-19"
-RegistryEntryLastModified: "2022-07-18"
+RegistryEntryLastModified: "2022-07-25"
