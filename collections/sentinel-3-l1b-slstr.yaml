@@ -243,6 +243,9 @@ Summaries:
   gsd:
     - 500
     - 1000
+  eo:cloud_cover:
+    - 0
+    - 100
   platform:
     - sentinel-3a
     - sentinel-3b
@@ -389,4 +392,4 @@ CRS:
   - "http://www.opengis.net/def/crs/EPSG/0/32760"
   - "http://www.opengis.net/def/crs/SR-ORG/0/98739"
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2022-07-04"
+RegistryEntryLastModified: "2022-07-27"
