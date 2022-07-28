@@ -8,6 +8,9 @@ Description: |
   
   To run the field delineation process, navigate to [EDC Browser](https://browser.eurodatacube.com/?zoom=6&lat=47.44295&lng=10.71167&algorithm=field-delineation), 
   select the required input parameters and follow the check-out wizard to complete your order. Produced data will be uploaded directly into your JupyterLab environment on EDC.
+AdditionalInfoExternal:
+    Title: Pricing
+    Path: field-delineation/PRICING.md
 Image: field-delineation/thumbnail.png
 Explore: "[Run algorithm in EDC Browser](https://browser.eurodatacube.com/?zoom=6&lat=47.44295&lng=10.71167&algorithm=field-delineation)"
 GeographicalCoverage: Global coverage but intended for areas with agricultural fields
@@ -44,7 +47,7 @@ ProducedResults:
       - Name: results.gpkg
         Description: A Geopackage containing delineated polygons of fields from selected AOI. Polygons are projected to WGS84 coordinate reference system.
 Pricing: |
-  Prices are defined based on the selected area of interest, time interval, and maximal cloud coverage. The minimal cost for initiating a request is `50` EDC credits.
+  Prices are defined based on amount of data required to process. Check [here](https://collections.eurodatacube.com/field-delineation/pricing.html) for more info about pricing and restrictions.
 License: "[Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). Attribution: Contains modified Copernicus Sentinel data (year) processed by Sentinel Hub"
 Contact: https://forum.sentinel-hub.com/c/euro-data-cube/
 Provider: "[Sentinel Hub](https://www.sentinel-hub.com/)"
