@@ -14,7 +14,7 @@ EOBrowser: https://apps.sentinel-hub.com/eo-browser/?zoom=10&lat=41.9&lng=12.5&t
 Image: worldcover/thumbnail.png
 Resolution: 10m
 GeographicalCoverage: Global land area
-TemporalAvailability: "2020" 
+TemporalAvailability: "2020-01-01"
 UpdateFrequency: Annually
 BandInformation: 
   Table:
@@ -104,4 +104,4 @@ CubeDimensions:
       - Map
       - dataMask
 RegistryEntryAdded: "2021-10-19"
-RegistryEntryLastModified: "2022-07-25"
+RegistryEntryLastModified: "2022-08-09"
