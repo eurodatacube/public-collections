@@ -2,7 +2,7 @@ Name: CNES Land Cover Map
 OpenEOPID: CNES_LAND_COVER_MAP
 Description: |
   The CNES Land Cover Map (Occupation des Sols, OSO) produces land classification for Metropolitan France at 10 m spatial resolution based on Sentinel-2 L2A data within the Theia Land Cover CES framework.
-  Maps for 2020, 2019, and 2018 use a 23-categories nomenclature.
+  Maps for 2020, 2019, and 2018 use a 23-categories nomenclature. For earlier maps in 2017 and 2016, a fully compatible 17-classes nomenclature is employed.
 AdditionalInfoExternal:
     Title: Additional info
     Path: cnes-land-cover-map/README.MD
@@ -122,4 +122,4 @@ CubeDimensions:
       - OCS_Confidence
       - OCS_Validity
 RegistryEntryAdded: "2022-02-24"
-RegistryEntryLastModified: "2022-08-09"
+RegistryEntryLastModified: "2022-08-31"
