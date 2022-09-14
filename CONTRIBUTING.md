@@ -81,6 +81,7 @@ Resources:
     CollectionId:
     Database:
     Collection:
+    DatasetName:
     StoreInstanceID:
     StoreTitle:
     DataID:
