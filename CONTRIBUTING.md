@@ -199,7 +199,7 @@ RegistryEntryLastModified:
 
 | Field                            | Type   | Description & Style        |
 |----------------------------------|--------| --------------------------|
-|||
+| **Configuration** ||
 
 ### Metadata used within the openEO Platform project
 
