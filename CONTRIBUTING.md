@@ -62,8 +62,6 @@ Contact:
 Provider:
 ManagedBy:
 Tags:
-  -
-  -
 License:
 LicenseType:
 LicenseUrl:
@@ -86,8 +84,8 @@ Resources:
     StoreTitle:
     DataID:
   - Group:
-  DatasetName:
-  CollectionId:
+    DatasetName:
+    CollectionId:
 WMTS:
   - href:
     layer_id:
@@ -113,58 +111,28 @@ DocumentationLinks:
 Extent:
   spatial:
     bbox:
-      -
-        -
-        -
-        -
-        -
   temporal:
     interval:
-      -
-        -
-        -
 CubeDimensions:
   x:
     type:
     axis:
     extent:
-      -
-      -
     reference_system:
   y:
     type:
     axis:
     extent:
-      -
-      -
     reference_system:
   t:
     type:
     extent:
-      -
-      -
     step:
   bands:
     type:
     values:
-      -
 sci:citation:
 Summaries:
-  eo:bands:
-    - name:
-      common_name:
-      center_wavelength:
-      full_width_half_max:
-      openeo:gsd:
-        value:
-          -
-          -
-        unit:
-  constellation:
-  gsd:
-  instruments:
-  eo:cloud_cover:
-  platform:
 CRS:
 DataAtWork:
   Tutorials:
@@ -181,9 +149,8 @@ DataAtWork:
     - Title:
       URL:
       AuthorName:
-
-RegistryEntryAdded: "2021-03-21"
-RegistryEntryLastModified: "2022-09-14"
+RegistryEntryAdded:
+RegistryEntryLastModified:
 ```
 ### Metadata required for each collection
  Below is a description for each metadata field.
@@ -210,12 +177,12 @@ RegistryEntryLastModified: "2022-09-14"
 |**License**|MD|An explanation of the collection license and/or a link to more information |
 |**ManagedBy**|MD|The name of the organization who is responsible for the collection |
 |**Provider**|MD|The name of the organization who provides the collection |
-|**Tags**|List of strings|Tags that topically describe the collection. Tags must include either `open data`or `commercial data` , `xcube` or `sentinel hub` or `geodb` , `raster` or `vector` , `systematic` or `on-demand`|
+|**Tags**|List of strings|Tags that topically describe the collection. Tags must include either `open data` or `commercial data` , `xcube` or `sentinel hub` or `geodb` , `raster` or `vector` , `systematic` or `on-demand`|
 |**Resources**|List of lists|A list of resources to access the collections. Each resource entry requires collection specific metadata as below:|
 |**Resources > Group**|String| Category of the resources. Must either be `Sentinel Hub Resources` or `xcube Resources` or `geoDB Resources` |
 |**Resources > Endpoint**|String|endpoint where the Sentinel Hub collection can be accessed. Should start with the protocol (`https://`).|
 |**Resources > Type**|String|Sentinel Hub Collection identifier name e.g S1LC|
-|**Resources > ColllectionId**|String|Sentinel Hub BYOC collection ID|
+|**Resources > CollectionId**|String|Sentinel Hub BYOC collection ID|
 |**Resources > Database**|String|Name of geoDB database of the collection|
 |**Resources > Collection**|String|Name of geoDB table collection|
 |**Resources > StoreInstanceID**|String|ID of the xcube store|
@@ -227,6 +194,37 @@ RegistryEntryLastModified: "2022-09-14"
 |**DataAtWork [> Tutorials, Tools & Applications, Publications] > URL**|String|A link to the tutorial, tool, application, or publication that uses the data.|
 |**DataAtWork [> Tutorials, Tools & Applications, Publications] > AuthorName**|String|Name(s) of person or entity that created the tutorial, tool, application, or publication. Limit scientific publication author lists to the first six authors in the format Last Name First Initial, followed by 'et al'.|
 |**DataAtWork [> Tutorials, Tools & Applications, Publications] > AuthorURL**|String|(Optional) URL for person or entity that created the tutorial, tool, application, or publication.| 
+
+### Metadata used by the EDC Browser
+
+| Field                            | Type   | Description & Style        |
+|----------------------------------|--------| --------------------------|
+|||
+
+### Metadata used within the openEO Platform project
+
+| Field                            | Type   | Description & Style        |
+|----------------------------------|--------| --------------------------|
+| **OpenEOPID**                    | String | **REQUIRED.** Collection name to be used within openEO Platform, should be all caps.                             | 
+| **WMTS**                         | List of dictionary | Based on [STAC Web Map Links Extension](https://github.com/stac-extensions/web-map-links)                        | 
+| **WMTS > href**                  | String | Link to the WMTS, without any WMTS specific query parameters.                                                    |
+| **WMTS > layer_id**              | String | The layers to show on the map.                                                                                   | 
+| **WMTS > dimensions**            | String | Any additional dimension parameters to add to the request as key-value-pairs, usually added as query parameters. | 
+| **WMTS > dimensions > warnings** | String | Should always be set to YES for openEO. Platform |
+| **Extent** | | | |
+| **CubeDimensions** | | |
+| **CubeDimensions > x/y** | | |
+| **CubeDimensions > x/y > type** | | |
+| **CubeDimensions > x/y > axis** | | |
+| **CubeDimensions > x/y > extent** | | |
+| **CubeDimensions > x/y > reference_system** | | |
+| **CubeDimensions > t** | | |
+| **CubeDimensions > t > type** | | |
+| **CubeDimensions > t > axis** | | |
+| **CubeDimensions > t > extent** | | |
+| **CubeDimensions > t > reference_system** | | |
+| **Summaries** | Dictionary | A map of property summaries, either a set of values, a range of values |
+| **CRS** | List | List of coordinate reference systems supported by the backend. |
 
 ## How to make use of these collections
 
