@@ -161,7 +161,7 @@ RegistryEntryLastModified:
 | **Description**|MD|A high-level description of the collection. Only the first 600 characters will be displayed on the homepage of the [Euro Data Cube Public Collections](https://collections.eurodatacube.com/)|
  **Documentation**|MD| A link to documentation of the collection on the data provider's website |
 |**AdditionalInfoExternal**|MD | Additional documentation of the collection contained in a README.MD file saved in this repository|
-|**AdditionalInfoExternal >> Title**|String | Additional info |
+|**AdditionalInfoExternal >> Title**|MD | Additional info |
 |**AdditionalInfoExternal >> Path**|Path | Path to README.MD with additional info on the github repo.|
 |**Image**| Path | Path to thumbnail image representing the collection that is to be displayed on the homepage. Automatically sized to 200 pixels width for display |
 |**EOBrowser**|String | Link to the collection displayed in EO Browser |
@@ -169,14 +169,14 @@ RegistryEntryLastModified:
 |**Explore**|MD| Link to where the collection can be explored, e.g. Jupyter Notebook or graphical viewer |
 |**Resolution**|MD| Spatial resolution of raster collection|
 |**GeographicalCoverage**|MD| A short description on geographical coverage of the collection, it could be land, ocean, or lat-lon extents.|
-|**TemporalAvailability**|MD| The time period of availability of the collection|
+|**TemporalAvailability**|MD| The time period of availability of the collection (recommended format: `YYYY-MM-DD - YYYY-MM-DD`).|
 |**TemporalResolution**|MD | The time period for data acquisition for the exact same location|
 |**UpdateFrequency**|MD| An explanation of how frequently the collection is updated|
 |**BandInformation**|MD| Description of available bands and data. It could be a link to the description or a table with the description |
-|**Variables**|| |
-|**Attributes**|| |
-|**ProducedResults**|| |
-|**Contact**|String|Contact details |
+|**Variables**|String| Name and description of collection's variables. |
+|**Attributes**|String| Name, description and type of algorithm input parameters. |
+|**ProducedResults**|String| Name and description of algorithm results. |
+|**Contact**|MD|Contact details |
 |**Provider**|MD|The name of the organization that provides the collection |
 |**ManagedBy**|String|The name of the organization that manages the collection|
 |**Tags**|List of strings|Tags that topically describe the collection. Tags must include either `open data` or `commercial data` , `xcube` or `sentinel hub` or `geodb` , `raster` or `vector` , `systematic` or `on-demand`|
@@ -187,10 +187,10 @@ RegistryEntryLastModified:
 |**Resources**|List of lists|A list of resources to access the collections. Each resource entry requires collection specific metadata as below:|
 |**Resources > Group**|String| Category of the resources. Must either be `Sentinel Hub Resources` or `xcube Resources` or `geoDB Resources` |
 |**Resources > Endpoint**|String|Endpoint where the Sentinel Hub collection can be accessed. Should start with the protocol (`https://`).|
-|**Resources > Name**|||
-|**Resources > Role**|||
+|**Resources > Name**|String|Name of service provider|
+|**Resources > Role**|String|Roles of the provider. Any of `licensor`, `producer`, `processor` or `host`.|
 |**Resources > Type**|String|Sentinel Hub Collection identifier name e.g. S1LC|
-|**Resources > Primary**|Boolean||
+|**Resources > Primary**|Boolean|Indicator of which endpoint to use (if collection is available on several endpoints)|
 |**Resources > CollectionId**|String|Sentinel Hub BYOC collection ID.|
 |**Resources > Database**|String|Name of geoDB database of the collection.|
 |**Resources > Collection**|String|Name of geoDB table collection.|
@@ -241,7 +241,7 @@ RegistryEntryLastModified:
 | **Extent > spatial** | Dictionary |**REQUIRED**. The spatial extents of the Collection. |
 | **Extent > spatial > bbox** | Number|**REQUIRED**. Potential spatial extents covered by the Collection. |
 | **Extent > temporal** | Dictionary |**REQUIRED**. The temporal extents of the Collection. |
-| **Extent > temporal > interval** |String |**REQUIRED**. Potential temporal extents covered by the Collection. |
+| **Extent > temporal > interval** |String |**REQUIRED**. Potential temporal extents covered by the collection. Collection intervals with just one timestamp should be displayed as one second intervals (e.g.`'2020-01-04T00:00:00Z - '2020-01-04T00:00:01Z'`).|
 | **CubeDimensions** | List of dictionary | Based on [STAC Datacube Extension](https://github.com/stac-extensions/datacube#dimension-object). |
 | **CubeDimensions > x/y** |Dictionary| A spatial dimension in one of the horizontal (x or y) directions. |
 | **CubeDimensions > x/y > type** | String | **REQUIRED**. Type of the dimension, always `spatial`.|
@@ -250,8 +250,8 @@ RegistryEntryLastModified:
 | **CubeDimensions > x/y > reference_system** |String| The spatial reference system for the data. Defaults to EPSG code 4326. |
 | **CubeDimensions > t** |Dictionary | A temporal dimension based on the ISO 8601 standard. |
 | **CubeDimensions > t > type** | String | **REQUIRED**. Type of the dimension, always `temporal`.|
-| **CubeDimensions > t > extent** | String | **REQUIRED**. Extent (lower and upper bounds) of the dimension as two-element array. `null` allowed for open date ranges. |
-| **CubeDimensions > t > step** | String | The space between the temporal instances as ISO 8601 duration, e.g. P1D. Use null for irregularly spaced steps. |
+| **CubeDimensions > t > extent** | String | **REQUIRED**. Extent (lower and upper bounds) of the dimension as two-element array. `null` allowed for open date ranges. Collection extents with just one timestamp should be displayed as one second extents (e.g. `'2020-01-04T00:00:00Z - '2020-01-04T00:00:01Z'`).|
+| **CubeDimensions > t > step** | String | The space between the temporal instances as ISO 8601 duration (e.g. `P1D`). Use null for irregularly spaced steps. |
 | **CubeDimensions > bands** | Dictionary | |
 | **CubeDimensions > bands > type**| String |**REQUIRED**. Custom type of the dimension, never spatial. |
 | **CubeDimensions > bands > values**| String |An ordered list of all values, especially useful for nominal values. |
