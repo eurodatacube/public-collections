@@ -168,12 +168,12 @@ RegistryEntryLastModified:
 |**Flickr**|String | Link to Flickr album if collection is not available on EO Browser. |
 |**Explore**|MD| Link to where the collection can be explored, e.g. Jupyter Notebook or graphical viewer. |
 |**Resolution**|MD| Spatial resolution of raster collection.|
-|**GeographicalCoverage**|MD| A short description on geographical coverage of the collection, it could be land, ocean, or lat-lon extents.|
+|**GeographicalCoverage**|MD| A short description on geographical coverage of the collection, it could be land, ocean or lat-lon extents.|
 |**TemporalAvailability**|MD| The time period of availability of the collection (recommended format: `'YYYY-MM-DD - YYYY-MM-DD'`).|
-|**TemporalResolution**|MD | The time period for data acquisition for the exact same location.|
+|**TemporalResolution**|MD | The time period of data acquisition for the exact same location.|
 |**UpdateFrequency**|MD| An explanation of how frequently the collection is updated.|
 |**BandInformation**|MD| Description of available bands and data. It could be a link to the description or a table with the description. |
-|**Variables**|String| Name and description of collection's variables. |
+|**Variables**|String| Name and description of collections' variables. |
 |**Attributes**|String| Name, description and type of algorithm input parameters. |
 |**ProducedResults**|String| Name and description of algorithm results. |
 |**Contact**|MD|Contact details. |
@@ -187,10 +187,10 @@ RegistryEntryLastModified:
 |**Resources**|List of lists|A list of resources to access the collections. Each resource entry requires collection specific metadata as below.|
 |**Resources > Group**|String| Category of the resources. Must either be `Sentinel Hub Resources` or `xcube Resources` or `geoDB Resources`. |
 |**Resources > Endpoint**|String|Endpoint where the Sentinel Hub collection can be accessed. Should start with the protocol (`https://`).|
-|**Resources > Name**|String|Name of service provider.|
+|**Resources > Name**|String|Name of the service provider.|
 |**Resources > Role**|String|Roles of the provider. Any of `licensor`, `producer`, `processor` or `host`.|
-|**Resources > Type**|String|Sentinel Hub Collection identifier name e.g. S1LC|
-|**Resources > Primary**|Boolean|Indicator of which endpoint to use (if collection is available on several endpoints).|
+|**Resources > Type**|String|Sentinel Hub Collection identifier name e.g. `S1LC`.|
+|**Resources > Primary**|Boolean|Indicator of which endpoint to use (if the collection is available on several endpoints).|
 |**Resources > CollectionId**|String|Sentinel Hub BYOC collection ID.|
 |**Resources > Database**|String|Name of geoDB database of the collection.|
 |**Resources > Collection**|String|Name of geoDB table collection.|
@@ -198,13 +198,13 @@ RegistryEntryLastModified:
 |**Resources > StoreInstanceID**|String|ID of the xcube store.|
 |**Resources > StoreTitle**|String|Name of xcube store of the collection.|
 |**Resources > DataID**|String|Name identifier of the collection in the xcube store.|
-|**Resources > Notes**|MD| More info concerning the collection.|
+|**Resources > Notes**|MD| More info regarding the collection.|
 |**sci:citation** | String | The recommended human-readable reference (citation) to be used by publications citing the data.|
-|**DataAtWork [> Tutorials, Tools & Applications, Publications]** |List of lists| (Optional) A list of links to example tutorials, tools & applications, publications that use the data.|
-|**DataAtWork [> Tutorials, Tools & Applications, Publications] > Title**|String|The title of the tutorial, tool, application, or publication that uses the data.|
-|**DataAtWork [> Tutorials, Tools & Applications, Publications] > URL**|String|A link to the tutorial, tool, application, or publication that uses the data.|
+|**DataAtWork [> Tutorials, Tools & Applications, Publications]** |List of lists| (Optional) A list of links to example tutorials, tools & applications or publications that use the data.|
+|**DataAtWork [> Tutorials, Tools & Applications, Publications] > Title**|String|The title of the tutorials, tools & applications or publications that use the data.|
+|**DataAtWork [> Tutorials, Tools & Applications, Publications] > URL**|String|A link to the tutorial, tool & applications or publication that use the data.|
 |**DataAtWork [> Tutorials, Tools & Applications, Publications] > AuthorName**|String|Name(s) of person or entity that created the tutorial, tool, application, or publication. Limit scientific publication author lists to the first six authors in the format Last Name First Initial, followed by 'et al.'|
-|**DataAtWork [> Tutorials, Tools & Applications, Publications] > AuthorURL**|String|(Optional) URL for person or entity that created the tutorial, tool, application, or publication.|
+|**DataAtWork [> Tutorials, Tools & Applications, Publications] > AuthorURL**|String|(Optional) URL for person or entity that created the tutorial, tool, application or publication.|
 |**RegistryEntryAdded**|String|Date of the collection added to the registry.|
 |**RegistryEntryLastModified**|String|Date of the last collection modification.|
 
@@ -212,10 +212,10 @@ RegistryEntryLastModified:
 
 | Field                            | Type       | Description & Style        |
 |----------------------------------|--------| --------------------------|
-| **EDC Browser** | String | Link to the collection displayed in EO Browser.|
+| **EDC Browser** | String | Link to the collection displayed in the EO Browser.|
 | **Configurations** |List of lists| |
 | **Configurations > href**| String | **REQUIRED**. The actual link in the format of an URL. Relative and absolute links are both allowed.|
-| **Configurations > rel**| String | **REQUIRED**.Relationship between the current document and the linked document. See ["Relation types"](https://github.com/radiantearth/stac-spec/blob/master/collection-spec/collection-spec.md#relation-types) for more information. |
+| **Configurations > rel**| String | **REQUIRED**. Relationship between the current document and the linked document. See ["Relation types"](https://github.com/radiantearth/stac-spec/blob/master/collection-spec/collection-spec.md#relation-types) for more information. |
 | **Configurations > type**| String| [Media type](https://github.com/radiantearth/stac-spec/blob/master/catalog-spec/catalog-spec.md#media-types) of the referenced entity. |
 | **Configurations > title**| String |A human readable title to be used in rendered displays of the link. |
 | **Configurations > sentinelhub:layer_name:**| String | Layer name of the visualization in the EDC Browser.|
@@ -226,7 +226,7 @@ RegistryEntryLastModified:
 
 | Field                            | Type | Description & Style        |
 |----------------------------------|--------| --------------------------|
-| **OpenEOPID**                    | String | **REQUIRED.** Collection name to be used within the openEO Platform, should be all caps.                             | 
+| **OpenEOPID**                    | String | **REQUIRED.** Collection name to be used within the openEO Platform (should be all caps).| 
 | **WMTS**                         | List of dictionary | Based on [STAC Web Map Links Extension](https://github.com/stac-extensions/web-map-links).| 
 | **WMTS > href**| String | Link to the WMTS, without any WMTS specific query parameters.|
 | **WMTS > layer_id** | String | The layers to show on the map. | 
