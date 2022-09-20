@@ -504,9 +504,8 @@ Summaries:
         unit: m
       data_type: UINT8
       statistics:
-        minimum:
           - 0
-        maximum:
+          - 1
           - 255
     - description: Sun azimuth angle
       name: sunAzimuthAngles
@@ -562,7 +561,7 @@ Summaries:
           - 12
     - description: The mask of data/no data pixels.
       name: dataMask
-      data_type: N/A
+      data_type: UINT8
       statistics:
         minimum:
           - 0
