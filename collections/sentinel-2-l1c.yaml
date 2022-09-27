@@ -419,8 +419,8 @@ Summaries:
   instruments:
     - msi
   eo:cloud_cover:
-    - 0
-    - 100
+    minimum: 0
+    maximum: 100
   platform:
     - sentinel-2a
     - sentinel-2b
@@ -567,4 +567,4 @@ CRS:
   - "http://www.opengis.net/def/crs/EPSG/0/32760"
   - "http://www.opengis.net/def/crs/SR-ORG/0/98739"
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2022-07-27"
+RegistryEntryLastModified: "2022-09-21"
