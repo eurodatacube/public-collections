@@ -177,6 +177,12 @@ Summaries:
           - 0.002976190476190
           - 0.002976190476190
         unit: °
+      data_type: float32
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 0.4
     - description: Yellow substance and detrital pigments (turbidity)
       name: B02
       center_wavelength: 0.4125
@@ -186,6 +192,12 @@ Summaries:
           - 0.002976190476190
           - 0.002976190476190
         unit: °
+      data_type: float32
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 0.4
     - description: Chlorophyll absorption maximum, biogeochemistry, vegetation
       name: B03
       center_wavelength: 0.4425
@@ -195,6 +207,12 @@ Summaries:
           - 0.002976190476190
           - 0.002976190476190
         unit: °
+      data_type: float32
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 0.4
     - description: Chlorophyll
       name: B04
       center_wavelength: 0.49
@@ -204,6 +222,12 @@ Summaries:
           - 0.002976190476190
           - 0.002976190476190
         unit: °
+      data_type: float32
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 0.4
     - description: Chlorophyll, sediment, turbidity, red tide
       name: B05
       center_wavelength: 0.51
@@ -213,6 +237,12 @@ Summaries:
           - 0.002976190476190
           - 0.002976190476190
         unit: °
+      data_type: float32
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 0.4
     - description: Chlorophyll reference (minimum)
       name: B06
       center_wavelength: 0.56
@@ -222,6 +252,12 @@ Summaries:
           - 0.002976190476190
           - 0.002976190476190
         unit: °
+      data_type: float32
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 0.4
     - description: Sediment loading
       name: B07
       center_wavelength: 0.62
@@ -231,6 +267,12 @@ Summaries:
           - 0.002976190476190
           - 0.002976190476190
         unit: °
+      data_type: float32
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 0.4
     - description: 2nd Chlorophyll absorption maximum, sediment, yellow substance / vegetation
       name: B08
       center_wavelength: 0.665
@@ -240,6 +282,12 @@ Summaries:
           - 0.002976190476190
           - 0.002976190476190
         unit: °
+      data_type: float32
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 0.4
     - description: Improved fluorescence retrieval
       name: B09
       center_wavelength: 0.67375
@@ -249,6 +297,12 @@ Summaries:
           - 0.002976190476190
           - 0.002976190476190
         unit: °
+      data_type: float32
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 0.4
     - description: Chlorophyll fluorescence peak, red edge
       name: B10
       center_wavelength: 0.68125
@@ -258,6 +312,12 @@ Summaries:
           - 0.002976190476190
           - 0.002976190476190
         unit: °
+      data_type: float32
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 0.4
     - description: Chlorophyll fluorescence baseline, red edge transition
       name: B11
       center_wavelength: 0.70875
@@ -267,6 +327,12 @@ Summaries:
           - 0.002976190476190
           - 0.002976190476190
         unit: °
+      data_type: float32
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 0.4
     - description: O2 absorption / clouds, vegetation
       name: B12
       center_wavelength: 0.75375
@@ -276,6 +342,12 @@ Summaries:
           - 0.002976190476190
           - 0.002976190476190
         unit: °
+      data_type: float32
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 0.4
     - description: O2 absorption / aerosol correction
       name: B13
       center_wavelength: 0.76125
@@ -285,6 +357,12 @@ Summaries:
           - 0.002976190476190
           - 0.002976190476190
         unit: °
+      data_type: float32
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 0.4
     - description: Atmospheric correction
       name: B14
       center_wavelength: 0.764375
@@ -294,6 +372,12 @@ Summaries:
           - 0.002976190476190
           - 0.002976190476190
         unit: °
+      data_type: float32
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 0.4
     - description: O2 absorption used for cloud top pressure, fluorescence over land
       name: B15
       center_wavelength: 0.7675
@@ -303,6 +387,12 @@ Summaries:
           - 0.002976190476190
           - 0.002976190476190
         unit: °
+      data_type: float32
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 0.4
     - description: Atmospheric / aerosol correction
       name: B16
       center_wavelength: 0.77875
@@ -312,6 +402,12 @@ Summaries:
           - 0.002976190476190
           - 0.002976190476190
         unit: °
+      data_type: float32
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 0.4
     - description: Atmospheric / aerosol correction, clouds, pixel co-registration
       name: B17
       center_wavelength: 0.865
@@ -321,6 +417,12 @@ Summaries:
           - 0.002976190476190
           - 0.002976190476190
         unit: °
+      data_type: float32
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 0.4
     - description: Water vapour absorption reference. Common reference band with SLSTR. Vegetation monitoring
       name: B18
       center_wavelength: 0.885
@@ -330,6 +432,12 @@ Summaries:
           - 0.002976190476190
           - 0.002976190476190
         unit: °
+      data_type: float32
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 0.4
     - description: Water vapour absorption, vegetation monitoring (maximum reflectance)
       name: B19
       center_wavelength: 0.9
@@ -339,6 +447,12 @@ Summaries:
           - 0.002976190476190
           - 0.002976190476190
         unit: °
+      data_type: float32
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 0.4
     - description: Water vapour absorption, atmospheric / aerosol correction
       name: B20
       center_wavelength: 0.94
@@ -348,6 +462,12 @@ Summaries:
           - 0.002976190476190
           - 0.002976190476190
         unit: °
+      data_type: float32
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 0.4
     - description: Atmospheric / aerosol correction, snow grain size
       name: B21
       center_wavelength: 1.02
@@ -357,6 +477,12 @@ Summaries:
           - 0.002976190476190
           - 0.002976190476190
         unit: °
+      data_type: float32
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 0.4
     - description: Sun azimuth angle
       name: SAA
       openeo:gsd:
@@ -364,6 +490,12 @@ Summaries:
           - 0.188492063492033 
           - 0.188492063492033 
         unit: °
+      data_type: float32
+      statistics:
+        minimum:
+          - -180
+        maximum:
+          - 180
     - description: Sun zenith angle
       name: SZA
       openeo:gsd:
@@ -371,6 +503,12 @@ Summaries:
           - 0.188492063492033 
           - 0.188492063492033 
         unit: °
+      data_type: float32
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 180
     - description: Viewing (observation) azimuth angle
       name: VAA
       openeo:gsd:
@@ -378,6 +516,12 @@ Summaries:
           - 0.188492063492033 
           - 0.188492063492033 
         unit: °
+      data_type: float32
+      statistics:
+        minimum:
+          - -180
+        maximum:
+          - 180
     - description: Viewing (observation) zenith angle
       name: VZA
       openeo:gsd:
@@ -385,6 +529,12 @@ Summaries:
           - 0.188492063492033 
           - 0.188492063492033 
         unit: °
+      data_type: float32
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 180
     - description: Relative humidity (meteo band)
       name: HUMIDITY
       openeo:gsd:
@@ -392,6 +542,12 @@ Summaries:
           - 0.188492063492033 
           - 0.188492063492033 
         unit: °
+      data_type: float32
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 100
     - description: Mean sea level pressure (meteo band)
       name: SEA_LEVEL_PRESSURE
       openeo:gsd:
@@ -399,6 +555,12 @@ Summaries:
           - 0.188492063492033 
           - 0.188492063492033 
         unit: °
+      data_type: float32
+      statistics:
+        minimum:
+          - 980
+        maximum:
+          - 1030
     - description: Total column ozone (meteo band)
       name: TOTAL_COLUMN_OZONE
       openeo:gsd:
@@ -406,6 +568,12 @@ Summaries:
           - 0.188492063492033 
           - 0.188492063492033 
         unit: °
+      data_type: float32
+      statistics:
+        minimum:
+          - 0.004
+        maximum:
+          - 0.008
     - description: Total column water vapour (meteo band)
       name: TOTAL_COLUMN_WATER_VAPOUR
       openeo:gsd:
@@ -413,8 +581,20 @@ Summaries:
           - 0.188492063492033 
           - 0.188492063492033 
         unit: °
+      data_type: float32
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 70
     - description: The mask of data/no data pixels.
       name: dataMask
+      data_type: UINT8
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 1
   gsd:
     - 300
   platform:
@@ -563,4 +743,4 @@ CRS:
   - "http://www.opengis.net/def/crs/EPSG/0/32760"
   - "http://www.opengis.net/def/crs/SR-ORG/0/98739"
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2022-07-04"
+RegistryEntryLastModified: "2022-09-23"

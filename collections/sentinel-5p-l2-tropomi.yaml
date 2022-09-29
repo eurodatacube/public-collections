@@ -203,6 +203,12 @@ Summaries:
           - 0.054563492063483
           - 0.034722222222216
         unit: °
+      data_type: float32
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 0.1
     - description: Formaldehyde
       name: HCHO
       openeo:gsd:
@@ -210,6 +216,12 @@ Summaries:
           - 0.054563492063483
           - 0.034722222222216
         unit: °
+      data_type: float32
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 0.001
     - description: Nitrogen oxide
       name: NO2
       openeo:gsd:
@@ -217,6 +229,12 @@ Summaries:
           - 0.054563492063483
           - 0.034722222222216
         unit: °
+      data_type: float32
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 0.0003
     - description: Ozone
       name: O3
       openeo:gsd:
@@ -224,6 +242,12 @@ Summaries:
           - 0.054563492063483
           - 0.034722222222216
         unit: °
+      data_type: float32
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 0.36
     - description: Sulphur dioxide
       name: SO2
       openeo:gsd:
@@ -231,6 +255,12 @@ Summaries:
           - 0.054563492063483
           - 0.034722222222216
         unit: °
+      data_type: float32
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 0.01
     - description: Methane
       name: CH4
       openeo:gsd:
@@ -238,6 +268,12 @@ Summaries:
           - 0.054563492063483
           - 0.034722222222216
         unit: °
+      data_type: float32
+      statistics:
+        minimum:
+          - 1600
+        maximum:
+          - 2000
     - description: UV (Ultraviolet) Aerosol Index calculated based on wavelengths of 340 nm and 380 nm
       name: AER_AI_340_380
       openeo:gsd:
@@ -245,6 +281,12 @@ Summaries:
           - 0.054563492063483
           - 0.034722222222216
         unit: °
+      data_type: float32
+      statistics:
+        minimum:
+          - -1
+        maximum:
+          - 5
     - description: UV (Ultraviolet) Aerosol Index calculated based on wavelengths of 354 nm and 388 nm
       name: AER_AI_354_388
       openeo:gsd:
@@ -252,6 +294,12 @@ Summaries:
           - 0.054563492063483
           - 0.034722222222216
         unit: °
+      data_type: float32
+      statistics:
+        minimum:
+          - -1
+        maximum:
+          - 5
     - description: Cloud base pressure
       name: CLOUD_BASE_PRESSURE
       openeo:gsd:
@@ -259,6 +307,12 @@ Summaries:
           - 0.054563492063483
           - 0.034722222222216
         unit: °
+      data_type: float32
+      statistics:
+        minimum:
+          - 1000
+        maximum:
+          - 110000
     - description: Cloud top pressure
       name: CLOUD_TOP_PRESSURE
       openeo:gsd:
@@ -266,6 +320,12 @@ Summaries:
           - 0.054563492063483
           - 0.034722222222216
         unit: °
+      data_type: float32
+      statistics:
+        minimum:
+          - 1000
+        maximum:
+          - 110000
     - description: Cloud base height
       name: CLOUD_BASE_HEIGHT
       openeo:gsd:
@@ -273,6 +333,12 @@ Summaries:
           - 0.054563492063483
           - 0.034722222222216
         unit: °
+      data_type: float32
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 20000
     - description: Cloud top height
       name: CLOUD_TOP_HEIGHT
       openeo:gsd:
@@ -280,6 +346,12 @@ Summaries:
           - 0.054563492063483
           - 0.034722222222216
         unit: °
+      data_type: float32
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 20000
     - description: Cloud optical thickness
       name: CLOUD_OPTICAL_THICKNESS
       openeo:gsd:
@@ -287,6 +359,12 @@ Summaries:
           - 0.054563492063483
           - 0.034722222222216
         unit: °
+      data_type: float32
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 250
     - description: Effective radiometric cloud fraction
       name: CLOUD_FRACTION
       openeo:gsd:
@@ -294,8 +372,20 @@ Summaries:
           - 0.054563492063483
           - 0.034722222222216
         unit: °
+      data_type: float32
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 1
     - description: The mask of data/no data pixels.
       name: dataMask
+      data_type: UINT8
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 1
   gsd: 
   - 7000
   platform: 
@@ -443,4 +533,4 @@ CRS:
   - "http://www.opengis.net/def/crs/EPSG/0/32760"
   - "http://www.opengis.net/def/crs/SR-ORG/0/98739"
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2022-07-04"
+RegistryEntryLastModified: "2022-09-23"

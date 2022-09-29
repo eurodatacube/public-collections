@@ -267,7 +267,7 @@ Summaries:
         minimum:
           - 0
         maximum:
-          - 0.4
+          - 4000
     - name: B02
       common_name: blue
       center_wavelength: 0.4924
@@ -282,7 +282,7 @@ Summaries:
         minimum:
           - 0
         maximum:
-          - 0.4
+          - 4000
     - name: B03
       common_name: green
       center_wavelength: 0.5598
@@ -297,7 +297,7 @@ Summaries:
         minimum:
           - 0
         maximum:
-          - 0.4
+          - 4000
     - name: B04
       common_name: red
       center_wavelength: 0.6646
@@ -312,7 +312,7 @@ Summaries:
         minimum:
           - 0
         maximum:
-          - 0.4
+          - 4000
     - name: B05
       center_wavelength: 0.7041
       full_width_half_max: 0.015
@@ -326,7 +326,7 @@ Summaries:
         minimum:
           - 0
         maximum:
-          - 0.4
+          - 4000
     - name: B06
       center_wavelength: 0.7405
       full_width_half_max: 0.015
@@ -340,7 +340,7 @@ Summaries:
         minimum:
           - 0
         maximum:
-          - 0.4
+          - 4000
     - name: B07
       center_wavelength: 0.7828
       full_width_half_max: 0.02
@@ -354,7 +354,7 @@ Summaries:
         minimum:
           - 0
         maximum:
-          - 0.4
+          - 4000
     - name: B08
       common_name: nir
       center_wavelength: 0.8328
@@ -369,7 +369,7 @@ Summaries:
         minimum:
           - 0
         maximum:
-          - 0.4
+          - 4000
     - name: B8A
       common_name: nir08
       center_wavelength: 0.8647
@@ -384,7 +384,7 @@ Summaries:
         minimum:
           - 0
         maximum:
-          - 0.4
+          - 4000
     - name: B09
       common_name: nir09
       center_wavelength: 0.9451
@@ -399,7 +399,7 @@ Summaries:
         minimum:
           - 0
         maximum:
-          - 0.4
+          - 4000
     - name: B11
       common_name: swir16
       center_wavelength: 1.6137
@@ -414,7 +414,7 @@ Summaries:
         minimum:
           - 0
         maximum:
-          - 0.4
+          - 4000
     - name: B12
       common_name: swir22
       center_wavelength: 2.2024
@@ -429,7 +429,7 @@ Summaries:
         minimum:
           - 0
         maximum:
-          - 0.4
+          - 4000
     - description: Aerosol Optical Thickness map, based on Sen2Cor processor
       name: AOT
       openeo:gsd:
@@ -724,4 +724,4 @@ CRS:
   - "http://www.opengis.net/def/crs/EPSG/0/32760"
   - "http://www.opengis.net/def/crs/SR-ORG/0/98739"
 RegistryEntryAdded: '2018-04-17'
-RegistryEntryLastModified: "2022-09-20"
+RegistryEntryLastModified: "2022-09-28"

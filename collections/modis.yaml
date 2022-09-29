@@ -169,6 +169,12 @@ Summaries:
           - 0.004960317460317
           - 0.004960317460317
         unit: °
+      data_type: float32
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 0.4
     - description: NIR (841 - 876 nm)
       name: B02
       common_name: nir
@@ -179,6 +185,12 @@ Summaries:
           - 0.004960317460317
           - 0.004960317460317
         unit: °
+      data_type: float32
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 0.4
     - description: Blue (459 - 479 nm)
       name: B03
       common_name: blue
@@ -189,6 +201,12 @@ Summaries:
           - 0.004960317460317
           - 0.004960317460317
         unit: °
+      data_type: float32
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 0.4
     - description: Green (545 - 565 nm)
       name: B04
       common_name: green
@@ -199,6 +217,12 @@ Summaries:
           - 0.004960317460317
           - 0.004960317460317
         unit: °
+      data_type: float32
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 0.4
     - description: N/A (1230 - 1250 nm)
       name: B05
       center_wavelength: 1.24
@@ -208,6 +232,12 @@ Summaries:
           - 0.004960317460317
           - 0.004960317460317
         unit: °
+      data_type: float32
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 0.4
     - description: SWIR16 (1628 - 1652 nm)
       name: B06
       common_name: swir16
@@ -218,6 +248,12 @@ Summaries:
           - 0.004960317460317
           - 0.004960317460317
         unit: °
+      data_type: float32
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 0.4
     - description: SWIR22 (2105 - 2155 nm)
       name: B07
       common_name: swir22
@@ -228,8 +264,20 @@ Summaries:
           - 0.004960317460317
           - 0.004960317460317
         unit: °
+      data_type: float32
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 0.4
     - description: The mask of data/no data pixels.
       name: dataMask
+      data_type: UINT8
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 1
   gsd:
     - 500
   platform:
@@ -378,4 +426,4 @@ CRS:
   - "http://www.opengis.net/def/crs/EPSG/0/32760"
   - "http://www.opengis.net/def/crs/SR-ORG/0/98739"
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2022-07-04"
+RegistryEntryLastModified: "2022-09-23"
