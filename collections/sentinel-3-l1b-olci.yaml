@@ -487,8 +487,8 @@ Summaries:
       name: SAA
       openeo:gsd:
         value:
-          - 0.188492063492033 
-          - 0.188492063492033 
+          - 0.188492063492033
+          - 0.188492063492033
         unit: °
       data_type: float32
       statistics:
@@ -500,8 +500,8 @@ Summaries:
       name: SZA
       openeo:gsd:
         value:
-          - 0.188492063492033 
-          - 0.188492063492033 
+          - 0.188492063492033
+          - 0.188492063492033
         unit: °
       data_type: float32
       statistics:
@@ -513,8 +513,8 @@ Summaries:
       name: VAA
       openeo:gsd:
         value:
-          - 0.188492063492033 
-          - 0.188492063492033 
+          - 0.188492063492033
+          - 0.188492063492033
         unit: °
       data_type: float32
       statistics:
@@ -526,8 +526,8 @@ Summaries:
       name: VZA
       openeo:gsd:
         value:
-          - 0.188492063492033 
-          - 0.188492063492033 
+          - 0.188492063492033
+          - 0.188492063492033
         unit: °
       data_type: float32
       statistics:
@@ -539,8 +539,8 @@ Summaries:
       name: HUMIDITY
       openeo:gsd:
         value:
-          - 0.188492063492033 
-          - 0.188492063492033 
+          - 0.188492063492033
+          - 0.188492063492033
         unit: °
       data_type: float32
       statistics:
@@ -552,8 +552,8 @@ Summaries:
       name: SEA_LEVEL_PRESSURE
       openeo:gsd:
         value:
-          - 0.188492063492033 
-          - 0.188492063492033 
+          - 0.188492063492033
+          - 0.188492063492033
         unit: °
       data_type: float32
       statistics:
@@ -565,8 +565,8 @@ Summaries:
       name: TOTAL_COLUMN_OZONE
       openeo:gsd:
         value:
-          - 0.188492063492033 
-          - 0.188492063492033 
+          - 0.188492063492033
+          - 0.188492063492033
         unit: °
       data_type: float32
       statistics:
@@ -578,8 +578,8 @@ Summaries:
       name: TOTAL_COLUMN_WATER_VAPOUR
       openeo:gsd:
         value:
-          - 0.188492063492033 
-          - 0.188492063492033 
+          - 0.188492063492033
+          - 0.188492063492033
         unit: °
       data_type: float32
       statistics:

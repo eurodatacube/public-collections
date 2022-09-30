@@ -386,7 +386,7 @@ Summaries:
           - 0
         maximum:
           - 1
-  gsd: 
+  gsd:
   - 7000
   platform: 
   - sentinel-5 precursor
