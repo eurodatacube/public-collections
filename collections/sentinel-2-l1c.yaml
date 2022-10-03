@@ -261,7 +261,7 @@ Summaries:
           - 60
           - 60
         unit: m
-      data_type: float32
+      data_type: UINT16
       statistics:
         minimum:
           - 0
@@ -276,7 +276,7 @@ Summaries:
           - 10
           - 10
         unit: m
-      data_type: float32
+      data_type: UINT16
       statistics:
         minimum:
           - 0
@@ -291,7 +291,7 @@ Summaries:
           - 10
           - 10
         unit: m
-      data_type: float32
+      data_type: UINT16
       statistics:
         minimum:
           - 0
@@ -306,7 +306,7 @@ Summaries:
           - 10
           - 10
         unit: m
-      data_type: float32
+      data_type: UINT16
       statistics:
         minimum:
           - 0
@@ -320,7 +320,7 @@ Summaries:
           - 20
           - 20
         unit: m
-      data_type: float32
+      data_type: UINT16
       statistics:
         minimum:
           - 0
@@ -334,7 +334,7 @@ Summaries:
           - 20
           - 20
         unit: m
-      data_type: float32
+      data_type: UINT16
       statistics:
         minimum:
           - 0
@@ -348,7 +348,7 @@ Summaries:
           - 20
           - 20
         unit: m
-      data_type: float32
+      data_type: UINT16
       statistics:
         minimum:
           - 0
@@ -363,7 +363,7 @@ Summaries:
           - 10
           - 10
         unit: m
-      data_type: float32
+      data_type: UINT16
       statistics:
         minimum:
           - 0
@@ -378,7 +378,7 @@ Summaries:
           - 20
           - 20
         unit: m
-      data_type: float32
+      data_type: UINT16
       statistics:
         minimum:
           - 0
@@ -393,7 +393,7 @@ Summaries:
           - 60
           - 60
         unit: m
-      data_type: float32
+      data_type: UINT16
       statistics:
         minimum:
           - 0
@@ -408,7 +408,7 @@ Summaries:
           - 60
           - 60
         unit: m
-      data_type: float32
+      data_type: UINT16
       statistics:
         minimum:
           - 0
@@ -423,7 +423,7 @@ Summaries:
           - 20
           - 20
         unit: m
-      data_type: float32
+      data_type: UINT16
       statistics:
         minimum:
           - 0
@@ -438,7 +438,7 @@ Summaries:
           - 20
           - 20
         unit: m
-      data_type: float32
+      data_type: UINT16
       statistics:
         minimum:
           - 0
@@ -686,4 +686,4 @@ CRS:
   - "http://www.opengis.net/def/crs/EPSG/0/32760"
   - "http://www.opengis.net/def/crs/SR-ORG/0/98739"
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2022-09-29"
+RegistryEntryLastModified: "2022-10-03"
