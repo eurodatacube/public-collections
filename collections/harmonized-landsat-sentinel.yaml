@@ -6,7 +6,6 @@ Description: |
   of the land every 2-3 days. Input products are Landsat 8-9 Collection 2 L1 and S2-L1C top-of-atmosphere reflectance. Landsat data is available from
   April 2013 and Sentinel-2 data from November 2015. 
 Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/hls/)"
-Image: https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-public/HLSL30.020/HLS.L30.T58WDV.2020245T003555.v2.0/HLS.L30.T58WDV.2020245T003555.v2.0.jpg
 Resolution: 30m
 GeographicalCoverage: Globally
 TemporalAvailability: April 2013 - ongoing
@@ -73,9 +72,9 @@ Extent:
     bbox:
       -
         - -180
-        - -90
+        - -80
         - 180
-        - 90
+        - 84
   temporal:
     interval:
       -
@@ -112,9 +111,9 @@ CubeDimensions:
             unit: degree
       area: World
       bbox:
-        south_latitude: -90
+        south_latitude: -80
         west_longitude: -180
-        north_latitude: 90
+        north_latitude: 84
         east_longitude: 180
       id:
         authority: OGC
@@ -124,8 +123,8 @@ CubeDimensions:
     type: spatial
     axis: y
     extent:
-      -
-      -
+      - 84
+      - -80
     reference_system:
       $schema: https://proj.org/schemas/v0.4/projjson.schema.json
       type: GeodeticCRS
@@ -150,9 +149,9 @@ CubeDimensions:
             unit: degree
       area: World
       bbox:
-        south_latitude: -90
+        south_latitude: -80
         west_longitude: -180
-        north_latitude: 90
+        north_latitude: 84
         east_longitude: 180
       id:
         authority: OGC
@@ -163,7 +162,7 @@ CubeDimensions:
     extent:
       - '2013-04-01T00:00:00Z'
       - null
-    step:
+    step: P5D
   bands:
     type: bands
     values:
