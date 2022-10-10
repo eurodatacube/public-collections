@@ -161,7 +161,7 @@ sci:citation:
 Summaries:
 CRS:
 ```
-</details><br>
+</details>
 
 ### Collection metadata explanation
  Below is a description for each metadata field.
