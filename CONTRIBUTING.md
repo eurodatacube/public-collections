@@ -2,7 +2,7 @@
 
 ## How are collections added to the registry?
 
-Each collection in this repository is described in a dedicated YAML file in [/collections](https://github.com/eurodatacube/public-collections/tree/main/collections) directory, e.g. /collections/global-land-cover.yaml
+Each collection in this repository is described in a dedicated YAML file in [/collections](https://github.com/eurodatacube/public-collections/tree/main/collections) directory, e.g. [/collections/global-land-cover.yaml](https://github.com/eurodatacube/public-collections/tree/main/collections/global-land-cover.yaml)
 Data providers can create a new YAML file copying the structure of the most similar existing one. After committing it to the GitHub, create a pull request and Euro Data Cube team will review it and publish it in the Registry.
 Note that all external additional files should be stored in a directory with the exact same name as the associated YAML file. Note also that thumbnail image should have the same name as the associated YAML file. Lowercase is recommended for all file names and paths.
 Users are also welcome to revise existing collections, e.g. adding new usage examples, tools, etc.
@@ -65,12 +65,9 @@ Tags:
 License:
 LicenseType:
 LicenseUrl:
-CustomScipts:
-  Title:
-  URL:
 Resources:
   - Group:
-    EndPoint:
+  - EndPoint:
     Name:
     Role:
     Type:
@@ -86,6 +83,9 @@ Resources:
   - Group:
     DatasetName:
     CollectionId:
+CustomScipts:
+  Title:
+  URL:
 Configurations:
   - href:
     rel:
@@ -118,6 +118,8 @@ RegistryEntryLastModified:
 ```
 
 ### openEO Platform specific extension of  YAML file structure
+
+WMTS should be added after CustomScripts, Extent and everything else after Configurations.
 
 ```
 WMTS:
@@ -164,6 +166,7 @@ CRS:
 |**AdditionalInfoExternal >> Title**|MD | Additional info. |
 |**AdditionalInfoExternal >> Path**|Path | Path to README.MD with additional info on the github repo.|
 |**Image**| Path | Path to thumbnail image representing the collection that is to be displayed on the homepage. Automatically sized to 200 pixels width for display. |
+| **EDC Browser** | String | Link to the collection displayed in the EDC Browser.|
 |**EOBrowser**|String | Link to the collection displayed in EO Browser. |
 |**Flickr**|String | Link to Flickr album if collection is not available on EO Browser. |
 |**Explore**|MD| Link to where the collection can be explored, e.g. Jupyter Notebook or graphical viewer. |
@@ -181,9 +184,6 @@ CRS:
 |**ManagedBy**|String|The name of the organization that manages the collection.|
 |**Tags**|List of strings|Tags that topically describe the collection. Tags must include either `open data` or `commercial data` , `xcube` or `sentinel hub` or `geodb` , `raster` or `vector` , `systematic` or `on-demand`.|
 |**License**|MD|An explanation of the collection license and/or a link to more information.|
-|**CustomScripts**|MD | Collections' custom scripts. |
-|**CustomScripts > Title**| String | Collections' custom script title.|
-|**CustomScripts > URL** | String | Link to the collections' custom script. |
 |**Resources**|List of lists|A list of resources to access the collections. Each resource entry requires collection specific metadata as below.|
 |**Resources > Group**|String| Category of the resources. Must either be `Sentinel Hub Resources` or `xcube Resources` or `geoDB Resources`. |
 |**Resources > Endpoint**|String|Endpoint where the Sentinel Hub collection can be accessed. Should start with the protocol (`https://`).|
@@ -199,7 +199,9 @@ CRS:
 |**Resources > StoreTitle**|String|Name of xcube store of the collection.|
 |**Resources > DataID**|String|Name identifier of the collection in the xcube store.|
 |**Resources > Notes**|MD| More info regarding the collection.|
-|**sci:citation** | String | The recommended human-readable reference (citation) to be used by publications citing the data.|
+|**CustomScripts**|MD | Collections' custom scripts. |
+|**CustomScripts > Title**| String | Collections' custom script title.|
+|**CustomScripts > URL** | String | Link to the collections' custom script. |
 |**DataAtWork [> Tutorials, Tools & Applications, Publications]** |List of lists| (Optional) A list of links to example tutorials, tools & applications or publications that use the data.|
 |**DataAtWork [> Tutorials, Tools & Applications, Publications] > Title**|String|The title of the tutorials, tools & applications or publications that use the data.|
 |**DataAtWork [> Tutorials, Tools & Applications, Publications] > URL**|String|A link to the tutorial, tool & applications or publication that use the data.|
@@ -212,21 +214,20 @@ CRS:
 
 | Field                            | Type       | Description & Style        |
 |----------------------------------|--------| --------------------------|
-| **EDC Browser** | String | Link to the collection displayed in the EO Browser.|
 | **Configurations** |List of lists| |
 | **Configurations > href**| String | **REQUIRED**. The actual link in the format of an URL. Relative and absolute links are both allowed.|
 | **Configurations > rel**| String | **REQUIRED**. Relationship between the current document and the linked document. See ["Relation types"](https://github.com/radiantearth/stac-spec/blob/master/collection-spec/collection-spec.md#relation-types) for more information. |
 | **Configurations > type**| String| [Media type](https://github.com/radiantearth/stac-spec/blob/master/catalog-spec/catalog-spec.md#media-types) of the referenced entity. |
 | **Configurations > title**| String |A human readable title to be used in rendered displays of the link. |
-| **Configurations > sentinelhub:layer_name:**| String | Layer name of the visualization in the EDC Browser.|
-| **Configurations > sentinelhub:mosaicking_order:**| String | Mosaicking order type of the visualization in the EDC Browser.|
-| **Configurations > sentinelhub:upsampling:**| String |Upsampling method of the visualization in the EDC Browser. |
+| **Configurations > sentinelhub:layer_name:**| String | Layer name of the visualization used for the EDC Browser.|
+| **Configurations > sentinelhub:mosaicking_order:**| String | Mosaicking order type used for the visualization in the EDC Browser.|
+| **Configurations > sentinelhub:upsampling:**| String |Upsampling method used for the visualization in the EDC Browser. |
 
 ### Metadata used within the openEO Platform project
 
 | Field                            | Type | Description & Style        |
 |----------------------------------|--------| --------------------------|
-| **OpenEOPID**                    | String | **REQUIRED.** Collection name to be used within the openEO Platform (should be all caps).| 
+| **OpenEOPID**                    | String | **REQUIRED.** Collection name to be used within the openEO Platform (see [Naming convention](https://docs.openeo.cloud/federation/backends/collections.html#naming-convention)).| 
 | **WMTS**                         | List of dictionary | Based on [STAC Web Map Links Extension](https://github.com/stac-extensions/web-map-links).| 
 | **WMTS > href**| String | Link to the WMTS, without any WMTS specific query parameters.|
 | **WMTS > layer_id** | String | The layers to show on the map. | 
@@ -237,13 +238,13 @@ CRS:
 | **DocumentationLinks > rel** | String |**REQUIRED**. Relationship between the current document and the linked document.  | 
 | **DocumentationLinks > type** | String | Media type of the referenced entity.| 
 | **DocumentationLinks > title** | String| A human readable title to be used in rendered displays of the link.| 
-| **Extent** | List of dictionary | Spatio-temporal extents of the collection.|
+| **Extent** | Dictonaries | Spatio-temporal extents of the collection.|
 | **Extent > spatial** | Dictionary |**REQUIRED**. The spatial extents of the Collection. |
 | **Extent > spatial > bbox** | Number|**REQUIRED**. Potential spatial extents covered by the Collection. |
 | **Extent > temporal** | Dictionary |**REQUIRED**. The temporal extents of the Collection. |
 | **Extent > temporal > interval** |String |**REQUIRED**. Potential temporal extents covered by the collection. Collection intervals with just one timestamp should be displayed as one second intervals (e.g.`'2020-01-04T00:00:00Z' - '2020-01-04T00:00:01Z'`).|
 | **CubeDimensions** | List of dictionary | Based on [STAC Datacube Extension](https://github.com/stac-extensions/datacube#dimension-object). |
-| **CubeDimensions > x/y** |Dictionary| A spatial dimension in one of the horizontal (x or y) directions. |
+| **CubeDimensions > x/y** |Dictionaries| A spatial dimension in one of the horizontal (x or y) directions. |
 | **CubeDimensions > x/y > type** | String | **REQUIRED**. Type of the dimension, always `spatial`.|
 | **CubeDimensions > x/y > axis** | String |**REQUIRED**. Axis of the spatial dimension (`x`, `y`). |
 | **CubeDimensions > x/y > extent** | Number |**REQUIRED**. Extent (lower and upper bounds) of the dimension as two-element array. Open intervals with `null` not allowed. |
@@ -251,11 +252,12 @@ CRS:
 | **CubeDimensions > t** |Dictionary | A temporal dimension based on the ISO 8601 standard. |
 | **CubeDimensions > t > type** | String | **REQUIRED**. Type of the dimension, always `temporal`.|
 | **CubeDimensions > t > extent** | String | **REQUIRED**. Extent (lower and upper bounds) of the dimension as two-element array. `null` allowed for open date ranges. Collection extents with just one timestamp should be displayed as one second extents (e.g. `'2020-01-04T00:00:00Z' - '2020-01-04T00:00:01Z'`).|
-| **CubeDimensions > t > step** | String | The space between the temporal instances as ISO 8601 duration (e.g. `P1D`). Use null for irregularly spaced steps. |
-| **CubeDimensions > bands** | Dictionary | |
+| **CubeDimensions > t > step** | String | The space between the temporal instances as ISO 8601 duration (e.g. `P1D`). Use `null` for irregularly spaced steps. |
+| **CubeDimensions > bands** | Dictionaries | |
 | **CubeDimensions > bands > type**| String |**REQUIRED**. Custom type of the dimension, never spatial. |
 | **CubeDimensions > bands > values**| String |An ordered list of all values, especially useful for nominal values. |
-| **Summaries** | Dictionary | A map of property summaries, either a set of values, a range of values. |
+|**sci:citation** | String | The recommended human-readable reference (citation) to be used by publications citing the data.|
+| **Summaries** | Dictionary | A map of property summaries, either a set of values or a range of values. |
 | **CRS** | List | List of coordinate reference systems supported by the backend. |
 
 ## How to make use of these collections
