@@ -32,13 +32,9 @@ Tags:
   - copernicus
   - sentinel
   - landsat
-License: |
-    "[License](https://www.usgs.gov/centers/eros/data-citation?qt-science_support_page_related_con=0#qt-science_support_page_related_con)"
-    "[License](https://docs.sentinel-hub.com/api/latest/data/sentinel-2-l1c/#attribution-and-use)"
-LicenseType: proprietary
-LicenseUrl: 
-    https://www.usgs.gov/centers/eros/data-citation?qt-science_support_page_related_con=0#qt-science_support_page_related_con
-    https://docs.sentinel-hub.com/api/latest/data/sentinel-2-l1c/#attribution-and-use
+License: "[License](https://www.usgs.gov/centers/eros/data-citation?qt-science_support_page_related_con=0#qt-science_support_page_related_con)"
+LicenseType: various
+LicenseUrl: https://www.usgs.gov/centers/eros/data-citation?qt-science_support_page_related_con=0#qt-science_support_page_related_con
 Resources:
   - Group: Sentinel Hub Resources
     EndPoint: https://services-uswest2.sentinel-hub.com/api
@@ -72,9 +68,9 @@ Extent:
     bbox:
       -
         - -180
-        - -80
+        - -85
         - 180
-        - 84
+        - 85
   temporal:
     interval:
       -
@@ -111,9 +107,9 @@ CubeDimensions:
             unit: degree
       area: World
       bbox:
-        south_latitude: -80
+        south_latitude: -85
         west_longitude: -180
-        north_latitude: 84
+        north_latitude: 85
         east_longitude: 180
       id:
         authority: OGC
@@ -123,8 +119,8 @@ CubeDimensions:
     type: spatial
     axis: y
     extent:
-      - 84
-      - -80
+      - 85
+      - -85
     reference_system:
       $schema: https://proj.org/schemas/v0.4/projjson.schema.json
       type: GeodeticCRS
@@ -149,9 +145,9 @@ CubeDimensions:
             unit: degree
       area: World
       bbox:
-        south_latitude: -80
+        south_latitude: -85
         west_longitude: -180
-        north_latitude: 84
+        north_latitude: 85
         east_longitude: 180
       id:
         authority: OGC
@@ -162,7 +158,7 @@ CubeDimensions:
     extent:
       - '2013-04-01T00:00:00Z'
       - null
-    step: P5D
+    step: null
   bands:
     type: bands
     values:
@@ -190,7 +186,8 @@ CubeDimensions:
 sci:citation:
 Summaries:
   eo:bands:
-    - name: CoastalAerosol
+    - description: Coastal Aerosol - band 1 from Landsat and Sentinel
+      name: CoastalAerosol
       common_name: coastal
       center_wavelength: 0.44296
       full_width_half_max: 0.01598
@@ -199,7 +196,8 @@ Summaries:
           - 30
           - 30
         unit: m
-    - name: Blue
+    - description: Blue - band 2 from both
+      name: Blue
       common_name: blue
       center_wavelength: 0.48204
       full_width_half_max: 0.06004
@@ -208,7 +206,8 @@ Summaries:
           - 30
           - 30
         unit: m
-    - name: Green
+    - description: Green - band 3 from both
+      name: Green
       common_name: green
       center_wavelength: 0.56141
       full_width_half_max: 0.05733
@@ -217,7 +216,8 @@ Summaries:
           - 30
           - 30
         unit: m
-    - name: Red
+    - description: Red - band 4 from both
+      name: Red
       common_name: red
       center_wavelength: 0.65459
       full_width_half_max: 0.03747
@@ -226,7 +226,8 @@ Summaries:
           - 30
           - 30
         unit: m
-    - name: RedEdge1
+    - description: 	Red-Edge 1 - band 5 from Sentinel
+      name: RedEdge1
       common_name: rededge
       center_wavelength: 0.7041
       full_width_half_max: 0.015
@@ -235,7 +236,8 @@ Summaries:
           - 30
           - 30
         unit: m
-    - name: RedEdge2
+    - description: Red-Edge 2 - band 6 from Sentinel
+      name: RedEdge2
       common_name: rededge
       center_wavelength: 0.7405
       full_width_half_max: 0.015
@@ -244,7 +246,8 @@ Summaries:
           - 30
           - 30
         unit: m
-    - name: RedEdge3
+    - description: Red-Edge 3 - band 7 from Sentinel
+      name: RedEdge3
       common_name: rededge
       center_wavelength: 0.7828
       full_width_half_max: 0.02
@@ -253,7 +256,8 @@ Summaries:
           - 30
           - 30
         unit: m
-    - name: NIR_Broad
+    - description: NIR Broad - band 8 from Sentinel
+      name: NIR_Broad
       common_name: nir
       center_wavelength: 0.8328
       full_width_half_max: 0.106
@@ -262,7 +266,8 @@ Summaries:
           - 30
           - 30
         unit: m
-    - name: NIR_Narrow
+    - description: NIR Narrow - band 5 from Landsat and 8A from Sentinel
+      name: NIR_Narrow
       common_name: nir08
       center_wavelength: 0.86467
       full_width_half_max: 0.02825
@@ -271,7 +276,8 @@ Summaries:
           - 30
           - 30
         unit: m
-    - name: SWIR1
+    - description: SWIR 1 - band 6 from Landsat and 11 from Sentinel
+      name: SWIR1
       common_name: swir16
       center_wavelength: 1.60886
       full_width_half_max: 0.08472
@@ -280,7 +286,8 @@ Summaries:
           - 30
           - 30
         unit: m
-    - name: SWIR2
+    - description: SWIR 2 - band 7 from Landsat and 12 from Sentinel
+      name: SWIR2
       common_name: swir22
       center_wavelength: 2.20073
       full_width_half_max: 0.18666
@@ -289,7 +296,8 @@ Summaries:
           - 30
           - 30
         unit: m
-    - name: WaterVapor
+    - description: Water Vapor - band 9 from Sentinel
+      name: WaterVapor
       common_name: nir09
       center_wavelength: 0.9451
       full_width_half_max: 0.02
@@ -298,7 +306,8 @@ Summaries:
           - 30
           - 30
         unit: m
-    - name: Cirrus
+    - description: Cirrus - band 9 from Landsat and 10 from Sentinel
+      name: Cirrus
       common_name: cirrus
       center_wavelength: 1.37343
       full_width_half_max: 0.02039
@@ -307,7 +316,8 @@ Summaries:
           - 30
           - 30
         unit: m
-    - name: Thermal Infrared 1
+    - description: Thermal Infrared 1 - band 10 from Landsat
+      name: Thermal Infrared 1
       common_name: lwir11
       center_wavelength: 10.895
       full_width_half_max: 0.8
@@ -316,7 +326,8 @@ Summaries:
           - 30
           - 30
         unit: m
-    - name: Thermal Infrared 2
+    - description: Thermal Infrared 2 - band 11 from Landsat
+      name: Thermal Infrared 2
       common_name: lwir12
       center_wavelength: 12.005
       full_width_half_max: 1
@@ -362,24 +373,11 @@ Summaries:
         unit: m
     - description: The mask of data/no data pixels.
       name: dataMask
-  constellation:
-    - SENTINEL
-    - LANDSAT
   gsd:
-    - 10
-    - 20
-    - 60
-  instruments:
-    - oli
-    - msi
+    - 30
   eo:cloud_cover:
     minimum: 0
     maximum: 100
-  platform:
-    - landsat-8
-    - landsat-9
-    - sentinel-2a
-    - sentinel-2b
 CRS:
   - "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
   - "http://www.opengis.net/def/crs/EPSG/0/2154"
@@ -523,4 +521,4 @@ CRS:
   - "http://www.opengis.net/def/crs/EPSG/0/32760"
   - "http://www.opengis.net/def/crs/SR-ORG/0/98739"
 RegistryEntryAdded: '2022-10-05'
-RegistryEntryLastModified: "2022-10-05"
+RegistryEntryLastModified: "2022-10-10"
