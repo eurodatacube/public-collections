@@ -7,7 +7,7 @@ Data providers can create a new YAML file copying the structure of the most simi
 Note that all external additional files should be stored in a directory with the exact same name as the associated YAML file. Note also that thumbnail image should have the same name as the associated YAML file. Lowercase is recommended for all file names and paths.
 Users are also welcome to revise existing collections, e.g. adding new usage examples, tools, etc.
 
-### YAML file structure
+### basic YAML file structure
 ```
 Name:
 OpenEOPID:
@@ -86,11 +86,6 @@ Resources:
   - Group:
     DatasetName:
     CollectionId:
-WMTS:
-  - href:
-    layer_id:
-    dimensions:
-      warnings:
 Configurations:
   - href:
     rel:
@@ -103,11 +98,33 @@ Configurations:
     sentinelhub:layer_name:
     sentinelhub:mosaicking_order:
     sentinelhub:upsampling:
-DocumentationLinks:
+DataAtWork:
+  Tutorials:
+    - Title:
+      URL:
+      AuthorName:
+      AuthorURL:
+  Tools & Applications:
+    - Title:
+      URL:
+      AuthorName:
+      AuthorURL:
+  Publications:
+    - Title:
+      URL:
+      AuthorName:
+RegistryEntryAdded:
+RegistryEntryLastModified:
+```
+
+### openEO Platform specific extension of  YAML file structure
+
+```
+WMTS:
   - href:
-    rel:
-    type:
-    title:
+    layer_id:
+    dimensions:
+      warnings:
 Extent:
   spatial:
     bbox:
@@ -134,23 +151,6 @@ CubeDimensions:
 sci:citation:
 Summaries:
 CRS:
-DataAtWork:
-  Tutorials:
-    - Title:
-      URL:
-      AuthorName:
-      AuthorURL:
-  Tools & Applications:
-    - Title:
-      URL:
-      AuthorName:
-      AuthorURL:
-  Publications:
-    - Title:
-      URL:
-      AuthorName:
-RegistryEntryAdded:
-RegistryEntryLastModified:
 ```
 ### Metadata required for each collection
  Below is a description for each metadata field.
