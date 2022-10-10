@@ -8,7 +8,11 @@ Note that all external additional files should be stored in a directory with the
 Users are also welcome to revise existing collections, e.g. adding new usage examples, tools, etc.
 
 ### basic YAML file structure
-```
+
+<details>
+   <summary>basic YAML file</summary>
+
+```YAML
 Name:
 OpenEOPID:
 Description:
@@ -117,11 +121,16 @@ RegistryEntryAdded:
 RegistryEntryLastModified:
 ```
 
+</details><br>
+
 ### openEO Platform specific extension of  YAML file structure
 
 WMTS should be added after CustomScripts, Extent and everything else after Configurations.
 
-```
+<details>
+   <summary>openEO Platform YAML file</summary>
+
+```YAML
 WMTS:
   - href:
     layer_id:
@@ -154,9 +163,15 @@ sci:citation:
 Summaries:
 CRS:
 ```
+</details><br>
+
 ### Metadata required for each collection
  Below is a description for each metadata field.
- 
+
+<details>
+   <summary>basic metadata</summary>
+
+
 | Field | Type | Description & Style |
 | --- | --- | --- |
 | **Name** | String | Full name of the collection.|
@@ -210,7 +225,12 @@ CRS:
 |**RegistryEntryAdded**|String|Date of the collection added to the registry.|
 |**RegistryEntryLastModified**|String|Date of the last collection modification.|
 
+</details><br> 
+
 ### Metadata used by the EDC Browser
+
+<details>
+   <summary>EDC Browser metadata</summary>
 
 | Field                            | Type       | Description & Style        |
 |----------------------------------|--------| --------------------------|
@@ -223,7 +243,12 @@ CRS:
 | **Configurations > sentinelhub:mosaicking_order:**| String | Mosaicking order type used for the visualization in the EDC Browser.|
 | **Configurations > sentinelhub:upsampling:**| String |Upsampling method used for the visualization in the EDC Browser. |
 
+</details><br>
+
 ### Metadata used within the openEO Platform project
+
+<details>
+   <summary>openEO Platform metadat</summary>
 
 | Field                            | Type | Description & Style        |
 |----------------------------------|--------| --------------------------|
@@ -243,7 +268,7 @@ CRS:
 | **Extent > spatial > bbox** | Number|**REQUIRED**. Potential spatial extents covered by the Collection. |
 | **Extent > temporal** | Dictionary |**REQUIRED**. The temporal extents of the Collection. |
 | **Extent > temporal > interval** |String |**REQUIRED**. Potential temporal extents covered by the collection. Collection intervals with just one timestamp should be displayed as one second intervals (e.g.`'2020-01-04T00:00:00Z' - '2020-01-04T00:00:01Z'`).|
-| **CubeDimensions** | List of dictionary | Based on [STAC Datacube Extension](https://github.com/stac-extensions/datacube#dimension-object). |
+| **CubeDimensions** | Dictionaries | Based on [STAC Datacube Extension](https://github.com/stac-extensions/datacube#dimension-object). |
 | **CubeDimensions > x/y** |Dictionaries| A spatial dimension in one of the horizontal (x or y) directions. |
 | **CubeDimensions > x/y > type** | String | **REQUIRED**. Type of the dimension, always `spatial`.|
 | **CubeDimensions > x/y > axis** | String |**REQUIRED**. Axis of the spatial dimension (`x`, `y`). |
@@ -259,6 +284,8 @@ CRS:
 |**sci:citation** | String | The recommended human-readable reference (citation) to be used by publications citing the data.|
 | **Summaries** | Dictionary | A map of property summaries, either a set of values or a range of values. |
 | **CRS** | List | List of coordinate reference systems supported by the backend. |
+
+</details><br>
 
 ## How to make use of these collections
 
