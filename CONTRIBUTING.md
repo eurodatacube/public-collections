@@ -7,7 +7,9 @@ Data providers can create a new YAML file copying the structure of the most simi
 Note that all external additional files should be stored in a directory with the exact same name as the associated YAML file. Note also that thumbnail image should have the same name as the associated YAML file. Lowercase is recommended for all file names and paths.
 Users are also welcome to revise existing collections, e.g. adding new usage examples, tools, etc.
 
-### basic YAML file structure
+### YAML file structure
+
+For openEO Platform specific extension of YAML file structure: WMTS should be added after CustomScripts, Extent and everything else after Configurations.
 
 <details>
    <summary>basic YAML file</summary>
@@ -121,14 +123,10 @@ RegistryEntryAdded:
 RegistryEntryLastModified:
 ```
 
-</details><br>
-
-### openEO Platform specific extension of  YAML file structure
-
-WMTS should be added after CustomScripts, Extent and everything else after Configurations.
+</details>
 
 <details>
-   <summary>openEO Platform YAML file</summary>
+   <summary>openEO Platform YAML file extension</summary>
 
 ```YAML
 WMTS:
@@ -165,12 +163,11 @@ CRS:
 ```
 </details><br>
 
-### Metadata required for each collection
+### Collection metadata explanation
  Below is a description for each metadata field.
 
 <details>
    <summary>basic metadata</summary>
-
 
 | Field | Type | Description & Style |
 | --- | --- | --- |
@@ -225,12 +222,9 @@ CRS:
 |**RegistryEntryAdded**|String|Date of the collection added to the registry.|
 |**RegistryEntryLastModified**|String|Date of the last collection modification.|
 
-</details><br> 
-
-### Metadata used by the EDC Browser
-
+</details>
 <details>
-   <summary>EDC Browser metadata</summary>
+   <summary>EDC Browser metadata (metadata used by the EDC Browser)</summary>
 
 | Field                            | Type       | Description & Style        |
 |----------------------------------|--------| --------------------------|
@@ -243,12 +237,10 @@ CRS:
 | **Configurations > sentinelhub:mosaicking_order:**| String | Mosaicking order type used for the visualization in the EDC Browser.|
 | **Configurations > sentinelhub:upsampling:**| String |Upsampling method used for the visualization in the EDC Browser. |
 
-</details><br>
-
-### Metadata used within the openEO Platform project
+</details>
 
 <details>
-   <summary>openEO Platform metadat</summary>
+   <summary>openEO Platform metadata (metadata used within the openEO Platform project)</summary>
 
 | Field                            | Type | Description & Style        |
 |----------------------------------|--------| --------------------------|
@@ -285,7 +277,7 @@ CRS:
 | **Summaries** | Dictionary | A map of property summaries, either a set of values or a range of values. |
 | **CRS** | List | List of coordinate reference systems supported by the backend. |
 
-</details><br>
+</details>
 
 ## How to make use of these collections
 
