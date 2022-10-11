@@ -50,25 +50,60 @@ Resources:
     Notes: Globally since April 2013
     Primary: true
 CustomScripts:
-  Title:
-  URL:
+  Title: Collection of Harmonized Landsat Sentinel custom scripts
+  URL: https://custom-scripts.sentinel-hub.com/#harmonized-landsat-sentinel
 WMTS:
-  - href:
-    layer_id:
+  - href: https://services-uswest2.sentinel-hub.com/ogc/wmts/1295e9d1-4d45-4818-bc74-d52ac1c2fd67
+    layer_id: TRUE-COLOR
     dimensions:
       warnings: true
 Configurations:
-  - href:
-    rel:
-    type:
-    title:
-  - href:
-    rel:
-    type:
-    title:
-    sentinelhub:layer_name:
-    sentinelhub:mosaicking_order:
-    sentinelhub:upsampling:
+  - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
+    rel: "about"
+    type: "text/html"
+    title: "Details about running Evalscripts"
+  - href: https://custom-scripts.sentinel-hub.com/custom-scripts/hls/true_color/script.js
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate True color imagery"
+    sentinelhub:layer_name: True Color
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
+  - href: https://custom-scripts.sentinel-hub.com/custom-scripts/hls/false_color/script.js
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate False Color imagery"
+    sentinelhub:layer_name: False Color
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
+  - href: https://custom-scripts.sentinel-hub.com/custom-scripts/hls/swir/script.js
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate SWIR imagery"
+    sentinelhub:layer_name: SWIR
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
+  - href: https://custom-scripts.sentinel-hub.com/custom-scripts/hls/ndvi/script.js
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate NDVI imagery"
+    sentinelhub:layer_name: NDVI
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
+  - href: https://custom-scripts.sentinel-hub.com/custom-scripts/hls/ndmi/script.js
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate NDMI imagery"
+    sentinelhub:layer_name: NDMI
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
+  - href: https://custom-scripts.sentinel-hub.com/custom-scripts/hls/ndwi/script.js
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate NDWI imagery"
+    sentinelhub:layer_name: NDWI
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
 Extent:
   spatial:
     bbox:
