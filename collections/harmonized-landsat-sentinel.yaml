@@ -32,7 +32,14 @@ Tags:
   - copernicus
   - sentinel
   - landsat
-License: "[License](https://www.usgs.gov/centers/eros/data-citation?qt-science_support_page_related_con=0#qt-science_support_page_related_con)"
+License: |
+   #### Landsat data license
+
+   [License](https://www.usgs.gov/centers/eros/data-citation?qt-science_support_page_related_con=0#qt-science_support_page_related_con)
+
+   #### Sentinel data license
+
+   [License](https://docs.sentinel-hub.com/api/latest/data/sentinel-2-l1c/#attribution-and-use)
 LicenseType: various
 Resources:
   - Group: Sentinel Hub Resources
