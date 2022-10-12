@@ -6,6 +6,7 @@ Description: |
   of the land every 2-3 days. Input products are Landsat 8-9 Collection 2 L1 and S2-L1C top-of-atmosphere reflectance. Landsat data is available from
   April 2013 and Sentinel-2 data from November 2015. 
 Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/hls/)"
+Image: harmonized-landsat-sentinel/harmonized-landsat-sentinel.png
 Resolution: 30m
 GeographicalCoverage: Globally
 TemporalAvailability: April 2013 - ongoing
@@ -562,4 +563,4 @@ CRS:
   - "http://www.opengis.net/def/crs/EPSG/0/32760"
   - "http://www.opengis.net/def/crs/SR-ORG/0/98739"
 RegistryEntryAdded: '2022-10-05'
-RegistryEntryLastModified: "2022-10-11"
+RegistryEntryLastModified: "2022-10-12"
