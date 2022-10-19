@@ -10,7 +10,7 @@ Image: s5p-ch4-weekly/ch4.png
 EDCBrowser: ""
 Resolution: 4.8 x 4.8 Km (across x along track)
 GeographicalCoverage: -180.0, -90.0, 180.0, 90.0
-TemporalAvailability: 2021-11-15 - ongoing
+TemporalAvailability: 2021-11-15 - 2022-06-13
 TemporalResolution: Weekly
 UpdateFrequency: Weekly
 BandInformation: It is made of a single band called "ch4". it is an averaged methane concentrations across the globe — using weekly averaged maps
@@ -55,7 +55,7 @@ Extent:
     interval:
       -
         - '2021-11-15T00:00:00Z'
-        - ongoing
+        - '2022-06-13T23:59:59Z'
 CubeDimensions:
   x:
     type: spatial
@@ -73,7 +73,7 @@ CubeDimensions:
     type: temporal
     extent:
       - '2021-11-15T00:00:00Z'
-      - ongoing
+      - '2022-06-13T23:59:59Z'
     step: P7D
   bands:
     type: bands

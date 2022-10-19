@@ -54,7 +54,7 @@ Extent:
     interval:
       -
         - '2021-09-19T00:00:00Z'
-        - ongoing
+        - null
 CubeDimensions:
   x:
     type: spatial
@@ -72,7 +72,7 @@ CubeDimensions:
     type: temporal
     extent:
       - '2021-09-19T00:00:00Z'
-      - ongoing
+      - null
     step: P1D
   bands:
     type: bands
