@@ -21,8 +21,7 @@ Tags:
   - sentinel hub
   - raster
   - race challenges
-License: |
-    [License](https://docs.sentinel-hub.com/api/latest/data/sentinel-2-l2a/#attribution-and-use)
+License: Full, open and free access
 Resources:
   - Group: Sentinel Hub Resources
   - EndPoint: https://services.sentinel-hub.com
