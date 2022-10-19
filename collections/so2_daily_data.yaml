@@ -21,7 +21,8 @@ Tags:
   - sentinel hub
   - raster
   - race challenges
-License: Full, open and free access
+License: |
+    [License](https://docs.sentinel-hub.com/api/latest/data/sentinel-2-l2a/#attribution-and-use)
 Resources:
   - Group: Sentinel Hub Resources
   - EndPoint: https://services.sentinel-hub.com
@@ -54,7 +55,7 @@ Extent:
     interval:
       -
         - '2021-09-19T00:00:00Z'
-        - ongoing
+        - null
 CubeDimensions:
   x:
     type: spatial
@@ -72,7 +73,7 @@ CubeDimensions:
     type: temporal
     extent:
       - '2021-09-19T00:00:00Z'
-      - ongoing
+      - null
     step: P1D
   bands:
     type: bands
