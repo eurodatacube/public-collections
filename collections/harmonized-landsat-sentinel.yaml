@@ -116,7 +116,7 @@ Extent:
   temporal:
     interval:
       -
-        - '2013-04-01T00:00:00Z'
+        - '2013-04-11T00:00:00Z'
         - null
 CubeDimensions:
   x:
@@ -198,7 +198,7 @@ CubeDimensions:
   t:
     type: temporal
     extent:
-      - '2013-04-01T00:00:00Z'
+      - '2013-04-11T00:00:00Z'
       - null
     step: null
   bands:
