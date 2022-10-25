@@ -162,6 +162,7 @@ CubeDimensions:
       - SEA_LEVEL_PRESSURE
       - TOTAL_COLUMN_OZONE
       - TOTAL_COLUMN_WATER_VAPOUR
+      - QUALITY_FLAGS
       - dataMask
 sci:citation: "Modified Copernicus Sentinel data [Year]/Sentinel Hub"
 Summaries:
@@ -410,9 +411,11 @@ Summaries:
       name: TOTAL_COLUMN_WATER_VAPOUR
       openeo:gsd:
         value:
-          - 0.188492063492033 
-          - 0.188492063492033 
+          - 0.188492063492033
+          - 0.188492063492033
         unit: °
+    - description: Classification and quality flags
+      name: QUALITY_FLAGS
     - description: The mask of data/no data pixels.
       name: dataMask
   gsd:
@@ -563,4 +566,4 @@ CRS:
   - "http://www.opengis.net/def/crs/EPSG/0/32760"
   - "http://www.opengis.net/def/crs/SR-ORG/0/98739"
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2022-07-04"
+RegistryEntryLastModified: "2022-10-25"
