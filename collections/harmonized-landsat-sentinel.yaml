@@ -268,46 +268,6 @@ Summaries:
           - 30
           - 30
         unit: m
-    - description: 	Red-Edge 1 - band 5 from Sentinel
-      name: RedEdge1
-      common_name: rededge
-      center_wavelength: 0.7041
-      full_width_half_max: 0.015
-      openeo:gsd:
-        value:
-          - 30
-          - 30
-        unit: m
-    - description: Red-Edge 2 - band 6 from Sentinel
-      name: RedEdge2
-      common_name: rededge
-      center_wavelength: 0.7405
-      full_width_half_max: 0.015
-      openeo:gsd:
-        value:
-          - 30
-          - 30
-        unit: m
-    - description: Red-Edge 3 - band 7 from Sentinel
-      name: RedEdge3
-      common_name: rededge
-      center_wavelength: 0.7828
-      full_width_half_max: 0.02
-      openeo:gsd:
-        value:
-          - 30
-          - 30
-        unit: m
-    - description: NIR Broad - band 8 from Sentinel
-      name: NIR_Broad
-      common_name: nir
-      center_wavelength: 0.8328
-      full_width_half_max: 0.106
-      openeo:gsd:
-        value:
-          - 30
-          - 30
-        unit: m
     - description: NIR Narrow - band 5 from Landsat and 8A from Sentinel
       name: NIR_Narrow
       common_name: nir08
@@ -338,41 +298,11 @@ Summaries:
           - 30
           - 30
         unit: m
-    - description: Water Vapor - band 9 from Sentinel
-      name: WaterVapor
-      common_name: nir09
-      center_wavelength: 0.9451
-      full_width_half_max: 0.02
-      openeo:gsd:
-        value:
-          - 30
-          - 30
-        unit: m
     - description: Cirrus - band 9 from Landsat and 10 from Sentinel
       name: Cirrus
       common_name: cirrus
       center_wavelength: 1.37343
       full_width_half_max: 0.02039
-      openeo:gsd:
-        value:
-          - 30
-          - 30
-        unit: m
-    - description: Thermal Infrared 1 - band 10 from Landsat
-      name: Thermal Infrared 1
-      common_name: lwir11
-      center_wavelength: 10.895
-      full_width_half_max: 0.8
-      openeo:gsd:
-        value:
-          - 30
-          - 30
-        unit: m
-    - description: Thermal Infrared 2 - band 11 from Landsat
-      name: Thermal Infrared 2
-      common_name: lwir12
-      center_wavelength: 12.005
-      full_width_half_max: 1
       openeo:gsd:
         value:
           - 30
@@ -563,4 +493,4 @@ CRS:
   - "http://www.opengis.net/def/crs/EPSG/0/32760"
   - "http://www.opengis.net/def/crs/SR-ORG/0/98739"
 RegistryEntryAdded: '2022-10-05'
-RegistryEntryLastModified: "2022-10-12"
+RegistryEntryLastModified: "2022-10-25"
