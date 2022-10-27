@@ -6,7 +6,7 @@ Description: |
 AdditionalInfoExternal:
   Title: Additional info
   Path: s5p-ch4-weekly/README.MD
-Image: s5p-ch4-weekly/ch4.png
+Image: s5p-ch4-weekly/ch4.PNG
 EDCBrowser: ""
 Resolution: 4.8 x 4.8 Km (across x along track)
 GeographicalCoverage: -180.0, -90.0, 180.0, 90.0
