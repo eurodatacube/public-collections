@@ -4,7 +4,7 @@ Description: |
   The European Space Agency (ESA) WorldCover is a global land cover map with 11 different land cover classes produced at 10m resolution based on combination of both Sentinel-1 and Sentinel-2 data. 
   In areas where Sentinel-2 images are covered by clouds for an extended period of time, Sentinel-1 data then provides complimentary information on the structural 
   characteristics of the observed land cover. Therefore, the combination of Sentinel-1 and Sentinel-2 data makes it possible to update the land cover map almost in real time. 
-  WorldCover Map has been produced for 2020 (01 January to 31 December) with a global coverage as part of the 5th Earth Observation Envelope Programme (EOEP-5). It provides valuable information for applications such as biodiversity, food security, carbon assessment and climate modelling.  
+  WorldCover Map has been produced for 2020 and 2021 with a global coverage as part of the 5th Earth Observation Envelope Programme (EOEP-5). It provides valuable information for applications such as biodiversity, food security, carbon assessment and climate modelling.  
   More information can be found on the [WorldCover website](https://esa-worldcover.org/en) and the [Product user Manual](https://esa-worldcover.s3.amazonaws.com/v100/2020/docs/WorldCover_PUM_V1.0.pdf).
 AdditionalInfoExternal:
     Title: Additional info
@@ -14,7 +14,7 @@ EOBrowser: https://apps.sentinel-hub.com/eo-browser/?zoom=10&lat=41.9&lng=12.5&t
 Image: worldcover/thumbnail.png
 Resolution: 10m
 GeographicalCoverage: Global land area
-TemporalAvailability: "2020-01-01"
+TemporalAvailability: "2020,2021"
 UpdateFrequency: Annually
 BandInformation: 
   Table:
@@ -79,7 +79,7 @@ Extent:
     interval:
       -
         - '2020-01-01T00:00:00Z'
-        - '2020-01-01T00:00:01Z'
+        - '2021-01-01T00:00:01Z'
 CubeDimensions:
   x:
     type: spatial
@@ -97,11 +97,11 @@ CubeDimensions:
     type: temporal
     extent:
       - '2020-01-01T00:00:00Z'
-      - '2020-01-01T00:00:01Z'
+      - '2021-01-01T00:00:01Z'
   bands:
     type: bands
     values:
       - Map
       - dataMask
 RegistryEntryAdded: "2021-10-19"
-RegistryEntryLastModified: "2022-08-09"
+RegistryEntryLastModified: "2022-10-28"
