@@ -214,7 +214,7 @@ CubeDimensions:
       - SAA
       - SZA
       - dataMask
-sci:citation:
+sci:citation: "Harmonized Landsat Sentinel product of the U.S. Geological Survey, processed with Sentinel Hub"
 Summaries:
   eo:bands:
     - description: Coastal Aerosol - band 1 from Landsat and Sentinel
