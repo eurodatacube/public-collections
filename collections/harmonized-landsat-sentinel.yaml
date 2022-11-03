@@ -145,9 +145,9 @@ CubeDimensions:
             unit: degree
       area: World
       bbox:
-        south_latitude: -85
+        south_latitude: -90
         west_longitude: -180
-        north_latitude: 85
+        north_latitude: 90
         east_longitude: 180
       id:
         authority: OGC
@@ -183,9 +183,9 @@ CubeDimensions:
             unit: degree
       area: World
       bbox:
-        south_latitude: -85
+        south_latitude: -90
         west_longitude: -180
-        north_latitude: 85
+        north_latitude: 90
         east_longitude: 180
       id:
         authority: OGC
