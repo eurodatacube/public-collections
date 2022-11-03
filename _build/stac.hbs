@@ -33,7 +33,13 @@
   "links": [
     {
       "href": "{{rootUrl}}stac/{{Slug}}.json",
-      "rel": "self"
+      "rel": "self",
+      "type": "application/json"
+    },
+    {
+      "href": "{{rootUrl}}stac/index.json",
+      "rel": "parent",
+      "type": "application/json"
     },
     {
       "href": "{{rootUrl}}{{Slug}}",
