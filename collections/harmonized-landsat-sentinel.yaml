@@ -8,6 +8,7 @@ Description: |
   April 2013 and Sentinel-2 data from November 2015.
 Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/hls/)"
 Image: harmonized-landsat-sentinel/harmonized-landsat-sentinel.png
+EOBrowser: https://apps.sentinel-hub.com/eo-browser/?zoom=12&lat=45.66169&lng=12.77023&themeId=DEFAULT-THEME&visualizationUrl=https%3A%2F%2Fservices.sentinel-hub.com%2Fogc%2Fwms%2Fa10a1628-76ea-4654-8961-6494cb74576d&datasetId=AWS_HLS&fromTime=2022-10-27T00%3A00%3A00.000Z&toTime=2022-10-27T23%3A59%3A59.999Z&layerId=TRUE-COLOR&demSource3D=%22MAPZEN%22
 Resolution: 30m
 GeographicalCoverage: Globally
 TemporalAvailability: April 2013 - ongoing
