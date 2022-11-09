@@ -3,7 +3,7 @@
 ## Short description
 
 Ocean Colour
- 
+
 Our planet is constantly changing. Some changes are fast – such as seasons and phytoplankton blooms – while others are slow and occur over decades to millennia. Some changes are caused by natural phenomena, while others, including global warming and ocean acidification, are caused by human activity. To see changes beyond the normal seasonal variability that is caused by our planet’s weather patterns, it is necessary to collect data over long periods of time. We have been using satellite sensors to collect such data and to observe our planet from space for more than two decades.
 
 One of the most important processes in nature is primary production, which occurs when plants take up carbon dioxide (CO2) from the atmosphere or the ocean and use the energy from the sun to fix the carbon that is necessary for their growth. Primary productivity is at the base of our food chain and key to all life on Earth. In the oceans, microscopic plants called phytoplankton are responsible for the majority of primary production.
