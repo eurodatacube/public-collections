@@ -3,8 +3,8 @@ Description: |
   This dataset contains global, monthly marine phytoplankton primary production products (in mg C m-2 d-1) for the period of 1998 to 2020 at 9 km spatial resolution. Data are provided in ZARR format with monthly averages. 
 AdditionalInfoExternal:
   Title: Additional info
-  Path: pythoplancton-primary-production/README.MD
-Image: pythoplancton-primary-production/npp.png
+  Path: phytoplankton-primary-production/README.MD
+Image: phytoplankton-primary-production/npp.png
 EDCBrowser: ""
 Resolution: gridded 9 Km spatial resolution
 GeographicalCoverage: -180.0, -90.0, 180.0, 90.0
