@@ -20,7 +20,7 @@ EOBrowser: https://apps.sentinel-hub.com/eo-browser/?zoom=10&lat=41.9&lng=12.5&t
 Image: vegetation-phenology-and-productivity-parameters-season-2/thumbnail.png
 Resolution: 10m
 GeographicalCoverage: Europe (Lat; 26N 72N Lon; -25W 45E)
-TemporalAvailability: 2017-01-01 - 2020-01-01
+TemporalAvailability: 2017-01-01 - 2021-01-01
 UpdateFrequency: Annually
 BandInformation:
   Table:
@@ -237,7 +237,7 @@ Extent:
     interval:
       -
         - '2017-01-01T00:00:00Z'
-        - '2020-01-01T00:00:00Z'
+        - '2021-01-01T00:00:00Z'
 CubeDimensions:
   x:
     type: spatial
@@ -319,7 +319,7 @@ CubeDimensions:
     type: temporal
     extent:
       - '2017-01-01T00:00:00Z'
-      - '2020-01-01T00:00:00Z'
+      - '2021-01-01T00:00:00Z'
     step: P1Y
   bands:
     type: bands
@@ -584,4 +584,4 @@ CRS:
   - "http://www.opengis.net/def/crs/EPSG/0/32760"
   - "http://www.opengis.net/def/crs/SR-ORG/0/98739"
 RegistryEntryAdded: '2021-10-14'
-RegistryEntryLastModified: "2022-07-22"
+RegistryEntryLastModified: "2022-11-09"
