@@ -538,8 +538,8 @@ Summaries:
   instruments:
     - msi
   eo:cloud_cover:
-    - 0
-    - 100
+    minimum: 0
+    maximum: 100
   platform:
     - sentinel-2a
     - sentinel-2b

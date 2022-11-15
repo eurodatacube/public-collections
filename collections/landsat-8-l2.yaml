@@ -479,8 +479,8 @@ Summaries:
         maximum:
           - 1
   eo:cloud_cover:
-    - 0
-    - 100
+    minimum: 0
+    maximum: 100
   platform:
     - landsat-8
     - landsat-9

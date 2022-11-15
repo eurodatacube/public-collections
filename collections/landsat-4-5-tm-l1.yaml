@@ -390,8 +390,8 @@ Summaries:
         maximum:
           - 1
   eo:cloud_cover:
-    - 0
-    - 100
+    minimum: 0
+    maximum: 100
   gsd:
     - 30
   platform:

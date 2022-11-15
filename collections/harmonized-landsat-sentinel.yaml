@@ -1,120 +1,104 @@
-Name: Landsat 8-9 L1
-OpenEOPID: LANDSAT8-9_L1
+Name: Harmonized Landsat Sentinel
+OpenEOPID: NASA_HARMONIZED_LANDSAT_SENTINEL
 Description: |
-  [Landsat 8-9 Level 1](https://www.usgs.gov/centers/eros/science/usgs-eros-archive-landsat-archives-landsat-8-9-operational-land-imager-and) collection includes both 
-  [Landsat 8](https://www.usgs.gov/landsat-missions/landsat-8?qt-science_support_page_related_con=0#qt-science_support_page_related_con) and the most recently launched 
-  [Landsat 9](https://www.usgs.gov/landsat-missions/landsat-9) satellites (provided by NASA/USGS), both carrying the Operational Land Imager (OLI) and 
-  the Thermal Infrared Sensor (TIRS) instruments, with 9 optical and 2 thermal bands. These two sensors provide seasonal coverage of the global landmass.
-  [Landsat 8-9 Level 1 data](https://www.usgs.gov/core-science-systems/nli/landsat/landsat-collection-2-level-1-data?qt-science_support_page_related_con=1#qt-science_support_page_related_con) 
-  from the most recently released [collection 2](https://www.usgs.gov/faqs/what-updates-are-being-made-landsat-collection-2?qt-news_science_products=0#qt-news_science_products), 
-  provides Top of Atmosphere Reflectance and Top of the Atmosphere Brightness Temperature products. Level 1 data are available since February 2013 for Landsat 8 and since January 2022 for Landsat 9.
-Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/landsat-8/)"
-Image: landsat-8-l1/landsat-8-l1.png
-EDCBrowser: https://browser.eurodatacube.com/?zoom=10&lat=41.96442&lng=12.44594&collectionId=landsat-8-l1&layerId=True%20color&type=sentinel-hub-edc&fromTime=2012-07-03T16%3A08%3A30.217Z&toTime=2019-01-01T16%3A08%3A30.217Z 
-EOBrowser: https://apps.sentinel-hub.com/eo-browser/?zoom=12&lat=45.66157&lng=12.77023&themeId=DEFAULT-THEME&visualizationUrl=https%3A%2F%2Fservices.sentinel-hub.com%2Fogc%2Fwms%2Fe35192fe-33a1-41f3-b798-b755e771c5a5&datasetId=AWS_LOTL1&fromTime=2021-03-02T00%3A00%3A00.000Z&toTime=2021-03-02T23%3A59%3A59.999Z&layerId=1_TRUE_COLOR
+  [Harmonized Landsat Sentinel](https://lpdaac.usgs.gov/data/get-started-data/collection-overview/missions/harmonized-landsat-sentinel-2-hls-overview/)
+  is a NASA initiative to produce a Virtual Constellation of surface reflectance (SR) data from the Operational Land Manager (OLI) and Multi-Spectral
+  Instrument (MSI) aboard the Landsat 8-9 and Sentinel-2 remote sensing satellites, respectively. The combined measurement enables global observations
+  of the land every 2-3 days. Input products are Landsat 8-9 Collection 2 L1 and S2-L1C top-of-atmosphere reflectance. Landsat data is available from
+  April 2013 and Sentinel-2 data from November 2015.
+Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/hls/)"
+Image: harmonized-landsat-sentinel/harmonized-landsat-sentinel.png
+EOBrowser: https://apps.sentinel-hub.com/eo-browser/?zoom=12&lat=45.66169&lng=12.77023&themeId=DEFAULT-THEME&visualizationUrl=https%3A%2F%2Fservices.sentinel-hub.com%2Fogc%2Fwms%2Fa10a1628-76ea-4654-8961-6494cb74576d&datasetId=AWS_HLS&fromTime=2022-10-27T00%3A00%3A00.000Z&toTime=2022-10-27T23%3A59%3A59.999Z&layerId=TRUE-COLOR&demSource3D=%22MAPZEN%22
 Resolution: 30m
-GeographicalCoverage: Land ([more info](https://landsat.gsfc.nasa.gov/landsat-8/mission-details))
-TemporalAvailability: 
-  Landsat 8 from February 2013 - ongoing
-  Landsat 9 from January 2022 - ongoing
-UpdateFrequency: Landsat data are added regularly,as soon as they are available in USGS AWS cloud
-BandInformation: Information about [bands and data](https://docs.sentinel-hub.com/api/latest/data/landsat-8/#available-bands-and-data)
+GeographicalCoverage: Globally
+TemporalAvailability: April 2013 - ongoing
+UpdateFrequency: 2-3 days
+BandInformation: "Information about [bands and data](https://docs.sentinel-hub.com/api/latest/data/hls/#available-bands-and-data)"
 Contact: https://forum.sentinel-hub.com/c/euro-data-cube/25
-Provider: "[USGS](https://www.usgs.gov/)"
+Provider: "[Land Processes Distributed Active Archive Center (LP DAAC)](https://lpdaac.usgs.gov/)"
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
 Tags:
-  - sentinel hub
   - xcube
+  - sentinel hub
   - raster
   - systematic
   - satellite imagery
+  - multi spectral imagery
+  - agriculture
   - natural resource
+  - disaster response
   - vegetation monitoring
   - LULC mapping
   - LULC change
-  - surface temperature
   - open data
+  - race challenges
+  - copernicus
+  - sentinel
   - landsat
 License: "[License](https://www.usgs.gov/centers/eros/data-citation?qt-science_support_page_related_con=0#qt-science_support_page_related_con)"
-LicenseType: proprietary 
+LicenseType: proprietary
 LicenseUrl: https://www.usgs.gov/centers/eros/data-citation?qt-science_support_page_related_con=0#qt-science_support_page_related_con
 Resources:
   - Group: Sentinel Hub Resources
     EndPoint: https://services-uswest2.sentinel-hub.com
     Name: Sentinel Hub
     Role: processor
-    Type: landsat-ot-l1 
-    Notes: Global since Feb 2013
+    Type: hls
+    Notes: Globally since April 2013
     Primary: true
-  - Group: xcube Resources
-  - DatasetName: landsat-ot-l1
-WMTS:
-  - href: https://services-uswest2.sentinel-hub.com/ogc/wmts/fc306b9b-4448-41d2-922d-6db03b26610e
-    layer_id: TRUE-COLOR
-    dimensions: 
-      warnings: true
 CustomScripts:
-    Title: Collection of Landsat-8 custom scripts
-    URL: https://custom-scripts.sentinel-hub.com/#landsat-8
+  Title: Collection of Harmonized Landsat Sentinel custom scripts
+  URL: https://custom-scripts.sentinel-hub.com/#harmonized-landsat-sentinel
+WMTS:
+  - href: https://services-uswest2.sentinel-hub.com/ogc/wmts/1295e9d1-4d45-4818-bc74-d52ac1c2fd67
+    layer_id: TRUE-COLOR
+    dimensions:
+      warnings: true
 Configurations:
   - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
     rel: "about"
     type: "text/html"
     title: "Details about running Evalscripts"
-  - href: "https://custom-scripts.sentinel-hub.com/landsat-8/true-color/script.js"
+  - href: https://custom-scripts.sentinel-hub.com/custom-scripts/hls/true_color/script.js
     rel: "processing-expression"
     type: "application/javascript"
     title: "Evalscript to generate True color imagery"
-    sentinelhub:layer_name: "True color"
+    sentinelhub:layer_name: True Color
     sentinelhub:mosaicking_order: "mostRecent"
     sentinelhub:upsampling: "BICUBIC"
-  - href: "https://custom-scripts.sentinel-hub.com/landsat-8/true-color-pansharpened/script.js"
+  - href: https://custom-scripts.sentinel-hub.com/custom-scripts/hls/false_color/script.js
     rel: "processing-expression"
     type: "application/javascript"
-    title: "Evalscript to generate True color - pansharpened imagery"
-    sentinelhub:layer_name: "True color - pansharpened"
+    title: "Evalscript to generate False Color imagery"
+    sentinelhub:layer_name: False Color
     sentinelhub:mosaicking_order: "mostRecent"
     sentinelhub:upsampling: "BICUBIC"
-  - href: "https://custom-scripts.sentinel-hub.com/landsat-8/false-color/script.js"
-    rel: "processing-expression"
-    type: "application/javascript"
-    title: "Evalscript to generate False color imagery"
-    sentinelhub:layer_name: "False color"
-    sentinelhub:mosaicking_order: "mostRecent"
-    sentinelhub:upsampling: "BICUBIC"
-  - href: "https://custom-scripts.sentinel-hub.com/landsat-8/swir/script.js"
+  - href: https://custom-scripts.sentinel-hub.com/custom-scripts/hls/swir/script.js
     rel: "processing-expression"
     type: "application/javascript"
     title: "Evalscript to generate SWIR imagery"
-    sentinelhub:layer_name: "SWIR"
+    sentinelhub:layer_name: SWIR
     sentinelhub:mosaicking_order: "mostRecent"
     sentinelhub:upsampling: "BICUBIC"
-  - href: "https://custom-scripts.sentinel-hub.com/landsat-8/ndvi/script.js"
+  - href: https://custom-scripts.sentinel-hub.com/custom-scripts/hls/ndvi/script.js
     rel: "processing-expression"
     type: "application/javascript"
     title: "Evalscript to generate NDVI imagery"
-    sentinelhub:layer_name: "NDVI"
+    sentinelhub:layer_name: NDVI
     sentinelhub:mosaicking_order: "mostRecent"
-    sentinelhub:upsampling: "NEAREST"
-  - href: "https://custom-scripts.sentinel-hub.com/landsat-8/ndmi/script.js"
+    sentinelhub:upsampling: "BICUBIC"
+  - href: https://custom-scripts.sentinel-hub.com/custom-scripts/hls/ndmi/script.js
     rel: "processing-expression"
     type: "application/javascript"
     title: "Evalscript to generate NDMI imagery"
-    sentinelhub:layer_name: "NDMI"
+    sentinelhub:layer_name: NDMI
     sentinelhub:mosaicking_order: "mostRecent"
-    sentinelhub:upsampling: "NEAREST"
-  - href: "https://custom-scripts.sentinel-hub.com/landsat-8/ndwi/script.js"
+    sentinelhub:upsampling: "BICUBIC"
+  - href: https://custom-scripts.sentinel-hub.com/custom-scripts/hls/ndwi/script.js
     rel: "processing-expression"
     type: "application/javascript"
     title: "Evalscript to generate NDWI imagery"
-    sentinelhub:layer_name: "NDWI"
-    sentinelhub:mosaicking_order: "mostRecent"
-    sentinelhub:upsampling: "NEAREST"
-  - href: "https://custom-scripts.sentinel-hub.com/landsat-8/thermal/script.js"
-    rel: "processing-expression"
-    type: "application/javascript"
-    title: "Evalscript to generate Thermal imagery"
-    sentinelhub:layer_name: "Thermal"
+    sentinelhub:layer_name: NDWI
     sentinelhub:mosaicking_order: "mostRecent"
     sentinelhub:upsampling: "BICUBIC"
 Extent:
@@ -128,7 +112,7 @@ Extent:
   temporal:
     interval:
       -
-        - '2013-01-01T00:00:00Z'
+        - '2013-04-11T00:00:00Z'
         - null
 CubeDimensions:
   x:
@@ -137,7 +121,7 @@ CubeDimensions:
     extent:
       - -180
       - 180
-    reference_system:
+    reference_system: 
       $schema: https://proj.org/schemas/v0.4/projjson.schema.json
       type: GeodeticCRS
       name: AUTO 42001 (Universal Transverse Mercator)
@@ -173,8 +157,8 @@ CubeDimensions:
     type: spatial
     axis: y
     extent:
-      - -85
       - 85
+      - -85
     reference_system:
       $schema: https://proj.org/schemas/v0.4/projjson.schema.json
       type: GeodeticCRS
@@ -210,231 +194,116 @@ CubeDimensions:
   t:
     type: temporal
     extent:
-      - '2013-01-01T00:00:00Z'
+      - '2013-04-11T00:00:00Z'
       - null
-    step: P5D
+    step: null
   bands:
     type: bands
     values:
-      - B01
-      - B02
-      - B03
-      - B04
-      - B05
-      - B06
-      - B07
-      - B08
-      - B09
-      - B10
-      - B11
-      - BQA
-      - QA_RADSAT
+      - CoastalAerosol
+      - Blue
+      - Green
+      - Red
+      - NIR_Narrow
+      - SWIR1
+      - SWIR2
+      - Cirrus
+      - QA
       - VAA
       - VZA
       - SAA
       - SZA
       - dataMask
-sci:citation: "Landsat 8-9 product courtesy of the U.S. Geological Survey, processed with Sentinel Hub"
+sci:citation: "Harmonized Landsat Sentinel product of the U.S. Geological Survey, processed with Sentinel Hub"
 Summaries:
-  instruments:
-    - oli
-    - tirs
-  sat:orbit_state:
-    - ascending
-    - descending
   eo:bands:
-    - center_wavelength: 0.44296
+    - description: Coastal Aerosol - band 1 from Landsat and Sentinel
+      name: CoastalAerosol
       common_name: coastal
-      description: Ultra Blue (443 nm)
+      center_wavelength: 0.44296
       full_width_half_max: 0.01598
-      name: B01
       openeo:gsd:
         value:
           - 30
           - 30
         unit: m
-      data_type: float32
-      statistics:
-        minimum:
-          - 0
-        maximum:
-          - 0.4
-    - center_wavelength: 0.48204
+    - description: Blue - band 2 from Landsat and Sentinel
+      name: Blue
       common_name: blue
-      description: Blue (482 nm)
+      center_wavelength: 0.48204
       full_width_half_max: 0.06004
-      name: B02
       openeo:gsd:
         value:
           - 30
           - 30
         unit: m
-      data_type: float32
-      statistics:
-        minimum:
-          - 0
-        maximum:
-          - 0.4
-    - center_wavelength: 0.56141
+    - description: Green - band 3 from Landsat and Sentinel
+      name: Green
       common_name: green
-      description: Green (561.5 nm)
+      center_wavelength: 0.56141
       full_width_half_max: 0.05733
-      name: B03
       openeo:gsd:
         value:
           - 30
           - 30
         unit: m
-      data_type: float32
-      statistics:
-        minimum:
-          - 0
-        maximum:
-          - 0.4
-    - center_wavelength: 0.65459
+    - description: Red - band 4 from Landsat and Sentinel
+      name: Red
       common_name: red
-      description: Red (654.5 nm)
+      center_wavelength: 0.65459
       full_width_half_max: 0.03747
-      name: B04
       openeo:gsd:
         value:
           - 30
           - 30
         unit: m
-      data_type: float32
-      statistics:
-        minimum:
-          - 0
-        maximum:
-          - 0.4
-    - center_wavelength: 0.86467
+    - description: NIR Narrow - band 5 from Landsat and 8A from Sentinel
+      name: NIR_Narrow
       common_name: nir08
-      description: Near Infrared (NIR) (865 nm)
+      center_wavelength: 0.86467
       full_width_half_max: 0.02825
-      name: B05
       openeo:gsd:
         value:
           - 30
           - 30
         unit: m
-      data_type: float32
-      statistics:
-        minimum:
-          - 0
-        maximum:
-          - 0.4
-    - center_wavelength: 1.60886
+    - description: SWIR 1 - band 6 from Landsat and 11 from Sentinel
+      name: SWIR1
       common_name: swir16
-      description: Shortwave Infrared (SWIR) 1 (1608.5 nm)
+      center_wavelength: 1.60886
       full_width_half_max: 0.08472
-      name: B06
       openeo:gsd:
         value:
           - 30
           - 30
         unit: m
-      data_type: float32
-      statistics:
-        minimum:
-          - 0
-        maximum:
-          - 0.4
-    - center_wavelength: 2.20073
+    - description: SWIR 2 - band 7 from Landsat and 12 from Sentinel
+      name: SWIR2
       common_name: swir22
-      description: Shortwave Infrared (SWIR) 2 (2200.5 nm)
+      center_wavelength: 2.20073
       full_width_half_max: 0.18666
-      name: B07
       openeo:gsd:
         value:
           - 30
           - 30
         unit: m
-      data_type: float32
-      statistics:
-        minimum:
-          - 0
-        maximum:
-          - 0.4
-    - center_wavelength: 0.5895
-      common_name: pan
-      description: Panchromatic (589.5 nm)
-      full_width_half_max: 0.1724
-      name: B08
-      openeo:gsd:
-        value:
-          - 15
-          - 15
-        unit: m
-      data_type: float32
-      statistics:
-        minimum:
-          - 0
-        maximum:
-          - 0.4
-    - center_wavelength: 1.37343
+    - description: Cirrus - band 9 from Landsat and 10 from Sentinel
+      name: Cirrus
       common_name: cirrus
-      description: Cirrus (1373.5 nm)
+      center_wavelength: 1.37343
       full_width_half_max: 0.02039
-      name: B09
       openeo:gsd:
         value:
           - 30
           - 30
         unit: m
-      data_type: float32
-      statistics:
-        minimum:
-          - 0
-        maximum:
-          - 0.4
-    - center_wavelength: 10.895
-      common_name: lwir11
-      description: Thermal Infrared (TIRS) 1 (10895 nm)
-      full_width_half_max: 0.8
-      name: B10
-      openeo:gsd:
-        value:
-          - 30
-          - 30
-        unit: m
-      data_type: float32
-      statistics:
-        minimum:
-          - 250
-        maximum:
-          - 320
-    - center_wavelength: 12.005
-      common_name: lwir12
-      description: Thermal Infrared (TIRS) 2 (12005 nm)
-      full_width_half_max: 1
-      name: B11
-      openeo:gsd:
-        value:
-          - 30
-          - 30
-        unit: m
-      data_type: float32
-      statistics:
-        minimum:
-          - 250
-        maximum:
-          - 320
     - description: Quality Assessment band (QA)
-      name: BQA
+      name: QA
       openeo:gsd:
         value:
           - 30
           - 30
         unit: m
-      data_type: UINT16
-    - description: Radiometric Saturation and Terrain Occlusion QA Band
-      name: QA_RADSAT
-      openeo:gsd:
-        value:
-          - 30
-          - 30
-        unit: m
-      data_type: UINT16
     - description: View (sensor) Azimuth Angle
       name: VAA
       openeo:gsd:
@@ -442,7 +311,6 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: float32
     - description: View (sensor) Zenith Angle
       name: VZA
       openeo:gsd:
@@ -450,7 +318,6 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: float32
     - description: Sun Azimuth Angle
       name: SAA
       openeo:gsd:
@@ -458,7 +325,6 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: float32
     - description: Sun Zenith Angle
       name: SZA
       openeo:gsd:
@@ -466,21 +332,13 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: float32
     - description: The mask of data/no data pixels.
       name: dataMask
-      data_type: UINT8
-      statistics:
-        minimum:
-          - 0
-        maximum:
-          - 1
+  gsd:
+    - 30
   eo:cloud_cover:
     minimum: 0
     maximum: 100
-  platform:
-    - landsat-8
-    - landsat-9
 CRS:
   - "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
   - "http://www.opengis.net/def/crs/EPSG/0/2154"
@@ -623,5 +481,5 @@ CRS:
   - "http://www.opengis.net/def/crs/EPSG/0/32759"
   - "http://www.opengis.net/def/crs/EPSG/0/32760"
   - "http://www.opengis.net/def/crs/SR-ORG/0/98739"
-RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2022-09-29"
+RegistryEntryAdded: '2022-10-05'
+RegistryEntryLastModified: "2022-11-11"
