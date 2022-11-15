@@ -1,0 +1,117 @@
+Name: EuroCrops
+Description: |
+  EuroCrops is a dataset collection combining all publicly available self-declared crop reporting datasets from countries of the European Union. The project is funded by the German Space Agency at DLR on behalf of the Federal Ministry for Economic Affairs and Climate Action (BMWK). This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+  
+  Right now EuroCrops only includes vector data, but stay tuned for a version that includes satellite imagery!
+  
+  For any questions, please refer to our [FAQs](https://github.com/maja601/EuroCrops/wiki/FAQs) or use the Discussions/Issues to reach out to us.
+Image: eurocrops/thumbnail.png
+Explore: "[Run algorithm in EDC Browser](https://browser.eurodatacube.com/?zoom=10&lat=41.9&lng=12.5&fromTime=1970-01-01T00%3A00%3A00.000Z&toTime=2022-11-14T13%3A45%3A29.045Z&algorithm=eurocrops)"
+GeographicalCoverage:
+  - Austria
+  - Belgium
+  - Germany
+  - Denmark
+  - Estonia
+  - Spain
+  - France
+  - Croatia
+  - Lithuania
+  - Latvia
+  - Netherlands
+  - Portugal
+  - Romania
+  - Sweden
+  - Slovenia
+  - Slovakia
+TemporalAvailability:
+  Table:
+    Columns:
+      - Name: Name
+        Title: Country
+      - Name: Description
+        Title: Year
+    Rows:
+      - Name: Austria
+        Description: 2021
+      - Name: Belgium
+        Description: 2021
+      - Name: Germany
+        Description: 2021
+      - Name: Denmark
+        Description: 2019
+      - Name: Estonia
+        Description: 2021
+      - Name: Spain
+        Description: 2020
+      - Name: France
+        Description: 2018
+      - Name: Croatia
+        Description: 2020
+      - Name: Lithuania
+        Description: 2021
+      - Name: Latvia
+        Description: 2021
+      - Name: Netherlands
+        Description: 2021
+      - Name: Portugal
+        Description: 2021
+      - Name: Romania
+        Description: Data is collected across different years.
+      - Name: Sweden
+        Description: 2021
+      - Name: Slovenia
+        Description: 2021
+      - Name: Slovakia
+        Description: 2021
+  
+UpdateFrequency: On-demand
+Attributes:
+  Table:
+    Columns:
+      - Name: Name
+        Title: Name
+      - Name: Description
+        Title: Description
+      - Name: Type
+        Title: Type
+    Rows:
+      - Name: aoi
+        Description: Area of interest
+        Type: Polyon or bounding box
+      - Name: time interval
+        Description: A time interval to retrieve Sentinel-2 data
+        Type: String
+      - Name: evalscript
+        Description: An evalscript specifying which Sentinel-2 bands or derived indices, e.g. NDVI, to download
+        Type: String
+      - Name: Bucket name
+        Description: Required AWS S3 Bucket name, must be in eu-central-1
+        Type: String
+      - Name: Project folder
+        Description: The location of the project folder on the provided AWS S3 bucket
+        Type: String
+      - Name: AWS access key ID
+        Description: The AWS access key ID of the IAM user with read and write access to the bucket
+        Type: String
+      - Name: AWS secret access key
+        Description: The AWS secret access key of the IAM user with read and write access to the bucket
+        Type: String
+ProducedResults: |
+  The produced output are [Sentinel Hub Statistical API](https://docs.sentinel-hub.com/api/latest/api/statistical/) results for each parcel saved to the user's S3 bucket in the form of JSON files.
+Pricing: |
+  Calculation the price of an order is proportionate to the amount of data that will have to be processed. Processing Units (PUs) for this algorithm are directly proportional to:
+  the number of polygons for which you want to compute signals for; the average area of the polygons; the length of the time interval.
+License: "[Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). Attribution: Contains modified Copernicus Sentinel data (year) processed by Sentinel Hub"
+Contact: https://forum.sentinel-hub.com/c/euro-data-cube/
+Provider: "[Sentinel Hub](https://www.sentinel-hub.com/)"
+ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
+Tags:
+  - on-demand
+  - crops products
+  - sentinel hub
+  - derived Data
+  - sentinel-2
+Resources: []
+RegistryEntryAdded: "2022-11-15"
+RegistryEntryLastModified: "2022-11-15"
