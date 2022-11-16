@@ -25,7 +25,7 @@ Description: |
     - The signals are downloaded to the  user's AWS S3 bucket in the form of `.json` files.
 Image: eurocrops/thumbnail.png
 Explore: "[Run algorithm in EDC Browser](https://browser.eurodatacube.com/?zoom=10&lat=41.9&lng=12.5&fromTime=1970-01-01T00%3A00%3A00.000Z&toTime=2022-11-14T13%3A45%3A29.045Z&algorithm=eurocrops)"
-GeographicalCoverage:
+GeographicalCoverage: |
   - Austria
   - Belgium
   - Germany
@@ -42,46 +42,23 @@ GeographicalCoverage:
   - Sweden
   - Slovenia
   - Slovakia
-TemporalAvailability:
-  Table:
-    Columns:
-      - Name: Name
-        Title: Country
-      - Name: Description
-        Title: Year
-    Rows:
-      - Name: Austria
-        Description: 2021
-      - Name: Belgium
-        Description: 2021
-      - Name: Germany
-        Description: 2021
-      - Name: Denmark
-        Description: 2019
-      - Name: Estonia
-        Description: 2021
-      - Name: Spain
-        Description: 2020
-      - Name: France
-        Description: 2018
-      - Name: Croatia
-        Description: 2020
-      - Name: Lithuania
-        Description: 2021
-      - Name: Latvia
-        Description: 2021
-      - Name: Netherlands
-        Description: 2021
-      - Name: Portugal
-        Description: 2021
-      - Name: Romania
-        Description: Data is collected across different years.
-      - Name: Sweden
-        Description: 2021
-      - Name: Slovenia
-        Description: 2021
-      - Name: Slovakia
-        Description: 2021
+TemporalAvailability: |
+  - Austria: 2021
+  - Belgium: 2021
+  - Germany: 2021
+  - Denmark: 2019
+  - Estonia: 2021
+  - Spain: 2020
+  - France: 2018
+  - Croatia: 2020
+  - Lithuania: 2021
+  - Latvia: 2021
+  - Netherlands: 2021
+  - Portugal: 2021
+  - Romania: Data is collected across different years.
+  - Sweden: 2021
+  - Slovenia: 2021
+  - Slovakia: 2021
   
 UpdateFrequency: On-demand
 Attributes:
@@ -118,7 +95,7 @@ Attributes:
 ProducedResults: |
   The produced output are [Sentinel Hub Statistical API](https://docs.sentinel-hub.com/api/latest/api/statistical/) results for each parcel saved to the user's S3 bucket in the form of JSON files.
 Pricing: |
-  Calculation the price of an order is proportionate to the amount of data that will have to be processed. Processing Units (PUs) for this algorithm are directly proportional to:
+  Calculation of the price of an order is proportionate to the amount of data that will have to be processed. Processing Units (PUs) for this algorithm are directly proportional to:
   the number of polygons for which you want to compute signals for; the average area of the polygons; the length of the time interval.
 License: "[Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). Attribution: Contains modified Copernicus Sentinel data (year) processed by Sentinel Hub"
 Contact: https://forum.sentinel-hub.com/c/euro-data-cube/
