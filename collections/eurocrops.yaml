@@ -1,0 +1,112 @@
+Name: EuroCrops
+Description: |
+  EuroCrops is a dataset collection combining all publicly available self-declared crop reporting datasets from countries of the European Union.
+  The project is funded by the German Space Agency at DLR on behalf of the Federal Ministry for Economic Affairs and Climate Action (BMWK). 
+  
+  This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+  
+  An algorithm for retrieval of [Eurocrops](https://github.com/maja601/EuroCrops) Sentinel-2 signals based on an area of interest.
+  
+  The algorithm allows the users to specify:
+    * an area-of-interest (AoI);
+    * a time interval for which they want to retrieve Sentinel-2 data;
+    * an evalscript specifying which Sentinel-2 bands or derived indices, e.g. NDVI, to download.
+  
+  Provided the above parameters, the algorithm computes Sentinel-2 time-series for the specified bands/indices for each polygon in the Eurocrops dataset that intersects the AoI. The computed signals are aggregated spatially over the polygon, and temporally over one day. 
+  
+  Such signals constitute the basis for many applications, in particular in monitoring agricultural activity. Please refer to this [blog-post series](https://medium.com/sentinel-hub/area-monitoring-concept-effc2c262583) for examples on how these signals can be used.
+  
+  The tool relies on AWS S3 bucket to store the results, thus read/write access to an AWS S3 bucket is required. 
+  
+  The process consists of the following steps:
+    - Retrieve Eurocrops parcels for a chosen AoI. This is done with the help of [GeoDB](https://github.com/dcs4cop/xcube-geodb).
+    - The parcels are saved to the specified folder on the user's AWS S3 bucket. 
+    - Retrieve signals for the parcels in the AoI for the specified time interval using Sentinel Hub [Batch Statistical API](https://docs.sentinel-hub.com/api/latest/api/batch-statistical/).
+    - The signals are downloaded to the  user's AWS S3 bucket in the form of `.json` files.
+Image: eurocrops/thumbnail.png
+Explore: "[Run algorithm in EDC Browser](https://browser.eurodatacube.com/?zoom=10&lat=41.9&lng=12.5&fromTime=1970-01-01T00%3A00%3A00.000Z&toTime=2022-11-14T13%3A45%3A29.045Z&algorithm=eurocrops)"
+GeographicalCoverage: |
+  - Austria
+  - Belgium
+  - Germany
+  - Denmark
+  - Estonia
+  - Spain
+  - France
+  - Croatia
+  - Lithuania
+  - Latvia
+  - Netherlands
+  - Portugal
+  - Romania
+  - Sweden
+  - Slovenia
+  - Slovakia
+TemporalAvailability: |
+  - Austria: 2021
+  - Belgium: 2021
+  - Germany: 2021
+  - Denmark: 2019
+  - Estonia: 2021
+  - Spain: 2020
+  - France: 2018
+  - Croatia: 2020
+  - Lithuania: 2021
+  - Latvia: 2021
+  - Netherlands: 2021
+  - Portugal: 2021
+  - Romania: Data is collected across different years.
+  - Sweden: 2021
+  - Slovenia: 2021
+  - Slovakia: 2021
+  
+UpdateFrequency: On-demand
+Attributes:
+  Table:
+    Columns:
+      - Name: Name
+        Title: Name
+      - Name: Description
+        Title: Description
+      - Name: Type
+        Title: Type
+    Rows:
+      - Name: Area of Interest
+        Description: Area of interest
+        Type: Polyon or bounding box
+      - Name: Time range
+        Description: A time range to retrieve Sentinel-2 data
+        Type: String
+      - Name: Bucket Name
+        Description: Required AWS S3 Bucket name, must be in eu-central-1
+        Type: String
+      - Name: Project folder
+        Description: The location of the project folder on the provided AWS S3 bucket
+        Type: String
+      - Name: AWS access key ID
+        Description: The AWS access key ID of the IAM user with read and write access to the bucket
+        Type: String
+      - Name: AWS secret access key
+        Description: The AWS secret access key of the IAM user with read and write access to the bucket
+        Type: String
+      - Name: Evalscript path
+        Description: An evalscript specifying which Sentinel-2 bands or derived indices, e.g. NDVI, to download
+        Type: String
+ProducedResults: |
+  The produced output are [Sentinel Hub Statistical API](https://docs.sentinel-hub.com/api/latest/api/statistical/) results for each parcel saved to the user's S3 bucket in the form of JSON files.
+Pricing: |
+  Calculation of the price of an order is proportionate to the amount of data that will have to be processed. Processing Units (PUs) for this algorithm are directly proportional to:
+  the number of polygons for which you want to compute signals for; the average area of the polygons; the length of the time interval.
+License: "[Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). Attribution: Contains modified Copernicus Sentinel data (year) processed by Sentinel Hub"
+Contact: https://forum.sentinel-hub.com/c/euro-data-cube/
+Provider: "[Sentinel Hub](https://www.sentinel-hub.com/)"
+ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
+Tags:
+  - on-demand
+  - crops products
+  - sentinel hub
+  - derived Data
+  - sentinel-2
+Resources: []
+RegistryEntryAdded: "2022-11-15"
+RegistryEntryLastModified: "2022-11-15"
