@@ -244,12 +244,12 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: float32
+      data_type: FLOAT32
       statistics:
         minimum:
           - 0
         maximum:
-          - 0.4
+          - 1
     - name: B02
       common_name: green
       center_wavelength: 0.569
@@ -259,12 +259,12 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: float32
+      data_type: FLOAT32
       statistics:
         minimum:
           - 0
         maximum:
-          - 0.4
+          - 1
     - name: B03
       common_name: red
       center_wavelength: 0.66
@@ -274,12 +274,12 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: float32
+      data_type: FLOAT32
       statistics:
         minimum:
           - 0
         maximum:
-          - 0.4
+          - 1
     - name: B04
       common_name: nir
       center_wavelength: 0.84
@@ -289,12 +289,12 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: float32
+      data_type: FLOAT32
       statistics:
         minimum:
           - 0
         maximum:
-          - 0.4
+          - 1
     - name: B05
       common_name: swir16
       center_wavelength: 1.676
@@ -304,12 +304,12 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: float32
+      data_type: FLOAT32
       statistics:
         minimum:
           - 0
         maximum:
-          - 0.4
+          - 1
     - name: B06
       common_name: lwir
       center_wavelength: 11.435
@@ -319,7 +319,7 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: float32
+      data_type: FLOAT32
       statistics:
         minimum:
           - 250
@@ -334,12 +334,12 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: float32
+      data_type: FLOAT32
       statistics:
         minimum:
           - 0
         maximum:
-          - 0.4
+          - 1
     - description: Quality Assessment band (QA)
       name: BQA
       openeo:gsd:
@@ -363,7 +363,7 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: float32
+      data_type: INT16
     - description: Level-1 thermal band converted to thermal surface radiance
       name: ST_TRAD
       openeo:gsd:
@@ -371,7 +371,7 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: float32
+      data_type: INT16
     - description: Upwelled Radiance
       name: ST_URAD
       openeo:gsd:
@@ -379,7 +379,7 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: float32
+      data_type: INT16
     - description: Downwelled Radiance
       name: ST_DRAD
       openeo:gsd:
@@ -387,7 +387,7 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: float32
+      data_type: INT16
     - description: Atmospheric Transmittance
       name: ST_ATRAN
       openeo:gsd:
@@ -395,7 +395,7 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: float32
+      data_type: INT16
       statistics:
         minimum:
           - 0
@@ -408,7 +408,7 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: float32
+      data_type: INT16
       statistics:
         minimum:
           - 0
@@ -421,7 +421,7 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: float32
+      data_type: INT16
       statistics:
         minimum:
           - 0
@@ -434,7 +434,7 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: float32
+      data_type: INT16
       statistics:
         minimum:
           - 0
@@ -447,7 +447,7 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: float32
+      data_type: INT16
       statistics:
         minimum:
           - 0
@@ -620,4 +620,4 @@ CRS:
   - "http://www.opengis.net/def/crs/EPSG/0/32760"
   - "http://www.opengis.net/def/crs/SR-ORG/0/98739"
 RegistryEntryAdded: "2021-05-12"
-RegistryEntryLastModified: "2022-09-29"
+RegistryEntryLastModified: "2022-11-15"

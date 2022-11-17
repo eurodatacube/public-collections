@@ -138,7 +138,7 @@ Summaries:
           - 0.000277777777778
           - 0.000277777777778
         unit: °
-      data_type: float32
+      data_type: FLOAT32
       statistics:
         minimum:
           - -11000
@@ -153,4 +153,4 @@ Summaries:
         maximum:
           - 1
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2022-09-29"
+RegistryEntryLastModified: "2022-11-15"

@@ -209,12 +209,12 @@ Summaries:
           - 60
           - 60
         unit: m
-      data_type: float32
+      data_type: FLOAT32
       statistics:
         minimum:
           - 0
         maximum:
-          - 0.4
+          - 1
     - center_wavelength: 0.65
       common_name: red
       description: Red (600-700 nm)
@@ -225,12 +225,12 @@ Summaries:
           - 60
           - 60
         unit: m
-      data_type: float32
+      data_type: FLOAT32
       statistics:
         minimum:
           - 0
         maximum:
-          - 0.4
+          - 1
     - center_wavelength: 0.75
       common_name: rededge
       description: Ultra Red (700-800 nm)
@@ -241,12 +241,12 @@ Summaries:
           - 60
           - 60
         unit: m
-      data_type: float32
+      data_type: FLOAT32
       statistics:
         minimum:
           - 0
         maximum:
-          - 0.4
+          - 1
     - center_wavelength: 0.95
       common_name: nir09
       description: Near Infrared (NIR) (800-1100 nm)
@@ -257,12 +257,12 @@ Summaries:
           - 60
           - 60
         unit: m
-      data_type: float32
+      data_type: FLOAT32
       statistics:
         minimum:
           - 0
         maximum:
-          - 0.4
+          - 1
     - description: Quality Assessment band (QA)
       name: BQA
       openeo:gsd:
@@ -439,4 +439,4 @@ CRS:
   - "http://www.opengis.net/def/crs/EPSG/0/32760"
   - "http://www.opengis.net/def/crs/SR-ORG/0/98739"
 RegistryEntryAdded: "2021-07-16"
-RegistryEntryLastModified: "2022-09-27"
+RegistryEntryLastModified: "2022-11-15"

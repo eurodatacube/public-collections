@@ -169,7 +169,7 @@ Summaries:
           - 0.004960317460317
           - 0.004960317460317
         unit: °
-      data_type: float32
+      data_type: FLOAT32
       statistics:
         minimum:
           - 0
@@ -185,7 +185,7 @@ Summaries:
           - 0.004960317460317
           - 0.004960317460317
         unit: °
-      data_type: float32
+      data_type: FLOAT32
       statistics:
         minimum:
           - 0
@@ -201,7 +201,7 @@ Summaries:
           - 0.004960317460317
           - 0.004960317460317
         unit: °
-      data_type: float32
+      data_type: FLOAT32
       statistics:
         minimum:
           - 0
@@ -217,7 +217,7 @@ Summaries:
           - 0.004960317460317
           - 0.004960317460317
         unit: °
-      data_type: float32
+      data_type: FLOAT32
       statistics:
         minimum:
           - 0
@@ -232,7 +232,7 @@ Summaries:
           - 0.004960317460317
           - 0.004960317460317
         unit: °
-      data_type: float32
+      data_type: FLOAT32
       statistics:
         minimum:
           - 0
@@ -248,7 +248,7 @@ Summaries:
           - 0.004960317460317
           - 0.004960317460317
         unit: °
-      data_type: float32
+      data_type: FLOAT32
       statistics:
         minimum:
           - 0
@@ -264,7 +264,7 @@ Summaries:
           - 0.004960317460317
           - 0.004960317460317
         unit: °
-      data_type: float32
+      data_type: FLOAT32
       statistics:
         minimum:
           - 0
@@ -426,4 +426,4 @@ CRS:
   - "http://www.opengis.net/def/crs/EPSG/0/32760"
   - "http://www.opengis.net/def/crs/SR-ORG/0/98739"
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2022-09-23"
+RegistryEntryLastModified: "2022-11-15"

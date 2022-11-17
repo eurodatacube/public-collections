@@ -229,12 +229,12 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: float32
+      data_type: FLOAT32
       statistics:
         minimum:
           - 0
         maximum:
-          - 0.4
+          - 1
     - center_wavelength: 0.56
       common_name: green
       description: 	Green (520-600 nm)
@@ -245,12 +245,12 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: float32
+      data_type: FLOAT32
       statistics:
         minimum:
           - 0
         maximum:
-          - 0.4
+          - 1
     - center_wavelength: 0.66
       common_name: red
       description: Red (630-690 nm)
@@ -261,12 +261,12 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: float32
+      data_type: FLOAT32
       statistics:
         minimum:
           - 0
         maximum:
-          - 0.4
+          - 1
     - center_wavelength: 0.835
       common_name: nir
       description: Near Infrared (NIR) (770-900 nm)
@@ -277,12 +277,12 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: float32
+      data_type: FLOAT32
       statistics:
         minimum:
           - 0
         maximum:
-          - 0.4
+          - 1
     - center_wavelength: 1.65
       common_name: swir16
       description: Shortwave Infrared (SWIR) 1 (1550-1750 nm)
@@ -293,12 +293,12 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: float32
+      data_type: FLOAT32
       statistics:
         minimum:
           - 0
         maximum:
-          - 0.4
+          - 1
     - center_wavelength: 11.45
       common_name: lwir
       description: Thermal Infrared VCID 1
@@ -309,7 +309,7 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: float32
+      data_type: FLOAT32
       statistics:
         minimum:
           - 250
@@ -325,7 +325,7 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: float32
+      data_type: FLOAT32
       statistics:
         minimum:
           - 250
@@ -341,12 +341,12 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: float32
+      data_type: FLOAT32
       statistics:
         minimum:
           - 0
         maximum:
-          - 0.4
+          - 1
     - center_wavelength: 0.71
       common_name: pan
       description: Panchromatic (520-900 nm)
@@ -357,12 +357,12 @@ Summaries:
           - 15
           - 15
         unit: m
-      data_type: float32
+      data_type: FLOAT32
       statistics:
         minimum:
           - 0
         maximum:
-          - 0.4
+          - 1
     - description: Quality Assessment band (QA)
       name: BQA
       openeo:gsd:
@@ -567,4 +567,4 @@ CRS:
   - "http://www.opengis.net/def/crs/EPSG/0/32760"
   - "http://www.opengis.net/def/crs/SR-ORG/0/98739"
 RegistryEntryAdded: "2021-07-16"
-RegistryEntryLastModified: "2022-09-29"
+RegistryEntryLastModified: "2022-11-15"

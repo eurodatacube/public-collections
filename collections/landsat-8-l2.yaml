@@ -249,12 +249,12 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: float32
+      data_type: FLOAT32
       statistics:
         minimum:
           - 0
         maximum:
-          - 0.4
+          - 1
     - center_wavelength: 0.48204
       common_name: blue
       description: Blue (482 nm)
@@ -265,12 +265,12 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: float32
+      data_type: FLOAT32
       statistics:
         minimum:
           - 0
         maximum:
-          - 0.4
+          - 1
     - center_wavelength: 0.56141
       common_name: green
       description: Green (561.5 nm)
@@ -281,12 +281,12 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: float32
+      data_type: FLOAT32
       statistics:
         minimum:
           - 0
         maximum:
-          - 0.4
+          - 1
     - center_wavelength: 0.65459
       common_name: red
       description: Red (654.5 nm)
@@ -297,12 +297,12 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: float32
+      data_type: FLOAT32
       statistics:
         minimum:
           - 0
         maximum:
-          - 0.4
+          - 1
     - center_wavelength: 0.86467
       common_name: nir08
       description: Near Infrared (NIR) (865 nm)
@@ -313,12 +313,12 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: float32
+      data_type: FLOAT32
       statistics:
         minimum:
           - 0
         maximum:
-          - 0.4
+          - 1
     - center_wavelength: 1.60886
       common_name: swir16
       description: Shortwave Infrared (SWIR) 1 (1608.5 nm)
@@ -329,12 +329,12 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: float32
+      data_type: FLOAT32
       statistics:
         minimum:
           - 0
         maximum:
-          - 0.4
+          - 1
     - center_wavelength: 2.20073
       common_name: swir22
       description: Shortwave Infrared (SWIR) 2 (2200.5 nm)
@@ -345,12 +345,12 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: float32
+      data_type: FLOAT32
       statistics:
         minimum:
           - 0
         maximum:
-          - 0.4
+          - 1
     - center_wavelength: 10.895
       common_name: lwir11
       description: Thermal Infrared (TIRS) 1(10895 nm)
@@ -361,7 +361,7 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: float32
+      data_type: FLOAT32
       statistics:
         minimum:
           - 250
@@ -398,7 +398,7 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: float32
+      data_type: FLOAT32
     - description: Thermal band converted to radiance
       name: ST_TRAD
       openeo:gsd:
@@ -406,7 +406,7 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: float32
+      data_type: FLOAT32
     - description: Upwelled Radiance
       name: ST_URAD
       openeo:gsd:
@@ -414,7 +414,7 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: float32
+      data_type: FLOAT32
     - description: Downwelled Radiance
       name: ST_DRAD
       openeo:gsd:
@@ -422,7 +422,7 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: float32
+      data_type: FLOAT32
     - description: Atmospheric Transmittance
       name: ST_ATRAN
       openeo:gsd:
@@ -430,7 +430,7 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: float32
+      data_type: FLOAT32
       statistics:
         minimum:
           - 0
@@ -443,7 +443,7 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: float32
+      data_type: FLOAT32
       statistics:
         minimum:
           - 0
@@ -456,7 +456,7 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: float32
+      data_type: FLOAT32
       statistics:
         minimum:
           - 0
@@ -469,7 +469,7 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: float32
+      data_type: FLOAT32
     - description: The mask of data/no data pixels.
       name: dataMask
       data_type: UINT8
@@ -627,4 +627,4 @@ CRS:
   - "http://www.opengis.net/def/crs/EPSG/0/32760"
   - "http://www.opengis.net/def/crs/SR-ORG/0/98739"
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2022-09-29"
+RegistryEntryLastModified: "2022-11-15"

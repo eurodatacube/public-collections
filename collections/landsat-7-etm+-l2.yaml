@@ -240,12 +240,12 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: float32
+      data_type: FLOAT32
       statistics:
         minimum:
           - 0
         maximum:
-          - 0.4
+          - 1
     - center_wavelength: 0.56
       common_name: green
       description: 	Green (520-600 nm)
@@ -256,12 +256,12 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: float32
+      data_type: FLOAT32
       statistics:
         minimum:
           - 0
         maximum:
-          - 0.4
+          - 1
     - center_wavelength: 0.66
       common_name: red
       description: Red (630-690 nm)
@@ -272,12 +272,12 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: float32
+      data_type: FLOAT32
       statistics:
         minimum:
           - 0
         maximum:
-          - 0.4
+          - 1
     - center_wavelength: 0.835
       common_name: nir
       description: Near Infrared (NIR) (770-900 nm)
@@ -288,12 +288,12 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: float32
+      data_type: FLOAT32
       statistics:
         minimum:
           - 0
         maximum:
-          - 0.4
+          - 1
     - center_wavelength: 1.65
       common_name: swir16
       description: Shortwave Infrared (SWIR) 1 (1550-1750 nm)
@@ -304,12 +304,12 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: float32
+      data_type: FLOAT32
       statistics:
         minimum:
           - 0
         maximum:
-          - 0.4
+          - 1
     - center_wavelength: 11.45
       common_name: lwir
       description: Thermal Infrared (10400-12500 nm)
@@ -320,7 +320,7 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: float32
+      data_type: FLOAT32
       statistics:
         minimum:
           - 250
@@ -336,12 +336,12 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: float32
+      data_type: FLOAT32
       statistics:
         minimum:
           - 0
         maximum:
-          - 0.4
+          - 1
     - description: Quality Assessment band (QA)
       name: BQA
       openeo:gsd:
@@ -365,7 +365,7 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: float32
+      data_type: FLOAT32
     - description: Level-1 thermal band converted to thermal surface radiance
       name: ST_TRAD
       openeo:gsd:
@@ -381,7 +381,7 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: float32
+      data_type: FLOAT32
     - description: Downwelled Radiance
       name: ST_DRAD
       openeo:gsd:
@@ -389,7 +389,7 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: float32
+      data_type: FLOAT32
     - description: Atmospheric Transmittance
       name: ST_ATRAN
       openeo:gsd:
@@ -397,7 +397,7 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: float32
+      data_type: FLOAT32
       statistics:
         minimum:
           - 0
@@ -410,7 +410,7 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: float32
+      data_type: FLOAT32
       statistics:
         minimum:
           - 0
@@ -423,7 +423,7 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: float32
+      data_type: FLOAT32
       statistics:
         minimum:
           - 0
@@ -436,7 +436,7 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: float32
+      data_type: FLOAT32
     - description: Internal SR Atmospheric Opacity
       name: SR_ATMOS_OPACITY
       openeo:gsd:
@@ -444,7 +444,7 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: float32
+      data_type: FLOAT32
       statistics:
         minimum:
           - 0
@@ -614,4 +614,4 @@ CRS:
   - "http://www.opengis.net/def/crs/EPSG/0/32760"
   - "http://www.opengis.net/def/crs/SR-ORG/0/98739"
 RegistryEntryAdded: "2021-07-16"
-RegistryEntryLastModified: "2022-09-29"
+RegistryEntryLastModified: "2022-11-15"

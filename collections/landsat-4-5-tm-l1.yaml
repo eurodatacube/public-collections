@@ -237,12 +237,12 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: float32
+      data_type: FLOAT32
       statistics:
         minimum:
           - 0
         maximum:
-          - 0.4
+          - 1
     - name: B02
       common_name: green
       center_wavelength: 0.569
@@ -252,12 +252,12 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: float32
+      data_type: FLOAT32
       statistics:
         minimum:
           - 0
         maximum:
-          - 0.4
+          - 1
     - name: B03
       common_name: red
       center_wavelength: 0.66
@@ -267,12 +267,12 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: float32
+      data_type: FLOAT32
       statistics:
         minimum:
           - 0
         maximum:
-          - 0.4
+          - 1
     - name: B04
       common_name: nir
       center_wavelength: 0.84
@@ -282,12 +282,12 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: float32
+      data_type: FLOAT32
       statistics:
         minimum:
           - 0
         maximum:
-          - 0.4
+          - 1
     - name: B05
       common_name: swir16
       center_wavelength: 1.676
@@ -297,12 +297,12 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: float32
+      data_type: FLOAT32
       statistics:
         minimum:
           - 0
         maximum:
-          - 0.4
+          - 1
     - name: B06
       common_name: lwir
       center_wavelength: 11.435
@@ -312,7 +312,7 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: float32
+      data_type: FLOAT32
       statistics:
         minimum:
           - 250
@@ -327,12 +327,12 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: float32
+      data_type: FLOAT32
       statistics:
         minimum:
           - 0
         maximum:
-          - 0.4
+          - 1
     - description: Quality Assessment band (QA)
       name: BQA
       openeo:gsd:
@@ -540,4 +540,4 @@ CRS:
   - "http://www.opengis.net/def/crs/EPSG/0/32760"
   - "http://www.opengis.net/def/crs/SR-ORG/0/98739"
 RegistryEntryAdded: "2021-05-12"
-RegistryEntryLastModified: "2022-09-29"
+RegistryEntryLastModified: "2022-11-15"
