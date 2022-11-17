@@ -71,16 +71,13 @@ Attributes:
       - Name: Type
         Title: Type
     Rows:
-      - Name: aoi
+      - Name: Area of Interest
         Description: Area of interest
         Type: Polyon or bounding box
-      - Name: time interval
-        Description: A time interval to retrieve Sentinel-2 data
+      - Name: Time range
+        Description: A time range to retrieve Sentinel-2 data
         Type: String
-      - Name: evalscript
-        Description: An evalscript specifying which Sentinel-2 bands or derived indices, e.g. NDVI, to download
-        Type: String
-      - Name: Bucket name
+      - Name: Bucket Name
         Description: Required AWS S3 Bucket name, must be in eu-central-1
         Type: String
       - Name: Project folder
@@ -91,6 +88,9 @@ Attributes:
         Type: String
       - Name: AWS secret access key
         Description: The AWS secret access key of the IAM user with read and write access to the bucket
+        Type: String
+      - Name: Evalscript path
+        Description: An evalscript specifying which Sentinel-2 bands or derived indices, e.g. NDVI, to download
         Type: String
 ProducedResults: |
   The produced output are [Sentinel Hub Statistical API](https://docs.sentinel-hub.com/api/latest/api/statistical/) results for each parcel saved to the user's S3 bucket in the form of JSON files.
