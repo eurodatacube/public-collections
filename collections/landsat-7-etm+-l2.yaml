@@ -245,7 +245,7 @@ Summaries:
         minimum:
           - 0
         maximum:
-          - 1
+          - 0.4
     - center_wavelength: 0.56
       common_name: green
       description: 	Green (520-600 nm)
@@ -261,7 +261,7 @@ Summaries:
         minimum:
           - 0
         maximum:
-          - 1
+          - 0.4
     - center_wavelength: 0.66
       common_name: red
       description: Red (630-690 nm)
@@ -277,7 +277,7 @@ Summaries:
         minimum:
           - 0
         maximum:
-          - 1
+          - 0.4
     - center_wavelength: 0.835
       common_name: nir
       description: Near Infrared (NIR) (770-900 nm)
@@ -614,4 +614,4 @@ CRS:
   - "http://www.opengis.net/def/crs/EPSG/0/32760"
   - "http://www.opengis.net/def/crs/SR-ORG/0/98739"
 RegistryEntryAdded: "2021-07-16"
-RegistryEntryLastModified: "2022-11-15"
+RegistryEntryLastModified: "2022-11-22"
