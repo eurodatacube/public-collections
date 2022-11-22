@@ -398,7 +398,7 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: FLOAT32
+      data_type: INT16
     - description: Thermal band converted to radiance
       name: ST_TRAD
       openeo:gsd:
@@ -406,7 +406,7 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: FLOAT32
+      data_type: INT16
     - description: Upwelled Radiance
       name: ST_URAD
       openeo:gsd:
@@ -414,7 +414,7 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: FLOAT32
+      data_type: INT16
     - description: Downwelled Radiance
       name: ST_DRAD
       openeo:gsd:
@@ -422,7 +422,7 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: FLOAT32
+      data_type: INT16
     - description: Atmospheric Transmittance
       name: ST_ATRAN
       openeo:gsd:
@@ -430,7 +430,7 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: FLOAT32
+      data_type: INT16
       statistics:
         minimum:
           - 0
@@ -443,7 +443,7 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: FLOAT32
+      data_type: INT16
       statistics:
         minimum:
           - 0
@@ -456,7 +456,7 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: FLOAT32
+      data_type: INT16
       statistics:
         minimum:
           - 0
@@ -469,7 +469,7 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: FLOAT32
+      data_type: INT16
     - description: The mask of data/no data pixels.
       name: dataMask
       data_type: UINT8
