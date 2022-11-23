@@ -138,7 +138,19 @@ Summaries:
           - 0.000277777777778
           - 0.000277777777778
         unit: °
+      data_type: FLOAT32
+      statistics:
+        minimum:
+          - -11000
+        maximum:
+          - 9000
     - description: The mask of data/no data pixels.
       name: dataMask
+      data_type: UINT8
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 1
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2022-07-04"
+RegistryEntryLastModified: "2022-11-15"

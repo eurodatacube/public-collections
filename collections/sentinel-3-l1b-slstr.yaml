@@ -148,6 +148,12 @@ Summaries:
           - 0.004960317460317
           - 0.004960317460317
         unit: °
+      data_type: FLOAT32
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 0.4
     - description: NDVI, vegetation monitoring, aerosol
       name: S2
       center_wavelength: 0.65947
@@ -157,6 +163,12 @@ Summaries:
           - 0.004960317460317
           - 0.004960317460317
         unit: °
+      data_type: FLOAT32
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 0.4
     - description: NDVI, cloud flagging, pixel co-registration
       name: S3
       center_wavelength: 0.868
@@ -166,6 +178,12 @@ Summaries:
           - 0.004960317460317
           - 0.004960317460317
         unit: °
+      data_type: FLOAT32
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 0.4
     - description: Cirrus detection over land
       name: S4
       center_wavelength: 1.3748
@@ -175,6 +193,12 @@ Summaries:
           - 0.004960317460317
           - 0.004960317460317
         unit: °
+      data_type: FLOAT32
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 0.4
     - description: Cloud clearing, ice, snow, vegetation monitoring
       name: S5
       center_wavelength: 1.6134
@@ -184,6 +208,12 @@ Summaries:
           - 0.004960317460317
           - 0.004960317460317
         unit: °
+      data_type: FLOAT32
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 0.4
     - description: Vegetation state and cloud clearing
       name: S6
       center_wavelength: 2.2557
@@ -193,6 +223,12 @@ Summaries:
           - 0.004960317460317
           - 0.004960317460317
         unit: °
+      data_type: FLOAT32
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 0.4
     - description: SST, LST, Active fire
       name: S7
       center_wavelength: 3.742
@@ -202,6 +238,12 @@ Summaries:
           - 0.009920634920333
           - 0.009920634920333
         unit: °
+      data_type: FLOAT32
+      statistics:
+        minimum:
+          - 250
+        maximum:
+          - 320
     - description: SST, LST, Active fire
       name: S8
       center_wavelength: 10.854
@@ -211,6 +253,12 @@ Summaries:
           - 0.009920634920333
           - 0.009920634920333
         unit: °
+      data_type: FLOAT32
+      statistics:
+        minimum:
+          - 250
+        maximum:
+          - 320
     - description: SST, LST
       name: S9
       center_wavelength: 12.0225
@@ -220,6 +268,12 @@ Summaries:
           - 0.009920634920333
           - 0.009920634920333
         unit: °
+      data_type: FLOAT32
+      statistics:
+        minimum:
+          - 250
+        maximum:
+          - 320
     - description: Active fire
       name: F1
       center_wavelength: 3.742
@@ -229,6 +283,12 @@ Summaries:
           - 0.009920634920333
           - 0.009920634920333
         unit: °
+      data_type: FLOAT32
+      statistics:
+        minimum:
+          - 250
+        maximum:
+          - 320
     - description: Active fire
       name: F2
       center_wavelength: 10.854
@@ -238,8 +298,20 @@ Summaries:
           - 0.009920634920333
           - 0.009920634920333
         unit: °
+      data_type: FLOAT32
+      statistics:
+        minimum:
+          - 250
+        maximum:
+          - 320
     - description: The mask of data/no data pixels.
       name: dataMask
+      data_type: UINT8
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 1
   gsd:
     - 500
     - 1000
@@ -392,4 +464,4 @@ CRS:
   - "http://www.opengis.net/def/crs/EPSG/0/32760"
   - "http://www.opengis.net/def/crs/SR-ORG/0/98739"
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2022-09-21"
+RegistryEntryLastModified: "2022-11-15"

@@ -262,6 +262,12 @@ Summaries:
           - 60
           - 60
         unit: m
+      data_type: UINT16
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 4000
     - name: B02
       common_name: blue
       center_wavelength: 0.4924
@@ -271,6 +277,12 @@ Summaries:
           - 10
           - 10
         unit: m
+      data_type: UINT16
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 4000
     - name: B03
       common_name: green
       center_wavelength: 0.5598
@@ -280,6 +292,12 @@ Summaries:
           - 10
           - 10
         unit: m
+      data_type: UINT16
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 4000
     - name: B04
       common_name: red
       center_wavelength: 0.6646
@@ -289,6 +307,12 @@ Summaries:
           - 10
           - 10
         unit: m
+      data_type: UINT16
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 4000
     - name: B05
       center_wavelength: 0.7041
       full_width_half_max: 0.015
@@ -297,6 +321,12 @@ Summaries:
           - 20
           - 20
         unit: m
+      data_type: UINT16
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 4000
     - name: B06
       center_wavelength: 0.7405
       full_width_half_max: 0.015
@@ -305,6 +335,12 @@ Summaries:
           - 20
           - 20
         unit: m
+      data_type: UINT16
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 4000
     - name: B07
       center_wavelength: 0.7828
       full_width_half_max: 0.02
@@ -313,6 +349,12 @@ Summaries:
           - 20
           - 20
         unit: m
+      data_type: UINT16
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 4000
     - name: B08
       common_name: nir
       center_wavelength: 0.8328
@@ -322,6 +364,12 @@ Summaries:
           - 10
           - 10
         unit: m
+      data_type: UINT16
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 4000
     - name: B8A
       common_name: nir08
       center_wavelength: 0.8647
@@ -331,6 +379,12 @@ Summaries:
           - 20
           - 20
         unit: m
+      data_type: UINT16
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 4000
     - name: B09
       common_name: nir09
       center_wavelength: 0.9451
@@ -340,6 +394,12 @@ Summaries:
           - 60
           - 60
         unit: m
+      data_type: UINT16
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 4000
     - name: B11
       common_name: swir16
       center_wavelength: 1.6137
@@ -349,6 +409,12 @@ Summaries:
           - 20
           - 20
         unit: m
+      data_type: UINT16
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 4000
     - name: B12
       common_name: swir22
       center_wavelength: 2.2024
@@ -358,6 +424,12 @@ Summaries:
           - 20
           - 20
         unit: m
+      data_type: UINT16
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 4000
     - description: Aerosol Optical Thickness map, based on Sen2Cor processor
       name: AOT
       openeo:gsd:
@@ -365,6 +437,12 @@ Summaries:
           - 10
           - 10
         unit: m
+      data_type: FLOAT32
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 0.6
     - description: Scene classification data, based on Sen2Cor processor, codelist
       name: SCL
       openeo:gsd:
@@ -372,6 +450,12 @@ Summaries:
           - 20
           - 20
         unit: m
+      data_type: UINT8
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 11
     - description: Snow probability, based on Sen2Cor processor
       name: SNW
       openeo:gsd:
@@ -379,6 +463,12 @@ Summaries:
           - 20
           - 20
         unit: m
+      data_type: UINT8
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 100
     - description: Cloud probability, based on Sen2Cor processor
       name: CLD
       openeo:gsd:
@@ -386,6 +476,12 @@ Summaries:
           - 20
           - 20
         unit: m
+      data_type: UINT8
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 100
     - description: Cloud probability, based on s2cloudless
       name: CLP
       openeo:gsd:
@@ -393,6 +489,12 @@ Summaries:
           - 160
           - 160
         unit: m
+      data_type: UINT8
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 255
     - description: Cloud masks
       name: CLM
       openeo:gsd:
@@ -400,6 +502,11 @@ Summaries:
           - 160
           - 160
         unit: m
+      data_type: UINT8
+      statistics:
+          - 0
+          - 1
+          - 255
     - description: Sun azimuth angle
       name: sunAzimuthAngles
       openeo:gsd:
@@ -407,6 +514,12 @@ Summaries:
           - 5000
           - 5000
         unit: m
+      data_type: FLOAT32
+      statistics:
+        minimum:
+          - 30
+        maximum:
+          - 200
     - description: Sun zenith angle
       name: sunZenithAngles
       openeo:gsd:
@@ -414,6 +527,12 @@ Summaries:
           - 5000
           - 5000
         unit: m
+      data_type: FLOAT32
+      statistics:
+        minimum:
+          - 15
+        maximum:
+          - 80
     - description: Viewing azimuth angle
       name: viewAzimuthMean
       openeo:gsd:
@@ -421,6 +540,12 @@ Summaries:
           - 5000
           - 5000
         unit: m
+      data_type: FLOAT32
+      statistics:
+        minimum:
+          - 90
+        maximum:
+          - 300
     - description: Viewing zenith angle
       name: viewZenithMean
       openeo:gsd:
@@ -428,8 +553,20 @@ Summaries:
           - 5000
           - 5000
         unit: m
+      data_type: FLOAT32
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 12
     - description: The mask of data/no data pixels.
       name: dataMask
+      data_type: UINT8
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 1
   constellation:
     - sentinel-2
   gsd:
@@ -587,4 +724,4 @@ CRS:
   - "http://www.opengis.net/def/crs/EPSG/0/32760"
   - "http://www.opengis.net/def/crs/SR-ORG/0/98739"
 RegistryEntryAdded: '2018-04-17'
-RegistryEntryLastModified: "2022-09-21"
+RegistryEntryLastModified: "2022-11-15"

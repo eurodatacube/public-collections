@@ -237,6 +237,12 @@ Summaries:
           - 30
           - 30
         unit: m
+      data_type: FLOAT32
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 0.4
     - name: B02
       common_name: green
       center_wavelength: 0.569
@@ -246,6 +252,12 @@ Summaries:
           - 30
           - 30
         unit: m
+      data_type: FLOAT32
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 0.4
     - name: B03
       common_name: red
       center_wavelength: 0.66
@@ -255,6 +267,12 @@ Summaries:
           - 30
           - 30
         unit: m
+      data_type: FLOAT32
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 0.4
     - name: B04
       common_name: nir
       center_wavelength: 0.84
@@ -264,6 +282,12 @@ Summaries:
           - 30
           - 30
         unit: m
+      data_type: FLOAT32
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 1
     - name: B05
       common_name: swir16
       center_wavelength: 1.676
@@ -273,6 +297,12 @@ Summaries:
           - 30
           - 30
         unit: m
+      data_type: FLOAT32
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 1
     - name: B06
       common_name: lwir
       center_wavelength: 11.435
@@ -282,6 +312,12 @@ Summaries:
           - 30
           - 30
         unit: m
+      data_type: FLOAT32
+      statistics:
+        minimum:
+          - 250
+        maximum:
+          - 320
     - name: B07
       common_name: swir22
       center_wavelength: 2.223
@@ -291,6 +327,12 @@ Summaries:
           - 30
           - 30
         unit: m
+      data_type: FLOAT32
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 1
     - description: Quality Assessment band (QA)
       name: BQA
       openeo:gsd:
@@ -298,6 +340,7 @@ Summaries:
           - 30
           - 30
         unit: m
+      data_type: UINT16
     - description: Radiometric Saturation and Terrain Occlusion QA Band
       name: QA_RADSAT
       openeo:gsd:
@@ -305,6 +348,7 @@ Summaries:
           - 30
           - 30
         unit: m
+      data_type: UINT16
     - description: View (sensor) Azimuth Angle
       name: VAA
       openeo:gsd:
@@ -312,6 +356,7 @@ Summaries:
           - 30
           - 30
         unit: m
+      data_type: FLOAT32
     - description: View (sensor) Zenith Angle
       name: VZA
       openeo:gsd:
@@ -319,6 +364,7 @@ Summaries:
           - 30
           - 30
         unit: m
+      data_type: FLOAT32
     - description: Sun Azimuth Angle
       name: SAA
       openeo:gsd:
@@ -326,6 +372,7 @@ Summaries:
           - 30
           - 30
         unit: m
+      data_type: FLOAT32
     - description: Sun Zenith Angle
       name: SZA
       openeo:gsd:
@@ -333,8 +380,15 @@ Summaries:
           - 30
           - 30
         unit: m
+      data_type: FLOAT32
     - description: The mask of data/no data pixels.
       name: dataMask
+      data_type: UINT8
+      statistics:
+        minimum:
+          - 0
+        maximum:
+          - 1
   eo:cloud_cover:
     minimum: 0
     maximum: 100
@@ -486,4 +540,4 @@ CRS:
   - "http://www.opengis.net/def/crs/EPSG/0/32760"
   - "http://www.opengis.net/def/crs/SR-ORG/0/98739"
 RegistryEntryAdded: "2021-05-12"
-RegistryEntryLastModified: "2022-09-21"
+RegistryEntryLastModified: "2022-11-22"
