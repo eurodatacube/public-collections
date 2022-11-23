@@ -177,7 +177,7 @@ Summaries:
           - 0.002976190476190
           - 0.002976190476190
         unit: °
-      data_type: FLOAT32
+      data_type: float32
       statistics:
         minimum:
           - 0
@@ -192,7 +192,7 @@ Summaries:
           - 0.002976190476190
           - 0.002976190476190
         unit: °
-      data_type: FLOAT32
+      data_type: float32
       statistics:
         minimum:
           - 0
@@ -207,7 +207,7 @@ Summaries:
           - 0.002976190476190
           - 0.002976190476190
         unit: °
-      data_type: FLOAT32
+      data_type: float32
       statistics:
         minimum:
           - 0
@@ -222,7 +222,7 @@ Summaries:
           - 0.002976190476190
           - 0.002976190476190
         unit: °
-      data_type: FLOAT32
+      data_type: float32
       statistics:
         minimum:
           - 0
@@ -237,7 +237,7 @@ Summaries:
           - 0.002976190476190
           - 0.002976190476190
         unit: °
-      data_type: FLOAT32
+      data_type: float32
       statistics:
         minimum:
           - 0
@@ -252,7 +252,7 @@ Summaries:
           - 0.002976190476190
           - 0.002976190476190
         unit: °
-      data_type: FLOAT32
+      data_type: float32
       statistics:
         minimum:
           - 0
@@ -267,7 +267,7 @@ Summaries:
           - 0.002976190476190
           - 0.002976190476190
         unit: °
-      data_type: FLOAT32
+      data_type: float32
       statistics:
         minimum:
           - 0
@@ -282,7 +282,7 @@ Summaries:
           - 0.002976190476190
           - 0.002976190476190
         unit: °
-      data_type: FLOAT32
+      data_type: float32
       statistics:
         minimum:
           - 0
@@ -297,7 +297,7 @@ Summaries:
           - 0.002976190476190
           - 0.002976190476190
         unit: °
-      data_type: FLOAT32
+      data_type: float32
       statistics:
         minimum:
           - 0
@@ -312,7 +312,7 @@ Summaries:
           - 0.002976190476190
           - 0.002976190476190
         unit: °
-      data_type: FLOAT32
+      data_type: float32
       statistics:
         minimum:
           - 0
@@ -327,7 +327,7 @@ Summaries:
           - 0.002976190476190
           - 0.002976190476190
         unit: °
-      data_type: FLOAT32
+      data_type: float32
       statistics:
         minimum:
           - 0
@@ -342,7 +342,7 @@ Summaries:
           - 0.002976190476190
           - 0.002976190476190
         unit: °
-      data_type: FLOAT32
+      data_type: float32
       statistics:
         minimum:
           - 0
@@ -357,7 +357,7 @@ Summaries:
           - 0.002976190476190
           - 0.002976190476190
         unit: °
-      data_type: FLOAT32
+      data_type: float32
       statistics:
         minimum:
           - 0
@@ -372,7 +372,7 @@ Summaries:
           - 0.002976190476190
           - 0.002976190476190
         unit: °
-      data_type: FLOAT32
+      data_type: float32
       statistics:
         minimum:
           - 0
@@ -387,7 +387,7 @@ Summaries:
           - 0.002976190476190
           - 0.002976190476190
         unit: °
-      data_type: FLOAT32
+      data_type: float32
       statistics:
         minimum:
           - 0
@@ -402,7 +402,7 @@ Summaries:
           - 0.002976190476190
           - 0.002976190476190
         unit: °
-      data_type: FLOAT32
+      data_type: float32
       statistics:
         minimum:
           - 0
@@ -417,7 +417,7 @@ Summaries:
           - 0.002976190476190
           - 0.002976190476190
         unit: °
-      data_type: FLOAT32
+      data_type: float32
       statistics:
         minimum:
           - 0
@@ -432,7 +432,7 @@ Summaries:
           - 0.002976190476190
           - 0.002976190476190
         unit: °
-      data_type: FLOAT32
+      data_type: float32
       statistics:
         minimum:
           - 0
@@ -447,7 +447,7 @@ Summaries:
           - 0.002976190476190
           - 0.002976190476190
         unit: °
-      data_type: FLOAT32
+      data_type: float32
       statistics:
         minimum:
           - 0
@@ -462,7 +462,7 @@ Summaries:
           - 0.002976190476190
           - 0.002976190476190
         unit: °
-      data_type: FLOAT32
+      data_type: float32
       statistics:
         minimum:
           - 0
@@ -477,7 +477,7 @@ Summaries:
           - 0.002976190476190
           - 0.002976190476190
         unit: °
-      data_type: FLOAT32
+      data_type: float32
       statistics:
         minimum:
           - 0
@@ -490,7 +490,7 @@ Summaries:
           - 0.188492063492033
           - 0.188492063492033
         unit: °
-      data_type: FLOAT32
+      data_type: float32
       statistics:
         minimum:
           - -180
@@ -503,7 +503,7 @@ Summaries:
           - 0.188492063492033
           - 0.188492063492033
         unit: °
-      data_type: FLOAT32
+      data_type: float32
       statistics:
         minimum:
           - 0
@@ -516,7 +516,7 @@ Summaries:
           - 0.188492063492033
           - 0.188492063492033
         unit: °
-      data_type: FLOAT32
+      data_type: float32
       statistics:
         minimum:
           - -180
@@ -529,7 +529,7 @@ Summaries:
           - 0.188492063492033
           - 0.188492063492033
         unit: °
-      data_type: FLOAT32
+      data_type: float32
       statistics:
         minimum:
           - 0
@@ -542,7 +542,7 @@ Summaries:
           - 0.188492063492033
           - 0.188492063492033
         unit: °
-      data_type: FLOAT32
+      data_type: float32
       statistics:
         minimum:
           - 0
@@ -555,7 +555,7 @@ Summaries:
           - 0.188492063492033
           - 0.188492063492033
         unit: °
-      data_type: FLOAT32
+      data_type: float32
       statistics:
         minimum:
           - 980
@@ -568,7 +568,7 @@ Summaries:
           - 0.188492063492033
           - 0.188492063492033
         unit: °
-      data_type: FLOAT32
+      data_type: float32
       statistics:
         minimum:
           - 0.004
@@ -581,7 +581,7 @@ Summaries:
           - 0.188492063492033
           - 0.188492063492033
         unit: °
-      data_type: FLOAT32
+      data_type: float32
       statistics:
         minimum:
           - 0
@@ -589,7 +589,7 @@ Summaries:
           - 70
     - description: The mask of data/no data pixels.
       name: dataMask
-      data_type: UINT8
+      data_type: uint8
       statistics:
         minimum:
           - 0
@@ -743,4 +743,4 @@ CRS:
   - "http://www.opengis.net/def/crs/EPSG/0/32760"
   - "http://www.opengis.net/def/crs/SR-ORG/0/98739"
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2022-11-15"
+RegistryEntryLastModified: "2022-11-23"

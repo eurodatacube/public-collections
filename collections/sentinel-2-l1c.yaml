@@ -261,7 +261,7 @@ Summaries:
           - 60
           - 60
         unit: m
-      data_type: UINT16
+      data_type: uint16
       statistics:
         minimum:
           - 0
@@ -276,7 +276,7 @@ Summaries:
           - 10
           - 10
         unit: m
-      data_type: UINT16
+      data_type: uint16
       statistics:
         minimum:
           - 0
@@ -291,7 +291,7 @@ Summaries:
           - 10
           - 10
         unit: m
-      data_type: UINT16
+      data_type: uint16
       statistics:
         minimum:
           - 0
@@ -306,7 +306,7 @@ Summaries:
           - 10
           - 10
         unit: m
-      data_type: UINT16
+      data_type: uint16
       statistics:
         minimum:
           - 0
@@ -320,7 +320,7 @@ Summaries:
           - 20
           - 20
         unit: m
-      data_type: UINT16
+      data_type: uint16
       statistics:
         minimum:
           - 0
@@ -334,7 +334,7 @@ Summaries:
           - 20
           - 20
         unit: m
-      data_type: UINT16
+      data_type: uint16
       statistics:
         minimum:
           - 0
@@ -348,7 +348,7 @@ Summaries:
           - 20
           - 20
         unit: m
-      data_type: UINT16
+      data_type: uint16
       statistics:
         minimum:
           - 0
@@ -363,7 +363,7 @@ Summaries:
           - 10
           - 10
         unit: m
-      data_type: UINT16
+      data_type: uint16
       statistics:
         minimum:
           - 0
@@ -378,7 +378,7 @@ Summaries:
           - 20
           - 20
         unit: m
-      data_type: UINT16
+      data_type: uint16
       statistics:
         minimum:
           - 0
@@ -393,7 +393,7 @@ Summaries:
           - 60
           - 60
         unit: m
-      data_type: UINT16
+      data_type: uint16
       statistics:
         minimum:
           - 0
@@ -408,7 +408,7 @@ Summaries:
           - 60
           - 60
         unit: m
-      data_type: UINT16
+      data_type: uint16
       statistics:
         minimum:
           - 0
@@ -423,7 +423,7 @@ Summaries:
           - 20
           - 20
         unit: m
-      data_type: UINT16
+      data_type: uint16
       statistics:
         minimum:
           - 0
@@ -438,7 +438,7 @@ Summaries:
           - 20
           - 20
         unit: m
-      data_type: UINT16
+      data_type: uint16
       statistics:
         minimum:
           - 0
@@ -451,7 +451,7 @@ Summaries:
           - 160
           - 160
         unit: m
-      data_type: UINT8
+      data_type: uint8
       statistics:
         minimum:
           - 0
@@ -464,7 +464,7 @@ Summaries:
           - 160
           - 160
         unit: m
-      data_type: UINT8
+      data_type: uint8
       statistics:
           - 0
           - 1
@@ -476,7 +476,7 @@ Summaries:
           - 5000
           - 5000
         unit: m
-      data_type: FLOAT32
+      data_type: float32
       statistics:
         minimum:
           - 30
@@ -489,7 +489,7 @@ Summaries:
           - 5000
           - 5000
         unit: m
-      data_type: FLOAT32
+      data_type: float32
       statistics:
         minimum:
           - 90
@@ -502,7 +502,7 @@ Summaries:
           - 5000
           - 5000
         unit: m
-      data_type: FLOAT32
+      data_type: float32
       statistics:
         minimum:
           - 15
@@ -515,7 +515,7 @@ Summaries:
           - 5000
           - 5000
         unit: m
-      data_type: FLOAT32
+      data_type: float32
       statistics:
         minimum:
           - 0
@@ -523,7 +523,7 @@ Summaries:
           - 12
     - description: The mask of data/no data pixels.
       name: dataMask
-      data_type: UINT8
+      data_type: uint8
       statistics:
         minimum:
           - 0
@@ -686,4 +686,4 @@ CRS:
   - "http://www.opengis.net/def/crs/EPSG/0/32760"
   - "http://www.opengis.net/def/crs/SR-ORG/0/98739"
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2022-11-15"
+RegistryEntryLastModified: "2022-11-23"
