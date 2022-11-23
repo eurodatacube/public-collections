@@ -244,7 +244,7 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: FLOAT32
+      data_type: float32
       statistics:
         minimum:
           - 0
@@ -259,7 +259,7 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: FLOAT32
+      data_type: float32
       statistics:
         minimum:
           - 0
@@ -274,7 +274,7 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: FLOAT32
+      data_type: float32
       statistics:
         minimum:
           - 0
@@ -289,7 +289,7 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: FLOAT32
+      data_type: float32
       statistics:
         minimum:
           - 0
@@ -304,7 +304,7 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: FLOAT32
+      data_type: float32
       statistics:
         minimum:
           - 0
@@ -319,7 +319,7 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: FLOAT32
+      data_type: float32
       statistics:
         minimum:
           - 250
@@ -334,7 +334,7 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: FLOAT32
+      data_type: float32
       statistics:
         minimum:
           - 0
@@ -347,7 +347,7 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: UINT16
+      data_type: uint16
     - description: Radiometric Saturation and Terrain Occlusion QA Band
       name: QA_RADSAT
       openeo:gsd:
@@ -355,7 +355,7 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: UINT16
+      data_type: uint16
     - description: Surface Temperature Uncertainty
       name: ST_QA
       openeo:gsd:
@@ -363,7 +363,7 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: INT16
+      data_type: int16
     - description: Level-1 thermal band converted to thermal surface radiance
       name: ST_TRAD
       openeo:gsd:
@@ -371,7 +371,7 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: INT16
+      data_type: int16
     - description: Upwelled Radiance
       name: ST_URAD
       openeo:gsd:
@@ -379,7 +379,7 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: INT16
+      data_type: int16
     - description: Downwelled Radiance
       name: ST_DRAD
       openeo:gsd:
@@ -387,7 +387,7 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: INT16
+      data_type: int16
     - description: Atmospheric Transmittance
       name: ST_ATRAN
       openeo:gsd:
@@ -395,7 +395,7 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: INT16
+      data_type: int16
       statistics:
         minimum:
           - 0
@@ -408,7 +408,7 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: INT16
+      data_type: int16
       statistics:
         minimum:
           - 0
@@ -421,7 +421,7 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: INT16
+      data_type: int16
       statistics:
         minimum:
           - 0
@@ -434,7 +434,7 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: INT16
+      data_type: int16
     - description: Internal SR Atmospheric Opacity
       name: SR_ATMOS_OPACITY
       openeo:gsd:
@@ -442,7 +442,7 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: INT16
+      data_type: int16
       statistics:
         minimum:
           - 0
@@ -455,10 +455,10 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: UINT8
+      data_type: uint8
     - description: The mask of data/no data pixels.
       name: dataMask
-      data_type: UINT8
+      data_type: uint8
       statistics:
         minimum:
           - 0
@@ -615,4 +615,4 @@ CRS:
   - "http://www.opengis.net/def/crs/EPSG/0/32760"
   - "http://www.opengis.net/def/crs/SR-ORG/0/98739"
 RegistryEntryAdded: "2021-05-12"
-RegistryEntryLastModified: "2022-11-22"
+RegistryEntryLastModified: "2022-11-23"
