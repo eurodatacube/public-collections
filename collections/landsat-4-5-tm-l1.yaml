@@ -237,7 +237,7 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: FLOAT32
+      data_type: float32
       statistics:
         minimum:
           - 0
@@ -252,7 +252,7 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: FLOAT32
+      data_type: float32
       statistics:
         minimum:
           - 0
@@ -267,7 +267,7 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: FLOAT32
+      data_type: float32
       statistics:
         minimum:
           - 0
@@ -282,7 +282,7 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: FLOAT32
+      data_type: float32
       statistics:
         minimum:
           - 0
@@ -297,7 +297,7 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: FLOAT32
+      data_type: float32
       statistics:
         minimum:
           - 0
@@ -312,7 +312,7 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: FLOAT32
+      data_type: float32
       statistics:
         minimum:
           - 250
@@ -327,7 +327,7 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: FLOAT32
+      data_type: float32
       statistics:
         minimum:
           - 0
@@ -340,7 +340,7 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: UINT16
+      data_type: uint16
     - description: Radiometric Saturation and Terrain Occlusion QA Band
       name: QA_RADSAT
       openeo:gsd:
@@ -348,7 +348,7 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: UINT16
+      data_type: uint16
     - description: View (sensor) Azimuth Angle
       name: VAA
       openeo:gsd:
@@ -356,7 +356,7 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: FLOAT32
+      data_type: float32
     - description: View (sensor) Zenith Angle
       name: VZA
       openeo:gsd:
@@ -364,7 +364,7 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: FLOAT32
+      data_type: float32
     - description: Sun Azimuth Angle
       name: SAA
       openeo:gsd:
@@ -372,7 +372,7 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: FLOAT32
+      data_type: float32
     - description: Sun Zenith Angle
       name: SZA
       openeo:gsd:
@@ -380,10 +380,10 @@ Summaries:
           - 30
           - 30
         unit: m
-      data_type: FLOAT32
+      data_type: float32
     - description: The mask of data/no data pixels.
       name: dataMask
-      data_type: UINT8
+      data_type: uint8
       statistics:
         minimum:
           - 0
@@ -540,4 +540,4 @@ CRS:
   - "http://www.opengis.net/def/crs/EPSG/0/32760"
   - "http://www.opengis.net/def/crs/SR-ORG/0/98739"
 RegistryEntryAdded: "2021-05-12"
-RegistryEntryLastModified: "2022-11-22"
+RegistryEntryLastModified: "2022-11-23"
