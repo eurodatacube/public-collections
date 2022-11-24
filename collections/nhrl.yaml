@@ -1,0 +1,95 @@
+Name: National High Resolution Layer, Hungary
+Description: |
+  The concept of the NHRL was to create a dataset that provides wall-to-wall information on land cover, especially on land cover categories that can be more reliably identified by remote sensing methods. Its classification mixes land use and land cover elements according to human interest, providing map information from the built environment to agricultural cultivated areas and natural vegetation cover.
+  In addition to the machine-learning process (Random Forest), its production includes data integration (roads - railways - buildings) and other data filtering steps to reduce data noise.
+  In the future, this yearly dataset could provide the basis for the production of visually verified change data with a reduced nomenclature. The data published here is not suitable for change detection in its present form.
+AdditionalInfoExternal:
+  Title: Additional info
+  Path: nhrl/README.MD
+Image: nhrl/thumbnail.png
+EDCBrowser: ""
+Resolution: 10m
+GeographicalCoverage: "Hungary (16.0°, 45.0°, 23.0°, 49.0°)"
+TemporalAvailability: "2016 -2021"
+UpdateFrequency: Annually
+BandInformation: 
+  Table:
+      Columns:
+        - Name: Name
+          Title: Name
+        - Name: Description
+          Title: Description
+      Rows:
+        - Name: nhrl
+          Description: Land cover classification
+Contact: https://lechnerkozpont.hu/en
+Provider: "[Lechner Knowledge Center, Hungary](https://lechnerkozpont.hu/en)"
+ManagedBy: "[Lechner Knowledge Center, Hungary](https://lechnerkozpont.hu/en)"
+Tags:
+  - DanubeDataCube
+  - xcube
+  - sentinel hub
+  - raster
+  - systematic
+  - derived data
+  - land cover
+  - machine learning
+  - open data
+License: "[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)"
+Resources:
+  - Group: Sentinel Hub Resources
+    EndPoint: https://services.sentinel-hub.com
+    Name: Sentinel Hub
+    Role: processor
+    Type: byoc-86c76a3d-29f3-4eff-99fe-3eb84e422c66
+    Notes: Hungary, 2016 - 2021
+    Primary: true
+Configurations:
+  - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
+    rel: "about"
+    type: "text/html"
+    title: "Details about running Evalscripts"
+  - href: "https://raw.githubusercontent.com/eurodatacube/public-collections/main/collections/nhrl/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate True color imagery"
+    sentinelhub:layer_name: NHRL Land Cover
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
+Extent:
+  spatial:
+    bbox:
+      -
+        - 16
+        - 45
+        - 23
+        - 49
+  temporal:
+    interval:
+      -
+        - '2016-01-01T00:00:00Z'
+        - '2021-01-01T00:00:00'
+CubeDimensions:
+  x:
+    type: spatial
+    axis: x
+    extent:
+      - 16
+      - 23
+  y:
+    type: spatial
+    axis: y
+    extent:
+      - 45
+      - 49
+  t:
+    type: temporal
+    extent:
+      - '2016-01-01T00:00:00Z'
+      - '2021-01-01T00:00:00'
+  bands:
+    type: bands
+    values:
+      - nhrl
+RegistryEntryAdded: "2022-11-24"
+RegistryEntryLastModified: "2022-11-24"  
