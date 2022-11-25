@@ -1,6 +1,6 @@
-Name: EuroCrops
+Name: Sentinel-2 signals for EuroCrops
 Description: |
-  EuroCrops is a dataset collection combining all publicly available self-declared crop reporting datasets from countries of the European Union.
+  Sentinel-2 signals for EuroCrops is a dataset collection combining all publicly available self-declared crop reporting datasets from countries of the European Union.
   The project is funded by the German Space Agency at DLR on behalf of the Federal Ministry for Economic Affairs and Climate Action (BMWK). 
   
   This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
@@ -12,18 +12,18 @@ Description: |
     * a time interval for which they want to retrieve Sentinel-2 data;
     * an evalscript specifying which Sentinel-2 bands or derived indices, e.g. NDVI, to download.
   
-  Provided the above parameters, the algorithm computes Sentinel-2 time-series for the specified bands/indices for each polygon in the Eurocrops dataset that intersects the AoI. The computed signals are aggregated spatially over the polygon, and temporally over one day. 
+  Provided the above parameters, the algorithm computes Sentinel-2 time-series for the specified bands/indices for each polygon in the Sentinel-2 signals for EuroCrops dataset that intersects the AoI. The computed signals are aggregated spatially over the polygon, and temporally over one day. 
   
   Such signals constitute the basis for many applications, in particular in monitoring agricultural activity. Please refer to this [blog-post series](https://medium.com/sentinel-hub/area-monitoring-concept-effc2c262583) for examples on how these signals can be used.
   
   The tool relies on AWS S3 bucket to store the results, thus read/write access to an AWS S3 bucket is required. 
   
   The process consists of the following steps:
-    - Retrieve Eurocrops parcels for a chosen AoI. This is done with the help of [GeoDB](https://github.com/dcs4cop/xcube-geodb).
+    - Retrieve Sentinel-2 signals for EuroCrops parcels for a chosen AoI. This is done with the help of [GeoDB](https://github.com/dcs4cop/xcube-geodb).
     - The parcels are saved to the specified folder on the user's AWS S3 bucket. 
     - Retrieve signals for the parcels in the AoI for the specified time interval using Sentinel Hub [Batch Statistical API](https://docs.sentinel-hub.com/api/latest/api/batch-statistical/).
     - The signals are downloaded to the  user's AWS S3 bucket in the form of `.json` files.
-Image: eurocrops/thumbnail.png
+Image: sentinel-2-signals-for-eurocrops/thumbnail.png
 Explore: "[Run algorithm in EDC Browser](https://browser.eurodatacube.com/?zoom=10&lat=41.9&lng=12.5&fromTime=1970-01-01T00%3A00%3A00.000Z&toTime=2022-11-14T13%3A45%3A29.045Z&algorithm=eurocrops)"
 GeographicalCoverage: |
   - Austria
