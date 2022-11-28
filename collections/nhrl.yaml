@@ -8,7 +8,7 @@ AdditionalInfoExternal:
   Title: Additional info
   Path: nhrl/README.MD
 Image: nhrl/thumbnail.png
-EDCBrowser: ""
+EDCBrowser: "https://browser.eurodatacube.com/?zoom=12&lat=47.48299&lng=19.04274&collectionId=LTK_NATIONAL_HIGH_RESOLUTION_LAYER&layerId=NHRL%20Land%20Cover&type=sentinel-hub-edc&fromTime=2020-01-01T00%3A00%3A00.000Z&toTime=2021-01-01T00%3A00%3A00.000Z"
 Resolution: 10m
 GeographicalCoverage: "Hungary (16.0°, 45.0°, 23.0°, 49.0°)"
 TemporalAvailability: "2016 -2021"
@@ -95,4 +95,4 @@ CubeDimensions:
     values:
       - nhrl
 RegistryEntryAdded: "2022-11-24"
-RegistryEntryLastModified: "2022-11-24"  
+RegistryEntryLastModified: "2022-11-28"  
