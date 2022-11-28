@@ -1,0 +1,60 @@
+Name: EuroCrops
+Description: |
+  EuroCrops is a dataset collection combining all publicly available self-declared crop reporting datasets from countries of the European Union. The project is funded by the German Space Agency at DLR on behalf of the Federal Ministry for Economic Affairs and Climate Action (BMWK). This work is licensed under a Creative Commons Attribution 4.0 International License.
+  The raw data obtained from the countries does not come in a unified, machine-readable taxonomy. We, therefore, developed a new Hierarchical Crop and Agriculture Taxonomy (HCAT) that harmonises all declared crops across the European Union. In the shapefiles you'll find this as additional attributes *EC_trans_n*, the original crop name translated into English, *EC_hcat_n*, the machine-readable HCAT name of the crop, and *EC_hcat_c*, the 10-digit HCAT code indicating the hierarchy of the crop.
+Documentation: Read more on the [EuroCrops GitHub page](https://github.com/maja601/EuroCrops).
+Image: eurocrops/eurocrops.png
+Explore: "[Open Notebook](https://eurodatacube.com/notebooks/contributions/EDC_GeoDB_4_eurocrops_demo.ipynb)"
+GeographicalCoverage: Europe
+TemporalAvailability: 2018 - 2021
+UpdateFrequency: None
+Attributes: 
+  Table:
+      Columns:
+        - Name: Name
+          Title: Name
+        - Name: Description
+          Title: Description
+      Rows:
+        - Name: Geometry
+          Description: The field's area
+        - Name: EC_trans_n
+          Description: The original crop name translated into English
+        - Name: EC_hcat_n*
+          Description: The machine-readable HCAT name of the crop
+        - Name: EC_hcat_c
+          Description: The 10-digit HCAT code indicating the hierarchy of the crop
+Contact: Maja Schneider, maja.schneider(at)tum.de, 
+Provider: "[TU Munich, Department of Aerospace and Geodesy](https://www.eurocrops.tum.de/)"
+ManagedBy: "[Brockmann Consult](https://www.brockmann-consult.de/)"
+Tags:
+  - open data
+  - geoDB
+  - vector
+  - Machine Learning
+  - agriculture
+  - land use
+
+License: |
+  [Creative Commons by 4.0](http://creativecommons.org/licenses/by/4.0/)
+Resources:
+  - Group: geoDB Resources
+    Database: geodb_b34bfae7-9265-4a3e-b921-06549d3c6035
+    Collections: |
+      AT_2021_EC21
+      BE_VLG_2021_EC21
+      DE_LS_2021_EC21
+      DE_NRW_2021_EC21
+      DK_2019_EC21
+      EE_2021_EC21
+      ES_NA_2020_EC21
+      FR_2018_EC21
+      LV_2021_EC21
+      NL_2021_EC21
+      PT_2021_EC21
+      RO_ny_EC21
+      SE_2021_EC21
+      SK_2021_EC21
+
+RegistryEntryAdded: "2022-11-28"
+RegistryEntryLastModified: "2022-11-28"
