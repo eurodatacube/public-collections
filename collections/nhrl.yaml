@@ -1,4 +1,5 @@
 Name: National High Resolution Layer, Hungary
+OpenEOPID: "LTK_NATIONAL_HIGH_RESOLUTION_LAYER"
 Description: |
   The concept of the NHRL was to create a dataset that provides wall-to-wall information on land cover, especially on land cover categories that can be more reliably identified by remote sensing methods. Its classification mixes land use and land cover elements according to human interest, providing map information from the built environment to agricultural cultivated areas and natural vegetation cover.
   In addition to the machine-learning process (Random Forest), its production includes data integration (roads - railways - buildings) and other data filtering steps to reduce data noise.
@@ -42,6 +43,7 @@ Resources:
     Name: Sentinel Hub
     Role: processor
     Type: byoc-86c76a3d-29f3-4eff-99fe-3eb84e422c66
+    CollectionId: 86c76a3d-29f3-4eff-99fe-3eb84e422c66
     Notes: Hungary, 2016 - 2021
     Primary: true
 Configurations:
@@ -52,7 +54,7 @@ Configurations:
   - href: "https://raw.githubusercontent.com/eurodatacube/public-collections/main/collections/nhrl/script.js"
     rel: "processing-expression"
     type: "application/javascript"
-    title: "Evalscript to generate True color imagery"
+    title: "Evalscript to generate Land cover visualisation"
     sentinelhub:layer_name: NHRL Land Cover
     sentinelhub:mosaicking_order: "mostRecent"
     sentinelhub:upsampling: "BICUBIC"
@@ -87,6 +89,7 @@ CubeDimensions:
     extent:
       - '2016-01-01T00:00:00Z'
       - '2021-01-01T00:00:00'
+    step: P1Y
   bands:
     type: bands
     values:
