@@ -42,16 +42,16 @@ Resources:
     EndPoint: https://services.sentinel-hub.com
     Name: Sentinel Hub
     Role: processor
-    Type: byoc-fe18a929-4f89-48c8-8c58-0e73ffe2994c
+    Type: byoc-86c76a3d-29f3-4eff-99fe-3eb84e422c66
     CollectionId: fe18a929-4f89-48c8-8c58-0e73ffe2994c
-    Notes: Hungary, 2015
+    Notes: Hungary, 2016 - 2021
     Primary: true
 Configurations:
   - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
     rel: "about"
     type: "text/html"
     title: "Details about running Evalscripts"
-  - href: ""
+  - href: "https://raw.githubusercontent.com/eurodatacube/public-collections/main/collections/nhrl/script.js"
     rel: "processing-expression"
     type: "application/javascript"
     title: "Evalscript to generate Land cover visualisation"
