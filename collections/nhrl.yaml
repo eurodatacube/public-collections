@@ -43,7 +43,7 @@ Resources:
     Name: Sentinel Hub
     Role: processor
     Type: byoc-86c76a3d-29f3-4eff-99fe-3eb84e422c66
-    CollectionId: fe18a929-4f89-48c8-8c58-0e73ffe2994c
+    CollectionId: 86c76a3d-29f3-4eff-99fe-3eb84e422c66
     Notes: Hungary, 2016 - 2021
     Primary: true
 Configurations:
@@ -95,4 +95,4 @@ CubeDimensions:
     values:
       - nhrl
 RegistryEntryAdded: "2022-11-24"
-RegistryEntryLastModified: "2022-11-24"  
+RegistryEntryLastModified: "2022-11-28"  
