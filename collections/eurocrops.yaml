@@ -40,7 +40,7 @@ License: |
 Resources:
   - Group: geoDB Resources
     Database: geodb_b34bfae7-9265-4a3e-b921-06549d3c6035
-    Collections: |
+    Collection: |
       AT_2021_EC21
       BE_VLG_2021_EC21
       DE_LS_2021_EC21
