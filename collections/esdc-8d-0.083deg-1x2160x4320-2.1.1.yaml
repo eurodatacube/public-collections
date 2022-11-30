@@ -1,0 +1,202 @@
+Name: esdc-8d-0.083deg-1x2160x4320-2.1.1
+Description: |
+  esdc-8d-0.083deg-1x2160x4320-2.1.1 is a result of the project Earth System Data Lab, which is now continued as Deep
+  Earth System Data Lab (DeepESDL). It contains relevant variables for Earth System Science, mostly derived from Earth Observation, 
+  but the compilation also includes model or re-analysis data. The DeepESDL project is very grateful to all data owners for kindly 
+  providing the data sets free of charge. They come without any warranty, neither from the owners, 
+  the DeepESDL team or ESA.
+
+Documentation: "[Product information](https://www.earthsystemdatalab.net/index.php/documentation/data-sets/)"
+Image: esdc-8d-0.083deg-1x2160x4320-2.1.1/esdc-8d-0.083deg-1x2160x4320-2.1.1.png
+Explore: "[Open Notebook](https://eurodatacube.com/notebooks/curated/ESDL_EDC_v0.2.ipynb)"
+Resolution: 0.083deg
+GeographicalCoverage: |
+ (179.9569°W, -179.95833°E, -89.95761°S, 89.958336°N)
+ Areas: 
+  - global
+TemporalAvailability: "['1979-01-05', '2018-12-31']"
+TemporalResolution: Daily mean
+UpdateFrequency: Static
+Variables: 
+ Table:
+      Columns:
+        - Name: Name
+          Title: Name
+        - Name: Description
+          Title: Description
+      Rows:
+        - Name: Rg
+          Description: Downwelling shortwave radiation
+        - Name: aerosol_optical_thickness_1600
+          Description: Aerosol Optical Thickness at 1600 nm
+        - Name: aerosol_optical_thickness_550
+          Description: Aerosol Optical Thickness at 550 nm
+        - Name: aerosol_optical_thickness_670
+          Description: Aerosol Optical Thickness at 670 nm
+        - Name: aerosol_optical_thickness_870
+          Description: Aerosol Optical Thickness at 870 nm
+        - Name: air_temperature_2m
+          Description: 2 metre air temperature
+        - Name: analysed_sst
+          Description: analysed sea surface temperature
+        - Name: bare_soil_evaporation
+          Description: Bare Soil Evaporation
+        - Name: black_sky_albedo
+          Description: Black Sky Albedo for Visible Wavebands
+        - Name: black_sky_albedo_avhrr
+          Description: Directional Hemisphere Reflectance albedo - VIS band
+        - Name: burnt_area
+          Description: Monthly Burnt Area
+        - Name: c_emissions
+          Description: Carbon Dioxide Emissions Due to Natural Fires
+        - Name: cee
+          Description: Cloud Effective Emissivity at 10.8 um
+        - Name: cer
+          Description: Cloud Effective Radius
+        - Name: cfc
+          Description: Cloud fraction
+        - Name: chlor_a
+          Description: Chlorophyll-a Concentration in Seawater
+        - Name: cot
+          Description: Cloud Optical Thickness
+        - Name: cph
+          Description: Fraction of Liquid Water Clouds
+        - Name: cth
+          Description: Cloud Top Height
+        - Name: ctp
+          Description: Cloud Top Pressure
+        - Name: ctt
+          Description: Cloud Top Temperature
+        - Name: evaporation
+          Description: Evaporation
+        - Name: evaporative_stress
+          Description: Evaporative Stress Factor
+        - Name: fapar_tip
+          Description: Fraction of Absorbed PAR
+        - Name: fat_c
+          Description: Tropospheric Ozone Column (Fixed Altitude)
+        - Name: fat_p
+          Description: Tropopause Air Pressure for the Fixed Altitude Tropopause
+        - Name: flt_c
+          Description: Tropospheric Ozone Column
+        - Name: flt_p
+          Description: Tropopause Air Pressure for the Fixed Layer Tropopause
+        - Name: fractional_snow_cover
+          Description: Surface Fraction Covered by Snow
+        - Name: free_fat_c
+          Description: Tropospheric Ozone Column (Fixed Altitude)
+        - Name: free_flt_c
+          Description: Tropospheric Ozone Column (Fixed Layers)
+        - Name: free_lrt_c
+          Description: Tropospheric Ozone Column ( Lapse Rate)
+        - Name: free_msr_flt
+          Description: Residual MSR-FLT (Stratospheric Part Partial)
+        - Name: free_msr_lrt
+          Description: Residual MSR-LRT (Stratospheric Part Partial)
+        - Name: gross_primary_productivity
+          Description: Gross Primary Productivity
+        - Name: interception_loss
+          Description: Interception Loss
+        - Name: iwp
+          Description: Cloud Ice Water Path
+        - Name: land_surface_temperature
+          Description: Land Surface Temperature
+        - Name: latent_energy
+          Description: Latent Energy
+        - Name: leaf_area_index
+          Description: Effective Leaf Area Index
+        - Name: lrt_c
+          Description: Tropospheric Ozone Column (Lapse Rate)
+        - Name: lrt_p
+          Description: Tropopause Air Pressure (Lapse Rate)
+        - Name: lwp
+          Description: Cloud Liquid Water Path
+        - Name: mask
+          Description: sea/land/lake/ice field composite mask
+        - Name: max_air_temperature_2m
+          Description: Maximum 2 metre air temperature
+        - Name: min_air_temperature_2m
+          Description: Minimum 2 metre air temperature
+        - Name: msr_flt
+          Description: Residual MSR-FLT (Stratospheric Part Partial)
+        - Name: msr_lrt
+          Description: Residual MSR-LRT (Stratospheric Part Partial)
+        - Name: net_ecosystem_exchange
+          Description: Net Ecosystem Exchange
+        - Name: net_radiation
+          Description: Net Radiation
+        - Name: open_water_evaporation
+          Description: Open-water Evaporation
+        - Name: ozone
+          Description: Mean Total Ozone Column in dobson units
+        - Name: par
+          Description: Photosynthetically Active Radiation
+        - Name: pardiff
+          Description: Diffuse Photosynthetically Active Radiation
+        - Name: potential_evaporation
+          Description: Potential Evaporation
+        - Name: precipitation
+          Description: Precipitation
+        - Name: precipitation_era5
+          Description: ERA 5 Precipitation
+        - Name: psurf
+          Description: Surface Air Pressure
+        - Name: radiation_era5
+          Description: ERA 5 Surface Shortwave Downwelling Radiation
+        - Name: root_moisture
+          Description: Root-Zone Soil Moisture
+        - Name: sea_ice_fraction
+          Description: sea ice area fraction
+        - Name: sensible_heat
+          Description: Sensible Heat
+        - Name: sm
+          Description: Volumetric Soil Moisture
+        - Name: snow_sublimation
+          Description: Snow Sublimation
+        - Name: snow_water_equivalent
+          Description: Daily Snow Water Equivalent
+        - Name: srex_mask
+          Description: Mask for SREX Regions
+        - Name: stemp
+          Description: Surface Temperature
+        - Name: surface_moisture
+          Description: Surface Soil Moisture
+        - Name: terrestrial_ecosystem_respiration
+          Description: Terrestrial Ecosystem Respiration
+        - Name: totcol_assim
+          Description: Total Ozone Column (Assimilated TM5 data)
+        - Name: totcol_free
+          Description: Total Ozone Column (Assimilated TM5 data)
+        - Name: totcol_msr
+          Description: Total Ozone Column (MSR data)
+        - Name: transpiration
+          Description: Transpiration
+        - Name: water_mask
+          Description: Terrestrial or Water Pixel Classification
+        - Name: water_vapour
+          Description: Total Column Water Vapour
+        - Name: white_sky_albedo
+          Description: White Sky Albedo for Visible Wavebands
+        - Name: white_sky_albedo_avhrr
+          Description: Bi-Hemisphere Reflectance Albedo - VIS band
+        - Name: xch4
+          Description: Column Average Dry-air Mole Fraction Methane
+        - Name: xco2
+          Description: Column Average Dry-air Mole Fraction Carbon Dioxide
+
+Contact: info@earthsystemdatalab.net
+Provider: "[Earth System Data Lab](https://www.earthsystemdatalab.net/)"
+ManagedBy: "[Brockmann Consult](https://www.brockmann-consult.de/)"
+Tags:
+  - Earth System Data Cube
+  - xcube
+  - raster
+  - systematic
+  - open data
+License: |
+  Please refer to individual variables.
+Resources:
+-  Group: xcube Resources
+   DataID: esdc-8d-0.083deg-1x2160x4320-2.1.1.zarr
+RegistryEntryAdded: "2022-11-30"
+RegistryEntryLastModified: "2022-11-30"
