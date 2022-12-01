@@ -1,0 +1,91 @@
+Name: Ecosystem Map of Hungary
+OpenEOPID: "LTK_ECOSYSTEM_MAP_OF_HUNGARY"
+Description: |
+  The Ecosystem Map of Hungary shows the distribution, extent and frequency of ecosystem types on national-scale. Although, mapping of agricultural and urban ecosystems was also a goal, the primary target areas of mapping were semi-natural areas. The map is suitable to serve as the basis of all further assessments of Ecosystem Services and green infrastructure. 
+  Top-down and bottom-up mapping approaches were combined to execute mapping, relying both on existing and regularly updated thematic databases and remote sensing images.
+  The map was created within the frame of an EU-co-financed project: "Strategic Assessments supporting the long-term conservation of natural values of community interest as well as the national implementation of the EU Biodiversity Strategy to 2020". (KEHOP-4.3.0-VEKOP-15-2016-00001).
+AdditionalInfoExternal:
+  Title: Additional info
+  Path: ecosystemREADME.MD
+Image: ecosystem/thumbnail.png
+EDCBrowser: ""
+Resolution: 20m
+GeographicalCoverage: "Hungary (16.0°, 45.0°, 23.0°, 49.0°)"
+TemporalAvailability: "2015"
+UpdateFrequency: Static data
+BandInformation: 
+  Table:
+      Columns:
+        - Name: Name
+          Title: Name
+        - Name: Description
+          Title: Description
+      Rows:
+        - Name: ecosystem
+          Description: ecosystem categories
+Contact: https://lechnerkozpont.hu/en
+Provider: "[Lechner Knowledge Center, Hungary](https://lechnerkozpont.hu/en)"
+ManagedBy: "[Lechner Knowledge Center, Hungary](https://lechnerkozpont.hu/en)"
+Tags:
+  - DanubeDataCube
+  - xcube
+  - sentinel hub
+  - raster
+  - systematic
+  - derived data
+  - land cover
+  - machine learning
+  - ecosystem
+  - open data
+License: "[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)"
+Resources:
+  - Group: Sentinel Hub Resources
+    EndPoint: https://services.sentinel-hub.com
+    Name: Sentinel Hub
+    Role: processor
+    Type: byoc-fe18a929-4f89-48c8-8c58-0e73ffe2994c
+    CollectionId: fe18a929-4f89-48c8-8c58-0e73ffe2994c
+    Notes: Hungary, 2015
+    Primary: true
+DataAtWork:
+  Publications:
+    - Title: "Compiling a high-resolution country-level ecosystem map to support environmental policy: methodological challenges and solutions from Hungary."
+      URL: https://doi.org/10.1080/10106049.2021.2005158
+      AuthorName: Tanács E. et al.
+Extent:
+  spatial:
+    bbox:
+      -
+        - 16
+        - 45
+        - 23
+        - 49
+  temporal:
+    interval:
+      -
+        - '2015-01-01T00:00:00Z'
+        - '2015-01-01T00:00:00'
+CubeDimensions:
+  x:
+    type: spatial
+    axis: x
+    extent:
+      - 16
+      - 23
+  y:
+    type: spatial
+    axis: y
+    extent:
+      - 45
+      - 49
+  t:
+    type: temporal
+    extent:
+      - '2015-01-01T00:00:00Z'
+      - '2015-01-01T00:00:00'
+  bands:
+    type: bands
+    values:
+      - ecosystem
+RegistryEntryAdded: "2022-11-22"
+RegistryEntryLastModified: "2022-11-29" 

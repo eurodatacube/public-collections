@@ -1,0 +1,111 @@
+Name: Standard Precipitation Evapotranspiration Index (SPEI)
+OpenEOPID: "LTK_Standard_Precipitation_Evapotranspiration_Index"
+Description: Standard Precipitation Evapotranspiration Index (SPEI) uses the basis of [Standard Precipitation Index](https://collections.eurodatacube.com/spi/) but includes a temperature component, allowing the index to account for the effect of temperature on drought development through a basic water balance calculation.
+Documentation: "[Climate Indices](https://climate-indices.readthedocs.io/en/latest/#), [SPEI](https://climatedataguide.ucar.edu/climate-data/standardized-precipitation-evapotranspiration-index-spei)"
+Image: spei/thumbnail.png
+EDCBrowser: ""
+Resolution: "0.11°"
+GeographicalCoverage: "Hungary (16.0°, 45.0°, 23.0°, 49.0°)"
+TemporalAvailability: "1971-01-01 - Ongoing"
+UpdateFrequency: Monthly
+BandInformation: 
+  Table:
+      Columns:
+        - Name: Name
+          Title: Name
+        - Name: Description
+          Title: Description
+      Rows:
+        - Name: SPEI_1MS
+          Description: 1 Month aggregates
+        - Name: SPEI_2MS
+          Description: 2 Months aggregates
+        - Name: SPEI_3MS
+          Description: 3 Months aggregates
+        - Name: SPEI_6MS
+          Description: 6 Months aggregates
+        - Name: SPEI_9MS
+          Description: 9 Months aggregates
+        - Name: SPEI_12MS
+          Description: 12 Months aggregates
+        - Name: SPEI_24MS
+          Description: 24 Months aggregates
+Contact: https://www.met.hu/
+Provider: "[Hungarian Meteorological Service](https://www.met.hu/)"
+ManagedBy: "[Hungarian Meteorological Service](https://www.met.hu/)"
+Tags:
+  - DanubeDataCube
+  - xcube
+  - sentinel hub
+  - raster
+  - systematic
+  - derived data
+  - drought index
+  - machine learning
+  - open data
+License: "[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)"
+Resources:
+  - Group: Sentinel Hub Resources
+    EndPoint: https://services.sentinel-hub.com
+    Name: Sentinel Hub
+    Role: processor
+    Type: byoc-1b966c21-2dfe-4ba0-a330-67c717492f12
+    CollectionId: 1b966c21-2dfe-4ba0-a330-67c717492f12
+    Notes: Hungary, 1971 - Ongoing
+    Primary: true
+Configurations:
+  - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
+    rel: "about"
+    type: "text/html"
+    title: "Details about running Evalscripts"
+  - href: "https://raw.githubusercontent.com/eurodatacube/public-collections/main/collections/spei/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate SPEI visualisation"
+    sentinelhub:layer_name: Standard Precipitation Evapotranspiration Index
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
+Extent:
+  spatial:
+    bbox:
+      -
+        - 16
+        - 45
+        - 23
+        - 49
+  temporal:
+    interval:
+      -
+        - '1971-01-01T00:00:00Z'
+        - null
+CubeDimensions:
+  x:
+    type: spatial
+    axis: x
+    extent:
+      - 16
+      - 23
+  y:
+    type: spatial
+    axis: y
+    extent:
+      - 45
+      - 49
+  t:
+    type: temporal
+    extent:
+      - '1971-01-01T00:00:00Z'
+      - null
+    step: P1M
+  bands:
+    type: bands
+    values:
+      - SPEI_1MS
+      - SPEI_2MS
+      - SPEI_3MS
+      - SPEI_6MS
+      - SPEI_9MS
+      - SPEI_12MS
+      - SPEI_24MS
+RegistryEntryAdded: "2022-11-30"
+RegistryEntryLastModified: "2022-11-30"  
