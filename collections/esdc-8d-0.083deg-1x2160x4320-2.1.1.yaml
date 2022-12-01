@@ -1,6 +1,6 @@
-Name: esdc-8d-0.083deg-1x2160x4320-2.1.1
+Name: Earth System Data Cube v2.1.1
 Description: |
-  esdc-8d-0.083deg-1x2160x4320-2.1.1 is a result of the project Earth System Data Lab, which is now continued as Deep
+  Earth System Data Cube v2.1.1 is a result of the project Earth System Data Lab, which is now continued as Deep
   Earth System Data Lab (DeepESDL). It contains relevant variables for Earth System Science, mostly derived from Earth Observation, 
   but the compilation also includes model or re-analysis data. The DeepESDL project is very grateful to all data owners for kindly 
   providing the data sets free of charge. They come without any warranty, neither from the owners, 
@@ -12,8 +12,7 @@ Explore: "[Open Notebook](https://eurodatacube.com/notebooks/curated/ESDL_EDC_v0
 Resolution: 0.083deg
 GeographicalCoverage: |
  (179.9569°W, -179.95833°E, -89.95761°S, 89.958336°N)
- Areas: 
-  - global
+
 TemporalAvailability: "['1979-01-05', '2018-12-31']"
 TemporalResolution: Daily mean
 UpdateFrequency: Static
@@ -25,8 +24,6 @@ Variables:
         - Name: Description
           Title: Description
       Rows:
-        - Name: Rg
-          Description: Downwelling shortwave radiation
         - Name: aerosol_optical_thickness_1600
           Description: Aerosol Optical Thickness at 1600 nm
         - Name: aerosol_optical_thickness_550
@@ -143,6 +140,8 @@ Variables:
           Description: Surface Air Pressure
         - Name: radiation_era5
           Description: ERA 5 Surface Shortwave Downwelling Radiation
+        - Name: Rg
+          Description: Downwelling shortwave radiation
         - Name: root_moisture
           Description: Root-Zone Soil Moisture
         - Name: sea_ice_fraction
@@ -198,5 +197,6 @@ License: |
 Resources:
 -  Group: xcube Resources
    DataID: esdc-8d-0.083deg-1x2160x4320-2.1.1.zarr
+   Notes: Please refer to the example notebook to see how the dataset can be accessed.
 RegistryEntryAdded: "2022-11-30"
 RegistryEntryLastModified: "2022-11-30"

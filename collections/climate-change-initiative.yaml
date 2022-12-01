@@ -1,4 +1,4 @@
-Name: climate_change_initiative
+Name: Essential Climate Variables (ECV)
 Description: |
   ESA's Climate Change Initiative provides Climate Data Records (CDRs) for Essential Climate Variables (ECVs) 
   generated from the long-term global EO archives. As it stands, the programme offers 22 ECVs with 413 datasets and a 
@@ -18,49 +18,49 @@ Variables:
         - Name: Description
           Title: Description
       Rows:
-        - Name: Aerosol
+        - ECV: Aerosol
           Description: Set of global aerosol ECV products from different sensors
-        - Name: Cloud
+        - ECV: Cloud
           Description: Long-term coherent cloud property data sets
-        - Name: Greenhouse Gases
+        - ECV: Greenhouse Gases
           Description: Carbon Dioxide and Methane products
-        - Name: Ozone
+        - ECV: Ozone
           Description: Ozone products from ESA and Third Party Missions
-        - Name: Ocean Colour
+        - ECV: Ocean Colour
           Description: Chlorophyll, Inherent Optical Properties, and Water-leaving Reflecatnce products
-        - Name: Sea Ice
+        - ECV: Sea Ice
           Description: Sea ice Concentration and Sea ice Thickness products
-        - Name: Sea Level
+        - ECV: Sea Level
           Description: Sea Level ECV products from different instruments
-        - Name: Sea State 
+        - ECV: Sea State
           Description: Wave height products integrating different sensors
-        - Name: Sea Surface Salinity
+        - ECV: Sea Surface Salinity
           Description: Sea Surface Salinity products 
-        - Name: Sea Surface Temperature
+        - ECV: Sea Surface Temperature
           Description: Sea Surface Temperature products
-        - Name: Water Vapour
+        - ECV: Water Vapour
           Description: Products on Water Vapour content in the Atmosphere     
-        - Name: Antarctic Ice Sheet
+        - ECV: Antarctic Ice Sheet
           Description: Location, Mass Balance, and Velocities of the Antarctic Ice Sheet
-        - Name: Above-Ground Biomass 
+        - ECV: Above-Ground Biomass
           Description: Global Datasets for forest Above-Ground Biomass 
-        - Name: Fire 
+        - ECV: Fire
           Description: Different Burned Area products
-        - Name: Glaciers
+        - ECV: Glaciers
           Description: Inventory of Glacier Outlines  
-        - Name: Greenland Ice Sheet
+        - ECV: Greenland Ice Sheet
           Description: Different products characterizing the dynamics of Greenland Ice Sheet
-        - Name: Lakes 
+        - ECV: Lakes
           Description: Different variables characterizing Lakes on a global scale
-        - Name: Land Cover
+        - ECV: Land Cover
           Description: Global classification of Land Cover and a Water Bodies Map
-        - Name: Land Surface Temperature
+        - ECV: Land Surface Temperature
           Description: Land Surface Temperature products integrating different sensors 
-        - Name: Permafrost  
+        - ECV: Permafrost
           Description: Active Layer Thickness, Ground Temperature, and Extent products for the Northern Hemisphere
-        - Name: Snow
+        - ECV: Snow
           Description: Long time-series of daily Snow Water Equivalent and Snow Cover Fraction
-        - Name: Soil Moisture
+        - ECV: Soil Moisture
           Description: Soil Moisture products from different sensors   
           
 Contact: "[CCI Open Data Portal Helpdesk](https://climate.esa.int/en/helpdesk/)"
@@ -77,7 +77,8 @@ License: |
   ESA CCI Data Policy: free and open access ([details](https://climate.esa.int/sites/default/files/CCI_Data_Policy_v1.1.pdf)).
 Resources:
  - Group: xcube Resources
- - StoreID: cciodp
+   StoreID: cciodp
+   Notes: Please refer to the example notebook to see how the dataset can be accessed.
 
 RegistryEntryAdded: "2022-11-30"
 RegistryEntryLastModified: "2022-11-30"
