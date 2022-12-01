@@ -1,0 +1,111 @@
+Name: Standard Precipitation Index (SPI)
+OpenEOPID: "LTK_Standard_Precipitation_Index"
+Description: Standard Precipitation Index (SPI) quantifies observed precipitation as a standardized departure from a selected probability distribution function that models the raw precipitation data. The raw precipitation data are typically fitted to a gamma or a Pearson Type III distribution, and then transformed to a normal distribution.
+Documentation: "[Climate Indices](https://climate-indices.readthedocs.io/en/latest/#), [SPI](https://climatedataguide.ucar.edu/climate-data/standardized-precipitation-index-spi)"
+Image: spi/thumbnail.png
+EDCBrowser: ""
+Resolution: "0.11°"
+GeographicalCoverage: "Hungary (16.0°, 45.0°, 23.0°, 49.0°)"
+TemporalAvailability: "1971-01-01 -Ongoing"
+UpdateFrequency: Monthly
+BandInformation: 
+  Table:
+      Columns:
+        - Name: Name
+          Title: Name
+        - Name: Description
+          Title: Description
+      Rows:
+        - Name: SPI_1MS
+          Description: 1 Month aggregates
+        - Name: SPI_2MS
+          Description: 2 Months aggregates
+        - Name: SPI_3MS
+          Description: 3 Months aggregates
+        - Name: SPI_6MS
+          Description: 6 Months aggregates
+        - Name: SPI_9MS
+          Description: 9 Months aggregates
+        - Name: SPI_12MS
+          Description: 12 Months aggregates
+        - Name: SPI_24MS
+          Description: 24 Months aggregates
+Contact: https://www.met.hu/
+Provider: "[Hungarian Meteorological Service ](https://www.met.hu/)"
+ManagedBy: "[Hungarian Meteorological Service ](https://www.met.hu/)"
+Tags:
+  - DanubeDataCube
+  - xcube
+  - sentinel hub
+  - raster
+  - systematic
+  - derived data
+  - drought index
+  - machine learning
+  - open data
+License: "[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)"
+Resources:
+  - Group: Sentinel Hub Resources
+    EndPoint: https://services.sentinel-hub.com
+    Name: Sentinel Hub
+    Role: processor
+    Type: byoc-f1702c4b-7d91-42ff-87db-8672d501f8b3
+    CollectionId: f1702c4b-7d91-42ff-87db-8672d501f8b3
+    Notes: Hungary, 1971 - Ongoing
+    Primary: true
+Configurations:
+  - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
+    rel: "about"
+    type: "text/html"
+    title: "Details about running Evalscripts"
+  - href: "https://raw.githubusercontent.com/eurodatacube/public-collections/main/collections/spi/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate SPI visualisation"
+    sentinelhub:layer_name: Standard Precipitation Index
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
+Extent:
+  spatial:
+    bbox:
+      -
+        - 16
+        - 45
+        - 23
+        - 49
+  temporal:
+    interval:
+      -
+        - '1971-01-01T00:00:00Z'
+        - null
+CubeDimensions:
+  x:
+    type: spatial
+    axis: x
+    extent:
+      - 16
+      - 23
+  y:
+    type: spatial
+    axis: y
+    extent:
+      - 45
+      - 49
+  t:
+    type: temporal
+    extent:
+      - '1971-01-01T00:00:00Z'
+      - null
+    step: P1M
+  bands:
+    type: bands
+    values:
+      - SPI_1MS
+      - SPI_2MS
+      - SPI_3MS
+      - SPI_6MS
+      - SPI_9MS
+      - SPI_12MS
+      - SPI_24MS
+RegistryEntryAdded: "2022-11-30"
+RegistryEntryLastModified: "2022-11-30"  
