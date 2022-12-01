@@ -77,7 +77,8 @@ License: |
   ESA CCI Data Policy: free and open access ([details](https://climate.esa.int/sites/default/files/CCI_Data_Policy_v1.1.pdf)).
 Resources:
  - Group: xcube Resources
-   StoreID: cciodp
+   StoreInstanceID: cciodp
+   StoreTitle: ESA CCI Open Data Portal
    Notes: Please refer to the example notebook to see how the store can be queried.
 
 RegistryEntryAdded: "2022-11-30"

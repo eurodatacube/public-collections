@@ -198,8 +198,9 @@ License: |
   Please refer to individual variables.
 Resources:
 -  Group: xcube Resources
-   StoreID: s3
-   Root: esdl-esdc-v2.1.1
+   StoreInstanceID: s3
+   StoreTitle: Data store that uses a AWS S3 compatible object storage
+   DataID: esdl-esdc-v2.1.1
    Notes: Please refer to the example notebook to see how the store can be queried.
 RegistryEntryAdded: "2022-11-30"
 RegistryEntryLastModified: "2022-11-30"
