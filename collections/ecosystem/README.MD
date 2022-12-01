@@ -11,7 +11,7 @@ The mapping methodology combined elements such as (1) image-based predictive map
 
 ## Typology
 
-Hierarchical with three levels; six main categories at the first level (Level 1) and 56 at the most detailed third level. Level 1 corresponds to the MAES level 2 types with a few adjustments. (Typology_of_the_Ecosystem_Map_of_Hungary.pdf)
+Hierarchical with three levels; six main categories at the first level (Level 1) and 56 at the most detailed third level. Level 1 corresponds to the MAES level 2 types with a few adjustments. [Typology_of_the_Ecosystem_Map_of_Hungary](https://raw.githubusercontent.com/eurodatacube/public-collections/main/collections/ecosystem/Typology_of_the_Ecosystem_Map_of_Hungary.pdf)
 
 ## Band information
 
