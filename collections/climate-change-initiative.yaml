@@ -1,9 +1,9 @@
-Name: Essential Climate Variables (ECV)
+Name: CCI Essential Climate Variables
 Description: |
   ESA's Climate Change Initiative provides Climate Data Records (CDRs) for Essential Climate Variables (ECVs) 
   generated from the long-term global EO archives. As it stands, the programme offers 22 ECVs with 413 datasets and a 
   multiple of single parameters. In EDC, the data can be conveniently accessed via the xcube datastore for 
-  CCI'c Open Data Portal.
+  CCI Open Data Portal.
 Documentation: "[Product information](https://climate.esa.int/en/odp/#/dashboard)"
 Image: climate-change-initiative/CCI_image.png
 Explore: "[Open Notebook](https://eurodatacube.com/notebooks/contributions/EDC_Access_CCI_data.ipynb)"
@@ -78,7 +78,7 @@ License: |
 Resources:
  - Group: xcube Resources
    StoreID: cciodp
-   Notes: Please refer to the example notebook to see how the dataset can be accessed.
+   Notes: Please refer to the example notebook to see how the store can be queried.
 
 RegistryEntryAdded: "2022-11-30"
 RegistryEntryLastModified: "2022-11-30"
