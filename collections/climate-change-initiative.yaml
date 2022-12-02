@@ -61,8 +61,7 @@ Variables:
         - ECV: Snow
           Description: Long time-series of daily Snow Water Equivalent and Snow Cover Fraction
         - ECV: Soil Moisture
-          Description: Soil Moisture products from different sensors   
-          
+          Description: Soil Moisture products from different sensors
 Contact: "[CCI Open Data Portal Helpdesk](https://climate.esa.int/en/helpdesk/)"
 Provider: "[ESA Climate Office](https://climate.esa.int/en/esa-climate/esa-climate-office/)"
 ManagedBy: "[Brockmann Consult](https://www.brockmann-consult.de/)"
@@ -80,6 +79,5 @@ Resources:
    StoreInstanceID: cciodp
    StoreTitle: ESA CCI Open Data Portal
    Notes: Please refer to the example notebook to see how the store can be queried.
-
 RegistryEntryAdded: "2022-11-30"
-RegistryEntryLastModified: "2022-11-30"
+RegistryEntryLastModified: "2022-12-02"

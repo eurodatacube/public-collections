@@ -6,15 +6,12 @@ Description: |
   each resolution a differently chunked version.The DeepESDL project is very grateful to all data owners for kindly 
   providing the data sets free of charge. They come without any warranty, neither from the owners, 
   the DeepESDL team or ESA. 
-  
-
 Documentation: "[Product information](https://www.earthsystemdatalab.net/index.php/documentation/data-sets/)"
-Image: esdc-8d-0.083deg-1x2160x4320-2.1.1/esdc-8d-0.083deg-1x2160x4320-2.1.1.png
+Image: earth-system-data-cube/earth-system-data-cube.png
 Explore: "[Open Notebook](https://eurodatacube.com/notebooks/curated/ESDL_EDC_v0.2.ipynb)"
 Resolution: 0.083deg , 0.25deg
 GeographicalCoverage: |
  (179.9569°W, -179.95833°E, -89.95761°S, 89.958336°N)
-
 TemporalAvailability: "['1979-01-05', '2018-12-31']"
 TemporalResolution: Daily mean
 UpdateFrequency: Static
@@ -184,7 +181,6 @@ Variables:
           Description: Column Average Dry-air Mole Fraction Methane
         - Name: xco2
           Description: Column Average Dry-air Mole Fraction Carbon Dioxide
-
 Contact: info@earthsystemdatalab.net
 Provider: "[Earth System Data Lab](https://www.earthsystemdatalab.net/)"
 ManagedBy: "[Brockmann Consult](https://www.brockmann-consult.de/)"
@@ -203,4 +199,4 @@ Resources:
    DataID: esdl-esdc-v2.1.1
    Notes: Please refer to the example notebook to see how the store can be queried.
 RegistryEntryAdded: "2022-11-30"
-RegistryEntryLastModified: "2022-11-30"
+RegistryEntryLastModified: "2022-12-02"
