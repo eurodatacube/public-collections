@@ -49,7 +49,7 @@ Resources:
     EndPoint: https://services.sentinel-hub.com
     Name: Sentinel Hub
     Role: processor
-    Type: byoc-1b966c21-2dfe-4ba0-a330-67c717492f12
+    Type: zarr-1b966c21-2dfe-4ba0-a330-67c717492f12
     CollectionId: 1b966c21-2dfe-4ba0-a330-67c717492f12
     Notes: Hungary, 1971 - Ongoing
     Primary: true
