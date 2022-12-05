@@ -3,7 +3,7 @@ OpenEOPID: "LTK_Standard_Precipitation_Evapotranspiration_Index"
 Description: Standard Precipitation Evapotranspiration Index (SPEI) uses the basis of [Standard Precipitation Index](https://collections.eurodatacube.com/spi/) but includes a temperature component, allowing the index to account for the effect of temperature on drought development through a basic water balance calculation.
 Documentation: "[Climate Indices](https://climate-indices.readthedocs.io/en/latest/#), [SPEI](https://climatedataguide.ucar.edu/climate-data/standardized-precipitation-evapotranspiration-index-spei)"
 Image: spei/thumbnail.png
-EDCBrowser: ""
+EDCBrowser: "https://browser.eurodatacube.com/?zoom=8&lat=47.13454&lng=18.75696&collectionId=LTK_Standard_Precipitation_Evapotranspiration_Index&layerId=Standard%20Precipitation%20Evapotranspiration%20Index&type=sentinel-hub-edc&fromTime=2022-07-31T22%3A00%3A00.000Z&toTime=2022-08-01T21%3A59%3A59.999Z"
 Resolution: "0.11°"
 GeographicalCoverage: "Hungary (16.0°, 45.0°, 23.0°, 49.0°)"
 TemporalAvailability: "1971-01-01 - Ongoing"
@@ -108,4 +108,4 @@ CubeDimensions:
       - SPEI_12MS
       - SPEI_24MS
 RegistryEntryAdded: "2022-11-30"
-RegistryEntryLastModified: "2022-11-30"  
+RegistryEntryLastModified: "2022-12-05"  
