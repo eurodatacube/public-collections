@@ -1,8 +1,10 @@
 Name: EuroCrops
 Description: |
-  EuroCrops is a dataset collection combining all publicly available self-declared crop reporting datasets from countries of the European Union. The project is funded by the German Space Agency at DLR on behalf of the Federal Ministry for Economic Affairs and Climate Action (BMWK). This work is licensed under a Creative Commons Attribution 4.0 International License.
-  The raw data obtained from the countries does not come in a unified, machine-readable taxonomy. We, therefore, developed a new Hierarchical Crop and Agriculture Taxonomy (HCAT) that harmonises all declared crops across the European Union. In the shapefiles you'll find this as additional attributes *EC_trans_n*, the original crop name translated into English, *EC_hcat_n*, the machine-readable HCAT name of the crop, and *EC_hcat_c*, the 10-digit HCAT code indicating the hierarchy of the crop.
-Documentation: Read more on the [EuroCrops GitHub page](https://github.com/maja601/EuroCrops).
+  EuroCrops is a dataset collection combining all publicly available self-declared crop reporting datasets from countries of the European Union. The project is funded by the German Space Agency at DLR on behalf of the Federal Ministry for Economic Affairs and Climate Action (BMWK). This work is licensed under a Creative Commons  Attribution 4.0 International License.
+Documentation: |
+  Visit the [EuroCrops GitHub page](https://github.com/maja601/EuroCrops) for the full documentation.
+  It is important to note that the raw data obtained from the countries does not come in a unified, machine-readable taxonomy. We, therefore, developed a new Hierarchical Crop and Agriculture Taxonomy (HCAT) that harmonises all declared crops across the European Union. In the shapefiles you'll find this as additional attributes *EC_trans_n*, the original crop name translated into English, *EC_hcat_n*, the machine-readable HCAT name of the crop, and *EC_hcat_c*, the 10-digit HCAT code indicating the hierarchy of the crop. The unharmonised fields are still available, and are documented on the individual [Wiki sites](https://github.com/maja601/EuroCrops/wiki) for each country, e.g. [Latvia](https://github.com/maja601/EuroCrops/wiki/Latvia).
+  Below, the names of the available collections are provided; note that these names follow the pattern `<ISO Alpha-2 2-character>{_<optional subnation code>}_<year>_EC21`. The subnation codes used are *VLG* (Flanders), *LS* (Lower Saxony), *NRW* (North-Rhine Westfalia) and *NA* (Navarra).
 Image: eurocrops/eurocrops.png
 Explore: "[Open Notebook](https://eurodatacube.com/notebooks/contributions/EDC_GeoDB_4_eurocrops_demo.ipynb)"
 GeographicalCoverage: Europe
