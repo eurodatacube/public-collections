@@ -1,0 +1,85 @@
+Name: E8 indicator
+Description: |
+  The indicator E8 measures COVID-19 lockdown effects on output inventory level at finished goods production sites. To contain COVID-19 pandemic, EU Member States have taken a restricitve measures. According to 
+  [EUROSTAT](https://ec.europa.eu/eurostat/en/web/products-eurostat-news/-/DDN-20200612-2), these imposed measures had in general a negative effect on demand and thus on industrial production in many areas.
+  
+  At the logistic areas operated at the production sites such as motor vehicle manufacturing, the large number of metal objects (e.g. machinery, vehicles) produces a strong signature in the radar backscatter signal. 
+  The observations provided by the Synthetic Aperture Radar satellites such as the C-band [Copernicus Sentinel-1](http://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-1) or the X-band Iceye 
+  satellites permit comparative measurements between 2019 and 2020 of the average backscatter signal at the output logistic areas.
+
+  The output of the indicator E8 algorithm is a CSV file containing statistics of Sentinel-1 backscatter signal for selected aoi and time period.
+
+  To generate the indicator E8 data, navigate to [EDC Browser](https://browser.eurodatacube.com/?zoom=4&lat=74.70645&lng=-45.84855&fromTime=1970-01-01T00%3A00%3A00.000Z&toTime=2021-10-22T14%3A36%3A31.329Z&algorithm=e8), 
+  select the required input parameters and follow the check-out wizard to complete your order. Produced data will be uploaded directly into your JupyterLab environment on EDC.
+Image: e8/thumbnail.png
+Explore: "[Run algorithm in EDC Browser](https://browser.eurodatacube.com/?zoom=4&lat=74.70645&lng=-45.84855&fromTime=1970-01-01T00%3A00%3A00.000Z&toTime=2021-10-22T14%3A36%3A31.329Z&algorithm=e8)"
+GeographicalCoverage: Finished goods production sites in EU States Members
+TemporalAvailability: |
+  Global:  October 2014 - ongoing
+UpdateFrequency: On-demand
+Attributes:
+  Table:
+    Columns:
+      - Name: Name
+        Title: Name
+      - Name: Description
+        Title: Description
+      - Name: Type
+        Title: Type
+    Rows:
+      - Name: aoi
+        Description: Area of interest
+        Type: Polyon or bounding box
+      - Name: Date
+        Description: Date of data retieval
+        Type: String
+      - Name: Orbit Direction
+        Description: (Optional) Orbit direction of Sentinel-1 satellite. Ascending orbit direction for data aquired when the satellite was traveling approx. towards Earth's North pole. Descending orbit direction  for data aquired when the satellite was traveling approx. towards Earth's South pole.
+        Type: String
+ProducedResults:
+  Table:
+    Columns:
+      - Name: Name
+        Title: Name
+      - Name: Description
+        Title: Description
+    Rows:
+      - Name: Column 1
+        Description: Serial row number
+      - Name: interval_from
+        Description: Starting date for for statistical API request to process Sentinel-1 backscatter signal.
+      - Name: interval_to
+        Description: Ending date for for statistical API request to process Sentinel-1 backscatter signal.
+      - Name: default_B0_min
+        Description: Minimal value of backscatter signal value for selected aoi and time period.
+      - Name: default_B0_max
+        Description: Maximal value of backscatter signal value for selected aoi and time period.
+      - Name: default_B0_mean
+        Description: Mean value of backscatter signal value for selected aoi and time period.
+      - Name: default_B0_stDev
+        Description: The standard deviation of data values is a statistical measure that indicates the amount of variation or dispersion of the data values.
+      - Name: default_B0_sampleCount
+        Description: The sample count parameter specifies the number of samples to include in the statistical calculation.
+      - Name: default_B0_noDataCount
+        Description: The noDataCount parameter is the number of data values that are considered "no data" or "missing" in the specified aoi and time period.
+Pricing: |
+  Prices are defined based on the selected aoi and time period. Regardless of the size and time period, the minimal cost for initiating request is 20 EDC credits.
+License: "[Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). Attribution: Contains modified Copernicus Sentinel data (year) processed by Sentinel Hub"
+Contact: https://forum.sentinel-hub.com/c/euro-data-cube/
+Provider: "[Sentinel Hub](https://www.sentinel-hub.com/)"
+ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
+Tags:
+  - on-demand
+  - e8 
+  - sentinel hub
+  - race challenges
+  - SAR
+  - backscatter signal
+  - COVID-19 effects
+  - radar
+  - Copernicus
+  - motor vehicle manufacturing
+  - metal objects
+Resources: []
+RegistryEntryAdded: "2022-12-10"
+RegistryEntryLastModified: "2022-12-10"
