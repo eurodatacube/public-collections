@@ -1,4 +1,5 @@
 Name: S5P CH4 weekly
+OpenEOPID: SENTINEL_5P_CH4_T7D_AVERAGE
 Description: |
   The data comes from the Copernicus Sentinel-5P satellite and uses data from the Copernicus Sentinel-5P satellite and shows the averaged methane concentrations across the globe — using weekly averaged maps. The methane map shown here is measured by the Tropomi instrument on the Sentinel 5 Precursor satellite.
   The Copernicus Sentinel-5P CH4 measurements were first filtered according to the recommendation in the Product Readme file (only data with a qa_value > 0.50 was used). Then the measurements are mapped on a fixed latitude-longitude grid of 4096 x 8192 pixels. The grid is turned into an EPSG:4326 geotiff file using the appropriate color scale, which is again turned into an EPSG:3857 tile map.
@@ -80,4 +81,4 @@ CubeDimensions:
     values:
       - ch4
 RegistryEntryAdded: "2022-07-12"
-RegistryEntryLastModified: "2022-07-12"
+RegistryEntryLastModified: "2022-12-08"
