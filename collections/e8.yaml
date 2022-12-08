@@ -1,6 +1,6 @@
 Name: E8 indicator
 Description: |
-  The indicator E8 measures COVID-19 lockdown effects on output inventory level at finished goods production sites. To contain COVID-19 pandemic, EU Mamber States have taken a restricitve measures. According to 
+  The indicator E8 measures COVID-19 lockdown effects on output inventory level at finished goods production sites. To contain COVID-19 pandemic, EU Member States have taken a restricitve measures. According to 
   [EUROSTAT](https://ec.europa.eu/eurostat/en/web/products-eurostat-news/-/DDN-20200612-2), these imposed measures had in general a negative effect on demand and thus on industrial production in many areas.
   
   At the logistic areas operated at the production sites such as motor vehicle manufacturing, the large number of metal objects (e.g. machinery, vehicles) produces a strong signature in the radar backscatter signal. 
@@ -43,36 +43,25 @@ ProducedResults:
         Title: Name
       - Name: Description
         Title: Description
-      - Name: Units
-        Title: Units
     Rows:
       - Name: Column 1
         Description: Serial row number
-        Units: ""
       - Name: interval_from
         Description: Starting date for for statistical API request to process Sentinel-1 backscatter signal.
-        Units: ""
       - Name: interval_to
         Description: Ending date for for statistical API request to process Sentinel-1 backscatter signal.
-        Units: ""
       - Name: default_B0_min
         Description: Minimal value of backscatter signal value for selected aoi and time period.
-        Units: ""
       - Name: default_B0_max
         Description: Maximal value of backscatter signal value for selected aoi and time period.
-        Units: ""
       - Name: default_B0_mean
         Description: Mean value of backscatter signal value for selected aoi and time period.
-        Units: ""
       - Name: default_B0_stDev
         Description: The standard deviation of data values is a statistical measure that indicates the amount of variation or dispersion of the data values.
-        Units: ""
       - Name: default_B0_sampleCount
         Description: The sample count parameter specifies the number of samples to include in the statistical calculation.
-        Units: ""
       - Name: default_B0_noDataCount
         Description: The noDataCount parameter is the number of data values that are considered "no data" or "missing" in the specified aoi and time period.
-        Units: ""
 Pricing: |
   Prices are defined based on the selected aoi and time period. Regardless of the size and time period, the minimal cost for initiating request is 20 EDC credits.
 License: "[Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). Attribution: Contains modified Copernicus Sentinel data (year) processed by Sentinel Hub"

@@ -7,3 +7,4 @@
 /.pydevproject
 _tmp
 _output
+.env
