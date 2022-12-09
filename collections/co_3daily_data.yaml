@@ -75,10 +75,10 @@ CubeDimensions:
     extent:
       - '2018-04-30T00:00:00Z'
       - null
-    step: P3D
+    step: P1D
   bands:
     type: bands
     values:
       - co
 RegistryEntryAdded: "2022-07-12"
-RegistryEntryLastModified: "2022-12-08"
+RegistryEntryLastModified: "2022-12-09"
