@@ -66,7 +66,7 @@ Pricing: |
   Prices are defined based on the selected aoi and time period. Regardless of the size and time period, the minimal cost for initiating request is 20 EDC credits.
 License: "[Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). Attribution: Contains modified Copernicus Sentinel data (year) processed by Sentinel Hub"
 Contact: https://forum.sentinel-hub.com/c/euro-data-cube/
-Provider: "[Sentinel Hub](https://www.sentinel-hub.com/)"
+Provider: "Providers and contributes: dr. Anca Anghelea and Sara Aparicio"
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
 Tags:
   - on-demand
