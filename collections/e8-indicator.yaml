@@ -9,10 +9,10 @@ Description: |
 
   The output of the indicator E8 algorithm is a CSV file containing statistics of Sentinel-1 backscatter signal for selected aoi and time period.
 
-  To generate the indicator E8 data, navigate to [EDC Browser](https://browser.eurodatacube.com/?zoom=4&lat=74.70645&lng=-45.84855&fromTime=1970-01-01T00%3A00%3A00.000Z&toTime=2021-10-22T14%3A36%3A31.329Z&algorithm=e8), 
+  To generate the indicator E8 data, navigate to [EDC Browser](https://browser.eurodatacube.com/?zoom=4&lat=74.70645&lng=-45.84855&fromTime=1970-01-01T00%3A00%3A00.000Z&toTime=2021-10-22T14%3A36%3A31.329Z&algorithm=e8-indicator),
   select the required input parameters and follow the check-out wizard to complete your order. Produced data will be uploaded directly into your JupyterLab environment on EDC.
-Image: e8/thumbnail.png
-Explore: "[Run algorithm in EDC Browser](https://browser.eurodatacube.com/?zoom=4&lat=74.70645&lng=-45.84855&fromTime=1970-01-01T00%3A00%3A00.000Z&toTime=2021-10-22T14%3A36%3A31.329Z&algorithm=e8)"
+Image: e8-indicator/thumbnail.png
+Explore: "[Run algorithm in EDC Browser](https://browser.eurodatacube.com/?zoom=4&lat=74.70645&lng=-45.84855&fromTime=1970-01-01T00%3A00%3A00.000Z&toTime=2021-10-22T14%3A36%3A31.329Z&algorithm=e8-indicator)"
 GeographicalCoverage: Finished goods production sites in EU States Members
 TemporalAvailability: |
   Global:  October 2014 - ongoing
