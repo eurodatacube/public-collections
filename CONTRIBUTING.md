@@ -16,7 +16,6 @@ For openEO Platform specific extension of YAML file structure: WMTS should be ad
 
 ```YAML
 Name:
-OpenEOPID:
 Description:
 Documentation:
 AdditionalInfoExternal:
@@ -129,6 +128,7 @@ RegistryEntryLastModified:
    <summary>openEO Platform YAML file extension</summary>
 
 ```YAML
+OpenEOPID:
 WMTS:
   - href:
     layer_id:
