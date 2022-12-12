@@ -25,7 +25,7 @@ Resources:
   - EndPoint: https://services.sentinel-hub.com
     Name: Sentinel Hub
     Role: processor
-    Type: byoc-a216afca-8a65-4072-87a5-8ed7aa21e08a
+    Type: zarr-a216afca-8a65-4072-87a5-8ed7aa21e08a
     CollectionId: a216afca-8a65-4072-87a5-8ed7aa21e08a
     Primary: true
 Configurations:
@@ -53,27 +53,5 @@ Extent:
       -
         - '1998-01-01T00:00:00Z'
         - '2020-12-31T23:59:59'
-CubeDimensions:
-  x:
-    type: spatial
-    axis: x
-    extent:
-      - -180
-      - 180
-  y:
-    type: spatial
-    axis: y
-    extent:
-      - -90
-      - 90
-  t:
-    type: temporal
-    extent:
-      - '1998-01-01T00:00:00Z'
-      - '2020-12-31T23:59:59'
-  bands:
-    type: bands
-    values:
-      - pp
 RegistryEntryAdded: "2022-07-12"
-RegistryEntryLastModified: "2022-07-12"
+RegistryEntryLastModified: "2022-12-08"

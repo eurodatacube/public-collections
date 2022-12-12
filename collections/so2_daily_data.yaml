@@ -55,28 +55,5 @@ Extent:
       -
         - '2021-09-19T00:00:00Z'
         - null
-CubeDimensions:
-  x:
-    type: spatial
-    axis: x
-    extent:
-      - -180
-      - 180
-  y:
-    type: spatial
-    axis: y
-    extent:
-      - -90
-      - 90
-  t:
-    type: temporal
-    extent:
-      - '2021-09-19T00:00:00Z'
-      - null
-    step: P1D
-  bands:
-    type: bands
-    values:
-      - so2
 RegistryEntryAdded: "2022-07-12"
-RegistryEntryLastModified: "2022-07-12"
+RegistryEntryLastModified: "2022-12-09"

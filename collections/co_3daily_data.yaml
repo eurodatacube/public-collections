@@ -1,4 +1,5 @@
 Name: CO 3daily data
+OpenEOPID: SENTINEL_5P_CO_T3D_AVERAGE
 Description: |
   This online platform uses data from the Copernicus Sentinel-5P satellite and shows the averaged carbon monoxide concentrations across the globe — using a 3-day moving average. Using a 3 day average eliminates most data gaps and improves data quality by reducing random noise. Satellite measurements of concentrations of pollutants like Carbon Monoxide, having a life-time in the atmosphere of about 1 month, can be used to monitor trans-boundary movement of air pollution.
   Carbon monoxide (CO) is a colorless, odorless, and tasteless gas that is toxic to humans as it can disrupt the transport of oxygen by the blood. In the atmosphere, it is spatially variable and has a life-time of about 1 month.
@@ -74,10 +75,10 @@ CubeDimensions:
     extent:
       - '2018-04-30T00:00:00Z'
       - null
-    step: P3D
+    step: P1D
   bands:
     type: bands
     values:
       - co
 RegistryEntryAdded: "2022-07-12"
-RegistryEntryLastModified: "2022-07-12"
+RegistryEntryLastModified: "2022-12-09"
