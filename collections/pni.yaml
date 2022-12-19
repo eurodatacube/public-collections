@@ -77,34 +77,34 @@ Extent:
       -
         - '1971-01-01T00:00:00Z'
         - null
-CubeDimensions:
-  x:
-    type: spatial
-    axis: x
-    extent:
-      - 16
-      - 23
-  y:
-    type: spatial
-    axis: y
-    extent:
-      - 45
-      - 49
-  t:
-    type: temporal
-    extent:
-      - '1971-01-01T00:00:00Z'
-      - null
-    step: P1M
-  bands:
-    type: bands
-    values:
-      - PNI_1MS
-      - PNI_2MS
-      - PNI_3MS
-      - PNI_6MS
-      - PNI_9MS
-      - PNI_12MS
-      - PNI_24MS
+#CubeDimensions:
+#  x:
+#    type: spatial
+#    axis: x
+#    extent:
+#      - 16
+#      - 23
+#  y:
+#    type: spatial
+#    axis: y
+#    extent:
+#      - 45
+#      - 49
+#  t:
+#    type: temporal
+#    extent:
+#      - '1971-01-01T00:00:00Z'
+#     - null
+#    step: P1M
+#  bands:
+#    type: bands
+#   values:
+#      - PNI_1MS
+#      - PNI_2MS
+#      - PNI_3MS
+#      - PNI_6MS
+#      - PNI_9MS
+#     - PNI_12MS
+#      - PNI_24MS
 RegistryEntryAdded: "2022-11-30"
-RegistryEntryLastModified: "2022-12-05"  
+RegistryEntryLastModified: "2022-12-19"  
