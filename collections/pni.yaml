@@ -2,7 +2,7 @@ Name: Percent of Normal Index (PNI)
 Description: Percent of Normal Index (PNI) is calculated by dividing actual precipitation (for the previous 30 or 90 days) by normal precipitation for the time being considered (1991-2020) and multiplying by 100.
 Documentation: "[Climate Indices](https://climate-indices.readthedocs.io/en/latest/#), [Percentage of Normal Precipitation](https://www.droughtmanagement.info/percent-of-normal-precipitation/)"
 Image: pni/thumbnail.png
-EDCBrowser: "https://browser.eurodatacube.com/?zoom=8&lat=47.13454&lng=18.75696&collectionId=LTK_Percent_of_Normal_Index&layerId=Percent%20of%20Normal%20Index&type=sentinel-hub-edc&fromTime=2022-08-01T00%3A00%3A00.000Z&toTime=2022-08-01T23%3A59%3A59.999Z"
+#EDCBrowser: "https://browser.eurodatacube.com/?zoom=8&lat=47.13454&lng=18.75696&collectionId=LTK_Percent_of_Normal_Index&layerId=Percent%20of%20Normal%20Index&type=sentinel-hub-edc&fromTime=2022-08-01T00%3A00%3A00.000Z&toTime=2022-08-01T23%3A59%3A59.999Z"
 Resolution: "0.11°"
 GeographicalCoverage: "Hungary (16.0°, 45.0°, 23.0°, 49.0°)"
 TemporalAvailability: "1971-01-01 - Ongoing"
