@@ -1,5 +1,4 @@
 Name: Percent of Normal Index (PNI)
-OpenEOPID: "LTK_Percent_of_Normal_Index"
 Description: Percent of Normal Index (PNI) is calculated by dividing actual precipitation (for the previous 30 or 90 days) by normal precipitation for the time being considered (1991-2020) and multiplying by 100.
 Documentation: "[Climate Indices](https://climate-indices.readthedocs.io/en/latest/#), [Percentage of Normal Precipitation](https://www.droughtmanagement.info/percent-of-normal-precipitation/)"
 Image: pni/thumbnail.png
