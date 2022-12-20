@@ -1,9 +1,9 @@
 Name: Standard Precipitation Index (SPI)
-OpenEOPID: "LTK_Standard_Precipitation_Index"
+#OpenEOPID: "LTK_Standard_Precipitation_Index"
 Description: Standard Precipitation Index (SPI) quantifies observed precipitation as a standardized departure from a selected probability distribution function that models the raw precipitation data. The raw precipitation data are typically fitted to a gamma or a Pearson Type III distribution, and then transformed to a normal distribution.
 Documentation: "[Climate Indices](https://climate-indices.readthedocs.io/en/latest/#), [SPI](https://climatedataguide.ucar.edu/climate-data/standardized-precipitation-index-spi)"
 Image: spi/thumbnail.png
-EDCBrowser: "https://browser.eurodatacube.com/?zoom=8&lat=47.13414&lng=18.75916&collectionId=LTK_Standard_Precipitation_Index&layerId=Standard%20Precipitation%20Index&type=sentinel-hub-edc&fromTime=2022-09-01T00%3A00%3A00.000Z&toTime=2022-09-01T23%3A59%3A59.999Z"
+#EDCBrowser: "https://browser.eurodatacube.com/?zoom=8&lat=47.13414&lng=18.75916&collectionId=LTK_Standard_Precipitation_Index&layerId=Standard%20Precipitation%20Index&type=sentinel-hub-edc&fromTime=2022-09-01T00%3A00%3A00.000Z&toTime=2022-09-01T23%3A59%3A59.999Z"
 Resolution: "0.11°"
 GeographicalCoverage: "Hungary (16.0°, 45.0°, 23.0°, 49.0°)"
 TemporalAvailability: "1971-01-01 -Ongoing"
@@ -78,34 +78,34 @@ Extent:
       -
         - '1971-01-01T00:00:00Z'
         - null
-CubeDimensions:
-  x:
-    type: spatial
-    axis: x
-    extent:
-      - 16
-      - 23
-  y:
-    type: spatial
-    axis: y
-    extent:
-      - 45
-      - 49
-  t:
-    type: temporal
-    extent:
-      - '1971-01-01T00:00:00Z'
-      - null
-    step: P1M
-  bands:
-    type: bands
-    values:
-      - SPI_1MS
-      - SPI_2MS
-      - SPI_3MS
-      - SPI_6MS
-      - SPI_9MS
-      - SPI_12MS
-      - SPI_24MS
+#CubeDimensions:
+#  x:
+#    type: spatial
+#    axis: x
+#    extent:
+#      - 16
+#      - 23
+#  y:
+#    type: spatial
+#    axis: y
+#    extent:
+#      - 45
+#      - 49
+#  t:
+#    type: temporal
+#    extent:
+#      - '1971-01-01T00:00:00Z'
+#      - null
+#    step: P1M
+#  bands:
+#    type: bands
+#    values:
+#      - SPI_1MS
+#      - SPI_2MS
+#      - SPI_3MS
+#      - SPI_6MS
+#      - SPI_9MS
+#      - SPI_12MS
+#      - SPI_24MS
 RegistryEntryAdded: "2022-11-30"
-RegistryEntryLastModified: "2022-12-05"  
+RegistryEntryLastModified: "2022-12-19"  
