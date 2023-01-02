@@ -1,4 +1,5 @@
 Name: Truck Detection
+BYOA_ID: truck-detection
 Description: |
   The Truck Detection algorithm detects the number of moving trucks along roads using 10m resolution Sentinel-2 level 2A data.
   The author Henrik Fisser (henrik.fisser@t-online.de), developed this algorithm (with the title: Truck detection – Sensing trade from space) in the context of the Euro Data Cube COVID-19 edition of Sentinel Hub’s custom script contest.

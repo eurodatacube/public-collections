@@ -1,4 +1,5 @@
 Name: EOxCloudless Sentinel-2 10m Global Cloudless Mosaic
+BYOA_ID: eoxcloudless-s2-global-mosaic-10
 Description: |
   EOxCloudless Sentinel-2 10m Global Cloudless Mosaic is a derived product,
   created to provide an almost cloudfree global dataset every year.

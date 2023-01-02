@@ -125,6 +125,16 @@ RegistryEntryLastModified:
 </details>
 
 <details>
+   <summary>EDC Bring Your Own Algorithm (BYOA) YAML file extension</summary>
+
+```YAML
+BYOA_ID:
+Tags:
+  - on-demand
+```
+</details>
+
+<details>
    <summary>openEO Platform YAML file extension</summary>
 
 ```YAML
@@ -236,6 +246,16 @@ CRS:
 | **Configurations > sentinelhub:layer_name:**| String | Layer name of the visualization used for the EDC Browser.|
 | **Configurations > sentinelhub:mosaicking_order:**| String | Mosaicking order type used for the visualization in the EDC Browser.|
 | **Configurations > sentinelhub:upsampling:**| String |Upsampling method used for the visualization in the EDC Browser. |
+
+</details>
+
+<details>
+   <summary>EDC Bring Your Own Algorithm (BYOA) metadata (metadata used by BYOA)</summary>
+
+| Field                            | Type | Description & Style        |
+|----------------------------------|--------| --------------------------|
+| **BYOA_ID**                    | String | **REQUIRED.** Algorithm ID used within BYOA (see [documentation]().|
+| **Tags**| List of strings | Tags must include `on-demand` to be listed at https://dev.eurodatacube.com/marketplace/data-products/on-demand.|
 
 </details>
 
