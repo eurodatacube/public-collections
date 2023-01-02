@@ -581,7 +581,9 @@ function jsonOverview(cb) {
   });
   const datasets = requireDir('./_tmp');
   for (var k in datasets) {
-    serialize.write(datasets[k]);
+    var dataset = datasets[k];
+    dataset.Slug = generateSlug(k);
+    serialize.write(dataset);
   }
   serialize.end();
 
