@@ -1,5 +1,5 @@
 Name: E8 indicator
-BYOA_ID: e8-indicator
+BYOAID: e8-indicator
 Description: |
   The indicator E8 measures COVID-19 lockdown effects on output inventory level at finished goods production sites. To contain COVID-19 pandemic, EU Member States have taken a restricitve measures. According to 
   [EUROSTAT](https://ec.europa.eu/eurostat/en/web/products-eurostat-news/-/DDN-20200612-2), these imposed measures had in general a negative effect on demand and thus on industrial production in many areas.

@@ -128,7 +128,7 @@ RegistryEntryLastModified:
    <summary>EDC Bring Your Own Algorithm (BYOA) YAML file extension</summary>
 
 ```YAML
-BYOA_ID:
+BYOAID:
 Tags:
   - on-demand
 ```
@@ -254,8 +254,8 @@ CRS:
 
 | Field                            | Type | Description & Style        |
 |----------------------------------|--------| --------------------------|
-| **BYOA_ID**                    | String | **REQUIRED.** Algorithm ID used within BYOA (see [documentation]().|
-| **Tags**| List of strings | Tags must include `on-demand` to be listed at https://dev.eurodatacube.com/marketplace/data-products/on-demand.|
+| **BYOAID**                       | String | **REQUIRED.** Algorithm ID used within BYOA (see [documentation](https://eurodatacube.com/documentation/offer_algorithms_for_on_demand_data_generation)).|
+| **Tags**                         | List of strings | Tags must include `on-demand` to be listed at https://dev.eurodatacube.com/marketplace/data-products/on-demand.|
 
 </details>
 

@@ -1,5 +1,5 @@
 Name: Operational Sentinel-3 snow and ice products (SICE)
-BYOA_ID: sice
+BYOAID: sice
 Description: |
   Operational Sentinel-3 snow and ice products (SICE) is a modification of the original algorithm developed by the Geological Survey of Denmark and Greenland (GEUS) which is available [here](https://github.com/GEUS-SICE/SICE). The algorithms were originally developed after the work from Kokhanovsky et al. (2018, 2019, 2020). 
 
