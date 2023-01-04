@@ -1,4 +1,5 @@
 Name: Field Delineation
+BYOAID: field-delineation
 Description: |
   An algorithm for automatic delineation of agricultural field boundaries from Sentinel-2 imagery.
   
