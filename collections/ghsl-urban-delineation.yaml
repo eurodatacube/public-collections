@@ -73,7 +73,6 @@ Tags:
   - ghsl
   - derived data
   - vector
-Resources: []
 Resources:
 -  Group: xcube
    StoreInstanceID: GHSL
