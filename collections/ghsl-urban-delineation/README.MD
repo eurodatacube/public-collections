@@ -32,23 +32,27 @@ Shapefiles containing polygons of High Density Clusters (Urban Centre), Moderate
 
 The polygons are projected onto the WGS84 coordinate reference system.
 
-### Representative Images 
+### First hierarchical level 
 
 <img src="ghsl-urban-delineation-level1-nomenclature.png" alt="level1 momenclature" width="50%"/>
 <br>
+First hierarchical level - definition
 <img src="ghsl-urban-delineation-level1-definition.png" alt="level1 definition" width="50%"/>
 <br>
+First hierarchical level - result
 <img src="ghsl-urban-delineation-level1-result.png" alt="polygons - result at the first hierarchical level" width="50%"/>
 <br>
-*polygons - result at the first hierarchical level*
+
+### Second hierarchical level 
 
 <img src="ghsl-urban-delineation-level2-nomenclature.png" alt="level2 momenclature" width="50%"/>
 <br>
-<img src="ghsl-urban-delineation-level2-definition.png" alt="level2 definition" width="50%"/>
+Second hierarchical level - definition
+<img src="ghsl-urban-delineation-level2-definition.png" alt="level2 definition" width="70%"/>
 <br>
+Second hierarchical level - result
 <img src="ghsl-urban-delineation-level2-result.png" alt="polygons - result at the second hierarchical level" width="50%"/>
 <br>
-*polygons - result at the second hierarchical level*
 
 ## Pricing
 [Details in PRICING.MD](PRICING.MD)
