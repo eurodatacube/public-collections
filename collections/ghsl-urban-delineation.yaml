@@ -1,4 +1,4 @@
-Name: ghsl-urban-delineation
+Name: GHSL Urban Delineation
 BYOAID: ghsl-urban-delineation
 Description: |
   Urban delineation algorithm classify and delineate urban clusters by typologies. Method was developed by Joint Research Centre (JRC) and described in Atlas of Human Planet 2019 
@@ -10,8 +10,8 @@ Description: |
   To run the urban delineation, navigate to [EDC Browser](https://browser.eurodatacube.com/?zoom=6&lat=47.44295&lng=10.71167&fromTime=1970-01-01T00%3A00%3A00.000Z&toTime=2020-01-01T17%3A32%3A46.781Z&algorithm=ghls-urban-delineation), 
   select the required input parameters (Area of interest and Reference year) and follow the check-out wizard to complete your order. Produced data will be uploaded directly into your folder /result-data in JupyterLab environment on EDC.
 AdditionalInfoExternal:
-    Title: Pricing
-    Path: ghsl-urban-delineation/PRICING.md
+    Title: Additional info
+    Path: ghsl-urban-delineation/README.MD
 Image: ghsl-urban-delineation/ghsl-urban-delineation.png
 Explore: "[Run algorithm in EDC Browser](https://browser.eurodatacube.com/?zoom=6&lat=47.44295&lng=10.71167&fromTime=1970-01-01T00%3A00%3A00.000Z&toTime=2020-01-01T17%3A32%3A46.781Z&algorithm=ghls-urban-delineation)"
 GeographicalCoverage: Global coverage but intended for areas with built-up coverage and population.
@@ -44,24 +44,24 @@ ProducedResults:
       - Code: Code
         Title: Code by nomenclature
     Rows:
-      - Name: HDC_UrbanCentre_EPSG4326_RefYear.shp
+      - Name: HDC_UrbanCentre_ EPSG4326_RefYear.shp
         Description: Shapefile containing delineated polygons of High Density Clusters (Urban Centres) in selected AOI and reference year. Polygons are projected to WGS84 coordinate reference system.
         Code: 3
-      - Name: MDC_UrbanCluster_EPSG4326_RefYear.shp
+      - Name: MDC_UrbanCluster_ EPSG4326_RefYear.shp
         Description: Shapefile containing delineated polygons of Moderate Density Clusters in selected AOI and reference year. Polygons are projected to WGS84 coordinate reference system.
         Code: 2
-      - Name: DUC_DenseUrbanCluster_EPSG4326_RefYear.shp
+      - Name: DUC_DenseUrbanCluster_ EPSG4326_RefYear.shp
         Description: Shapefile containing delineated polygons of Dense Urban Clusters in selected AOI and reference year. Polygons are projected to WGS84 coordinate reference system.
         Code: 23
-      - Name: SDUC_SemiDenseUrbanCluster_EPSG4326_RefYear.shp
+      - Name: SDUC_SemiDenseUrbanCluster_ EPSG4326_RefYear.shp
         Description: Shapefile containing delineated polygons of Semi-Dense Urban Clusters in selected AOI and reference year. Polygons are projected to WGS84 coordinate reference system.
         Code: 22
-      - Name: PUC_PeriUrbanCluster_EPSG4326_RefYear.shp
+      - Name: PUC_PeriUrbanCluster_ EPSG4326_RefYear.shp
         Description: Shapefile containing delineated polygons of Peri-Urban Clusters in selected AOI and reference year. Polygons are projected to WGS84 coordinate reference system.
         Code: 21
 
 Pricing: |
-  Prices are defined based on amount of data required to process. Check [here](https://collections.eurodatacube.com/ghsl-urban-delineation/pricing.html) for more info about pricing and restrictions.
+ Prices are defined based on the selected area of interest (aoi) and reference year. The minimal cost for initiating request is 100€. Check [here](ghsl-urban-delineation/PRICING.MD) for more info about pricing and restrictions.
 License: "[Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). Attribution: Contains modified Copernicus Sentinel data (year) processed by Sentinel Hub"
 Contact: https://forum.sentinel-hub.com/c/euro-data-cube/
 Provider: "[Gisat s.r.o.](https://www.gisat.cz/)"
