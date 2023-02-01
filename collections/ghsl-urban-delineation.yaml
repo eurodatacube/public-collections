@@ -30,10 +30,10 @@ Attributes:
     Rows:
       - Name: aoi
         Description: Area of interest
-        Type: Bounding box
+        Type: bounding box
       - Name: reference year
         Description: Reference year
-        Type: Integer from from 1975 to 2020, 5 years interval
+        Type: integer from 1975 to 2020, 5 years interval
 ProducedResults:
   Table:
     Columns:
@@ -61,8 +61,8 @@ ProducedResults:
         Code: 21
 
 Pricing: |
- Prices are defined based on the selected area of interest (aoi) and reference year. The minimal cost for initiating request is 100€. Check [here](ghsl-urban-delineation/PRICING.MD) for more info about pricing and restrictions.
-License: "[Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). Attribution: Contains modified Copernicus Sentinel data (year) processed by Sentinel Hub"
+ Prices are defined based on the selected area of interest (aoi) and reference year. The minimal cost for initiating request is 100€. Check [here](https://collections.eurodatacube.com/ghsl-urban-delineation/pricing.html) for more info about pricing and restrictions.
+License: "[Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/)
 Contact: https://forum.sentinel-hub.com/c/euro-data-cube/
 Provider: "[Gisat s.r.o.](https://www.gisat.cz/)"
 ManagedBy: "[Gisat s.r.o.](https://www.gisat.cz/)"
