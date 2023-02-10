@@ -329,7 +329,7 @@ CRS:
 
 <details> 
    <summary>Windows</summary>
-   <li>Install Ubuntu on [Windows Subsystem for Linux (WSL)](https://ubuntu.com/wsl)</li>
+   <li>Install Ubuntu on <a href="https://ubuntu.com/wsl">Windows Subsystem for Linux (WSL)</a></li>
    <li>Create a .env file with the following content in the repository.
 
    <code>
