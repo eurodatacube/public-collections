@@ -315,13 +315,13 @@ CRS:
 
    </li>
    <li>Open Terminal.</li>
-   <li>Run `export $(xargs <.env)`.</li>
-   <li>Run `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.36.0/install.sh | bash`.
+   <li>Run <code>export $(xargs <.env)</code>.</li>
+   <li>Run <code>curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.36.0/install.sh | bash</code>.
    <li>Reboot Terminal.</li>
-   <li>Run `nvm install node`.</li>
-   <li>Run `npm instal`.</li>
-   <li>Run `npm run build`.</li>
-   <li>Find the HTML files in the `_output` directory.</li>
+   <li>Run <code>nvm install node</code>.</li>
+   <li>Run <code>npm instal</code>.</li>
+   <li>Run <code>npm run build</code>.</li>
+   <li>Find the HTML files in the <code>_output</code> directory.</li>
    </ol>
    
 
@@ -329,27 +329,24 @@ CRS:
 
 <details> 
    <summary>Windows</summary>
-   <ol>
    <li>Install Ubuntu on [Windows Subsystem for Linux (WSL)](https://ubuntu.com/wsl)</li>
    <li>Create a .env file with the following content in the repository.
 
-   ```
+   <code>
    GIT_HUB_COLLECTIONS_REPO=eurodatacube/public-collections
    GIT_HUB_COLLECTIONS_BRANCH=main
    COLLECTIONS_BROWSER_ROOT_URL="https://collections.eurodatacube.com/"
-   ```
-   
+   </code>
+
    </li>
    <li>Open WSL Terminal.</li>
-   <li>Run `export $(xargs <.env)`.</li>
-   <li>Run `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.36.0/install.sh | bash`.
+   <li>Run <code>export $(xargs <.env)</code>.</li>
+   <li>Run <code>curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.36.0/install.sh | bash</code>.
    <li>Reboot WSL Terminal.</li>
-   <li>Run `nvm install node`.</li>
-   <li>Run `npm instal`.</li>
-   <li>Run `npm run build`.</li>
-   <li>Find the HTML files in the `_output` directory.</li>
-   </ol>
-   
+   <li>Run <code>nvm install node</code>.</li>
+   <li>Run <code>npm instal</code>.</li>
+   <li>Run <code>npm run build</code>.</li>
+   <li>Find the HTML files in the <code>_output</code> directory.</li>
 
 </details> 
 
