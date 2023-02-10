@@ -174,7 +174,8 @@ CRS:
 </details>
 
 ### Collection metadata explanation
- Below is a description for each metadata field.
+
+Below is a description for each metadata field.
 
 <details>
    <summary>basic metadata</summary>
@@ -300,11 +301,11 @@ CRS:
 </details>
 
 ### Test via building Euro Data Cube Public Collection website locally
- Test the script before a merge request is helpful for the reviewing process, making a contribution be publish sooner. Below is a step-by-step guide to build the site locally.
+
+Test the script before a merge request is helpful for the reviewing process, making a contribution be publish sooner. Below is a step-by-step guide to build the site locally.
 
 <details> 
    <summary>Linux & Mac</summary>
-   <ol>
    <li>Create a .env file with the following content in the repository.
 
    ```
@@ -322,8 +323,6 @@ CRS:
    <li>Run <code>npm instal</code>.</li>
    <li>Run <code>npm run build</code>.</li>
    <li>Find the HTML files in the <code>_output</code> directory.</li>
-   </ol>
-   
 
 </details> 
 
@@ -332,11 +331,11 @@ CRS:
    <li>Install Ubuntu on <a href="https://ubuntu.com/wsl">Windows Subsystem for Linux (WSL)</a></li>
    <li>Create a .env file with the following content in the repository.
 
-   <code>
+   ```
    GIT_HUB_COLLECTIONS_REPO=eurodatacube/public-collections
    GIT_HUB_COLLECTIONS_BRANCH=main
    COLLECTIONS_BROWSER_ROOT_URL="https://collections.eurodatacube.com/"
-   </code>
+   ```
 
    </li>
    <li>Open WSL Terminal.</li>
