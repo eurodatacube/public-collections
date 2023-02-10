@@ -306,11 +306,13 @@ CRS:
    <summary>Linux & Mac</summary>
    <ol>
    <li>Create a .env file with the following content in the repository.
+
    ```
    GIT_HUB_COLLECTIONS_REPO=eurodatacube/public-collections
    GIT_HUB_COLLECTIONS_BRANCH=main
    COLLECTIONS_BROWSER_ROOT_URL="https://collections.eurodatacube.com/"
    ```
+
    </li>
    <li>Open Terminal.</li>
    <li>Run `export $(xargs <.env)`.</li>
@@ -330,11 +332,13 @@ CRS:
    <ol>
    <li>Install Ubuntu on [Windows Subsystem for Linux (WSL)](https://ubuntu.com/wsl)</li>
    <li>Create a .env file with the following content in the repository.
+
    ```
    GIT_HUB_COLLECTIONS_REPO=eurodatacube/public-collections
    GIT_HUB_COLLECTIONS_BRANCH=main
    COLLECTIONS_BROWSER_ROOT_URL="https://collections.eurodatacube.com/"
    ```
+   
    </li>
    <li>Open WSL Terminal.</li>
    <li>Run `export $(xargs <.env)`.</li>
