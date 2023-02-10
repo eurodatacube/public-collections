@@ -299,6 +299,56 @@ CRS:
 
 </details>
 
+### Test via building Euro Data Cube Public Collection website locally
+ Test the script before a merge request is helpful for the reviewing process, making a contribution be publish sooner. Below is a step-by-step guide to build the site locally.
+
+<details> 
+   <summary>Linux & Mac</summary>
+   <ol>
+   <li>Create a .env file with the following content in the repository.
+   ```
+   GIT_HUB_COLLECTIONS_REPO=eurodatacube/public-collections
+   GIT_HUB_COLLECTIONS_BRANCH=main
+   COLLECTIONS_BROWSER_ROOT_URL="https://collections.eurodatacube.com/"
+   ```
+   </li>
+   <li>Open Terminal.</li>
+   <li>Run `export $(xargs <.env)`.</li>
+   <li>Run `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.36.0/install.sh | bash`.
+   <li>Reboot Terminal.</li>
+   <li>Run `nvm install node`.</li>
+   <li>Run `npm instal`.</li>
+   <li>Run `npm run build`.</li>
+   <li>Find the HTML files in the `_output` directory.</li>
+   </ol>
+   
+
+</details> 
+
+<details> 
+   <summary>Windows</summary>
+   <ol>
+   <li>Install Ubuntu on [Windows Subsystem for Linux (WSL)](https://ubuntu.com/wsl)</li>
+   <li>Create a .env file with the following content in the repository.
+   ```
+   GIT_HUB_COLLECTIONS_REPO=eurodatacube/public-collections
+   GIT_HUB_COLLECTIONS_BRANCH=main
+   COLLECTIONS_BROWSER_ROOT_URL="https://collections.eurodatacube.com/"
+   ```
+   </li>
+   <li>Open WSL Terminal.</li>
+   <li>Run `export $(xargs <.env)`.</li>
+   <li>Run `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.36.0/install.sh | bash`.
+   <li>Reboot WSL Terminal.</li>
+   <li>Run `nvm install node`.</li>
+   <li>Run `npm instal`.</li>
+   <li>Run `npm run build`.</li>
+   <li>Find the HTML files in the `_output` directory.</li>
+   </ol>
+   
+
+</details> 
+
 ## How to make use of these collections
 
 Please see the usage examples provided for each individual collection.
