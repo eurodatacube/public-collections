@@ -300,7 +300,7 @@ Below is a description for each metadata field.
 
 </details>
 
-### How to build Euro Data Cube Public Collection website locally
+### How to build Euro Data Cube Public Collections website locally
 
 You can build the Euro Data Cube Public Collections website locally,  to preview and test your changes before submitting a merge request. Below is a step-by-step guide to build the site locally.
 
