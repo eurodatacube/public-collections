@@ -300,12 +300,19 @@ Below is a description for each metadata field.
 
 </details>
 
-### Test via building Euro Data Cube Public Collection website locally
+### How to build Euro Data Cube Public Collection website locally
 
-Test the script before a merge request is helpful for the reviewing process, making a contribution be publish sooner. Below is a step-by-step guide to build the site locally.
+You can build the Euro Data Cube Public Collections website locally,  to preview and test your changes before submitting a merge request. Below is a step-by-step guide to build the site locally.
 
 <details> 
    <summary>Linux & Mac</summary>
+   <h4>Prerequisites</h4>
+   <p><code>Node</code> and <code>npm</code> must be installed before you can build a site.</p>
+   <li>Open Terminal.</li>
+   <li>Run <code>curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.36.0/install.sh | bash</code>.</li>
+   <li>Run <code>nvm install node</code>.</li>
+   <li>Run <code>npm install</code>.</li>
+   <li>Reboot Terminal.</li>
    <li>Create a .env file with the following content in the repository.
 
    ```
@@ -315,12 +322,9 @@ Test the script before a merge request is helpful for the reviewing process, mak
    ```
 
    </li>
+   <h4>Building your site locally</h4>
    <li>Open Terminal.</li>
    <li>Run <code>export $(xargs <.env)</code>.</li>
-   <li>Run <code>curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.36.0/install.sh | bash</code>.
-   <li>Reboot Terminal.</li>
-   <li>Run <code>nvm install node</code>.</li>
-   <li>Run <code>npm instal</code>.</li>
    <li>Run <code>npm run build</code>.</li>
    <li>Find the HTML files in the <code>_output</code> directory.</li>
 
@@ -328,7 +332,14 @@ Test the script before a merge request is helpful for the reviewing process, mak
 
 <details> 
    <summary>Windows</summary>
+   <h4>Prerequisites</h4>
+   <p><code>Node</code> and <code>npm</code> must be installed before you can build a site.</p>
    <li>Install Ubuntu on <a href="https://ubuntu.com/wsl">Windows Subsystem for Linux (WSL)</a></li>
+   <li>Open WSL Terminal.</li>
+   <li>Run <code>curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.36.0/install.sh | bash</code>.</li>
+   <li>Run <code>nvm install node</code>.</li>
+   <li>Run <code>npm install</code>.</li>
+   <li>Reboot WSL Terminal.</li>
    <li>Create a .env file with the following content in the repository.
 
    ```
@@ -338,12 +349,9 @@ Test the script before a merge request is helpful for the reviewing process, mak
    ```
 
    </li>
+   <h4>Building your site locally</h4>
    <li>Open WSL Terminal.</li>
    <li>Run <code>export $(xargs <.env)</code>.</li>
-   <li>Run <code>curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.36.0/install.sh | bash</code>.
-   <li>Reboot WSL Terminal.</li>
-   <li>Run <code>nvm install node</code>.</li>
-   <li>Run <code>npm instal</code>.</li>
    <li>Run <code>npm run build</code>.</li>
    <li>Find the HTML files in the <code>_output</code> directory.</li>
 
