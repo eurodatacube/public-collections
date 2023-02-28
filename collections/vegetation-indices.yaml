@@ -15,7 +15,7 @@ EOBrowser: https://apps.sentinel-hub.com/eo-browser/?zoom=10&lat=41.9&lng=12.5&t
 Image: vegetation-indices/thumbnail.png
 Resolution: 10m
 GeographicalCoverage: Europe (Lat; 26N 72N Lon; -25W 45E)
-TemporalAvailability: 2016-10-01 - Ongoing
+TemporalAvailability: 2016-10-01 - ongoing
 UpdateFrequency: Daily
 BandInformation:
   Table:
