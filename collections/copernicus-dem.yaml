@@ -93,9 +93,9 @@ Extent:
     bbox:
       -
         - -180
-        - -85
+        - -90
         - 180
-        - 85
+        - 90
   temporal:
     interval:
       -
@@ -113,8 +113,8 @@ CubeDimensions:
     type: spatial
     axis: y
     extent:
-      - -85
-      - 85
+      - -90
+      - 90
     reference_system: 4326
   t:
     type: temporal
@@ -128,7 +128,7 @@ CubeDimensions:
       - dataMask
 Summaries:
   raster:bands:
-    - description: Heights in meters
+    - description: Orthometric heights in meters
       name: DEM
       openeo:gsd:
         value:
@@ -138,9 +138,9 @@ Summaries:
       data_type: float32
       statistics:
         minimum:
-          - 0
+          - -413
         maximum:
-          - 9000
+          - 8848
     - description: The mask of data/no data pixels.
       name: dataMask
       data_type: uint8
@@ -150,4 +150,4 @@ Summaries:
         maximum:
           - 1
 RegistryEntryAdded: "2020-11-30"
-RegistryEntryLastModified: "2023-01-03"
+RegistryEntryLastModified: "2023-03-10"
