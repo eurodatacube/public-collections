@@ -1,6 +1,6 @@
 Name: Global Surface Water
 OpenEOPID: GLOBAL_SURFACE_WATER
-Description: The Global Surface Water dataset was developed by the European Commission's Joint Research Centre within the framework of the Copernicus Programme. It is derived from Landsat imagery and and shows different aspects of the spatio-temporal distribution of surface water between 1984 and 2020 at the global scale.
+Description: The Global Surface Water dataset was developed by the European Commission's Joint Research Centre within the framework of the Copernicus Programme. It is derived from Landsat imagery and and shows different aspects of the spatio-temporal distribution of surface water between 1984 and 2021 at the global scale.
 AdditionalInfoExternal:
     Title: Additional info 
     Path: global-surface-water/README.MD
@@ -9,7 +9,7 @@ EDCBrowser: https://browser.eurodatacube.com/?zoom=10&lat=41.9&lng=12.5&collecti
 EOBrowser: https://apps.sentinel-hub.com/eo-browser/?zoom=10&lat=41.9&lng=12.5&themeId=DEFAULT-THEME&visualizationUrl=https%3A%2F%2Fcreodias.sentinel-hub.com%2Fogc%2Fwms%2F0a6c7252-9515-4be1-b6f0-6542ddf971d5&datasetId=COPERNICUS_GLOBAL_SURFACE_WATER&fromTime=2020-01-01T00%3A00%3A00.000Z&toTime=2020-01-01T23%3A59%3A59.999Z&layerId=1_OCCURRENCE
 Resolution: 30m
 GeographicalCoverage: Global coverage from longitude 170°E to 180°W and latitude 80°N to 50°S.
-TemporalAvailability: 2019-01-01, 2020-01-01
+TemporalAvailability: 2019-01-01, 2020-01-01, 2021-01-01
 UpdateFrequency: Annual revision
 BandInformation:
  Table:
@@ -20,17 +20,17 @@ BandInformation:
           Title: Description
       Rows:
         - Name: Occurrence
-          Description: Intra- and inter-annual frequency of surface water presence in the time range between 1984 and 2020.
+          Description: Intra- and inter-annual frequency of surface water presence in the time range between 1984 and 2021.
         - Name: Occurrence Change Intensity (change)
-          Description: Changes in water occurrence between two epochs, the first ranging from 1984 to 1999 and the second covering 2000 to 2020.
+          Description: Changes in water occurrence between two epochs, the first ranging from 1984 to 1999 and the second covering 2000 to 2021.
         - Name: Seasonality
           Description: Intra-annual distribution of surface water in the particular review year.
         - Name: Recurrence
-          Description: Inter-annual variability of surface water presence in a defined water period within the entire time range from 1984 to 2020.
+          Description: Inter-annual variability of surface water presence in a defined water period within the entire time range from 1984 to 2021.
         - Name: Transitions
-          Description: Visualises changes in the three surface water classes (1) not water, (2) seasonal water, and (3) permanent water between the first and last year in the 37-year time period.
+          Description: Visualises changes in the three surface water classes (1) not water, (2) seasonal water, and (3) permanent water between the first and last year in the 38-year time period.
         - Name: Extent
-          Description: Maximum extent of surface water bodies in the 37-year time range.
+          Description: Maximum extent of surface water bodies in the 38-year time range.
 Contact: https://forum.sentinel-hub.com/c/euro-data-cube/25
 Provider: "[European Commission, Joint Research Centre](https://ec.europa.eu/info/departments/joint-research-centre_en)"
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
@@ -132,6 +132,7 @@ Extent:
       -
         - '2019-01-01T00:00:00Z'
         - '2020-01-01T00:00:00Z'
+        - '2021-01-01T00:00:00Z'
 CubeDimensions:
   x:
     type: spatial
@@ -152,6 +153,7 @@ CubeDimensions:
     extent:
       - '2019-01-01T00:00:00Z'
       - '2020-01-01T00:00:00Z'
+      - '2021-01-01T00:00:00Z'
     step: P1Y
   bands:
     type: bands
@@ -164,28 +166,28 @@ CubeDimensions:
       - transitions
 Summaries:
   raster:bands:
-    - description: Changes in water occurrence between two epochs, the first ranging from 1984 to 1999 and the second covering 2000 to 2020.
+    - description: Changes in water occurrence between two epochs, the first ranging from 1984 to 1999 and the second covering 2000 to 2021.
       name: change
       openeo:gsd:
         value:
         - 0.000277777777778
         - 0.000277777777778
         unit: °
-    - description: Maximum extent of surface water bodies in the 37-year time range.
+    - description: Maximum extent of surface water bodies in the 38-year time range.
       name: extent
       openeo:gsd:
         value:
         - 0.000277777777778
         - 0.000277777777778
         unit: °
-    - description: Intra- and inter-annual frequency of surface water presence in the time range between 1984 and 2020.
+    - description: Intra- and inter-annual frequency of surface water presence in the time range between 1984 and 2021.
       name: occurrence
       openeo:gsd:
         value:
         - 0.000277777777778
         - 0.000277777777778
         unit: °
-    - description: Inter-annual variability of surface water presence in a defined water period within the entire time range from 1984 to 2020.
+    - description: Inter-annual variability of surface water presence in a defined water period within the entire time range from 1984 to 2021.
       name: recurrence
       openeo:gsd:
         value:
@@ -199,7 +201,7 @@ Summaries:
         - 0.000277777777778
         - 0.000277777777778
         unit: °
-    - description: Visualises changes in the three surface water classes (1) not water, (2) seasonal water, and (3) permanent water between the first and last year in the 37-year time period.
+    - description: Visualises changes in the three surface water classes (1) not water, (2) seasonal water, and (3) permanent water between the first and last year in the 38-year time period.
       name: transitions
       openeo:gsd:
         value:
@@ -209,4 +211,4 @@ Summaries:
     - description: The mask of data/no data pixels.
       name: dataMask
 RegistryEntryAdded: "2021-04-19"
-RegistryEntryLastModified: "2022-08-09"
+RegistryEntryLastModified: "2023-03-21"
