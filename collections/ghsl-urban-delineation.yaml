@@ -1,5 +1,5 @@
 Name: GHSL Urban Delineation
-BYOAID: ghsl-urban-delineation
+BYOAID: ghls-urban-delineation
 Description: |
   Urban delineation algorithm classify and delineate urban clusters by typologies. Method was developed by Joint Research Centre (JRC) and described in Atlas of Human Planet 2019 
   The algorithm uses the global-coverage built-up (GHS-BUILT-S_GLOBE_R2022A) and population (GHS-POP_GLOBE_R2022A) raster datasets as the input data (JRC’s GHSL).
