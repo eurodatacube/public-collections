@@ -337,7 +337,9 @@ You can build the Euro Data Cube Public Collections website locally,  to preview
    <li>Install Ubuntu on <a href="https://ubuntu.com/wsl">Windows Subsystem for Linux (WSL)</a></li>
    <li>Open WSL Terminal.</li>
    <li>Run <code>curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.36.0/install.sh | bash</code>.</li>
+   <li>Reboot WSL Terminal.</li>
    <li>Run <code>nvm install node</code>.</li>
+   <li>Run <code>npm init</code> to create a `package.json` file.</li>
    <li>Run <code>npm install</code>.</li>
    <li>Reboot WSL Terminal.</li>
    <li>Create a .env file with the following content in the repository.
