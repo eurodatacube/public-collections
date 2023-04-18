@@ -1,5 +1,4 @@
 Name: Maximum Chlorophyll Index (MCI)
-BYOAID: coming-soon
 Description: |
   The Maximum Chlorophyll Index (MCI) is a dimensionless indicator for critical eutrophication. It is robust and can be
   applied to any water body for the identification of potentially critical situations due to excessive algal growth.
@@ -50,11 +49,10 @@ Contact: https://www.brockmann-consult.de/contact/
 Provider: "[Brockmann Consult GmbH](https://www.brockmann-consult.de/)"
 ManagedBy: "[Brockmann Consult GmbH](https://www.brockmann-consult.de/)"
 Tags:
-  - on-demand
   - maximum chlorophyll index
   - xcube
   - derived Data
   - sentinel-2
 
 RegistryEntryAdded: "2021-09-27"
-RegistryEntryLastModified: "2021-10-01"
+RegistryEntryLastModified: "2023-04-14"
