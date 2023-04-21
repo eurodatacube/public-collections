@@ -96,7 +96,7 @@ Configurations:
     sentinelhub:layer_name: "NDWI"
     sentinelhub:mosaicking_order: "mostRecent"
     sentinelhub:upsampling: "NEAREST"
-  - href: "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/ndsi-visualized/script.js"
+  - href: "https://custom-scripts.sentinel-hub.com/sentinel-2/ndsi-visualized/script.js"
     rel: "processing-expression"
     type: "application/javascript"
     title: "Evalscript to generate NDSI imagery"

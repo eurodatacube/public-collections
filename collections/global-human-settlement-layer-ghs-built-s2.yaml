@@ -54,7 +54,7 @@ Configurations:
     rel: "about"
     type: "text/html"
     title: "Details about running Evalscripts"
-  - href: "https://custom-scripts.sentinel-hub.com/custom-scripts/other_collections/global-human-settlement-layer-ghs-built-s2/script.js"
+  - href: "https://custom-scripts.sentinel-hub.com/other_collections/global-human-settlement-layer/global-human-settlement-layer-ghs-built-s2/script.js"
     rel: "processing-expression"
     type: "application/javascript"
     title: "Evalscript to generate GHS-BUILT-S2 imagery"
