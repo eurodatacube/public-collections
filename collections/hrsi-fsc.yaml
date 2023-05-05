@@ -1,0 +1,105 @@
+Name:
+Description:
+Documentation:
+AdditionalInfoExternal:
+    Title:
+    Path:
+Image:
+EDCBrowser:
+EOBrowser:
+Flickr:
+Explore:
+Resolution:
+GeographicalCoverage:
+TemporalAvailability:
+TemporalResolution:
+UpdateFrequency:
+BandInformation:
+     or
+BandInformation:
+  Table:
+      Columns:
+        - Name: Name
+          Title: Name
+        - Name: Description
+          Title: Description
+        - Name: Notes
+          Title: Notes
+      Rows:
+        - Name:
+          Description:
+          Notes:
+Variables:
+Attributes:
+ProducedResults:
+     or
+ProducedResults:
+  Table:
+      Columns:
+        - Name: Name
+          Title: Name
+        - Name: Description
+          Title: Description
+        - Name: Units
+          Title: Units
+      Rows:
+        - Name:
+          Description:
+          Units:
+Contact:
+Provider:
+ManagedBy:
+Tags:
+License:
+LicenseType:
+LicenseUrl:
+Resources:
+  - Group:
+  - EndPoint:
+    Name:
+    Role:
+    Type:
+    Notes:
+    Primary:
+    CollectionId:
+    Database:
+    Collection:
+    DatasetName:
+    StoreInstanceID:
+    StoreTitle:
+    DataID:
+  - Group:
+    DatasetName:
+    CollectionId:
+CustomScipts:
+  Title:
+  URL:
+Configurations:
+  - href:
+    rel:
+    type:
+    title:
+  - href:
+    rel:
+    type:
+    title:
+    sentinelhub:layer_name:
+    sentinelhub:mosaicking_order:
+    sentinelhub:upsampling:
+DataAtWork:
+  Tutorials:
+    - Title:
+      URL:
+      AuthorName:
+      AuthorURL:
+  Tools & Applications:
+    - Title:
+      URL:
+      AuthorName:
+      AuthorURL:
+  Publications:
+    - Title:
+      URL:
+      AuthorName:
+RegistryEntryAdded:
+RegistryEntryLastModified:
