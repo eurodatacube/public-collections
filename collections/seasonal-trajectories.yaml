@@ -85,7 +85,7 @@ Configurations:
     rel: "about"
     type: "text/html"
     title: "Details about running Evalscripts"
-  - href: "https://custom-scripts.sentinel-hub.com/custom-scripts/copernicus_services/st-ppi/script.js"
+  - href: "https://custom-scripts.sentinel-hub.com/copernicus_services/hrvpp/st-ppi/script.js"
     rel: "processing-expression"
     type: "application/javascript"
     title: "Evalscript to generate PPI imagery"
