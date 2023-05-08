@@ -14,7 +14,7 @@ AdditionalInfoExternal:
     Path: hrsi-fsc/README.MD 
 Image: hrsi-fsc/hrsi-fsc.png  
 EDCBrowser:
-EOBrowser:
+EOBrowser: https://sentinelshare.page.link/aUUT
 Flickr:
 Explore:
 Resolution: 20m
@@ -99,8 +99,8 @@ Resources:
     DatasetName:
     CollectionId:
 CustomScipts:
-  Title:
-  URL:
+  Title: HRS&I Fractional Snow Cover
+  URL: https://custom-scripts.sentinel-hub.com/custom-scripts/copernicus_services/hrsi/hrsi/#fractional-snow-cover
 Configurations:
   - href:
     rel:

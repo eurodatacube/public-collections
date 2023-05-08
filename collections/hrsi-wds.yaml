@@ -14,13 +14,13 @@ AdditionalInfoExternal:
     Path: hrsi-wds/README.MD 
 Image: hrsi-wds/hrsi-wds.png   
 EDCBrowser:
-EOBrowser:
+EOBrowser: https://sentinelshare.page.link/YUdR 
 Flickr:
 Explore:
 Resolution: 60m
 GeographicalCoverage: EEA38+UK
 TemporalAvailability: September 2016 - ongoing
-TemporalResolution:
+TemporalResolution: 
 UpdateFrequency:
 BandInformation:
   Table:
@@ -81,8 +81,8 @@ Resources:
     DatasetName:
     CollectionId:
 CustomScipts:
-  Title:
-  URL:
+  Title: Wet / Dry Snow - Snow state classification
+  URL: https://custom-scripts.sentinel-hub.com/custom-scripts/copernicus_services/hrsi/hrsi/#wet--dry-snow---snow-state-classification
 Configurations:
   - href:
     rel:

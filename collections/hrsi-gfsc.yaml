@@ -14,7 +14,7 @@ AdditionalInfoExternal:
     Path: hrsi-gfsc/README.MD 
 Image: hrsi-gfsc/hrsi-gfsc.png  
 EDCBrowser:
-EOBrowser:
+EOBrowser: https://sentinelshare.page.link/gY5U
 Flickr: 
 Explore:
 Resolution: 60m
@@ -81,8 +81,8 @@ Resources:
     DatasetName:
     CollectionId:
 CustomScipts:
-  Title:
-  URL:
+  Title: HRSI&I Daily cumulative Gap-filled Fractional Snow Cover
+  URL: https://custom-scripts.sentinel-hub.com/custom-scripts/copernicus_services/hrsi/hrsi/#daily-cumulative-gap-filled-fractional-snow-cover
 Configurations:
   - href:
     rel:

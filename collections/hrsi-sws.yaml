@@ -14,7 +14,7 @@ AdditionalInfoExternal:
     Path: hrsi-sws/README.MD 
 Image: hrsi-sws/hrsi-sws.png     
 EDCBrowser:
-EOBrowser:
+EOBrowser: https://sentinelshare.page.link/c5WM
 Flickr:
 Explore:
 Resolution: 60m
@@ -81,8 +81,8 @@ Resources:
     DatasetName:
     CollectionId:
 CustomScipts:
-  Title:
-  URL:
+  Title: HRS&I SAR Wet Snow in high mountains
+  URL: https://custom-scripts.sentinel-hub.com/custom-scripts/copernicus_services/hrsi/hrsi/#sar-wet-snow-in-high-mountains
 Configurations:
   - href:
     rel:

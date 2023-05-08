@@ -15,7 +15,7 @@ AdditionalInfoExternal:
     Path: hrsi-psa/README.MD 
 Image: hrsi-psa/hrsi-psa.png  
 EDCBrowser:
-EOBrowser:
+EOBrowser: https://sentinelshare.page.link/tWUV
 Flickr:
 Explore:
 Resolution: 20m
@@ -83,8 +83,8 @@ Resources:
     DatasetName:
     CollectionId:
 CustomScipts:
-  Title:
-  URL:
+  Title: HRS&I Persistent Snow Cover
+  URL: https://custom-scripts.sentinel-hub.com/custom-scripts/copernicus_services/hrsi/hrsi/#persistent-snow-area
 Configurations:
   - href:
     rel:
