@@ -95,7 +95,7 @@ Configurations:
     rel: "about"
     type: "text/html"
     title: "Details about running Evalscripts"
-  - href: "https://custom-scripts.sentinel-hub.com/copernicus_services/global_land_cover/global-land-cover/script.js"
+  - href: "https://custom-scripts.sentinel-hub.com/copernicus_services/global-land-cover/global_land_cover/script.js"
     rel: "processing-expression"
     type: "application/javascript"
     title: "Evalscript to generate Discrete Classification Map imagery"
