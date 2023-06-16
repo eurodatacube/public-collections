@@ -37,9 +37,10 @@ Tags:
   - race challenges
   - copernicus
   - sentinel
-License: "[License](https://docs.sentinel-hub.com/api/latest/data/sentinel-3-olci-l1b/#attribution-and-use)"
+License: "[License](https://sentinels.copernicus.eu/documents/247904/690755/Sentinel_Data_Legal_Notice)"
 LicenseType: proprietary 
-LicenseUrl: https://docs.sentinel-hub.com/api/latest/data/sentinel-1-grd/#attribution-and-use
+LicenseUrl: https://sentinels.copernicus.eu/documents/247904/690755/Sentinel_Data_Legal_Notice
+LicenseUrlType: application/pdf
 Resources:
   - Group: Sentinel Hub Resources
   - EndPoint: https://creodias.sentinel-hub.com

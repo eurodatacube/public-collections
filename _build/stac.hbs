@@ -49,9 +49,9 @@
       "wmts:dimensions": {{{copyJson (find WMTS 'dimensions' 'dimensions')}}}
     },
     {{/if}}
-{{#each Configurations}}
-	{{{copyJson this}}},
-{{/each}}
+    {{#each Configurations}}
+	    {{{copyJson this}}},
+    {{/each}}
     {{#if DocumentationLinks }}    
     {
       "href": "{{{find DocumentationLinks 'href' 'href'}}}",
@@ -63,7 +63,7 @@
     {
       "href": "{{{escapeJson LicenseUrl}}}",
       "rel": "license",
-      "type": "text/html",
+      "type": {{#if LicenseUrlType }} "{{{LicenseUrlType}}}" {{else}} "text/html" {{/if ~}},
       "title": "License"
     }
   ],
