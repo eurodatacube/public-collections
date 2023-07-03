@@ -174,7 +174,8 @@ CRS:
 </details>
 
 ### Collection metadata explanation
- Below is a description for each metadata field.
+
+Below is a description for each metadata field.
 
 <details>
    <summary>basic metadata</summary>
@@ -298,6 +299,65 @@ CRS:
 | **CRS** | List | List of coordinate reference systems supported by the backend. |
 
 </details>
+
+### How to build Euro Data Cube Public Collections website locally
+
+You can build the Euro Data Cube Public Collections website locally,  to preview and test your changes before submitting a merge request. Below is a step-by-step guide to build the site locally.
+
+<details> 
+   <summary>Linux & Mac</summary>
+   <h4>Prerequisites</h4>
+   <p><code>Node</code> and <code>npm</code> must be installed before you can build a site.</p>
+   <li>Open Terminal.</li>
+   <li>Run <code>curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.36.0/install.sh | bash</code>.</li>
+   <li>Run <code>nvm install node</code>.</li>
+   <li>Run <code>npm install</code>.</li>
+   <li>Reboot Terminal.</li>
+   <li>Create a .env file with the following content in the repository.
+
+   ```
+   GIT_HUB_COLLECTIONS_REPO=eurodatacube/public-collections
+   GIT_HUB_COLLECTIONS_BRANCH=main
+   COLLECTIONS_BROWSER_ROOT_URL="https://collections.eurodatacube.com/"
+   ```
+
+   </li>
+   <h4>Building your site locally</h4>
+   <li>Open Terminal.</li>
+   <li>Run <code>export $(xargs <.env)</code>.</li>
+   <li>Run <code>npm run build</code>.</li>
+   <li>Find the HTML files in the <code>_output</code> directory.</li>
+
+</details> 
+
+<details> 
+   <summary>Windows</summary>
+   <h4>Prerequisites</h4>
+   <p><code>Node</code> and <code>npm</code> must be installed before you can build a site.</p>
+   <li>Install Ubuntu on <a href="https://ubuntu.com/wsl">Windows Subsystem for Linux (WSL)</a></li>
+   <li>Open WSL Terminal.</li>
+   <li>Run <code>curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.36.0/install.sh | bash</code>.</li>
+   <li>Reboot WSL Terminal.</li>
+   <li>Run <code>nvm install node</code>.</li>
+   <li>Run <code>npm init</code> to create a `package.json` file.</li>
+   <li>Run <code>npm install</code>.</li>
+   <li>Reboot WSL Terminal.</li>
+   <li>Create a .env file with the following content in the repository.
+
+   ```
+   GIT_HUB_COLLECTIONS_REPO=eurodatacube/public-collections
+   GIT_HUB_COLLECTIONS_BRANCH=main
+   COLLECTIONS_BROWSER_ROOT_URL="https://collections.eurodatacube.com/"
+   ```
+
+   </li>
+   <h4>Building your site locally</h4>
+   <li>Open WSL Terminal.</li>
+   <li>Run <code>export $(xargs <.env)</code>.</li>
+   <li>Run <code>npm run build</code>.</li>
+   <li>Find the HTML files in the <code>_output</code> directory.</li>
+
+</details> 
 
 ## How to make use of these collections
 
