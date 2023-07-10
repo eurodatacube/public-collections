@@ -72,7 +72,7 @@ ProducedResults:
         Description: Top of the Atmosphere Reflectance (OLCI band 21)
         Units: ""
 Pricing: |
-  Prices are defined based on the selected roi and resolution. Regardless of the size and resolution, the minimal cost for initiating request is 10 EDC credits.
+  Prices are defined based on the selected AOI and resolution which can be selected arbitrarily between 300 m and 2000 m. There is not a direct €/km2 formula available as the AOI is first mapped onto 1 degree tiles and the price is calculated based on the number of tiles to be processed. Simplified a bit the "average" price for processing 1 tile (~10.000 km2) per single day would be € 0.02375 for a resolution below 400 m, € 0.0075 for a resolution between 400 m and 1.000 m, and € 0.0025 for a resolution above 1.000 m. Regardless of the size and resolution, the minimal cost for initiating request is 10 EDC credits.
 License: "[Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). Attribution: Contains modified Copernicus Sentinel data (year) processed by Sentinel Hub"
 Contact: https://forum.sentinel-hub.com/c/euro-data-cube/
 Provider: "[Sentinel Hub](https://www.sentinel-hub.com/)"
