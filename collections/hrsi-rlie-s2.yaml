@@ -74,7 +74,7 @@ Resources:
     EndPoint: https://creodias.sentinel-hub.com
     Name: Sentinel Hub
     Role: processor
-    Type: 1b375fda-482c-484c-974f-7308f0b51359
+    Type: byoc-1b375fda-482c-484c-974f-7308f0b51359
     CollectionId: 1b375fda-482c-484c-974f-7308f0b51359
     Primary: true
   - Group: xcube Resources
