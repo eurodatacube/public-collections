@@ -9,10 +9,10 @@ AdditionalInfoExternal:
   Title: Additional info
   Path: hrsi-rlie-s1/README.MD
 EDCBrowser: ""
-EOBrowser: ""
+EOBrowser: https://sentinelshare.page.link/SRi1
 Image: hrsi-rlie-s1/thumbnail.png
 Resolution: 20m
-GeographicalCoverage: Europe  (Lat; 26N 72N Lon; -25W 45E)
+GeographicalCoverage: Europe (Lat; 34N 66N Lon; -26W 44E)
 TemporalAvailability: September 1, 2016 - ongoing
 UpdateFrequency: NRT, between 6 and 12 hours after the data sensing time.
 BandInformation:
@@ -82,7 +82,7 @@ Resources:
     CollectionId: fe2c0caf-fbe8-49a1-91ae-e730ea65116a
 CustomScripts:
   Title: Collection of Copernicus services data custom scripts
-  URL: https://custom-scripts.sentinel-hub.com/#copernicus_services
+  URL: https://custom-scripts.sentinel-hub.com/custom-scripts/copernicus_services/hrsi/#rlie-s1
 Configurations:
   - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
     rel: "about"
@@ -105,10 +105,10 @@ Configurations:
 Extent:
   spatial:
     bbox:
-      - - -25
-        - 26
-        - 45
-        - 72
+      - - -26
+        - 34
+        - 44
+        - 66
   temporal:
     interval:
       - - "2016-09-01T00:00:00Z"
@@ -118,14 +118,14 @@ CubeDimensions:
     type: spatial
     axis: x
     extent:
-      - -25
-      - 45
+      - -26
+      - 44
   y:
     type: spatial
     axis: y
     extent:
-      - 26
-      - 72
+      - 34
+      - 66
   t:
     type: temporal
     extent:
@@ -137,4 +137,4 @@ CubeDimensions:
       - RLIE
       - QC
 RegistryEntryAdded: "2023-06-06"
-RegistryEntryLastModified: "2023-06-07"
+RegistryEntryLastModified: "2023-08-03"

@@ -1,0 +1,172 @@
+Name: High-Resolution Snow & Ice Monitoring; Fractional Snow Cover
+OpenEOPID: FRACTIONAL_SNOW_COVER
+Description: |
+  The High-Resolution Snow & Ice Monitoring service (HR-S&I) is part of the Copernicus Land Monitoring Service (CLMS). The snow aspect of the service provides products 
+  measuring Snow cover (FSC, FSTOC, FSCOG, GFSC), Snow state conditions (WDS, SWS) and persistent snow area (PSA). There are also ice products that measure ice cover 
+  (RLIE) and aggregated river and lake ice extent (ARLIE).
+
+  More information about the data can be found [here](https://land.copernicus.eu/pan-european/biophysical-parameters/high-resolution-snow-and-ice-monitoring) and
+  the snow products user manual is located [here](https://land.copernicus.eu/user-corner/technical-library/hrsi-snow-pum). 
+
+  The Fractional Snow Cover (FSC) product provides the snow fraction at the Top Of Canopy (FSCTOC) and On Ground (FSCOG). NDSI is also provided as part of this service.
+AdditionalInfoExternal:
+    Title: Additional info 
+    Path: hrsi-fsc/README.MD 
+Image: hrsi-fsc/hrsi-fsc.png  
+EDCBrowser: ""
+EOBrowser: https://sentinelshare.page.link/aUUT
+Resolution: 20m
+GeographicalCoverage: Europe (Lat; 34N 66N Lon; -26W 44E)
+TemporalAvailability: September 2016 - ongoing
+UpdateFrequency: 5 days, In near real-time, according S2 revisit
+BandInformation: 
+  Table:
+        Columns:
+          - Name: Name
+            Title: Name
+          - Name: Description
+            Title: Description  
+          - Name: Unit
+            Title: Unit
+          - Name: Sentinel Hub Units
+            Title: Sentinel Hub Units
+          - Name: Data Values
+            Title: Data Values 
+          - Name: No data
+            Title: No data            
+        Rows:
+          - Name: FSCTOC
+            Description: Top of canopy fractional snow cover (%)
+            Unit: Dimensionless
+            Sentinel Hub Units: DN
+            Data Values: 0-100 FSCTOC (%), Cloud or cloud shadow - 205
+            No data: 255
+          - Name: FSCOG
+            Description: On-ground fractional snow cover (%)
+            Unit: Dimensionless
+            Sentinel Hub Units: DN
+            Data Values: 0-100 FSCOG (%), Cloud or cloud shadow - 205
+            No data: 255
+          - Name: QCTOC
+            Description: Quality layer providing basic assessment of FSCTOC quality
+            Unit: Dimensionless
+            Sentinel Hub Units: DN
+            Data Values: High quality - 0, Medium quality, - 1, Low quality - 2, Minimal quality - 3, Cloud or cloud shadow - 205
+            No data: 255
+          - Name: QCOG
+            Description: Quality layer providing basic assessment of FSCOG quality
+            Unit: Dimensionless
+            Sentinel Hub Units: DN
+            Data Values: High quality - 0, Medium quality, - 1, Low quality - 2, Minimal quality - 3, Cloud or cloud shadow - 205
+            No data: 255          
+          - Name: NDSI
+            Description: Normalised difference snow index (%) of detected snow areas.
+            Unit: Dimensionless
+            Sentinel Hub Units: DN
+            Data Values: 0-100 NDSI (%), Cloud or cloud shadow - 205
+            No data: 255
+Contact: "[Copernicus Land Monitoring Service Contact](https://land.copernicus.eu/contact)"
+Provider: "[European Environment Agency](https://www.eea.europa.eu/)"
+ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
+Tags:
+  - CLMS
+  - derived data
+  - open data
+  - snow
+  - hrsi
+License: Freely and openly accessible according to the Copernicus data and information policy. ([Read more](https://land.copernicus.eu/terms-of-use)).
+LicenseType: proprietary
+LicenseUrl: https://land.copernicus.eu/terms-of-use
+Resources:
+  - Group: Sentinel Hub Resources
+    EndPoint: https://creodias.sentinel-hub.com
+    Name: Sentinel Hub
+    Role: processor
+    Type: byoc-80db97d0-fd6a-4e13-9cf3-d1842beaae5c
+    CollectionId: 80db97d0-fd6a-4e13-9cf3-d1842beaae5c
+    Primary: true
+  - Group: xcube Resources
+    DatasetName: CUSTOM
+    CollectionId: 80db97d0-fd6a-4e13-9cf3-d1842beaae5c
+CustomScripts:
+  Title: Collection of Copernicus services data custom scripts
+  URL: https://custom-scripts.sentinel-hub.com/custom-scripts/copernicus_services/hrsi/#fractional-snow-cover
+Configurations:
+  - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
+    rel: "about"
+    type: "text/html"
+    title: "Details about running Evalscripts"
+  - href: "https://custom-scripts.sentinel-hub.com/copernicus_services/hrsi/hrsi-fsc-on-ground-fsi/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate FSCOG (%) (Fractional Snow Cover On-ground) visualisation"
+    sentinelhub:layer_name: "Fractional Snow Cover On-ground"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
+  - href: "https://custom-scripts.sentinel-hub.com/copernicus_services/hrsi/hrsi-fsc-on-ground-fsi-quality/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate FSCOG (%) (Fractional Snow Cover On-ground) quality layer visualisation"
+    sentinelhub:layer_name: "Fractional Snow Cover On-ground Quality "
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
+  - href: "https://custom-scripts.sentinel-hub.com/copernicus_services/hrsi/hrsi-fsc-top-of-canopy-fsi/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate FSCTOC (%) (Fractional Snow Cover Top of Canopy) visualisation"
+    sentinelhub:layer_name: "Fractional Snow Cover Top of Canopy"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
+  - href: "https://custom-scripts.sentinel-hub.com/copernicus_services/hrsi/hrsi-fsc-top-of-canopy-fsi-quality/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate FSCTOC (%) (Fractional Snow Cover Top of Canopy) quality layer visualisation"
+    sentinelhub:layer_name: "Fractional Snow Cover Top of Canopy Quality"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
+  - href: "https://custom-scripts.sentinel-hub.com/copernicus_services/hrsi/hrsi-fsc-ndsi/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate NDSI (Normalised difference snow index) visualisation"
+    sentinelhub:layer_name: "NDSI"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
+Extent:
+  spatial:
+    bbox:
+      - - -26
+        - 34
+        - 44
+        - 66
+  temporal:
+    interval:
+      - - "2016-09-01T00:00:00Z"
+        - null
+CubeDimensions:
+  x:
+    type: spatial
+    axis: x
+    extent:
+      - -26
+      - 44
+  y:
+    type: spatial
+    axis: y
+    extent:
+      - 34
+      - 66
+  t:
+    type: temporal
+    extent:
+      - "2016-09-01T00:00:00Z"
+      - null
+  bands:
+    type: bands
+    values:
+      - FSCTOC
+      - FSCOG
+      - QCTOC
+      - QCOG
+      - NDSI
+RegistryEntryAdded: "2023-08-02"
+RegistryEntryLastModified: "2023-08-03"
