@@ -11,10 +11,9 @@ AdditionalInfoExternal:
     Path: truck-detection/README.MD
 Image: truck-detection/thumbnail.png
 Explore: "[Run algorithm in EDC Browser](https://browser.eurodatacube.com/?zoom=10&lat=41.9&lng=12.5&fromTime=1970-01-01T00%3A00%3A00.000Z&toTime=2021-10-22T14%3A36%3A31.329Z&algorithm=truck-detection)" 
-GeographicalCoverage: Global
+GeographicalCoverage: Europe
 TemporalAvailability: |
- Europe: November 2016 - ongoing
- Global: January 2017 - ongoing
+ November 2016 - ongoing
 UpdateFrequency: On-demand
 Attributes:
   Table:
