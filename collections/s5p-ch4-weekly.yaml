@@ -8,7 +8,7 @@ AdditionalInfoExternal:
   Title: Additional info
   Path: s5p-ch4-weekly/README.MD
 Image: s5p-ch4-weekly/ch4.PNG
-EDCBrowser: ""
+EDCBrowser: https://browser.eurodatacube.com/?zoom=7&lat=38.80975&lng=-8.18481&collectionId=SENTINEL_5P_CH4_T7D_AVERAGE&layerId=CH4-weekly&type=sentinel-hub-edc&fromTime=2023-07-24T00%3A00%3A00.000Z&toTime=2023-07-24T23%3A59%3A59.999Z
 Resolution: 4.8 x 4.8 Km (across x along track)
 GeographicalCoverage: -180.0, -90.0, 180.0, 90.0
 TemporalAvailability: 2021-11-15 - ongoing
@@ -81,4 +81,4 @@ CubeDimensions:
     values:
       - ch4
 RegistryEntryAdded: "2022-07-12"
-RegistryEntryLastModified: "2022-12-12"
+RegistryEntryLastModified: "2023-08-17"

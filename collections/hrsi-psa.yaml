@@ -17,7 +17,7 @@ AdditionalInfoExternal:
     Title: Additional info 
     Path: hrsi-psa/README.MD 
 Image: hrsi-psa/hrsi-psa.png  
-EDCBrowser: ""
+EDCBrowser: https://browser.eurodatacube.com/?zoom=11&lat=46.54304&lng=7.95273&collectionId=PERSISTENT_SNOW_AREA&layerId=Persistent%20Snow%20Area&type=sentinel-hub-edc&fromTime=2021-05-09T00%3A00%3A00.000Z&toTime=2021-05-09T23%3A59%3A59.999Z
 EOBrowser: https://sentinelshare.page.link/tWUV
 Resolution: 20m
 GeographicalCoverage:  Europe (Lat; 34N 66N Lon; -26W 44E)
@@ -131,4 +131,4 @@ CubeDimensions:
       - PSA
       - QC
 RegistryEntryAdded: "2023-08-02"
-RegistryEntryLastModified: "2023-08-03"
+RegistryEntryLastModified: "2023-08-17"

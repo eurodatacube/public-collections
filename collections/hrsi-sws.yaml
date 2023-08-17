@@ -13,7 +13,7 @@ AdditionalInfoExternal:
     Title: Additional info 
     Path: hrsi-sws/README.MD 
 Image: hrsi-sws/hrsi-sws.png     
-EDCBrowser: ""
+EDCBrowser: https://browser.eurodatacube.com/?zoom=11&lat=46.5709&lng=9.71878&collectionId=SAR_WET_SNOW_IN_HIGH_MOUNTAINS&layerId=SAR%20Wet%20Snow&type=sentinel-hub-edc&fromTime=2023-05-04T00%3A00%3A00.000Z&toTime=2023-05-04T23%3A59%3A59.999Z
 EOBrowser: https://sentinelshare.page.link/c5WM
 Resolution: 60m
 GeographicalCoverage:  Europe (Lat; 34N 66N Lon; -26W 44E)
@@ -127,4 +127,4 @@ CubeDimensions:
       - WSM
       - QCWSM
 RegistryEntryAdded: "2023-08-02"
-RegistryEntryLastModified: "2023-08-03"
+RegistryEntryLastModified: "2023-08-17"
