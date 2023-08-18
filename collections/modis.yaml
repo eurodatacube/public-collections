@@ -8,15 +8,15 @@ Description: |
  local or global scale land or water applications. There are several products derived from MODIS which include land, atmosphere, cryospehere and ocean products.
  MCD43A4 Nadir BRDF-Adjusted Reflectance (NBAR) product Version 6 is a MODIS land product available in Sentinel Hub. 
  It is computed daily for each of MODIS bands 1 - 7 and it contains the most representative pixels from 16 day period temporarily weighted to the ninth day.
- MCD43A4.006 is available since February 2000 on a daily basis but with a 8 days delay.
+ MCD43A4.006 is available since February 2000 on a daily basis but with a 8 days delay. Sentinel Hub no longer has the latest MODIS data because the underlying data provider has ceased operations. Data from February 24, 2000 to February 10, 2023 remains accessible.
 Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/modis/mcd/)"
 Image: modis/modis.png
 EDCBrowser: https://browser.eurodatacube.com/?zoom=10&lat=41.9&lng=12.5&collectionId=modis&layerId=True%20Color&type=sentinel-hub-edc&fromTime=2021-03-04T16%3A13%3A10.878Z&toTime=2022-03-04T16%3A13%3A10.878Z
 EOBrowser: https://apps.sentinel-hub.com/eo-browser/?zoom=10&lat=41.9&lng=12.5&themeId=DEFAULT-THEME&datasetId=MODIS&fromTime=2021-03-29T00:00:00.000Z&toTime=2021-03-29T23:59:59.999Z&layerId=1-TRUE-COLOR&visualizationUrl=https://services.sentinel-hub.com/ogc/wms/a322e0b3-0652-4c62-8dde-404781863e5f
 Resolution: 500m
 GeographicalCoverage: MCD43A4.006 product covers Land ([more info](https://modis.gsfc.nasa.gov/about/specifications.php))
-TemporalAvailability: February 2000 - ongoing
-UpdateFrequency: MODIS data are added regularly, usually within few hours after they are available on the USGS archive
+TemporalAvailability: February 24, 2000 - February 10, 2023
+UpdateFrequency: Archived data. Sentinel Hub no longer has the latest MODIS data. 
 BandInformation: Information about [bands and data](https://docs.sentinel-hub.com/api/latest/data/modis/mcd/#available-bands-and-data)
 Contact: https://forum.sentinel-hub.com/c/euro-data-cube/25
 Provider: "[USGS](https://www.usgs.gov/)"
@@ -44,7 +44,7 @@ Resources:
     Name: Sentinel Hub
     Role: processor
     Type: modis 
-    Notes: Global since Feb 2000
+    Notes: Global, from February 24, 2000 to February 10, 2023
     Primary: true
   - Group: xcube Resources
   - DatasetName: modis 
@@ -115,7 +115,7 @@ Extent:
     interval:
       -
         - '2000-02-24T00:00:00Z'
-        - null
+        - '2023-02-10T00:00:00Z'
 CubeDimensions:
   x:
     type: spatial
@@ -135,7 +135,7 @@ CubeDimensions:
     type: temporal
     extent:
       - '2000-02-24T00:00:00Z'
-      - null
+      - '2023-02-10T00:00:00Z'
     step: P1D
   bands:
     type: bands
@@ -419,4 +419,4 @@ CRS:
   - "http://www.opengis.net/def/crs/EPSG/0/32760"
   - "http://www.opengis.net/def/crs/SR-ORG/0/98739"
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2022-11-23"
+RegistryEntryLastModified: "2023-08-18"
