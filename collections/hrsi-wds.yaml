@@ -13,7 +13,7 @@ AdditionalInfoExternal:
     Title: Additional info 
     Path: hrsi-wds/README.MD 
 Image: hrsi-wds/hrsi-wds.png   
-EDCBrowser: ""
+EDCBrowser: https://browser.eurodatacube.com/?zoom=11&lat=46.58317&lng=9.48601&collectionId=WET_DRY_SNOW_STATE_CLASSIFICATION&layerId=Snow%20State%20Classification&type=sentinel-hub-edc&fromTime=2023-04-26T00%3A00%3A00.000Z&toTime=2023-04-26T23%3A59%3A59.999Z
 EOBrowser: https://sentinelshare.page.link/YUdR 
 Resolution: 60m
 GeographicalCoverage: Europe (Lat; 34N 66N Lon; -26W 44E)
@@ -127,4 +127,4 @@ CubeDimensions:
       - SSC
       - QCSSC
 RegistryEntryAdded: "2023-08-02"
-RegistryEntryLastModified: "2023-08-03"
+RegistryEntryLastModified: "2023-08-17"

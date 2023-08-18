@@ -17,7 +17,7 @@ AdditionalInfoExternal:
   Title: Additional info
   Path: vessel_density_cargo/README.md
 Image: vessel_density_cargo/vessel_density_cargo.png
-EDCBrowser: ""
+EDCBrowser: https://browser.eurodatacube.com/?zoom=3&lat=46.25585&lng=3.69141&collectionId=EMODNET_VESSEL_DENSITY_CARGO&layerId=vessel_density_cargo&type=sentinel-hub-edc&fromTime=2020-12-01T00%3A00%3A00.000Z&toTime=2020-12-01T23%3A59%3A59.999Z
 Resolution: 0.0083 x 0.0083°
 GeographicalCoverage: -66.949482215, 19.222315519, 72.48195026, 74.653019863
 TemporalAvailability: 2017-01-01 - 2020-12-01
@@ -90,4 +90,4 @@ CubeDimensions:
     values:
       - cargo
 RegistryEntryAdded: "2022-05-19"
-RegistryEntryLastModified: "2022-07-06"
+RegistryEntryLastModified: "2023-08-17"

@@ -5,6 +5,7 @@ Description: |
  See [USGS EROS Archive](https://www.usgs.gov/centers/eros/science/usgs-eros-archive-landsat-archives-landsat-1-5-multispectral-scanner-collection?qt-science_center_objects=0#qt-science_center_objects) for more information. MSS Level-1 data provides Top of Atmosphere Reflectance products for the period from July 1972 to October 1992 and from June 2012 to January 2013.
 Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/landsat-mss/)"
 Image: landsat-1-5-mss-l1/landsat-1-5-mss-l1.png 
+EDCBrowser: https://browser.eurodatacube.com/?zoom=10&lat=41.75953&lng=11.90781&collectionId=LANDSAT1-5_MSS_L1&layerId=False%20Color%20Near%20Infrared&type=sentinel-hub-edc&fromTime=1993-08-05T00%3A00%3A00.000Z&toTime=1993-08-05T23%3A59%3A59.999Z
 EOBrowser: https://apps.sentinel-hub.com/eo-browser/?zoom=10&lat=41.9&lng=12.5&themeId=DEFAULT-THEME&visualizationUrl=https%3A%2F%2Fservices.sentinel-hub.com%2Fogc%2Fwms%2F88c5f9f6-0782-40aa-8cff-7c679520ed73&datasetId=AWS_LMSSL1&fromTime=1993-08-05T00%3A00%3A00.000Z&toTime=1993-08-05T23%3A59%3A59.999Z&layerId=FALSE-COLOR-NEAR-INFRARED
 Resolution: 68 m x 83 m (commonly resampled to 57 m, or 60 m)
 GeographicalCoverage: Global land
@@ -439,4 +440,4 @@ CRS:
   - "http://www.opengis.net/def/crs/EPSG/0/32760"
   - "http://www.opengis.net/def/crs/SR-ORG/0/98739"
 RegistryEntryAdded: "2021-07-16"
-RegistryEntryLastModified: "2022-11-23"
+RegistryEntryLastModified: "2023-08-17"

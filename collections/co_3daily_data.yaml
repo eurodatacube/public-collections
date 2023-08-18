@@ -9,7 +9,7 @@ AdditionalInfoExternal:
   Title: Additional info
   Path: co_3daily_data/README.MD
 Image: co_3daily_data/co.png
-EDCBrowser: ""
+EDCBrowser: https://browser.eurodatacube.com/?zoom=3&lat=3.25021&lng=30.9375&collectionId=SENTINEL_5P_CO_T3D_AVERAGE&layerId=co-3daily&type=sentinel-hub-edc&fromTime=2023-02-08T23%3A00%3A00.000Z&toTime=2023-02-09T22%3A59%3A59.999Z
 Resolution: 4.8 x 4.8 Km (across x along track)
 GeographicalCoverage: -180.0, -90.0, 180.0, 90.0
 TemporalAvailability: 2018-04-30 - ongoing
@@ -81,4 +81,4 @@ CubeDimensions:
     values:
       - co
 RegistryEntryAdded: "2022-07-12"
-RegistryEntryLastModified: "2022-12-09"
+RegistryEntryLastModified: "2023-08-17"

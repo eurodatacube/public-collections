@@ -17,7 +17,7 @@ AdditionalInfoExternal:
   Title: Additional info
   Path: vessel_density_tanker/README.md
 Image: vessel_density_tanker/vessel_density_tanker.png
-EDCBrowser: ""
+EDCBrowser: https://browser.eurodatacube.com/?zoom=8&lat=50.59544&lng=0.39551&collectionId=EMODNET_VESSEL_DENSITY_TANKER&layerId=vessel_density_tanker&type=sentinel-hub-edc&fromTime=2020-12-01T00%3A00%3A00.000Z&toTime=2020-12-01T23%3A59%3A59.999Z
 Resolution: 0.0083 x 0.0083°
 GeographicalCoverage: -66.949482215, 19.222315519, 72.48195026, 74.653019863
 TemporalAvailability: 2017-01-01 - 2020-12-01
@@ -90,4 +90,4 @@ CubeDimensions:
     values:
       - tanker
 RegistryEntryAdded: "2022-05-19"
-RegistryEntryLastModified: "2022-07-06"
+RegistryEntryLastModified: "2023-08-17"
