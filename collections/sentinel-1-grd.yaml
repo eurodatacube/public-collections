@@ -50,16 +50,21 @@ Resources:
     Type: sentinel-1-grd
     Notes: Global since October 2014
     Primary: true
-  - EndPoint: https://eocloud.sentinel-hub.com
+  - EndPoint: https://creodias.sentinel-hub.com
     Name: Sentinel Hub
     Role: processor
     Type: sentinel-1-grd
-    Notes: Global since October 2014
+    Notes: Rolling policy of 1 month for World
   - EndPoint: https://shservices.mundiwebservices.com
     Name: Sentinel Hub
     Role: processor
     Type: sentinel-1-grd
     Notes: Rolling policy of 48 months for Europe , Rolling policy of 12 months for World
+  - EndPoint: https://code-de.sentinel-hub.com.com
+    Name: Sentinel Hub
+    Role: processor
+    Type: sentinel-1-grd
+    Notes: Germany since October 2014
   - Group: xcube Resources
   - DatasetName: sentinel-1-grd
 CustomScripts:
@@ -393,4 +398,4 @@ CRS:
   - "http://www.opengis.net/def/crs/EPSG/0/32760"
   - "http://www.opengis.net/def/crs/SR-ORG/0/98739"
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2022-11-23"
+RegistryEntryLastModified: "2023-08-18"
