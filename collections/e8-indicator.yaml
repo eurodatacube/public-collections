@@ -64,7 +64,7 @@ ProducedResults:
       - Name: default_B0_noDataCount
         Description: The noDataCount parameter is the number of data values that are considered "no data" or "missing" in the specified aoi and time period.
 Pricing: |
-  Prices are defined based on the selected aoi and time period. Regardless of the size and time period, the minimal cost for initiating request is 20 EDC credits.
+  Prices are defined based on the selected AOI and time range. The processing price for 1 km^2 is 9 EDC credits per year of input data. Regardless of the size and time period, the minimal cost for initiating a request is 20 EDC credits.
 License: "[Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). Attribution: Contains modified Copernicus Sentinel data (year) processed by Sentinel Hub"
 Contact: https://forum.sentinel-hub.com/c/euro-data-cube/
 Provider: "Providers and contributes: dr. Anca Anghelea and Sara Aparicio"
