@@ -6,7 +6,7 @@ The PlantVillage Crop Type Kenya is a dataset contains field boundaries and crop
 
 ## Band information
 
-The PlantVillage Crop Type Kenya collection contains a crop type label indicating the crop type of the field. 
+The PlantVillage Crop Type Kenya collection contains a crop type label and a crop density label to indicate the major crop in the field and the estimated density of the field.
 
 <table>
   <thead>
@@ -21,6 +21,11 @@ The PlantVillage Crop Type Kenya collection contains a crop type label indicatin
       <td>crop</td>
       <td >UINT 8</td>
       <td>Crop type</td>
+    </tr>
+    <tr>
+      <td>crop_density</td>
+      <td >FLOAT 32</td>
+      <td>Crop density</td>
     </tr>
    </tbody>
 </table>

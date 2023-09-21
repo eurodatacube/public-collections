@@ -19,7 +19,9 @@ BandInformation:
           Title: Description
       Rows:
         - Name: crop
-          Description: crop type
+          Description: major crop type
+        - Name: crop_density
+          Description: esitmated density of the field
 Contact: ml@radiant.earth
 Provider: "[Radiant Earth](https://radiant.earth/)"
 ManagedBy: "[Source Cooperative](https://beta.source.coop/repositories/radiantearth/african-crops-kenya-01/description)"
