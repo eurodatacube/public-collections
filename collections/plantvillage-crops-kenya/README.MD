@@ -2,7 +2,7 @@
 
 ## Short description
 
-The PlantVillage Crop Type Kenya is a dataset contains field boundaries and crop type information for fields in Kenya. The crop information is collected in situ using the PlantVillage app. This collection has been rasterised from the original vector data at 10 m resolution to be paired with Sentinel-1 & Sentinel-2 imagery. 
+The PlantVillage Crop Type Kenya is a dataset that contains field boundaries and crop type information for fields in Kenya. The crop information is collected in situ using the PlantVillage app. This collection has been rasterised from the original vector data at 10 m resolution to be paired with Sentinel-1 & Sentinel-2 imagery. 
 
 ## Band information
 

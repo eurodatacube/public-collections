@@ -1,6 +1,6 @@
 Name: South Africa Crop Type Competition
 Description: |
-  The South Africa Crop Type Competition is a dataset produced as part of the [Radiant Earth Spot the Crop Challenge](https://zindi.africa/hackathons/radiant-earth-spot-the-crop-hackathon). This collection contains the field identification lable which represents the area of crop field and the corresponding crop type label collected via aerial and vehicle surveys.
+  The South Africa Crop Type Competition is a dataset produced as part of the [Radiant Earth Spot the Crop Challenge](https://zindi.africa/hackathons/radiant-earth-spot-the-crop-hackathon). This collection contains the field identification label which represents the area of crop fields and the corresponding crop type label collected via aerial and vehicle surveys.
 AdditionalInfoExternal:
   Title: Additional info
   Path: south-africa-crops-competition/README.MD
