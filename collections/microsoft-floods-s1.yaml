@@ -1,4 +1,4 @@
-Name: Cloud to Street - Microsoft Flood Dataset - Sentinel 1
+Name: Cloud to Street - Microsoft Flood Dataset - Sentinel-1
 Description: |
   The Cloud to Street - Microsoft Flood Dataset (C2S-MS Floods) is a dataset of near-coincident Sentinel-1 and Sentinel-2 data paired with water labels from 18 global flood events. These labels are derived products of MODIS sensor on board NASA's Aqua and Terra satellites produced as a part of the study, "Satellite imaging reveals increased proportion of population exposed to floods," Nature (2021), doi: 10.1038/s41586-021-03695-w. 
   In this collection, we keep the water label which represents the maximum observed flood extent during the time period of the event. For a detailed description of the methods used to generate these labels, please refer to the original paper.
@@ -9,7 +9,7 @@ Image: microsoft-floods-s1/thumbnail.png
 EDCBrowser: ""
 Resolution: 10m
 GeographicalCoverage: "(-96.63°, -25.25°, 141.12°, 48.75°)"
-TemporalAvailability: "12 Auust 2016 - 20 October 2020"
+TemporalAvailability: "12 August 2016 - 20 October 2020"
 UpdateFrequency: Static data
 BandInformation: 
   Table:
@@ -22,14 +22,15 @@ BandInformation:
         - Name: water
           Description: flood extent
 Contact: support@cloudtostreet.info
-Provider: "Cloud to Street - Microsoft"
-ManagedBy: "[Source Cooperative](https://beta.source.coop/repositories/c2sms/c2smsfloods/description)"
+Provider: "Cloud to Street - Microsoft and [Source Cooperative](https://beta.source.coop/repositories/c2sms/c2smsfloods/description)"
+ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
 Tags:
   - raster
   - derived data
   - flood
   - machine learning
   - open data
+  - mlhub-label
 License: "[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)"
 Resources:
   - Group: Sentinel Hub Resources
@@ -59,5 +60,5 @@ Extent:
         - '2016-08-12T00:00:00Z'
         - '2020-10-20T00:00:00Z'
 
-RegistryEntryAdded: "2023-09-21"
-RegistryEntryLastModified: "2023-09-21" 
+RegistryEntryAdded: "2023-09-25"
+RegistryEntryLastModified: "2023-09-25" 

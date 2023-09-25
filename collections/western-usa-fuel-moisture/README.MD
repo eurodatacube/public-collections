@@ -2,7 +2,7 @@
 
 ## Short description
 
-The Western USA Live Fuel Moisture is a dataset manually collected in the western United States by the United States Forest Sercice. Live fuel moisture represents the mass of water in live vegetation elements likes leaves, needles, and twigs divided by its oven-dried mass in percentage. It is an indicator which can be used for wildfire assessment. This collection is rasterized from the orginal vector data (points) at 10 m resolution to be paired with Sentinel-1 and Sentinel-2 imagery.
+The Western USA Live Fuel Moisture is a dataset manually collected in the western United States by the United States Forest Service. Live fuel moisture represents the mass of water in live vegetation elements likes leaves, needles, and twigs divided by its oven-dried mass in percentage. It is an indicator which can be used for wildfire assessment. This collection has been rasterized from the orginal vector data (points) at 10 m resolution to be paired with Sentinel-1 and Sentinel-2 imagery.
 
 ## Band information
 
@@ -48,7 +48,7 @@ The Western USA Live Fuel Moisture contains in situ live fuel moisture measureme
       <td>Silt fractions</td>
     </tr>
     <tr>
-      <td>snad</td>
+      <td>sand</td>
       <td >FLOAT 32</td>
       <td>Sand fraction</td>
     </tr>
