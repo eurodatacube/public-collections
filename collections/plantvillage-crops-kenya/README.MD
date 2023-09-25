@@ -123,6 +123,33 @@ The PlantVillage Crop Type Kenya collection contains a crop type label and a cro
   </tbody>
 </table>
 
+### Crop density colouring schema
+
+<table>
+  <thead>
+    <tr>
+      <th>Value</th>
+      <th>Color</th>
+      <th>Color Code</th>
+      <th>Label</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td bgcolor="#000000"></td>
+      <td>#000000</td>
+      <td>1% confidence</td>
+    </tr>
+    <tr>
+      <td>100</td>
+      <td bgcolor="#00c800"></td>
+      <td>#00c800</td>
+      <td>100% confidence</td>
+    </tr>
+  </tbody>
+</table>
+
 ## More information
 
 More information about the PlantVillage Crop Type Kenya collection is described on the [Source Cooperative](https://beta.source.coop/repositories/radiantearth/african-crops-kenya-01/description) (previously Radiant MLHub) and the documentation can be downloaded [here](https://data.source.coop/radiantearth/african-crops-kenya-01/Kenya_Documentation.pdf).
