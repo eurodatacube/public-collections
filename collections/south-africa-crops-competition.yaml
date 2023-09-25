@@ -1,6 +1,6 @@
 Name: South Africa Crop Type Competition
 Description: |
-  The South Africa Crop Type Competition is a dataset produced as part of the [Radiant Earth Spot the Crop Challenge](https://zindi.africa/hackathons/radiant-earth-spot-the-crop-hackathon). This dataset collection contains the field identification lable which represents the area of crop field and the corresponding crop type label collected via aerial and vehicle surveys.
+  The South Africa Crop Type Competition is a dataset produced as part of the [Radiant Earth Spot the Crop Challenge](https://zindi.africa/hackathons/radiant-earth-spot-the-crop-hackathon). This collection contains the field identification lable which represents the area of crop field and the corresponding crop type label collected via aerial and vehicle surveys.
 AdditionalInfoExternal:
   Title: Additional info
   Path: south-africa-crops-competition/README.MD
@@ -8,7 +8,7 @@ Image: south-africa-crops-competition/thumbnail.png
 EDCBrowser: ""
 Resolution: 10m
 GeographicalCoverage: "(17.81°, -34.16°, 19.77°, -30.75°)"
-TemporalAvailability: "12 Auust 2016 - 20 October 2020"
+TemporalAvailability: "1 August 2017"
 UpdateFrequency: Static data
 BandInformation: 
   Table:
@@ -23,14 +23,15 @@ BandInformation:
         - Name: field_id
           Description: field identification
 Contact: ml@radiant.earth
-Provider: "[Radiant Earth](https://radiant.earth/)"
-ManagedBy: "[Source Cooperative](https://beta.source.coop/repositories/radiantearth/south-africa-crops-competition/description)"
+Provider: "[Radiant Earth](https://radiant.earth/) and [Source Cooperative](https://beta.source.coop/repositories/radiantearth/south-africa-crops-competition/description)"
+ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
 Tags:
   - raster
   - ground truth
   - crop type
   - machine learning
   - open data
+  - mlhub-label
 License: "[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)"
 Resources:
   - Group: Sentinel Hub Resources
@@ -55,5 +56,5 @@ Extent:
         - '2017-08-01T00:00:00Z'
         - '2017-08-01T00:00:00Z'
 
-RegistryEntryAdded: "2023-09-21"
-RegistryEntryLastModified: "2023-09-21" 
+RegistryEntryAdded: "2023-09-25"
+RegistryEntryLastModified: "2023-09-25" 
