@@ -1,0 +1,59 @@
+Name:  A crop type dataset for consistent land cover classification in Central Asia
+Description: |
+  Land cover is a key variable in the context of climate change. In particular, crop type information is essential to understand the spatial distribution of water usage and anticipate the risk of water scarcity and the consequent danger of food insecurity. This applies to arid regions such as the Aral Sea Basin (ASB), Central Asia, where agriculture relies heavily on irrigation. Here, remote sensing is valuable to map crop types, but its quality depends on consistent ground-truth data. Yet, in the ASB, such data is missing. Addressing this issue, we collected thousands of polygons on crop types, 97.7% of which in Uzbekistan and the remaining in Tajikistan. We collected 8,196 samples between 2015 and 2018, 213 in 2011 and 26 in 2008. Our data compiles samples for 40 crop types and is dominated by Ã¢Â€ÂœcottonÃ¢Â€Â (40%) and Ã¢Â€ÂœwheatÃ¢Â€Â, (25%). These data were meticulously validated using expert knowledge and remote sensing data and relied on transferable, open-source workflows that will assure the consistency of future sampling campaigns.
+AdditionalInfoExternal:
+  Title: Additional info
+  Path: idiv-central-asia/README.MD
+Image: idiv-central-asia/thumbnail.png
+EDCBrowser: ""
+Resolution: 10m
+GeographicalCoverage: "(37.42°, 60.20°, 41.83°, 72.35°)"
+TemporalAvailability: "14 July 2008 - 25 June 2018"
+UpdateFrequency: Static data
+BandInformation: 
+  Table:
+      Columns:
+        - Name: Name
+          Title: Name
+        - Name: Description
+          Title: Description
+      Rows:
+        - Name: crop
+          Description: major crop type
+        - Name: season
+          Description: season of the crop
+Contact: ml@radiant.earth
+Provider: "[Radiant Earth](https://radiant.earth/)"
+ManagedBy: "[Source Cooperative](https://beta.source.coop/repositories/idiv/asia-crop-type/description)"
+Tags:
+  - raster
+  - ground truth
+  - crop type
+  - machine learning
+  - open data
+License: "[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)"
+Resources:
+  - Group: Sentinel Hub Resources
+    EndPoint: https://services.sentinel-hub.com
+    Name: Sentinel Hub
+    Role: processor
+    Type: 0baca295-e267-42b1-b535-fe899259f791
+    CollectionId: 0baca295-e267-42b1-b535-fe899259f791
+    Notes:  Collected crop types from 8,196 samples between 2015 and 2018, 213 in 2011 and 26 in 2008 in Uzbekistan and Tajikistan.
+    Primary: true
+Extent:
+  spatial:
+    bbox:
+      -
+        - 37.42
+        - 60.20
+        - 41.83
+        - 72.35
+  temporal:
+    interval:
+      -
+        - '2008-07-14T00:00:00Z'
+        - '2018-06-25T00:00:00Z'
+
+RegistryEntryAdded: "2023-09-20"
+RegistryEntryLastModified: "2023-09-20" 
