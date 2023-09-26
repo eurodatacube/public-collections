@@ -1,0 +1,77 @@
+Name: Western USA Live Fuel Moisture
+Description: |
+  The Western USA Live Fuel Moisture is a dataset manually collected in the western United States by the United States Forest Service. Live fuel moisture represents the mass of water in live vegetation elements like leaves, needles, and twigs divided by its oven-dried mass in percentage. It is an indicator which can be used for wildfire assessment. This collection has been rasterized from the original vector data (points) at 10 m resolution to be paired with Sentinel-1 and Sentinel-2 imagery.
+AdditionalInfoExternal:
+  Title: Additional info
+  Path: western-usa-fuel-moisture/README.MD
+Image: "western-usa-fuel-moisture/thumbnail.png"
+EDCBrowser: ""
+Resolution: 10m
+GeographicalCoverage: "(-123.53°, 28.30°, -93.73°, 48.50°)"
+TemporalAvailability: "30 June 2015 - 31 January 2019"
+UpdateFrequency: Static data
+BandInformation: 
+  Table:
+      Columns:
+        - Name: Name
+          Title: Name
+        - Name: Description
+          Title: Description
+      Rows:
+        - Name: percent
+          Description: live fuel moisture content
+        - Name: slope
+          Description: terrain slope
+        - Name: elevation
+          Description: altitude above mean sea level
+        - Name: canopy_height
+          Description: height of canopy from ground level
+        - Name: forest_cover
+          Description: land cover class from GLOBCOVER dataset
+        - Name: silt
+          Description: silt fractions
+        - Name: sand
+          Description: sand fraction
+        - Name: clay
+          Description: clay fraction
+Contact: kkrao.j@gmail.com
+Provider: "Stanford University and [Source Cooperative](https://beta.source.coop/repositories/stanford/sar-moisture-conent/description)"
+ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
+Tags:
+  - raster
+  - ground truth
+  - wildfire
+  - machine learning
+  - open data
+  - mlhub-label
+License: "[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)"
+Resources:
+  - Group: Sentinel Hub Resources
+    EndPoint: https://services.sentinel-hub.com
+    Name: Sentinel Hub
+    Role: processor
+    Type: byoc-41dc9ca8-c9c7-41b8-9541-97712cca0c2e
+    CollectionId: 41dc9ca8-c9c7-41b8-9541-97712cca0c2e
+    Notes: In situ live moisture measurements collected at 2000+ sites in western United States.
+    Primary: true
+DataAtWork:
+  Publications:
+    - Title: "SAR-enhanced mapping of live fuel moisture content"
+      URL: https://dx.doi.org/10.1016/j.rse.2020.111797
+      AuthorName: Rao K. and Williams A.P. et al.
+Extent:
+  spatial:
+    bbox:
+      -
+        - -123.53
+        - 28.30
+        - -93.73
+        - 48.50
+  temporal:
+    interval:
+      -
+        - '2015-06-30T00:00:00Z'
+        - '2019-01-31T00:00:00Z'
+
+RegistryEntryAdded: "2023-09-25"
+RegistryEntryLastModified: "2023-09-25" 

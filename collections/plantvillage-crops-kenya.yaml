@@ -1,0 +1,60 @@
+Name: PlantVillage Crop Type Kenya
+Description: |
+  The PlantVillage Crop Type Kenya is a dataset that contains field boundaries and crop type information for fields in Kenya. The crop information is collected in situ using the PlantVillage app. This collection has been rasterised from the original vector data at 10 m resolution to be paired with Sentinel-1 & Sentinel-2 imagery.
+AdditionalInfoExternal:
+  Title: Additional info
+  Path: plantvillage-crops-kenya/README.MD
+Image: plantvillage-crops-kenya/thumbnail.png
+EDCBrowser: ""
+Resolution: 10m
+GeographicalCoverage: "(34.18°, 0.47°, 34.38°, 0.72°)"
+TemporalAvailability: "14 May 2019 - 03 June 2019"
+UpdateFrequency: Static data
+BandInformation: 
+  Table:
+      Columns:
+        - Name: Name
+          Title: Name
+        - Name: Description
+          Title: Description
+      Rows:
+        - Name: crop
+          Description: major crop type
+        - Name: crop_density
+          Description: esitmated density of the field
+Contact: ml@radiant.earth
+Provider: "[Radiant Earth](https://radiant.earth/) and [Source Cooperative](https://beta.source.coop/radiantearth/african-crops-kenya-01)"
+ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
+Tags:
+  - raster
+  - ground truth
+  - crop type
+  - machine learning
+  - open data
+  - mlhub-label
+License: "[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)"
+Resources:
+  - Group: Sentinel Hub Resources
+    EndPoint: https://services.sentinel-hub.com
+    Name: Sentinel Hub
+    Role: processor
+    Type: byoc-5f1b1d3d-316c-44aa-9275-d87d5a8250e2
+    CollectionId: 5f1b1d3d-316c-44aa-9275-d87d5a8250e2
+    Notes: Ground truth obtained through PlantVillage app in 2019
+    Primary: true
+Extent:
+  spatial:
+    bbox:
+      -
+        - 34.18
+        - 0.47
+        - 34.38
+        - 0.72
+  temporal:
+    interval:
+      -
+        - '2019-05-14T00:00:00Z'
+        - '2019-06-03T00:00:00Z'
+
+RegistryEntryAdded: "2023-09-25"
+RegistryEntryLastModified: "2023-09-25" 

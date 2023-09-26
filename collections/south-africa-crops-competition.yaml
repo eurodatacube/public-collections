@@ -1,0 +1,60 @@
+Name: South Africa Crop Type Competition
+Description: |
+  The South Africa Crop Type Competition is a dataset produced as part of the [Radiant Earth Spot the Crop Challenge](https://zindi.africa/hackathons/radiant-earth-spot-the-crop-hackathon). This collection contains the field identification label which represents the area of crop fields and the corresponding crop type label collected via aerial and vehicle surveys.
+AdditionalInfoExternal:
+  Title: Additional info
+  Path: south-africa-crops-competition/README.MD
+Image: south-africa-crops-competition/thumbnail.png
+EDCBrowser: ""
+Resolution: 10m
+GeographicalCoverage: "(17.81°, -34.16°, 19.77°, -30.75°)"
+TemporalAvailability: "1 August 2017"
+UpdateFrequency: Static data
+BandInformation: 
+  Table:
+      Columns:
+        - Name: Name
+          Title: Name
+        - Name: Description
+          Title: Description
+      Rows:
+        - Name: crop
+          Description: crop type
+        - Name: field_id
+          Description: field identification
+Contact: ml@radiant.earth
+Provider: "[Radiant Earth](https://radiant.earth/) and [Source Cooperative](https://beta.source.coop/repositories/radiantearth/south-africa-crops-competition/description)"
+ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
+Tags:
+  - raster
+  - ground truth
+  - crop type
+  - machine learning
+  - open data
+  - mlhub-label
+License: "[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)"
+Resources:
+  - Group: Sentinel Hub Resources
+    EndPoint: https://services.sentinel-hub.com
+    Name: Sentinel Hub
+    Role: processor
+    Type: byoc-bd457670-af1b-45cd-bef2-6a7c93bf5e6e
+    CollectionId: bd457670-af1b-45cd-bef2-6a7c93bf5e6e
+    Notes: Ground truth obtained through aerial and vehicle surveys in 2017
+    Primary: true
+Extent:
+  spatial:
+    bbox:
+      -
+        - 17.81
+        - -34.16
+        - 19.77
+        - -30.75
+  temporal:
+    interval:
+      -
+        - '2017-08-01T00:00:00Z'
+        - '2017-08-01T00:00:00Z'
+
+RegistryEntryAdded: "2023-09-25"
+RegistryEntryLastModified: "2023-09-25" 
