@@ -1,0 +1,65 @@
+Name:  Crop Types in Central Asia
+Description: |
+  This dataset collection provides crop type dataset for consistent land cover classification in Central Asia. 8,196 samples were collected between 2015 and 2018, 213 in 2011 and 26 in 2008. The  data compiles samples for 40 crop types and is dominated by cotton (40%) and wheat, (25%). The data went through validation process using expert knowledge and remote sensing data and relied on transferable, open-source workflows that will assure the consistency of future sampling campaigns. This dataset (crop type information) is essential to understand the spatial distribution of water usage and anticipate the risk of water scarcity and the consequent danger of food insecurity especially to arid regions such as the Aral Sea Basin (ASB), Central Asia, where agriculture relies heavily on irrigation. More information can be found in the documentation page [[Source Cooperative](https://beta.source.coop/repositories/idiv/asia-crop-type/description)](https://beta.source.coop/repositories/idiv/asia-crop-type/description).
+AdditionalInfoExternal:
+  Title: Additional info
+  Path: idiv-central-asia/README.MD
+Image: idiv-central-asia/thumbnail.png
+EDCBrowser: ""
+Resolution: 10m
+GeographicalCoverage: "(37.42°, 60.20°, 41.83°, 72.35°)"
+TemporalAvailability: "14 July 2008 - 25 June 2018"
+UpdateFrequency: Static data
+BandInformation: 
+  Table:
+      Columns:
+        - Name: Name
+          Title: Name
+        - Name: Description
+          Title: Description
+      Rows:
+        - Name: crop
+          Description: major crop type
+        - Name: season
+          Description: season of the crop
+Contact: ml@radiant.earth
+Provider: "[Radiant Earth](https://radiant.earth/)"
+ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
+Tags:
+  - raster
+  - ground truth
+  - crop type
+  - machine learning
+  - open data
+  - mlhub-label
+License: "[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)"
+Resources:
+  - Group: Sentinel Hub Resources
+    EndPoint: https://services.sentinel-hub.com
+    Name: Sentinel Hub
+    Role: processor
+    Type: byoc-0baca295-e267-42b1-b535-fe899259f791
+    CollectionId: 0baca295-e267-42b1-b535-fe899259f791
+    Notes:  Collected crop types from 8,196 samples between 2015 and 2018, 213 in 2011 and 26 in 2008 in Uzbekistan and Tajikistan.
+    Primary: true
+DataAtWork:
+  Publications:
+    - Title: "A crop type dataset for consistent land cover classification in Central Asia"
+      URL: https://doi.org/10.1038/s41597-020-00591-2
+      AuthorName: Remelgado R. et al.
+Extent:
+  spatial:
+    bbox:
+      -
+        - 37.42
+        - 60.20
+        - 41.83
+        - 72.35
+  temporal:
+    interval:
+      -
+        - '2008-07-14T00:00:00Z'
+        - '2018-06-25T00:00:00Z'
+
+RegistryEntryAdded: "2023-09-26"
+RegistryEntryLastModified: "2023-09-26" 
