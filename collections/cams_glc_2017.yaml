@@ -10,7 +10,7 @@ Resolution: 10m
 GeographicalCoverage: -33.56847525983416, 31.857766985498905, 62.19564440228477, 72.37088743023797
 TemporalAvailability: "2017"
 BandInformation: RED, BLUE, GREEN
-Contact: "[Stanisław Lewiński](stlewinski@cbk.waw.pl)"
+Contact: "[Stanisław Lewiński](mailto:stlewinski@cbk.waw.pl)"
 Provider: "[CBK PAN](https://cbk.waw.pl)"
 ManagedBy: "[ESA](http://www.esa.int/)"
 Tags:

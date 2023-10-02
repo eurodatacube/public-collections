@@ -11,7 +11,7 @@ GeographicalCoverage: -180.0, -90.0, 180.0, 90.0
 TemporalAvailability: 2018-04-30 - ongoing
 UpdateFrequency: Weekly
 BandInformation: tropno2
-Contact: "[ESA EO Support Helpdesk](EOSupport@copernicus.esa.int)"
+Contact: "[ESA EO Support Helpdesk](mailto:EOSupport@copernicus.esa.int)"
 Provider: "[ESA](http://www.esa.int/)"
 ManagedBy: "[ESA](http://www.esa.int/)"
 Tags:

@@ -1,4 +1,4 @@
-Name: Wind_10m_u
+Name: Wind 10m u
 OpenEOPID: ERA5_WIND_U
 Description: Gridded ERA5 is the fifth generation ECMWF reanalysis for the global climate and weather for the past 4 to 7 decades. This parameter is the wind U field 
 AdditionalInfoExternal:
@@ -10,7 +10,7 @@ Resolution: 0.25° x 0.25°
 GeographicalCoverage: -179.999755859375, -90.12489004526765, 179.99977453631897, 90.125
 TemporalAvailability: 2019-01-01 - 2022-04-01
 BandInformation: windu10m
-Contact: "[COPERNICUS SUPPORT](copernicus-support@ecmwf.int)"
+Contact: "[COPERNICUS SUPPORT](mailto:copernicus-support@ecmwf.int)"
 Provider: "[COPERNICUS](https://cds.climate.copernicus.eu/cdsapp#!/dataset/10.24381/cds.6860a573?tab=overview)"
 ManagedBy: "[ESA](http://www.esa.int/)"
 Tags:

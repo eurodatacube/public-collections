@@ -38,7 +38,7 @@ Tags:
   - raster
   - sentinel hub
   - systematic
-License: "[ETALAB V2.0 open license](https://theia.cnes.fr/atdistrib/documents/Licence-Theia-CNES-Sentinel-ETALAB-v2.0-en.pdf). Value-added data processed by CNES for the [Theia data center](www.theia.land.fr) from Copernicus data. Processing uses algorithms developed by Theia's Centers of Scientific Expertise."
+License: "[ETALAB V2.0 open license](https://theia.cnes.fr/atdistrib/documents/Licence-Theia-CNES-Sentinel-ETALAB-v2.0-en.pdf). Value-added data processed by CNES for the [Theia data center](https://www.theia-land.fr/en/homepage-en/) from Copernicus data. Processing uses algorithms developed by Theia's Centers of Scientific Expertise."
 LicenseType: proprietary
 LicenseUrl: https://theia.cnes.fr/atdistrib/documents/Licence-Theia-CNES-Sentinel-ETALAB-v2.0-en.pdf
 Resources:

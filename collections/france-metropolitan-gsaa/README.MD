@@ -2,7 +2,7 @@
 
 ## Short Description  
 
-The Graphical Parcel Register (Registre parcellaire graphique (RPG) is a geographical database allowing the identification of agricultural parcels. Its primary purpose is to provide a spatial reference for aid applications under the Common Agricultural Policy (CAP). The anonymised version of RPG with information on the main crop on the agricultural parcel (before 2015, on farmer’s block) is publicly available. RGP is managed by the [Service and Payment Agency (ASP)](https://www.asp-public.fr/au-service-de/agency-services-and-payment-and-eu-funds) .   
+The Graphical Parcel Register (Registre parcellaire graphique (RPG) is a geographical database allowing the identification of agricultural parcels. Its primary purpose is to provide a spatial reference for aid applications under the Common Agricultural Policy (CAP). The anonymised version of RPG with information on the main crop on the agricultural parcel (before 2015, on farmer’s block) is publicly available. RGP is managed by the [Service and Payment Agency (ASP)](https://www.asp-public.fr/agency-services-and-payment) .   
 
 In 2015, RPG version 1.0 was replaced by RPG version 2.0. Even if the two products both describe agricultural parcels on the French territory, their content is quite different. In version 1.0, the information is provided at the level of a farmer’s block, in 2.0, at the level of a parcel. Farmer’s blocks remain present in the RPG 2.0 data, but only as a separate shapefile with blocks’ ids and geometries.  
 

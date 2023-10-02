@@ -3,7 +3,7 @@ Description: |
   The Graphical Parcel Register (Registre parcellaire graphique (RPG) is a geographical database allowing the identification of agricultural parcels. 
   Its primary purpose is to provide a spatial reference for aid applications under the Common Agricultural Policy (CAP). 
   The anonymised version of RPG with information on the main crop on the agricultural parcel is publicly available. 
-  RGP is managed by the [Service and Payment Agency (ASP)](https://www.asp-public.fr/au-service-de/agency-services-and-payment-and-eu-funds).
+  RGP is managed by the [Service and Payment Agency (ASP)](https://www.asp-public.fr/agency-services-and-payment).
   
   France Metropolitan GSAA data collection is made available on geoDB on subscription basis. 
 Documentation: Read more on [data.gouv.fr](https://www.data.gouv.fr/fr/datasets/registre-parcellaire-graphique-rpg-contours-des-parcelles-et-ilots-culturaux-et-leur-groupe-de-cultures-majoritaire/#_) and [Euro Data Cube checkout](https://eurodatacube.com/marketplace/data-products/lpis) 

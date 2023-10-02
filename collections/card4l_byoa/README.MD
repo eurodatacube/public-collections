@@ -33,7 +33,7 @@ Based on the selected input parameters, an analysis is run to determine the numb
 | Data source                 | Sentinel-1 GRD ([read more](https://docs.sentinel-hub.com/api/latest/data/sentinel-1-grd/)) |
 | Sensor                      | C-SAR                                                        |
 | Frequency                   | C-band (5.405 GHz)                                           |
-| Acquisition mode            | Interferometric Wide (IW) swath mode ([read more](https://earth.esa.int/web/sentinel/user-guides/sentinel-1-sar/acquisition-modes/interferometric-wide-swath) ). |
+| Acquisition mode            | Interferometric Wide (IW) swath mode ([read more](https://sentinels.copernicus.eu/web/sentinel/user-guides/sentinel-1-sar/acquisition-modes/interferometric-wide-swath) ). |
 | Polarisation                | VV + VH                                                      |
 | Backscatter                 | Gamma-0 (γ°)                                                 |
 | Backscatter scaling         | Linear power                                                 |
