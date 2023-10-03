@@ -1,4 +1,4 @@
-Name: WSF2019_World_Settlment_Footprint_2019
+Name: WSF2019_World_Settlement_Footprint_2019
 OpenEOPID: WSF2019
 Description: |
   The World Settlement Footprint (WSF) 2019 is a 10m resolution binary mask outlining the extent of human settlements globally derived by means of 2019 multitemporal Sentinel-1 (S1) and Sentinel-2 (S2) imagery.
@@ -6,8 +6,8 @@ Description: |
   Settlements are associated with value 255; all other pixels are associated with value 0.
 AdditionalInfoExternal:
   Title: Additional info
-  Path: WSF2019/README.md
-Image: WSF2019/WSF2019.png
+  Path: WSF2019_World_Settlement_Footprint_2019/README.md
+Image: WSF2019_World_Settlement_Footprint_2019/WSF2019_World_Settlement_Footprint_2019.png
 EDCBrowser: ""
 Resolution: pixel size 10x10m
 GeographicalCoverage: -180, -60, 180, 78
@@ -30,7 +30,7 @@ Tags:
    - Land cover
    - DLR
 License:
-  See [additional info](https://collections.eurodatacube.com/WSF2019/readme.html)
+  See [additional info](https://collections.eurodatacube.com/WSF2019_World_Settlement_Footprint_2019/readme.html)
 Resources:
  - Group: Sentinel Hub Resources
  - EndPoint: https://services.sentinel-hub.com
@@ -44,7 +44,7 @@ Configurations:
     rel: "about"
     type: "text/html"
     title: "Details about running Evalscripts"
-  - href: "https://raw.githubusercontent.com/eurodatacube/public-collections/main/collections/WSF2019/script.js"
+  - href: "https://raw.githubusercontent.com/eurodatacube/public-collections/main/collections/WSF2019_World_Settlement_Footprint_2019/script.js"
     rel: "processing-expression"
     type: "application/javascript"
     title: "Evalscript to visualize WSF maps"
