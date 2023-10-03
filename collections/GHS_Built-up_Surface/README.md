@@ -26,4 +26,4 @@ doi:10.2760/098587
 ### Global Human Settlement Example
 
 ![Example datasets outputs](GHS_Built-up_Surface.png)<br>
-*Hamburg GHS_BUILT_S View over time (1975-2020)*
+*Hamburg GHS_BUILT_S View (2020)*
