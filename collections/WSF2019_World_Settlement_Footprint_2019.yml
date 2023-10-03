@@ -1,0 +1,88 @@
+Name: WSF2019_World_Settlement_Footprint_2019
+OpenEOPID: WSF2019
+Description: |
+  The World Settlement Footprint (WSF) 2019 is a 10m resolution binary mask outlining the extent of human settlements globally derived by means of 2019 multitemporal Sentinel-1 (S1) and Sentinel-2 (S2) imagery.
+  The dataset is organized in 5138 GeoTIFF files (EPSG 4326 projection) each one referring to a portion of 2 x 2 degree size (~222 x 222 km) on the ground. 
+  Settlements are associated with value 255; all other pixels are associated with value 0.
+AdditionalInfoExternal:
+  Title: Additional info
+  Path: WSF2019_World_Settlement_Footprint_2019/README.md
+Image: WSF2019_World_Settlement_Footprint_2019/WSF2019_World_Settlement_Footprint_2019.png
+EDCBrowser: ""
+Resolution: pixel size 10x10m
+GeographicalCoverage: -180, -60, 180, 78
+TemporalAvailability: 2019-01-01
+BandInformation: WSF2019
+Contact: "[DLR EOC Geoservice](mailto:geoservice@dlr.de)"
+Provider: "[DLR](https://www.dlr.de/eoc/en)"
+ManagedBy: "[EOC Geoservice](https://geoservice.dlr.de/web/about)"
+Tags:
+   - opendata
+   - Sentinel Hub
+   - Optical
+   - global
+   - urbanization
+   - land
+   - global settlement extent
+   - Sentinel-1
+   - Sentinel-2
+   - inspireidentifiziert
+   - Land cover
+   - DLR
+License:
+  See [additional info](https://collections.eurodatacube.com/WSF2019_World_Settlement_Footprint_2019/readme.html)
+Resources:
+ - Group: Sentinel Hub Resources
+ - EndPoint: https://services.sentinel-hub.com
+   Name: Sentinel Hub
+   Role: processor
+   Type: byoc-3f9e2b45-e100-41e2-9c96-bb1b4f5e7ece
+   CollectionId: 3f9e2b45-e100-41e2-9c96-bb1b4f5e7ece
+   Primary: True
+Configurations:
+  - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
+    rel: "about"
+    type: "text/html"
+    title: "Details about running Evalscripts"
+  - href: "https://raw.githubusercontent.com/eurodatacube/public-collections/main/collections/WSF2019_World_Settlement_Footprint_2019/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to visualize WSF maps"
+    sentinelhub:layer_name: "WSF2019"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "AREA"
+Extent:
+  spatial:
+    bbox:
+      -
+        - -180
+        - -60
+        - 180
+        - 78
+  temporal:
+    interval:
+      -
+        - '2019-01-01T00:00:00Z'
+CubeDimensions:
+  x:
+    type: spatial
+    axis: x
+    extent:
+      - -180
+      - 180
+  y:
+    type: spatial
+    axis: y
+    extent:
+      - -60
+      - 78
+  t:
+    type: temporal
+    extent:
+      - '2019-01-01T00:00:00Z'
+  bands:
+    type: bands
+    values:
+      - WSF2019
+RegistryEntryAdded: "2023-09-27"
+RegistryEntryLastModified: "2023-09-27"
