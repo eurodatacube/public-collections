@@ -1,9 +1,9 @@
 Name: Copernicus DEM
 OpenEOPID: COPERNICUS_30
 Description: |
-  [The Copernicus DEM](https://spacedata.copernicus.eu/web/cscda/dataset-details?articleId=394198) is a Digital Surface Model (DSM)
+  [The Copernicus DEM](https://spacedata.copernicus.eu/collections/copernicus-digital-elevation-model) is a Digital Surface Model (DSM)
   which represents the bare-Earth surface and all above ground natural and built features.
-  It is based on [WorldDEM™ ](https://www.intelligence-airbusds.com/imagery/reference-layers/worlddem/) DSM that is derived from [TanDEM-X](https://spacedata.copernicus.eu/web/cscda/data-offer/missions/tandem-x) 
+  It is based on [WorldDEM™ ](https://www.intelligence-airbusds.com/imagery/reference-layers/worlddem/) DSM that is derived from [TanDEM-X](https://tandemx-science.dlr.de/) 
   and is infilled on a local basis with the following DEMs: ASTER, SRTM90, SRTM30, SRTM30plus, GMTED2010, TerraSAR-X Radargrammetric DEM, ALOS World 3D-30m.
   Copernicus Programme provides Copernicus DEM in 3 different instances: COP-DEM EEA-10, COP-DEM GLO-30 and COP-DEM GLO-90 where 
   "COP-DEM GLO-90" tiles and most of the "COP-DEM GLO-30 " tiles are available worldwide with free license.
@@ -15,7 +15,7 @@ EDCBrowser: https://browser.eurodatacube.com/?zoom=7&lat=43.14975&lng=7.16013&co
 EOBrowser: https://apps.sentinel-hub.com/eo-browser/?zoom=10&lat=41.9&lng=12.5&themeId=DEFAULT-THEME&visualizationUrl=https%3A%2F%2Fservices.sentinel-hub.com%2Fogc%2Fwms%2F6448ffd0-56c5-4601-bed7-242bf75d97db&datasetId=DEM_COPERNICUS_30&fromTime=2021-04-08T00%3A00%3A00.000Z&toTime=2021-04-08T23%3A59%3A59.999Z&layerId=COLOR
 Image: copernicus-dem/copernicus-dem.png
 Resolution: 30m and 90m
-GeographicalCoverage: Land ([more info](https://spacedata.copernicus.eu/web/cscda/dataset-details?articleId=394198)) under "Area of Interest"
+GeographicalCoverage: European and Worldwide coverage ([more info](https://spacedata.copernicus.eu/collections/copernicus-digital-elevation-model)) 
 TemporalAvailability: static product(two releases 2019 & 2020) for data acquired in (2011-2015)
 UpdateFrequency: Updated as soon as new release is available publicly
 BandInformation: Information about [bands and data](https://docs.sentinel-hub.com/api/latest/data/dem/#available-bands-and-data)

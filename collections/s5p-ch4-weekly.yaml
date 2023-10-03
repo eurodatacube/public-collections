@@ -15,7 +15,7 @@ TemporalAvailability: 2021-11-15 - ongoing
 TemporalResolution: Weekly
 UpdateFrequency: Weekly
 BandInformation: It is made of a single band called "ch4". it is an averaged methane concentrations across the globe — using weekly averaged maps
-Contact: "[ESA EO Support Helpdesk](EOSupport@copernicus.esa.int)"
+Contact: "[ESA EO Support Helpdesk](mailto:EOSupport@copernicus.esa.int)"
 Provider: "[ESA](http://www.esa.int/)"
 ManagedBy: "[ESA](http://www.esa.int/)"
 Tags:

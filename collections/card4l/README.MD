@@ -16,7 +16,7 @@ The twin Sentinel-1A and 1B satellites are designed to acquire data with a revis
 | Data source                 | Sentinel-1 GRD ([read more](https://sentinel.esa.int/web/sentinel/missions/sentinel-1)) |
 | Sensor                      | C-SAR                                                        |
 | Frequency                   | C-band (5.405 GHz)                                           |
-| Acquisition mode            | Interferometric Wide (IW) swath mode ([read more](https://earth.esa.int/web/sentinel/user-guides/sentinel-1-sar/acquisition-modes/interferometric-wide-swath) ). |
+| Acquisition mode            | Interferometric Wide (IW) swath mode ([read more](https://sentinels.copernicus.eu/web/sentinel/user-guides/sentinel-1-sar/acquisition-modes/interferometric-wide-swath) ). |
 | Polarisation                | VV + VH                                                      |
 | Backscatter                 | Gamma-0 (γ°)                                                 |
 | Backscatter scaling         | Linear power                                                 |

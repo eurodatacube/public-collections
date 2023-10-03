@@ -13,7 +13,7 @@ TemporalAvailability: 2021-09-19 - ongoing
 TemporalResolution: Daily
 UpdateFrequency: daily
 BandInformation: It a single band map called "so2". The Copernicus Sentinel-5P SO2 measurements are those retrieved assuming SO2 at an altitude of 7km
-Contact: "[ESA EO Support Helpdesk](EOSupport@copernicus.esa.int)"
+Contact: "[ESA EO Support Helpdesk](mailto:EOSupport@copernicus.esa.int)"
 Provider: "[ESA](http://www.esa.int/)"
 ManagedBy: "[ESA](http://www.esa.int/)"
 Tags:

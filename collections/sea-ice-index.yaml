@@ -35,9 +35,9 @@ ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
 Tags:
   - climate change
   - open data
-License: These data are freely, openly, and fully available to use without restrictions, provided that you cite the data according to the recommended citation at https://nsidc.org/about/use_copyright.html.
+License: These data are freely, openly, and fully available to use without restrictions, provided that you cite the data according to the recommended citation at https://nsidc.org/about/data-use-and-copyright.
 LicenseType: proprietary 
-LicenseUrl: https://nsidc.org/about/use_copyright.html.
+LicenseUrl: https://nsidc.org/about/data-use-and-copyright.
 Resources:
   - Group: Sentinel Hub Resources
     EndPoint: https://creodias.sentinel-hub.com

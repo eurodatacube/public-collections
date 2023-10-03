@@ -18,7 +18,7 @@ The product contains one single band named "co".
 
 ## More information
 
-- [Data Source](http://www.tropomi.eu/data-products/carbon-monoxide)
+- [Data Source](https://sentinels.copernicus.eu/web/sentinel/data-products/-/asset_publisher/fp37fc19FN8F/content/sentinel-5-precursor-level-2-carbon-monoxide)
 - [Data Documentation]( http://www.tropomi.eu)
 - [S5p-PAL](https://maps.s5p-pal.com/co/)
 

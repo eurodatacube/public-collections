@@ -11,7 +11,7 @@ GeographicalCoverage: -180.0, -90.0, 180.0, 90.0
 TemporalAvailability: 1998 - 2020
 TemporalResolution: Monthly 
 BandInformation: Primary production (band called "pp") is a single band product obtained by marine phytoplankton which was modelled using ocean-colour remote sensing products and a spectrally-resolved primary production model that incorporates the vertical structure of phytoplankton and simulates changes in photosynthesis as a function of irradiance using a two-parameter photosynthesis versus irradiance (P-I) function
-Contact: "[ESA EO Support Helpdesk](EOSupport@copernicus.esa.int)"
+Contact: "[ESA EO Support Helpdesk](mailto:EOSupport@copernicus.esa.int)"
 Provider: "[ESA](http://www.esa.int/)"
 ManagedBy: "[ESA](http://www.esa.int/)"
 Tags:
