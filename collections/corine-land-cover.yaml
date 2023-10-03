@@ -29,9 +29,9 @@ Tags:
   - corine
   - derived data
   - open data
-License: Full, open and free access, Copernicus license ([details](https://land.copernicus.eu/terms-of-use)).
+License: Full, open and free access, Copernicus license ([details](https://land.copernicus.eu/en/faq#data_use_terms_and_conditions)).
 LicenseType: proprietary 
-LicenseUrl: https://land.copernicus.eu/terms-of-use
+LicenseUrl: https://land.copernicus.eu/en/faq#data_use_terms_and_conditions
 Resources:
   - Group: Sentinel Hub Resources
     EndPoint: https://creodias.sentinel-hub.com

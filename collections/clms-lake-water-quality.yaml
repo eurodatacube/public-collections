@@ -36,7 +36,7 @@ Tags:
   - water
   - open data
 License: |
-  [License](https://land.copernicus.eu/terms-of-usee)
+  [License](https://land.copernicus.eu/en/faq#data_use_terms_and_conditionse)
 Resources:
 -  Group: xcube Generator Resources
    StoreInstanceID: "@cop_services_clms"
