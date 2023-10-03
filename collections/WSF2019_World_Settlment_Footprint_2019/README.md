@@ -20,7 +20,7 @@ Mattia Marconcini, Annekatrin Metz-Marconcini, Thomas Esch and Noel Gorelick. Un
 
 - [Data Source](https://download.geoservice.dlr.de/WSF2019/files/)
 - [Data Documentation](https://geoservice.dlr.de/web/maps/eoc:wsf2019#)
-- [Read More] (https://www.esa.int/Applications/Observing_the_Earth/Mapping_our_human_footprint_from_space)
+- [Read More](https://www.esa.int/Applications/Observing_the_Earth/Mapping_our_human_footprint_from_space)
 
 ### World Settlment Footprint Example
 
