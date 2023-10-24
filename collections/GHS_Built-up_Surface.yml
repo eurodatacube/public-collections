@@ -31,8 +31,8 @@ Resources:
  - EndPoint: https://services.sentinel-hub.com
    Name: Sentinel Hub
    Role: processor
-   Type: byoc-ffff0d46-dbe0-404c-98b4-06681e630158
-   CollectionId: ffff0d46-dbe0-404c-98b4-06681e630158
+   Type: byoc-0c7aa265-50f9-4947-9980-2ee5ae204803
+   CollectionId: 0c7aa265-50f9-4947-9980-2ee5ae204803
    Primary: True
 Configurations:
   - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
