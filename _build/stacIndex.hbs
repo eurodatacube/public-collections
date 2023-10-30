@@ -1,5 +1,23 @@
 [
-{{#each datasets}}
-  {"id": "{{OpenEOPID}}", "link": "{{rootUrl}}stac/{{Slug}}.json"}{{#unless @last}},{{/unless}}
-{{/each}}
+{
+  "type": "Catalog",
+  "stac_version": "1.0.0",
+  "id": "eurodatacube-collections-catalog",
+  "description": "A STAC catalog that contains all collections available on the EuroDataCube Browser and within the Sentinel Hub openEO backend.",
+  "links": [
+    {
+      "href": "{{rootUrl}}stac/index.json",
+      "rel": "self",
+      "type": "application/json"
+    },
+    {
+      "href": "{{rootUrl}}stac/index.json",
+      "rel": "root",
+      "type": "application/json"
+    },
+    {{#each datasets}}
+      {"id": "{{OpenEOPID}}", "rel": "child", "type": "application/json", "href": "{{rootUrl}}stac/{{Slug}}.json"}{{#unless @last}},{{/unless}}
+    {{/each}}
+  ]
+}
 ]
