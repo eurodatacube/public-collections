@@ -1,4 +1,4 @@
-# Lakes_surface_water_temperature
+# Lakes surface water temperature
 
 ## Short description
 

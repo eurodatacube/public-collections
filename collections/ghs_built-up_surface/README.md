@@ -1,4 +1,4 @@
-# GHS_Built-up_Surface
+# GHS Built-up Surface
 
 ## Short description
 
@@ -8,15 +8,17 @@ Data are spatial-temporal interpolated or extrapolated from 1975 to 2030 in 5 ye
 
 ## References
 
-Dataset:
-Pesaresi M., Politis P. (2023):
-GHS-BUILT-S R2023A - GHS built-up surface grid, derived from Sentinel2 composite and Landsat, multitemporal (1975-2030)European Commission, Joint Research Centre (JRC)
-PID: http://data.europa.eu/89h/9f06f36f-4b11-47ec-abb0-4f8b7b1d72ea, doi:10.2905/9F06F36F-4B11-47EC-ABB0-4F8B7B1D72EA
+### Dataset:
 
-Concept & Methodology:
-European Commission
-GHSL Data Package 2023, Publications Office of the European Union, Luxembourg, 2023, JRC133256, ISBN 978-92-68-02341-9
-doi:10.2760/098587
+Pesaresi M., Politis P. (2023):  
+GHS-BUILT-S R2023A - GHS built-up surface grid, derived from Sentinel2 composite and Landsat, multitemporal (1975-2030)European Commission, Joint Research Centre (JRC)  
+PID: http://data.europa.eu/89h/9f06f36f-4b11-47ec-abb0-4f8b7b1d72ea, doi:10.2905/9F06F36F-4B11-47EC-ABB0-4F8B7B1D72EA  
+
+### Concept & Methodology:
+
+European Commission  
+GHSL Data Package 2023, Publications Office of the European Union, Luxembourg, 2023, JRC133256, ISBN 978-92-68-02341-9  
+doi:10.2760/098587  
 
 ## More information
 

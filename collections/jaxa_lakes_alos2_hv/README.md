@@ -1,4 +1,4 @@
-# Jaxa_lakes_ALOS2_HV
+# Jaxa lakes ALOS2 HV
 
 ## Short description
 

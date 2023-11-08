@@ -1,4 +1,4 @@
-Name: Lakes_surface_water_temperature
+Name: Lakes surface water temperature
 OpenEOPID: CCI_LAKES_WATER_TEMPERATURE
 Description: |
   Lakes and enclosed inland seas are integrators of environmental and climatic changes occurring within their contributing basins. Factors driving lake conditions vary widely across space and time, and lakes, in turn, play an essential role in local and global climate regulation, with positive and negative feedback depending on the catchment. Understanding the complex behaviour of lakes in a changing environment is essential to effective water resource management and mitigation of climate change effects.
@@ -6,8 +6,8 @@ Description: |
   This particular layer refers to Balaton Lake Surface Water temperature (LSWT), correlated with regional air temperatures and a proxy for mixing regimes, driving biogeochemical cycling and seasonality.
 AdditionalInfoExternal:
   Title: Additional info
-  Path: Lakes_surface_water_temperature/README.md
-Image: Lakes_surface_water_temperature/Balaton_surface_water_temperature.png
+  Path: lakes_surface_water_temperature/README.md
+Image: lakes_surface_water_temperature/Balaton_surface_water_temperature.png
 EDCBrowser: ""
 Resolution: pixel size (0.008333333333333,-0.008333333333333)
 GeographicalCoverage: 12.2833, 12.35, 136.2833, 59.425
@@ -38,7 +38,7 @@ Configurations:
     rel: "about"
     type: "text/html"
     title: "Details about running Evalscripts"
-  - href: "https://raw.githubusercontent.com/eurodatacube/public-collections/main/collections/Lakes_surface_water_temperature/script.js"
+  - href: "https://raw.githubusercontent.com/eurodatacube/public-collections/main/collections/lakes_surface_water_temperature/script.js"
     rel: "processing-expression"
     type: "application/javascript"
     title: "Evalscript to generate Lakes water surfate tempeartures maps"

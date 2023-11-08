@@ -1,11 +1,11 @@
-Name: Jaxa_lakes_ALOS2_HH
+Name: Jaxa lakes ALOS2 HH
 OpenEOPID: JAXA_LAKES_ALOS2_HH
 Description: |
   This ALOS-2 product contains SAR data (polarization HH) over the Tonlé Sap Lake. The selected AOI presents data between 2016 and 2022.
 AdditionalInfoExternal:
   Title: Additional info
-  Path: Jaxa_lakes_ALOS2_HH/README.md
-Image: Jaxa_lakes_ALOS2_HH/Jaxa_lakes_ALOS2_HH.png
+  Path: jaxa_lakes_alos2_hh/README.md
+Image: jaxa_lakes_alos2_hh/Jaxa_lakes_ALOS2_HH.png
 EDCBrowser: ""
 Resolution: pixel size 25x25m
 GeographicalCoverage: 102.058158023, 11.433163364, 105.910243251, 15.055701378
@@ -22,7 +22,7 @@ Tags:
    - dashboard hackathon
    - JAXA
 License:
-  See [additional info](https://collections.eurodatacube.com/Jaxa_lakes_ALOS2_HH/readme.html)
+  See [additional info](https://collections.eurodatacube.com/jaxa_lakes_alos2_hh/readme.html)
 Resources:
  - Group: Sentinel Hub Resources
  - EndPoint: https://services.sentinel-hub.com
