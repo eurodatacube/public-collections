@@ -318,15 +318,15 @@ You can build the Euro Data Cube Public Collections website locally,  to preview
    ```
    GIT_HUB_COLLECTIONS_REPO=eurodatacube/public-collections
    GIT_HUB_COLLECTIONS_BRANCH=main
-   COLLECTIONS_BROWSER_ROOT_URL="https://collections.eurodatacube.com/"
+   COLLECTIONS_BROWSER_ROOT_URL="http://localhost:3000/"
    ```
 
    </li>
    <h4>Building your site locally</h4>
    <li>Open Terminal.</li>
    <li>Run <code>export $(xargs <.env)</code>.</li>
-   <li>Run <code>npm run build</code>.</li>
-   <li>Find the HTML files in the <code>_output</code> directory.</li>
+   <li>Run <code>npm run serve</code>.</li>
+   <li>This will open http://localhost:3000/ where the website can be inspected</li>
 
 </details> 
 
@@ -347,15 +347,15 @@ You can build the Euro Data Cube Public Collections website locally,  to preview
    ```
    GIT_HUB_COLLECTIONS_REPO=eurodatacube/public-collections
    GIT_HUB_COLLECTIONS_BRANCH=main
-   COLLECTIONS_BROWSER_ROOT_URL="https://collections.eurodatacube.com/"
+   COLLECTIONS_BROWSER_ROOT_URL="http://localhost:3000/"
    ```
 
    </li>
    <h4>Building your site locally</h4>
    <li>Open WSL Terminal.</li>
    <li>Run <code>export $(xargs <.env)</code>.</li>
-   <li>Run <code>npm run build</code>.</li>
-   <li>Find the HTML files in the <code>_output</code> directory.</li>
+   <li>Run <code>npm run serve</code>.</li>
+   <li>This will open http://localhost:3000/ where the website can be inspected</li>
 
 </details> 
 
