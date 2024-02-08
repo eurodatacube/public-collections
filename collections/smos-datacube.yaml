@@ -36,7 +36,7 @@ Attributes:
           type: string
           value: 1d, 2d, 4d, 8d defaults to 1d
 Pricing: |
-  The price depends on the number of data days N included in the datacube. 
+  The price solely depends on the number of data days N included in the datacube.
   It is roughly 50N / log(29N) EUR.
 License: "[Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). Attribution: Contains modified Copernicus Sentinel data (year) processed by Sentinel Hub"
 Contact: info(at)brockmann(hyphen)consult(dot)de
