@@ -38,7 +38,7 @@ Currently, the provided time range must not exceed 400 days.
 
 | Name         | Type    | Value range                            |
 |--------------|---------|----------------------------------------|
-| product_type | string  | "SMOS-L2C-SM" or "SMOS-L2C-SM"         |
+| product_type | string  | "SMOS-L2C-SM" or "SMOS-L2C-OS"         |
 | res_level    | integer | 0 to 4, defaults to 0                  |
 | time_range   | string  | "YYYY-MM-DD/YYYY-MM-DD"                |
 | agg_interval | string  | "", "1d", "2d", "4d", defaults to "1d" |
