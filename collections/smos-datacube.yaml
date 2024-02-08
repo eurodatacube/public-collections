@@ -25,7 +25,7 @@ Attributes:
       Rows:
         - name: product_type
           type: string
-          value: SMOS-L2C-SM or SMOS-L2C-SM
+          value: SMOS-L2C-SM or SMOS-L2C-OS
         - name: res_level
           type: integer
           value: 0 to 4, defaults to 0
