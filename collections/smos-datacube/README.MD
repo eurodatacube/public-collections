@@ -62,5 +62,5 @@ The datacube is provided as a
 ## Pricing
 
 - The price depends solely on the number of data days _N_ included in the data 
-  cube. It is roughly _22N / log(29N)_ EUR  where N is the number of input files. 
-  For each day, there are approximately 29 input files. 
+  cube. It is roughly _22N / log(29N)_ EUR. 
+  For each data day, there are approximately 29 SMOS input files to be processed. 

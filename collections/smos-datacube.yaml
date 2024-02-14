@@ -38,8 +38,8 @@ Attributes:
           value: 1D, 2D, 4D, 8D, or none. Defaults to 1D.
 Pricing: |
   The price solely depends on the number of data days N included in the datacube.
-  It is roughly 22N / log(29N) EUR where N is the number of input files. 
-  For each day, there are approximately 29 input files.
+  It is roughly 22N / log(29N) EUR.
+  For each data day, there are approximately 29 SMOS input files to be processed.
 License: "[Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). Attribution: Contains modified Copernicus SMOS data."
 Contact: info(at)brockmann(hyphen)consult(dot)de
 Provider: "[Brockmann Consult](https://www.brockmann-consult.de/)"
