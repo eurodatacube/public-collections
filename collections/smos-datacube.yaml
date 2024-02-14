@@ -2,15 +2,16 @@ Name: SMOS Datacube Service
 BYOAID: smos-datacube
 Description: |
   [ESA SMOS](https://earth.esa.int/eogateway/missions/smos) Level-2 data 
-  in form of global, analysis-ready Level-2C datacubes with the dimensions 
-  `time`, `lat`, and `lon`. The datacubes are computed on-the-fly from the SMOS 
-  data archive `s3://EODATA/SMOS` hosted on [CREODIAS](https://creodias.eu/).
+  in form of global, analysis-ready Level-2C datacubes with the dimensions. 
+  The datacube is provided in [Zarr format](https://zarr.readthedocs.io/en/stable/spec/v2.html) (`.zarr`).
 AdditionalInfoExternal:
     Title: Additional Info
     Path: smos-datacube/README.MD
 Image: smos-datacube/smos-earth.jpg
-# Explore: "[Run algorithm in EDC Browser](https://browser.eurodatacube.com/?zoom=10&lat=41.9&lng=12.5&fromTime=1970-01-01T00%3A00%3A00.000Z&toTime=2021-10-22T14%3A36%3A31.329Z&algorithm=truck-detection)"
+Explore: "[Run algorithm in EDC Browser](https://browser.eurodatacube.com/?zoom=3&lat=0&lng=0&fromTime=2024-01-01T00%3A00%3A00.000Z&toTime=2024-01-03T00%3A00%3A00.000Z&algorithm=smos-datacube)"
 GeographicalCoverage: Global
+CRS:
+  - "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
 TemporalAvailability: December 2010 - ongoing
 UpdateFrequency: On-demand
 Attributes:
@@ -28,17 +29,18 @@ Attributes:
           value: SMOS-L2C-SM or SMOS-L2C-OS
         - name: res_level
           type: integer
-          value: 0 to 4, defaults to 0
+          value: 0 to 4. Defaults to 0.
         - name: time_range
           type: string
           value: YYYY-MM-DD/YYYY-MM-DD
         - name: agg_interval
           type: string
-          value: 1d, 2d, 4d, 8d defaults to 1d
+          value: 1D, 2D, 4D, 8D, or none. Defaults to 1D.
 Pricing: |
   The price solely depends on the number of data days N included in the datacube.
-  It is roughly 50N / log(29N) EUR where N is the number of input files. For each day, there are approximately 29 input files. 
-License: "[Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). Attribution: Contains modified Copernicus Sentinel data (year) processed by Sentinel Hub"
+  It is roughly 22N / log(29N) EUR.
+  For each data day, there are approximately 29 SMOS input files to be processed.
+License: "[Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). Attribution: Contains modified Copernicus SMOS data."
 Contact: info(at)brockmann(hyphen)consult(dot)de
 Provider: "[Brockmann Consult](https://www.brockmann-consult.de/)"
 ManagedBy: "[Brockmann Consult](https://www.brockmann-consult.de/)"
@@ -49,4 +51,4 @@ Tags:
   - analysis-ready
 Resources: []
 RegistryEntryAdded: "2024-01-31"
-RegistryEntryLastModified: "2024-01-31"
+RegistryEntryLastModified: "2024-02-14"

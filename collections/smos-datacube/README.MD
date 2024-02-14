@@ -36,12 +36,12 @@ Currently, the provided time range must not exceed 400 days.
 
 ## Service parameters
 
-| Name         | Type    | Value range                            |
-|--------------|---------|----------------------------------------|
-| product_type | string  | "SMOS-L2C-SM" or "SMOS-L2C-OS"         |
-| res_level    | integer | 0 to 4, defaults to 0                  |
-| time_range   | string  | "YYYY-MM-DD/YYYY-MM-DD"                |
-| agg_interval | string  | "", "1d", "2d", "4d", defaults to "1d" |
+| Name         | Type    | Value range                                |
+|--------------|---------|--------------------------------------------|
+| product_type | string  | "SMOS-L2C-SM" or "SMOS-L2C-OS"             |
+| time_range   | string  | "YYYY-MM-DD/YYYY-MM-DD"                    |
+| agg_interval | string  | "none", "1D", "2D", "4D", defaults to "1D" |
+| res_level    | integer | 0 to 4, defaults to 0                      |
 
 ## Service output
 
@@ -62,4 +62,5 @@ The datacube is provided as a
 ## Pricing
 
 - The price depends solely on the number of data days _N_ included in the data 
-  cube. It is roughly _50N / log(29N)_ EUR  where N is the number of input files. For each day, there are approximately 29 input files. 
+  cube. It is roughly _22N / log(29N)_ EUR. 
+  For each data day, there are approximately 29 SMOS input files to be processed. 
