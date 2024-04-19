@@ -8,7 +8,7 @@ Description: |
   At the second hierarchical level, the algorithm identifies the High Density Clusters (Urban Centre), Dense Urban Clusters, Semi-Dense Urban Clusters and Peri-Urban Clusters.
 
   To run the urban delineation, navigate to [EDC Browser](https://browser.eurodatacube.com/?zoom=6&lat=47.44295&lng=10.71167&fromTime=1970-01-01T00%3A00%3A00.000Z&toTime=2020-01-01T17%3A32%3A46.781Z&algorithm=ghls-urban-delineation), 
-  select the required input parameters (Area of interest and Reference year) and follow the check-out wizard to complete your order. Produced data will be uploaded directly into your folder /result-data in JupyterLab environment on EDC.
+  select the required input parameters (Area of interest, Reference year, Built-up density, Population density and Total population in cluster for Urban Centres, as well as Built-up density, Population density and Total population in cluster for Moderate Density Clusters) and follow the check-out wizard to complete your order. Produced data will be uploaded directly into your folder /result-data in JupyterLab environment on EDC.
 AdditionalInfoExternal:
     Title: Additional info
     Path: ghsl-urban-delineation/README.MD
@@ -28,12 +28,30 @@ Attributes:
       - Name: Type
         Title: Type
     Rows:
-      - Name: aoi
+      - Name: AOI
         Description: Area of interest
         Type: bounding box
-      - Name: reference year
+      - Name: Reference year
         Description: Reference year
         Type: integer from 1975 to 2020, 5 years interval
+      - Name: Built-up density for Urban Centres
+        Description: Built-up density (m2/km2)
+        Type: int, default=500000
+      - Name: Population density for Urban Centres
+        Description: Population density (people/km2)
+        Type: int, default=1500
+      - Name: Total population per Urban Centre
+        Description: Population (people)
+        Type: int, default=50000  
+      - Name: Built-up density for Moderate Density Clusters
+        Description: Built-up density (m2/km2)
+        Type: int, default=50000
+      - Name: Population density for Moderate Density Clusters
+        Description: Population density (people/km2)
+        Type: int, default=300
+      - Name: Total population per Moderate Density Clusters
+        Description: Population (people)
+        Type: int, default=5000  
 ProducedResults:
   Table:
     Columns:
@@ -44,24 +62,24 @@ ProducedResults:
       - Code: Code
         Title: Code by nomenclature
     Rows:
-      - Name: HDC_UrbanCentre_ EPSG4326_RefYear.shp
-        Description: Shapefile containing delineated polygons of High Density Clusters (Urban Centres) in selected AOI and reference year. Polygons are projected to WGS84 coordinate reference system.
+      - Name: HDC_UrbanCentre_EPSG4326_RefYear.geojson
+        Description: Geojson file containing delineated polygons of High Density Clusters (Urban Centres) in selected AOI and reference year. Polygons are projected to WGS84 coordinate reference system.
         Code: 3
-      - Name: MDC_UrbanCluster_ EPSG4326_RefYear.shp
-        Description: Shapefile containing delineated polygons of Moderate Density Clusters in selected AOI and reference year. Polygons are projected to WGS84 coordinate reference system.
+      - Name: MDC_UrbanCluster_EPSG4326_RefYear.geojson
+        Description: Geojson file containing delineated polygons of Moderate Density Clusters in selected AOI and reference year. Polygons are projected to WGS84 coordinate reference system.
         Code: 2
-      - Name: DUC_DenseUrbanCluster_ EPSG4326_RefYear.shp
-        Description: Shapefile containing delineated polygons of Dense Urban Clusters in selected AOI and reference year. Polygons are projected to WGS84 coordinate reference system.
+      - Name: DUC_DenseUrbanCluster_EPSG4326_RefYear.geojson
+        Description: Geojson file containing delineated polygons of Dense Urban Clusters in selected AOI and reference year. Polygons are projected to WGS84 coordinate reference system.
         Code: 23
-      - Name: SDUC_SemiDenseUrbanCluster_ EPSG4326_RefYear.shp
-        Description: Shapefile containing delineated polygons of Semi-Dense Urban Clusters in selected AOI and reference year. Polygons are projected to WGS84 coordinate reference system.
+      - Name: SDUC_SemiDenseUrbanCluster_EPSG4326_RefYear.geojson
+        Description: Geojson file containing delineated polygons of Semi-Dense Urban Clusters in selected AOI and reference year. Polygons are projected to WGS84 coordinate reference system.
         Code: 22
-      - Name: PUC_PeriUrbanCluster_ EPSG4326_RefYear.shp
-        Description: Shapefile containing delineated polygons of Peri-Urban Clusters in selected AOI and reference year. Polygons are projected to WGS84 coordinate reference system.
+      - Name: PUC_PeriUrbanCluster_EPSG4326_RefYear.geojson
+        Description: Geojson file containing delineated polygons of Peri-Urban Clusters in selected AOI and reference year. Polygons are projected to the WGS84 coordinate reference system.
         Code: 21
 
 Pricing: |
- Prices are defined based on the selected area of interest (aoi) and reference year. The minimal cost for initiating request is 100€. Check [here](https://collections.eurodatacube.com/ghsl-urban-delineation/pricing.html) for more info about pricing and restrictions.
+ Prices are defined based on the selected area of interest (aoi). The minimal cost for initiating request is 100€. Check [here](https://collections.eurodatacube.com/ghsl-urban-delineation/pricing.html) for more info about pricing and restrictions.
 License: "[Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/)"
 Contact: https://forum.sentinel-hub.com/c/euro-data-cube/
 Provider: "[Gisat s.r.o.](https://www.gisat.cz/)"
@@ -79,4 +97,4 @@ Resources:
    StoreTitle: Global Human Settlement Layer (GHSL R2022A) on S3
    DataID: GHS-BUILT-S, GHS-POP 
 RegistryEntryAdded: "2023-01-31"
-RegistryEntryLastModified: "2023-01-31"
+RegistryEntryLastModified: "2024-04-17"

@@ -2,7 +2,8 @@
 
 ## Short description 
 
-Urban Delineation implements a GHSL settlement model algorithm as defined by the stage I of the Degree of Urbanisation (European Commission & Statistical Office of the European Union, 2021) and recommended by the UN STAT COM. Model uses the population and built-up surface grid - European Commission, Joint Research Centre (JRC)
+Urban delineation algorithm classify and delineate urban clusters by typologies. Method was developed by Joint Research Centre (JRC) and described in Atlas of Human Planet 2019 
+The algorithm uses the global-coverage built-up (GHS-BUILT-S_GLOBE_R2022A) and population (GHS-POP_GLOBE_R2022A) raster datasets as the input data (JRC’s GHSL).
 The algorithm classifies and delineates settlements by typologies on two hierarchical levels.
 
 At the first hierarchical level, the algorithm identifies the High Density Clusters (Urban Centre) and Moderate Density Clusters.
@@ -28,7 +29,7 @@ Reference years: from 1975 to 2020, 5 years interval
 
 ## Results 
 
-Shapefiles containing polygons of High Density Clusters (Urban Centre), Moderate Density Clusters, Dense Urban Clusters, Semi-Dense Urban Clusters and Peri-Urban Clusters in selected AOI and reference year. 
+Geojson files containing polygons of High Density Clusters (Urban Centre), Moderate Density Clusters, Dense Urban Clusters, Semi-Dense Urban Clusters and Peri-Urban Clusters in selected AOI and reference year. 
 
 The polygons are projected onto the WGS84 coordinate reference system.
 
