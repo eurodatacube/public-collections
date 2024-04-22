@@ -1,0 +1,72 @@
+Name: WSF Urban Delineation
+BYOAID: wsf-urban-delineation
+Description: |
+  Urban delineation algorithm classify and delineate urban clusters by typologies. Method was developed by Joint Research Centre (JRC) and described in Atlas of Human Planet 2019.
+  This version of the Urban Delineation algorithm has been adapted to utilize the WSF2019population dataset at a resolution of 10 meters. The WSF2019population dataset is provided by the German Aerospace Center (DLR) and describes the spatial distribution of the human population. This dataset is currently available for Bolivia, Chile, Kenya and Myanmar.
+
+  To run the WSF Urban Delineation, navigate to [EDC Browser](https://browser.eurodatacube.com/?zoom=6&lat=47.44295&lng=10.71167&fromTime=1970-01-01T00%3A00%3A00.000Z&toTime=2020-01-01T17%3A32%3A46.781Z&algorithm=wsf-urban-delineation), 
+  select the required input parameters (Country, Area of interest, Minimum Area of Urban Patches and Threshold for Total Population in Urban Patches) and follow the check-out wizard to complete your order. Produced data will be uploaded directly into your folder /result-data in JupyterLab environment on EDC.
+AdditionalInfoExternal:
+    Title: Additional info
+    Path: wsf-urban-delineation/README.MD
+Image: wsf-urban-delineation/wsf-urban-delineation.png
+Explore: "[Run algorithm in EDC Browser](https://browser.eurodatacube.com/?zoom=6&lat=47.44295&lng=10.71167&fromTime=1970-01-01T00%3A00%3A00.000Z&toTime=2020-01-01T17%3A32%3A46.781Z&algorithm=wsf-urban-delineation)"
+GeographicalCoverage: Bolivia, Chile, Kenya and Myanmar.
+TemporalAvailability: |
+  2019
+UpdateFrequency: On-demand
+Attributes:
+  Table:
+    Columns:
+      - Name: Name
+        Title: Name
+      - Name: Description
+        Title: Description
+      - Name: Type
+        Title: Type
+    Rows:
+      - Name: AOI
+        Description: Area of interest
+        Type: bounding box
+      - Name: Country
+        Description: Country (Bolivia, Chile, Kenya and Myanmar)
+        Type: string
+      - Name: Minimum Area of Urban Patches
+        Description: Minimum Area of Urban Patches (pixels)
+        Type: int, default=50000
+      - Name: Total Population in Urban Patches
+        Description: Total Population in Urban Patches
+        Type: int, default=100000
+      - Name: Filling Holes Area of Urban Patches
+        Description: Filling Holes Area of Urban Patches (pixels)
+        Type: int, default=50000  
+ProducedResults:
+  Table:
+    Columns:
+      - Name: Name
+        Title: Name
+      - Name: Description
+        Title: Description
+    Rows:
+      - Name: UCD_EPSG4326_Country.geojson
+        Description: Geojson file containing delineated polygons representing Urban Clusters within the selected AOI. These polygons are projected to the WGS84 coordinate reference system.
+Pricing: 
+ Prices are defined based on the selected area of interest (aoi). The minimal cost for initiating request is 100€. Check [here](https://collections.eurodatacube.com/wsf-urban-delineation/pricing.html) for more info about pricing and restrictions.
+License: "[Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/)"
+Contact: https://forum.sentinel-hub.com/c/euro-data-cube/
+Provider: "[Gisat s.r.o.](https://www.gisat.cz/)"
+ManagedBy: "[Gisat s.r.o.](https://www.gisat.cz/)"
+Tags:
+  - urban delineation
+  - xcube
+  - on-demand
+  - wsf
+  - derived data
+  - vector
+Resources:
+-  Group: tif
+   StoreInstanceID: WSF
+   StoreTitle: World Settlement Footprint (WSF2019population) on S3
+   DataID: WSF2019population 
+RegistryEntryAdded: "2024-04-17"
+RegistryEntryLastModified: "2024-04-17"
