@@ -1,4 +1,4 @@
-Name: WSF Urban Delineation
+Name: Urban Delineation - WSF
 BYOAID: wsf-urban-delineation
 Description: |
   Urban delineation algorithm classify and delineate urban clusters by typologies. Method was developed by Joint Research Centre (JRC) and described in Atlas of Human Planet 2019.
