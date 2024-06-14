@@ -56,7 +56,7 @@ Extent:
     interval:
       -
         - '2017-01-01T00:00:00Z'
-        - '2020-12-01T00:00:00Z'
+        - '2022-12-01T00:00:00Z'
 CubeDimensions:
   x:
     type: spatial
@@ -74,7 +74,7 @@ CubeDimensions:
     type: temporal
     extent:
       - '2017-01-01T00:00:00Z'
-      - '2020-12-01T00:00:00Z'
+      - '2022-12-01T00:00:00Z'
   bands:
     type: bands
     values:
