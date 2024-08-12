@@ -17,7 +17,7 @@
   "keywords": [
 {{{listJson Tags 4}}}
   ],
-  "license": "{{{escapeJson LicenseType}}}",
+  "license": {{#if LicenseType }} "{{{LicenseType}}}"{{else}} "{{escapeJson License}}"{{/if ~}},
   "providers": [
 {{#eachFiltered Resources 'EndPoint'}}
     {
