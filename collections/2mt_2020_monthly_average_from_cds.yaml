@@ -76,5 +76,6 @@ CubeDimensions:
     type: bands
     values:
      - AIR2MT
+Experimental: true
 RegistryEntryAdded: "2021-05-07"
-RegistryEntryLastModified: "2022-07-18"
+RegistryEntryLastModified: "2024-08-12"

@@ -4,6 +4,7 @@
   "stac_extensions": [
     "https://stac-extensions.github.io/datacube/v1.0.0/schema.json" 
     {{#if sci:citation ~}},"https://stac-extensions.github.io/scientific/v1.0.0/schema.json"{{/if ~}}
+    {{#if Experimental ~}},"https://stac-extensions.github.io/version/v1.2.0/schema.json"{{/if ~}}
     {{#if (anyStartsWith "eo:" Summaries) ~}},"https://stac-extensions.github.io/eo/v1.0.0/schema.json"{{/if ~}}
     {{#if (anyStartsWith "sat:" Summaries) ~}},"https://stac-extensions.github.io/sat/v1.0.0/schema.json"{{/if ~}}
     {{#if (anyStartsWith "sar:" Summaries) ~}},"https://stac-extensions.github.io/sar/v1.0.0/schema.json"{{/if ~}}
@@ -29,6 +30,9 @@
     }{{#unless $last}},{{/unless}}
 {{/eachFiltered}}
   ],
+  {{#if Experimental}}
+  "experimental": {{{copyJson Experimental}}},
+  {{/if}}
   "extent": {{{copyJson Extent}}},
   "links": [
     {

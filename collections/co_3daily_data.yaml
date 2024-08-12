@@ -80,5 +80,6 @@ CubeDimensions:
     type: bands
     values:
       - co
+Experimental: true
 RegistryEntryAdded: "2022-07-12"
-RegistryEntryLastModified: "2023-08-17"
+RegistryEntryLastModified: "2024-08-12"

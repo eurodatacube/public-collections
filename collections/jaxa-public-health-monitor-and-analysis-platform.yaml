@@ -35,6 +35,6 @@ License: |
 Resources:
   - Group: JAXA Resources
     Notes: Browse link https://www.jpmap-jaxa.jp/jpmap/en/
-  
+Experimental: true  
 RegistryEntryAdded: "2021-06-09"
-RegistryEntryLastModified: "2021-06-16"
+RegistryEntryLastModified: "2024-08-12"

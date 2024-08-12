@@ -77,5 +77,6 @@ CubeDimensions:
     type: bands
     values:
       - windu10m
+Experimental: true
 RegistryEntryAdded: "2021-05-07"
-RegistryEntryLastModified: "2022-07-21"
+RegistryEntryLastModified: "2024-08-12"

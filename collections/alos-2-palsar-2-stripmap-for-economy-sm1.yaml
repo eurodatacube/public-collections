@@ -105,5 +105,6 @@ CubeDimensions:
     type: bands
     values:
       - HH
+Experimental: true
 RegistryEntryAdded: "2021-06-09"
-RegistryEntryLastModified: "2022-07-21"
+RegistryEntryLastModified: "2024-08-12"

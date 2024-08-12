@@ -76,5 +76,6 @@ CubeDimensions:
       - RED
       - BLUE
       - GREEN
+Experimental: true
 RegistryEntryAdded: "2021-05-07"
-RegistryEntryLastModified: "2023-08-03"
+RegistryEntryLastModified: "2024-08-12"

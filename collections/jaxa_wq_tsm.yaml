@@ -125,5 +125,6 @@ CubeDimensions:
     type: bands
     values:
       - tsm
+Experimental: true
 RegistryEntryAdded: "2021-05-26"
-RegistryEntryLastModified: "2022-07-21"
+RegistryEntryLastModified: "2024-08-12"

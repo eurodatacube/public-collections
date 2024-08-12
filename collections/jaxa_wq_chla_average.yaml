@@ -124,5 +124,6 @@ CubeDimensions:
     values:
       - chla
       - chla_ave
+Experimental: true
 RegistryEntryAdded: "2021-06-09"
-RegistryEntryLastModified: "2022-07-22"
+RegistryEntryLastModified: "2024-08-12"
