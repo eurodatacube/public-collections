@@ -26,10 +26,9 @@ Tags:
   - machine learning
   - derived data
   - open data
-License: |
-  [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/), find more details on use and access conditions [here](https://data.jrc.ec.europa.eu/dataset/016d1a34-b184-42dc-b586-e10b915dd863)
-LicenseType: proprietary
+License: "CC-BY-4.0"
 LicenseUrl: https://creativecommons.org/licenses/by/4.0/
+LicenseUrlType: text/html
 Resources:
   - Group: Sentinel Hub Resources
     EndPoint: https://creodias.sentinel-hub.com
@@ -311,5 +310,6 @@ CRS:
   - "http://www.opengis.net/def/crs/EPSG/0/32759"
   - "http://www.opengis.net/def/crs/EPSG/0/32760"
   - "http://www.opengis.net/def/crs/SR-ORG/0/98739"
+sci:citation: "Details on the use and access conditions [here](https://data.jrc.ec.europa.eu/dataset/016d1a34-b184-42dc-b586-e10b915dd863)."
 RegistryEntryAdded: "2022-01-10"
-RegistryEntryLastModified: "2022-07-19"
+RegistryEntryLastModified: "2024-08-13"

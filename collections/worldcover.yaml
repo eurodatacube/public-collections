@@ -36,9 +36,9 @@ Tags:
   - worldcover
   - derived data
   - open data
-License: "[Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/), read more details on attribution and citation [here](https://esa-worldcover.org/en/data-access)"
-LicenseType: proprietary
+License: "CC-BY-4.0"
 LicenseUrl: https://creativecommons.org/licenses/by/4.0/
+LicenseUrlType: text/html
 Resources:
   - Group: Sentinel Hub Resources
     EndPoint: https://services.sentinel-hub.com
@@ -103,5 +103,6 @@ CubeDimensions:
     values:
       - Map
       - dataMask
+sci:citation: "Details on attribution and citation [here](https://esa-worldcover.org/en/data-access)."
 RegistryEntryAdded: "2021-10-19"
 RegistryEntryLastModified: "2022-10-31"
