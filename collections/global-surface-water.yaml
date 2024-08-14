@@ -131,7 +131,6 @@ Extent:
     interval:
       -
         - '2019-01-01T00:00:00Z'
-        - '2020-01-01T00:00:00Z'
         - '2021-01-01T00:00:00Z'
 CubeDimensions:
   x:
@@ -152,7 +151,6 @@ CubeDimensions:
     type: temporal
     extent:
       - '2019-01-01T00:00:00Z'
-      - '2020-01-01T00:00:00Z'
       - '2021-01-01T00:00:00Z'
     step: P1Y
   bands:
@@ -211,4 +209,4 @@ Summaries:
     - description: The mask of data/no data pixels.
       name: dataMask
 RegistryEntryAdded: "2021-04-19"
-RegistryEntryLastModified: "2023-03-21"
+RegistryEntryLastModified: "2024-08-13"

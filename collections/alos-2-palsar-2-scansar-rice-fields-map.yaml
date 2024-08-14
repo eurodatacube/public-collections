@@ -108,5 +108,6 @@ CubeDimensions:
     type: bands
     values:
       - RF
+Experimental: true
 RegistryEntryAdded: "2021-06-09"
-RegistryEntryLastModified: "2022-07-19"
+RegistryEntryLastModified: "2024-08-12"

@@ -4,6 +4,7 @@
   "stac_extensions": [
     "https://stac-extensions.github.io/datacube/v1.0.0/schema.json" 
     {{#if sci:citation ~}},"https://stac-extensions.github.io/scientific/v1.0.0/schema.json"{{/if ~}}
+    {{#if Experimental ~}},"https://stac-extensions.github.io/version/v1.2.0/schema.json"{{/if ~}}
     {{#if (anyStartsWith "eo:" Summaries) ~}},"https://stac-extensions.github.io/eo/v1.0.0/schema.json"{{/if ~}}
     {{#if (anyStartsWith "sat:" Summaries) ~}},"https://stac-extensions.github.io/sat/v1.0.0/schema.json"{{/if ~}}
     {{#if (anyStartsWith "sar:" Summaries) ~}},"https://stac-extensions.github.io/sar/v1.0.0/schema.json"{{/if ~}}
@@ -16,7 +17,7 @@
   "keywords": [
 {{{listJson Tags 4}}}
   ],
-  "license": "{{{escapeJson LicenseType}}}",
+  "license": {{#if LicenseType }} "{{{escapeJson LicenseType}}}"{{else}} "{{escapeJson License}}"{{/if ~}},
   "providers": [
 {{#eachFiltered Resources 'EndPoint'}}
     {
@@ -29,14 +30,17 @@
     }{{#unless $last}},{{/unless}}
 {{/eachFiltered}}
   ],
+  {{#if Experimental}}
+  "experimental": {{{copyJson Experimental}}},
+  {{/if}}
   "extent": {{{copyJson Extent}}},
   "links": [
     {
-      "href": "{{rootUrl}}stac/{{Slug}}.json",
+      "href": "https://collections.eurodatacube.com/stac/{{Slug}}.json",
       "rel": "self"
     },
     {
-      "href": "{{rootUrl}}{{Slug}}",
+      "href": "./{{Slug}}",
       "rel": "about",
       "type": "text/html",
       "title": "Website describing the collection"

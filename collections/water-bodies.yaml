@@ -66,7 +66,7 @@ Configurations:
     rel: "about"
     type: "text/html"
     title: "Details about running Evalscripts"
-  - href: "https://custom-scripts.sentinel-hub.com/copernicus_services/water-bodies/water-bodies/script.js"
+  - href: "https://custom-scripts.sentinel-hub.com/copernicus_services/water-bodies/water-bodies-visualisation/script.js"
     rel: "processing-expression"
     type: "application/javascript"
     title: "Evalscript to generate Water Bodies imagery"
@@ -144,4 +144,4 @@ Summaries:
     - description: The mask of data/no data pixels.
       name: dataMask
 RegistryEntryAdded: "2021-03-30"
-RegistryEntryLastModified: "2022-07-25"
+RegistryEntryLastModified: "2024-08-13"

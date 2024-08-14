@@ -19,8 +19,9 @@ Tags:
     - sentinel hub
     - raster
     - race challenges
-License: |
- [CC BY-NC-ND 3.0](https://creativecommons.org/licenses/by-nc-nd/3.0/), Credit: Provided by ISMAR Istituto di Scienze Marine at Consiglio Nazionale delle Ricerche
+License: "CC-BY-NC-ND-3.0"
+LicenseUrl: https://creativecommons.org/licenses/by-nc-nd/3.0/
+LicenseUrlType: text/html
 Resources:
  - Group: Sentinel Hub Resources
  - EndPoint: https://services.sentinel-hub.com
@@ -76,5 +77,7 @@ CubeDimensions:
     type: bands
     values:
       - chl
+sci:citation: "Provided by ISMAR Istituto di Scienze Marine at Consiglio Nazionale delle Ricerche"    
+Experimental: true
 RegistryEntryAdded: "2021-05-07"
-RegistryEntryLastModified: "2022-07-06"
+RegistryEntryLastModified: "2024-08-12"

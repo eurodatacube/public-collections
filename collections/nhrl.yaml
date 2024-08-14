@@ -94,5 +94,6 @@ CubeDimensions:
     type: bands
     values:
       - nhrl
+Experimental: true
 RegistryEntryAdded: "2022-11-24"
-RegistryEntryLastModified: "2022-11-28"  
+RegistryEntryLastModified: "2024-08-12"

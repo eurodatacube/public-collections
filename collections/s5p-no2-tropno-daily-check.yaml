@@ -76,5 +76,6 @@ CubeDimensions:
     type: bands
     values:
       - tropno2
+Experimental: true
 RegistryEntryAdded: "2021-05-07"
-RegistryEntryLastModified: "2022-07-19"
+RegistryEntryLastModified: "2024-08-12"
