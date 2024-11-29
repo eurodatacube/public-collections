@@ -1,0 +1,84 @@
+Name: Lakes_surface_water_temperature
+OpenEOPID: CCI_LAKES_WATER_TEMPERATURE
+Description: |
+  Lakes and enclosed inland seas are integrators of environmental and climatic changes occurring within their contributing basins. Factors driving lake conditions vary widely across space and time, and lakes, in turn, play an essential role in local and global climate regulation, with positive and negative feedback depending on the catchment. Understanding the complex behaviour of lakes in a changing environment is essential to effective water resource management and mitigation of climate change effects.
+  Lakes have been observed as sentinels of climate change, both directly and indirectly, through watershed changes. Lakes integrate responses over time, and studies of globally distributed lakes can capture different aspects of climate change. Therefore, a global and consistent climate data record of lakes is essential to mitigate and adapt to climate change.
+  This particular layer refers to Balaton Lake Surface Water temperature (LSWT), correlated with regional air temperatures and a proxy for mixing regimes, driving biogeochemical cycling and seasonality.
+AdditionalInfoExternal:
+  Title: Additional info
+  Path: Lakes_surface_water_temperature/README.md
+Image: Lakes_surface_water_temperature/Balaton_surface_water_temperature.png
+EDCBrowser: ""
+Resolution: pixel size (0.008333333333333,-0.008333333333333)
+GeographicalCoverage: 12.2833, 12.35, 136.2833, 59.425
+TemporalAvailability: 2010-01-01 - 2020-12-31
+BandInformation: waterTemperature
+Contact: "[ESA](mailto:cci-lakes.contact@groupcls.com)"
+Provider: "[ESA](http://www.esa.int/)"
+ManagedBy: "[ESA](http://www.esa.int/)"
+Tags: 
+  - copernicus services
+  - C3S
+  - open data
+  - sentinel hub
+  - raster
+  - race challenges
+License:
+  The Lakes CCI data are made available under a Creative Commons License by Attribution (CC By 4.0) ([details](https://creativecommons.org/licenses/by/4.0/))
+Resources:
+ - Group: Sentinel Hub Resources
+ - EndPoint: https://services.sentinel-hub.com
+   Name: Sentinel Hub
+   Role: processor
+   Type: byoc-9fdb8c27-9000-4912-b715-1465f840a1db
+   CollectionId: 9fdb8c27-9000-4912-b715-1465f840a1db
+   Primary: True
+Configurations:
+  - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
+    rel: "about"
+    type: "text/html"
+    title: "Details about running Evalscripts"
+  - href: "https://raw.githubusercontent.com/eurodatacube/public-collections/main/collections/Lakes_surface_water_temperature/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate Lakes water surfate tempeartures maps"
+    sentinelhub:layer_name: "Lakes_surface_water_temperature"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
+Extent:
+  spatial:
+    bbox:
+      -
+        - 12.2833
+        - 12.35
+        - 136.2833
+        - 59.425
+  temporal:
+    interval:
+      -
+        - '2010-01-01T00:00:00Z'
+        - '2020-12-31T00:00:00Z'
+CubeDimensions:
+  x:
+    type: spatial
+    axis: x
+    extent:
+      - 12.2833
+      - 136.2833
+  y:
+    type: spatial
+    axis: y
+    extent:
+      - 12.35
+      - 59.425
+  t:
+    type: temporal
+    extent:
+      - '2010-01-01T00:00:00Z'
+      - '2020-12-31T00:00:00Z'
+  bands:
+    type: bands
+    values:
+      - waterTemperature
+RegistryEntryAdded: "2023-07-13"
+RegistryEntryLastModified: "2023-07-13"
