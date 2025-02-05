@@ -311,5 +311,6 @@ CRS:
   - "http://www.opengis.net/def/crs/EPSG/0/32760"
   - "http://www.opengis.net/def/crs/SR-ORG/0/98739"
 sci:citation: "Details on the use and access conditions [here](https://data.jrc.ec.europa.eu/dataset/016d1a34-b184-42dc-b586-e10b915dd863)."
+Experimental: true
 RegistryEntryAdded: "2022-01-10"
 RegistryEntryLastModified: "2024-08-13"

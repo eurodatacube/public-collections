@@ -122,5 +122,6 @@ Summaries:
         unit: m
     - description: The mask of data/no data pixels.
       name: dataMask
+Experimental: true
 RegistryEntryAdded: "2021-10-20"
 RegistryEntryLastModified: "2022-07-04"

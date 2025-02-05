@@ -166,5 +166,6 @@ Summaries:
         unit: °
     - description: The mask of data/no data pixels.
       name: dataMask
+Experimental: true
 RegistryEntryAdded: "2022-02-11"
 RegistryEntryLastModified: "2022-07-21"
