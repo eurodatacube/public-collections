@@ -2,10 +2,10 @@ Name: Global Surface Water
 OpenEOPID: GLOBAL_SURFACE_WATER
 Description: The Global Surface Water dataset was developed by the European Commission's Joint Research Centre within the framework of the Copernicus Programme. It is derived from Landsat imagery and and shows different aspects of the spatio-temporal distribution of surface water between 1984 and 2021 at the global scale.
 AdditionalInfoExternal:
-    Title: Additional info 
+    Title: Additional info
     Path: global-surface-water/README.MD
 Image: global-surface-water/global-surface-water.png
-EDCBrowser: https://browser.eurodatacube.com/?zoom=10&lat=41.9&lng=12.5&collectionId=global-surface-water&layerId=Global%20Surface%20Water%20Occurrence&type=sentinel-hub-edc&fromTime=2019-12-31T00%3A00%3A00.000Z&toTime=2020-12-31T00%3A00%3A00.000Z  
+EDCBrowser: https://browser.eurodatacube.com/?zoom=10&lat=41.9&lng=12.5&collectionId=global-surface-water&layerId=Global%20Surface%20Water%20Occurrence&type=sentinel-hub-edc&fromTime=2019-12-31T00%3A00%3A00.000Z&toTime=2020-12-31T00%3A00%3A00.000Z
 EOBrowser: https://apps.sentinel-hub.com/eo-browser/?zoom=10&lat=41.9&lng=12.5&themeId=DEFAULT-THEME&visualizationUrl=https%3A%2F%2Fcreodias.sentinel-hub.com%2Fogc%2Fwms%2F0a6c7252-9515-4be1-b6f0-6542ddf971d5&datasetId=COPERNICUS_GLOBAL_SURFACE_WATER&fromTime=2020-01-01T00%3A00%3A00.000Z&toTime=2020-01-01T23%3A59%3A59.999Z&layerId=1_OCCURRENCE
 Resolution: 30m
 GeographicalCoverage: Global coverage from longitude 170°E to 180°W and latitude 80°N to 50°S.
@@ -49,24 +49,12 @@ License: Free and open access policy as defined in the European Union’s Copern
 LicenseType: proprietary
 LicenseUrl: https://www.copernicus.eu/en/about-copernicus/international-cooperation
 Resources:
-  - Group: Sentinel Hub Resources
-    EndPoint: https://creodias.sentinel-hub.com
-    Name: Sentinel Hub
-    Role: processor
-    Type: byoc-9a525f12-33b6-424e-a0f2-d567eec0f277
-    CollectionId: 9a525f12-33b6-424e-a0f2-d567eec0f277
-    Primary: true
   - Group: xcube Resources
     DatasetName: CUSTOM
     CollectionId: 9a525f12-33b6-424e-a0f2-d567eec0f277
 CustomScripts:
     Title: Collection of Copernicus services data custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#copernicus_services
-WMTS:
-  - href: https://creodias.sentinel-hub.com/ogc/wmts/8c9bcae9-3c93-4587-8ada-9e55818979da
-    layer_id: GLOBAL-SURFACE-WATER-OCCURRENCE
-    dimensions: 
-      warnings: true
 Configurations:
   - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
     rel: "about"
@@ -118,7 +106,7 @@ DocumentationLinks:
   - href: "https://collections.eurodatacube.com/global-surface-water/readme.html#band-information"
     rel: "about"
     type: "text/html"
-    title: "Nomenclature mapping - band values Global Surface Water labels"    
+    title: "Nomenclature mapping - band values Global Surface Water labels"
 Extent:
   spatial:
     bbox:
@@ -210,4 +198,4 @@ Summaries:
       name: dataMask
 Experimental: true
 RegistryEntryAdded: "2021-04-19"
-RegistryEntryLastModified: "2024-08-13"
+RegistryEntryLastModified: "2025-03-25"

@@ -30,24 +30,12 @@ License: "CC-BY-4.0"
 LicenseUrl: https://creativecommons.org/licenses/by/4.0/
 LicenseUrlType: text/html
 Resources:
-  - Group: Sentinel Hub Resources
-    EndPoint: https://creodias.sentinel-hub.com
-    Name: Sentinel Hub
-    Role: processor
-    Type: byoc-3dbeea2c-3207-4c65-8a73-c29ce2675f89
-    CollectionId: 3dbeea2c-3207-4c65-8a73-c29ce2675f89
-    Primary: true
   - Group: xcube Resources
     DatasetName: CUSTOM
     CollectionId: 3dbeea2c-3207-4c65-8a73-c29ce2675f89
 CustomScripts:
     Title: Collection of Copernicus services data custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#copernicus_services
-WMTS:
-  - href: https://creodias.sentinel-hub.com/ogc/wmts/3f58a020-3523-4c53-85ac-a562af9e09ba
-    layer_id: GHS-BUILT-S2
-    dimensions: 
-      warnings: true
 Configurations:
   - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
     rel: "about"
@@ -313,4 +301,4 @@ CRS:
 sci:citation: "Details on the use and access conditions [here](https://data.jrc.ec.europa.eu/dataset/016d1a34-b184-42dc-b586-e10b915dd863)."
 Experimental: true
 RegistryEntryAdded: "2022-01-10"
-RegistryEntryLastModified: "2024-08-13"
+RegistryEntryLastModified: "2025-03-25"

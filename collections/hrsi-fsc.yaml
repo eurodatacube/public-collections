@@ -10,30 +10,30 @@ Description: |
 
   The Fractional Snow Cover (FSC) product provides the snow fraction at the Top Of Canopy (FSCTOC) and On Ground (FSCOG). NDSI is also provided as part of this service.
 AdditionalInfoExternal:
-    Title: Additional info 
-    Path: hrsi-fsc/README.MD 
-Image: hrsi-fsc/hrsi-fsc.png  
+    Title: Additional info
+    Path: hrsi-fsc/README.MD
+Image: hrsi-fsc/hrsi-fsc.png
 EDCBrowser: https://browser.eurodatacube.com/?zoom=11&lat=46.56429&lng=8.2782&collectionId=FRACTIONAL_SNOW_COVER&layerId=Fractional%20Snow%20Cover%20On-ground&type=sentinel-hub-edc&fromTime=2023-04-09T00%3A00%3A00.000Z&toTime=2023-04-09T23%3A59%3A59.999Z
 EOBrowser: https://sentinelshare.page.link/aUUT
 Resolution: 20m
 GeographicalCoverage: Europe (Lat; 34N 66N Lon; -26W 44E)
 TemporalAvailability: September 2016 - ongoing
 UpdateFrequency: 5 days, In near real-time, according S2 revisit
-BandInformation: 
+BandInformation:
   Table:
         Columns:
           - Name: Name
             Title: Name
           - Name: Description
-            Title: Description  
+            Title: Description
           - Name: Unit
             Title: Unit
           - Name: Sentinel Hub Units
             Title: Sentinel Hub Units
           - Name: Data Values
-            Title: Data Values 
+            Title: Data Values
           - Name: No data
-            Title: No data            
+            Title: No data
         Rows:
           - Name: FSCTOC
             Description: Top of canopy fractional snow cover (%)
@@ -58,7 +58,7 @@ BandInformation:
             Unit: Dimensionless
             Sentinel Hub Units: DN
             Data Values: High quality - 0, Medium quality, - 1, Low quality - 2, Minimal quality - 3, Cloud or cloud shadow - 205
-            No data: 255          
+            No data: 255
           - Name: NDSI
             Description: Normalised difference snow index (%) of detected snow areas.
             Unit: Dimensionless
@@ -78,13 +78,6 @@ License: Freely and openly accessible according to the Copernicus data and infor
 LicenseType: proprietary
 LicenseUrl: https://land.copernicus.eu/en/faq#data_use_terms_and_conditions
 Resources:
-  - Group: Sentinel Hub Resources
-    EndPoint: https://creodias.sentinel-hub.com
-    Name: Sentinel Hub
-    Role: processor
-    Type: byoc-80db97d0-fd6a-4e13-9cf3-d1842beaae5c
-    CollectionId: 80db97d0-fd6a-4e13-9cf3-d1842beaae5c
-    Primary: true
   - Group: xcube Resources
     DatasetName: CUSTOM
     CollectionId: 80db97d0-fd6a-4e13-9cf3-d1842beaae5c
@@ -170,4 +163,4 @@ CubeDimensions:
       - NDSI
 Experimental: true
 RegistryEntryAdded: "2023-08-02"
-RegistryEntryLastModified: "2023-08-17"
+RegistryEntryLastModified: "2025-03-25"

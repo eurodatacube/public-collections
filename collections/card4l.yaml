@@ -14,7 +14,7 @@ GeographicalCoverage: Africa Continent
 TemporalResolution: Every 6 to 12 days
 TemporalAvailability: 2018-01-01 - Ongoing
 UpdateFrequency: Daily
-BandInformation: 
+BandInformation:
   Table:
       Columns:
         - Name: Name
@@ -57,22 +57,10 @@ License: Access to Sentinel data is free, full and open for the broad Regional, 
 LicenseType: proprietary
 LicenseUrl: https://scihub.copernicus.eu/twiki/do/view/SciHubWebPortal/TermsConditions
 Resources:
-  - Group: Sentinel Hub Resources
-    EndPoint: https://creodias.sentinel-hub.com
-    Name: Sentinel Hub
-    Role: processor
-    Type: byoc-608bffb4-5012-4489-abec-71e134a7a609
-    CollectionId: 608bffb4-5012-4489-abec-71e134a7a609
-    Primary: true
   - Group: xcube Resources
     DatasetName: CUSTOM
     CollectionId: 608bffb4-5012-4489-abec-71e134a7a609
-WMTS:
-  - href: https://creodias.sentinel-hub.com/ogc/wmts/c23384ad-ffd4-4397-9b0d-5229d2885331
-    layer_id: SAR-URBAN
-    dimensions: 
-      warnings: true
-Configurations: 
+Configurations:
   - layer_name: SAR urban
     evalscript_url: "https://custom-scripts.sentinel-hub.com/sentinel-1/urban_areas/script.js"
     mosaicking_order: mostRecent
@@ -124,7 +112,7 @@ CubeDimensions:
       - VV
       - VH
       - AREA
-      - ANGLE 
+      - ANGLE
       - MASK
       - dataMask
 Summaries:
@@ -168,4 +156,4 @@ Summaries:
       name: dataMask
 Experimental: true
 RegistryEntryAdded: "2022-02-11"
-RegistryEntryLastModified: "2022-07-21"
+RegistryEntryLastModified: "2025-03-25"

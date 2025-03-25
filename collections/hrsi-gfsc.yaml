@@ -4,15 +4,15 @@ Description: |
   The High-Resolution Snow & Ice Monitoring service (HR-S&I) is part of the Copernicus Land Monitoring Service (CLMS). The snow aspect of the service provides products 
   measuring Snow cover (FSC, FSTOC, FSCOG, GFSC), Snow state conditions (WDS, SWS) and persistent snow area (PSA). There are also ice products that measure ice cover 
   (RLIE) and aggregated river and lake ice extent (ARLIE).
-  
+
   More information about the data can be found [here](https://land.copernicus.eu/pan-european/biophysical-parameters/high-resolution-snow-and-ice-monitoring) and
   the snow products user manual is located [here](https://land.copernicus.eu/user-corner/technical-library/hrsi-snow-pum). 
 
   The daily cumulative Gap-filled Fractional Snow Cover (GFSC) product is a more complete version of the FSC product; gap-filled both at a spatial and temporal scale.
 AdditionalInfoExternal:
-    Title: Additional info 
-    Path: hrsi-gfsc/README.MD 
-Image: hrsi-gfsc/hrsi-gfsc.png  
+    Title: Additional info
+    Path: hrsi-gfsc/README.MD
+Image: hrsi-gfsc/hrsi-gfsc.png
 EDCBrowser: https://browser.eurodatacube.com/?zoom=11&lat=46.56429&lng=8.2782&collectionId=DAILY_CUMULATIVE_GAP_FILLED_FRACTIONAL_SNOW_COVER&layerId=Gap%20Filled%20Fractional%20Snow%20Cover&type=sentinel-hub-edc&fromTime=2023-04-09T00%3A00%3A00.000Z&toTime=2023-04-09T23%3A59%3A59.999Z
 EOBrowser: https://sentinelshare.page.link/gY5U
 Resolution: 60m
@@ -25,15 +25,15 @@ BandInformation:
           - Name: Name
             Title: Name
           - Name: Description
-            Title: Description  
+            Title: Description
           - Name: Unit
             Title: Unit
           - Name: Sentinel Hub Units
             Title: Sentinel Hub Units
           - Name: Data Values
-            Title: Data Values 
+            Title: Data Values
           - Name: No data
-            Title: No data            
+            Title: No data
         Rows:
           - Name: GF
             Description: Fractional snow cover (%)
@@ -46,7 +46,7 @@ BandInformation:
             Unit: Dimensionless
             Sentinel Hub Units: DN
             Data Values: High quality - 0, Medium quality, - 1, Low quality - 2, Minimal quality - 3, Cloud or cloud shadow - 205
-            No data: 255 
+            No data: 255
 Contact: "[Copernicus Land Monitoring Service Contact](https://land.copernicus.eu/contact)"
 Provider: "[European Environment Agency](https://www.eea.europa.eu/)"
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
@@ -60,13 +60,6 @@ License: Freely and openly accessible according to the Copernicus data and infor
 LicenseType: proprietary
 LicenseUrl: https://land.copernicus.eu/en/faq#data_use_terms_and_conditions
 Resources:
-  - Group: Sentinel Hub Resources
-    EndPoint: https://creodias.sentinel-hub.com
-    Name: Sentinel Hub
-    Role: processor
-    Type: byoc-e0e66010-ab8a-46d5-94bd-ae5c750e7341
-    CollectionId: e0e66010-ab8a-46d5-94bd-ae5c750e7341
-    Primary: true
   - Group: xcube Resources
     DatasetName: CUSTOM
     CollectionId: e0e66010-ab8a-46d5-94bd-ae5c750e7341
@@ -128,4 +121,4 @@ CubeDimensions:
       - QC
 Experimental: true
 RegistryEntryAdded: "2023-08-02"
-RegistryEntryLastModified: "2023-08-17"
+RegistryEntryLastModified: "2025-03-25"

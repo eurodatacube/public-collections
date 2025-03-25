@@ -70,13 +70,6 @@ License: Freely and openly accessible according to the Copernicus data and infor
 LicenseType: proprietary
 LicenseUrl: https://land.copernicus.eu/en/faq#data_use_terms_and_conditions
 Resources:
-  - Group: Sentinel Hub Resources
-    EndPoint: https://creodias.sentinel-hub.com
-    Name: Sentinel Hub
-    Role: processor
-    Type: byoc-65235036-9897-40d2-aed3-40ba038a1f68
-    CollectionId: 65235036-9897-40d2-aed3-40ba038a1f68
-    Primary: true
   - Group: xcube Resources
     DatasetName: CUSTOM
     CollectionId: 65235036-9897-40d2-aed3-40ba038a1f68
@@ -137,4 +130,4 @@ CubeDimensions:
       - RLIE
       - QC
 RegistryEntryAdded: "2023-06-06"
-RegistryEntryLastModified: "2023-08-17"
+RegistryEntryLastModified: "2025-03-25"

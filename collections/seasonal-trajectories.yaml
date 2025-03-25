@@ -61,25 +61,12 @@ License: Freely and openly accessible according to the Copernicus data and infor
 LicenseType: proprietary
 LicenseUrl: https://land.copernicus.eu/en/faq#data_use_terms_and_conditions
 Resources:
-  - Group: Sentinel Hub Resources
-  - EndPoint: https://creodias.sentinel-hub.com
-    Name: Sentinel Hub
-    Role: processor
-    Type: byoc-90f0abac-87cf-4277-958b-d8c56d9e5371
-    CollectionId: 90f0abac-87cf-4277-958b-d8c56d9e5371
-    Notes: Europe since January 2017
-    Primary: true
   - Group: xcube Resources
     DatasetName: CUSTOM
     CollectionId: 90f0abac-87cf-4277-958b-d8c56d9e5371
 CustomScripts:
     Title: Collection of Copernicus services data custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#copernicus_services
-WMTS:
-  - href: https://creodias.sentinel-hub.com/ogc/wmts/0a2b47c5-3707-4bf7-a2a9-4fa83f46bc7d
-    layer_id: PPI
-    dimensions:
-      warnings: true
 Configurations:
   - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
     rel: "about"
@@ -355,4 +342,4 @@ CRS:
   - "http://www.opengis.net/def/crs/SR-ORG/0/98739"
 Experimental: true
 RegistryEntryAdded: '2021-10-14'
-RegistryEntryLastModified: "2022-11-09"
+RegistryEntryLastModified: "2025-03-25"

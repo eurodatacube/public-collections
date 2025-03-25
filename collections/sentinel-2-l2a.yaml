@@ -46,11 +46,6 @@ Resources:
     Type: sentinel-2-l2a
     Notes: Europe since November 2016, Global since January 2017
     Primary: true
-  - EndPoint: https://shservices.mundiwebservices.com
-    Name: Sentinel Hub
-    Role: processor
-    Type: sentinel-2-l2a
-    Notes: Europe since July 2016
   - Group: xcube Resources
   - DatasetName: sentinel-2-l2a
 CustomScripts:
