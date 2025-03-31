@@ -34,7 +34,7 @@ Tags:
   - copernicus
   - sentinel
 License: "[License](https://sentinels.copernicus.eu/documents/247904/690755/Sentinel_Data_Legal_Notice)"
-LicenseType: proprietary 
+LicenseType: proprietary
 LicenseUrl: https://sentinels.copernicus.eu/documents/247904/690755/Sentinel_Data_Legal_Notice
 LicenseUrlType: application/pdf
 Resources:
@@ -45,30 +45,15 @@ Resources:
     Type: sentinel-2-l1c
     Notes: Global since November 2015
     Primary: true
-  - EndPoint: https://creodias.sentinel-hub.com
-    Name: Sentinel Hub
-    Role: processor
-    Type: sentinel-2-l1c
-    Notes: Global since November 2015
-  - EndPoint: https://code-de.sentinel-hub.com
-    Name: Sentinel Hub
-    Role: processor
-    Type: sentinel-2-l1c
-    Notes: Germany since July 2015
-  - EndPoint: https://shservices.mundiwebservices.com
-    Type: sentinel-2-l1c
-    Name: Sentinel Hub
-    Role: processor
-    Notes: Europe coverage since July 2015. Rolling policy of 12 months for World.
   - Group: xcube Resources
-  - DatasetName: sentinel-2-l1c 
+  - DatasetName: sentinel-2-l1c
 CustomScripts:
     Title: Collection of Sentinel-2 custom scripts
     URL: https://custom-scripts.sentinel-hub.com/#sentinel-2
 WMTS:
   - href: https://services.sentinel-hub.com/ogc/wmts/ef291c3e-77fd-43f2-a885-dced9ac1e6a7
     layer_id: TRUE-COLOR
-    dimensions: 
+    dimensions:
       warnings: true
 Configurations:
   - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
@@ -89,7 +74,7 @@ Configurations:
     sentinelhub:layer_name: "False color"
     sentinelhub:mosaicking_order: "mostRecent"
     sentinelhub:upsampling: "BICUBIC"
-  - href:  "https://custom-scripts.sentinel-hub.com/sentinel-2/swir-rgb/script.js"
+  - href: "https://custom-scripts.sentinel-hub.com/sentinel-2/swir-rgb/script.js"
     rel: "processing-expression"
     type: "application/javascript"
     title: "Evalscript to generate Short Wave Infrared (SWIR) RGB Composite"
@@ -687,4 +672,4 @@ CRS:
   - "http://www.opengis.net/def/crs/EPSG/0/32760"
   - "http://www.opengis.net/def/crs/SR-ORG/0/98739"
 RegistryEntryAdded: "2018-04-17"
-RegistryEntryLastModified: "2024-08-13"
+RegistryEntryLastModified: "2025-03-25"

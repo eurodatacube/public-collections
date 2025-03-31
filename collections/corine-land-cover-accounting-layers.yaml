@@ -7,7 +7,7 @@ Description: |
  There are altogether 5 mapping inventories implemented since 1986, producing five status layers (CLC1990, CLC2000, CLC2006, CLC2012, CLC2018), 4 CLC-Change layers for the corresponding periods (1990-2000, 2000-2006, 2006-2012, 2012-2018) and 4 CLC Accounting layers for 2000, 2006, 2012 and 2018. 
  More information can be found in Annex 5 of the [Product User manual](https://land.copernicus.eu/user-corner/technical-library/clc-product-user-manual). 
 AdditionalInfoExternal:
-    Title: Additional info 
+    Title: Additional info
     Path: corine-land-cover-accounting-layers/README.MD
 EDCBrowser: https://browser.eurodatacube.com/?zoom=9&lat=42.28036&lng=12.28821&collectionId=corine-land-cover-accounting-layers&layerId=Corine%20Land%20Cover%20Accounting%20Layer&type=sentinel-hub-edc&fromTime=2018-01-01T00%3A00%3A00.000Z&toTime=2018-01-01T23%3A59%3A59.999Z
 EOBrowser: https://apps.sentinel-hub.com/eo-browser/?zoom=10&lat=41.9&lng=12.5&themeId=DEFAULT-THEME&visualizationUrl=https%3A%2F%2Fcreodias.sentinel-hub.com%2Fogc%2Fwms%2F390dc3a0-c9c9-4799-8c44-2ff1e055e5fc&datasetId=COPERNICUS_CLC_ACCOUNTING&fromTime=2018-01-01T00%3A00%3A00.000Z&toTime=2018-01-01T23%3A59%3A59.999Z&layerId=ACCOUNTING-LAYERS-VISUALIZATION
@@ -38,24 +38,12 @@ Tags:
   - derived data
   - open data
 License: EEA standard re-use policy ([read more](https://www.eea.europa.eu/legal/copyright)).
-LicenseType: proprietary 
+LicenseType: proprietary
 LicenseUrl: https://www.eea.europa.eu/legal/copyright
 Resources:
-  - Group: Sentinel Hub Resources
-    EndPoint: https://creodias.sentinel-hub.com
-    Name: Sentinel Hub
-    Role: processor
-    Type: byoc-4c5441a6-6040-4dc4-a392-c1317bbd1031
-    CollectionId: 4c5441a6-6040-4dc4-a392-c1317bbd1031
-    Primary: true
   - Group: xcube Resources
     DatasetName: CUSTOM
     CollectionId: 4c5441a6-6040-4dc4-a392-c1317bbd1031
-WMTS:
-  - href: https://creodias.sentinel-hub.com/ogc/wmts/0f674e0c-f211-4df8-ad9f-fa31997a1e7f
-    layer_id: CORINE-LAND-COVER-ACCOUNTING-LAYER
-    dimensions: 
-      warnings: true
 Configurations:
   - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
     rel: "about"
@@ -124,4 +112,4 @@ Summaries:
       name: dataMask
 Experimental: true
 RegistryEntryAdded: "2021-10-20"
-RegistryEntryLastModified: "2022-07-04"
+RegistryEntryLastModified: "2025-03-25"

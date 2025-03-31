@@ -13,13 +13,13 @@ AdditionalInfoExternal:
     Title: Additional info
     Path: global-land-cover/README.MD
 Image: global-land-cover/global-land-cover.png
-EDCBrowser: https://browser.eurodatacube.com/?zoom=10&lat=41.9&lng=12.5&collectionId=global-land-cover&layerId=Discrete%20Classification%20Map&type=sentinel-hub-edc&fromTime=2018-12-31T00%3A00%3A00.000Z&toTime=2019-12-31T00%3A00%3A00.000Z       
+EDCBrowser: https://browser.eurodatacube.com/?zoom=10&lat=41.9&lng=12.5&collectionId=global-land-cover&layerId=Discrete%20Classification%20Map&type=sentinel-hub-edc&fromTime=2018-12-31T00%3A00%3A00.000Z&toTime=2019-12-31T00%3A00%3A00.000Z
 EOBrowser: https://apps.sentinel-hub.com/eo-browser/?zoom=10&lat=41.9&lng=12.5&themeId=DEFAULT-THEME&visualizationUrl=https%3A%2F%2Fcreodias.sentinel-hub.com%2Fogc%2Fwms%2F968dcdec-a419-4894-bba2-0b21670b8a22&datasetId=COPERNICUS_GLOBAL_LAND_COVER&fromTime=2019-01-01T00%3A00%3A00.000Z&toTime=2019-01-01T23%3A59%3A59.999Z&layerId=DISCRETE-CLASSIFICATION-MAP
 Resolution: 100m
 GeographicalCoverage: Global coverage of land surface area with longitude from 180°W to 180°E and latitude from 78.25°N to 60°S.
 TemporalAvailability: 2015-01-01 - 2019-01-01
 UpdateFrequency: Annually
-BandInformation: 
+BandInformation:
   Table:
       Columns:
         - Name: Name
@@ -75,21 +75,9 @@ License: free and open access policy as defined in the European Union’s Copern
 LicenseType: proprietary
 LicenseUrl: https://land.copernicus.eu/global/about
 Resources:
-  - Group: Sentinel Hub Resources
-    EndPoint: https://creodias.sentinel-hub.com
-    Name: Sentinel Hub
-    Role: processor
-    Type: byoc-f0a97620-0e88-4c1f-a1ac-bb388fabdf2c
-    CollectionId: f0a97620-0e88-4c1f-a1ac-bb388fabdf2c
-    Primary: true
   - Group: xcube Resources
     DatasetName: CUSTOM
     CollectionId: f0a97620-0e88-4c1f-a1ac-bb388fabdf2c
-WMTS:
-  - href: https://creodias.sentinel-hub.com/ogc/wmts/0325f8d4-3e2c-421e-ad10-d0cb1b45d5b2
-    layer_id: DISCRETE-CLASSIFICATION-MAP
-    dimensions: 
-      warnings: true
 Configurations:
   - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
     rel: "about"
@@ -271,4 +259,4 @@ Summaries:
       name: dataMask
 Experimental: true
 RegistryEntryAdded: "2021-03-20"
-RegistryEntryLastModified: "2022-07-25"
+RegistryEntryLastModified: "2025-03-25"

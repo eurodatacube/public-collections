@@ -14,13 +14,13 @@ Description: |
   1 May and 30 September; thus the algorithm performs the aggregation only over this period.
 
 AdditionalInfoExternal:
-    Title: Additional info 
-    Path: hrsi-psa/README.MD 
-Image: hrsi-psa/hrsi-psa.png  
+    Title: Additional info
+    Path: hrsi-psa/README.MD
+Image: hrsi-psa/hrsi-psa.png
 EDCBrowser: https://browser.eurodatacube.com/?zoom=11&lat=46.54304&lng=7.95273&collectionId=PERSISTENT_SNOW_AREA&layerId=Persistent%20Snow%20Area&type=sentinel-hub-edc&fromTime=2021-05-09T00%3A00%3A00.000Z&toTime=2021-05-09T23%3A59%3A59.999Z
 EOBrowser: https://sentinelshare.page.link/tWUV
 Resolution: 20m
-GeographicalCoverage:  Europe (Lat; 34N 66N Lon; -26W 44E)
+GeographicalCoverage: Europe (Lat; 34N 66N Lon; -26W 44E)
 TemporalAvailability: May 2017 - ongoing
 UpdateFrequency: Annually (released in October after end of the hydrological year)
 BandInformation:
@@ -29,15 +29,15 @@ BandInformation:
           - Name: Name
             Title: Name
           - Name: Description
-            Title: Description  
+            Title: Description
           - Name: Unit
             Title: Unit
           - Name: Sentinel Hub Units
             Title: Sentinel Hub Units
           - Name: Data Values
-            Title: Data Values 
+            Title: Data Values
           - Name: No data
-            Title: No data            
+            Title: No data
         Rows:
           - Name: PSA
             Description: Persistent snow area
@@ -50,27 +50,20 @@ BandInformation:
             Unit: Dimensionless
             Sentinel Hub Units: DN
             Data Values: High quality - 0, Medium quality, - 1, Low quality - 2, Minimal quality - 3
-            No data: 255 
+            No data: 255
 Contact: "[Copernicus Land Monitoring Service Contact](https://land.copernicus.eu/contact)"
 Provider: "[European Environment Agency](https://www.eea.europa.eu/)"
 ManagedBy: "[Sentinel Hub](https://www.sentinel-hub.com/)"
 Tags:
   - CLMS
   - derived data
-  - open data  
+  - open data
   - snow
   - hrsi
 License: Freely and openly accessible according to the Copernicus data and information policy. ([Read more](https://land.copernicus.eu/en/faq#data_use_terms_and_conditions)).
 LicenseType: proprietary
 LicenseUrl: https://land.copernicus.eu/en/faq#data_use_terms_and_conditions
 Resources:
-  - Group: Sentinel Hub Resources
-    EndPoint: https://creodias.sentinel-hub.com
-    Name: Sentinel Hub
-    Role: processor
-    Type: byoc-da7e0012-8c43-42db-a5dc-cfd606c8b2dd
-    CollectionId: da7e0012-8c43-42db-a5dc-cfd606c8b2dd
-    Primary: true
   - Group: xcube Resources
     DatasetName: CUSTOM
     CollectionId: da7e0012-8c43-42db-a5dc-cfd606c8b2dd
@@ -132,4 +125,4 @@ CubeDimensions:
       - QC
 Experimental: true
 RegistryEntryAdded: "2023-08-02"
-RegistryEntryLastModified: "2023-08-17"
+RegistryEntryLastModified: "2025-03-25"
