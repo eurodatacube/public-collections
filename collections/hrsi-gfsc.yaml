@@ -94,29 +94,6 @@ Extent:
     interval:
       - - "2016-09-01T00:00:00Z"
         - null
-CubeDimensions:
-  x:
-    type: spatial
-    axis: x
-    extent:
-      - -26
-      - 44
-  y:
-    type: spatial
-    axis: y
-    extent:
-      - 34
-      - 66
-  t:
-    type: temporal
-    extent:
-      - "2016-09-01T00:00:00Z"
-      - null
-  bands:
-    type: bands
-    values:
-      - GF
-      - QC
 Experimental: true
 RegistryEntryAdded: "2023-08-02"
 RegistryEntryLastModified: "2025-03-25"
