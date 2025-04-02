@@ -11,8 +11,6 @@ Description: |
  Level 1B data provides calibrated, ortho-geolocated and spatially re-sampled Top Of Atmosphere (TOA) radiances for the 21 OLCI spectral bands.
 Documentation: "[here](https://docs.sentinel-hub.com/api/latest/data/sentinel-3-olci-l1b/)"
 Image: sentinel-3-l1b-olci/sentinel-3-l1b-olci.png
-EDCBrowser: https://browser.eurodatacube.com/?zoom=10&lat=41.9&lng=12.5&collectionId=sentinel-3-l1b-olci&layerId=True%20color%20-%20enhanced&type=sentinel-hub-edc&fromTime=2019-03-31T16%3A40%3A54.766Z&toTime=2020-08-01T16%3A40%3A54.766Z
-EOBrowser: https://apps.sentinel-hub.com/eo-browser/?zoom=10&lat=41.9&lng=12.5&themeId=DEFAULT-THEME&visualizationUrl=https%3A%2F%2Fservices.sentinel-hub.com%2Fogc%2Fwms%2F82f84fab-9b1c-4322-beeb-207b0f05afef&datasetId=S3OLCI&fromTime=2021-04-01T00%3A00%3A00.000Z&toTime=2021-04-01T23%3A59%3A59.999Z&layerId=1_TRUE_COLOR
 Resolution: 300m
 GeographicalCoverage: Ocean and Land ([more info](https://sentinel.esa.int/web/sentinel/user-guides/sentinel-3-olci/coverage))
 TemporalAvailability: April 2016 - ongoing

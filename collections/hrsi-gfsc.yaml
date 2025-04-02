@@ -13,8 +13,6 @@ AdditionalInfoExternal:
     Title: Additional info
     Path: hrsi-gfsc/README.MD
 Image: hrsi-gfsc/hrsi-gfsc.png
-EDCBrowser: https://browser.eurodatacube.com/?zoom=11&lat=46.56429&lng=8.2782&collectionId=DAILY_CUMULATIVE_GAP_FILLED_FRACTIONAL_SNOW_COVER&layerId=Gap%20Filled%20Fractional%20Snow%20Cover&type=sentinel-hub-edc&fromTime=2023-04-09T00%3A00%3A00.000Z&toTime=2023-04-09T23%3A59%3A59.999Z
-EOBrowser: https://sentinelshare.page.link/gY5U
 Resolution: 60m
 GeographicalCoverage: Europe (Lat; 34N 66N Lon; -26W 44E)
 TemporalAvailability: September 2016 - ongoing
