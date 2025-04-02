@@ -10,8 +10,6 @@ Description: |
 AdditionalInfoExternal:
     Title: Additional info
     Path: vegetation-indices/README.MD
-EDCBrowser: https://browser.eurodatacube.com/?zoom=10&lat=41.9&lng=12.5&collectionId=vegetation-indices&layerId=FAPAR&type=sentinel-hub-edc&fromTime=2020-08-03T00%3A00%3A00.000Z&toTime=2020-08-03T23%3A59%3A59.999Z
-EOBrowser: https://apps.sentinel-hub.com/eo-browser/?zoom=10&lat=41.9&lng=12.5&themeId=DEFAULT-THEME&visualizationUrl=https://creodias.sentinel-hub.com/ogc/wms/6cb658da-86d0-4cad-8245-d772c350482a&datasetId=COPERNICUS_HR_VPP_VEGETATION_INDICES&fromTime=2020-08-03T00:00:00.000Z&toTime=2020-08-03T23:59:59.999Z&layerId=FAPAR-VISUALIZATION
 Image: vegetation-indices/thumbnail.png
 Resolution: 10m
 GeographicalCoverage: Europe (Lat; 26N 72N Lon; -25W 45E)
