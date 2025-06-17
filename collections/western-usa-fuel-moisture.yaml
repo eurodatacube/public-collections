@@ -5,7 +5,6 @@ AdditionalInfoExternal:
   Title: Additional info
   Path: western-usa-fuel-moisture/README.MD
 Image: "western-usa-fuel-moisture/thumbnail.png"
-EDCBrowser: ""
 Resolution: 10m
 GeographicalCoverage: "(-123.53°, 28.30°, -93.73°, 48.50°)"
 TemporalAvailability: "30 June 2015 - 31 January 2019"
