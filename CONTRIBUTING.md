@@ -22,7 +22,6 @@ AdditionalInfoExternal:
     Title:
     Path:
 Image:
-EDCBrowser:
 EOBrowser:
 Flickr:
 Explore:
@@ -189,7 +188,6 @@ Below is a description for each metadata field.
 |**AdditionalInfoExternal >> Title**|MD | Additional info. |
 |**AdditionalInfoExternal >> Path**|Path | Path to README.MD with additional info on the github repo.|
 |**Image**| Path | Path to thumbnail image representing the collection that is to be displayed on the homepage. Automatically sized to 200 pixels width for display. |
-| **EDC Browser** | String | Link to the collection displayed in the EDC Browser.|
 |**EOBrowser**|String | Link to the collection displayed in EO Browser. |
 |**Flickr**|String | Link to Flickr album if collection is not available on EO Browser. |
 |**Explore**|MD| Link to where the collection can be explored, e.g. Jupyter Notebook or graphical viewer. |

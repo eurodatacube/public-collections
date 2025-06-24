@@ -6,7 +6,6 @@ AdditionalInfoExternal:
   Title: Additional info
   Path: microsoft-floods-s1/README.MD
 Image: microsoft-floods-s1/thumbnail.png
-EDCBrowser: ""
 Resolution: 10m
 GeographicalCoverage: "(-96.63°, -25.25°, 141.12°, 48.75°)"
 TemporalAvailability: "12 August 2016 - 20 October 2020"

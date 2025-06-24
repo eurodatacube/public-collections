@@ -5,7 +5,6 @@ AdditionalInfoExternal:
   Title: Additional info
   Path: phytoplankton-primary-production/README.MD
 Image: phytoplankton-primary-production/npp.png
-EDCBrowser: ""
 Resolution: gridded 9 Km spatial resolution
 GeographicalCoverage: -180.0, -90.0, 180.0, 90.0
 TemporalAvailability: 1998 - 2020
