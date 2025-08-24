@@ -1,0 +1,82 @@
+Name: Jaxa_lakes_ALOS2_HH
+OpenEOPID: JAXA_LAKES_ALOS2_HH
+Description: |
+  This ALOS-2 product contains SAR data (polarization HH) over the Tonlé Sap Lake. The selected AOI presents data between 2016 and 2022.
+AdditionalInfoExternal:
+  Title: Additional info
+  Path: Jaxa_lakes_ALOS2_HH/README.md
+Image: Jaxa_lakes_ALOS2_HH/Jaxa_lakes_ALOS2_HH.png
+EDCBrowser: ""
+Resolution: pixel size 25x25m
+GeographicalCoverage: 102.058158023, 11.433163364, 105.910243251, 15.055701378
+TemporalAvailability: 2016-11-23 - 2022-12-14
+BandInformation: HH
+Contact: "[JAXA](mailto:sobue.shinichi@jaxa.jp)"
+Provider: "[JAXA](https://global.jaxa.jp/)"
+ManagedBy: "[JAXA](https://global.jaxa.jp/)"
+Tags:
+   - open data
+   - sentinel hub
+   - raster
+   - SAR
+   - dashboard hackathon
+   - JAXA
+License:
+  See [additional info](https://collections.eurodatacube.com/Jaxa_lakes_ALOS2_HH/readme.html)
+Resources:
+ - Group: Sentinel Hub Resources
+ - EndPoint: https://services.sentinel-hub.com
+   Name: Sentinel Hub
+   Role: processor
+   Type: byoc-aa8a9899-9df9-4ea0-b983-34360d583e17
+   CollectionId: aa8a9899-9df9-4ea0-b983-34360d583e17
+   Primary: True
+Configurations:
+  - href: "https://docs.sentinel-hub.com/api/latest/api/process/"
+    rel: "about"
+    type: "text/html"
+    title: "Details about running Evalscripts"
+  - href: "https://raw.githubusercontent.com/eurodatacube/public-collections/main/collections/Jaxa_lakes_ALOS2_HH/script.js"
+    rel: "processing-expression"
+    type: "application/javascript"
+    title: "Evalscript to generate ALOS 2 maps over lakes"
+    sentinelhub:layer_name: "Jaxa_lakes_ALOS2_HH"
+    sentinelhub:mosaicking_order: "mostRecent"
+    sentinelhub:upsampling: "BICUBIC"
+Extent:
+  spatial:
+    bbox:
+      -
+        - 102.058158023
+        - 11.433163364
+        - 105.910243251
+        - 15.055701378
+  temporal:
+    interval:
+      -
+        - '2016-11-23T00:00:00Z'
+        - '2022-12-14T00:00:00Z'
+CubeDimensions:
+  x:
+    type: spatial
+    axis: x
+    extent:
+      - 102.058158023
+      - 105.910243251
+  y:
+    type: spatial
+    axis: y
+    extent:
+      - 11.433163364
+      - 15.055701378
+  t:
+    type: temporal
+    extent:
+      - '2016-11-23T00:00:00Z'
+      - '2022-12-14T00:00:00Z'
+  bands:
+    type: bands
+    values:
+      - HH
+RegistryEntryAdded: "2023-07-13"
+RegistryEntryLastModified: "2023-07-13"
