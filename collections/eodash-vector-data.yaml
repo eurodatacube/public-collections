@@ -1,0 +1,61 @@
+Name: GeoDB Collections
+Description: |
+  There a number of collections stored in the GeoDB, predominantly datasets in vector format with the data corresponding to point locations around the world. 
+  There are data provided from NASA, ESA and JAXA within the database, which have different base API's. Therefore be aware when using the trilateral datasets (tri).
+  Below we list the datasets available: 
+  
+  | Name                                                    | Collection Code        | Available Locations |
+  | ------------------------------------------------------- | ---------------------- | ------------ |
+  | Import/production sites: status of metallic ores        |   E1                   | Port of Genoa, Gdynia, Gdansk, Gijon, Genova, Hamburg, Dunkirk, Dunkirque, Ghent |
+  | Productive area                                         |  E10a1_tri             | Brandenburg        |
+  | Activity Indicator                                      |  E10a2_tri             | Brandenburg        |
+  | Productive area change                                  |  E10a3_tri             | Brandenburg        |
+  | Number of berry trucks in 2018-2019                     |   E10a5                | Laguna de las Madres        |
+  | Regional Harvesting Evolution                           |   E10a6                | Regions of Spain        |
+  | Harvesting activity: cumulative harvested area          |   E10a8                | Regions of Spain        |
+  | National Harvesting Evolution                           |   E10a10               | Europe        | 
+  | Commercial centres: volume of activity                  |   E11                  | Warsaw, Brussels, Athens, Milan, Rome, Bucharest       |
+  | Border crossing points: volume of activity              |   E12b                 | GB Border        |
+  | Airports: throughput                                    | E13b, E13b_tri         | European Airports      |
+  | Airports: airplane traffic                              | E13d                   | European Airports        |
+  | Ports and Shipping - Major Harbours                     | E13c_tri               | Hamburg, Ghent, Gdynia, Dunkirk, Genoa, Suez
+  | Maritime Traffic                                        | E13e,f,g,h,i,l,m,n     | Gioia Tauro, Genoa        |
+  | Changes in commertial fluxes                            |   E13n                 | Gijon        |
+  | Ports and Shipping - Major Harbours                     |   E200                 | Hamburg, Ghent, Gdynia, Dunkirk, Genoa, Suez   |
+  | Finished goods production: output inventory level       |   E8                   | Swindon, Cassino, Ghent, Mioveni, Russelsheim, Leipzig, Craiova, Nosovice, Martorell, Barcelona, Emden, Ingolstadt, Kvasiny        |
+  | Activity (cars/containers)                              |   E9_tri               | Beijing, Singapore, Palm Springs, Los Angeles, Arcadia, Nagoya        |
+  | Air Quality (tropomi NO2)                               |   N1, N1_tri           | European Cities & Major World Cities        |
+  | CAMS Air Quality (PM 2.5)                               |   N1a                  | European Cities        |
+  | CAMS Air Quality (NO2)                                  |   N1b                  | European Cities        |
+  | CAMS Air Quality (PM10)                                 |   N1c                  | European Cities        |
+  | CAMS Air Quality (O3)                                   |   N1d                  | European Cities        |
+  | Greenhouse Gas                                          |   N2_tri               | Major World Cities        |
+  | Water Quality Time Series                               |   N3, N3b_tri          | Barcelona, Marseilles, Venice Lagoon & Major World Ports       |
+Data Access:
+To access the data you must query the database with the Collection Code, an example notebook is availabe in the EuroDataCube.
+
+You can also explore the data in the [EO Dashboard](https://eodashboard.org/)
+
+Documentation: 
+"[General Overview](https://eurodatacube.com/marketplace/services/edc_geodb)"
+
+The JSON files describing each of the indicators in also "[available](https://github.com/eurodatacube/eodash/tree/master/app/public/data/internal)"
+
+Image: geodb/geodb.jpg 
+
+GeographicalCoverage: Locations Worldwide
+
+ManagedBy: "[EuroDataCube](https://www.eurodatacube.com/)"
+Tags:
+  - geodb
+  - xcube
+  - vector
+  - maritime monitoring
+  - disaster response
+  - covid19
+  - atmospheric monitoring
+License: |
+  [License](https://github.com/eurodatacube/eodash/blob/staging/LICENSE)
+  
+RegistryEntryAdded: "2022-05-19"
+RegistryEntryLastModified: "2022-05-19"
